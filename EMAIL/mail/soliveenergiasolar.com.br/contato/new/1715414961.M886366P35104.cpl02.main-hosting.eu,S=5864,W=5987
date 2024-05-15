@@ -1,0 +1,123 @@
+Return-Path: <0100018f66b306bc-4147050f-39f1-406f-a90d-f04d9a29b9e1-000000@amazonses.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id AO1WNLEnP2YgiQAAIElduQ
+	(envelope-from <0100018f66b306bc-4147050f-39f1-406f-a90d-f04d9a29b9e1-000000@amazonses.com>)
+	for <contato@soliveenergiasolar.com.br>; Sat, 11 May 2024 08:09:21 +0000
+Return-path: <0100018f66b306bc-4147050f-39f1-406f-a90d-f04d9a29b9e1-000000@amazonses.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Sat, 11 May 2024 08:09:21 +0000
+Received: from a9-116.smtp-out.amazonses.com ([54.240.9.116]:39185)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.96.2)
+	(envelope-from <0100018f66b306bc-4147050f-39f1-406f-a90d-f04d9a29b9e1-000000@amazonses.com>)
+	id 1s5hnF-0000T0-0V
+	for contato@soliveenergiasolar.com.br;
+	Sat, 11 May 2024 08:09:21 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7thv2cqgea34nngrs26wfz4z4kuynn5j; d=acessorias.com; t=1715414959;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=I1jmL4Q2PAiQpxv8w9CrMn9OcqHjf+EyukVx58DsBok=;
+	b=0kt7YLmRN+XGiE/zjYwTZ/zrWDEvmb29B9ewxWMUPrpOtQWwTRaCsZm2j6nDV9Mv
+	arG0lwT5p+zeHMZA5KR8TnIALmDN7lK9t5k4ir/mwjnAYG0klHmevFvSjDJCEn6cxW3
+	qSJAYw1qV72nAJMerUaERjDRUkGSYSOCCgIKoboY=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1715414959;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=I1jmL4Q2PAiQpxv8w9CrMn9OcqHjf+EyukVx58DsBok=;
+	b=cHg7F241P4a7k62yZQZes6lRNAzWyS3DpnaUfNuV2xFdPZhlUA+ZW7DQH7VGVcTU
+	wzQdKPJw+hSCVJfzl5tB/MW5i6lGtGiaO/ZWYO54OeW5GXEjaITuXEYSoU+RrRiWL0p
+	OdXaQ3Sgs9UVhghC0OnwNxXXUCxr+4pRv5SPw5WY=
+From: =?UTF-8?B?TWlsZW5hIHwgQ29udGFzc2UgQ29udGFiaWxpZGFkZSA=?= <noreply@acessorias.com>
+Reply-To: 
+	=?UTF-8?B?TWlsZW5hIHwgQ29udGFzc2UgQ29udGFiaWxpZGFkZSA=?= <milena@contassecontabilidade.com.br>
+To: 
+	=?UTF-8?B?Um9kcmlnbyBBbG1laWRhIERlIE9saXZlaXJhIA==?= <contato@soliveenergiasolar.com.br>
+Subject: Documentos do dpto Fiscal
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_24012_1723388301.1715414959804"
+Message-ID: <0100018f66b306bc-4147050f-39f1-406f-a90d-f04d9a29b9e1-000000@email.amazonses.com>
+Date: Sat, 11 May 2024 08:09:19 +0000
+Feedback-ID: 1.us-east-1.LL8cSMoUtBgq6y2nZry0xopgFtPTwsHFx2dJo2aEaAM=:AmazonSES
+X-SES-Outgoing: 2024.05.11-54.240.9.116
+X-Spam-Status: No, score=3.8
+X-Spam-Score: 38
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá Rodrigo! Existem documentos disponibilizados pelo escritório
+    Contasse Contabilidade. Olá Rodrigo, tudo bem? Segue abaixo lista de documentos
+    da empresa SOLIVE ENERGIA SOLAR LTDA do departamento Fiscal: 
+ Content analysis details:   (3.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: acessorias.com]
+  4.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 FROM_EXCESS_BASE64     From: base64 encoded unnecessarily
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+------=_Part_24012_1723388301.1715414959804
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1 Rodrigo! Existem documentos disponibilizados pelo escrit=C3=B3rio =
+Contasse Contabilidade.
+------=_Part_24012_1723388301.1715414959804
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8"></head>
+<body>
+<p>
+    <font size=3D"3">Ol=C3=A1=C2=A0<b>Rodrigo</b>,=C2=A0tudo bem?</font>
+</p>
+<p>
+    <font size=3D"3">Segue abaixo=C2=A0lista de=C2=A0<b>documentos</b>=C2=
+=A0da empresa=C2=A0<b>SOLIVE ENERGIA SOLAR LTDA</b> do departamento=C2=A0<s=
+trong>Fiscal:</strong></font>
+</p>
+<ul><ul>
+    <li>
+<b>15/05/2024</b>
+        <font size=3D"3"><a href=3D"https://app.acessorias.com/getguia.php?=
+ko=3De3F731k1x3676306n165c9x5J&amp;ka=3D75f066i8S2190814502&amp;kc=3DE61640=
+33w3f03&amp;kv=3DL14531U8H95639X0F3S03428I02" target=3D"anexoDoc" style=3D"=
+text-decoration: none;">ISS EMP NORMAL =C2=ABClique aqui para acessar=C2=BB=
+</a></font><br>
+        <font color=3D"#16a765" size=3D"2"></font>
+    </li>
+</ul></ul>
+<p>
+    <font size=3D"3">Qualquer d=C3=BAvida por favor entre em contato.<br><b=
+r>
+        </font></p>
+<p><font size=3D"3">Att.<strong style=3D"">=C2=A0<br>Milena Soares</strong>=
+</font>
+</p>
+</body>
+</html>
+
+------=_Part_24012_1723388301.1715414959804--

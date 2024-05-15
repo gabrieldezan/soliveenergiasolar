@@ -1,0 +1,215 @@
+Return-Path: <luiz@comercialunid.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id EELsDGSXO2ZLagAAIElduQ
+	(envelope-from <luiz@comercialunid.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 08 May 2024 15:16:52 +0000
+Return-path: <luiz@comercialunid.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 08 May 2024 15:16:52 +0000
+Received: from mail-yb1-f176.google.com ([209.85.219.176]:59795)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <luiz@comercialunid.com.br>)
+	id 1s4j2I-000AIS-2t
+	for contato@soliveenergiasolar.com.br;
+	Wed, 08 May 2024 15:16:52 +0000
+Received: by mail-yb1-f176.google.com with SMTP id 3f1490d57ef6-ddda842c399so4561334276.3
+        for <contato@soliveenergiasolar.com.br>; Wed, 08 May 2024 08:16:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=comercialunid-com-br.20230601.gappssmtp.com; s=20230601; t=1715181409; x=1715786209; darn=soliveenergiasolar.com.br;
+        h=to:subject:message-id:date:list-unsubscribe-post:list-unsubscribe
+         :references:from:mime-version:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=i1D/biXgyQL58lBGQkHxdYImR4w2Z6b/1U2YiU09Eu0=;
+        b=dol1rbe5/YsLU7x5v/O6KaBotvcUMMRuYRiZZ08bOXVPcAYU4gC8fJPCFnMOlEvHFo
+         iB91ojJfArn4DKLvR3k1jGLKKZxZsLDxuFlVagbtUbg752HXes/c8ZooyFxrk2tep2uE
+         gRIBruzCz/PwCoYXA6ZPrws+5dbKGCUor+75D8PiDXauzfhL6obURTceb6kkMRBGIzq4
+         cSQE66VtlLPI9t3YGlwPHpMSz4eJ0kb2IbXyYuuz3xRqvAJq+tQ7gjwfD76VkAdW2/PS
+         aWf0STqTqLhvoNAGanyRe9KsDWN5FSQkyTIss7tTuKJCOpqz+SxU80EqQUtSnogozlEq
+         5E0g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1715181409; x=1715786209;
+        h=to:subject:message-id:date:list-unsubscribe-post:list-unsubscribe
+         :references:from:mime-version:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=i1D/biXgyQL58lBGQkHxdYImR4w2Z6b/1U2YiU09Eu0=;
+        b=IpCP8ujMULFbyw88lFwCloDxeszjJ5XBwsrhhFq60XOIlShXSFjuNBG1wZ7QOJx2ug
+         7SjkY0QN4hgimpr9XwmPYCYOtVMEqK+7i9C7kquEfquZpwJgVaH61v4VpX3ng/U8Rueo
+         /NCVFg417cUZNQ6GNC4dhBHFyHLET8OeiihBgW6EwbiLjoxKvr142dJKKXjRcTG9l9JY
+         b6wjhDwSRV8c0tVjt8iGssYWWTRhhLH9SY8/kWYiqlS36sVXCnEoKk4GJ4+UIjkGmNca
+         WIeKUU1p+lxuPjARogNsvC1Qn6/feHcIlRIC49PNcTvWRR0hrdBuhMfYDqEH2emeGxse
+         zgwA==
+X-Gm-Message-State: AOJu0YxmGCKv1PT48gUdnJ6tYF6d3h1tHgKJSpJrGxEQ9prcwyEtkSSl
+	6CLOj4svZzsvlnXWeJtOSBewX6seJ60sT7zLaaWyFftQj901fugPJgxtCa6H/e5E5jbQ9bnnMQI
+	B3bwI9362xdD/5c/ot4lw63TJQzwo3uNTxXj6MNIEoPkfasNFWN8=
+X-Google-Smtp-Source: AGHT+IFTqP/Gct9NVIalUoqY6qHUOV4q9t0WJ4hSpLaVAsaFdAZjXBxjB8Ju1b9ZBs7BceFqTS/QQdtQAFG2NEq2QYQ=
+X-Received: by 2002:a05:6902:602:b0:de4:6334:5534 with SMTP id
+ 3f1490d57ef6-debb9df134bmr3180687276.63.1715181408691; Wed, 08 May 2024
+ 08:16:48 -0700 (PDT)
+Received: from 576368256655 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 8 May 2024 10:16:48 -0500
+MIME-Version: 1.0
+From: Luiz Bidim <luiz@comercialunid.com.br>
+References: <CANLuEADsK7zk5b=jPLKjOpnOL9afUYrb+A2w21nFzNj-rFZq7w@mail.gmail.com>
+List-Unsubscribe: <http://track.unidcom.com.br/track/unsubscribe/v2-392482741>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Wed, 8 May 2024 10:16:48 -0500
+Message-ID: <CANLuEABPGzpZY_hKGNDzs8e28-2OQTkbigqwU1XT9=c_sOFxVw@mail.gmail.com>
+Subject: =?UTF-8?Q?Eu_quero_fazer_voc=C3=AA_vender_igual_meus_clientes_=28exe?=
+	=?UTF-8?Q?mplos_verdadeiros_de_sucesso=29?=
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="000000000000973a390617f2ca56"
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Oi, tudo bem? Há alguns dias estou tentando conversar com
+    você, porém não obtive resposta. Não sei ao certo se recebeu minhas mensagens
+    ou se não está com tempo para responder. Vou resumir para você nosso propósito:
+    atuamos com captação de clientes através de anúncios, com o objetivo
+   de fomentar novos negócios, atendemos mais de 20 empresas do ramo de energia
+    solar co [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: unidcom.com.br]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant
+                             for tracking
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000973a390617f2ca56
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Oi, tudo bem?
+
+
+H=C3=A1 alguns dias estou tentando conversar com voc=C3=AA, por=C3=A9m n=C3=
+=A3o obtive
+resposta. N=C3=A3o sei ao certo se recebeu minhas mensagens ou se n=C3=A3o =
+est=C3=A1 com
+tempo para responder.
+
+
+Vou resumir para voc=C3=AA nosso prop=C3=B3sito: atuamos com capta=C3=A7=C3=
+=A3o de clientes
+atrav=C3=A9s de an=C3=BAncios, com o objetivo de fomentar novos neg=C3=B3ci=
+os, atendemos
+mais de 20 empresas do ramo de energia solar com nossa metodologia
+consolidada.
+
+
+Se esse assunto for tratado com outra pessoa, pode me indicar com quem eu
+converso?
+
+
+
+Luiz Mauricio da Unid - Business Development
+Av. Duque de Caxias, 882 Torre 1, Sala 109 - Zona 7, Maring=C3=A1 - PR, 870=
+20-025
+unidcom.com.br
+
+
+Caso n=C3=A3o tenha interesse em receber mais informa=C3=A7=C3=B5es, clique=
+ aqui
+<http://track.unidcom.com.br/track/unsubscribe/v2-392482741>.
+
+--000000000000973a390617f2ca56
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html><head><meta charset=3D"UTF-8"><title></title></head><body><p style=3D=
+"line-height:1.38;margin-top:0pt;margin-bottom:0pt" dir=3D"ltr"><span style=
+=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-co=
+lor:transparent;font-weight:400;font-style:normal;font-variant:normal;text-=
+decoration:none;vertical-align:baseline;white-space:pre-wrap">Oi, tudo bem?=
+</span></p><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt" d=
+ir=3D"ltr"><span style=3D"font-size:11pt;font-family:Arial,sans-serif;color=
+:#000000;background-color:transparent;font-weight:400;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap"><br>H=C3=A1 alguns dias estou tentando conversar com voc=C3=AA, po=
+r=C3=A9m n=C3=A3o obtive resposta. N=C3=A3o sei ao certo se recebeu minhas =
+mensagens ou se n=C3=A3o est=C3=A1 com tempo para responder.</span></p><p s=
+tyle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt" dir=3D"ltr"><spa=
+n style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;backgr=
+ound-color:transparent;font-weight:400;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"><br>Vo=
+u resumir para voc=C3=AA nosso prop=C3=B3sito: atuamos com capta=C3=A7=C3=
+=A3o de clientes atrav=C3=A9s de an=C3=BAncios, com o objetivo de fomentar =
+novos neg=C3=B3cios, atendemos mais de 20 empresas do ramo de energia solar=
+ com nossa metodologia consolidada.</span></p><p style=3D"line-height:1.38;=
+margin-top:0pt;margin-bottom:0pt" dir=3D"ltr"><span style=3D"font-size:11pt=
+;font-family:Arial,sans-serif;color:#000000;background-color:transparent;fo=
+nt-weight:400;font-style:normal;font-variant:normal;text-decoration:none;ve=
+rtical-align:baseline;white-space:pre-wrap"><br>Se esse assunto for tratado=
+ com outra pessoa, pode me indicar com quem eu converso?</span></p><p style=
+=3D"border:0px solid #e3e3e3;box-sizing:border-box;margin:0px 0px 1.25em;co=
+lor:#0d0d0d;font-family:S=C3=B6hne,ui-sans-serif,system-ui,-apple-system,&#=
+39;Segoe UI&#39;,Roboto,Ubuntu,Cantarell,&#39;Noto Sans&#39;,sans-serif,&#3=
+9;Helvetica Neue&#39;,Arial,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji=
+&#39;,&#39;Segoe UI Symbol&#39;,&#39;Noto Color Emoji&#39;;font-size:16px;f=
+ont-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;fon=
+t-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-tr=
+ansform:none;word-spacing:0px;white-space:pre-wrap;background-color:#ffffff=
+;text-decoration-style:initial;text-decoration-color:initial">=C2=A0</p><di=
+v class=3D"signature"><p><span style=3D"font-size:11pt;font-family:Inter,sa=
+ns-serif;color:#000000;background-color:transparent;font-weight:bold;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap">Luiz Mauricio da Unid - </span><span style=3D"font-=
+size:11pt;font-family:Inter,sans-serif;color:#000000;background-color:trans=
+parent;font-weight:400;font-style:normal;font-variant:normal;text-decoratio=
+n:none;vertical-align:baseline;white-space:pre-wrap">Business Development</=
+span><br><span style=3D"font-size:11pt;font-family:Inter,sans-serif;color:#=
+000000;background-color:transparent;font-weight:400;font-style:normal;font-=
+variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre=
+-wrap">Av. Duque de Caxias, 882 Torre 1, Sala 109 - Zona 7, Maring=C3=A1 - =
+PR, 87020-025<br></span><a style=3D"text-decoration:none" href=3D"http://un=
+idcom.com.br"><span style=3D"font-size:11pt;font-family:Inter,sans-serif;co=
+lor:#1155cc;background-color:transparent;font-weight:400;font-style:normal;=
+font-variant:normal;text-decoration:underline;vertical-align:baseline;white=
+-space:pre-wrap">unidcom.com.br</span></a><br></p><p><br></p><p><span style=
+=3D"font-size:11pt;font-family:Inter,sans-serif;color:#1155cc;background-co=
+lor:transparent;font-weight:400;font-style:normal;font-variant:normal;text-=
+decoration:underline;vertical-align:baseline;white-space:pre-wrap"><span st=
+yle=3D"color:#212121;font-family:Arial,sans-serif;font-size:13px;font-style=
+:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:=
+400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:n=
+one;word-spacing:0px;white-space:normal;text-decoration-style:initial;text-=
+decoration-color:initial;display:inline!important;float:none">Caso n=C3=A3o=
+ tenha interesse em receber mais informa=C3=A7=C3=B5es, clique<span>=C2=A0<=
+/span></span><a style=3D"font-family:Arial,sans-serif;font-size:13px;font-s=
+tyle:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-wei=
+ght:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transfo=
+rm:none;word-spacing:0px;white-space:normal" href=3D"http://track.unidcom.c=
+om.br/track/unsubscribe/v2-392482741" target=3D"_blank" rel=3D"noopener">aq=
+ui</a><span style=3D"color:#212121;font-family:Arial,sans-serif;font-size:1=
+3px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norma=
+l;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;te=
+xt-transform:none;word-spacing:0px;white-space:normal;text-decoration-style=
+:initial;text-decoration-color:initial;display:inline!important;float:none"=
+>.</span></span></p></div><div class=3D"tracking"><img src=3D"http://track.=
+unidcom.com.br/track/open/v2-392482741" border=3D"0" width=3D"0" height=3D"=
+0" style=3D"border:0;width:0px;height:0px;" alt=3D""></div>
+</body></html>
+
+
+--000000000000973a390617f2ca56--

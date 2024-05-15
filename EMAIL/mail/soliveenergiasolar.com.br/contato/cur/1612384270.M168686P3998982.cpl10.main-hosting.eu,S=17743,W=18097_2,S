@@ -1,0 +1,354 @@
+Return-Path: <paula.morais@aldo.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl10.main-hosting.eu
+	by cpl10.main-hosting.eu with LMTP
+	id GBeBCQ4IG2AGBT0AZZrKTA
+	(envelope-from <paula.morais@aldo.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 03 Feb 2021 20:31:10 +0000
+Return-path: <paula.morais@aldo.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 03 Feb 2021 20:31:10 +0000
+Received: from mail-eopbgr820042.outbound.protection.outlook.com ([40.107.82.42]:18400 helo=NAM01-SN1-obe.outbound.protection.outlook.com)
+	by cpl10.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <paula.morais@aldo.com.br>)
+	id 1l7Ont-00GqGh-03
+	for contato@soliveenergiasolar.com.br; Wed, 03 Feb 2021 20:31:10 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=BFM2DLuwBTD5RU55/8Ar7JOUDNxCcuZELULIvtslpaOOa/2KO6jmbuA1SrMzF5lyn+xu+U48PzdvN8B4Jjj0XKuiNEECin3mKJV+lwt6gjrccuKJpWlk6fvZBjop1siwS4fwP1vGDJK8VqgJoDEQfn4LkcM2Y+o1fm/Zm+1HL0NWji2Y8Rrjq+Z/4/MKV10HqPZOyRItD+UgMo/Cb82aIGTGpa4jeVGy49eCw4gnnCHngi93c7qu1ipuAyaaUdG2g1Hv1oZjWanZdnJcXVaP2OTn/JqOnT+jpETYLwmfnrKIkRwOC1YyzBAFnvtffjsMFFIMtFRhFgVVUmqPg2u5Sw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=nSkEu8GvvWGzDcCWbFR1sq5wplUtx7Ymt4AFWYZTgoQ=;
+ b=fTN0UZplL4CBNtK2osiZIJsOyMVegTZt6VPaR0E6NNXPtuk1v75NQSynJ+KpCA1e4+wYUikJjH22nJ8CtYSdJ7iuKV57pdhmnE1goJnJ9qgki4+jL1fZy2DVmzz9QdmkU2P8ps8vxe88czj6E0lyNVwho4zVfF8vV5/mAFiKENVnFUTlMXJ2m3Rz44pPl8pADKoN0Vrt2SrW26tOuvwEguVBahGYGMfmo9zSPrgdfGlRNi9xDIXEgzsl8PHLgXU8m5Ueq9Q4Nadewnf47GeJbAEyln8CaC4LpowtrslN6hRiLoUqWkiVevqQfXI/2Gq6+6osy/I11UUD5Y/icGaQNQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=softfail (sender ip
+ is 200.195.181.132) smtp.rcpttodomain=soliveenergiasolar.com.br
+ smtp.mailfrom=aldo.com.br; dmarc=fail (p=quarantine sp=quarantine pct=1)
+ action=none header.from=aldo.com.br; dkim=none (message not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aldo.com.br;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=nSkEu8GvvWGzDcCWbFR1sq5wplUtx7Ymt4AFWYZTgoQ=;
+ b=E7D1o78Zwgn5k8WNYHDRMChzvG6Nnpdl90SGxOW5pMD7VGu5QklQUbPwkw5a1bXbhm+CUo3tVUweXe2jPWRqrPF+9AT0tswHMmBGZn27cLMt2FHFhuyZeufiOwLVg8bN280XQ0UyNcs8IUF4Ciw/LL0GrIPIys2zi6NpYoR1sYs=
+Received: from BL1PR13CA0101.namprd13.prod.outlook.com (2603:10b6:208:2b9::16)
+ by FR1PR80MB5911.lamprd80.prod.outlook.com (2603:10d6:201:5::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3805.17; Wed, 3 Feb
+ 2021 20:31:04 +0000
+Received: from BL2NAM02FT063.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:208:2b9:cafe::ee) by BL1PR13CA0101.outlook.office365.com
+ (2603:10b6:208:2b9::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3825.15 via Frontend
+ Transport; Wed, 3 Feb 2021 20:31:02 +0000
+X-MS-Exchange-Authentication-Results: spf=softfail (sender IP is
+ 200.195.181.132) smtp.mailfrom=aldo.com.br; soliveenergiasolar.com.br;
+ dkim=none (message not signed) header.d=none;soliveenergiasolar.com.br;
+ dmarc=fail action=none header.from=aldo.com.br;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ aldo.com.br discourages use of 200.195.181.132 as permitted sender)
+Received: from mail.aldo.com.br (200.195.181.132) by
+ BL2NAM02FT063.mail.protection.outlook.com (10.152.77.121) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3784.12 via Frontend Transport; Wed, 3 Feb 2021 20:31:02 +0000
+Received: from WIN-EXC004.aldo.com.br (192.168.0.81) by WIN-EXC003.aldo.com.br
+ (192.168.0.80) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.721.2; Wed, 3 Feb 2021
+ 17:28:05 -0300
+Received: from WIN-EXC004.aldo.com.br ([fe80::51a4:8056:600b:c830]) by
+ WIN-EXC004.aldo.com.br ([fe80::51a4:8056:600b:c830%10]) with mapi id
+ 15.02.0721.002; Wed, 3 Feb 2021 17:28:27 -0300
+From: Paula Paiva Morais <paula.morais@aldo.com.br>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject: contatos
+Thread-Topic: contatos
+Thread-Index: Adb6a5ERdKg1OwCaTgOjNY7tTw77+g==
+Date: Wed, 3 Feb 2021 20:28:27 +0000
+Message-ID: <d43a7963e40f4ad38537a38362a22ea4@aldo.com.br>
+Accept-Language: en-US
+Content-Language: pt-BR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.32.1.185]
+Content-Type: multipart/alternative;
+	boundary="_000_d43a7963e40f4ad38537a38362a22ea4aldocombr_"
+MIME-Version: 1.0
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 057574b0-ea47-4f77-629e-08d8c8829fac
+X-MS-TrafficTypeDiagnostic: FR1PR80MB5911:
+X-Microsoft-Antispam-PRVS:
+	<FR1PR80MB5911897792F3603D153E3DF9C1B49@FR1PR80MB5911.lamprd80.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:1051;
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	v7dNuLZ/zDcMIwJJ19WwmMaD/IhKK1kcNww65CfXqzqmxLqNbUuMc2tsono7L03QwTU3KTJ6Kq3qNz7nygDOhgW2+y1FOq9db4RULp6OIkxL4eoLKI9m3K7Zou0THM0BONGnIST7XrcCWos7fytIJmQrGnXOUVAloOKaqooYFF1cg0SRcUHZp4EySOfqSYIPbcRrZ9T+qRGMDjymeo6IyF7BXC3zpMmbh1Q3xiZp7gfyNzY7oxKhTQo1BN82q3I6jZ0u6slZBwIZ++RXBDjZVHv6QYcCKg7Wspy7ZhsVc/YF6hY3aI0Ne1LSzIvsoIkOeDX2BlUPDQ3vxA0o1cdh3o7QokHO7ny0Zxm3SzHfz+mYVuEYUKpx/rITsqgMbdiCPJ5szvsp/XRj1ikOy4JjZIApsEu97C8RyoMvytX/06zmAP1Z3WFZaA0xZyI48cfwb8WfMO2EZ1N2BX13+laM1n8Rj4USfDyhMpvuB/JERjgre/5dcwkEjaRKIuOkFSmejwdwZH0Nwk5yIsYVHvglGj0cm09Jif6FwEAj4y6zzQn6JO7CaAv51exoNcuQp1rloC6MqTnFEoNjqW/RdU02D13LtF1N87jLX4N242V6ScHVQPu48eiF6wXln8CilCqromrbm98qTJ9S2acm0OTBiy87IzsiPUImIpgLgQU+HxHBUxVhEYLZ/LLh+2to4OGulRoJgZdL5ZpGt1tZPpD/Q6rJLGZRp1mmWDDNtoUnxhBboNM3Datuo93Lsk8sSo9BAPdskxRoZZilrpscO7I+s7EcDyCt3xVnwIPOZBLX+0M=
+X-Forefront-Antispam-Report:
+	CIP:200.195.181.132;CTRY:BR;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.aldo.com.br;PTR:smtp.aldo.com.br;CAT:NONE;SFS:(39850400004)(136003)(376002)(346002)(396003)(46966006)(36840700001)(86362001)(36860700001)(36906005)(7116003)(7696005)(426003)(186003)(6916009)(47076005)(5660300002)(70586007)(82310400003)(336012)(2906002)(24736004)(8936002)(356005)(166002)(70206006)(83380400001)(2616005)(19627235002)(108616005)(82740400003)(26005)(3480700007)(316002)(36756003)(8676002)(7636003)(478600001)(166393002)(220243001);DIR:OUT;SFP:1101;
+X-OriginatorOrg: aldo.com.br
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Feb 2021 20:31:02.0334
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 057574b0-ea47-4f77-629e-08d8c8829fac
+X-MS-Exchange-CrossTenant-Id: 9233dc53-3e9e-4435-a0b2-8a6b93cbb49f
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=9233dc53-3e9e-4435-a0b2-8a6b93cbb49f;Ip=[200.195.181.132];Helo=[mail.aldo.com.br]
+X-MS-Exchange-CrossTenant-AuthSource:
+	BL2NAM02FT063.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: FR1PR80MB5911
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl10.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Segue meus contatos Atenciosamente Paula Paiva Morais [http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_03.jpg]
+    
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: linktr.ee]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--_000_d43a7963e40f4ad38537a38362a22ea4aldocombr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Segue meus contatos
+Atenciosamente
+
+Paula Paiva Morais
+
+[http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_03.jpg]
+
+[http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_02.jpg]<h=
+ttps://www.aldo.com.br/>
+
+Vendedor(a)
+
+Direto   +55 44 3261 2076
+
+PABX   +55 44 3261 2000
+
+[http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_07.jpg]
+
+[http://download.aldo.com.br/assinaturas/image004.jpg]paula.morais@aldo.com=
+.br
+
+[http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_09.jpg]<h=
+ttps://linktr.ee/AldoSolar>
+
+[http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_10.jpg]<h=
+ttps://g.page/aldosolar/review>
+
+
+
+--_000_d43a7963e40f4ad38537a38362a22ea4aldocombr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloDeEmail17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"PT-BR" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Segue meus contatos <o:p></o:p></p>
+<p class=3D"MsoNormal">Atenciosamente <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"479" style=3D"width:359.25pt">
+<tbody>
+<tr>
+<td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:15.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#205682;mso-fareast-language:PT-BR">Paula Pai=
+va Morais</span></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-fareast-language:PT-BR"><img width=3D"251" he=
+ight=3D"11" style=3D"width:2.6145in;height:.1145in" id=3D"_x0000_i1030" src=
+=3D"http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_03.jpg=
+" alt=3D"http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_0=
+3.jpg"></span><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span>=
+</p>
+</td>
+<td width=3D"153" rowspan=3D"7" valign=3D"bottom" style=3D"width:114.75pt;p=
+adding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><a href=3D"https://www.aldo.com.br/"><span style=3D"=
+color:blue;mso-fareast-language:PT-BR;text-decoration:none"><img border=3D"=
+0" width=3D"238" height=3D"153" style=3D"width:2.4791in;height:1.5937in" id=
+=3D"_x0000_i1029" src=3D"http://download.aldo.com.br/assinaturas/assinatura=
+-2020-aprovada_02.jpg" alt=3D"http://download.aldo.com.br/assinaturas/assin=
+atura-2020-aprovada_02.jpg"></span></a><span style=3D"mso-fareast-language:=
+PT-BR"><o:p></o:p></span></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.5pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">Vendedor(=
+a)</span></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">Direto&nbsp;=
+&nbsp;</span><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><b><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;=
+,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">&#43;55 44 3261 2076<=
+/span></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">PABX&nbsp;&n=
+bsp;</span><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><b><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;=
+,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">&#43;55 44 3261 2000<=
+/span></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR"><img bord=
+er=3D"0" width=3D"241" height=3D"8" style=3D"width:2.5104in;height:.0833in"=
+ id=3D"_x0000_i1028" src=3D"http://download.aldo.com.br/assinaturas/assinat=
+ura-2020-aprovada_07.jpg" alt=3D"http://download.aldo.com.br/assinaturas/as=
+sinatura-2020-aprovada_07.jpg"></span><span style=3D"mso-fareast-language:P=
+T-BR"><o:p></o:p></span></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-fareast-language:PT-BR"><img border=3D"0" wid=
+th=3D"17" height=3D"15" style=3D"width:.177in;height:.1562in" id=3D"_x0000_=
+i1027" src=3D"http://download.aldo.com.br/assinaturas/image004.jpg" alt=3D"=
+http://download.aldo.com.br/assinaturas/image004.jpg"></span><b><i><span st=
+yle=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#8A8=
+A8B;mso-fareast-language:PT-BR">paula.morais@aldo.com.br</span></i></b><b><=
+i><span style=3D"mso-fareast-language:PT-BR">
+</span></i></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span=
+></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><a href=3D"https://linktr.ee/AldoSolar"><span style=
+=3D"color:blue;mso-fareast-language:PT-BR;text-decoration:none"><img border=
+=3D"0" width=3D"241" height=3D"43" style=3D"width:2.5104in;height:.4479in" =
+id=3D"_x0000_i1026" src=3D"http://download.aldo.com.br/assinaturas/assinatu=
+ra-2020-aprovada_09.jpg" alt=3D"http://download.aldo.com.br/assinaturas/ass=
+inatura-2020-aprovada_09.jpg"></span></a><span style=3D"mso-fareast-languag=
+e:PT-BR"><o:p></o:p></span></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><a href=3D"https://g.page/aldosolar/review"><span st=
+yle=3D"color:blue;mso-fareast-language:PT-BR;text-decoration:none"><img bor=
+der=3D"0" width=3D"467" height=3D"56" style=3D"width:4.8645in;height:.5833i=
+n" id=3D"_x0000_i1025" src=3D"http://download.aldo.com.br/assinaturas/assin=
+atura-2020-aprovada_10.jpg" alt=3D"http://download.aldo.com.br/assinaturas/=
+assinatura-2020-aprovada_10.jpg"></span></a><span style=3D"mso-fareast-lang=
+uage:PT-BR"><o:p></o:p></span></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_d43a7963e40f4ad38537a38362a22ea4aldocombr_--

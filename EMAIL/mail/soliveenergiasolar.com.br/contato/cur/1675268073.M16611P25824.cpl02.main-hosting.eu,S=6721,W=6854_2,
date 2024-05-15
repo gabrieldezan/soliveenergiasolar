@@ -1,0 +1,133 @@
+Return-Path: <010301860dc21a41-4180aaf1-db84-48a4-91eb-b671e17bb0c0-000000@mailer.conexa.app>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id +NLeAOmP2mPgZAAAIElduQ
+	(envelope-from <010301860dc21a41-4180aaf1-db84-48a4-91eb-b671e17bb0c0-000000@mailer.conexa.app>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 01 Feb 2023 16:14:33 +0000
+Return-path: <010301860dc21a41-4180aaf1-db84-48a4-91eb-b671e17bb0c0-000000@mailer.conexa.app>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 01 Feb 2023 16:14:33 +0000
+Received: from d215-10.smtp-out.sa-east-1.amazonses.com ([23.249.215.10]:46919)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.95)
+	(envelope-from <010301860dc21a41-4180aaf1-db84-48a4-91eb-b671e17bb0c0-000000@mailer.conexa.app>)
+	id 1pNFkm-0007i8-46
+	for contato@soliveenergiasolar.com.br;
+	Wed, 01 Feb 2023 16:14:32 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ehpusqurqkmiy4bdwajoxju2xgsi6zqa; d=conexa.app; t=1675268070;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=B3RNOb6gAoWhhh26oo1a9Oo1OE4XQuF0jk2aR6Uq8zw=;
+	b=ZSHINynIwJUIYddBdyXHSngCVZY/mSvQiBrMgjTs5MO8QEc+4T46/1i7+D1AZZ8h
+	fR9EkynzjrVUUHEopWIAJJ8LxaBsp6go0+I0zFx6xjv9PRye9oeVg0TpThZeSU9aMnP
+	Kf+KufxnlW3Y29ccjp87kCUvFuT5MaBkuJnwlKjI=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=bm3ypaoivbtdzmy3b6w37fzb5voa2uru; d=amazonses.com; t=1675268070;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=B3RNOb6gAoWhhh26oo1a9Oo1OE4XQuF0jk2aR6Uq8zw=;
+	b=ZAagGAVjmyqiNT1hmHCkom5eyiCqpG1/H708Y5Fsgx5ma04J2VDEBx0/C219LOLX
+	nz7CDd2+TCXomZfrR0f8WSVu0fpN+e706Qxt/+dib229eoEe+7jhJlfpQYD7Fn47w23
+	Qo9quG91P7Db1cBRsIK0+wN2ByEIlNWSXhX5JLHA=
+From: WIGGLE COMUNICACAO <envios@conexa.app>
+Reply-To: financeiros@wiggle.com.br
+To: contato@soliveenergiasolar.com.br
+Subject: Lembrete de Vencimento Hoje
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4885911_1914627310.1675268069956"
+Message-ID: <010301860dc21a41-4180aaf1-db84-48a4-91eb-b671e17bb0c0-000000@sa-east-1.amazonses.com>
+Date: Wed, 1 Feb 2023 16:14:29 +0000
+Feedback-ID: 1.sa-east-1.rMO+gWn51nLYEJBb/1yMQrIT9GNU/e9OLPyhKPDYVs0=:AmazonSES
+X-SES-Outgoing: 2023.02.01-23.249.215.10
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  SOLIVE ENERGIA SOLAR, esse é apenas um lembrete de que 
+   **hoje está vencendo seu boleto** junto a WIGGLE COMUNICACAO. Caso não
+    pague até o final do dia será cobrado de multa e juros conforme c [...]
+    
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: conexa.app]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+------=_Part_4885911_1914627310.1675268069956
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+SOLIVE ENERGIA SOLAR, esse =C3=A9 apenas um lembrete de que=C2=A0
+**hoje est=C3=A1 vencendo seu boleto**=C2=A0junto a=C2=A0WIGGLE COMUNICACAO=
+. Caso n=C3=A3o pague at=C3=A9 o final do dia ser=C3=A1 cobrado de multa e =
+juros conforme condi=C3=A7=C3=B5es contratuais.
+
+
+**Cliente:**=C2=A0WIGGLE COMUNICACAO
+
+**Valor:**=C2=A0R$ 500,00
+
+**Detalhamento da Cobran=C3=A7a:**
+
+
+
+**Link da fatura para pagamento:**
+
+https://wiggle.conexa.app/index.php?r=3Dcobranca/fatura&id=3Da832290b962449=
+2802be8437632d0593&u=3Dcontato%40soliveenergiasolar.com.br (Acesse: https:/=
+/wiggle.conexa.app/index.php?r=3Dcobranca/fatura&id=3Da832290b9624492802be8=
+437632d0593&u=3Dcontato%40soliveenergiasolar.com.br" target=3D"_blank)
+
+Qualquer d=C3=BAvida, problema ou sugest=C3=A3o por favor entre em contato =
+conosco para que possamos lhe ajudar.
+
+
+**Atenciosamente,
+WIGGLE COMUNICACAO
+45999832476
+/**
+
+------=_Part_4885911_1914627310.1675268069956
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+SOLIVE ENERGIA SOLAR, esse &eacute; apenas um lembrete de que&nbsp;<span style="color:rgb(255, 0, 0)"><strong>hoje est&aacute; vencendo seu boleto</strong></span>&nbsp;junto a&nbsp;WIGGLE COMUNICACAO. Caso n&atilde;o pague at&eacute; o final do dia ser&aacute; cobrado de multa e juros conforme condi&ccedil;&otilde;es contratuais.<br />
+<br />
+<strong>Cliente:</strong>&nbsp;WIGGLE COMUNICACAO<br />
+<strong>Valor:</strong>&nbsp;R$ 500,00<br />
+<strong>Detalhamento da Cobran&ccedil;a:</strong><br />
+<br />
+<br />
+<strong>Link da fatura para pagamento:</strong><br />
+<br />
+<a href="https://wiggle.conexa.app/index.php?r=cobranca/fatura&id=a832290b9624492802be8437632d0593&u=contato%40soliveenergiasolar.com.br" target="_blank">https://wiggle.conexa.app/index.php?r=cobranca/fatura&id=a832290b9624492802be8437632d0593&u=contato%40soliveenergiasolar.com.br</a><br />
+<br />
+Qualquer d&uacute;vida, problema ou sugest&atilde;o por favor entre em contato conosco para que possamos lhe ajudar.<br />
+<br />
+<strong>Atenciosamente,<br />
+WIGGLE COMUNICACAO<br />
+45999832476<br />
+/</strong><br><img src="https://wiggle.conexa.app/index.php?r=aviso/registrarVisualizacao&idEmail=1131&email=contato@soliveenergiasolar.com.br" width="1" height="1" style="display:block" alt="_" />
+------=_Part_4885911_1914627310.1675268069956--

@@ -1,0 +1,185 @@
+Return-Path: <rafaela.pereira@helte.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id OAieJhkZbGJIXwAAJcoV8Q
+	(envelope-from <rafaela.pereira@helte.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 29 Apr 2022 16:58:01 +0000
+Return-path: <rafaela.pereira@helte.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 29 Apr 2022 16:58:01 +0000
+Received: from mail-ej1-f54.google.com ([209.85.218.54]:41598)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <rafaela.pereira@helte.com.br>)
+	id 1nkTwP-000ALE-0E
+	for contato@soliveenergiasolar.com.br; Fri, 29 Apr 2022 16:58:01 +0000
+Received: by mail-ej1-f54.google.com with SMTP id dk23so16562993ejb.8
+        for <contato@soliveenergiasolar.com.br>; Fri, 29 Apr 2022 09:58:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=helte-com-br.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=+tFmoRuelriK0boHstnTzw3sKaMYzwNpRnmwPr8PlgA=;
+        b=PaVrQCOqaOGATXWUzhpyzFWsLg1Z9hD/QOPr1BI4LU7nfUqxShPo69JKeXEm2DqSOM
+         9HjWSfGYhw77oBf4EAnmvyRabIAoio3KSdCF2s20zHX/deUQ1t9s6T4NPdXp3sKDndeO
+         wHn/ANI/9ZghIwdfU+muGfT35YGtZP3Rnd54WswZeCCRRNwQ/5ErmpOJXet5JEZxher3
+         YWBSGgC9HKpteA2k1njBjZUWgQ57PMsH36NKFtOjByz8GdM9sbHPClzR0nv8r15ARfJn
+         HqURKreQ1Nx/3z8xeZLJBBSvvW4L5y2aUr4/ykzkfsFLlzqQttye/FAJtZ0OgDYW0W2X
+         LWgg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=+tFmoRuelriK0boHstnTzw3sKaMYzwNpRnmwPr8PlgA=;
+        b=Io2px8JTjN7QZIC3ho6OGdOpipt3i0vZyybmdV8ptXOo02bR6IZITTRw13MIH9i52I
+         K9zvvMjkOOdk/gmlMqbHLEjvJS6eDCUeO13OFxCxUGAe9zXzYbSXj5aLXPoYJnX2IvgY
+         iZM7ZvuMxCprVoYSj5bzDBDk4njtPRdj+tarNiQv6+VGbD+psUiVsncl5rc7MYE3Qal+
+         gRMhuIWcM5RBcl72jZM2DZzHNKeubcbK/Hw715DoXiD2jxQewWAs1hnncFe7Phj8dlfq
+         TsQXhTs0+pNMqN0s/juAEbObpO/dK8gA+m+CnVyhcn3O2g3iRRSxBuPuLLTVMgwRmU/m
+         uCpw==
+X-Gm-Message-State: AOAM533KJfSw3Y3Sk9NlTlGSldkMfTL0NTWYXtAxSuq5SK2xu3Kqj/Vp
+	7NvPqZ902yEd6KAkRjG8rhsAW0MbcrZsHznMkZmYjpTZ6P7bNvE9
+X-Google-Smtp-Source: ABdhPJyeh9coXA1H4TQltlI0GrtWOmjOQGlbbq++3REF/x4nM2n8GbVhkcbqOyQKA6PYAEr5QBTELM4t7GWRmbd/Vks=
+X-Received: by 2002:a17:906:3042:b0:6cd:20ed:7c5c with SMTP id
+ d2-20020a170906304200b006cd20ed7c5cmr213646ejd.241.1651251479456; Fri, 29 Apr
+ 2022 09:57:59 -0700 (PDT)
+MIME-Version: 1.0
+From: Rafaela Pereira <rafaela.pereira@helte.com.br>
+Date: Fri, 29 Apr 2022 13:57:49 -0300
+Message-ID: <CAJzFjkgdQV9WrbSqv+gBgf3yQSVZhkYKWxJmdQ5ib=TQ3uTFvw@mail.gmail.com>
+Subject: HELTE - PEDIDO 552215
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="000000000000de43e405ddcdf17f"
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá, boa tarde Rodrigo, tudo bem? Tentei contato por ligação,
+    mas não tive sucesso. Foi gerado um novo pedido referente ao pedido 552215
+    que teve a rejeição das cartas de autorização de faturamento. O número
+    do novo pedido é 556861, agora será necessário somente subir o pedid [...]
+    
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: codetwocdn.azureedge.net]
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--000000000000de43e405ddcdf17f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1, boa tarde Rodrigo, tudo bem?
+
+Tentei contato por liga=C3=A7=C3=A3o, mas n=C3=A3o tive sucesso.
+
+Foi gerado um novo pedido referente ao pedido 552215 que teve a rejei=C3=A7=
+=C3=A3o
+das cartas de autoriza=C3=A7=C3=A3o de faturamento. O n=C3=BAmero do novo p=
+edido =C3=A9 556861,
+agora ser=C3=A1 necess=C3=A1rio somente subir o pedido novamente e enviar a=
+ carta de
+autoriza=C3=A7=C3=A3o corretamente.
+
+Caso tenha qualquer d=C3=BAvida entre em contato, estarei =C3=A0 disposi=C3=
+=A7=C3=A3o.
+
+
+Atenciosamente.
+--
+[image: Logo] <https://helte.com.br/>
+*Rafaela Pereira * *I Consultor(a) de sucesso do cliente*
+Helte | Rua Pedro dos Santos Ramos, 702 - Sala 301 - Jardim La Salle,
+Toledo - PR | 85926-750, Brasil
+ rafaela.pereira@helte.com.br <suporte03@helte.com.br>
++0800 090 0090
+[image: facebook icon] <https://www.facebook.com/heltesolar> [image:
+linkedin icon] <https://www.linkedin.com/company/helteequipamentoseletricos=
+>
+ [image: instagram icon] <https://www.instagram.com/heltesolar>
+
+--000000000000de43e405ddcdf17f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Ol=C3=A1, boa tarde Rodrigo, tudo bem?<div><br></div><div>=
+Tentei contato por liga=C3=A7=C3=A3o, mas n=C3=A3o tive sucesso.=C2=A0</div=
+><div><br></div><div>Foi gerado um novo pedido referente ao pedido 552215 q=
+ue teve a rejei=C3=A7=C3=A3o das cartas de autoriza=C3=A7=C3=A3o de faturam=
+ento. O n=C3=BAmero do novo pedido =C3=A9 556861, agora ser=C3=A1 necess=C3=
+=A1rio somente subir o pedido novamente e enviar a carta de autoriza=C3=A7=
+=C3=A3o corretamente.=C2=A0</div><div><br></div><div>Caso tenha qualquer d=
+=C3=BAvida entre em contato, estarei =C3=A0 disposi=C3=A7=C3=A3o.=C2=A0</di=
+v><div><br></div><div><br></div><div>Atenciosamente.<div dir=3D"ltr" class=
+=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><s=
+pan style=3D"color:rgb(136,136,136)">--</span><br style=3D"color:rgb(136,13=
+6,136)"><div dir=3D"ltr" style=3D"color:rgb(136,136,136)"><div dir=3D"ltr">=
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-spacing:0px;bord=
+er-collapse:collapse;color:rgb(68,68,68);width:525px;font-size:11pt;font-fa=
+mily:Arial,sans-serif"><tbody><tr><td width=3D"125" valign=3D"top" rowspan=
+=3D"6" style=3D"font-family:Arial,sans-serif;padding:0px 10px 0px 0px;font-=
+size:10pt;border-right:1px solid rgb(245,129,32);width:125px;vertical-align=
+:top"><a href=3D"https://helte.com.br/" style=3D"color:rgb(51,122,183);back=
+ground-color:transparent" target=3D"_blank"><img border=3D"0" alt=3D"Logo" =
+width=3D"105" src=3D"https://helte.com.br/themes/indecom/img/helte-logo.png=
+" style=3D"border:0px;vertical-align:middle;width:105px;height:auto"></a></=
+td><td style=3D"padding:0px 0px 0px 10px"><table cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-spacing:0px;border-collapse:collapse;background-c=
+olor:transparent"><tbody><tr><td valign=3D"top" style=3D"font-family:Arial,=
+sans-serif;padding:0px 0px 5px 10px;width:400px;vertical-align:top"><font c=
+olor=3D"#ff9900"><b>Rafaela Pereira=C2=A0</b></font>=C2=A0<font color=3D"#0=
+00000"><b>I Consultor(a) de sucesso do cliente</b></font></td></tr><tr><td =
+valign=3D"top" style=3D"padding:5px 0px 5px 10px;vertical-align:top;line-he=
+ight:17px"><span style=3D"font-family:Arial,sans-serif;font-size:10pt"><spa=
+n style=3D"font-size:10pt;color:rgb(0,0,0)">Helte</span>=C2=A0</span><span =
+style=3D"font-family:Arial,sans-serif;font-size:10pt;color:rgb(0,0,0)">|=C2=
+=A0</span><font color=3D"#000000" face=3D"Arial, sans-serif"><span style=3D=
+"font-size:13.3333px">Rua Pedro dos Santos Ramos, 702 - Sala 301 - Jardim L=
+a Salle, Toledo - PR</span></font><font face=3D"Arial, sans-serif"><span st=
+yle=3D"font-size:10pt">=C2=A0</span></font><span style=3D"font-family:Arial=
+,sans-serif;font-size:10pt;color:rgb(0,0,0)">|=C2=A085926-750, Brasil</span=
+><span style=3D"font-family:Arial,sans-serif;font-size:10pt"><br></span><sp=
+an style=3D"font-family:Arial,sans-serif;font-size:10pt"><span style=3D"fon=
+t-size:10pt;color:rgb(0,0,0)">=C2=A0<a href=3D"mailto:suporte03@helte.com.b=
+r" style=3D"color:rgb(17,85,204)" target=3D"_blank">rafaela.pereira@helte.c=
+om.br</a></span>=C2=A0</span><span style=3D"font-family:Arial,sans-serif;fo=
+nt-size:10pt"><br></span><span style=3D"font-family:Arial,sans-serif;font-s=
+ize:10pt"><span style=3D"font-size:10pt;color:rgb(0,0,0)">+0800 090 0090</s=
+pan></span><br></td></tr><tr><td valign=3D"bottom" style=3D"font-family:Ari=
+al,sans-serif;padding:5px 0px 0px 10px;font-size:10pt;vertical-align:bottom=
+"><a href=3D"https://www.facebook.com/heltesolar" rel=3D"noopener" style=3D=
+"color:rgb(51,122,183);background-color:transparent" target=3D"_blank"><img=
+ border=3D"0" width=3D"19" alt=3D"facebook icon" src=3D"https://codetwocdn.=
+azureedge.net/images/mail-signatures/generator-dm/bease-fox/fb.png" style=
+=3D"border:0px;vertical-align:middle;height:19px;width:19px"></a>=C2=A0<a h=
+ref=3D"https://www.linkedin.com/company/helteequipamentoseletricos" rel=3D"=
+noopener" style=3D"color:rgb(51,122,183);background-color:transparent" targ=
+et=3D"_blank"><img border=3D"0" width=3D"19" alt=3D"linkedin icon" src=3D"h=
+ttps://codetwocdn.azureedge.net/images/mail-signatures/generator-dm/bease-f=
+ox/ln.png" style=3D"border:0px;vertical-align:middle;height:19px;width:19px=
+"></a>=C2=A0<a href=3D"https://www.instagram.com/heltesolar" rel=3D"noopene=
+r" style=3D"color:rgb(51,122,183);background-color:transparent" target=3D"_=
+blank"><img border=3D"0" width=3D"19" alt=3D"instagram icon" src=3D"https:/=
+/codetwocdn.azureedge.net/images/mail-signatures/generator-dm/bease-fox/it.=
+png" style=3D"border:0px;vertical-align:middle;height:19px;width:19px"></a>=
+=C2=A0</td></tr></tbody></table></td></tr></tbody></table></div></div></div=
+></div></div></div>
+
+--000000000000de43e405ddcdf17f--

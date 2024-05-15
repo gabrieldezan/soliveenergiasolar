@@ -1,0 +1,382 @@
+Return-Path: <suporte01@helte.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id qOXGBYBZs2F5HyIAJcoV8Q
+	(envelope-from <suporte01@helte.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 10 Dec 2021 13:43:28 +0000
+Return-path: <suporte01@helte.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 10 Dec 2021 13:43:28 +0000
+Received: from mail-io1-f73.google.com ([209.85.166.73]:48668)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <suporte01@helte.com.br>)
+	id 1mvgBL-009PLu-7Y
+	for contato@soliveenergiasolar.com.br; Fri, 10 Dec 2021 13:43:28 +0000
+Received: by mail-io1-f73.google.com with SMTP id g23-20020a6be617000000b005e245747fb4so10122899ioh.15
+        for <contato@soliveenergiasolar.com.br>; Fri, 10 Dec 2021 05:43:27 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20210112;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=VIUV4tMCOwEFxs0wAp9N1Nhf5sTS09M1omicCLAP/tg=;
+        b=UZP4QTj8i3Cr0RCyOGpD4Ium3qtGRX0uOOqiWzNDdnOywLrKTRR9+hi5IQpo0OrMso
+         xISYI+4JMIfPFQQthIFvbD13xinpiMHWIEF4PouxRFllsCt2EN3h5nnpiVJ/SP2e+kX6
+         Iuq5OV/Hbtw8Boepc04BMU4UoiMjhftDCGRs+QWOiI2G/OcKnbWQcUEdFIAuynXOhG+o
+         yXVF8NWCpcSYeBjPwitZkbqyGwN/AfRF0bLv61mgUgALSxT9cnr4FI5v+sBn7EWxZ9u9
+         LHDYF2Ey8rW4znvrlTngyX5Vt+4VV8HMgM+zYj17xQ2qGlwm7sA7mxpJEkppYsn7SuX2
+         2Gng==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=helte-com-br.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=VIUV4tMCOwEFxs0wAp9N1Nhf5sTS09M1omicCLAP/tg=;
+        b=4BvpKvJiSXN+aWqy+/Nl7429Xa5qQKyIkb8aaizd0PHW9RXSXLdt7/Ewp2pKuWvIZT
+         6jqQ8qh3SnVe0MJYvpM8hgvIqqZPYl2FwGI6NrP89VvYXycRBd5o4lLFIxI0jfCeohzN
+         GoMozh/05nKdAFt4EbM9gOEK00scSL2Y/STFrifA1YhcLzszke4R1kwSANMCL8vIhcw3
+         geiO188Lo9BECpDHWiG81MCBE9oCCZntTxDFWkEyFM90qDotuHd1AGpD80SDoZWUJdP0
+         F0W7UkZBeKmfTriN15g16BRVWazaYI65EGNmyOv8xdbVoK9TO9OugModcQJNMKv/h3Ef
+         71+w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:sender:message-id:date
+         :subject:from:to;
+        bh=VIUV4tMCOwEFxs0wAp9N1Nhf5sTS09M1omicCLAP/tg=;
+        b=LtwwCDiy80TQXi/tR1Ck9gVOjUdpvudZHP/n4goFNntjuRmSHqRx6Ig5ejyRjUC93w
+         x1Bdk2e7vIsKdA1z3luTrERUxjDXUE/JyYfowJWC0fxD9Ruhoh18Fs+4nv1a6AGvlGau
+         hGT4gW0Us0ZyqO7CogCXeOXFBcRE4eN98gJrhL9RwCF8OvvrPxxPWYpsGEVPGQHVIaht
+         akyVwXonjGAUGBKwdeOZE5Gqo9gMzYM0MvzaEl6JTnaUatDpVLN89MMQEpuIk0cPixPc
+         t90Z36tWLNaUM5KR5pYZrh5cml8zWi4i/m73G/6e4AJyll9AaScDdNCsbBj2vR9dL8q4
+         HR1A==
+X-Gm-Message-State: AOAM533M1RaNlxaNSjO+syg7hidheEFCvV33QxTBNcU95ONg+bTcgOgO
+	C+szLH4OTQ1JM/pnGjIFFnf5VEZdxDVjhCMaQ39CI3k=
+X-Google-Smtp-Source: ABdhPJxcNdtTkVXSLD9/seHkuHWRw55urh7yq7JO9doMJrlIZ9/XtyC/FlVdTDuWtCWWo/Zpwjnlrku60nEQ77L6MjhH
+MIME-Version: 1.0
+X-Received: by 2002:a05:6602:2b03:: with SMTP id p3mr21663413iov.74.1639143805822;
+ Fri, 10 Dec 2021 05:43:25 -0800 (PST)
+Reply-To: suporte01@helte.com.br
+Sender: Google Agenda <calendar-notification@google.com>
+Message-ID: <000000000000483e9c05d2cae8e2@google.com>
+Date: Fri, 10 Dec 2021 13:43:25 +0000
+Subject: Convite: Desbloqueio Plataforma CNPJ 38.256.915/0001-35 - sex. 10
+ dez. 2021 13:30 - 14:15 (BRT) (contato@soliveenergiasolar.com.br)
+From: suporte01@helte.com.br
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/mixed; boundary="000000000000483e8405d2cae8e1"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Você foi convidado para o seguinte evento. Título: Desbloqueio
+    Plataforma CNPJ 38.256.915/0001-35 Quando: sex. 10 dez. 2021 13:30 – 14:15
+    Horário Padrão de Brasília - São Paulo Informações de participação:
+    Entrar com o Google Meet https://meet.google.com/gqd-tsdv-vuf?hs=224 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tel.meet]
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+--000000000000483e8405d2cae8e1
+Content-Type: multipart/alternative; boundary="000000000000483e8205d2cae8df"
+
+--000000000000483e8205d2cae8df
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+Vm9jw6ogZm9pIGNvbnZpZGFkbyBwYXJhIG8gc2VndWludGUgZXZlbnRvLg0KDQpUw610dWxvOiBE
+ZXNibG9xdWVpbyBQbGF0YWZvcm1hIENOUEogMzguMjU2LjkxNS8wMDAxLTM1DQpRdWFuZG86IHNl
+eC4gMTAgZGV6LiAyMDIxIDEzOjMwIOKAkyAxNDoxNSBIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPD
+rWxpYSAtIFPDo28gIA0KUGF1bG8NCg0KSW5mb3JtYcOnw7VlcyBkZSBwYXJ0aWNpcGHDp8Ojbzog
+RW50cmFyIGNvbSBvIEdvb2dsZSBNZWV0DQpodHRwczovL21lZXQuZ29vZ2xlLmNvbS9ncWQtdHNk
+di12dWY/aHM9MjI0DQoNClBhcnRpY2lwYXIgcG9yIHRlbGVmb25lDQooQlIpICs1NSAyMSA0NTYw
+LTc0NDMgKE7Dum1lcm8gZGUgaWRlbnRpZmljYcOnw6NvIHBlc3NvYWwgKFBJTik6IDcxNzYzOTY3
+MikNCg0KTWFpcyBuw7ptZXJvcyBkZSB0ZWxlZm9uZTogIA0KaHR0cHM6Ly90ZWwubWVldC9ncWQt
+dHNkdi12dWY/cGluPTU1OTAyMzkxMTg2MTYmaHM9MA0KDQpBZ2VuZGE6IGNvbnRhdG9Ac29saXZl
+ZW5lcmdpYXNvbGFyLmNvbS5icg0KUXVlbToNCiAgICAgKiBzdXBvcnRlMDFAaGVsdGUuY29tLmJy
+LSBvcmdhbml6YWRvcg0KICAgICAqIGNvbnRhdG9Ac29saXZlZW5lcmdpYXNvbGFyLmNvbS5icg0K
+DQpEZXRhbGhlcyBkbyBldmVudG86ICANCmh0dHBzOi8vY2FsZW5kYXIuZ29vZ2xlLmNvbS9jYWxl
+bmRhci9ldmVudD9hY3Rpb249VklFVyZlaWQ9TldWcFpIVnJZV2RvY210bmIzVmtiR0ZoYldack1X
+RTFPVE1nWTI5dWRHRjBiMEJ6YjJ4cGRtVmxibVZ5WjJsaGMyOXNZWEl1WTI5dExtSnkmdG9rPU1q
+SWpjM1Z3YjNKMFpUQXhRR2hsYkhSbExtTnZiUzVpY2pBME1XVTVOekExWVdWa056TmlNekV5T0dN
+eVlqZzVPR000WWpJNU5EVmlNR1F3WVdKbU1XTSZjdHo9QW1lcmljYSUyRlNhb19QYXVsbyZobD1w
+dF9CUiZlcz0wDQoNCkNvbnZpdGUgZG8gR29vZ2xlIEFnZW5kYTogaHR0cHM6Ly9jYWxlbmRhci5n
+b29nbGUuY29tL2NhbGVuZGFyLw0KDQpWb2PDqiBlc3TDoSByZWNlYmVuZG8gZXN0ZSBlLW1haWwg
+ZGUgY29ydGVzaWEgbmEgY29udGEgIA0KY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy
+IHBvciBzZXIgdW0gcGFydGljaXBhbnRlIGRlc3RlIGV2ZW50by4NCg0KUGFyYSBuw6NvIHJlY2Vi
+ZXIgYXR1YWxpemHDp8O1ZXMgZnV0dXJhcyBkZXNzZSBldmVudG8sIHJlY3VzZS1vLiBWb2PDqiB0
+YW1iw6ltICANCnBvZGUgc2UgaW5zY3JldmVyIHBhcmEgdW1hIENvbnRhIGRvIEdvb2dsZSBlbSAg
+DQpodHRwczovL2NhbGVuZGFyLmdvb2dsZS5jb20vY2FsZW5kYXIvIGUgY29udHJvbGFyIHN1YXMg
+Y29uZmlndXJhw6fDtWVzIGRlICANCm5vdGlmaWNhw6fDo28gZGUgdG9kYSBhIHN1YSBhZ2VuZGEu
+DQoNCkVuY2FtaW5oYXIgZXN0ZSBjb252aXRlIHRhbHZleiBwZXJtaXRhIHF1ZSBxdWFscXVlciBk
+ZXN0aW5hdMOhcmlvIG1vZGlmaXF1ZSAgDQpzdWEgcmVzcG9zdGEgZGUgUlNWUCwgZW52aWUgdW1h
+IHJlc3Bvc3RhIGFvIG9yZ2FuaXphZG9yIGUgc2VqYSBhZGljaW9uYWRvIMOgICANCmxpc3RhIGRl
+IGNvbnZpZGFkb3Mgb3UgY29udmlkZSBvdXRyYXMgcGVzc29hcywgaW5kZXBlbmRlbnRlbWVudGUg
+ZG8gc3RhdHVzICANCmRlIGNvbnZpdGUgZGVsYXMuIFNhaWJhIG1haXMgZW0gIA0KaHR0cHM6Ly9z
+dXBwb3J0Lmdvb2dsZS5jb20vY2FsZW5kYXIvYW5zd2VyLzM3MTM1I2ZvcndhcmRpbmcNCg==
+--000000000000483e8205d2cae8df
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"description" content=3D"Convite de suporte01@helte.=
+com.br"/></span><span itemprop=3D"object" itemscope itemtype=3D"http://sche=
+ma.org/Event"><div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" bo=
+rder=3D"0" summary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;bo=
+rder:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><t=
+r><td><meta itemprop=3D"eventStatus" content=3D"http://schema.org/EventSche=
+duled"/><h4 style=3D"padding:6px 0;margin:0 0 4px 0;font-family:Arial,Sans-=
+serif;font-size:13px;line-height:1.4;border:1px Solid #fff;background:#fff;=
+color:#090;font-weight:normal"><strong>Voc=C3=AA foi convidado para o segui=
+nte evento.</strong></h4><div style=3D"padding:2px"><span itemprop=3D"publi=
+sher" itemscope itemtype=3D"http://schema.org/Organization"><meta itemprop=
+=3D"name" content=3D"Google Calendar"/></span><meta itemprop=3D"eventId/goo=
+gleCalendar" content=3D"5eidukaghrkgoudlaamfk1a593"/><h3 style=3D"padding:0=
+ 0 6px 0;margin:0;font-family:Arial,Sans-serif;font-size:16px;font-weight:b=
+old;color:#222"><span itemprop=3D"name">Desbloqueio Plataforma CNPJ 38.256.=
+915/0001-35</span></h3><table style=3D"display:inline-table" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" summary=3D"Detalhes do evento"><tr><td s=
+tyle=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;co=
+lor:#888;white-space:nowrap;width:90px" valign=3D"top"><div><i style=3D"fon=
+t-style:normal">Quando</i></div></td><td style=3D"padding-bottom:10px;font-=
+family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><div styl=
+e=3D"text-indent:-1px"><time itemprop=3D"startDate" datetime=3D"20211210T16=
+3000Z"></time><time itemprop=3D"endDate" datetime=3D"20211210T171500Z"></ti=
+me>sex. 10 dez. 2021 13:30 =E2=80=93 14:15 <span style=3D"color:#888">Hor=
+=C3=A1rio Padr=C3=A3o de Bras=C3=ADlia - S=C3=A3o Paulo</span></div></td></=
+tr><tr><td style=3D"padding:0 1em 4px 0;font-family:Arial,Sans-serif;font-s=
+ize:13px;color:#888;white-space:nowrap;width:90px" valign=3D"top"><div><i s=
+tyle=3D"font-style:normal">Informa=C3=A7=C3=B5es de participa=C3=A7=C3=A3o<=
+/i></div></td><td style=3D"padding-bottom:4px;font-family:Arial,Sans-serif;=
+font-size:13px;color:#222" valign=3D"top"><div style=3D"text-indent:-1px">E=
+ntrar com o Google Meet</div></td></tr><tr><td style=3D"padding:0 1em 10px =
+0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap=
+;width:90px"></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-s=
+erif;font-size:13px;color:#222" valign=3D"top"><div style=3D"text-indent:-1=
+px"><div style=3D"text-indent:-1px"><span itemprop=3D"potentialaction" item=
+scope itemtype=3D"http://schema.org/JoinAction"><span itemprop=3D"name" con=
+tent=3D"meet.google.com/gqd-tsdv-vuf"><span itemprop=3D"target" itemscope i=
+temtype=3D"http://schema.org/EntryPoint"><span itemprop=3D"url" content=3D"=
+https://meet.google.com/gqd-tsdv-vuf?hs=3D224"><span itemprop=3D"httpMethod=
+" content=3D"GET"><a href=3D"https://meet.google.com/gqd-tsdv-vuf?hs=3D224"=
+ style=3D"color:#20c;white-space:nowrap" target=3D"_blank">meet.google.com/=
+gqd-tsdv-vuf</a></span></span></span></span></span> </div></div></td></tr><=
+tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size=
+:13px;color:#888;white-space:nowrap;width:90px"></td><td style=3D"padding-b=
+ottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=
+=3D"top"></td></tr><td style=3D"padding:0 1em 4px 0;font-family:Arial,Sans-=
+serif;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><td sty=
+le=3D"padding-bottom:4px;font-family:Arial,Sans-serif;font-size:13px;color:=
+#222" valign=3D"top"><div style=3D"text-indent:-1px">Participar por telefon=
+e</div></td><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-se=
+rif;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><div style=3D"text-indent:-1px"><div style=3D"text-inde=
+nt:-1px"><span style=3D"color:#888">(BR) </span><a href=3D"tel:+55-21-4560-=
+7443;717639672#" style=3D"color:#20c;white-space:nowrap" target=3D"_blank">=
++55 21 4560-7443</a> <span style=3D"color:#888">(N=C3=BAmero de identifica=
+=C3=A7=C3=A3o pessoal (PIN): 717639672)</span></div></div></td></tr><tr><td=
+ style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;=
+color:#888;white-space:nowrap;width:90px"></td><td style=3D"padding-bottom:=
+10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"=
+></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-ser=
+if;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><div style=3D"text-indent:-1px"><a href=3D"https://tel.=
+meet/gqd-tsdv-vuf?pin=3D5590239118616&amp;hs=3D0" style=3D"color:#20c;white=
+-space:nowrap" target=3D"_blank">Mais n=C3=BAmeros de telefone</a></div></t=
+d></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;f=
+ont-size:13px;color:#888;white-space:nowrap;width:90px" valign=3D"top"><div=
+><i style=3D"font-style:normal">Agenda</i></div></td><td style=3D"padding-b=
+ottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=
+=3D"top"><div style=3D"text-indent:-1px">contato@soliveenergiasolar.com.br<=
+/div></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans=
+-serif;font-size:13px;color:#888;white-space:nowrap;width:90px" valign=3D"t=
+op"><div><i style=3D"font-style:normal">Quem</i></div></td><td style=3D"pad=
+ding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" va=
+lign=3D"top"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"pa=
+dding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222;wid=
+th:10px"><div style=3D"text-indent:-1px"><span style=3D"font-family:Courier=
+ New,monospace">&#x2022;</span></div></td><td style=3D"padding-right:10px;f=
+ont-family:Arial,Sans-serif;font-size:13px;color:#222"><div style=3D"text-i=
+ndent:-1px"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attend=
+ee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name"=
+ class=3D"notranslate">suporte01@helte.com.br</span><meta itemprop=3D"email=
+" content=3D"suporte01@helte.com.br"/></span><span itemprop=3D"organizer" i=
+temscope itemtype=3D"http://schema.org/Person"><meta itemprop=3D"name" cont=
+ent=3D"suporte01@helte.com.br"/><meta itemprop=3D"email" content=3D"suporte=
+01@helte.com.br"/></span><span style=3D"font-size:11px;color:#888">- organi=
+zador</span></div></div></div></td></tr><tr><td style=3D"padding-right:10px=
+;font-family:Arial,Sans-serif;font-size:13px;color:#222;width:10px"><div st=
+yle=3D"text-indent:-1px"><span style=3D"font-family:Courier New,monospace">=
+&#x2022;</span></div></td><td style=3D"padding-right:10px;font-family:Arial=
+,Sans-serif;font-size:13px;color:#222"><div style=3D"text-indent:-1px"><div=
+><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope it=
+emtype=3D"http://schema.org/Person"><span itemprop=3D"name" class=3D"notran=
+slate">contato@soliveenergiasolar.com.br</span><meta itemprop=3D"email" con=
+tent=3D"contato@soliveenergiasolar.com.br"/></span></div></div></div></td><=
+/tr></table></td></tr></table><div style=3D"float:right;font-weight:bold;fo=
+nt-size:13px"> <a href=3D"https://calendar.google.com/calendar/event?action=
+=3DVIEW&amp;eid=3DNWVpZHVrYWdocmtnb3VkbGFhbWZrMWE1OTMgY29udGF0b0Bzb2xpdmVlb=
+mVyZ2lhc29sYXIuY29tLmJy&amp;tok=3DMjIjc3Vwb3J0ZTAxQGhlbHRlLmNvbS5icjA0MWU5N=
+zA1YWVkNzNiMzEyOGMyYjg5OGM4YjI5NDViMGQwYWJmMWM&amp;ctz=3DAmerica%2FSao_Paul=
+o&amp;hl=3Dpt_BR&amp;es=3D0" style=3D"color:#20c;white-space:nowrap" itempr=
+op=3D"url">mais detalhes &raquo;</a><br></div></div><p style=3D"color:#222;=
+font-size:13px;margin:0"><span style=3D"color:#888">Voc=C3=AA vai(contato@s=
+oliveenergiasolar.com.br)?&nbsp;&nbsp;&nbsp;</span><wbr><strong><span itemp=
+rop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/RsvpAction"=
+><meta itemprop=3D"attendance" content=3D"http://schema.org/RsvpAttendance/=
+Yes"/><span itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/Ht=
+tpActionHandler"><link itemprop=3D"method" href=3D"http://schema.org/HttpRe=
+questMethod/GET"/><a href=3D"https://calendar.google.com/calendar/event?act=
+ion=3DRESPOND&amp;eid=3DNWVpZHVrYWdocmtnb3VkbGFhbWZrMWE1OTMgY29udGF0b0Bzb2x=
+pdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;rst=3D1&amp;tok=3DMjIjc3Vwb3J0ZTAxQGhlbHR=
+lLmNvbS5icjA0MWU5NzA1YWVkNzNiMzEyOGMyYjg5OGM4YjI5NDViMGQwYWJmMWM&amp;ctz=3D=
+America%2FSao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" style=3D"color:#20c;white-sp=
+ace:nowrap" itemprop=3D"url">Sim</a></span></span><span style=3D"margin:0 0=
+.4em;font-weight:normal"> - </span><span itemprop=3D"potentialaction" items=
+cope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendance=
+" content=3D"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=3D"han=
+dler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><link item=
+prop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=
+=3D"https://calendar.google.com/calendar/event?action=3DRESPOND&amp;eid=3DN=
+WVpZHVrYWdocmtnb3VkbGFhbWZrMWE1OTMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29t=
+LmJy&amp;rst=3D3&amp;tok=3DMjIjc3Vwb3J0ZTAxQGhlbHRlLmNvbS5icjA0MWU5NzA1YWVk=
+NzNiMzEyOGMyYjg5OGM4YjI5NDViMGQwYWJmMWM&amp;ctz=3DAmerica%2FSao_Paulo&amp;h=
+l=3Dpt_BR&amp;es=3D0" style=3D"color:#20c;white-space:nowrap" itemprop=3D"u=
+rl">Talvez</a></span></span><span style=3D"margin:0 0.4em;font-weight:norma=
+l"> - </span><span itemprop=3D"potentialaction" itemscope itemtype=3D"http:=
+//schema.org/RsvpAction"><meta itemprop=3D"attendance" content=3D"http://sc=
+hema.org/RsvpAttendance/No"/><span itemprop=3D"handler" itemscope itemtype=
+=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"=
+http://schema.org/HttpRequestMethod/GET"/><a href=3D"https://calendar.googl=
+e.com/calendar/event?action=3DRESPOND&amp;eid=3DNWVpZHVrYWdocmtnb3VkbGFhbWZ=
+rMWE1OTMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;rst=3D2&amp;tok=
+=3DMjIjc3Vwb3J0ZTAxQGhlbHRlLmNvbS5icjA0MWU5NzA1YWVkNzNiMzEyOGMyYjg5OGM4YjI5=
+NDViMGQwYWJmMWM&amp;ctz=3DAmerica%2FSao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" st=
+yle=3D"color:#20c;white-space:nowrap" itemprop=3D"url">N=C3=A3o</a></span><=
+/span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://calendar.goo=
+gle.com/calendar/event?action=3DVIEW&amp;eid=3DNWVpZHVrYWdocmtnb3VkbGFhbWZr=
+MWE1OTMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;tok=3DMjIjc3Vwb3J0=
+ZTAxQGhlbHRlLmNvbS5icjA0MWU5NzA1YWVkNzNiMzEyOGMyYjg5OGM4YjI5NDViMGQwYWJmMWM=
+&amp;ctz=3DAmerica%2FSao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" style=3D"color:#2=
+0c;white-space:nowrap" itemprop=3D"url">mais op=C3=A7=C3=B5es &raquo;</a></=
+p></td></tr><tr><td style=3D"background-color:#f6f6f6;color:#888;border-top=
+:1px Solid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>Convite do =
+<a href=3D"https://calendar.google.com/calendar/" target=3D"_blank" style=
+=3D"">Google Agenda</a></p><p>Voc=C3=AA est=C3=A1 recebendo este e-mail de =
+cortesia na conta contato@soliveenergiasolar.com.br por ser um participante=
+ deste evento.</p><p>Para n=C3=A3o receber atualiza=C3=A7=C3=B5es futuras d=
+esse evento, recuse-o. Voc=C3=AA tamb=C3=A9m pode se inscrever para uma Con=
+ta do Google em https://calendar.google.com/calendar/ e controlar suas conf=
+igura=C3=A7=C3=B5es de notifica=C3=A7=C3=A3o de toda a sua agenda.</p><p>En=
+caminhar este convite talvez permita que qualquer destinat=C3=A1rio modifiq=
+ue sua resposta de RSVP, envie uma resposta ao organizador e seja adicionad=
+o =C3=A0 lista de convidados ou convide outras pessoas, independentemente d=
+o status de convite delas. <a href=3D"https://support.google.com/calendar/a=
+nswer/37135#forwarding">Saiba mais</a>.</p></td></tr></table></div></span><=
+/span>
+--000000000000483e8205d2cae8df
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: quoted-printable
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20211210T163000Z
+DTEND:20211210T171500Z
+DTSTAMP:20211210T134325Z
+ORGANIZER;CN=3Dsuporte01@helte.com.br:mailto:suporte01@helte.com.br
+UID:5eidukaghrkgoudlaamfk1a593@google.com
+ATTENDEE;CUTYPE=3DINDIVIDUAL;ROLE=3DREQ-PARTICIPANT;PARTSTAT=3DACCEPTED;RSV=
+P=3DTRUE
+ ;CN=3Dsuporte01@helte.com.br;X-NUM-GUESTS=3D0:mailto:suporte01@helte.com.b=
+r
+ATTENDEE;CUTYPE=3DINDIVIDUAL;ROLE=3DREQ-PARTICIPANT;PARTSTAT=3DNEEDS-ACTION=
+;RSVP=3D
+ TRUE;CN=3Dcontato@soliveenergiasolar.com.br;X-NUM-GUESTS=3D0:mailto:contat=
+o@sol
+ iveenergiasolar.com.br
+X-MICROSOFT-CDO-OWNERAPPTID:1375409908
+CREATED:20211210T134325Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nN=C3=A3o edite esta se=C3=A7=C3=A3o da descri=C3=
+=A7=C3=A3o.\n\nEste evento
+  tem uma videochamada.\nParticipar: https://meet.google.com/gqd-tsdv-vuf\n=
+(
+ BR) +55 21 4560-7443 PIN: 717639672#\nVer mais n=C3=BAmeros de telefone: h=
+ttps:/
+ /tel.meet/gqd-tsdv-vuf?pin=3D5590239118616&hs=3D7\n\nVisualize o seu event=
+o em=20
+ https://calendar.google.com/calendar/event?action=3DVIEW&eid=3DNWVpZHVrYWd=
+ocmtn
+ b3VkbGFhbWZrMWE1OTMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&tok=3DMjI=
+jc3
+ Vwb3J0ZTAxQGhlbHRlLmNvbS5icjA0MWU5NzA1YWVkNzNiMzEyOGMyYjg5OGM4YjI5NDViMGQw=
+Y
+ WJmMWM&ctz=3DAmerica%2FSao_Paulo&hl=3Dpt_BR&es=3D1.\n-::~:~::~:~:~:~:~:~:~=
+:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20211210T134325Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Desbloqueio Plataforma CNPJ 38.256.915/0001-35
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--000000000000483e8205d2cae8df--
+--000000000000483e8405d2cae8e1
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMjExMjEwVDE2MzAwMFoNCkRURU5EOjIwMjExMjEw
+VDE3MTUwMFoNCkRUU1RBTVA6MjAyMTEyMTBUMTM0MzI1Wg0KT1JHQU5JWkVSO0NOPXN1cG9ydGUw
+MUBoZWx0ZS5jb20uYnI6bWFpbHRvOnN1cG9ydGUwMUBoZWx0ZS5jb20uYnINClVJRDo1ZWlkdWth
+Z2hya2dvdWRsYWFtZmsxYTU5M0Bnb29nbGUuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVB
+TDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NFUFRFRDtSU1ZQPVRSVUUNCiA7Q049
+c3Vwb3J0ZTAxQGhlbHRlLmNvbS5icjtYLU5VTS1HVUVTVFM9MDptYWlsdG86c3Vwb3J0ZTAxQGhl
+bHRlLmNvbS5icg0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBB
+TlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1jb250YXRvQHNvbGl2ZWVu
+ZXJnaWFzb2xhci5jb20uYnI7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmNvbnRhdG9Ac29sDQogaXZl
+ZW5lcmdpYXNvbGFyLmNvbS5icg0KWC1NSUNST1NPRlQtQ0RPLU9XTkVSQVBQVElEOjEzNzU0MDk5
+MDgNCkNSRUFURUQ6MjAyMTEyMTBUMTM0MzI1Wg0KREVTQ1JJUFRJT046LTo6fjp+Ojp+On46fjp+
+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+DQogOn46fjp+
+On46fjp+On46fjo6fjp+OjotXG5Ow6NvIGVkaXRlIGVzdGEgc2XDp8OjbyBkYSBkZXNjcmnDp8Oj
+by5cblxuRXN0ZSBldmVudG8NCiAgdGVtIHVtYSB2aWRlb2NoYW1hZGEuXG5QYXJ0aWNpcGFyOiBo
+dHRwczovL21lZXQuZ29vZ2xlLmNvbS9ncWQtdHNkdi12dWZcbigNCiBCUikgKzU1IDIxIDQ1NjAt
+NzQ0MyBQSU46IDcxNzYzOTY3MiNcblZlciBtYWlzIG7Dum1lcm9zIGRlIHRlbGVmb25lOiBodHRw
+czovDQogL3RlbC5tZWV0L2dxZC10c2R2LXZ1Zj9waW49NTU5MDIzOTExODYxNiZocz03XG5cblZp
+c3VhbGl6ZSBvIHNldSBldmVudG8gZW0gDQogaHR0cHM6Ly9jYWxlbmRhci5nb29nbGUuY29tL2Nh
+bGVuZGFyL2V2ZW50P2FjdGlvbj1WSUVXJmVpZD1OV1ZwWkhWcllXZG9jbXRuDQogYjNWa2JHRmhi
+V1pyTVdFMU9UTWdZMjl1ZEdGMGIwQnpiMnhwZG1WbGJtVnlaMmxoYzI5c1lYSXVZMjl0TG1KeSZ0
+b2s9TWpJamMzDQogVndiM0owWlRBeFFHaGxiSFJsTG1OdmJTNWljakEwTVdVNU56QTFZV1ZrTnpO
+aU16RXlPR015WWpnNU9HTTRZakk1TkRWaU1HUXdZDQogV0ptTVdNJmN0ej1BbWVyaWNhJTJGU2Fv
+X1BhdWxvJmhsPXB0X0JSJmVzPTEuXG4tOjp+On46On46fjp+On46fjp+On46fjp+On46DQogfjp+
+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+Ojp+On46Oi0N
+CkxBU1QtTU9ESUZJRUQ6MjAyMTEyMTBUMTM0MzI1Wg0KTE9DQVRJT046DQpTRVFVRU5DRTowDQpT
+VEFUVVM6Q09ORklSTUVEDQpTVU1NQVJZOkRlc2Jsb3F1ZWlvIFBsYXRhZm9ybWEgQ05QSiAzOC4y
+NTYuOTE1LzAwMDEtMzUNClRSQU5TUDpPUEFRVUUNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVIN
+Cg==
+--000000000000483e8405d2cae8e1--

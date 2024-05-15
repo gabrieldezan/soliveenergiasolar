@@ -1,0 +1,152 @@
+Return-Path: <wstopassola@gmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id iNgpDBZQDGHjDQIAJcoV8Q
+	(envelope-from <wstopassola@gmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 05 Aug 2021 20:54:46 +0000
+Return-path: <wstopassola@gmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 05 Aug 2021 20:54:46 +0000
+Received: from mail-oo1-f43.google.com ([209.85.161.43]:46644)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <wstopassola@gmail.com>)
+	id 1mBkO5-000ZvO-S3
+	for contato@soliveenergiasolar.com.br; Thu, 05 Aug 2021 20:54:46 +0000
+Received: by mail-oo1-f43.google.com with SMTP id b25-20020a4ac2990000b0290263aab95660so1664908ooq.13
+        for <contato@soliveenergiasolar.com.br>; Thu, 05 Aug 2021 13:54:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=n89Z2g2MM15u4SyYsbw1x2A7jN5E1ZybZ2i+cw4bQBg=;
+        b=KBWEMZPCIQ0M4rEpG/EC7e7p6xXLXabJ38B6+EJqSFlrv2mYn36QPXD8KFABul/HJk
+         RYjmqks9QruQQQaKNHMg8PGkMUVyCamUTMLv18NMAhPE0UxldEJiSCt0tkQcB1UqQeB1
+         B8GAemWIjcSqSebHacU0zKSbZ9cXa3CF/iu6OoPGA8xbBFCK2NNin7C9v/RXDp/LFuoJ
+         zNaS6eXE1Jg+N1Ivm2ysfyuJ23d0DBtpOMbh+9hQcPJ/xwviSG9TQW5upyLUW6DKEvpZ
+         LtUNiXbz3YlUWGuN7UteYbpZQ5rOU87+EMkFP/FnBeOUWv7ywmiI/4L7jdnaY5uD6AB+
+         MwPw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=n89Z2g2MM15u4SyYsbw1x2A7jN5E1ZybZ2i+cw4bQBg=;
+        b=mlNyMeaxXmWEJXuSSMDDOzfxtGAtrVKtystZ4RRXp7ydt/m6Km2xOju7vjQMyHwdLv
+         lJ1MO1P2UWrHUR13D6mVXfWdPOVaK/Bc5OpIqVG5Ca5oC/g5QHipPKVOqRiyew+G3EGG
+         u8ESxZVApCRpE4eFccvAGqmB+RHIhBEvL4NnsfT5MwX8Ou92UY5g573dTM4i5tdutcof
+         6MNZrWFmwuqk8qvsWUhWJOX7wtgtnJOSOXtprPILdtsHF/D9iOfj/6RkXkJ9g71Jc/r7
+         vMkM0hRitIAYlxQEaURcwtbci4kNW1RLf/T2IY+OPSBqB6PAgzIIbzAUcxs+fP8GM74B
+         wK6Q==
+X-Gm-Message-State: AOAM530cZTNBtdbv1p2syZu0yPpCJpiANkWOGTpE6R49YX60clSI2f4n
+	XZDdZVq7Q35mcXCXlGikhsOVhcrjJgQme4A/boLRs+C0/1c=
+X-Google-Smtp-Source: ABdhPJxie90zxlkvyzZ1F+b/V/Q6kPzMPOmrKIRE5x4yH+BS6aFnznUkhwOBk+bSZtWNHaX59YMFdid4MMgaZFyF+aU=
+X-Received: by 2002:a4a:434d:: with SMTP id l13mr4642442ooj.83.1628196879115;
+ Thu, 05 Aug 2021 13:54:39 -0700 (PDT)
+MIME-Version: 1.0
+References: <5e905602eaafac5ff77c26a681a43b1d@soliveenergiasolar.com.br> <CAHtsUnt8NQh3iZyi53A6+OxkKuOWOJDHat7vqygLS7fawFKC7Q@mail.gmail.com>
+In-Reply-To: <CAHtsUnt8NQh3iZyi53A6+OxkKuOWOJDHat7vqygLS7fawFKC7Q@mail.gmail.com>
+From: Willian Stopassola <wstopassola@gmail.com>
+Date: Thu, 5 Aug 2021 17:54:28 -0300
+Message-ID: <CAHtsUnuRnDnYbrVt1XNvZdL5nh-hSBFyJURkVnJTmGMrb1RQyA@mail.gmail.com>
+Subject: Re: Cliente - Reginaldo
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="0000000000009aa97405c8d62013"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Projeto protocolado 20211826634940 Em ter., 3 de ago. de 2021
+    às 23:29, Willian Stopassola < escreveu: > Cara, não consegui quitar pelo
+    bradesco, to mandando aqui pra salvar até > amanha. > > Em seg., 2 de ago.
+    de 2021 às 17:11, > escreveu: > >> Segue em anexo as fotos da instalação
+    da obra. >> [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [wstopassola[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--0000000000009aa97405c8d62013
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Projeto protocolado  20211826634940
+
+
+
+Em ter., 3 de ago. de 2021 =C3=A0s 23:29, Willian Stopassola <
+wstopassola@gmail.com> escreveu:
+
+> Cara, n=C3=A3o consegui quitar pelo bradesco, to mandando aqui pra salvar=
+ at=C3=A9
+> amanha.
+>
+> Em seg., 2 de ago. de 2021 =C3=A0s 17:11, <contato@soliveenergiasolar.com=
+.br>
+> escreveu:
+>
+>> Segue em anexo as fotos da instala=C3=A7=C3=A3o da obra.
+>>
+>> Cliente tem um mono registrado na copel, porem ja tem toda a entrada de
+>> servi=C3=A7o como bifasica, porem ainda n=C3=A3o utiliza.
+>>
+>> Teria que solicitar pra Copel um aumento de carga pra um 2#50A conforme
+>> instalado no local.
+>>
+>> Disjuntor Geral 3#100A
+>
+>
+
+--0000000000009aa97405c8d62013
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Projeto protocolado=C2=A0
+
+<span style=3D"color:rgb(51,51,51);font-family:Verdana,Arial,Helvetica,sans=
+-serif;font-size:11px;text-align:right;background-color:rgb(236,236,236)">2=
+0211826634940</span><div><span style=3D"color:rgb(51,51,51);font-family:Ver=
+dana,Arial,Helvetica,sans-serif;font-size:11px;text-align:right;background-=
+color:rgb(236,236,236)"><br></span></div><div><span style=3D"color:rgb(51,5=
+1,51);font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px;text-al=
+ign:right;background-color:rgb(236,236,236)"><br></span></div></div><br><di=
+v class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">Em ter., 3 de=
+ ago. de 2021 =C3=A0s 23:29, Willian Stopassola &lt;<a href=3D"mailto:wstop=
+assola@gmail.com">wstopassola@gmail.com</a>&gt; escreveu:<br></div><blockqu=
+ote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px=
+ solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">Cara, n=C3=A3o c=
+onsegui quitar pelo bradesco, to mandando aqui pra salvar at=C3=A9 amanha.<=
+/div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">E=
+m seg., 2 de ago. de 2021 =C3=A0s 17:11, &lt;<a href=3D"mailto:contato@soli=
+veenergiasolar.com.br" target=3D"_blank">contato@soliveenergiasolar.com.br<=
+/a>&gt; escreveu:<br></div><blockquote class=3D"gmail_quote" style=3D"margi=
+n:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex=
+">Segue em anexo as fotos da instala=C3=A7=C3=A3o da obra.<br>
+<br>
+Cliente tem um mono registrado na copel, porem ja tem toda a entrada de <br=
+>
+servi=C3=A7o como bifasica, porem ainda n=C3=A3o utiliza.<br>
+<br>
+Teria que solicitar pra Copel um aumento de carga pra um 2#50A conforme <br=
+>
+instalado no local.<br>
+<br>
+Disjuntor Geral 3#100A</blockquote></div>
+</blockquote></div>
+
+--0000000000009aa97405c8d62013--

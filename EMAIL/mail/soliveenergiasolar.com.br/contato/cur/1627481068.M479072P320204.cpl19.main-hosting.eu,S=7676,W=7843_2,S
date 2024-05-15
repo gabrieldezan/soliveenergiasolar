@@ -1,0 +1,167 @@
+Return-Path: <wstopassola@gmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id kBM2HOxjAWHM4gQAJcoV8Q
+	(envelope-from <wstopassola@gmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 28 Jul 2021 14:04:28 +0000
+Return-path: <wstopassola@gmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 28 Jul 2021 14:04:28 +0000
+Received: from mail-ot1-f46.google.com ([209.85.210.46]:39715)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <wstopassola@gmail.com>)
+	id 1m8kAP-001PmO-BX
+	for contato@soliveenergiasolar.com.br; Wed, 28 Jul 2021 14:04:28 +0000
+Received: by mail-ot1-f46.google.com with SMTP id f20-20020a9d6c140000b02904bb9756274cso2176320otq.6
+        for <contato@soliveenergiasolar.com.br>; Wed, 28 Jul 2021 07:04:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=FmdumGOXOIjvsgQ3vvoQSZuaNrmEFjSYrnjA3gh3kpk=;
+        b=b+JeMsWF7PieWSvyd7JmATrexS6ceoWwfCMqqUb2I1JJT8wu7a1phV9WXkz7/yIXyO
+         CPbByZ8myHaZv70UrxmWwNYEm7HtLLqth4eTrizYWDT7cGUyu6vHKPwe4bg7VCmXhFAY
+         1ufehyJlhxR4JljKvDibj0iOw79oeL8X7TlvRCS6pK5hQaQzhyhTqiPyp/tfGTYNXV2w
+         IJNZfeCJ0JJlcLiOQf2nUPQe6BqhJC37UAaRexSoGz0xVAzYIE1yn0KONjwW1v7upwgy
+         dupjLx33laAZMJ1pO1YhyTsi63/w1cQSIRn++tpb5wk4NrC2d86wRyFywTRHhy+Dx18G
+         VVrg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=FmdumGOXOIjvsgQ3vvoQSZuaNrmEFjSYrnjA3gh3kpk=;
+        b=s50Pv3dqOKfGN0S6bTzCnhXoTsgaOWKCySbwFxj2Na9z5Bsj5q8gfiJLOyr8wxFrsG
+         JHWzTJ26ewomw3z3xeyIejFZ/QdnhmyH0uPey9f/Mw9KdhMveIzj8AZdTrfk74fwEQ9y
+         7pNeeNO0mU/TW9zyAd2lolMTOMX9FhBXp5OMuNWUlcmI+yvywcoL17+DhreSbiJeYPb0
+         ycgQDkPzA2ZcdBoc1fQGpW0PC5lYPaHmqLZHOxwc87wsd5F5o9w0+vlEV6TijaNB4ND/
+         t/SgC2AAX9qvXhrDpxpydpGPbsPC0GlgK1V4lVZot6W+A8igJL4I9mWG14M+58LjlDrn
+         4JtQ==
+X-Gm-Message-State: AOAM532g9kAJxa07rZhLKIWieyJAzLiN50vsamnjR7XloS68HDIfxBGg
+	fsaN9heEH4lcBPgnmYrMW91R1w6gUogmwLgJqlYGldnuyORwJA==
+X-Google-Smtp-Source: ABdhPJz7vkWeyidZFNHnGqrcYp4GqiyRv51BqMmXEM+XcNPp1NFoYelGemjPlcV4U/Kh4gf0y14HNGFazfoDRPuuGhc=
+X-Received: by 2002:a05:6830:1e8f:: with SMTP id n15mr87443otr.339.1627481037008;
+ Wed, 28 Jul 2021 07:03:57 -0700 (PDT)
+MIME-Version: 1.0
+References: <a86e57f94816615bd21e26e538410b82@soliveenergiasolar.com.br>
+ <CAHtsUnv+AzCry=jnKA-HvaeWfFMFYH7cnY8sKUQ=9j9hmqMFvw@mail.gmail.com>
+ <9ea1a82cd2183732a508f7753e957713@soliveenergiasolar.com.br> <CAHtsUntPOzjArcH9t7Kj=9avTnyLk8kU+ZEyqXSUpFCKWOfZeQ@mail.gmail.com>
+In-Reply-To: <CAHtsUntPOzjArcH9t7Kj=9avTnyLk8kU+ZEyqXSUpFCKWOfZeQ@mail.gmail.com>
+From: Willian Stopassola <wstopassola@gmail.com>
+Date: Wed, 28 Jul 2021 11:03:45 -0300
+Message-ID: <CAHtsUntcBbUbA19qBkkkKK+9nVKo1A3-VYWL-8buyo1Yo5xN7A@mail.gmail.com>
+Subject: Re: Cliente - Ronald
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="00000000000016f1f805c82f7511"
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Bom dia. Projeto protocolado: 19512/2021 Em ter., 27 de jul.
+    de 2021 às 22:36, Willian Stopassola < escreveu: 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 T_SPF_TEMPERROR        SPF: test of record failed (temperror)
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [wstopassola[at]gmail.com]
+  0.0 T_SPF_HELO_TEMPERROR   SPF: test of HELO record failed (temperror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+X-Spam-Flag: NO
+
+--00000000000016f1f805c82f7511
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Bom dia.
+
+Projeto protocolado: 19512/2021
+
+Em ter., 27 de jul. de 2021 =C3=A0s 22:36, Willian Stopassola <
+wstopassola@gmail.com> escreveu:
+
+> Boa noite.
+>
+> Segue unifilar e comprovante de ART, em breve encaminho o protocolo.
+>
+> Em ter., 27 de jul. de 2021 =C3=A0s 11:15, <contato@soliveenergiasolar.co=
+m.br>
+> escreveu:
+>
+>> Em 2021-07-27 00:47, Willian Stopassola escreveu:
+>> > Prezado, boa noite.
+>> >
+>> > Faltou a rela=C3=A7=C3=A3o de materiais, e c=C3=B3pia de documento ofi=
+cial com
+>> > foto do cliente, a foto do disjuntor do padr=C3=A3o est=C3=A1 ileg=C3=
+=ADvel.
+>> >
+>> > Favor encaminhar, sem tais informa=C3=A7=C3=B5es n=C3=A3o consigo elab=
+orar o
+>> > projeto e ART.
+>> >
+>> > Em seg., 26 de jul. de 2021 =C3=A0s 11:58,
+>> > <contato@soliveenergiasolar.com.br> escreveu:
+>> >
+>> >> Segue em anexo.
+>> >>
+>> >> Analise do local de instala=C3=A7=C3=A3o feita pelo Felipe Eng. Civil=
+.
+>> Segue em anexo.
+>>
+>> Disjuntor 2#50A - Monofasico Rural
+>
+>
+
+--00000000000016f1f805c82f7511
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Bom dia.<div><br></div><div>Projeto protocolado:=C2=A0<spa=
+n style=3D"color:rgb(51,51,51);font-family:Verdana,Arial,Helvetica,sans-ser=
+if;font-size:11px;text-align:right">19512/2021</span></div></div><br><div c=
+lass=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">Em ter., 27 de j=
+ul. de 2021 =C3=A0s 22:36, Willian Stopassola &lt;<a href=3D"mailto:wstopas=
+sola@gmail.com">wstopassola@gmail.com</a>&gt; escreveu:<br></div><blockquot=
+e class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px s=
+olid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">Boa noite.<div><br=
+></div><div>Segue unifilar e comprovante de ART, em breve encaminho o proto=
+colo.</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"g=
+mail_attr">Em ter., 27 de jul. de 2021 =C3=A0s 11:15, &lt;<a href=3D"mailto=
+:contato@soliveenergiasolar.com.br" target=3D"_blank">contato@soliveenergia=
+solar.com.br</a>&gt; escreveu:<br></div><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);pad=
+ding-left:1ex">Em 2021-07-27 00:47, Willian Stopassola escreveu:<br>
+&gt; Prezado, boa noite.<br>
+&gt; <br>
+&gt; Faltou a rela=C3=A7=C3=A3o de materiais, e c=C3=B3pia de documento ofi=
+cial com<br>
+&gt; foto do cliente, a foto do disjuntor do padr=C3=A3o est=C3=A1 ileg=C3=
+=ADvel.<br>
+&gt; <br>
+&gt; Favor encaminhar, sem tais informa=C3=A7=C3=B5es n=C3=A3o consigo elab=
+orar o<br>
+&gt; projeto e ART.<br>
+&gt; <br>
+&gt; Em seg., 26 de jul. de 2021 =C3=A0s 11:58,<br>
+&gt; &lt;<a href=3D"mailto:contato@soliveenergiasolar.com.br" target=3D"_bl=
+ank">contato@soliveenergiasolar.com.br</a>&gt; escreveu:<br>
+&gt; <br>
+&gt;&gt; Segue em anexo.<br>
+&gt;&gt; <br>
+&gt;&gt; Analise do local de instala=C3=A7=C3=A3o feita pelo Felipe Eng. Ci=
+vil.<br>
+Segue em anexo.<br>
+<br>
+Disjuntor 2#50A - Monofasico Rural</blockquote></div>
+</blockquote></div>
+
+--00000000000016f1f805c82f7511--

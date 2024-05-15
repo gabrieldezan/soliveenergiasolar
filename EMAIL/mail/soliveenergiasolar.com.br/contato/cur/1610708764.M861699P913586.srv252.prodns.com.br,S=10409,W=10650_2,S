@@ -1,0 +1,241 @@
+Return-Path: <cad-mail-43@cadastro.globo.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from srv252.prodns.com.br
+	by srv252.prodns.com.br with LMTP
+	id oOA3Mxx3AWCy8A0AAYt2BQ
+	(envelope-from <cad-mail-43@cadastro.globo.com>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 15 Jan 2021 08:06:04 -0300
+Return-path: <cad-mail-43@cadastro.globo.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 15 Jan 2021 08:06:04 -0300
+Received: from cad-mail-43.cadastro.globo.com ([201.7.190.25]:14103)
+	by srv252.prodns.com.br with esmtp (Exim 4.93)
+	(envelope-from <cad-mail-43@cadastro.globo.com>)
+	id 1l0Mvb-003xGf-RZ
+	for contato@soliveenergiasolar.com.br; Fri, 15 Jan 2021 08:06:04 -0300
+Received: from dispatcher-prod-be-8.cmal25be-118.cp.globoi.com (unknown [10.143.129.101])
+	by cad-mail-43.cadastro.globo.com (Postfix) with ESMTP id D88ED32B0B98F
+	for <contato@soliveenergiasolar.com.br>; Fri, 15 Jan 2021 08:05:51 -0300 (-03)
+DKIM-Filter: OpenDKIM Filter v2.11.0 cad-mail-43.cadastro.globo.com D88ED32B0B98F
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cadastro.globo.com;
+	s=cadastro; t=1610708751;
+	bh=s4WyEMci0soKx3XbdCzRbUO3uJi3UNSA6S+fKGl6+tw=;
+	h=From:To:Subject:Date:From;
+	b=GJ0/9fIehVCE4vg0GCmAP3ZQe+zU28CdsEcDmppgMVXkumoutHO5m4bXs6tl2jdTU
+	 Iwa2NsxRQjhFqaCyFLgCTvCxdlhou7Wdj2S+Zgvl3Yggtsqxgyc9xsysMGjHQ+rdPC
+	 rJdTyTBv5y54oNbye1etHssuv3xCZkRn52gOhqa9U7QVP5KxSF1iiXz+CWZhpqtDb0
+	 0Hlmf6zZkn+sgW2TR9biLXE43mJoi5JifMh8fHqt6/EuSao1oWZ16at5g2uOzOsyBG
+	 rOSVTSJFPeD6BeRTiWJH9swK4N/GFs7kLdZWmKfBEgajXPj9vf8VgxZ58M8OXnKp5L
+	 EwPpwhcm5cWpg==
+From: Conta Globo <cad-mail-43@cadastro.globo.com>
+To: Rodrigo Oliveira <contato@soliveenergiasolar.com.br>
+Message-Id: <1740384689.28041.1610708751884@cadastro.globo.com>
+Subject: Clique para ativar sua conta
+MIME-Version: 1.0
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 15 Jan 2021 08:05:51 -0300 (BRT)
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <link rel=3D"preload" href=3D"https://s3.glbimg.com/cdn/fonts/globotipo=
+/rounded/Globo_Rd_Bk.woff2" as=3D"font" crossorigin>
+    <link rel=3D"preload" href=3D"https://s3.glbimg.com/cdn/fonts/globotipo=
+/texto/Globo_Tx_Rg.woff2" as=3D"font" crossorigin>
+    <link rel=3D"preload" href=3D"https://s3.glbimg.com/cdn/fonts/globotipo=
+/texto/Globo_Tx_Bd.woff2" as=3D"font" crossorigin>
+    <title>Conta Globo</title>
+
+    <style type=3D"text/css">
+        @font-face {
+          font-family: 'GlobotipoRounded-Rd';
+          font-weight: bold;
+          src: url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_R=
+d_Bd.woff2') format('woff2'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_=
+Rd_Bd.woff') format('woff'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_=
+Rd_Bd.ttf') format('truetype');
+         }
+        @font-face {
+            font-family: "opensans-regular";
+            src: url('https://s3.glbimg.com/cdn/fonts/opensans/regular.woff=
+2') format("woff2"), url('https://s3.glbimg.com/cdn/fonts/opensans/regular.=
+woff') format("woff"), url('https://s3.glbimg.com/cdn/fonts/opensans/regula=
+r.ttf') format("truetype");
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        @font-face {
+          font-family: 'GlobotipoRounded-Bk';
+          font-weight: 400;
+          src: url('https://s3.glbimg.com/cdn/fonts/globotipo/rounded/Globo=
+_Rd_Bk.woff2') format('woff2'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/rounded/Glob=
+o_Rd_Bk.woff') format('woff'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/rounded/Glob=
+o_Rd_Bk.ttf') format('truetype');
+        }
+
+        @font-face {
+          font-family: 'GlobotipoTexto';
+          font-weight: bold;
+          src: url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_T=
+x_Bd.woff2') format('woff2'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_=
+Tx_Bd.woff') format('woff'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_=
+Tx_Bd.ttf') format('truetype');
+        }
+
+        @font-face {
+          font-family: 'GlobotipoTexto';
+          font-weight: normal;
+          src: url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_T=
+x_Rg.woff2') format('woff2'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_=
+Tx_Rg.woff') format('woff'),
+                url('https://s3.glbimg.com/cdn/fonts/globotipo/texto/Globo_=
+Tx_Rg.ttf') format('truetype');
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        @media only screen and (min-device-width: 100px) and (max-device-wi=
+dth: 600px) {
+            #innerLayoutTable {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body style=3D"width: 100% !important; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; margin: 0;
+            padding: 0; background-color: #ffffff;font-family: opensans-reg=
+ular, arial, helvetica, clean, sans-serif; color: #666666;">
+
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" id=3D"backgroundTab=
+le" bgcolor=3D"#ffffff " width=3D"100%" style=3D"margin: 0; padding: 0; wid=
+th: 100% !important; line-height: 100% !important;
+                    border-collapse: collapse; mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt; ">
+    <tr>
+        <td align=3D"center" style=3D"border-collapse: collapse;">
+            <br>
+            <table id=3D"innerLayoutTable" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" align=3D"center" bgcolor=3D"white" style=3D"width: 640px; =
+border-collapse: collapse; mso-table-lspace: 0pt;mso-table-rspace: 0pt; bor=
+der: 1px solid #e2e2e2; ">
+                <tr>
+                    <td colspan=3D"3" valign=3D"middle" bgcolor=3D"#191919"=
+ height=3D"44" align=3D"center" style=3D"border-collapse: collapse; padding=
+:0;">
+                        <img class=3D"image_fix" height=3D"24" src=3D"http:=
+//s2.glbimg.com/7ezD7i8JvYWO213sOWh4O1tiKgs=3D/200x0/filters:quality(70)/i.=
+s3.glbimg.com/v1/AUTH_289b15c387f64a3a818a911b0a9db9ab/internal_photos/bs/2=
+019/X/3/BrwunHTsOPgwzMH7iBGA/conta-globo.png" alt=3D"Conta Globo" title=3D"=
+Conta Globo" style=3D"outline: none; max-height: 70px; text-decoration: non=
+e; -ms-interpolation-mode: bicubic; display: block;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=3D"3" height=3D"32"> &nbsp; </td>
+                </tr>
+                <tr>
+                    <td width=3D"54.5" style=3D"border-collapse: collapse;"=
+>&nbsp;</td>
+                    <td valign=3D"top" style=3D"border-collapse: collapse;"=
+>
+<table width=3D"100%"
+    style=3D"text-align:center; font-size: 16px;line-height: 1.5; font-fami=
+ly: opensans-regular, arial, helvetica, clean, sans-serif;">
+    <tr>
+        <td>
+            <h1
+                style=3D"font-size: 18px;font-weight: bold;line-height: 1.5=
+; font-family: opensans-regular, arial, helvetica, clean, sans-serif; color=
+: #333333; margin: 0;">
+                Ol=C3=A1, Rodrigo Oliveira
+            </h1>
+            <p style=3D"font-family: opensans-regular, arial, helvetica, cl=
+ean, sans-serif; margin: 8px 0 24px 0;">
+                Falta apenas um passo para finalizar o seu cadastro.<br /><=
+strong>Confirme seu e-mail</strong> para
+                ativar sua Conta Globo.
+            </p>
+            <p style=3D"margin: 0;">
+                <a href=3D"https://login.globo.com/4654/#/ativar/contato@so=
+liveenergiasolar.com.br/fe7e070f-0bd5-413d-b08c-ce31301e98a7.bikVj0ycwKYxOq=
+I855-EIw%3D%3D" target=3D"_blank" title=3D"Clique aqui para confirmar seu e=
+mail" style=3D"color: white; text-decoration: none; background-color: #1919=
+19;
+                         display: inline-block; border-radius: 3px; cursor:=
+ pointer;
+                         font-size: 12px; width: 191px; height: 36px; line-=
+height: 36px; font-weight: bold;
+                         font-family: proximanova-bold-limited,helvetica,ar=
+ial,sans-serif">CONFIRMAR E-MAIL</a>
+            </p>
+            <p
+                style=3D"font-family: opensans-regular, arial, helvetica, c=
+lean, sans-serif; font-size: 12px; margin:56px 0 0 0;">
+                Se tiver problemas, copie e cole o link abaixo em outra jan=
+ela do seu navegador:<br />
+                <a href=3D"https://login.globo.com/4654/#/ativar/contato@so=
+liveenergiasolar.com.br/fe7e070f-0bd5-413d-b08c-ce31301e98a7.bikVj0ycwKYxOq=
+I855-EIw%3D%3D" target=3D"_blank" title=3D"Clique aqui para confirmar seu e=
+mail"
+                    style=3D"text-decoration: none; line-height: 1.3; font-=
+size: 10px; color: #191919; font-weight: bold;">https://login.globo.com/465=
+4/#/ativar/contato@soliveenergiasolar.com.br/fe7e070f-0bd5-413d-b08c-ce3130=
+1e98a7.bikVj0ycwKYxOqI855-EIw%3D%3D</a>
+            </p>
+        </td>
+    </tr>
+</table>
+                        </td>
+                        <td width=3D"30" style=3D"border-collapse: collapse=
+;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan=3D"3" height=3D"16" style=3D"border-col=
+lapse: collapse;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td width=3D"30" style=3D"border-collapse: collapse=
+;">&nbsp;</td>
+                        <td id=3D"footer" valign=3D"middle" align=3D"center=
+" height=3D"46" style=3D"border-top: 1px solid #d8d8d8;border-collapse: col=
+lapse;">
+                            <p style=3D"font-family: Open Sans,Helvetica,sa=
+ns-serif; margin: 1em 0; font-size: 10px; color: #333333;">
+                                EQUIPE GLOBO
+                            </p>
+                        </td>
+                        <td width=3D"54.5" style=3D"border-collapse: collap=
+se;">&nbsp;</td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

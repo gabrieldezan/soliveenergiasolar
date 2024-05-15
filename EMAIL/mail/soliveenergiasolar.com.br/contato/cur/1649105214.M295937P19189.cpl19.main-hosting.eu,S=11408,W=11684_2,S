@@ -1,0 +1,276 @@
+Return-Path: <>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id KFxMET5ZS2L1SgAAJcoV8Q
+	(envelope-from <>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 04 Apr 2022 20:46:54 +0000
+Return-path: <>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 04 Apr 2022 20:46:54 +0000
+Received: from anteater.oak.relay.mailchannels.net ([23.83.215.3]:38102)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1nbTb8-000BTu-TW
+	for contato@soliveenergiasolar.com.br; Mon, 04 Apr 2022 20:46:54 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id 3FCCC6C135D; Mon,  4 Apr 2022 20:46:49 +0000 (UTC)
+Date: Mon,  4 Apr 2022 20:46:49 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: contato@soliveenergiasolar.com.br
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="F0A276C11C3.1649105209/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20220404204649.3FCCC6C135D@relay.mailchannels.net>
+X-Spam-Status: No, score=-0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (-0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ssw.inf.br]
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--F0A276C11C3.1649105209/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<notifications-noreply@solfacil.com.br>: host aspmx.l.google.com[74.125.135.27]
+    said: 550-5.1.1 The email account that you tried to reach does not exist.
+    Please try 550-5.1.1 double-checking the recipient's email address for
+    typos or 550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    l16-20020a170903121000b0015651a49b5asi11231335plh.464 - gsmtp (in reply to
+    RCPT TO command)
+
+--F0A276C11C3.1649105209/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: F0A276C11C3
+X-Postfix-Sender: rfc822; contato@soliveenergiasolar.com.br
+Arrival-Date: Mon,  4 Apr 2022 20:46:47 +0000 (UTC)
+
+Final-Recipient: rfc822; notifications-noreply@solfacil.com.br
+Original-Recipient: rfc822;notifications-noreply@solfacil.com.br
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; aspmx.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does
+    not exist. Please try 550-5.1.1 double-checking the recipient's email
+    address for typos or 550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    l16-20020a170903121000b0015651a49b5asi11231335plh.464 - gsmtp
+
+--F0A276C11C3.1649105209/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <contato@soliveenergiasolar.com.br>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id F0A276C11C3
+	for <notifications-noreply@solfacil.com.br>; Mon,  4 Apr 2022 20:46:47 +0000 (UTC)
+Received: from cpl19.main-hosting.eu (unknown [127.0.0.6])
+	(Authenticated sender: hostingercpanel)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 9B52E6C094B
+	for <notifications-noreply@solfacil.com.br>; Mon,  4 Apr 2022 20:46:46 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1649105206; a=rsa-sha256;
+	cv=none;
+	b=9axt1Bv14ttwse4FSaHbK7QrKMP/PC+9OnL+FUzKjYDTfwKsxijkUS0A1SgvZT8ZOzkvn/
+	i+ra5/DI6bIERZQR4XeIhB1PkYOGitj4h3R38GPO4/jPa4mqub0YsQ9sNYw7cCel2ZfpJv
+	Df0WRpnQuzotHCW16YS9ci6/LWwEuKFpTfXvreyQ2K7N/E123BqZdwcAuKJS8T6fZxk0rE
+	OY8rtQFnVGOjP4xD5dqXVfTwxuT2HYyt6RQYcuSWmAzcopFjP2UGoH6b01hJqvytEc1eWK
+	6KXdS9yxOPQr07QeW7ReraqyoYAWb8u6jvzmIItv75prg8VQx8WXg4WlhE+Rgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1649105206;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:
+	 in-reply-to:in-reply-to:references:references:dkim-signature;
+	bh=8Dbvaex/PS8bpPOlY92dSVrmHjp4MlSfjpF+zkdCe0U=;
+	b=rLVpJ7yjMC7516nV5pGAFJdXSEcc/LoMtZvr5o6OwfbhHmnOyd4YfzI2/QP8moCORwpB7m
+	+x/Xl8J1Wz9mSWQJur7fIKwLPnyxcomiu3d9l/6s5mFfA3dkScymNPltugmbnuopm9uj1p
+	v1eAtgEORJhPG4aRi0U26oENzDbgI9GR5M878MocKXYy51cbuyPxdAluOztSrvrdBa+hIy
+	mkK46xbHex9JnfxjLGKvtUl9aZ3Uc0dQB9eL3K7xDilSFx/vGTEMxnlzqaXUuR8XilDpVW
+	uvFbValHYarOLAM/a5baBREy/M4ePicchelbThKyDej9mbIOvxyehpF8Y1iD0A==
+ARC-Authentication-Results: i=1;
+	rspamd-f76767c84-jgprx;
+	auth=pass smtp.auth=hostingercpanel
+ smtp.mailfrom=contato@soliveenergiasolar.com.br
+X-Sender-Id: hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu (cpl19.main-hosting.eu
+ [109.106.251.201])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.116.106.87 (trex/6.7.1);
+	Mon, 04 Apr 2022 20:46:47 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId:
+ hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MailChannels-Auth-Id: hostingercpanel
+X-Wide-Eyed-Society: 5629fd9a6277b25d_1649105207629_3224287996
+X-MC-Loop-Signature: 1649105207629:526861390
+X-MC-Ingress-Time: 1649105207629
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=soliveenergiasolar.com.br; s=default; h=Content-Transfer-Encoding:
+	Content-Type:Message-ID:References:In-Reply-To:Subject:To:From:Date:
+	MIME-Version:Sender:Reply-To:Cc:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=8Dbvaex/PS8bpPOlY92dSVrmHjp4MlSfjpF+zkdCe0U=; b=bUZdoShqm1F49GYCh0euHhs8AG
+	rQJxpwsJW3/wPs4tuBjgNiNwtD2hSmKG4mw21DVgHIFs7DMytJolXVpMnYhpu1iPQi7dZPT+5410Y
+	0KBmXiqAUFuwqot0/o3hWeGwCuvUwxESmC2rf0b7HdE4ngrAkEZaGTIbLVF3g7tsGMN8Gj8A/qKxT
+	YYZp/Nc7OdvILj86vj+jBW6NfwfEZw1JHaAcv6grubuaybMVMFlBOgkxg0s0fb1MVSDVoaL5o3fxV
+	HPFBub9ijd24APOAofvSpwgq8nl/Zq3W+t0zESiUE0+SS7p73nK8R/UXZ1ZaOUvPcG+dbmOI73Fb8
+	5XtAzy8Q==;
+Received: from localhost ([127.0.0.1]:56850 helo=cpl19.main-hosting.eu)
+	by cpl19.main-hosting.eu with esmtpa (Exim 4.94.2)
+	(envelope-from <contato@soliveenergiasolar.com.br>)
+	id 1nbTb2-000BRl-EL
+	for notifications-noreply@solfacil.com.br; Mon, 04 Apr 2022 20:46:45 +0000
+MIME-Version: 1.0
+Date: Mon, 04 Apr 2022 20:46:44 +0000
+From: contato@soliveenergiasolar.com.br
+To: =?UTF-8?Q?Solf=C3=A1cil?= <notifications-noreply@solfacil.com.br>
+Subject: =?UTF-8?Q?Re=3A_=5BSolf=C3=A1cil=5D_Solf=C3=A1cil_-_Atualiza?=
+ =?UTF-8?Q?=C3=A7=C3=A3o_no_status_do_pedido_HSUT8054?=
+In-Reply-To: <20220404200837.ec0f33eb1b07af60@marketplace.solfacil.com.br>
+References: <20220404200837.ec0f33eb1b07af60@marketplace.solfacil.com.br>
+User-Agent: Roundcube Webmail/1.4.12
+Message-ID: <06c9c42fbae0d0bfc3cb61d48be7dd13@soliveenergiasolar.com.br>
+X-Sender: contato@soliveenergiasolar.com.br
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 8bit
+X-AuthUser: contato@soliveenergiasolar.com.br
+
+Em 2022-04-04 20:08, Solfácil escreveu:
+> O pedido abaixo teve uma atualização no status
+> 
+>   
+> 
+>  Pedido HSUT8054
+> 
+>   
+> 
+>  Pedido recebido 		 24/03/2022
+> 
+>  Pedido confirmado 		 04/04/2022
+> 
+>  Pedido pago 		 04/04/2022
+> 
+>  NF emitida 		 04/04/2022
+> 
+>  Entregue 		 (Previsão) - A definir
+> 
+>  Olá, Solive Energia Solar Ltda! A nota fiscal para o cliente Paulo
+> Cesar Melin está disponível, com a informação da transportadora
+> responsável. Consulte a previsão de entrega no site:
+> https://ssw.inf.br/2/rastreamento_danfe Transportadora: Fedex É
+> possível rastrear através do CPF/CNPJ ou chave de acesso da nota.
+> Algumas transportadoras podem demorar até 48 horas para receber a
+> nota. Caso o prazo se encerre e você não consiga consultar a
+> previsão, nos avise ou entre em contato diretamente com a
+> transportadora. Lembrando que o frete não inclui descarregamento.
+> Portanto, pedimos que entre em contato com a empresa responsável pela
+> entrega para acertar detalhes de manuseio e evitar eventuais
+> problemas. Seguimos à disposição para qualquer dúvida ou
+> divergência através do WhatsApp (11) 95421 3794 ou pelo e-mail:
+> loja@solfacil.com.br Loja Solfácil
+> 
+> Loja Solfácil
+> 
+>   
+> 
+>  Qtde.: 1 Pronta Entrega Inversores
+> 
+>  	* * Deye - 5.0 kW Monofásico
+> 
+>  Trina - DAH - 5.5 kWp (10 x 550 Wp) Telhado metálico Frete Incluso
+> R$15.896,64
+> 
+>  		 Qtd: 1
+>  		 Valor Total: R$15.896,64
+> 
+>   
+> 
+>  Endereço de entrega Rua Pernambuco, 3165 chapeação Coelho
+> Coqueiral, Cascavel - PR
+> 85807-050
+> 
+>  Forma de pagamento Para o meu cliente
+> Pagamento à vista
+> Pessoa Física
+> 
+>  Dados do cliente Paulo Cesar Melin
+>  contato@soliveenergiasolar.com.br [1]
+> (45) 99131-4570
+> 
+>  Responsável pelo pedido Solive Energia Solar Ltda
+>  contato@soliveenergiasolar.com.br [1]
+> +55 (44) 99984-6991
+> 
+>   
+> 
+>  Detalhes do pedido Acesse em “Meus pedidos”, clicando aqui
+> 
+>   
+> 
+>  Qualquer dúvida, entre em contato!
+> 
+>  		 E-mail: loja@solfacil.com.br [2]
+> 
+>  		 Celular/WhatsApp: (11) 91044-3637 [3]
+> 
+>  		 www.solfacil.com.br [4]
+> 
+> 
+> 
+> Links:
+> ------
+> [1] maito:contato@soliveenergiasolar.com.br
+> [2] maito:loja@solfacil.com.br
+> [3] tel:+551195421-3794
+> [4] 
+> http://email.marketplace.solfacil.com.br/c/eJxdjbEOwyAQQ78mjOjgKGRh6NL_OOhdg0pCRFC_vwydKlmWrGfZz2gC8RpUiRasBQfOAqwYNGcQRE4mQSDxsDjYqb95nJUy66tVoVyqzm3XqastCooBJymDMTDtxom9F29wdY4Dqhq3Mc5rwftiH1P_Ez3mdgwabV5NVj7MB_dXoRmo_1pfLHk32Q
+Boa tarde,
+
+Não recebi a nota fiscal do produto.
+
+--F0A276C11C3.1649105209/relay.mailchannels.net--

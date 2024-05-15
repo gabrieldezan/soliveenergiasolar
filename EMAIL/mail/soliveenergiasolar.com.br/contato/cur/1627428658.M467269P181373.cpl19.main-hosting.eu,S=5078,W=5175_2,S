@@ -1,0 +1,97 @@
+Return-Path: <wstopassola@gmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id tVp7GzKXAGF9xAIAJcoV8Q
+	(envelope-from <wstopassola@gmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 27 Jul 2021 23:30:58 +0000
+Return-path: <wstopassola@gmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 27 Jul 2021 23:30:58 +0000
+Received: from mail-ot1-f54.google.com ([209.85.210.54]:41832)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <wstopassola@gmail.com>)
+	id 1m8WXK-000lBE-4H
+	for contato@soliveenergiasolar.com.br; Tue, 27 Jul 2021 23:30:58 +0000
+Received: by mail-ot1-f54.google.com with SMTP id c2-20020a0568303482b029048bcf4c6bd9so218557otu.8
+        for <contato@soliveenergiasolar.com.br>; Tue, 27 Jul 2021 16:30:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=eDC0jPL9ZTlh6WuKKGmuHAYZssX5ahzrT5GiKXrVDHM=;
+        b=YWSDN945l5jwG3fJKNVy2rdKU3jMCH1juKsQerrwhaHpo272TnaaL+5ETY36q9hkTN
+         Fsi/bI8SARK2toTpdD7GOaOm8ozWJaTsyoNXEsV+l+fq2QzitbnYVKVlVhv5UtnBct/7
+         Y7m8Ikf5JHU4/uxOYAQV3QLeJWvGIQlsD4xs/35h0teacA28YXRgFmOwcQqQzxa4mUUa
+         uIfJPas81YJ6HVsBVWLFbv9doUtVtLIQ261+VQ9bx+LDp+SiIOoTV4nI0wY1EcXiTJEg
+         9mcRpXST80uV55XoK/oATmeixndPORdDfUk+nicDz3H3pGxC7a+209tc6uBc2oJk9d5f
+         v8cQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=eDC0jPL9ZTlh6WuKKGmuHAYZssX5ahzrT5GiKXrVDHM=;
+        b=HOhXS8Xi0uEyKWwYDfp+qIZQqz5VnXKh2fYBLRzNn0l0YrU8+Zx1Kad55mV/XW8w66
+         HshWId1sJ+77ZcTBIby6O0rLIhemqVb7OXeW3WkQUt7oXeZJa7Ibz/I1b5nO6yEbE6Tp
+         sFUqZ3Dc0i92v7wZKh64zY1T4Vc10vuAJFnaBqsx1AG6pwysaLzRHz5lWhxrUkRLr9ov
+         BzaSRcFQKEPMbkL68x2rBkW/5yv7JKsx5QkylwO2aelXc2PgXyb9GtVwvJVtXnaFYFSc
+         /drlizLFx7WVD5b5J3DJQZFiP3dthZUORaBc4SEcVtOleGrVDb4umAZXXea6ibro0oNL
+         k6kQ==
+X-Gm-Message-State: AOAM531XKXkNQxtDC6WfPdaw7rYSLWo3fU+cPIHuSmE1dDMf15bZr5Ua
+	m10njHMgUBhy9gInxfzR3ZClLrP5ckPXASYo+Rgm9xVZ7pi34w==
+X-Google-Smtp-Source: ABdhPJxL8PeA9cocCyoXKPMah8m5jRUX4kf9sOlzTnN3SZd2uhAJZkElNaG3/CkcczSNVPbAxgqu2OP+l0a0hTxmbFs=
+X-Received: by 2002:a05:6830:1e8f:: with SMTP id n15mr17402930otr.339.1627428656235;
+ Tue, 27 Jul 2021 16:30:56 -0700 (PDT)
+MIME-Version: 1.0
+References: <adcfc314388a9f665d8ee0ade2aa2ac8@soliveenergiasolar.com.br>
+ <CAHtsUnsgyGye5NpXrQto8MrEe=stVHEJx4tp4AtuPqLCfUK--g@mail.gmail.com>
+ <CAHtsUns9e+oz4tArNGFFHkRfqiuRRDXAfh040fAZAH8mg78JLw@mail.gmail.com> <25b966ec7915161d228911986c6c3f71@soliveenergiasolar.com.br>
+In-Reply-To: <25b966ec7915161d228911986c6c3f71@soliveenergiasolar.com.br>
+From: Willian Stopassola <wstopassola@gmail.com>
+Date: Tue, 27 Jul 2021 20:30:46 -0300
+Message-ID: <CAHtsUnsGjbFe0axK-5czoQvYdZGC5tLAXZi9zH3zerWFgXD-Ew@mail.gmail.com>
+Subject: Re: Cliente - Terezinha
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="000000000000f3c6d605c823428e"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Boa noite. Projeto protocolado: n°19447/2021. Boa noite. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [wstopassola[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--000000000000f3c6d605c823428e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Boa noite.
+
+Projeto protocolado: n=C2=B019447/2021.
+
+--000000000000f3c6d605c823428e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr">Boa noite.=C2=A0<div><br></div><div>Proje=
+to protocolado: n=C2=B019447/2021.</div></div></div>
+
+--000000000000f3c6d605c823428e--

@@ -1,0 +1,376 @@
+Return-Path: <3ae8.82.15fd50002215e07.dce464b037f026a36d496996789c850e@tracking.vivo.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id iNZGIy/JY2RJWQAAIElduQ
+	(envelope-from <3ae8.82.15fd50002215e07.dce464b037f026a36d496996789c850e@tracking.vivo.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 16 May 2023 18:19:27 +0000
+Return-path: <3ae8.82.15fd50002215e07.dce464b037f026a36d496996789c850e@tracking.vivo.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 16 May 2023 18:19:27 +0000
+Received: from s1-ba8c.socketlabs.email-od.com ([142.0.186.140]:58859)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <3ae8.82.15fd50002215e07.dce464b037f026a36d496996789c850e@tracking.vivo.com.br>)
+	id 1pyzGg-0007Ag-30
+	for contato@soliveenergiasolar.com.br;
+	Tue, 16 May 2023 18:19:27 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=vivo.com.br;s=key1;
+	c=relaxed/relaxed; q=dns/txt; t=1684261167; x=1686853167;
+	h=content-transfer-encoding:content-type:mime-version:subject:date:message-id:to:from:list-unsubscribe:x-thread-info:subject:to:from:cc:reply-to;
+	bh=BKpFxZKpHkdNUnPrCvikoHonPP0rYtLl+q2tEoaE+Ds=;
+	b=fQaJ7GoEq4LZw99QePBC6Y7SCp+pzSaRG18HSBKQlZD0CvxCtrzxPZCFJ2dF94lHLhJ5NNeo9eTPejqKdoXoGd9zrNIG8woHBt13BBRfQ8NHXe2ioFVdQgV8SfxyQuuIgS0E46EZ/sIj8kB7DxhmSvib0mGlb4cUcblu4D6lnB4=
+DKIM-Signature: v=1; a=rsa-sha256; d=email-od.com;i=@email-od.com;s=dkim;
+	c=relaxed/relaxed; q=dns/txt; t=1684261167; x=1686853167;
+	h=content-transfer-encoding:content-type:mime-version:subject:date:message-id:to:from:list-unsubscribe:x-thread-info:subject:to:from:cc:reply-to;
+	bh=BKpFxZKpHkdNUnPrCvikoHonPP0rYtLl+q2tEoaE+Ds=;
+	b=XksuueLN5weCKkbwq7lYaHyHHBYdheYvrOVJm16B7xhbVarQoqqmQRGf27C1gGasPUWjLe4Jl7H6OLQ5U92RgBb4hGYnFyC8PxmkifegFL5uCL/9eqlnhU6PThk7au6/uvX+wEFIgmCYJpa6kNdZ0gHKh6x77n6Uke7dbK7TH3c=
+X-Thread-Info: M2FlOC4xZS4xNWZkNTAwMDIyMTVlMDcuMjEzMDM1MDE3Ni5WSVZPQ0FNUEFOSEEyMDIzMDUxNS5jb250YXRvPXNvbGl2ZWVuZXJnaWFzb2xhci5jb20uYnI=
+List-Unsubscribe: <https://tracking.vivo.com.br/unsubscribe?ref=6DoAADMarADOIhtjb8rPAKyeTes76MAiAQAAAGbUdBuktM5W8rn56dwepLH8O_1qyAOHbIemmb_t-vkp7ma3NTZj3a2CtJ7tgu_thsa3Oy6KWfWOoYsvH_CXL0273ewyh1PhP9xm_se7gQbbNkL7rRftFmrnHu1JK5PVhfAwbuV58CvUOJd_vyfu-qWbn94EmiNAvHGooNwKlO1_OpWqIrbjhfzbr8NPYjIRi-HUXtMmObigEBsJjNSRLgY>
+Received: from r3.us-east-1.aws.in.socketlabs.com (r3.us-east-1.aws.in.socketlabs.com [142.0.191.3]) by mxrs4.email-od.com
+	with ESMTP(version=Tls12 cipher=Aes256 bits=256); Tue, 16 May 2023 14:18:45 -0400
+Received: from 34.95.176.174 by r3.us-east.aws.in.socketlabs.com
+	via HTTP; Tue, 16 May 2023 18:18:45 UTC
+From: "VIVO" <contadigital@vivo.com.br>
+To: "SOLIVE" <contato@soliveenergiasolar.com.br>
+Message-ID: <751e46afe88341cca43240af4e1fccec@vivo.com.br>
+Date: Tue, 16 May 2023 14:18:45 -0400
+Subject: =?utf-8?B?Vml2byAtIFRlcm1vIGRlIFF1aXRhw6fDo28gMjAyMg==?=
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ﻿ Vivo DECLARAÇÃO ANUAL DE QUITAÇÃO DE DÉBITOS 
+ Content analysis details:   (0.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: validsolutions.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant
+                             for tracking
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+ -0.0 DKIMWL_WL_MED          DKIMwl.org - Medium trust sender
+X-Spam-Flag: NO
+
+=EF=BB=BF<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-=
+8" />
+	<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+	<title>Vivo</title>
+	<style type=3D"text/css">
+		table {
+			margin: 0px auto !important;
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		table td,
+		table tr {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		@media screen and (max-width: 600px) {
+
+			table=2EdeviceWidth {
+				width: 100% !important;
+				min-width: 100% !important;
+			}
+
+			table=2EdeviceWidth td {
+				display: block !important;
+				clear: both !important;
+				width: 100% !important;
+				text-align: center !important;
+				padding: 0px !important;
+				min-width: 100% !important;
+				margin: 0 auto !important;
+				margin-top: 0 auto !important;
+			}
+
+			table=2EtableType {
+				min-width: 100%;
+				width: 100% !important;
+				margin: 0 auto !important;
+				margin-top: 0 auto !important;
+			}
+
+			table=2EtableType td {
+				display: table-cell !important;
+				min-width: auto !important;
+				width: auto !important;
+			}
+
+			img=2EimageMobile {
+				width: 100% !important;
+				height: auto !important;
+			}
+
+			*=2EhideThis {
+				display: none !important;
+			}
+
+			*=2Eto90 {
+				width: 93%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div
+		style=3D"display:none;font-size:1px;color:#333333;line-height:1px;max=
+-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+
+	</div>
+
+	<table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"deviceWidth">
+		<tr>
+			<td valign=3D"top" style=3D"line-height:0px; font-size:0px; margin:0=
+px;">
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center">
+					<tr>
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao-2022&i=3D3849_img1=2Ejpg"
+								width=3D"600" height=3D"278" alt=3D"Comunicado Importante, Vivo=
+ empresas=2E"
+								class=3D"imageMobile"></td>
+					</tr>
+				</table>
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+					<tr>
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao&i=3D3556-pixel=2Epng"
+								width=3D"15" height=3D"20" alt=3D""></td>
+					</tr>
+				</table>
+				<table width=3D"86%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+					<tr>
+						<td align=3D"left"
+							style=3D"font-family: Trebuchet MS, Verdana, Geneva, sans-serif;=
+ font-size:25px; line-height:25px; color:#660099;-ms-text-size-adjust:n=
+one;-webkit-text-size-adjust:none; text-align:left!important;">
+							<strong>DECLARA&Ccedil;&Atilde;O ANUAL DE QUITA&Ccedil;&Atilde;O=
+ DE D&Eacute;BITOS</strong>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"left"
+							style=3D"font-family: Trebuchet MS, Verdana, Geneva, sans-serif;=
+ font-size:14px; line-height:19px; color:#707070;-ms-text-size-adjust:n=
+one;-webkit-text-size-adjust:none; text-align:left!important;">
+							<br>
+
+							<p> </p>
+							<br>
+							<p> </p>
+							<b>CLIENTE:</b> SOLIVE</br>
+							<b>CONTRATO:</b> 899930686557
+							<p></p>
+							<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center">
+								<tr>
+									<td align=3D"left"
+										style=3D"font-family: Trebuchet MS, Verdana, Geneva, sans-ser=
+if; font-size:14px; line-height:19px; color:#660099;-ms-text-size-adjus=
+t:none;-webkit-text-size-adjust:none; text-align:left!important; margin=
+-top:15px">
+										<b>Ol&aacute;,</br>
+											</strong></td>
+								</tr>
+							</table>
+
+							<p>
+								Conforme previsto na Lei 12=2E007, de 29 de julho de 2009, a Te=
+lef&ocirc;nica Brasil S=2EA=2E
+								declara que n&atilde;o h&aacute; d&eacute;bitos referentes ao u=
+so dos servi&ccedil;os Vivo Fixo, no ano de
+								2022, pelo contrato acima mencionado=2E
+								<p>
+									Esta declara&ccedil;&atilde;o substitui os comprovantes anteri=
+ores de quita&ccedil;&atilde;o dos seus d&eacute;bitos e
+									comprova o cumprimento dos pagamentos realizados entre os mese=
+s de janeiro a
+									dezembro de 2022 para Vivo Empresas=2E
+									<p>
+										Nesta declara&ccedil;&atilde;o n&atilde;o est&atilde;o inclus=
+as quita&ccedil;&otilde;es de parcelamentos, cobran&ccedil;as de
+										outras operadoras, servi&ccedil;os prestados e n&atilde;o fat=
+urados, d&eacute;bito judicial e
+										administrativo, entre outros n&atilde;o cobertos pela lei aci=
+ma citada=2E
+										<p>
+											Caso tenha alguma d&uacute;vida, fale conosco pela Central d=
+e Atendimento, no
+											telefone 10315=2E Para pessoas com defici&ecirc;ncia de fala=
+ e/ou audi&ccedil;&atilde;o, ligue
+											142=2E
+											<p>
+												<span style=3D"color: #660099;">Esta declara&ccedil;&atilde=
+;o &eacute; exclusiva para o
+													contrato mencionado no in&iacute;cio deste comunicado e n&=
+atilde;o se aplica a
+													outros contratos ou servi&ccedil;os Vivo Empresas=2E</span=
+>
+												<p>
+													Continue contando com as solu&ccedil;&otilde;es de Vivo Em=
+presas para digitalizar
+													o seu neg&oacute;cio=2E
+
+
+
+
+
+
+													<br>
+													<p><br>
+														<p>
+															At&eacute; breve=2E<br>
+															<strong style=3D"color: #660099;">Equipe Vivo
+																Empresas</strong>
+
+															<p><br>
+																<p>
+																	Esta &eacute; uma mensagem autom&aacute;tica=2E Favor =
+n&atilde;o responder=2E
+
+						</td>
+					</tr>
+				</table>
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+					<tr>
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao&i=3D3556-pixel=2Epng"
+								width=3D"15" height=3D"20" alt=3D""></td>
+					</tr>
+				</table>
+				<table width=3D"86%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+					<tr>
+						<td align=3D"left" style=3D"line-height:0px; font-size:0px; margi=
+n:0px;"><a href=3D"https://tracking=2Evivo=2Ecom=2Ebr/?ref=3D6DoAAHhUah=
+yKu2MmoRUZKltix-G7oh06AQAAAPQOm9FopojNyeKpTlAsvC1wAtvS_dBUJsNnpoxuiPReW=
+xdhhUtUT-w29QJnpfP9_SBuwBDx25AFZwy_Senb46_9OOvj_uU_MTKNydB-bs3OqoK1d0JC=
+_qWNTK89muK_5I-AP30lWsY0M4GwBokeUqCy3XXAvNOtosYjveG9aRTWif54NxRk-GtcRBj=
+H0eGK3HmWT-3XRZMPYpu0gLN87tb-KFutRFwyMDmnG6L5Jg7TcJs9VEeUwPO0HKixRbjxRT=
+1QySTzIV1KSQhnoaxx8J4"><img
+									src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/i=
+mages?c=3D1&g=3Dtermo-quitacao-2022&i=3D3849_img2=2Ejpg"
+									width=3D"198" height=3D"44" alt=3D"Suga a gente no Linkedin"><=
+/a></td>
+					</tr>
+				</table>
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+					<tr>
+
+
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao&i=3D3556-pixel=2Epng"
+								width=3D"15" height=3D"20" alt=3D""></td>
+					</tr>
+				</table>
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center">
+					<tr>
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao-2022&i=3D3849_line=2Ejpg"
+								width=3D"600" height=3D"17" alt=3D"" class=3D"imageMobile"></td=
+>
+					</tr>
+				</table>
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+					<tr>
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao&i=3D3556-pixel=2Epng"
+								width=3D"15" height=3D"20" alt=3D""></td>
+					</tr>
+				</table>
+				<table width=3D"86%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+					<tr>
+						<td align=3D"left" style=3D"line-height:0px; font-size:0px; margi=
+n:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao-2022&i=3D3849_img3=2Ejpg"
+								width=3D"194" height=3D"29" alt=3D"Solu&ccedil;&otilde;es Empre=
+sariais=2E Telef&ocirc;nica=2E"></td>
+						<td align=3D"right" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao-2022&i=3D3849_img4=2Ejpg"
+								alt=3D"4=2E5G + Fibra" width=3D"146" height=3D"33"></td>
+					</tr>
+				</table>
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+					<tr>
+						<td align=3D"center" style=3D"line-height:0px; font-size:0px; mar=
+gin:0px;"><img
+								src=3D"https://image=2Evalidsolutions=2Enet/multichannel-web/im=
+ages?c=3D1&g=3Dtermo-quitacao&i=3D3556-pixel=2Epng"
+								width=3D"15" height=3D"30" alt=3D""></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<img src=3D"https://tracking=2Evivo=2Ecom=2Ebr/l=2Egif?ref=3D6DoAAPBZ2m=
+1urDX2EmmWK8Xbl_ONZSkqAQAAAPQOm9FopojNyeKpTlAsvC1wAtvS_dBUJsNnpoxuiPReW=
+xdhhUtUT-w29QJnpfP9_SBuwBDx25AFZwy_Senb46-lpPAeVIFpuhe681k0JxwPG0y1wQjA=
+usdADWMwu8ZUW85COheZn8b2SHL25P8lYm5ElcLb2GaWt8vSuqDojM4TVbz-Ry6I50f0qTQ=
+3aLjlJA" alt=3D"" width=3D0 height=3D0 style=3D"margin:0!important;padd=
+ing:0!important;border:0!important;height:1px!important;width:1px!impor=
+tant"></body>
+
+</html>
+
+

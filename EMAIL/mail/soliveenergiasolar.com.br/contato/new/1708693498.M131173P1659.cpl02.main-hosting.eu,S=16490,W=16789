@@ -1,0 +1,299 @@
+Return-Path: <MARCELJOSE@correios.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id GIY8B/qX2GV7BgAAIElduQ
+	(envelope-from <MARCELJOSE@correios.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 23 Feb 2024 13:04:58 +0000
+Return-path: <MARCELJOSE@correios.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 23 Feb 2024 13:04:58 +0000
+Received: from mail-roabra01on2128.outbound.protection.outlook.com ([40.107.111.128]:31200 helo=BRA01-ROA-obe.outbound.protection.outlook.com)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <MARCELJOSE@correios.com.br>)
+	id 1rdVEW-0002kL-20
+	for contato@soliveenergiasolar.com.br;
+	Fri, 23 Feb 2024 13:04:58 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XoJiyJUpG2KCGvSgWHe0210xEhxpQtimDGcP2oioCgKSlgGE22bItcMxkbwwz0IXV4sRqj6k/CYiOjXTjnSTC1AtnBeKP2VsSWO831N9KY8URyFun9aJZlw7E7s3sOUksuoOtOV/7gQ4IpxUv140ZpWzg/07kkSe+yW1Agypz+3MVOdEnVKzGsQZ8Yz1lctl0SAZORYH0Vl4V2puhi9yy/qbT8uMMpYMac5y1ojcJyNShjkDL+SLPs6cjygrIIpFFBKvvcUfQCQQ7U1Z+WG2fpkpvBx+UJITRlxzpLsBDrIrgUiXR2K0a0vAPzkwD8Mlkkl+J6clW3SkjGQpsESW1A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=dV6bm1WE9NanRszfggPTw0XL672S9xEkkzgD/S9uvrI=;
+ b=lOFf93BGN9ohHv+jXpG6wR3ezvkomNoVHqpgrEpP/tnG4n4us/Xdil8H04MsdWHpvNrMF3rFYrSMS+bGMgJm7CdfE0fdjipIzeaB0XaVAZYmAgTaAkjGI2MHuLOVuw9URPykvNwkaw5PVaZXQ4RmVphg84mRoZ4+kaudwLHKYWRMmplH00/Z5sOikMyyuQahZRjOJuPda0WMFPUPeAOI+mSYMqBLz1tkPB3YI2pL+nzG3flApqd5W9kKu8Hp75H/t2MNwVmkcBBbUFU4hkJ/+oHikluLH5ByDIsBIHSKC85t+DLP+2azOXR2u+NJnMCj+vj5K5uMVALIkAhAMycFRw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=correios.com.br; dmarc=pass action=none
+ header.from=correios.com.br; dkim=pass header.d=correios.com.br; arc=none
+Received: from CP6P284MB1591.BRAP284.PROD.OUTLOOK.COM (2603:10d6:103:111::13)
+ by CP4P284MB2594.BRAP284.PROD.OUTLOOK.COM (2603:10d6:103:2ad::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7316.24; Fri, 23 Feb
+ 2024 13:04:52 +0000
+Received: from CP6P284MB1591.BRAP284.PROD.OUTLOOK.COM
+ ([fe80::3ddc:f53e:8693:6b5b]) by CP6P284MB1591.BRAP284.PROD.OUTLOOK.COM
+ ([fe80::3ddc:f53e:8693:6b5b%5]) with mapi id 15.20.7316.023; Fri, 23 Feb 2024
+ 13:04:52 +0000
+From: Marcel Jose Miranda de Souza <MARCELJOSE@correios.com.br>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject:
+ =?iso-8859-1?Q?Novo_servi=E7o_dos_Correios_para_e-commerce:_Correios_Log+?=
+Thread-Topic:
+ =?iso-8859-1?Q?Novo_servi=E7o_dos_Correios_para_e-commerce:_Correios_Log+?=
+Thread-Index: AQHaZkxyPZDEKmsx7kiZu3Lh37Av5Q==
+Date: Fri, 23 Feb 2024 11:35:48 +0000
+Message-ID:
+ <CP6P284MB1591815AD8B90AB59CDBC14290552@CP6P284MB1591.BRAP284.PROD.OUTLOOK.COM>
+Accept-Language: pt-BR, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-mail-application: Microsoft Power Automate; User-Agent:
+ azure-logic-apps/1.0 (workflow 97f1c39afdc7416ebc3a1dc60feeae2b; version
+ 08584929197064240644) microsoft-flow/1.0
+x-ms-mail-operation-type: Send
+x-ms-mail-environment-id: default-00069df5-ac2f-4ca7-b9a5-d99fea37ab02
+x-ms-mail-workflow: x-ms-workflow-name: 35d8efe7-7ec8-4d58-b992-d288ddc80fb0;
+ x-ms-workflow-run-id: 08584929196792579754854943936CU16;
+ x-ms-client-request-id: d8fb1e2c-6793-4f89-ac4f-1b27772def7a;
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=correios.com.br;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CP6P284MB1591:EE_|CP4P284MB2594:EE_
+x-ms-office365-filtering-correlation-id: f790e0ee-5593-4a24-f7b2-08dc34700671
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ CSkVKQcYcpQIX9vbHEZ+mLX1FzRphmIMOHBz3wWAJcbjZQ5yPoY0pZNDSh3cQpiYR9YEbTq8cOIC4GP+vAz5NJY9zNGrXva4nZlgD6bveRV208HfxoUOmRh0DKZ0MKomBGzJVWdHJLIl2BROMZzp7H0FrtIKFdFvYwjytbKyuA1u5h9iNNXucKa2y44QDBRv7ybTASS2bi6UBT5acjE9Pt+0YbZJi53Epoo6xXzxkjWsdmmXqQuGuhlXSlD3UQslsdfmVtyNbMYVphmJgAxZDFxxunuCh/sixapJuXw7W1EcQTsaAEtVGZw/K473JMz/4fKT7/8zCq9VT8yXZHQ1V94soLRh8H2FmzVhi6uXDZhjF5hSY6unjXqQfFbU9C367sSvIZk7cSy7+wh/Het/+1da5G3eWrHawxOtziFEwl3/WJKqQ/PjE+k6FEiEEgyAjuZcbK7OIOdP4+8QkBkortq8v+lSa7UhR19DJAPkrkL9pngGdKqobdv3rm6KBw1hy+soEYVe6S1YexvII0p+33PkFfeLikTH32zCahzG7o5bxiYQI5yeR8Una0K+QriB7nmTmUHJdHQi8quRlZOWdVW8H+WNZ3W6nf0fkXZ8i0M=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CP6P284MB1591.BRAP284.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230031)(38070700009);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?ECyGlDIEdz4t170ZfWliRqOCWLcc2cRO6UYEBC9949WLad5XS8lI8CfvLX?=
+ =?iso-8859-1?Q?kub2rygvvGTKVh+5zyXeq3XOsaeKmeaM7PaZvrI3F3q5w/fFZSItTJlH6Z?=
+ =?iso-8859-1?Q?SFW6gVImAqWqyMaT4m380ad0VjpCyDnLDu/OxwI6uPjLfyDcwz68QLpm/6?=
+ =?iso-8859-1?Q?UjAXysKF4RjK5uI2s9rSKePJHfxv0CXBqBAdy5HBtl9/Iesf8AmBz+vmyM?=
+ =?iso-8859-1?Q?vhMa9m1ChnBY4P+xjh3ACTPdrsBoVedFI1RplmkhCRhjqkqRMsyR+wIdo+?=
+ =?iso-8859-1?Q?o22IhF4QkaGVFOZUI8rpPju49SthHk5PF0FGTYk68nMbqycZPNk+lBpAQZ?=
+ =?iso-8859-1?Q?mijSvoCQ6dkc8a/noxTa1/QW5IwT4FoJQfmtYE1hpXQ8NSeKEaqqenC+fj?=
+ =?iso-8859-1?Q?hwvPQ29CB3It+dP+DngFOm6iFpztznqD9WQZyuEewz+1Q7YXpaSzjziYSM?=
+ =?iso-8859-1?Q?RUoJaOIhxN7x/2JIwiqoqXUOHmJfUPPEZRJgT+xiG3+3qfeUJqjmLNEBQV?=
+ =?iso-8859-1?Q?djHelEs5DeguptamKOD4HXUATRoPnY7C0Y7WAsP/eIjEpNY1NgS2ttqEv/?=
+ =?iso-8859-1?Q?b8iQ+MEe3h1uNt8u78c018G9ae+nP3ooaw6Y2j5mu/O4H0Vqsej1jLbmqU?=
+ =?iso-8859-1?Q?39q/RxA6DJLN4CzIWSQdo2tKQATBBGpD3Qk+fvegOiXptINKNiAOP4NUeo?=
+ =?iso-8859-1?Q?NKvTMtqyVK2kHeUgAconlS9OZI54lqp2TZU/qFWdXT+9iDny9RAV9woAiP?=
+ =?iso-8859-1?Q?DG5yOqiM91dMOX/o0d7V6hkElRpAcW+QmLlK+bQBk9zFybvHuAca0huyz3?=
+ =?iso-8859-1?Q?sEfGWpBThTEQpvCt9h1ztmV6zG9btSDJCjGec6FHgGE+CQzdV+5XoXoG9a?=
+ =?iso-8859-1?Q?x+IHtq3lS1DvaeXTaA9PiogTrZzKnEGc4tUtcZO9jcfOyBhbTm0/GlTu7E?=
+ =?iso-8859-1?Q?hQc7PwTOBbwKWz2ysBiz3lifxTy6tB8yjAlR1uB097erJga7cTQiV/QUNf?=
+ =?iso-8859-1?Q?L3QRzgIZdrjrsz1wPrnDga7XNbwn5eKYOTwySWTz5NAzYmFv344vgJxnbr?=
+ =?iso-8859-1?Q?KV645fo1vq7udDeIzITrLawTZ/oshm1A3m5YrvDmpvL9hN/AK/LxNjSgPN?=
+ =?iso-8859-1?Q?iQGzwZaZd7d0TYE1IV9dBPV2RgJZB+8YnLkgfFAnI2YNUsWTOUpZVq0xUV?=
+ =?iso-8859-1?Q?vGSpr7kLHq08Xo6dORfXiP/0C/lwSXmjtE0o/r8al2F1CoxRnnKNs+iBfA?=
+ =?iso-8859-1?Q?gCVUCKmSFjRURfzlgKvh0PRW+lx420l6Un4PGIizQJ6rXBQyXKiJcIgCga?=
+ =?iso-8859-1?Q?8LbNDcMuYyfee64vMH3ajEhocuf8I6VDuAricxTYmr1z1mWf7+mhU/6PMC?=
+ =?iso-8859-1?Q?4Oo3qFx5etObx/VLlws73SVE7aAO2SHReOJwTLmGvBvYRYAbLQeG3AkPuX?=
+ =?iso-8859-1?Q?GIub+AM+uFvFpyjPTRTwyTGcydIRlhi5saxYgD29Y3yTbnirJVTxCAdBUs?=
+ =?iso-8859-1?Q?mPumDsQPdbUN1blGy6K3bT7sihs8nULT76UvjTykZRAeZLR/rnOOrVbS/y?=
+ =?iso-8859-1?Q?syvH31+hrsc0xA5HqQNab8TPJL73XdI1IVxgESdAPp1S4eJDgmVVgrjNOO?=
+ =?iso-8859-1?Q?BhbjKcX9zRE1EXfwTLq3WfDrPsugFRV/37jEkEJAqVvsnsx+HwrBh96Q?=
+ =?iso-8859-1?Q?=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_CP6P284MB1591815AD8B90AB59CDBC14290552CP6P284MB1591BRAP_"
+MIME-Version: 1.0
+X-OriginatorOrg: correios.com.br
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CP6P284MB1591.BRAP284.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: f790e0ee-5593-4a24-f7b2-08dc34700671
+X-MS-Exchange-CrossTenant-originalarrivaltime: 23 Feb 2024 11:35:48.9418
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 00069df5-ac2f-4ca7-b9a5-d99fea37ab02
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 5w2tuBJsAldngQiN7ZPt3n4bKaPKR/UyeN3qudtjTb2lfR1ARwW8Ke9Azxm9fm/LfR/Sk/CP5YohB2q3JrYlJJG2NK8UjIRTkCJky1lvTW8=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CP4P284MB2594
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  [https://www.correios.com.br/logistica/logi-supri/@@images/imagem_para_link/preview]
+    Preparado para reduzir custos e ter agilidade nos envios? Conheça o Correios
+    Log +<https://www.correios.com.br/logistica/logistica-para-e-commerce/saiba-mais-correios-log>,
+    a solução de fulfillment dos Correios voltada para o comércio eletrônico.
+    O serviço a [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: correios.com.br]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+X-Spam-Flag: NO
+
+--_000_CP6P284MB1591815AD8B90AB59CDBC14290552CP6P284MB1591BRAP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+[https://www.correios.com.br/logistica/logi-supri/@@images/imagem_para_link=
+/preview]
+
+
+
+Preparado para reduzir custos e ter agilidade nos envios?
+
+
+
+Conhe=E7a o Correios Log +<https://www.correios.com.br/logistica/logistica-=
+para-e-commerce/saiba-mais-correios-log>, a solu=E7=E3o de fulfillment dos =
+Correios voltada para o com=E9rcio eletr=F4nico. O servi=E7o abrange todas =
+as etapas log=EDsticas e operacionais, tais como: armazenagem o seu produto=
+, separa=E7=E3o de pedido, acondicionamento com disponibiliza=E7=E3o gratui=
+ta da embalagem, expedi=E7=E3o e entrega ao destinat=E1rio.
+
+
+
+Sua empresa faz a venda e os Correios cuidam do resto! Estamos prontos para=
+ atender suas necessidades log=EDsticas com agilidade, seguran=E7a e pre=E7=
+o justo de quem =E9 l=EDder de mercado.
+
+
+
+Venha conhecer todos os benef=EDcios deste servi=E7o! Responda este e-mail =
+que entraremos em contato.
+
+Bons envios!
+
+
+
+[https://cdn.correios.com.br/static/mail/assinatura_2022.png]   Marcel Jos=
+=E9 Miranda de Souza
+Consultor Comercial de Prospec=E7=E3o e Fomento
+GER=CANCIA DE DESENVOLVIMENTO DE MERCADO
+MARCELJOSE@correios.com.br
+(41) 3310-3846 - WhtasApp
+
+________________________________
+
+AVISO LEGAL
+
+"Esta mensagem =E9 destinada exclusivamente para a(s) pessoa(s) a quem =E9 =
+dirigida, podendo conter informa=E7=E3o confidencial e/ou legalmente privil=
+egiada. Se voc=EA n=E3o for destinat=E1rio desta mensagem, desde j=E1 fica =
+notificado de abster-se a divulgar, copiar, distribuir, examinar ou, de qua=
+lquer forma, utilizar a informa=E7=E3o contida nesta mensagem, por ser ileg=
+al. Caso voc=EA tenha recebido esta mensagem por engano, pe=E7o que me reto=
+rne este e-mail, promovendo, desde logo, a elimina=E7=E3o do seu conte=FAdo=
+ em sua base de dados, registros ou sistema de controle. Fica desprovida de=
+ efic=E1cia e validade a mensagem que contiver opini=F5es particulares e v=
+=EDnculos obrigacionais, expedida por quem n=E3o detenha poderes de represe=
+nta=E7=E3o por parte da ECT."
+
+"This message is intended only for the person to whom it is addressed and m=
+ay contain confidential and/or legally privileged. If you are not a recipie=
+nt of this message, it is now notified of refraining to disclose; copy; dis=
+tribute; examine; or in any way use the information contained in this messa=
+ge because it is illegal. If you have received this message in error, pleas=
+e I ask to return this email, promoting as soon as possible the elimination=
+ of its content in database, records or system control. It is devoid of eff=
+ective and valid message that contains the private opinions and dividend bo=
+nds, issued by those not holding powers of attorney by the ECT."
+
+--_000_CP6P284MB1591815AD8B90AB59CDBC14290552CP6P284MB1591BRAP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<p><img src=3D"https://www.correios.com.br/logistica/logi-supri/@@images/im=
+agem_para_link/preview"></p>
+<p class=3D"x_elementToProof">&nbsp;</p>
+<p class=3D"x_elementToProof">Preparado para&nbsp;<strong>reduzir custos</s=
+trong>&nbsp;e ter&nbsp;<strong>agilidade</strong>&nbsp;nos envios?</p>
+<p>&nbsp;</p>
+<p style=3D"text-align: justify;">Conhe=E7a o <a title=3D"Saiba mais LOG+" =
+href=3D"https://www.correios.com.br/logistica/logistica-para-e-commerce/sai=
+ba-mais-correios-log" target=3D"_blank" rel=3D"noopener">
+Correios&nbsp;Log +</a><strong>,</strong>&nbsp;a solu=E7=E3o de&nbsp;<em>fu=
+lfillment</em>&nbsp;dos Correios voltada para o com=E9rcio eletr=F4nico. O =
+servi=E7o abrange todas as etapas log=EDsticas e operacionais, tais como:&n=
+bsp;<strong>armazenagem</strong>&nbsp;o seu produto,&nbsp;<strong>separa=E7=
+=E3o</strong>&nbsp;de
+ pedido,&nbsp;<strong>acondicionamento&nbsp;</strong>com disponibiliza=E7=
+=E3o&nbsp;<strong>gratuita da embalagem</strong>,&nbsp;<strong>expedi=E7=E3=
+o&nbsp;</strong>e<strong>&nbsp;entrega</strong>&nbsp;ao destinat=E1rio<stro=
+ng>.</strong></p>
+<p>&nbsp;</p>
+<p>Sua empresa faz a venda e os Correios cuidam do resto! Estamos prontos p=
+ara atender suas necessidades log=EDsticas com&nbsp;<strong>agilidade, segu=
+ran=E7a&nbsp;</strong>e<strong>&nbsp;pre=E7o justo</strong>&nbsp;de quem =
+=E9 l=EDder de mercado.</p>
+<p>&nbsp;</p>
+<p>Venha conhecer todos os benef=EDcios deste servi=E7o!&nbsp;<strong>Respo=
+nda este e-mail</strong>&nbsp;que entraremos em contato.</p>
+<p><br aria-hidden=3D"true">
+Bons envios!</p>
+<p class=3D"x_elementToProof">&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td><img width=3D"150" height=3D"100" src=3D"https://cdn.correios.com.br/st=
+atic/mail/assinatura_2022.png"></td>
+<td><strong>Marcel Jos=E9 Miranda de Souza</strong><br aria-hidden=3D"true"=
+>
+Consultor Comercial de Prospec=E7=E3o e Fomento<br aria-hidden=3D"true">
+GER=CANCIA DE DESENVOLVIMENTO DE MERCADO<br aria-hidden=3D"true">
+MARCELJOSE@correios.com.br<br aria-hidden=3D"true">
+(41) 3310-3846 - WhtasApp</td>
+</tr>
+</tbody>
+</table>
+<br>
+<hr>
+<font face=3D"Arial" color=3D"Gray" size=3D"1"><br>
+AVISO LEGAL<br>
+<br>
+&#8220;Esta mensagem =E9 destinada exclusivamente para a(s) pessoa(s) a que=
+m =E9 dirigida, podendo conter informa=E7=E3o confidencial e/ou legalmente =
+privilegiada. Se voc=EA n=E3o for destinat=E1rio desta mensagem, desde j=E1=
+ fica notificado de abster-se a divulgar, copiar, distribuir,
+ examinar ou, de qualquer forma, utilizar a informa=E7=E3o contida nesta me=
+nsagem, por ser ilegal. Caso voc=EA tenha recebido esta mensagem por engano=
+, pe=E7o que me retorne este e-mail, promovendo, desde logo, a elimina=E7=
+=E3o do seu conte=FAdo em sua base de dados, registros
+ ou sistema de controle. Fica desprovida de efic=E1cia e validade a mensage=
+m que contiver opini=F5es particulares e v=EDnculos obrigacionais, expedida=
+ por quem n=E3o detenha poderes de representa=E7=E3o por parte da ECT.&#822=
+1;<br>
+<br>
+&quot;This message is intended only for the person to whom it is addressed =
+and may contain confidential and/or legally privileged. If you are not a re=
+cipient of this message, it is now notified of refraining to disclose; copy=
+; distribute; examine; or in any way
+ use the information contained in this message because it is illegal. If yo=
+u have received this message in error, please I ask to return this email, p=
+romoting as soon as possible the elimination of its content in database, re=
+cords or system control. It is devoid
+ of effective and valid message that contains the private opinions and divi=
+dend bonds, issued by those not holding powers of attorney by the ECT.&quot=
+;<br>
+</font>
+</body>
+</html>
+
+--_000_CP6P284MB1591815AD8B90AB59CDBC14290552CP6P284MB1591BRAP_--

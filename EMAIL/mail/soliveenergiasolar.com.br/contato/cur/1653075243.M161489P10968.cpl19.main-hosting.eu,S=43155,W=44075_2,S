@@ -1,0 +1,920 @@
+Return-Path: <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id UEBICSvth2LYKgAAJcoV8Q
+	(envelope-from <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 20 May 2022 19:34:03 +0000
+Return-path: <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 20 May 2022 19:34:03 +0000
+Received: from m236-132.mailgun.net ([159.135.236.132]:56663)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>)
+	id 1ns8Nu-0003YM-Ow
+	for contato@soliveenergiasolar.com.br; Fri, 20 May 2022 19:34:03 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=nubank.com.br; q=dns/txt;
+ s=mailgun; t=1653075222; h=Content-Transfer-Encoding: Content-Type:
+ Message-Id: To: To: From: From: Subject: Subject: Mime-Version: Date:
+ Sender: Sender; bh=8me05ffrVR1Nj1jKkSoLUQzj7ifuN6S2QgCK1sl5bso=; b=SZqQn0F+SDYZ4+gU7oOndj8P+0EXzA0EVFCcQL7pfs22FLIGQG1ZzYURbGacbnUqZG5iueeW
+ quDBdIrHg80K6kSh/34qdg9sN1Uo2Q9UOelhwOsv9q6wWeXC1SYTXmM1UJm3fyrJVsLy/Bqw
+ by1pKHZsSb5GrNsxyP/ibPQon35TOCZ+W/+nh1s6m/JtsGm/lopWSjgnYnRUSYxqAh40tl8u
+ G1oTPAM2PZkf3eobdyqhMMcocNVbIl5FHbOdzIEys/LQvMVS3uOH6fSzzwQB2hEIgeOjVl/t
+ YzlNmhWbHMoMA5HBQpu0S6g7ZNZhINIV1oMRC7XbToZ1L4Ml1W8CEg==
+X-Mailgun-Sending-Ip: 159.135.236.132
+X-Mailgun-Sid: WyJhMzQ4MiIsICJjb250YXRvQHNvbGl2ZWVuZXJnaWFzb2xhci5jb20uYnIiLCAiY2RlZWMiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n18.prod.us-west-2.postgun.com with HTTP id 6287ed012491c3e6d5b067d6;
+ Fri, 20 May 2022 19:33:21 GMT
+Sender: todomundo@nubank.com.br
+Date: Fri, 20 May 2022 19:33:21 +0000
+Mime-Version: 1.0
+Subject: =?UTF-8?q?Ative_seu_cart=C3=A3o_Nubank_e_comece_a_usar!?=
+From: Nubank <todomundo@nubank.com.br>
+To: Solive Energia Solar <contato@soliveenergiasolar.com.br>
+X-Mailgun-Variables: {"nu-contact-id":"6273ebc6-f765-4b29-8b1c-6c93f6fd3d86",
+ "nu-external-id":"c2ea7188-a0f1-38bf-8444-8ff70e436947",
+ "nu-prototype":"s17",
+ "nu-template-name":"cards/deliver/emails/activation-reminder/v1"}
+Message-Id: <20220520193321.522edfcfa8e5f309@nubank.com.br>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Percebemos que você já recebeu seu cartão mas nunca o
+   desbloqueou. Ative seu cartão Olá, Solive Energia Solar! 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mailjet.com]
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <head>
+  <title></title><!--[if !mso]><!-- -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><!--<![endif]-=
+->
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">
+  <style type=3D"text/css">#outlook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-=
+size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-de=
+coration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }</style><!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <style type=3D"text/css">@media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }</style>
+  <style type=3D"text/css">@media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style>
+  <style type=3D"text/css">.body-subtitle div {
+           font-size:20px !important;
+           }
+
+           .body-title div{
+           font-size:50px !important;
+           }
+
+           .body-normal div {
+           font-size:16px !important;
+           }
+
+           .body-bullets div {
+           font-size:16px !important;
+           }
+
+           .body-blog div {
+           font-size:20px !important;
+           }
+
+           .body-footer div {
+           font-size:18px !important;
+           }
+
+           .body-footer-legal div {
+           font-size:24px !important;
+           }
+
+           .button-white a {
+           font-size:14px !important;
+           }
+
+           .link-none {
+           text-decoration: none;
+           color:FFFFFF;
+           }
+
+     @media only screen and (max-width: 480px){
+
+           .body-subtitle div {
+           font-size:16px !important;
+           }
+
+           .body-title div{
+           font-size:23px !important;
+           }
+
+           .body-normal div {
+           font-size:14px !important;
+           }
+
+           .body-bullets div {
+           font-size:14px !important;
+           }
+
+           .body-blog div {
+           font-size:14px !important;
+           }
+
+           .body-footer div {
+           font-size:15px !important;
+           }
+
+           .body-footer-legal div {
+           font-size:18px !important;
+           }
+
+           .button-white a {
+           font-size:13px !important;
+           }
+       }</style><!-- PREVIEW TEXT -->
+ </head>
+ <body style=3D"background-color:#E5E5E5;">
+  <div style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;ma=
+x-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+   Percebemos que voc=C3=AA j=C3=A1 recebeu seu cart=C3=A3o mas nunca o des=
+bloqueou.
+  </div>
+  <div style=3D"background-color:#E5E5E5;">
+   <!-- Your Nubank Logo goes in this next section. If you'd like to create=
+ a header for a PJ email, just change:
+- from "https://staging-cdn.nubank.com.br/engagement_machine/photos/fundo_v=
+2.png"
+- to "https://nu-emails.s3.amazonaws.com/nu-PJ/headers/header-purple-bg.png=
+" --><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><=
+td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]-->
+   <div style=3D"background:#F5F5F5;background-color:#F5F5F5;margin:0px aut=
+o;max-width:600px;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F5F5F5;background-color:#F5F5F=
+5;width:100%;">
+     <tbody>
+      <tr>
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;text-align:cent=
+er;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" width=3D"600px"=
+ ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-heig=
+ht:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style=3D"width:=
+600px;" xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D"f=
+alse"><v:fill origin=3D"0.5, 0" position=3D"0.5, 0" src=3D"https://staging-=
+cdn.nubank.com.br/engagement_machine/photos/fundo_v2.png" type=3D"tile" /><=
+v:textbox style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![endif]-=
+->
+        <div style=3D"background:url(https://staging-cdn.nubank.com.br/enga=
+gement_machine/photos/fundo_v2.png) top center / auto repeat;margin:0px aut=
+o;max-width:600px;">
+         <div style=3D"line-height:0;font-size:0;">
+          <table align=3D"center" background=3D"https://staging-cdn.nubank.=
+com.br/engagement_machine/photos/fundo_v2.png" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:url(https://=
+staging-cdn.nubank.com.br/engagement_machine/photos/fundo_v2.png) top cente=
+r / auto repeat;width:100%;">
+           <tbody>
+            <tr>
+             <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-a=
+lign:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=
+=3D"vertical-align:top;width:600px;" ><![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:100%;">
+               <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+                <tbody>
+                 <tr>
+                  <td style=3D"vertical-align:top;padding-right:5%;padding-=
+bottom:0px;padding-left:5%;">
+                   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" width=3D"100%">
+                    <tbody>
+                     <tr>
+                      <td align=3D"left" style=3D"font-size:0px;padding:10p=
+x 25px;padding-bottom:0px;word-break:break-word;">
+                       <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:=
+0px;">
+                        <tbody>
+                         <tr>
+                          <td style=3D"width:80px;"><img height=3D"auto" sr=
+c=3D"https://staging-cdn.nubank.com.br/engagement_machine/photos/logo.png" =
+style=3D"border:0;display:block;outline:none;text-decoration:none;height:au=
+to;width:100%;font-size:13px;" width=3D"80"></td>
+                         </tr>
+                        </tbody>
+                       </table></td>
+                     </tr>
+                    </tbody>
+                   </table></td>
+                 </tr>
+                </tbody>
+               </table>
+              </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td=
+></tr></table><![endif]--></td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->
+   <div style=3D"background:#F5F5F5;background-color:#F5F5F5;margin:0px aut=
+o;max-width:600px;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F5F5F5;background-color:#F5F5F=
+5;width:100%;">
+     <tbody>
+      <tr>
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;text-align:cent=
+er;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" width=3D"600px"=
+ ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-heig=
+ht:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style=3D"width:=
+600px;" xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D"f=
+alse"><v:fill origin=3D"0.5, 0" position=3D"0.5, 0" src=3D"https://prod-cdn=
+=2Enubank.com.br/engagement_machine/photo=
+s/fundo_v2.png" type=3D"tile" /><v:t=
+extbox style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![endif]-->
+        <div style=3D"background:url(https://prod-cdn.nubank.com.br/engagem=
+ent_machine/photos/fundo_v2.png) top center / 100% 75% no-repeat;margin:0px=
+ auto;max-width:600px;">
+         <div style=3D"line-height:0;font-size:0;">
+          <table align=3D"center" background=3D"https://prod-cdn.nubank.com=
+=2Ebr/engagement_machine/photos/fundo_v2.=
+png" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"background:url(https://pro=
+d-cdn.nubank.com.br/engagement_machine/photos/fundo_v2.png) top center / 10=
+0% 75% no-repeat;width:100%;">
+           <tbody>
+            <tr>
+             <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-a=
+lign:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=
+=3D"vertical-align:top;width:600px;" ><![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:100%;">
+               <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+                <tbody>
+                 <tr>
+                  <td style=3D"vertical-align:top;padding-right:5%;padding-=
+left:5%;">
+                   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" width=3D"100%">
+                    <tbody>
+                     <tr>
+                      <td align=3D"left" style=3D"font-size:0px;padding:10p=
+x 25px;word-break:break-word;">
+                       <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:=
+0px;" class=3D"mj-full-width-mobile">
+                        <tbody>
+                         <tr>
+                          <td style=3D"width:540px;" class=3D"mj-full-width=
+-mobile"><img height=3D"auto" src=3D"https://prod-cdn.nubank.com.br/credit-=
+card/assets/photos/photo_54826.png" style=3D"border:0;display:block;outline=
+:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width=3D=
+"540"></td>
+                         </tr>
+                        </tbody>
+                       </table></td>
+                     </tr>
+                    </tbody>
+                   </table></td>
+                 </tr>
+                </tbody>
+               </table>
+              </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td=
+></tr></table><![endif]--></td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!--[if mso | IE]></td></tr></table><![endif]--><!-- The next mj-t=
+ext section is the title. Always leave the css-class=3D"body-title" since i=
+t adjusts the title size for mobile version. --><!--[if mso | IE]><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   <div style=3D"background:#F5F5F5;background-color:#F5F5F5;margin:0px aut=
+o;max-width:600px;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F5F5F5;background-color:#F5F5F=
+5;width:100%;">
+     <tbody>
+      <tr>
+       <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-align:c=
+enter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"body-title-out=
+look" style=3D"vertical-align:top;width:600px;" ><![endif]-->
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix body-title" st=
+yle=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;ver=
+tical-align:top;width:100%;">
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">
+          <tbody>
+           <tr>
+            <td style=3D"vertical-align:top;padding-right:5%;padding-left:5=
+%;">
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+              <tbody>
+               <tr>
+                <td align=3D"left" class=3D"body-title" style=3D"font-size:=
+0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-wor=
+d;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:bold;letter-spacing:-0.5px;line-height:115%;text-ali=
+gn:left;color:#111111;">
+                  Ative seu cart=C3=A3o
+                 </div></td>
+               </tr>
+              </tbody>
+             </table></td>
+           </tr>
+          </tbody>
+         </table>
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!--[if mso | IE]></td></tr></table><![endif]--><!-- The next mj-t=
+ext section has css-class=3D"body-normal". It can be replicated for any tex=
+t you'd like to add along your template. It also adjusts the body-normal te=
+xt size for mobile version. --><!--[if mso | IE]><table align=3D"center" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:60=
+0px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-lin=
+e-height-rule:exactly;"><![endif]-->
+   <div style=3D"background:#F5F5F5;background-color:#F5F5F5;margin:0px aut=
+o;max-width:600px;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F5F5F5;background-color:#F5F5F=
+5;width:100%;">
+     <tbody>
+      <tr>
+       <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-align:c=
+enter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"ver=
+tical-align:top;width:600px;" ><![endif]-->
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">
+          <tbody>
+           <tr>
+            <td style=3D"vertical-align:top;padding-right:5%;padding-left:5=
+%;">
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+              <tbody>
+               <tr>
+                <td align=3D"left" class=3D"body-subtitle" style=3D"font-si=
+ze:0px;padding:10px 25px;padding-top:2%;padding-bottom:40px;word-break:brea=
+k-word;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:bold;line-height:130%;text-align:left;color:#8a05be;=
+">
+                  Ol=C3=A1, Solive Energia Solar!
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-wo=
+rd;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  Percebemos que voc=C3=AA j=C3=A1 recebeu seu cart=C3=A3o =
+mas nunca o desbloqueou.
+                  <br>
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-wo=
+rd;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  <strong>Para ativ=C3=A1-lo</strong> =C3=A9 muito simples,=
+ aqui no Nubank voc=C3=AA n=C3=A3o precisa ligar ou ir at=C3=A9 uma ag=C3=
+=AAncia para fazer isso.
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:40px;word-break:break-=
+word;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  =C3=89 s=C3=B3 digitar os 4 =C3=BAltimos d=C3=ADgitos do =
+seu cart=C3=A3o roxinho ou os 4 n=C3=BAmeros que vem na caixa do seu Ultrav=
+ioleta.
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"center" style=3D"font-size:0px;padding:10px 25=
+px;padding-bottom:10px;word-break:break-word;">
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;">
+                  <tbody>
+                   <tr>
+                    <td style=3D"width:200px;"><img alt=3D"como-ativar-seu-=
+cartao" height=3D"auto" src=3D"https://prod-cdn.nubank.com.br/credit-card/a=
+ssets/app/activate card.gif" style=3D"border:0;display:block;outline:none;t=
+ext-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"200"><=
+/td>
+                   </tr>
+                  </tbody>
+                 </table></td>
+               </tr>
+              </tbody>
+             </table></td>
+           </tr>
+          </tbody>
+         </table>
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->
+   <div style=3D"background:#F5F5F5;background-color:#F5F5F5;margin:0px aut=
+o;max-width:600px;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F5F5F5;background-color:#F5F5F=
+5;width:100%;">
+     <tbody>
+      <tr>
+       <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-align:c=
+enter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"ver=
+tical-align:top;width:600px;" ><![endif]-->
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">
+          <tbody>
+           <tr>
+            <td style=3D"vertical-align:top;padding-right:5%;padding-left:5=
+%;">
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+              <tbody>
+               <tr>
+                <td align=3D"left" class=3D"body-subtitle" style=3D"font-si=
+ze:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-=
+word;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  <strong>Esqueceu a senha do cart=C3=A3o?</strong>
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-wo=
+rd;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  N=C3=A3o se preocupe, n=C3=B3s te ajudamos a recuperar:
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:1px;word-break:break-w=
+ord;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  - Toque no s=C3=ADmbolo de <strong>Perfil</strong>, local=
+izado no canto superior esquerdo da tela inicial do app, para acessar suas =
+configura=C3=A7=C3=B5es pessoais;
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:1px;word-break:break-w=
+ord;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  - Selecione <strong>"Meus Dados"</strong>;
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:1px;word-break:break-w=
+ord;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  - Depois, <strong>"Consultar senha de 4 d=C3=ADgitos"</st=
+rong>;
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:1px;word-break:break-w=
+ord;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  - Digite a senha de acesso ao app e pronto!
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:20px;word-break:break-=
+word;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  - Em alguns casos, pediremos tamb=C3=A9m os 4 =C3=BAltimo=
+s n=C3=BAmeros do seu cart=C3=A3o.
+                 </div></td>
+               </tr>
+               <tr>
+                <td align=3D"left" class=3D"body-normal" style=3D"font-size=
+:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-wo=
+rd;">
+                 <div style=3D"font-family:Helvetica;font-size:13px;font-st=
+yle:normal;font-weight:;line-height:130%;text-align:left;color:#111111;">
+                  Ficou alguma d=C3=BAvida? Nosso atendimento est=C3=A1 dis=
+pon=C3=ADvel 24h por dia!
+                 </div></td>
+               </tr>
+              </tbody>
+             </table></td>
+           </tr>
+          </tbody>
+         </table>
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!--[if mso | IE]></td></tr></table><![endif]--><!-- FOOTER --><!-=
+-[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=
+=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-=
+->
+   <div style=3D"background:#181818;background-color:#181818;margin:0px aut=
+o;max-width:600px;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#181818;background-color:#18181=
+8;width:100%;">
+     <tbody>
+      <tr>
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;text-align:cent=
+er;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" width=3D"600px"=
+ ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-heig=
+ht:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style=3D"margin:0px auto;max-width:600px;">
+         <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;">
+          <tbody>
+           <tr>
+            <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-al=
+ign:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=
+=3D"vertical-align:top;width:600px;" ><![endif]-->
+             <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D=
+"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-=
+align:top;width:100%;">
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+               <tbody>
+                <tr>
+                 <td style=3D"vertical-align:top;padding-right:5%;padding-l=
+eft:5%;">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%">
+                   <tbody>
+                    <tr>
+                     <td align=3D"left" class=3D"body-footer-legal" style=
+=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-b=
+reak:break-word;">
+                      <div style=3D"font-family:Helvetica;font-size:13px;fo=
+nt-style:normal;font-weight:bold;line-height:130%;text-align:left;color:#FF=
+FFFF;">
+                       <b>Abra=C3=A7os,<br>Equipe Nubank<br><br></b>
+                      </div></td>
+                    </tr>
+                    <tr>
+                     <td align=3D"left" class=3D"body-footer" style=3D"font=
+-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:bre=
+ak-word;">
+                      <div style=3D"font-family:Helvetica;font-size:13px;fo=
+nt-style:normal;font-weight:normal;line-height:130%;text-align:left;color:#=
+FFFFFF;">
+                       Tem alguma d=C3=BAvida? Entre em contato conosco pel=
+o chat do app ou ligue 0800 591 2117.
+                      </div></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table>
+             </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+           </tr>
+          </tbody>
+         </table>
+        </div><!--[if mso | IE]></td></tr></table></td></tr><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]-->
+        <div style=3D"margin:0px auto;max-width:600px;">
+         <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;">
+          <tbody>
+           <tr>
+            <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-al=
+ign:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=
+=3D"vertical-align:top;width:600px;" ><![endif]-->
+             <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D=
+"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-=
+align:top;width:100%;">
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+               <tbody>
+                <tr>
+                 <td style=3D"vertical-align:top;padding-right:5%;padding-l=
+eft:5%;">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%">
+                   <tbody>
+                    <tr>
+                     <td align=3D"left" style=3D"font-size:0px;padding:10px=
+ 25px;word-break:break-word;"><!--[if mso | IE]><table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" ><tr><td>=
+<![endif]-->
+                      <table align=3D"left" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-=
+table;">
+                       <tbody>
+                        <tr>
+                         <td style=3D"padding:4px;">
+                          <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#181818;border-radius:3px;=
+width:50px;">
+                           <tbody>
+                            <tr>
+                             <td style=3D"font-size:0;height:50px;vertical-=
+align:middle;width:50px;"><a href=3D"https://www.facebook.com/sharer/sharer=
+=2Ephp?u=3Dhttp://www.facebook.com/nubank=
+" target=3D"_blank"><img height=3D"5=
+0" src=3D"https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook=
+=2Epng" style=3D"border-radius:3px;display:block;" width=3D"50"></a></td>
+                            </tr>
+                           </tbody>
+                          </table></td>
+                        </tr>
+                       </tbody>
+                      </table><!--[if mso | IE]></td><td><![endif]-->
+                      <table align=3D"left" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-=
+table;">
+                       <tbody>
+                        <tr>
+                         <td style=3D"padding:4px;">
+                          <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#181818;border-radius:3px;=
+width:50px;">
+                           <tbody>
+                            <tr>
+                             <td style=3D"font-size:0;height:50px;vertical-=
+align:middle;width:50px;"><a href=3D"https://twitter.com/home?status=3Dhttp=
+s://twitter.com/nubank" target=3D"_blank"><img height=3D"50" src=3D"https:/=
+/www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png" style=3D"bor=
+der-radius:3px;display:block;" width=3D"50"></a></td>
+                            </tr>
+                           </tbody>
+                          </table></td>
+                        </tr>
+                       </tbody>
+                      </table><!--[if mso | IE]></td><td><![endif]-->
+                      <table align=3D"left" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-=
+table;">
+                       <tbody>
+                        <tr>
+                         <td style=3D"padding:4px;">
+                          <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#181818;border-radius:3px;=
+width:50px;">
+                           <tbody>
+                            <tr>
+                             <td style=3D"font-size:0;height:50px;vertical-=
+align:middle;width:50px;"><a href=3D"http://www.instagram.com/nubank" targe=
+t=3D"_blank"><img height=3D"50" src=3D"https://www.mailjet.com/images/theme=
+/v1/icons/ico-social/instagram.png" style=3D"border-radius:3px;display:bloc=
+k;" width=3D"50"></a></td>
+                            </tr>
+                           </tbody>
+                          </table></td>
+                        </tr>
+                       </tbody>
+                      </table><!--[if mso | IE]></td><td><![endif]-->
+                      <table align=3D"left" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-=
+table;">
+                       <tbody>
+                        <tr>
+                         <td style=3D"padding:4px;">
+                          <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#181818;border-radius:3px;=
+width:50px;">
+                           <tbody>
+                            <tr>
+                             <td style=3D"font-size:0;height:50px;vertical-=
+align:middle;width:50px;"><a href=3D"https://www.youtube.com/channel/UCgsDX=
+3hTwiPdtGHJjMFfDxg" target=3D"_blank"><img height=3D"50" src=3D"https://www=
+=2Emailjet.com/images/theme/v1/icons/ico-=
+social/youtube.png" style=3D"border-=
+radius:3px;display:block;" width=3D"50"></a></td>
+                            </tr>
+                           </tbody>
+                          </table></td>
+                        </tr>
+                       </tbody>
+                      </table><!--[if mso | IE]></td></tr></table><![endif]=
+--></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table>
+             </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+           </tr>
+          </tbody>
+         </table>
+        </div><!--[if mso | IE]></td></tr></table></td></tr><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]-->
+        <div style=3D"margin:0px auto;max-width:600px;">
+         <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;">
+          <tbody>
+           <tr>
+            <td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-al=
+ign:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=
+=3D"vertical-align:top;width:600px;" ><![endif]-->
+             <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D=
+"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-=
+align:top;width:100%;">
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+               <tbody>
+                <tr>
+                 <td style=3D"vertical-align:top;padding-right:5%;padding-l=
+eft:5%;">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%">
+                   <tbody>
+                    <tr>
+                     <td align=3D"left" class=3D"body-normal" style=3D"font=
+-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:bre=
+ak-word;">
+                      <div style=3D"font-family:Helvetica;font-size:13px;fo=
+nt-style:normal;font-weight:normal;line-height:130%;text-align:left;color:#=
+FFFFFF;">
+                       <strong>Ouvidoria</strong>: Se voc=C3=AA n=C3=A3o se=
+ satisfez com a solu=C3=A7=C3=A3o do nosso time de atendimento, ligue para =
+0800 887 0463 em dias =C3=BAteis, das 9h =C3=A0s 18h, hor=C3=A1rio de S=C3=
+=A3o Paulo.
+                      </div></td>
+                    </tr>
+                    <tr>
+                     <td align=3D"left" class=3D"unsubscription-link-class"=
+ style=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;=
+word-break:break-word;">
+                      <div style=3D"font-family:Helvetica;font-size:13px;fo=
+nt-style:normal;font-weight:normal;line-height:130%;text-align:left;color:#=
+FFFFFF;">
+                       Caso n=C3=A3o queira mais receber nossos emails, <a =
+href=3D"https://webapp-proxy-webhooks.nubank.com.br/api/webhooks/email-unsu=
+bscribe/AFTOhvGKkxhA1xh4fUFut1qwE4vKA_lWm9WrUbxaIodWU9IWzWxl2C0V6h1wmKeKxbf=
+uHp9T20XzBcbeqD-tuHoZpp3KsVd1YDZNWHTy4SNK2D--RkoaRqEL3p9udTeF0Ci462dlsxe8dg=
+FqtcKBhGfVZQpDlbS8WOVIHJU_EBNBXKZicH24GPrYei_L7wypUyBbfyensOYNP1AAcRuwZrUT6=
+F6RIOfEAVGn7sL9vdljwPMy7NT0ar6u0n5-RjA0daNj3BHedxWzwUqMPIa6C6gHe_fKRnFc5Uwm=
+pWzPHPxHkXw2z4EV1xw.ADBfDS6QGd38kbg461Nq2k6dQWwgvrgqqgJCLcBAa2HheuidcG5nJS3=
+xlX5jaSvhaAO2_QDXKPD3_NCfk8EBVvtZ0QHcX01KQ-0_7kMYxaxfi8H15FqY1NaNDHnifnBiTi=
+_tfGtwBZm0eH-htAiasX299aLLPQ_JyAT0mFgIKmf2yy56fQ" style=3D"color: FFFFFF;te=
+xt-decoration: none">descadastre-se</a>.
+                       <br>
+                       <br>
+                      </div></td>
+                    </tr>
+                    <tr>
+                     <td align=3D"left" class=3D"body-normal" style=3D"font=
+-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:bre=
+ak-word;">
+                      <div style=3D"font-family:Helvetica;font-size:13px;fo=
+nt-style:normal;font-weight:normal;line-height:130%;text-align:left;color:#=
+FFFFFF;">
+                       Nu Pagamentos S.A - Institui=C3=A7=C3=A3o de Pagamen=
+to 18.236.120/0001-58
+                       <br>Rua Capote Valente, 39 - 05409-000- S=C3=A3o Pau=
+lo - SP
+                      </div></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table>
+             </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+           </tr>
+          </tbody>
+         </table>
+        </div><!--[if mso | IE]></td></tr></table></td></tr></table><![endi=
+f]--></td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+ <img width=3D"1px" height=3D"1px" alt=3D"" src=3D"http://email.nubank.com.=
+br/o/eJw1j8tuxCAMRb9msmMEhvBYsO1_GGNa1ARGhBm1f99kpO58HzrWzZEyMy01ggSQK0gVtA=
+Z1XwE4FyroeS1ahpuR7Zmwfd-p7_c0lq-otOZCCKA4rcaVoBENOcpplV4HtbSnmLw_NpwsGu4cC=
+Uc-bvCReasvHufFO9btspBmfeGsvYnBe235Hb_ekMfos8_fB8dDucvgn8mj4SZqjgSMTnkvUBYl=
+tE9FeGOM8KU4yUbbYNwyIvU2cfZzxtGv59x4fFY8BY7_SSf5XaN5gS04zYmsKM6uwiQIwidFwlL=
+QxZass7d_4wllkw"></body>
+</html>

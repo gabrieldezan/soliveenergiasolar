@@ -1,0 +1,177 @@
+Return-Path: <ishani@therankingbyseo.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id GN9NGnwAMmb0nAAAIElduQ
+	(envelope-from <ishani@therankingbyseo.com>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 01 May 2024 08:42:36 +0000
+Return-path: <ishani@therankingbyseo.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 01 May 2024 08:42:36 +0000
+Received: from mail-pg1-f195.google.com ([209.85.215.195]:44359)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <ishani@therankingbyseo.com>)
+	id 1s25Xv-0006xn-2B
+	for contato@soliveenergiasolar.com.br;
+	Wed, 01 May 2024 08:42:36 +0000
+Received: by mail-pg1-f195.google.com with SMTP id 41be03b00d2f7-5ce2aada130so4559027a12.1
+        for <contato@soliveenergiasolar.com.br>; Wed, 01 May 2024 01:42:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=therankingbyseo-com.20230601.gappssmtp.com; s=20230601; t=1714552954; x=1715157754; darn=soliveenergiasolar.com.br;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=kIuNAmEnowIgkHYF5zjV1aCZc710imseYEO5t7nFIZc=;
+        b=lwM7nJ5fyZ4wFsiYlQMVVhtXEh8z3+vSkhZbYfjppGZ0yl7mPATRZIT5yhWzExJvwj
+         RGi7MiGj5oYIlgITBREXh0liGZdQ9WIfYGacqTegi5aTyuqd49ScYq5o+U7Hdnon3bUd
+         SDfT9SDo9cYQbJKh3oYdW8p0KUb7QgaaXicZ59O608sUru4HeV3wVNgrexwXGfgrCkA+
+         3m3EmWUDHAeSkyRx7Cde++8n6r4I+a6qZGuYAp3tJTacGjCbFJTY9r6MGnVknmndClnk
+         LhbDVJtn1pF6/IxMSiSexIttyd4mDemoBnfnV5pIFASiwyfH4AwAby1R17vF4KZNC8S0
+         XsQw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1714552954; x=1715157754;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=kIuNAmEnowIgkHYF5zjV1aCZc710imseYEO5t7nFIZc=;
+        b=o9iAUZMFO9pNnsyI/8u8g7+4G8f34/eOAmUWicHqE4Iv35NnqnxG6Q9Hq0HPexgasl
+         QTCuRwTaLKvlBJKqKcNsStyqeSyPpXPJGfRvPGJgLd8SHuoLRN4YzcbuYnwpAY2OYejD
+         rhoQSGl5BXscKvDMMXxBxKSeUbkDSUNAcGmyEnnA/u7SNftQ7hF3M/8nn3NM05okMD3R
+         N4ziuBkWSe6Eq4tLPiDaYV4pnJ5HqiV9NkyTzM+Mt1RTiEtRTJKHyuE3P1WZvMesfUJo
+         1kt0yBd00KiR+qoMl9V4C6p8ASXXHsn3KyPt4kv/zAEVri+GxDSDW+EZ9dB+hoE/o12C
+         JTKw==
+X-Gm-Message-State: AOJu0Yyv2k6rVdC4ofwL7aJhb1f/hhawCOyNW0lFryHHpQm64H6t7iVQ
+	oXWIhcE0+EPY4CQXkhgYUsYzdb0t/xZjbjMtNYJzCQZ/lnHd7gZiakqYSu9VaFVB7uFbviDIHGA
+	z4ks=
+X-Google-Smtp-Source: AGHT+IGy4DBvn3oKJeOXYzgvSybIqOnss1ylj+yOUHBCnkTwYhBIsMPvGPIwhk90HjKMWtWqiJQ46Q==
+X-Received: by 2002:a05:6a21:338f:b0:1af:66aa:f968 with SMTP id yy15-20020a056a21338f00b001af66aaf968mr2545648pzb.20.1714552953398;
+        Wed, 01 May 2024 01:42:33 -0700 (PDT)
+Received: from DESKTOPLBV3JSG ([122.161.79.118])
+        by smtp.gmail.com with ESMTPSA id c6-20020a170902d48600b001eb4a71cb58sm7988782plg.114.2024.05.01.01.42.31
+        for <contato@soliveenergiasolar.com.br>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 May 2024 01:42:32 -0700 (PDT)
+From: "Ishani" <ishani@therankingbyseo.com>
+To: <contato@soliveenergiasolar.com.br>
+Subject: SEO Services Proposal
+Date: Wed, 1 May 2024 14:09:17 +0530
+Message-ID: <227101da9ba3$821a57f0$864f07d0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_2272_01DA9BD1.9BD293F0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adqbl3M63UqWZ/hMRi+lg85/PJizeg==
+Content-Language: en-us
+X-Spam-Status: No, score=4.9
+X-Spam-Score: 49
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hey, I was checking your website and saw you have a good design
+    and it looks great, but it's not ranking on Google and other major search
+    engines. I'm an SEO Expert and I helped over 250 businesses rank on the (1st
+    Page on Google, Yahoo and Bing). My rates are very affordable. 
+ Content analysis details:   (4.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  5.0 KAM_SEARCH             Spammers hawking SEO
+  0.0 FROM_FMBLA_NEWDOM28    From domain was registered in last 14-28
+                             days
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_2272_01DA9BD1.9BD293F0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hey,
+
+I was checking your website and saw you have a good design and it looks
+great, but it's not ranking on Google and other major search engines.
+
+I'm an SEO Expert and I helped over 250 businesses rank on the (1st Page on
+Google, Yahoo and Bing). My rates are very affordable.
+
+May I send you quote? If interested.
+
+Thanks!
+
+Ishani
+
+
+------=_NextPart_000_2272_01DA9BD1.9BD293F0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>Hey,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;line-height:115%'>I =
+was checking your website and saw you have a good design and it looks =
+great, but it's not ranking on Google and other major search =
+engines.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>I&#8217;m an SEO Expert and =
+I helped over 250 businesses rank on the (1st Page on Google, Yahoo and =
+Bing). My rates are very affordable.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;line-height:115%'>May =
+I send you quote? If interested.<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-size:12.0pt'>Thanks!<o:p></o:p></span></p><p =
+class=3DMsoNormal><b><span =
+style=3D'font-size:12.0pt;line-height:115%'>Ishani</span></b></p></div></=
+body></html>
+------=_NextPart_000_2272_01DA9BD1.9BD293F0--
+

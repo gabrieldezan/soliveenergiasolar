@@ -1,0 +1,691 @@
+Return-Path: <bounces+14172652-c9f8-contato=soliveenergiasolar.com.br@em4478.stone.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id GPU+DgTWQmKNHgAAJcoV8Q
+	(envelope-from <bounces+14172652-c9f8-contato=soliveenergiasolar.com.br@em4478.stone.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 29 Mar 2022 09:48:52 +0000
+Return-path: <bounces+14172652-c9f8-contato=soliveenergiasolar.com.br@em4478.stone.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 29 Mar 2022 09:48:52 +0000
+Received: from o1.tonmail.stone.com.br ([168.245.60.11]:51414)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounces+14172652-c9f8-contato=soliveenergiasolar.com.br@em4478.stone.com.br>)
+	id 1nZ8T4-0002Go-GW
+	for contato@soliveenergiasolar.com.br; Tue, 29 Mar 2022 09:48:52 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=stone.com.br;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=O1; bh=xYA/RIIlrasTw07INiID9mvL67aJkkgqHIXDRqjxvEs=;
+	b=AztO+DXPFci3h07tzluhjwHksz4wffl8FbnjnngEf+NsBicLyX4j02m27HWTuIKXgNeU
+	/uBfNAu6/rqOFxBG+XLdCM1hM4g6FVNs2xmTnOY8bJaHlZuUdJei+STtAqD/F6SQHxLcV6
+	7fZhP/2d2jnxWFPvYZ5a+cAf/o7GDHJc8ewfsLCaNhxl8D3FzSIDkPtm7Azt9rcsPONVcE
+	NCcL0uFfIhHO6E+Osdc+AYee6rpPAbziXvKeEO4urm3yizd3AJVU/V174sNzes+L51UuMO
+	hi8Ae5rc3x2fHXDqsPlK4b0WyH3Do+hmFDLRCR2XimjC8jYvR9guItmlxJe71Xcg==
+Received: by filterdrecv-696dfd6446-qt2hk with SMTP id filterdrecv-696dfd6446-qt2hk-1-6242D5D9-24
+        2022-03-29 09:48:09.328618328 +0000 UTC m=+18012467.907343943
+Received: from MTQxNzI2NTI (unknown)
+	by geopod-ismtpd-3-3 (SG) with HTTP
+	id cO3d5VlXRMOGDLjiGRac6w
+	Tue, 29 Mar 2022 09:48:09.286 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Tue, 29 Mar 2022 09:48:09 +0000 (UTC)
+From: Ton <ton-noreply@stone.com.br>
+Mime-Version: 1.0
+Message-ID: <cO3d5VlXRMOGDLjiGRac6w@geopod-ismtpd-3-3>
+Subject: Ton | Principais funcionalidades do App
+X-SG-EID: 
+ =?us-ascii?Q?22TbsPP1scBer3KkHkHDh6iRcKKy0s0sBDkAf9Ubo9G0MZlqdg4Q88Jqc9FH5Z?=
+ =?us-ascii?Q?x8mORggz1VLvs6Xex1HfquQ0fr5xEhgg9VZSp3m?=
+ =?us-ascii?Q?dFVpgaAkiOq6ZM3rvz3XcT4LONFXRFmHFj7QSTh?=
+ =?us-ascii?Q?F7KgCMnHrAIXpU6qWXNsN0rqwz=2F+44VunRAdhdu?=
+ =?us-ascii?Q?6idUS9euQY9ud+ZcOjVtQaf=2FIlEaJg3=2FkM4su2k?=
+ =?us-ascii?Q?fcuCdOmmt8LuNWN+06dMXcr2kGJjJt04kMwul4m?=
+ =?us-ascii?Q?ZmzWzIeG4ZhPBrHRUk=2FgQ=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKHgAsE=2FCUk5eZaRe5Ltr?=
+ =?us-ascii?Q?cbRj2HqCWGS8Ajsk06jwpn1rIC22GtyPXvVhRW1?=
+ =?us-ascii?Q?8lMgkOe64jEk+a1tM4mWA061z47utnoWNy6jDpV?=
+ =?us-ascii?Q?=2FptZ29bhLr+WOdCVPW4FauW5s+zg=2FwEIiyunTCL?=
+ =?us-ascii?Q?TI+2NUfaI+76sqjxXAycQD9u1mapxBNbXM+T=2Fot?=
+ =?us-ascii?Q?gxz6HMIysvGUIbYKvnI666cv5K6ZGcrv=2F53vFDm?=
+ =?us-ascii?Q?tFE6GMc=2FsDh1j9tibBtb46A04YPxmxGx2CGE1Vw?=
+ =?us-ascii?Q?nmsIq9w291Lt8RKwnFRUM+E0wR=2FcE4uLm22FX1P?=
+ =?us-ascii?Q?aKIbEiuZkw5cRV8=2FODICKBlYD0GI=3D?=
+To: contato@soliveenergiasolar.com.br
+X-Entity-ID: 8FiMRWpctiURAU+NWhxzIA==
+X-Spam-Status: No, score=1.9
+X-Spam-Score: 19
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá, Rodrigo! Tudo bem? Neste e-mail vou te mostrar um pouco
+    mais as principais funcionalidades do app! Vamos lá? 😀 
+ Content analysis details:   (1.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.5 URIBL_GOLD             Contains an URL listed in the URIBL GOLDlist
+                             [URIs: sendgrid.net]
+  1.0 URIBL_GREY             Contains an URL listed in the URIBL greylist
+                             [URIs: sendgrid.net]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: sendgrid.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; =
+background-color:#FFFFFF;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p></p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"fc6b7156-8bb6-4c05-bcd5-008b4bf1dbb3">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/209dd343-6976-4e2f-a478-2d0dbf061d8d/600x240.png">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"f6905a3b-2250-4165-9318-949a830c77e7" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 30px 18px 30px; line-height:22px; text-al=
+ign:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-co=
+ntent"><div><div style=3D"font-family: inherit; text-align: center"><span s=
+tyle=3D"color: #38d430; font-size: 18px"><strong>Ol=C3=A1, Rodrigo! Tudo be=
+m?</strong></span></div>
+<div style=3D"font-family: inherit; text-align: center"><br></div>
+<div style=3D"font-family: inherit; text-align: center"><span style=3D"line=
+-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; bac=
+kground-color: transparent; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-style: initial; text-decoration-color: initial; vertical-align: base=
+line; white-space: pre-wrap; color: #656565; font-size: 16px">Neste e-mail =
+vou te mostrar um pouco mais as principais funcionalidades do app!</span></=
+div>
+<div style=3D"font-family: inherit; text-align: center"><span style=3D"line=
+-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; bac=
+kground-color: transparent; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-style: initial; text-decoration-color: initial; vertical-align: base=
+line; white-space: pre-wrap; color: #656565; font-size: 16px">Vamos l=C3=A1=
+? =F0=9F=98=80</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"8a88b2e5-e897-4dd0-a6f7-fce475cf7465">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/a252100b-d50c-4406-89f7-ab4d6350afaf/600x93.png">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"98704d24-9b36-4597-b1b7-7e41124914eb" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: center"><span sty=
+le=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: =
+Arial; background-color: transparent; font-weight: 400; font-style: normal;=
+ font-variant-ligatures: normal; font-variant-caps: normal; font-variant-nu=
+meric: normal; font-variant-east-asian: normal; text-decoration-line: none;=
+ text-decoration-style: initial; text-decoration-color: initial; vertical-a=
+lign: baseline; white-space: pre-wrap; color: #656565; font-size: 16px">Atr=
+av=C3=A9s do link de pagamento voc=C3=AA vende direto do aplicativo para qu=
+em n=C3=A3o est=C3=A1 perto de voc=C3=AA ou sem cart=C3=A3o em m=C3=A3os.&n=
+bsp;</span></div>
+<div style=3D"font-family: inherit; text-align: center"><span style=3D"line=
+-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; bac=
+kground-color: transparent; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-style: initial; text-decoration-color: initial; vertical-align: base=
+line; white-space: pre-wrap; color: #656565; font-size: 16px">Voc=C3=AA env=
+ia a cobran=C3=A7a pelas redes sociais.&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: center"><span style=3D"line=
+-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; bac=
+kground-color: transparent; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-style: initial; text-decoration-color: initial; vertical-align: base=
+line; white-space: pre-wrap; color: #656565; font-size: 16px">Para vender =
+=C3=A9 muito simples! </span><span style=3D"color: #656565; font-size: 16px=
+">&nbsp;</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"f91894f2-d07b-421b-85f2-f57af385a096">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/c82748ae-6a19-4ff7-abf2-036eef65cec6/600x536.gif">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"b1957150-83c7-4f2e-b16c-c7b6a06b303d" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: center"><span sty=
+le=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: =
+Arial; background-color: transparent; font-weight: 400; font-style: normal;=
+ font-variant-ligatures: normal; font-variant-caps: normal; font-variant-nu=
+meric: normal; font-variant-east-asian: normal; text-decoration-line: none;=
+ text-decoration-style: initial; text-decoration-color: initial; vertical-a=
+lign: baseline; white-space: pre-wrap; color: #656565; font-size: 16px">Pro=
+nto! Agora =C3=A9 s=C3=B3 mandar para o seu cliente.&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: center"><span style=3D"line=
+-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; bac=
+kground-color: transparent; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-style: initial; text-decoration-color: initial; vertical-align: base=
+line; white-space: pre-wrap; color: #656565; font-size: 16px">Pode ser envi=
+ado pelo WhatsApp, Facebook, ou qualquer outra rede social.</span></div><di=
+v></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"676d192b-7a08-4f00-a5ec-991ab2c8b2af">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/469dda91-ef26-4523-a8a9-04bfb93c56ec/600x93.png">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"bef5fc0d-d648-4df0-9032-9a1ff75556f2" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: center"><span sty=
+le=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: =
+Arial; background-color: transparent; font-weight: 400; font-style: normal;=
+ font-variant-ligatures: normal; font-variant-caps: normal; font-variant-nu=
+meric: normal; font-variant-east-asian: normal; text-decoration-line: none;=
+ text-decoration-style: initial; text-decoration-color: initial; vertical-a=
+lign: baseline; white-space: pre-wrap; color: #656565; font-size: 15px">A c=
+alculadora de taxas vai te ajudar a entender o quanto =C3=A9 descontado em =
+cada uma das formas de pagamento (no d=C3=A9bito, cr=C3=A9dito ou parcelado=
+). Dessa forma voc=C3=AA sabe exatamente o quanto vai receber em cada uma d=
+as suas vendas.</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"73013ce5-3b6d-4392-adf2-eec47c33a07f">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/05562223-2ca5-4dc6-8bec-df801da14760/600x536.gif">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"e055b55d-2e5c-4ec1-814f-aa9c538ec1ea">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/6227677f-b001-4c2d-b9a0-1cb1edf87ab5/600x93.png">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"bd8ba3ee-1db1-4022-843d-e3f92282243f" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: center"><span sty=
+le=3D"font-family: Arial; background-color: transparent; font-weight: 400; =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-variant-numeric: normal; font-variant-east-asian: normal; text-dec=
+oration-line: none; text-decoration-style: initial; text-decoration-color: =
+initial; vertical-align: baseline; white-space: pre-wrap; color: #656565; f=
+ont-size: 16px">O espa=C3=A7o =E2=80=9CMinha loja=E2=80=9D serve como um ca=
+t=C3=A1logo dos seus produtos e servi=C3=A7os a serem oferecidos para te aj=
+udar a vender de forma mais organizada!</span><span style=3D"color: #656565=
+; font-size: 16px">&nbsp;</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"88cb7f4d-724b-4fc5-adcc-3b9a3cc679a5">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/82510019-5f1f-47cc-b1a6-f560da2a6146/600x536.gif">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"28f35859-acc3-46f2-95ed-7b1d28d5cc70">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/0fb5c5e0-2473-490a-ba7a-004399f6f6fb/600x38.png">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"77bcf163-292b-4e66-b27e-4845840b32f3" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:0px 30px 18px 30px; line-height:22px; text-ali=
+gn:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-con=
+tent"><div><div style=3D"font-family: inherit; text-align: center"><span st=
+yle=3D"font-size: 12pt; font-family: Arial; color: #656565; background-colo=
+r: transparent; font-weight: 400; font-style: normal; font-variant-ligature=
+s: normal; font-variant-caps: normal; font-variant-numeric: normal; font-va=
+riant-east-asian: normal; text-decoration-line: none; text-decoration-style=
+: initial; text-decoration-color: initial; vertical-align: baseline; white-=
+space: pre-wrap">Para falar comigo voc=C3=AA j=C3=A1 sabe, segunda a sexta =
+das 7h =C3=A0s 22h e s=C3=A1bado e domingo das 8h =C3=A0s 20h.&nbsp;<br>
+<br>
+Abra=C3=A7os do seu amigo,<br>
+<br>
+Ton</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"f4bcf06f-9b78-4d05-a107-d0d73ea9b84e">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"http://relay.stone.com.br/ls/click?upn=3DejnXYNt5krD-2BD=
+7IOXG1lab6q41oPwdOTE0wMcZl-2Fhd-2BTzUsQ07h5IzGj-2BN5gXH6X2vpv_kK98eMpoK8EC5=
+aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZajhFGdHCX9MyYJ-2BbW26fq=
+8lwS9tq-2BYFL-2F88H9hnUeKvHbpZNV8hkntOQo7NBHSmk3oEhOGicK1f5JgnzvT-2BgXrgBLI=
+936YXbAhwn-2FLhQdo4LVkG7bFmUPXJZXLSZEVK9Q3z9YpB2bArwX49G5BbBDLj5Ec-2Bkz-2BW=
+O6i0YB0Ejlx4J3-2BqGbb2OO9vRJcciVNtelAktV1f589bLhUkMeWXrp5bOyP0WLvqc96knKnvV=
+aJokjeyJQnHRggEoP1QbnC8todnW22EIDO0CEECRJqA-2FF-2FoZdCzbSp0QFzufh7wE1MwlbUW=
+2jeUw3qkiO09fr-2Bw5KVlbR6zbaWOrROeDGcVH07liIR7lSjeC6NX-2Fy76kyJTqgc47g8-2Fs=
+-2B9u1ZiqKS5bmS5h59ctf0xU1Q8895-2FmB8nkDHdSXxCev0rO4EOsqZI3bhbCzyQcFL1mtCNx=
+6jlSSxMKJAVALLyAjAT2yMc50yWvKqqkak6ldccmod4b3D7YY-3D"><img class=3D"max-wid=
+th" border=3D"0" style=3D"display:block; color:#000000; text-decoration:non=
+e; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100%=
+ !important; width:100%; height:auto !important;" width=3D"600" alt=3D"" da=
+ta-proportionally-constrained=3D"true" data-responsive=3D"true" src=3D"http=
+://cdn.mcauto-images-production.sendgrid.net/ce922ed6b9fc438b/5a99e10a-ac80=
+-4bdd-9b4d-4470730426d4/600x250.png"></a></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"677e48b7-c7c4-4405-9847-e22579346a6a">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+          <img class=3D"max-width" border=3D"0" style=3D"display:block; col=
+or:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif;=
+ font-size:16px; max-width:100% !important; width:100%; height:auto !import=
+ant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" data-=
+responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.net=
+/ce922ed6b9fc438b/b68a1766-39e4-4ccd-9433-a77ee0d85d03/600x93.png">
+        </td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"social" alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" style=3D"table-layout: fixed;" data-muid=3D"727cc3ea-4ef2-41a6-be9a-26e44=
+5d979db">
+    <tbody>
+      <tr>
+        <td valign=3D"top" style=3D"padding:8px 0px 0px 0px; font-size:6px;=
+ line-height:10px;" align=3D"center">
+          <table align=3D"center" style=3D"-webkit-margin-start:auto;-webki=
+t-margin-end:auto;">
+            <tbody><tr align=3D"center"><td style=3D"padding: 0px 5px;" cla=
+ss=3D"social-icon-column">
+      <a role=3D"social-icon-link" href=3D"http://relay.stone.com.br/ls/cli=
+ck?upn=3DejnXYNt5krD-2BD7IOXG1laW9W085TqUyAom2fGZk2lfX9v3jdi-2FgMueOQlEHMV6=
+3XNoU8_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZajh=
+FGdHCX9MyYJ-2BbW26fq8lwS9tq-2BYFL-2F88H9hnUeKvHbpZNV8hkntOQo7NBHSmk3oEhOGic=
+K1f5JgnzvT-2BgXrgBLI936YXbAhwn-2FLhQdo4LVkG7bFmUPXJZXLSZEVK9Q3z9YpB2bArwX49=
+G5BbBDLj5Ec-2Bkz-2BWO6i0YB0Ejlx4J3-2BqGbb2OO9vRJcciVNtelAktV1f589bLhUkMeWXr=
+p5bOyP0WLvqc96knKnvVaJokjeyJQnHRggEoP1QbnC8todnW22EIDO0CEECRJqA-2FF-2FoZdCz=
+bSp0QFzufh7wE1MwlbUW2jeUw3qkiO09fr-2Bw5KVlbR6zbaWOrROeDGcVH07qutoqc7m3zrn3z=
+i0ZnFkAOxiCeZBYWGNdH-2BjXEmwfALzwxGO4Qfqv4jT12FviQfp1BZ30G2sAwd6hx8Ve-2FQo0=
+5XnfeX8IVR4xY1z169ciRgQosY217wW6ejnGrwP-2F3NiE5y-2B-2BEEBYvDezbB4yBIunI-3D"=
+ target=3D"_blank" alt=3D"Facebook" title=3D"Facebook" style=3D"display:inl=
+ine-block; background-color:#38D430; height:24px; width:24px; border-radius=
+:12px; -webkit-border-radius:12px; -moz-border-radius:12px;">
+        <img role=3D"social-icon" alt=3D"Facebook" title=3D"Facebook" src=
+=3D"https://mc.sendgrid.com/assets/social/white/facebook.png" style=3D"heig=
+ht:24px; width:24px;" height=3D"24" width=3D"24">
+      </a>
+    </td><td style=3D"padding: 0px 5px;" class=3D"social-icon-column">
+      <a role=3D"social-icon-link" href=3D"http://relay.stone.com.br/ls/cli=
+ck?upn=3DejnXYNt5krD-2BD7IOXG1laaGdicr9YzTuJ-2B8LNATugIHZMJCeU1hHEsNtMcEEyW=
+xRi9PJ_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZajh=
+FGdHCX9MyYJ-2BbW26fq8lwS9tq-2BYFL-2F88H9hnUeKvHbpZNV8hkntOQo7NBHSmk3oEhOGic=
+K1f5JgnzvT-2BgXrgBLI936YXbAhwn-2FLhQdo4LVkG7bFmUPXJZXLSZEVK9Q3z9YpB2bArwX49=
+G5BbBDLj5Ec-2Bkz-2BWO6i0YB0Ejlx4J3-2BqGbb2OO9vRJcciVNtelAktV1f589bLhUkMeWXr=
+p5bOyP0WLvqc96knKnvVaJokjeyJQnHRggEoP1QbnC8todnW22EIDO0CEECRJqA-2FF-2FoZdCz=
+bSp0QFzufh7wE1MwlbUW2jeUw3qkiO09fr-2Bw5KVlbR6zbaWOrROeDGcVH07j-2BIVkUILXgKE=
+vXZTfpGQG0Sr-2BwNmgktl1-2Bw7KIjxYVsZ82Ni-2FwD2hW-2F2r6LJ-2BXNMJVL2rvThcwqyf=
+ILQxg2soXwCCIiv-2BdxbY5qmY7QIkO4oRUBf7J4KdcD3sFI6uWUOHLbejRjmVJQNm7VelnlwkM=
+-3D" target=3D"_blank" alt=3D"Twitter" title=3D"Twitter" style=3D"display:i=
+nline-block; background-color:#38D430; height:24px; width:24px; border-radi=
+us:12px; -webkit-border-radius:12px; -moz-border-radius:12px;">
+        <img role=3D"social-icon" alt=3D"Twitter" title=3D"Twitter" src=3D"=
+https://mc.sendgrid.com/assets/social/white/twitter.png" style=3D"height:24=
+px; width:24px;" height=3D"24" width=3D"24">
+      </a>
+    </td><td style=3D"padding: 0px 5px;" class=3D"social-icon-column">
+      <a role=3D"social-icon-link" href=3D"http://relay.stone.com.br/ls/cli=
+ck?upn=3DejnXYNt5krD-2BD7IOXG1laS9l8ft-2BztgOMrZ9CQl0XwmDZYcC7klUKcZRRfeI7D=
+t6H94e45eLPUdj6KcOO3EZnw-3D-3DcEji_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvC=
+X2lOe7xFM7wLjRkH0Lnl6qJEZajhFGdHCX9MyYJ-2BbW26fq8lwS9tq-2BYFL-2F88H9hnUeKvH=
+bpZNV8hkntOQo7NBHSmk3oEhOGicK1f5JgnzvT-2BgXrgBLI936YXbAhwn-2FLhQdo4LVkG7bFm=
+UPXJZXLSZEVK9Q3z9YpB2bArwX49G5BbBDLj5Ec-2Bkz-2BWO6i0YB0Ejlx4J3-2BqGbb2OO9vR=
+JcciVNtelAktV1f589bLhUkMeWXrp5bOyP0WLvqc96knKnvVaJokjeyJQnHRggEoP1QbnC8todn=
+W22EIDO0CEECRJqA-2FF-2FoZdCzbSp0QFzufh7wE1MwlbUW2jeUw3qkiO09fr-2Bw5KVlbR6zb=
+aWOrROeDGcVH07o6MzeisGs6L5TFMEWXP-2F1TC6iExgWRPpSTrHCpWDG9hL7t8-2BWCBmd9Ic9=
+YGHuwmsRTm6KRGVthMzQAlF9SkP6nSZb1HVuw8LUEjo-2B3-2BOcMsp-2F6cFdDizzxCblddfER=
+cuodfkS1hDBC7znrYMryJt1U-3D" target=3D"_blank" alt=3D"Instagram" title=3D"I=
+nstagram" style=3D"display:inline-block; background-color:#38D430; height:2=
+4px; width:24px; border-radius:12px; -webkit-border-radius:12px; -moz-borde=
+r-radius:12px;">
+        <img role=3D"social-icon" alt=3D"Instagram" title=3D"Instagram" src=
+=3D"https://mc.sendgrid.com/assets/social/white/instagram.png" style=3D"hei=
+ght:24px; width:24px;" height=3D"24" width=3D"24">
+      </a>
+    </td></tr></tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    <img src=3D"http://relay.stone.com.br/wf/open?upn=3Dm8sqQTK7H7veP1VIavT=
+-2Fp3OiTEP71oo3bfrUM75McanZKUpUtyGA7Sq0KWWnziue7JLl78x4ruHhUVMCO7yNaKvsGmry=
+RYG1Wi51PvWDnahucqWXMun0gwxjXF8dF6Gn9a4TW2Te5sxdDc0FxVbCsInF9HJGcVLLAsCd4SM=
+bk1tixljqZzSgPKKn8f8uLbK4VXdR4uPwCq8tnbXkc9oWf209ie4stl-2FmYssJoc2fOd42j9M0=
+SZbPi98FUfInG2g61nBGPfDRolup4IhPg8QzRR06H-2BjuaSr0MT1OIrf8f8fdGZrWKPAaO6zqh=
+r2QyF3uiTMMdn8GyR8m5vuxn6codNasBHQHCx2ye3LNGbLwin-2Ba19F4bWPd3USUL9ZIj0dYt9=
+agzwLDkBuP2I0MKygj4AP03Z6NCmOTgykA3C8z4CE-2FR8w3EhW9zZRHhyahTOJXAK8h8lbyAP-=
+2Bh7nC-2F0N-2FBDvhIJ5U8LuuFP2pn2N592FDe7G256D42JV2dFfxWPB-2FX2Gi1FSgmszl9Gh=
+BHH-2F-2FNhKI4L3nZtxmtaLj3-2FlEUJ9s-3D" alt=3D"" width=3D"1" height=3D"1" b=
+order=3D"0" style=3D"height:1px !important;width:1px !important;border-widt=
+h:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-ri=
+ght:0 !important;margin-left:0 !important;padding-top:0 !important;padding-=
+bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/=
+></body>
+  </html>

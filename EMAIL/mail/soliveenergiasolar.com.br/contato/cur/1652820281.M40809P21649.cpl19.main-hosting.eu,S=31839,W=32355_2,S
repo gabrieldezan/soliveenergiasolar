@@ -1,0 +1,516 @@
+Return-Path: <ton@stone.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id 0EcTAjkJhGKRVAAAJcoV8Q
+	(envelope-from <ton@stone.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 17 May 2022 20:44:41 +0000
+Return-path: <ton@stone.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 17 May 2022 20:44:41 +0000
+Received: from smtp14-ph2-sp4.mta.salesforce.com ([13.110.6.221]:26533)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <ton@stone.com.br>)
+	id 1nr43c-0005Yr-B8
+	for contato@soliveenergiasolar.com.br; Tue, 17 May 2022 20:44:40 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=stone.com.br;
+	s=k1.salesforce; t=1652820238;
+	bh=YJLVSlmrAgW2B2sZxnxS+S1I8xIPnUxBSk/ECQYaIDc=;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	b=K/qbIgJ3RawrLaF247kmWz3FgP+0brs0KQuqWoU+GEKslYtwXmFhQ8pCIwys6KHp6
+	 8eGJEXOGe0viQh7njumyu00vFsyk6vFc7WXx+7joVxq9pQsJoJEqnr+EmYt75DZm/T
+	 H91rvoBEWpkOYOVivhO2/dOj9VoOGXH1bdscn0OI=
+Authentication-Results:  mx4-ph2-sp4.mta.salesforce.com x-tls.subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:ph2;2:ph2-sp4;3:na113;4:prod/CN=na113-app2-2-ph2.ops.sfdc.net"; auth=pass (cipher=ECDHE-RSA-AES256-GCM-SHA384)
+Received: from [10.176.148.42] ([10.176.148.42:38526] helo=na113-app2-2-ph2.ops.sfdc.net)
+	by mx4-ph2-sp4.mta.salesforce.com (envelope-from <ton@stone.com.br>)
+	(ecelerity 4.2.38.62368 r(Core:release/4.2.38.0)) with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384
+	subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:ph2;2:ph2-sp4;3:na113;4:prod/CN=na113-app2-2-ph2.ops.sfdc.net") 
+	id 69/B8-05277-E0904826; Tue, 17 May 2022 20:43:58 +0000
+Date: Tue, 17 May 2022 20:43:58 +0000 (GMT)
+From: Ton <ton@stone.com.br>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Message-ID: <M_Avi000000000000000000000000000000000000000000000RC1O9900pThDYQv1T_GTJy4hAmGN7A@sfdc.net>
+In-Reply-To: <3a9c276ffc3927d09ed387c8347b4f1d@soliveenergiasolar.com.br>
+References: <vGhYK000000000000000000000000000000000000000000000RBU50Z00QuhDoizjRsKUIleuIgppzA@sfdc.net>
+ <b8XD-000000000000000000000000000000000000000000000RBZKUL00FAtplbajTM6XshlK-rM8bw@sfdc.net>
+ <3a9c276ffc3927d09ed387c8347b4f1d@soliveenergiasolar.com.br>
+Subject: Contato Ton | Saldo Desbloqueado
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10021_1792811949.1652820238852"
+X-SFDC-LK: 00D41000000e72R
+X-SFDC-User: 0053j00000AjEzR
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-EmailCategory: quickActionEmail
+X-SFDC-EntityId: 5003j000020hnWh
+X-SFDC-Interface: internal
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Rodrigo Almeida, Nosso time finalizou a análise de seu transacional
+    e o seu saldo já está disponível para ser transferido para a conta ou cartão
+    pré-pago! Relembramos que, ao contratar o Ton, você declara estar ciente
+   de todas as regras referentes à prestação de nossos serviços, que 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: whatsapp.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+------=_Part_10021_1792811949.1652820238852
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Rodrigo Almeida,
+
+
+Nosso time finalizou a an=E1lise de seu transacional e o seu saldo j=E1 est=
+=E1 dispon=EDvel para ser transferido para a conta ou cart=E3o pr=E9-pago!
+
+Relembramos que, ao contratar o Ton, voc=EA declara estar ciente de todas a=
+s regras referentes =E0 presta=E7=E3o de nossos servi=E7os, que
+
+que constam em nossos Termos e Condi=E7=F5es de Uso do Ton.  (incluindo, co=
+nforme pre=E2mbulo, os Termos Gerais de Contrata=E7=E3o de Produtos e Servi=
+=E7os de Pagamento do Pagar.me).
+
+Caso fique com d=FAvidas, voc=EA poder=E1 falar conosco atrav=E9s do e-mail=
+ ton@stone.com.br ou por meio dos nossos outros canais de atendimento abaix=
+o:
+
+
+Chat e e-mail: segunda a sexta, das 7h =E0s 21h e
+
+s=E1bado, domingo e feriados, das 8h =E0s 21h
+
+Um abra=E7o,
+
+Time de Preven=E7=E3o e Monitoramento
+
+
+D=FAvidas? Acesse nossa Central de Ajuda
+
+Envie um Whatsapp
+
+Mande um email ton@stone.com.br
+
+
+Site Ton  Pol=EDtica de Privacidade  Pol=EDtica de Cookies
+------=_Part_10021_1792811949.1652820238852
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="es-wrapper-color" style="background-color:#E6ECF2"><!--[if gte mso 9]>
+			<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+				<v:fill type="tile" color="#E6ECF2"></v:fill>
+			</v:background>
+		<![endif]-->
+<table cellpadding="0" cellspacing="0" class="es-wrapper" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#E6ECF2" width="100%">
+	<tbody>
+		<tr>
+			<td style="padding:0;Margin:0" valign="top">
+			<table align="center" cellpadding="0" cellspacing="0" class="es-content" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding:0;Margin:0">
+						<table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" style="padding:0;Margin:0">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:560px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding:0;Margin:0;font-size:0px"><img alt="" class="adapt-img" src="https://hpomom.stripocdn.email/content/guids/CABINET_931760ed846db3b0ba6aaeea217bc1f9/images/group_34445_L1u.png" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560" /></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" cellpadding="0" cellspacing="0" class="es-content" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding:0;Margin:0">
+						<table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" style="padding:0;Margin:0">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:560px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding:0;Margin:0;font-size:0px"><img alt="" class="adapt-img" src="https://hpomom.stripocdn.email/content/guids/CABINET_931760ed846db3b0ba6aaeea217bc1f9/images/group_34440.png" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560" /></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" cellpadding="0" cellspacing="0" class="es-content" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding:0;Margin:0">
+						<table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" bgcolor="#fbfbfb" style="padding:0;Margin:0;padding-top:25px;padding-left:30px;padding-right:30px;background-color:#fbfbfb">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:500px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:15px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px"><strong>Rodrigo Almeida,</strong></p>
+
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#ffffff;font-size:16px;margin-bottom:4px;display:none">&nbsp;</p>
+															</td>
+														</tr>
+														<tr>
+															<td align="left" style="padding:0;Margin:0;padding-bottom:10px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">Nosso time finalizou a&nbsp;an&aacute;lise&nbsp;de seu transacional e o seu saldo j&aacute; est&aacute; dispon&iacute;vel para ser transferido para a conta ou cart&atilde;o pr&eacute;-pago!</p>
+															</td>
+														</tr>
+														<tr>
+															<td align="left" style="padding:0;Margin:0;padding-bottom:10px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">Relembramos que, ao contratar o Ton, voc&ecirc; declara estar ciente de todas as regras referentes &agrave; presta&ccedil;&atilde;o de nossos servi&ccedil;os, que&nbsp;</p>
+
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">que constam em nossos <a href="https://documentos.ton.com.br/termos-e-condicoes.pdf">Termos e Condi&ccedil;&otilde;es de Uso do Ton.</a> <a href="https://pagar.me/documentos/termos-de-uso.pdf"> (incluindo, conforme pre&acirc;mbulo, os Termos Gerais de Contrata&ccedil;&atilde;o de Produtos e Servi&ccedil;os de Pagamento do Pagar.me)</a>.</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" cellpadding="0" cellspacing="0" class="es-content" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding:0;Margin:0">
+						<table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" style="padding:0;Margin:0;padding-left:30px;padding-right:30px">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:500px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" style="padding:0;Margin:0">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">Caso fique com d&uacute;vidas, voc&ecirc; poder&aacute; falar conosco atrav&eacute;s do e-mail <strong>ton@stone.com.br </strong>ou por meio dos nossos outros canais de atendimento abaixo:</p>
+
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px;display:none">&nbsp;</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="left" class="es-m-p20r es-m-p20l" style="padding:0;Margin:0;padding-top:10px;padding-left:30px;padding-right:30px">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:500px" valign="top">
+												<table bgcolor="#efefef" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#efefef;border-radius:16px" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" class="es-m-txt-l es-m-p20r es-m-p20l" style="Margin:0;padding-bottom:15px;padding-top:25px;padding-left:30px;padding-right:30px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">Chat e e-mail: segunda a sexta, das 7h &agrave;s 21h e</p>
+
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">s&aacute;bado, domingo e feriados, das 8h &agrave;s 21h</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" cellpadding="0" cellspacing="0" class="es-content" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding:0;Margin:0">
+						<table align="center" bgcolor="#fbfbfb" cellpadding="0" cellspacing="0" class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#fbfbfb;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" bgcolor="#fbfbfb" class="es-m-p20r es-m-p20l" style="padding:30px;Margin:0;background-color:#fbfbfb">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:500px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding:0;Margin:0;padding-top:10px;font-size:0px"><img alt="" class="adapt-img" src="https://hpomom.stripocdn.email/content/guids/CABINET_4f9d16288336ef03b99c101774f943b2/images/97771618345864952.png" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="500" /></td>
+														</tr>
+														<tr>
+															<td align="center" class="es-m-txt-l" style="padding:0;Margin:0">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">Um abra&ccedil;o,</p>
+
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px"><b>Time de Preven&ccedil;&atilde;o e Monitoramento</b></p>
+
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#20252A;font-size:16px;margin-bottom:4px">&nbsp;</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="left" style="padding:0;Margin:0">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:560px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding:0;Margin:0;font-size:0px"><img alt="" class="adapt-img" src="https://hpomom.stripocdn.email/content/guids/CABINET_931760ed846db3b0ba6aaeea217bc1f9/images/group_34438.png" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560" /></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="left" bgcolor="#045127" style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-color:#045127">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:520px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" style="padding:0;Margin:0;padding-top:10px;padding-left:10px;padding-right:10px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:33px;color:#ffffff;font-size:22px;margin-bottom:4px"><strong>D&uacute;vidas? Acesse nossa <a href="https://ajuda.ton.com.br/?_ga=2.7754738.1798617140.1636040161-833782825.1636040161" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#8cfa6e;font-size:22px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif" target="_blank">Central de Ajuda</a></strong></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" cellpadding="0" cellspacing="0" class="es-footer" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top">
+				<tbody>
+					<tr>
+						<td align="center" style="padding:0;Margin:0">
+						<table align="center" cellpadding="0" cellspacing="0" class="es-footer-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" bgcolor="#045127" style="Margin:0;padding-bottom:10px;padding-top:20px;padding-left:20px;padding-right:20px;background-color:#045127"><!--[if mso]><table style="width:520px" cellpadding="0" cellspacing="0"><tr><td style="width:30px" valign="top"><![endif]-->
+									<table align="left" cellpadding="0" cellspacing="0" class="es-left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+										<tbody>
+											<tr class="es-mobile-hidden">
+												<td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:30px">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding:0;Margin:0;font-size:0px"><img alt="" class="adapt-img" src="https://hpomom.stripocdn.email/content/guids/CABINET_9b12fcd1a257618ad27dd434ea2d9d44/images/assets.png" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="30" /></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if mso]></td><td style="width:10px"></td><td style="width:480px" valign="top"><![endif]-->
+
+									<table align="right" cellpadding="0" cellspacing="0" class="es-right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+										<tbody>
+											<tr>
+												<td align="left" style="padding:0;Margin:0;width:480px">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" style="padding:0;Margin:0;padding-top:10px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:18px;color:#ffffff;font-size:12px;margin-bottom:8px"><span style="font-size:18px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif">Envie um&nbsp;</span><a href="https://api.whatsapp.com/send?phone=551130049136" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#8cfa6e;font-size:18px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif" target="_blank">Whatsapp</a><br />
+															<br />
+															<span style="font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:18px">Mande um email&nbsp;<a href="https://ton@stone.com.br" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#8cfa6e;font-size:18px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif" target="_blank">ton@stone.com.br</a></span><br />
+															<br />
+															<span style="display:none">&nbsp;</span></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if mso]></td></tr></table><![endif]--></td>
+								</tr>
+								<tr>
+									<td align="left" class="es-m-p15" style="padding:25px;Margin:0">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="left" style="padding:0;Margin:0;width:510px">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td style="padding:0;Margin:0">
+															<table cellpadding="0" cellspacing="0" class="es-menu" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+																<tbody>
+																	<tr class="links">
+																		<td align="center" style="Margin:0;padding-left:5px;padding-right:5px;padding-top:10px;padding-bottom:10px;border:0" valign="top" width="33.33%"><a href="https://www.ton.com.br/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;color:#20252a;font-size:12px" target="_blank">Site Ton</a></td>
+																		<td align="center" style="Margin:0;padding-left:5px;padding-right:5px;padding-top:10px;padding-bottom:10px;border:0;border-left:1px solid #bcc8d6" valign="top" width="33.33%"><a href="https://registon.api.ton.com.br/documents/politica-de-privacidade/latest" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;color:#20252a;font-size:12px" target="_blank">Pol&iacute;tica de Privacidade</a></td>
+																		<td align="center" style="Margin:0;padding-left:5px;padding-right:5px;padding-top:10px;padding-bottom:10px;border:0;border-left:1px solid #bcc8d6" valign="top" width="33.33%"><a href="https://registon.api.ton.com.br/documents/aviso-de-cookies/latest" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;display:block;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;color:#20252a;font-size:12px" target="_blank">Pol&iacute;tica de Cookies</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" cellpadding="0" cellspacing="0" class="es-content" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+				<tbody>
+					<tr>
+						<td align="center" class="es-info-area" style="padding:0;Margin:0">
+						<table align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:560px">
+							<tbody>
+								<tr>
+									<td align="left" class="es-m-p15" style="padding:25px;Margin:0">
+									<table cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding:0;Margin:0;width:510px" valign="top">
+												<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" class="es-infoblock" style="padding:0;Margin:0;line-height:14px;font-size:12px;color:#66707D;margin-bottom:8px">
+															<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:14px;color:#66707D;font-size:12px;margin-bottom:8px"></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<img src="https://stone.my.salesforce.com/servlet/servlet.ImageServer?oid=00D41000000e72R&esid=0183j00001Em470&from=ext"></body>
+</html>
+------=_Part_10021_1792811949.1652820238852--

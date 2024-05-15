@@ -1,0 +1,519 @@
+Return-Path: <bounce-800833a8a015bee8b97cc493ea902e15@smtplw-04.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id oDjYCAVmqWXWdAAAIElduQ
+	(envelope-from <bounce-800833a8a015bee8b97cc493ea902e15@smtplw-04.com>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 18 Jan 2024 17:55:17 +0000
+Return-path: <bounce-800833a8a015bee8b97cc493ea902e15@smtplw-04.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 18 Jan 2024 17:55:17 +0000
+Received: from hm638-27a.locaweb.com.br ([177.153.3.27]:52001)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <bounce-800833a8a015bee8b97cc493ea902e15@smtplw-04.com>)
+	id 1rQWbk-0005ct-0t
+	for contato@soliveenergiasolar.com.br;
+	Thu, 18 Jan 2024 17:55:17 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=smtplw; d=smtplw-04.com;
+ h=Content-Type:MIME-Version:From:To:Date:Subject:Message-Id:List-Unsubscribe;
+ bh=uCzzDW4PWgLpp/iiEhGAJLqOSDKGqIjIrQKYwTJWinQ=;
+ b=VrynrVVb2qYcbOMU+pTcW/0NwVxME0Tt2EZXN/Qu7VIFxVMGkKy+9nfLX/wmgqvy3GeqjJBvWv0C
+   divpCseQ8/mpORcKW/+sAvkL8/6xbTUHRuIKBvMcrMke/gUvxDHT+YuvfNsiUlzglHVWoALyZbY0
+   k3rsFYzexLTZbYPVpk8=
+Received: from saascoastguard0008.correio.biz (10.32.64.58) by hm638-27a.locaweb.com.br id hl5ir82oqm4i for <contato@soliveenergiasolar.com.br>; Thu, 18 Jan 2024 14:53:56 -0300 (envelope-from <bounce-800833a8a015bee8b97cc493ea902e15@smtplw-04.com>)
+Received: from saasqueue0003.correio.biz (unknown [10.32.64.6])
+	by saasmilter0010.correio.biz (Postfix) with ESMTP id 55CE0DFA87
+	for <contato@soliveenergiasolar.com.br>; Thu, 18 Jan 2024 14:54:33 -0300 (-03)
+Received: from [127.0.0.1] (unknown [192.187.97.18])
+	(Authenticated sender: leonardosaraujo)
+	by saasauth0007.correio.pw (Postfix) with ESMTPSA id A3457181377
+	for <contato@soliveenergiasolar.com.br>; Thu, 18 Jan 2024 14:54:32 -0300 (-03)
+Received: from [127.0.0.1] (unknown [192.187.97.18])
+	(Authenticated sender: leonardosaraujo)
+	by saasauth0007.correio.pw (Postfix) with ESMTPSA id A3457181377
+	for <contato@soliveenergiasolar.com.br>; Thu, 18 Jan 2024 14:54:32 -0300 (-03)
+Content-Type: multipart/mixed; boundary="===============1842726036366774420=="
+MIME-Version: 1.0
+From: RegistraCom <comercial@grupor7.com>
+To: contato@soliveenergiasolar.com.br
+Date: Wed, 17 Jan 2024 04:38:05 -0200
+Subject: soliveenergiasolar.com
+Message-Id: <mbb14f910ecb54e54942c5f5ec547c460@grupor7.com>
+List-Unsubscribe: <https://grupor7.com/ab9d9de4aa4a831686619597c76ca22e>
+x-locaweb-id: OifNxSnRNewdX_gLSq8tzPG-pkLy_zG6lvQK8_xT7Ax1BxEcza67_4X1otd2-07BmnINHc5IrAn4Hzl8xp5FKVAKKBog7FM3S1CbOufEhiBLYfunlbu5M1bUiwyoIf9fpXG5azWJcHIZosy0ItJSoezweHZtB_wZ_ftLvVWoTKOizZaOkzWklzTQ0HrV-g79EcnCCMQYsICLhy0T5-DRNKiuFpPVnFSwgjC1hPZc7H-Md9howa_E77Fe-FrbVXKQEK9SEng1tdqAv9HGa0VATQPpHdCVFpU51YMMMjrrZE05MQRhkq6jee2AJaXThrL2nffmwo6K3j7eCc2QdsUE8BM8oZghGX1kiZfJQjAifm0EHwZ_qr5RrGB1fbvZsMoXMARSSdYHKvL23-n1wCc6qA==
+x-locaweb-id2: NmM2NTZmNmU2MTcyNjQ2ZjczNjE3MjYxNzU2YTZm
+x-message-uid: 800833a8a015bee8b97cc493ea902e15-1705600473.38
+x-account-uid: 800833a8a015bee8b97cc493ea902e15
+x-return-path: bounce-800833a8a015bee8b97cc493ea902e15@smtplw-04.com
+x-envid: 800833a8a015bee8b97cc493ea902e15-1705600473.38
+X-Spam-Status: No, score=4.4
+X-Spam-Score: 44
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Cód. Atendimento 60470444 Bloquear remetente Registro de
+    Domínio Prezado usuárioEm 05/12/2023 enviamos o comunicado referente ao
+    Registro do Domínio soliveenergiasolar.comÉ importante o registro para
+   garantir a propriedade do nome e evitar [...] 
+ Content analysis details:   (4.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: smtplw-04.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: smtplw-04.com]
+  4.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.5 DATE_IN_PAST_24_48     Date: is 24 to 48 hours before Received: date
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--===============1842726036366774420==
+Content-Type: multipart/alternative;
+ boundary="===============0679076137335107318=="
+MIME-Version: 1.0
+
+--===============0679076137335107318==
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+=20
+                               C=C3=B3d. Atendimento 60470444        Bloque=
+ar remetente               =20
+             =20
+    =20
+   Registro de Dom=C3=ADnio  Prezado usu=C3=A1rioEm 05/12/2023 enviamos o c=
+omunicado referente ao Registro do Dom=C3=ADnio soliveenergiasolar.com=C3=
+=89 importante o registro para garantir a propriedade do nome e evitar a pe=
+rda do dom=C3=ADnio. =20
+         Efetuar Pagamento =E2=86=92        =20
+   Ap=C3=B3s o pagamento voc=C3=AA receber=C3=A1 a confirma=C3=A7=C3=A3o po=
+r e-mail. ---Sac: 11 3014.9191  =20
+     =20
+    =20
+                           =20
+            Hospedagem trimestral Inclusa por 2 meses. N=C3=A3o havendo int=
+eresse a renova=C3=A7=C3=A3o n=C3=A3o =C3=A9 obrigat=C3=B3ria.   Caso n=C3=
+=A3o tenha interesse na proposta ou n=C3=A3o queira mais receber nossos e-m=
+ails, marque Cancelar inscri=C3=A7=C3=A3o.  =E2=80=A2                 =20
+=E2=80=A2
+--===============0679076137335107318==
+Content-Type: multipart/related;
+ boundary="===============4520331692616067148=="
+MIME-Version: 1.0
+
+--===============4520331692616067148==
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE=20html>
+<html=20xmlns=3D"http://www.w3.org/1999/xhtml"=20xmlns:v=3D"urn:schemas-mic=
+rosoft-com:vml"=20xmlns:o=3D"urn:schemas-microsoft-com:office:office">=20<h=
+ead>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3DUTF=
+-8">=20<!--[if=20gte=20mso=2015]><xml>=20<o:OfficeDocumentSettings>=20<o:Al=
+lowPNG/>=20<o:PixelsPerInch>96</o:PixelsPerInch>=20</o:OfficeDocumentSettin=
+gs>=20</xml><![endif]-->=20<!--[if=20gte=20mso=209]><xml>=20<o:OfficeDocume=
+ntSettings>=20<o:AllowPNG/>=20<o:PixelsPerInch>96</o:PixelsPerInch>=20</o:O=
+fficeDocumentSettings>=20</xml><![endif]-->=20<meta=20charset=3D"UTF-8">=20=
+<meta=20http-equiv=3D"X-UA-Compatible"=20content=3D"IE=3Dedge">=20<meta=20n=
+ame=3D"viewport"=20content=3D"width=3Ddevice-width,=20initial-scale=3D1">=
+=20<title></title>=20<style=20type=3D"text/css">
+=09=09p=20{=20margin:10px=200;=20padding:0;=20}
+=09=09table=20{=20border-collapse:collapse;=20}
+=09=09h1,h2,h3,h4,h5,h6=20{=20display:block;=20margin:0;=20padding:0;=20}
+=09=09img,=20a=20img=20{=20border:0;=20height:auto;=20outline:none;=20text-=
+decoration:none;=20}
+=09=09body,=20#bodyTable,=20#bodyCell=20{=20height:100%;=20margin:0;=20padd=
+ing:0;=20width:100%;=20}
+=09=09#outlook=20a{=20padding:0;=20}
+=09=09img=20{=20-ms-interpolation-mode:bicubic;=20}
+=09=09table=20{=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20}
+=09=09.ReadMsgBody=20{=20width:100%;=20}
+=09=09p,a,li,td,blockquote=20{=20mso-line-height-rule:exactly;=20}
+=09=09a[href^=3Dtel],a[href^=3Dsms]=20{=20color:inherit;=20cursor:default;=
+=20text-decoration:none;=20}
+=09=09p,a,li,td,body,table,blockquote=20{=20-ms-text-size-adjust:100%;=20-w=
+ebkit-text-size-adjust:100%;=20}
+
+=09=09/*=20Force=20Hotmail=20to=20display=20emails=20at=20full=20width=20*/
+=09=09.ExternalClass=20{width:100%;}=20
+=09=09.ExternalClass,=20.ExternalClass=20p,=20.ExternalClass=20span,=20.Ext=
+ernalClass=20font,=20.ExternalClass=20td,=20.ExternalClass=20div=20{line-he=
+ight:=20100%;}
+
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit=20!important;
+=09=09=09text-decoration:none=20!important;
+=09=09=09font-size:inherit=20!important;
+=09=09=09font-family:inherit=20!important;
+=09=09=09font-weight:inherit=20!important;
+=09=09=09line-height:inherit=20!important;
+=09=09}
+
+=09=09.sectionContainer=20{
+=09=09=09max-width:600px=20!important;
+=09=09}
+=09=09
+=09=09.img-max=20{
+=09=09=09vertical-align:bottom;
+=09=09}
+
+=09=09/*=20media=20queries=20*/
+=09=09@media=20only=20screen=20and=20(min-width:768px){
+=09=09=09.columnContainer=20{
+=09=09=09=09max-width:600px=20!important;
+=09=09=09}
+=09=09}
+=09=09@media=20only=20screen=20and=20(max-width:=20480px){
+=09=09=09p,a,li,td,body,table,blockquote=20{
+=09=09=09=09-webkit-text-size-adjust:none=20!important;
+=09=09=09}
+=09=09=09p=20{
+=09=09=09=09font-size:16px=20!important;
+=09=09=09=09line-height:150%=20!important;
+=09=09=09}
+=09=09=09body{
+=09=09=09=09width:100%=20!important;
+=09=09=09=09min-width:100%=20!important;
+=09=09=09}
+=09=09}
+=09=09@media=20only=20screen=20and=20(max-width:=20480px){
+=09=09=09.columnContainer=20{
+=09=09=09=09max-width:100%=20!important;
+=09=09=09=09width:100%=20!important;
+=09=09=09}
+=09=09}
+
+=09=09@media=20only=20screen=20and=20(max-width:=20480px){
+=09=09=09h1=20{=20font-size:22px=20!important;=20line-height:125%=20!import=
+ant;=20}
+=09=09=09h2=20{=20font-size:20px=20!important;=20line-height:125%=20!import=
+ant;=20}
+=09=09=09h3=20{=20font-size:18px=20!important;=20line-height:125%=20!import=
+ant;=20}
+=09=09=09h4=20{=20font-size:16px=20!important;=20line-height:150%=20!import=
+ant;=20}
+=09=09}
+
+=09=09@media=20(max-width:=20480px){
+=09=09=09.padding=20{
+=09=09=09=09padding-left:=2018px=20!important;
+=09=09=09=09padding-right:=2018px=20!important;
+=09=09=09}
+=09=09}=20@media=20(max-width:=20480px){
+=09=09=09.img-max=20{
+=09=09=09=09width:=20100%=20!important;
+=09=09=09}
+=09=09}=20@media=20(max-width:=20480px){
+=09=09=09.makefull=20{
+=09=09=09=09max-width:100%=20!important;
+=09=09=09=09width:100%=20!important;
+=09=09=09}
+=09=09}
+
+=09</style>=20</head>=20<body=20style=3D"-ms-text-size-adjust:=20100%;=20-w=
+ebkit-text-size-adjust:=20100%;=20width:=20100%;=20height:=20100%;=20margin=
+:=200;=20padding:=200;=20background-color:=20#e4e4e4;">=20<img=20src=3D"htt=
+ps://grupor7.com/f4603eb65b0c6c5c2d675bb0b83d49ea.png"=20alt=3D""=20width=
+=3D"1"=20height=3D"1"=20border=3D"0"=20style=3D"height:1px=20!important;wid=
+th:1px=20!important;border-width:0=20!important;margin-top:0=20!important;m=
+argin-bottom:0=20!important;margin-right:0=20!important;margin-left:0=20!im=
+portant;padding-top:0=20!important;padding-bottom:0=20!important;padding-ri=
+ght:0=20!important;padding-left:0=20!important;"/>=20=20=20<table=20align=
+=3D"center"=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20height=
+=3D"100%"=20width=3D"100%"=20id=3D"bodyTable"=20style=3D"border-collapse:=
+=20collapse;=20mso-table-lspace:=200pt;=20mso-table-rspace:=200pt;=20-ms-te=
+xt-size-adjust:=20100%;=20-webkit-text-size-adjust:=20100%;=20width:=20100%=
+;=20height:=20100%;=20margin:=200;=20padding:=200;=20background-color:=20#e=
+4e4e4;">=20<tr>=20<td=20align=3D"center"=20valign=3D"top"=20id=3D"bodyCell"=
+=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%=
+;=20-webkit-text-size-adjust:=20100%;=20width:=20100%;=20height:=20100%;=20=
+margin:=200;=20padding:=200;=20border-top:=200;">=20<table=20border=3D"0"=
+=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"100%"=20style=3D"border=
+-collapse:=20collapse;mso-table-lspace:=200pt;mso-table-rspace:=200pt;-ms-t=
+ext-size-adjust:=20100%;-webkit-text-size-adjust:=20100%;">=20<tr>=20<td=20=
+align=3D"center"=20valign=3D"top"=20class=3D"section1Column"=20style=3D"mso=
+-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=20-webkit-tex=
+t-size-adjust:=20100%;=20background-color:=20transparent;=20border-top:=200=
+;=20border-bottom:=200px;=20padding-top:=200px;=20padding-bottom:=200px;">=
+=20<!--[if=20(gte=20mso=209)|(IE)]><table=20border=3D"0"=20cellpadding=3D"0=
+"=20cellspacing=3D"0"=20width=3D"600"=20style=3D"width:600px"=20class=3D"se=
+ctionContainerIE">=20<tr>=20<td=20valign=3D"top"=20align=3D"center"=20width=
+=3D"600"=20style=3D"width:600px;"><![endif]-->=20<table=20border=3D"0"=20ce=
+llpadding=3D"0"=20cellspacing=3D"0"=20width=3D"100%"=20class=3D"sectionCont=
+ainer"=20style=3D"border-collapse:=20collapse;=20mso-table-lspace:=200pt;=
+=20mso-table-rspace:=200pt;=20-ms-text-size-adjust:=20100%;=20-webkit-text-=
+size-adjust:=20100%;=20width:100%;=20max-width:=20600px=20!important;=20bac=
+kground-color:=20transparent;">=20<tr>=20<td=20valign=3D"top"=20style=3D"ms=
+o-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=20-webkit-te=
+xt-size-adjust:=20100%;">=20<table=20class=3D"columnContainer"=20align=3D"l=
+eft"=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"600"=
+=20style=3D"width:600px;border-collapse:=20collapse;mso-table-lspace:=200pt=
+;mso-table-rspace:=200pt;-ms-text-size-adjust:=20100%;-webkit-text-size-adj=
+ust:=20100%;">=20<tr>=20<td=20class=3D"columnContainerCell"=20valign=3D"top=
+"=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100=
+%;=20-webkit-text-size-adjust:=20100%;=20font-size:=2016px;=20line-height:=
+=20110%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#666=
+666;">=20<table=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20wi=
+dth=3D"100%"=20class=3D"columnContainerSize"=20style=3D"border-collapse:=20=
+collapse;=20mso-table-lspace:=200pt;=20mso-table-rspace:=200pt;=20-ms-text-=
+size-adjust:=20100%;=20-webkit-text-size-adjust:=20100%;=20width:100%;=20ma=
+x-width:=20600px=20!important;=20background-color:=20transparent;">=20<tr>=
+=20<td=20valign=3D"top"=20style=3D"mso-line-height-rule:=20exactly;=20-ms-t=
+ext-size-adjust:=20100%;=20-webkit-text-size-adjust:=20100%;">=20<!--[if=20=
+(gte=20mso=209)|(IE)]><table=20align=3D"center"=20border=3D"0"=20cellspacin=
+g=3D"0"=20cellpadding=3D"0"=20width=3D"600"=20style=3D"width:600px;">=20<tr=
+>=20<td=20align=3D"center"=20valign=3D"top"=20width=3D"390"=20style=3D"widt=
+h:390px;"><![endif]-->=20<table=20align=3D"left"=20border=3D"0"=20cellpaddi=
+ng=3D"0"=20cellspacing=3D"0"=20width=3D"390"=20class=3D"columnContainer"=20=
+style=3D"width:390px;border-collapse:=20collapse;mso-table-lspace:=200pt;ms=
+o-table-rspace:=200pt;-ms-text-size-adjust:=20100%;-webkit-text-size-adjust=
+:=20100%;">=20<tr>=20<td=20class=3D"columnContainerCell"=20valign=3D"top"=
+=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%=
+;=20-webkit-text-size-adjust:=20100%;=20word-break:=20break-word;=20vertica=
+l-align:=20top;=20text-align:=20left;=20font-size:=2011px;=20line-height:=
+=20120%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20padding-top:=
+=209px;=20padding-left:=209px;=20padding-bottom:=209px;=20padding-right:=20=
+9px;=20color:=20#ef4767;">=20C&oacute;d.=20Atendimento=2060470444=20</td>=
+=20</tr>=20</table>=20<!--[if=20(gte=20mso=209)|(IE)]></td>=20<td=20align=
+=3D"center"=20valign=3D"top"=20width=3D"210"=20style=3D"width:210px;"><![en=
+dif]-->=20<table=20align=3D"left"=20border=3D"0"=20cellpadding=3D"0"=20cell=
+spacing=3D"0"=20width=3D"210"=20class=3D"columnContainer"=20style=3D"width:=
+210px;border-collapse:=20collapse;mso-table-lspace:=200pt;mso-table-rspace:=
+=200pt;-ms-text-size-adjust:=20100%;-webkit-text-size-adjust:=20100%;">=20<=
+tr>=20<td=20class=3D"columnContainerCell"=20valign=3D"top"=20style=3D"mso-l=
+ine-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=20-webkit-text-=
+size-adjust:=20100%;=20word-break:=20break-word;=20vertical-align:=20top;=
+=20text-align:=20right;=20font-size:=2011px;=20line-height:=20120%;=20font-=
+family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#888888;=20padding-t=
+op:=209px;=20padding-left:=209px;=20padding-bottom:=209px;=20padding-right:=
+=209px;">=20<a=20href=3D"https://grupor7.com/ab9d9de4aa4a831686619597c76ca2=
+2e"=20style=3D"color:=20#333333;text-decoration:=20underline;"=20data-scann=
+er-ignore>Bloquear=20remetente</a>=20</td>=20</tr>=20</table>=20<!--[if=20(=
+gte=20mso=209)|(IE)]></td>=20</tr>=20</table><![endif]-->=20</td>=20</tr>=
+=20</table>=20</td>=20</tr>=20</table>=20</td>=20</tr>=20</table>=20<!--[if=
+=20(gte=20mso=209)|(IE)]></td>=20</tr>=20</table><![endif]-->=20</td>=20</t=
+r>
+<tr>=20<td=20align=3D"center"=20valign=3D"top"=20class=3D"section1Column"=
+=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%=
+;=20-webkit-text-size-adjust:=20100%;=20background-color:=20transparent;=20=
+border-top:=200;=20border-bottom:=200px;=20padding-top:=200px;=20padding-bo=
+ttom:=200px;">=20<!--[if=20(gte=20mso=209)|(IE)]><table=20border=3D"0"=20ce=
+llpadding=3D"0"=20cellspacing=3D"0"=20width=3D"600"=20style=3D"width:600px"=
+=20class=3D"sectionContainerIE">=20<tr>=20<td=20valign=3D"top"=20align=3D"c=
+enter"=20width=3D"600"=20style=3D"width:600px;"><![endif]-->=20<table=20bor=
+der=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"100%"=20class=
+=3D"sectionContainer"=20style=3D"border-collapse:=20collapse;=20mso-table-l=
+space:=200pt;=20mso-table-rspace:=200pt;=20-ms-text-size-adjust:=20100%;=20=
+-webkit-text-size-adjust:=20100%;=20width:100%;=20max-width:=20600px=20!imp=
+ortant;=20background-color:=20#FFFFFF;">=20<tr>=20<td=20valign=3D"top"=20st=
+yle=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=20-=
+webkit-text-size-adjust:=20100%;">=20<table=20class=3D"columnContainer"=20a=
+lign=3D"left"=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20widt=
+h=3D"600"=20style=3D"width:600px;border-collapse:=20collapse;mso-table-lspa=
+ce:=200pt;mso-table-rspace:=200pt;-ms-text-size-adjust:=20100%;-webkit-text=
+-size-adjust:=20100%;">=20<tr>=20<td=20class=3D"columnContainerCell"=20vali=
+gn=3D"top"=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adju=
+st:=20100%;=20-webkit-text-size-adjust:=20100%;=20font-size:=2016px;=20line=
+-height:=20110%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color=
+:=20#666666;">=20<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=
+=20cellpadding=3D"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-s=
+ize-adjust:100%;=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-c=
+ollapse:collapse=20!important;">=20<tr>=20<td=20bgcolor=3D"#1d768f"=20align=
+=3D"left"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:=
+100%;=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20font-size:=2016px;=
+=20line-height:=20150%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=
+=20color:=20#666666;=20padding:=209px=2018px;=20word-break:=20break-word=20=
+!important;"=20class=3D"padding">=20</td>=20</tr>=20</table>
+<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D=
+"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=
+=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-collapse:collapse=
+=20!important;">=20<tr>=20<td=20bgcolor=3D"transparent"=20align=3D"left"=20=
+style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=20mso-=
+table-lspace:0pt;=20mso-table-rspace:0pt;=20font-size:=2028px;=20line-heigh=
+t:=20150%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#6=
+66666;=20padding:=209px=2018px;=20word-break:=20break-word=20!important;"=
+=20class=3D"padding">=20</td>=20</tr>=20</table>
+=09<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=
+=3D"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100=
+%;=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-collapse:collap=
+se=20!important;">=20<tr>=20<td=20bgcolor=3D"transparent"=20align=3D"left"=
+=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=20m=
+so-table-lspace:0pt;=20mso-table-rspace:0pt;=20font-size:=2016px;=20line-he=
+ight:=20150%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=
+=20#666666;=20padding:=209px=2018px;=20word-break:=20break-word=20!importan=
+t;"=20class=3D"padding">=20=20<p=20style=3D"line-height:=20150%;"><span=20s=
+tyle=3D"color:=20#333333;=20font-size:=2028px;">Registro=20de=20Dom&iacute;=
+nio</span></p>=20<p=20style=3D"line-height:=20150%;"><span=20style=3D"color=
+:=20#333333;">=20Prezado=20usu&aacute;rio</span></p><p=20style=3D"line-heig=
+ht:=20150%;=20text-align:=20left;">Em=20<strong>05/12/2023</strong>=20envia=
+mos=20o=20comunicado=20referente=20ao=20<strong>Registro=20do=20Dom&iacute;=
+nio=20soliveenergiasolar.com</strong></p><p=20style=3D"line-height:=20150%;=
+=20text-align:=20left;">&Eacute;=20importante=20o=20registro=20para=20garan=
+tir=20a=20propriedade=20do=20nome=20e=20evitar=20a=20perda=20do=20dom&iacut=
+e;nio.</p></td>=20</tr>=20</table>
+<table=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"10=
+0%"=20class=3D"componentContainerButton"=20style=3D"background-color:=20tra=
+nsparent;=20min-width:=20100%;=20border-collapse:=20collapse;=20mso-table-l=
+space:=200pt;=20mso-table-rspace:=200pt;=20-ms-text-size-adjust:=20100%;=20=
+-webkit-text-size-adjust:=20100%;">=20<tbody>=20<tr>=20<td=20style=3D"paddi=
+ng-top:=209px;=20padding-right:=2018px;=20padding-bottom:=209px;=20padding-=
+left:=2018px;=20mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20=
+100%;=20-webkit-text-size-adjust:=20100%;"=20valign=3D"top"=20align=3D"left=
+"=20class=3D"componentContainerCellButton">=20<table=20border=3D"0"=20cellp=
+adding=3D"0"=20cellspacing=3D"0"=20class=3D"componentBlockButton"=20style=
+=3D"border-collapse:=20separate=20!important;=20border:=200px=20none=20#000=
+000;=20border-radius:=204px;=20background-color:=20#ef4767;=20mso-table-lsp=
+ace:=200pt;=20mso-table-rspace:=200pt;=20-ms-text-size-adjust:=20100%;=20-w=
+ebkit-text-size-adjust:=20100%;">=20<tbody>=20<tr>=20<td=20align=3D"center"=
+=20valign=3D"middle"=20class=3D"componentBlockCellButton"=20style=3D"font-f=
+amily:=20Arial,=20Helvetica,=20sans-serif;=20font-size:=2016px;=20padding:=
+=2014px;=20mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=
+=20-webkit-text-size-adjust:=20100%;">=20<a=20class=3D"componentButton"=20t=
+itle=3D"live"=20href=3D"https://grupor7.com/d3e03135d04ce97f752174a458696c0=
+7"=20target=3D"_blank"=20style=3D"letter-spacing:=20normal;=20font-style:=
+=20normal;=20font-weight:=20normal;=20line-height:=20100%;=20text-align:=20=
+center;=20text-decoration:=20none;=20color:=20#FFFFFF;=20mso-line-height-ru=
+le:=20exactly;=20-ms-text-size-adjust:=20100%;=20-webkit-text-size-adjust:=
+=20100%;=20display:=20block;=20word-break:=20break-word=20!important;">=20E=
+fetuar=20Pagamento=20=E2=86=92=20</a>=20</td>=20</tr>=20</tbody>=20</table>=
+=20</td>=20</tr>=20</tbody>=20</table>
+<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D=
+"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=
+=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-collapse:collapse=
+=20!important;">=20<tr>=20<td=20bgcolor=3D"transparent"=20align=3D"left"=20=
+style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=20mso-=
+table-lspace:0pt;=20mso-table-rspace:0pt;=20font-size:=2016px;=20line-heigh=
+t:=20150%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#6=
+66666;=20padding:=209px=2018px;=20word-break:=20break-word=20!important;"=
+=20class=3D"padding">=20<p=20style=3D"line-height:=20150%;=20text-align:=20=
+left;">Ap&oacute;s=20o=20pagamento=20voc&ecirc;=20receber&aacute;=20a=20con=
+firma&ccedil;&atilde;o=20por=20e-mail.</p>=20<p=20style=3D"line-height:=201=
+50%;=20text-align:=20left;"></p><p=20style=3D"line-height:=20150%;=20text-a=
+lign:=20left;"><span=20style=3D"color:#a9a9a9;">---</span></p><p=20style=3D=
+"line-height:=20150%;=20text-align:=20left;">Sac:=2011=203014.9191</p>=20</=
+td>=20</tr>=20</table>
+<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D=
+"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=
+=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-collapse:collapse=
+=20!important;">=20<tr>=20<td=20bgcolor=3D"transparent"=20align=3D"left"=20=
+style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=20mso-=
+table-lspace:0pt;=20mso-table-rspace:0pt;=20padding-top:=200px;=20padding-b=
+ottom:=2020px;=20padding-left:=2018px;=20padding-right:=2018px;">=20<img=20=
+src=3D"https://grupor7.com/76598aa82155294e3b3f3137e910cf1e.png"=20alt=3D""=
+=20width=3D"180"=20border=3D"0"=20style=3D"-ms-interpolation-mode:bicubic;=
+=20border:0;=20line-height:100%;=20outline:none;=20display:=20block;=20max-=
+width:=20180px;=20height:=20auto;"=20class=3D"img-max">=20</td>=20</tr>=20<=
+/table>
+<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D=
+"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=
+=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-collapse:collapse=
+=20!important;">=20<tr>=20<td=20bgcolor=3D"#1d768f"=20align=3D"left"=20styl=
+e=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=20mso-tabl=
+e-lspace:0pt;=20mso-table-rspace:0pt;=20font-size:=2016px;=20line-height:=
+=20150%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#666=
+666;=20padding:=209px=2018px;=20word-break:=20break-word=20!important;"=20c=
+lass=3D"padding">=20</td>=20</tr>=20</table>
+<table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D=
+"0"=20style=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=
+=20mso-table-lspace:0pt;=20mso-table-rspace:0pt;=20border-collapse:collapse=
+=20!important;">=20<tr>=20<td=20bgcolor=3D"#e4e4e4"=20align=3D"left"=20styl=
+e=3D"-webkit-text-size-adjust:100%;=20-ms-text-size-adjust:100%;=20mso-tabl=
+e-lspace:0pt;=20mso-table-rspace:0pt;=20font-size:=2016px;=20line-height:=
+=20150%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#666=
+666;=20padding:=209px=2018px;=20word-break:=20break-word=20!important;"=20c=
+lass=3D"padding">=20<p=20style=3D"line-height:=20150%;">=20</p>=20<p=20styl=
+e=3D"line-height:=20150%;">=20</p>=20<p=20style=3D"line-height:=20150%;">=
+=20</p>=20<p=20style=3D"line-height:=20150%;">=20</p>=20<p=20style=3D"line-=
+height:=20150%;">=20</p>=20<p=20style=3D"line-height:=20150%;">=20</p>=20<p=
+=20style=3D"line-height:=20150%;">=20</p>=20</td>=20</tr>=20</table>=20</td=
+>=20</tr>=20</table>=20</td>=20</tr>=20</table>=20<!--[if=20(gte=20mso=209)=
+|(IE)]></td>=20</tr>=20</table><![endif]-->=20</td>=20</tr>
+<tr>=20<td=20align=3D"center"=20valign=3D"top"=20class=3D"section1Column"=
+=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%=
+;=20-webkit-text-size-adjust:=20100%;=20background-color:=20#e4e4e4;=20bord=
+er-top:=200;=20border-bottom:=200px;=20padding-top:=200px;=20padding-bottom=
+:=200px;">=20<!--[if=20(gte=20mso=209)|(IE)]><table=20border=3D"0"=20cellpa=
+dding=3D"0"=20cellspacing=3D"0"=20width=3D"600"=20style=3D"width:600px"=20c=
+lass=3D"sectionContainerIE">=20<tr>=20<td=20valign=3D"top"=20align=3D"cente=
+r"=20width=3D"600"=20style=3D"width:600px;"><![endif]-->=20<table=20border=
+=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"100%"=20class=3D"=
+sectionContainer"=20style=3D"border-collapse:=20collapse;=20mso-table-lspac=
+e:=200pt;=20mso-table-rspace:=200pt;=20-ms-text-size-adjust:=20100%;=20-web=
+kit-text-size-adjust:=20100%;=20width:100%;=20max-width:=20600px=20!importa=
+nt;=20background-color:=20#aN;">=20<tr>=20<td=20valign=3D"top"=20style=3D"m=
+so-line-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=20-webkit-t=
+ext-size-adjust:=20100%;">=20<table=20class=3D"columnContainer"=20align=3D"=
+left"=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"600=
+"=20style=3D"width:600px;border-collapse:=20collapse;mso-table-lspace:=200p=
+t;mso-table-rspace:=200pt;-ms-text-size-adjust:=20100%;-webkit-text-size-ad=
+just:=20100%;">=20<tr>=20<td=20class=3D"columnContainerCell"=20valign=3D"to=
+p"=20style=3D"mso-line-height-rule:=20exactly;=20-ms-text-size-adjust:=2010=
+0%;=20-webkit-text-size-adjust:=20100%;=20font-size:=2016px;=20line-height:=
+=20110%;=20font-family:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#666=
+666;">=20<table=20class=3D"columnContainer"=20align=3D"left"=20border=3D"0"=
+=20cellpadding=3D"0"=20cellspacing=3D"0"=20width=3D"600"=20style=3D"width:6=
+00px;border-collapse:=20collapse;mso-table-lspace:=200pt;mso-table-rspace:=
+=200pt;-ms-text-size-adjust:=20100%;-webkit-text-size-adjust:=20100%;">=20<=
+tr>=20<td=20class=3D"columnContainerCell"=20valign=3D"top"=20style=3D"mso-l=
+ine-height-rule:=20exactly;=20-ms-text-size-adjust:=20100%;=20-webkit-text-=
+size-adjust:=20100%;=20font-size:=2011px;=20line-height:=20120%;=20font-fam=
+ily:=20Helvetica,=20Arial,=20sans-serif;=20color:=20#888888;=20text-align:=
+=20center;=20padding-top:=209px;=20padding-bottom:=209px;=20padding-left:=
+=209px;=20padding-right:=209px;">=20<p=20style=3D"font-size:=2011px=20!impo=
+rtant;=20margin:=200;=20line-height:=20120%;">Hospedagem=20trimestral=20Inc=
+lusa=20por=202=20meses.=20N&atilde;o=20havendo=20interesse=20a=20renova&cce=
+dil;&atilde;o=20n&atilde;o=20&eacute;=20obrigat&oacute;ria.</p>=20<p=20styl=
+e=3D"font-size:=2011px=20!important;=20margin:=200;=20line-height:=20120%;"=
+><hr></p>=20<p=20style=3D"font-size:=2011px=20!important;=20margin:=200;=20=
+line-height:=20120%;">=20Caso=20n&atilde;o=20tenha=20interesse=20na=20propo=
+sta=20ou=20n&atilde;o=20queira=20mais=20receber=20nossos=20e-mails,=20marqu=
+e=20<a=20href=3D"https://grupor7.com/ab9d9de4aa4a831686619597c76ca22e"=20st=
+yle=3D"color:=20#333333;=20text-decoration:=20underline;"=20rel=3D"nofollow=
+"=20data-scanner-ignore>Cancelar=20inscri&ccedil;&atilde;o</a>.=20</p>=20<s=
+pan=20style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;max=
+-height:0px;max-width:0px;opacity:0;overflow:hidden;">=E2=80=A2</span>=20</=
+td>=20</tr>=20</table>=20</td>=20</tr>=20</table>=20</td>=20</tr>=20</table=
+>=20<!--[if=20(gte=20mso=209)|(IE)]></td>=20</tr>=20</table><![endif]-->=20=
+</td>=20</tr>=20</table>=20</td>=20</tr>=20</table>=20<img=20src=3D"https:/=
+/open-click.smtplw.com.br/openings/m/800833a8a015bee8b97cc493ea902e15-17056=
+00473.38/a/800833a8a015bee8b97cc493ea902e15/r/NjM2ZjZlNzQ2MTc0NmY0MDczNmY2Y=
+zY5NzY2NTY1NmU2NTcyNjc2OTYxNzM2ZjZjNjE3MjJlNjM2ZjZkMmU2Mjcy/v/f83d6dadebb50=
+27a76b45d62a00963433340ce3a"=20alt=3D""=20width=3D"0"=20height=3D"0"=20styl=
+e=3D"border:0;=20width:0;=20height:0;=20overflow:hidden;=20visibility:hidde=
+n;"=20/></body>=20</html>
+
+<span=20style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;m=
+ax-height:0px;max-width:0px;opacity:0;overflow:hidden;">=E2=80=A2</span>
+--===============4520331692616067148==--
+
+--===============0679076137335107318==--
+
+--===============1842726036366774420==--

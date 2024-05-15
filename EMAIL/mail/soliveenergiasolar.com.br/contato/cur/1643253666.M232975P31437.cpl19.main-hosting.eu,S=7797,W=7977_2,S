@@ -1,0 +1,180 @@
+Return-Path: <>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id aGGSDaIP8mHNegAAJcoV8Q
+	(envelope-from <>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 27 Jan 2022 03:21:06 +0000
+Return-path: <>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 27 Jan 2022 03:21:06 +0000
+Received: from anteater.oak.relay.mailchannels.net ([23.83.215.3]:37606)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1nCvLN-0009Jm-FM
+	for contato@soliveenergiasolar.com.br; Thu, 27 Jan 2022 03:21:06 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id 9FC162A09A8; Thu, 27 Jan 2022 03:21:03 +0000 (UTC)
+Date: Thu, 27 Jan 2022 03:21:03 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: contato@soliveenergiasolar.com.br
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7AE472A1CFA.1643253663/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20220127032103.9FC162A09A8@relay.mailchannels.net>
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mailchannels.net]
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--7AE472A1CFA.1643253663/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<contato@expert.gru.br>: host mail1.expert.gru.br[69.162.72.237] refused to
+    talk to me: 421 Downstream server error
+
+--7AE472A1CFA.1643253663/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: 7AE472A1CFA
+X-Postfix-Sender: rfc822; contato@soliveenergiasolar.com.br
+Arrival-Date: Wed, 26 Jan 2022 21:03:39 +0000 (UTC)
+
+Final-Recipient: rfc822; contato@expert.gru.br
+Original-Recipient: rfc822;contato@expert.gru.br
+Action: failed
+Status: 4.0.0
+Remote-MTA: dns; mail1.expert.gru.br
+Diagnostic-Code: smtp; 421 Downstream server error
+
+--7AE472A1CFA.1643253663/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <contato@soliveenergiasolar.com.br>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 7AE472A1CFA
+	for <contato@expert.gru.br>; Wed, 26 Jan 2022 21:03:39 +0000 (UTC)
+Received: from cpl19.main-hosting.eu (unknown [127.0.0.6])
+	(Authenticated sender: hostingercpanel)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 471D02A0B88
+	for <contato@expert.gru.br>; Wed, 26 Jan 2022 21:03:35 +0000 (UTC)
+X-Sender-Id: hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu (cpl19.main-hosting.eu
+ [109.106.251.201])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.114.70.244 (trex/6.4.3);
+	Wed, 26 Jan 2022 21:03:39 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId:
+ hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MailChannels-Auth-Id: hostingercpanel
+X-Versed-Vacuous: 17d2b50b103c4a1a_1643231019121_1590618247
+X-MC-Loop-Signature: 1643231019121:662203438
+X-MC-Ingress-Time: 1643231019121
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=soliveenergiasolar.com.br; s=default; h=Content-Type:In-Reply-To:References
+	:Message-ID:Subject:To:From:Date:MIME-Version:Sender:Reply-To:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=bMHq3qdLJx4jTf3oECiCdrby3prM3XwXYze37Y2sl3E=; b=H1FJLt2JWHNKioVmZchkE6sucg
+	hA8KmWdi1cSq/hmA0wHXLlwF/AD3+T1DJmQb0jsO4Up+C/RLM8DwJZ8g2HoWuYfPxXt2qRGijL4eQ
+	nnn9m+lVOhTBP2r5gjfq2oI6OIU6T//3RFN8oaEY4dwM6IHHbUEEnwICffIEL8CsZD6F9Ti42B/19
+	YHbbddYdD42TBWQw5niJZEiUFo1pR4dG0Zs22It4PMOlUJlyAAlDYCFhsloe8yqlosH7g3HU9MvU3
+	TL13eDbS6NPyKfvQ1rmb4Xn6/0QFWazrakpRVdhVmHYpOL3CV8Iqv5YIW4MwMylItZtGrzlkXukcO
+	Pv3Hvtpg==;
+Received: from localhost ([127.0.0.1]:36622 helo=cpl19.main-hosting.eu)
+	by cpl19.main-hosting.eu with esmtpa (Exim 4.94.2)
+	(envelope-from <contato@soliveenergiasolar.com.br>)
+	id 1nCpRz-0005bz-2O
+	for contato@expert.gru.br; Wed, 26 Jan 2022 21:03:31 +0000
+MIME-Version: 1.0
+Date: Wed, 26 Jan 2022 21:03:30 +0000
+From: contato@soliveenergiasolar.com.br
+To: contato@expert.gru.br
+Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Leitura_=28exibida=29=3A_Empr?=
+ =?UTF-8?Q?esas_Offshore_Procedimentos_Legais_para_Abertura_e_a_Reducao_de?=
+ =?UTF-8?Q?_Impostos_-_contato=40soliveenergiasolar=2Ecom=2Ebr?=
+Message-ID: <8624441f18776ca63caf89ddb8168192@soliveenergiasolar.com.br>
+X-Sender: contato@soliveenergiasolar.com.br
+References: <a5f888fe11600b75f35e6526001e6ff0@expert.gru.br>
+In-Reply-To: <a5f888fe11600b75f35e6526001e6ff0@expert.gru.br>
+User-Agent: Roundcube Webmail/1.4.12
+Content-Type: multipart/report;
+ report-type=disposition-notification;
+ boundary="=_7e1f650759d96e8ea499617f8b813e56"
+X-AuthUser: contato@soliveenergiasolar.com.br
+
+--=_7e1f650759d96e8ea499617f8b813e56
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Esta =C3=A9 uma confirma=C3=A7=C3=A3o de leitura da sua mensagem
+
+	Para: <contato@soliveenergiasolar.com.br>
+	Assunto: Empresas Offshore Procedimentos Legais para Abertura e a Reducao
+de Impostos - contato@soliveenergiasolar.com.br
+	Data: 2022-01-24 18:55
+
+Nota: Esta confirma=C3=A7=C3=A3o de leitura somente informa que a mensagem =
+foi aberta
+no computador do destinat=C3=A1rio. N=C3=A3o h=C3=A1 garantia que o destina=
+t=C3=A1rio tenha
+lido ou compreendido o conte=C3=BAdo da mensagem.
+--=_7e1f650759d96e8ea499617f8b813e56
+Content-Transfer-Encoding: 7bit
+Content-Type: message/disposition-notification;
+ name=MDNPart2.txt
+Content-Disposition: inline;
+ filename=MDNPart2.txt;
+ size=285
+
+Final-Recipient: rfc822; contato@soliveenergiasolar.com.br
+Original-Message-ID: <a5f888fe11600b75f35e6526001e6ff0@expert.gru.br>
+Disposition: manual-action/MDN-sent-manually; displayed
+Original-Recipient: <contato@soliveenergiasolar.com.br>
+Reporting-UA: Roundcube Webmail/1.4.12
+
+--=_7e1f650759d96e8ea499617f8b813e56--
+
+--7AE472A1CFA.1643253663/relay.mailchannels.net--

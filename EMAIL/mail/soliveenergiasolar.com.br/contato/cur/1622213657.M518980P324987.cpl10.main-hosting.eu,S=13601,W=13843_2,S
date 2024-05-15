@@ -1,0 +1,242 @@
+Return-Path: <rodrigo.soares@solfacil.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl10.main-hosting.eu
+	by cpl10.main-hosting.eu with LMTP
+	id QI9dHhkEsWB79QQAZZrKTA
+	(envelope-from <rodrigo.soares@solfacil.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 28 May 2021 14:54:17 +0000
+Return-path: <rodrigo.soares@solfacil.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 28 May 2021 14:54:17 +0000
+Received: from mail-lj1-f173.google.com ([209.85.208.173]:43780)
+	by cpl10.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <rodrigo.soares@solfacil.com.br>)
+	id 1lmdsM-001Ud4-Ut
+	for contato@soliveenergiasolar.com.br; Fri, 28 May 2021 14:54:17 +0000
+Received: by mail-lj1-f173.google.com with SMTP id w15so5599970ljo.10
+        for <contato@soliveenergiasolar.com.br>; Fri, 28 May 2021 07:54:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=solfacil-com-br.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=CYovobb99gc78LU/yqY0Kfc6LpFUGHBvFcfJszTEeGU=;
+        b=dTsr7ublJAHvQD5kZ8yUb1WPuDMBhauN3jg8vRXUz5cXAyybPdrgBVJOa2IYB/FgjO
+         Grd64UM3pBjBUFKP6FbbRLEBwZ0NolrylGrOeb4plzhTmi1/1JnwBAf1kNd5t+uorrRv
+         7fwxUGdrkklqKqsrGu+HQdaGAZ3MTUtFPMYBIaOX/NvV813OlILgBaX4HNrDRHDex7QX
+         iJFPNxjSsVF2VWscEA0nP16fTa5ndwWxda61nO9RycwuipVqL+KEVeeEzlwDeVOI8BOF
+         xqMbjwIWjq8J/2RlNyMjo9gyA6tXnpJO55xJH2VzhNqkwtVFC7zlvfjTNb3Yd1yihHMj
+         hu7g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=CYovobb99gc78LU/yqY0Kfc6LpFUGHBvFcfJszTEeGU=;
+        b=CLIIPo319tPyh/5vsuvHL5ASIa+UnIArffLK+m74uOblTkUfOahC5/MjlHVgtOFVha
+         772l7LzW3IHNvdXWIOICplK03b4n0ChcMVKZUU+ZzzaH0y3ay/ASmuHZf36ooUrjMyzM
+         5lEnmLguy8R7q3omuochnUzs96/63B5YJYJAX3vZjm2jqn16cJnlYRFqZrH0JZNtT/UP
+         XYjyPmQhLE+argsDzGytX6Jv5n/ns9ZQWTqjmkZxgZFPMC6zrEdGgmigN4d3EJPtBMMn
+         3tV1hr7twUOfOwBTadmv9D+AZSvPOJymukD4Ao2fp16XsGgody6uXKvqflGmOABWx2vc
+         vytg==
+X-Gm-Message-State: AOAM532R78L6amnALKMxOcIQdyturQf+bP7oGp8Zo8F4sM6Tm71Yy8gA
+	GCz/pmcBgxi3CsYfJggDvPCi8boUjodu2xsXFyx1hg==
+X-Google-Smtp-Source: ABdhPJzgFyP/Sw2YlPnBiuzvZ6abRn9r21+u7yxb5rHDZ5glthKAje7XjhWXZ0hWuSNZWfbElHJk+y4dA2XvFY4kogg=
+X-Received: by 2002:a2e:b5a2:: with SMTP id f2mr6799080ljn.101.1622213652965;
+ Fri, 28 May 2021 07:54:12 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOutP0ZSg8Wp4CKmhB-o_gypTjsqm+oO6foL_MeN9WhU2i1Scg@mail.gmail.com>
+In-Reply-To: <CAOutP0ZSg8Wp4CKmhB-o_gypTjsqm+oO6foL_MeN9WhU2i1Scg@mail.gmail.com>
+From: Rodrigo Soares <rodrigo.soares@solfacil.com.br>
+Date: Fri, 28 May 2021 11:54:02 -0300
+Message-ID: <CAP_-rHO3tTpgACPLi9LD_TVYpA2Z_axhkC_1DBZ7eVaA1zunig@mail.gmail.com>
+Subject: =?UTF-8?B?RndkOiBbU09MRsOBQ0lMXSBQYXJjZWlybywgbsOzcyBxdWVyZW1vcyB0ZSBvdXZpciEg?=
+	=?UTF-8?B?4piA77iP?=
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="00000000000088fbd005c3650c25"
+Bcc: contato@soliveenergiasolar.com.br
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl10.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá, parceiro! Tudo bem? Vai chegando o fim do mês e, mais
+    uma vez, nós queremos saber um pouco mais sobre as suas demandas! Por esse
+    motivo, eu peço a participação de vocês nessa pesquisa. *É coisa rápida,
+    não dura nem um minuto!* 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: wa.me]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+--00000000000088fbd005c3650c25
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1, parceiro! Tudo bem?
+
+
+
+Vai chegando o fim do m=C3=AAs e, mais uma vez, n=C3=B3s queremos saber um =
+pouco mais
+sobre as suas demandas!
+
+
+
+Por esse motivo, eu pe=C3=A7o a participa=C3=A7=C3=A3o de voc=C3=AAs nessa =
+pesquisa. *=C3=89 coisa
+r=C3=A1pida, n=C3=A3o dura nem um minuto!*
+
+
+
+=C3=89 ouvindo voc=C3=AAs que conseguimos nos aperfei=C3=A7oar!! *Nossa red=
+u=C3=A7=C3=A3o de taxas
+est=C3=A1 a=C3=AD e n=C3=A3o me deixa mentir... *=F0=9F=9A=80
+
+
+
+Estou =C3=A0 disposi=C3=A7=C3=A3o e, qualquer coisa, pode me chamar! Boas v=
+endas!! =E2=98=80=EF=B8=8F
+
+
+Link: https://forms.gle/qSj4oNtpNWvQcFCz6
+
+--=20
+--
+
+*Wandher Valentim*
+
+Commercial Coordinator - Hunting
+
+(11) 95227-2714 <https://wa.me/message/6NSNYLYGKNRPE1>
+wandher.valentim@solfacil.com.br | www.solfacil.com.br
+<http://www.solfacil.com.br/> <http://www.solfacil.com.br/>
+
+
+
+Pela primeira vez na sua vida, seja dono(a) da sua conta de luz.
+Antes de imprimir, pense na sua responsabilidade com o meio ambiente
+
+
+--=20
+*Atenciosamente,*
+*Rodrigo Soares*
+*(11) 98602-0938 **Whatsapp*
+
+--00000000000088fbd005c3650c25
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"g=
+mail_attr"><br></div><br><div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"m=
+argin:0cm 0cm 8pt;line-height:15.6933px;font-size:11pt;font-family:Calibri,=
+sans-serif"><span style=3D"font-size:14pt;line-height:19.9733px">Ol=C3=A1, =
+parceiro! Tudo bem?</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0c=
+m 8pt;line-height:15.6933px;font-size:11pt;font-family:Calibri,sans-serif">=
+<span style=3D"font-size:14pt;line-height:19.9733px">=C2=A0</span></p><p cl=
+ass=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:15.6933px;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:14pt;line-=
+height:19.9733px">Vai chegando o fim do m=C3=AAs e, mais uma vez, n=C3=B3s =
+queremos saber um pouco mais sobre as suas demandas!</span></p><p class=3D"=
+MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:15.6933px;font-size:11pt=
+;font-family:Calibri,sans-serif"><span style=3D"font-size:14pt;line-height:=
+19.9733px">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm =
+8pt;line-height:15.6933px;font-size:11pt;font-family:Calibri,sans-serif"><s=
+pan style=3D"font-size:14pt;line-height:19.9733px">Por esse motivo, eu pe=
+=C3=A7o a participa=C3=A7=C3=A3o de voc=C3=AAs nessa pesquisa.=C2=A0<b>=C3=
+=89 coisa r=C3=A1pida, n=C3=A3o dura nem um minuto!</b></span></p><p class=
+=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:15.6933px;font-size:=
+11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:14pt;line-hei=
+ght:19.9733px">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"margin:0cm =
+0cm 8pt;line-height:15.6933px;font-size:11pt;font-family:Calibri,sans-serif=
+"><span style=3D"font-size:14pt;line-height:19.9733px">=C3=89 ouvindo voc=
+=C3=AAs que conseguimos nos aperfei=C3=A7oar!!=C2=A0<b>Nossa redu=C3=A7=C3=
+=A3o de taxas est=C3=A1 a=C3=AD e n=C3=A3o me deixa mentir...=C2=A0</b></sp=
+an><span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:small">=
+=F0=9F=9A=80</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;l=
+ine-height:15.6933px;font-size:11pt;font-family:Calibri,sans-serif"><span s=
+tyle=3D"font-size:14pt;line-height:19.9733px">=C2=A0</span></p><p class=3D"=
+MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:15.6933px;font-size:11pt=
+;font-family:Calibri,sans-serif"><span style=3D"font-size:14pt;line-height:=
+19.9733px">Estou =C3=A0 disposi=C3=A7=C3=A3o e, qualquer coisa, pode me cha=
+mar! Boas vendas!!=C2=A0=E2=98=80=EF=B8=8F</span></p><p class=3D"MsoNormal"=
+ style=3D"margin:0cm 0cm 8pt;line-height:15.6933px;font-size:11pt;font-fami=
+ly:Calibri,sans-serif"><span style=3D"font-size:14pt;line-height:19.9733px"=
+>=C2=A0</span></p><span style=3D"font-size:14pt;line-height:19.9733px;font-=
+family:Calibri,sans-serif">Link:=C2=A0<a href=3D"https://forms.gle/qSj4oNtp=
+NWvQcFCz6" target=3D"_blank">https://forms.gle/qSj4oNtpNWvQcFCz6</a></span>=
+<br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" data-smartmail=3D"=
+gmail_signature"><div dir=3D"ltr"><div><div><span style=3D"color:rgb(80,0,8=
+0)">--</span></div></div><div style=3D"color:rgb(136,136,136)"><div dir=3D"=
+ltr" style=3D"color:rgb(80,0,80)"><div dir=3D"ltr"><br><div><table style=3D=
+"color:rgb(136,136,136);border:medium none;border-collapse:collapse"><tbody=
+><tr style=3D"height:57.75pt"><td style=3D"padding:5pt"><img src=3D"https:/=
+/docs.google.com/uc?export=3Ddownload&amp;id=3D1E9-5BwNa62sI8VTCiVaxvGqoWNJ=
+KXohH&amp;revid=3D0BwdFIlufu6PFU2NZMXJqZEIvY2oyOU9SZEdjcmJDc0ZvMi9zPQ" widt=
+h=3D"200" height=3D"86"></td><td style=3D"padding:5pt"><p dir=3D"ltr" style=
+=3D"line-height:1.8;margin-top:0pt;margin-bottom:0pt"><font color=3D"#76717=
+1" face=3D"Verdana"><span style=3D"font-size:13.3333px;white-space:pre-wrap=
+"><b>Wandher Valentim</b></span></font></p><p dir=3D"ltr" style=3D"line-hei=
+ght:1.8;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;fon=
+t-family:Verdana;color:rgb(118,113,113);font-weight:700;vertical-align:base=
+line;white-space:pre-wrap">Commercial Coordinator - Hunting</span></p><p di=
+r=3D"ltr" style=3D"line-height:1.8;margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"font-size:10pt;font-family:Verdana;color:rgb(128,128,128);vertical=
+-align:baseline;white-space:pre-wrap"><a href=3D"https://wa.me/message/6NSN=
+YLYGKNRPE1" target=3D"_blank">(11) 95227-2714</a></span></p><span style=3D"=
+font-size:10pt;font-family:Verdana;color:rgb(128,128,128);vertical-align:ba=
+seline;white-space:pre-wrap"><a href=3D"mailto:wandher.valentim@solfacil.co=
+m.br" target=3D"_blank">wandher.valentim@solfacil.com.br</a> |</span><a hre=
+f=3D"http://www.solfacil.com.br/" style=3D"color:rgb(17,85,204)" target=3D"=
+_blank"><span style=3D"font-size:10pt;font-family:Verdana;color:rgb(128,128=
+,128);vertical-align:baseline;white-space:pre-wrap"> </span><span style=3D"=
+font-size:10pt;font-family:Verdana;vertical-align:baseline;white-space:pre-=
+wrap">www.solfacil.com.br</span></a><a href=3D"http://www.solfacil.com.br/"=
+ style=3D"color:rgb(17,85,204)" target=3D"_blank"><span style=3D"font-size:=
+10pt;font-family:Verdana;vertical-align:baseline;white-space:pre-wrap"></sp=
+an></a><a href=3D"http://www.solfacil.com.br/" style=3D"color:rgb(17,85,204=
+)" target=3D"_blank"><span style=3D"font-size:10pt;font-family:Arial;vertic=
+al-align:baseline;white-space:pre-wrap"></span></a><p dir=3D"ltr" style=3D"=
+line-height:1.2;margin-top:0pt;margin-bottom:0pt"><br><font size=3D"2"><spa=
+n style=3D"font-family:verdana,sans-serif"><span style=3D"color:rgb(128,128=
+,128);vertical-align:baseline;white-space:pre-wrap"><b></b></span></span></=
+font></p></td></tr></tbody></table><div style=3D"color:rgb(34,34,34)"><span=
+ style=3D"color:rgb(102,102,102)"><span style=3D"font-family:Verdana;font-s=
+ize:10.6667px;white-space:pre-wrap"><span style=3D"font-size:10.6667px"><fo=
+nt size=3D"2"><br></font></span></span></span></div><div style=3D"color:rgb=
+(34,34,34)"><span style=3D"color:rgb(102,102,102)"><span style=3D"font-fami=
+ly:Verdana;font-size:10.6667px;white-space:pre-wrap"><span style=3D"font-si=
+ze:10.6667px"><font size=3D"2">Pela primeira vez na sua vida, seja dono(a) =
+da sua conta de luz.</font></span></span></span></div><div style=3D"color:r=
+gb(0,0,0)"><span style=3D"color:rgb(191,191,191);font-family:Verdana;font-s=
+ize:10.6667px;white-space:pre-wrap"></span></div><div style=3D"color:rgb(0,=
+0,0)"><span style=3D"color:rgb(191,191,191);font-family:Verdana;font-size:1=
+0.6667px;white-space:pre-wrap">Antes de imprimir, pense na sua responsabili=
+dade com o meio ambiente</span></div></div></div></div></div></div></div></=
+div>
+</div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><b style=
+=3D"color:rgb(34,34,34)">Atenciosamente,</b><div style=3D"color:rgb(34,34,3=
+4)"><b>Rodrigo Soares</b></div><b style=3D"color:rgb(34,34,34)">(11) 98602-=
+0938=C2=A0</b><i style=3D"color:rgb(34,34,34);font-weight:bold"><font color=
+=3D"#00ff00">Whatsapp</font></i><div style=3D"color:rgb(34,34,34)"><i style=
+=3D"font-weight:bold"><font color=3D"#00ff00"><img src=3D"https://drive.goo=
+gle.com/uc?id=3D1dv_IRiW_DM9qSJyp7ITvL990MXBDnVQk&amp;export=3Ddownload" wi=
+dth=3D"200" height=3D"31"></font></i><br></div><div style=3D"color:rgb(34,3=
+4,34)"><i style=3D"font-weight:bold"><font color=3D"#00ff00"><img src=3D"ht=
+tps://docs.google.com/uc?export=3Ddownload&amp;id=3D1TkPi3FPP0IUCjqWLmhSeZT=
+EuLdC7mJzi&amp;revid=3D0B6mP88KhwczcT080ZkdIeGF1NTRSOFhlMm5kU0F1S0lqbStBPQ"=
+ width=3D"96" height=3D"92"></font></i></div></div></div></div>
+
+--00000000000088fbd005c3650c25--

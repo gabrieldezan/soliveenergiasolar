@@ -1,0 +1,311 @@
+Return-Path: <3iQM8XwoRAIArjivrerhiwi1egxwepiw.gsq.fv@calendar-server.bounces.google.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from srv252.prodns.com.br
+	by srv252.prodns.com.br with LMTP
+	id SGJ2DJUDPF/ozgAAAYt2BQ
+	(envelope-from <3iQM8XwoRAIArjivrerhiwi1egxwepiw.gsq.fv@calendar-server.bounces.google.com>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 18 Aug 2020 13:36:37 -0300
+Return-path: <3iQM8XwoRAIArjivrerhiwi1egxwepiw.gsq.fv@calendar-server.bounces.google.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 18 Aug 2020 13:36:37 -0300
+Received: from mail-yb1-f201.google.com ([209.85.219.201]:41623)
+	by srv252.prodns.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <3iQM8XwoRAIArjivrerhiwi1egxwepiw.gsq.fv@calendar-server.bounces.google.com>)
+	id 1k84bE-000V9l-Ji
+	for contato@soliveenergiasolar.com.br; Tue, 18 Aug 2020 13:36:37 -0300
+Received: by mail-yb1-f201.google.com with SMTP id y9so22741333ybp.8
+        for <contato@soliveenergiasolar.com.br>; Tue, 18 Aug 2020 09:36:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to;
+        bh=5MKZIfEyrUkxsnbubggN/65hHfwIFK000s5CZ7RAYig=;
+        b=gxI9i7nUimcxVg0u71drG9zcKvmhhJWfTfS1Iv9ZtOYomzjHhGLr39eejdGySoMNLq
+         u3Q/7CYaZLxErbOGrg71S6q8Bk5QKZF+hTxr49IL7LM0sMAht9+TbPfJKcWckKunsyvB
+         AGSusqlzbC/7H0Hufyhw6UCF6zSyyxa+3JVRjUHxAZHxL50r5ICz/jjYjjS85E3/erqk
+         mAnCbvjt2yfAMGV4URdRBAjLsQDQzNeXdWOSYNszlgJh8P0as/79YVtIgRypYCGbzPXf
+         0NX5QZ3J3UafHKsU8KFmT3WRrZOZlJdGs0vkKMA6UpuINhvTgQbmleiHxNGWPnLDHbmt
+         nrpQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=exactsales.com.br; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to;
+        bh=5MKZIfEyrUkxsnbubggN/65hHfwIFK000s5CZ7RAYig=;
+        b=LcmZJQowoQ4xvlHkyNOaOjtFKKWbxHCCgS9l+h6i2QofUgJYERBUfkYaud6bqtaiL6
+         TiZCCKRzg2i6STbbTI95y82ILbAahoafNWXXS8pYYiAElS8447KGM/dCHDWaaWtAk9G8
+         xoc44mSHjFKxSNSLwYFt1rmNpeTm/lJhhXa3w=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:from:to;
+        bh=5MKZIfEyrUkxsnbubggN/65hHfwIFK000s5CZ7RAYig=;
+        b=tgtoeqLIcU1HTv1CP8/fKpEOP3WmjxkelkVW+xQTsHuLA7f1tB4gyHSj5ahBa6YXna
+         rQgdxTKEV45gvBXzzcf8KNQrSHRGYY4wkXmmZOz/4F8ZxTmfSb/9VOFfFyH4+0kJJbY1
+         KXtKdnD8K6OrNUCSt3VwJYROKldgliCyRjxmzsJC3jVKWOqoGUWfxOESyMFkpl6JQXzm
+         xit7zTJXESn79HWdjNlrop36xcG4y0HSvb5AGTBwtCP5Xo4Mmwacdr86B0fM1a4ZBzd/
+         5xbFv34iXhkSNq5aoXMnqQ6iInCGZUeVuEyq5v/mlcFwsSgR1LiCvFMnmTA3vHokTniM
+         mrHg==
+X-Gm-Message-State: AOAM533pUrweaf0OR/up7Aqq3fxDd2UaEw2Jq1nUjSA+zlR9OiMXCfl7
+	+BYUOaHCS4VunogX1oRyFpF9K8uVcYC1DTunP9Xda6e+KPjE+hUwBUvfv1XzR3j+YWaOkfcyub6
+	Qkn43ZNAi9dKcqqrp+oSprRQlwgShD9eQWNFN2vZmeQ==
+X-Google-Smtp-Source: ABdhPJy463w2V3p7KdRq5u+3gB8fvPOrWgXZkKg2iXWtGLeRIsVmWFRsM4Qq1iUOJw2x0r+oUaUzRyiWc+3ZtX+zESh1
+MIME-Version: 1.0
+X-Received: by 2002:a25:870a:: with SMTP id a10mr29642761ybl.257.1597768585378;
+ Tue, 18 Aug 2020 09:36:25 -0700 (PDT)
+Reply-To: nfernandes@exactsales.com.br
+Sender: Google Calendar <calendar-notification@google.com>
+Auto-Submitted: auto-generated
+Message-ID: <000000000000f7208c05ad297cee@google.com>
+Date: Tue, 18 Aug 2020 16:36:25 +0000
+Subject: Canceled event with note: Fechamento - Solive -  @ Tue Aug 18, 2020
+ 6pm - 7pm (BRT) (contato@soliveenergiasolar.com.br)
+From: nfernandes@exactsales.com.br
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/mixed; boundary="000000000000f7206605ad297ced"
+X-Spam-Status: No, score=-0.9
+X-Spam-Score: -8
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000f7206605ad297ced
+Content-Type: multipart/alternative; boundary="000000000000f7206305ad297ceb"
+
+--000000000000f7206305ad297ceb
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+This event has been canceled with this note:
+"Reuni=C3=A3o desmarcada. Ser=C3=A1 agendado - possivelmente amanh=C3=A3 qu=
+arta feira"
+
+Title: Fechamento - Solive -
+When: Tue Aug 18, 2020 6pm =E2=80=93 7pm Brasilia Standard Time - Sao Paulo
+
+Joining info: Join with Google Meet
+https://meet.google.com/svo-qmpa-rky
+
+Join by phone
+(BR) +55 11 4560-8086 (PIN: 120172018)
+
+More phone numbers: https://tel.meet/svo-qmpa-rky?pin=3D1546945180257&hs=3D=
+0
+
+Calendar: contato@soliveenergiasolar.com.br
+Who:
+     * nfernandes@exactsales.com.br - organizer
+     * contato@soliveenergiasolar.com.br
+
+
+Invitation from Google Calendar: https://www.google.com/calendar/
+
+You are receiving this courtesy email at the account =20
+contato@soliveenergiasolar.com.br because you are an attendee of this event=
+.
+
+To stop receiving future updates for this event, decline this event. =20
+Alternatively you can sign up for a Google account at =20
+https://www.google.com/calendar/ and control your notification settings for=
+ =20
+your entire calendar.
+
+Forwarding this invitation could allow any recipient to send a response to =
+=20
+the organizer and be added to the guest list, or invite others regardless =
+=20
+of their own invitation status, or to modify your RSVP. Learn more at =20
+https://support.google.com/calendar/answer/37135#forwarding
+
+--=20
+The content of this email is confidential and intended for the recipient=20
+specified in message only. It is strictly forbidden to share any part of=20
+this message with any third party, without a written consent of the sender.=
+=C2=A0
+
+--000000000000f7206305ad297ceb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span itemprop=
+=3D"object" itemscope itemtype=3D"http://schema.org/Event"><div style=3D"">=
+<table cellspacing=3D"0" cellpadding=3D"8" border=3D"0" summary=3D"" style=
+=3D"width:100%;font-family:Arial,Sans-serif;border:1px Solid #ccc;border-wi=
+dth:1px 2px 2px 1px;background-color:#fff;"><tr><td><meta itemprop=3D"event=
+Status" content=3D"http://schema.org/EventCancelled"/><h4 style=3D"padding:=
+6px 0;margin:0 0 4px 0;font-family:Arial,Sans-serif;font-size:13px;line-hei=
+ght:1.4;border:1px Solid #fff;background:#fff;color:#f00;font-weight:normal=
+"><strong>This event has been canceled with this note:</strong><br>"Reuni=
+=C3=A3o desmarcada. Ser=C3=A1 agendado - possivelmente amanh=C3=A3 quarta f=
+eira"</h4><div style=3D"padding:2px"><span itemprop=3D"publisher" itemscope=
+ itemtype=3D"http://schema.org/Organization"><meta itemprop=3D"name" conten=
+t=3D"Google Calendar"/></span><meta itemprop=3D"eventId/googleCalendar" con=
+tent=3D"00aht5i82s6bmpuqht1qke04c3"/><h3 style=3D"padding:0 0 6px 0;margin:=
+0;font-family:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222">=
+<span itemprop=3D"name">Fechamento - Solive - </span></h3><table style=3D"d=
+isplay:inline-table" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" summa=
+ry=3D"Event details"><tr><td style=3D"padding:0 1em 10px 0;font-family:Aria=
+l,Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:90px" valig=
+n=3D"top"><div><i style=3D"font-style:normal">When</i></div></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><div style=3D"text-indent:-1px"><time itemprop=3D"start=
+Date" datetime=3D"20200818T210000Z"></time><time itemprop=3D"endDate" datet=
+ime=3D"20200818T220000Z"></time>Tue Aug 18, 2020 6pm =E2=80=93 7pm <span st=
+yle=3D"color:#888">Brasilia Standard Time - Sao Paulo</span></div></td></tr=
+><tr><td style=3D"padding:0 1em 4px 0;font-family:Arial,Sans-serif;font-siz=
+e:13px;color:#888;white-space:nowrap;width:90px" valign=3D"top"><div><i sty=
+le=3D"font-style:normal">Joining info</i></div></td><td style=3D"padding-bo=
+ttom:4px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"=
+top"><div style=3D"text-indent:-1px">Join with Google Meet</div></td></tr><=
+tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size=
+:13px;color:#888;white-space:nowrap;width:90px"></td><td style=3D"padding-b=
+ottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=
+=3D"top"><div style=3D"text-indent:-1px"><div style=3D"text-indent:-1px"><s=
+pan itemprop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/Jo=
+inAction"><span itemprop=3D"name" content=3D"meet.google.com/svo-qmpa-rky">=
+<span itemprop=3D"target" itemscope itemtype=3D"http://schema.org/EntryPoin=
+t"><span itemprop=3D"url" content=3D"https://meet.google.com/svo-qmpa-rky">=
+<span itemprop=3D"httpMethod" content=3D"GET"><a href=3D"https://meet.googl=
+e.com/svo-qmpa-rky" style=3D"color:#20c;white-space:nowrap" target=3D"_blan=
+k">meet.google.com/svo-qmpa-rky</a></span></span></span></span></span> </di=
+v></div></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,S=
+ans-serif;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><td=
+ style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;c=
+olor:#222" valign=3D"top"></td></tr><td style=3D"padding:0 1em 4px 0;font-f=
+amily:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:9=
+0px"></td><td style=3D"padding-bottom:4px;font-family:Arial,Sans-serif;font=
+-size:13px;color:#222" valign=3D"top"><div style=3D"text-indent:-1px">Join =
+by phone</div></td><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,=
+Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><t=
+d style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;=
+color:#222" valign=3D"top"><div style=3D"text-indent:-1px"><div style=3D"te=
+xt-indent:-1px"><span style=3D"color:#888">(BR) </span><a href=3D"about:inv=
+alid#zSoyz" style=3D"color:#20c;white-space:nowrap" target=3D"_blank">+55 1=
+1 4560-8086</a> <span style=3D"color:#888">(PIN: 120172018)</span></div></d=
+iv></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-s=
+erif;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><td styl=
+e=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:=
+#222" valign=3D"top"></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-f=
+amily:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:9=
+0px"></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;fon=
+t-size:13px;color:#222" valign=3D"top"><div style=3D"text-indent:-1px"><a h=
+ref=3D"https://tel.meet/svo-qmpa-rky?pin=3D1546945180257&amp;hs=3D0" style=
+=3D"color:#20c;white-space:nowrap" target=3D"_blank">More phone numbers</a>=
+</div></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,San=
+s-serif;font-size:13px;color:#888;white-space:nowrap;width:90px" valign=3D"=
+top"><div><i style=3D"font-style:normal">Calendar</i></div></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><div style=3D"text-indent:-1px">contato@soliveenergiaso=
+lar.com.br</div></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family=
+:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:90px" =
+valign=3D"top"><div><i style=3D"font-style:normal">Who</i></div></td><td st=
+yle=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;colo=
+r:#222" valign=3D"top"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td s=
+tyle=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;colo=
+r:#222;width:10px"><div style=3D"text-indent:-1px"><span style=3D"font-fami=
+ly:Courier New,monospace">&#x2022;</span></div></td><td style=3D"padding-ri=
+ght:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div style=
+=3D"text-indent:-1px"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=
+=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span itempro=
+p=3D"name" class=3D"notranslate">nfernandes@exactsales.com.br</span><meta i=
+temprop=3D"email" content=3D"nfernandes@exactsales.com.br"/></span><span it=
+emprop=3D"organizer" itemscope itemtype=3D"http://schema.org/Person"><meta =
+itemprop=3D"name" content=3D"nfernandes@exactsales.com.br"/><meta itemprop=
+=3D"email" content=3D"nfernandes@exactsales.com.br"/></span><span style=3D"=
+font-size:11px;color:#888"> - organizer</span></div></div></div></td></tr><=
+tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:1=
+3px;color:#222;width:10px"><div style=3D"text-indent:-1px"><span style=3D"f=
+ont-family:Courier New,monospace">&#x2022;</span></div></td><td style=3D"pa=
+dding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><d=
+iv style=3D"text-indent:-1px"><div><div style=3D"margin:0 0 0.3em 0"><span =
+itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span=
+ itemprop=3D"name" class=3D"notranslate">contato@soliveenergiasolar.com.br<=
+/span><meta itemprop=3D"email" content=3D"contato@soliveenergiasolar.com.br=
+"/></span></div></div></div></td></tr></table></td></tr></table></div></td>=
+</tr><tr><td style=3D"background-color:#f6f6f6;color:#888;border-top:1px So=
+lid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>Invitation from <a=
+ href=3D"https://www.google.com/calendar/" target=3D"_blank" style=3D"">Goo=
+gle Calendar</a></p><p>You are receiving this courtesy email at the account=
+ contato@soliveenergiasolar.com.br because you are an attendee of this even=
+t.</p><p>To stop receiving future updates for this event, decline this even=
+t. Alternatively you can sign up for a Google account at https://www.google=
+.com/calendar/ and control your notification settings for your entire calen=
+dar.</p><p>Forwarding this invitation could allow any recipient to send a r=
+esponse to the organizer and be added to the guest list, or invite others r=
+egardless of their own invitation status, or to modify your RSVP. <a href=
+=3D"https://support.google.com/calendar/answer/37135#forwarding">Learn More=
+</a>.</p></td></tr></table></div></span></span>
+<br>
+<em style=3D"margin:0px;padding:0px;border:0px;vertical-align:baseline;colo=
+r:rgb(68,68,68);font-family:&quot;Segoe UI&quot;,Frutiger,&quot;Frutiger Li=
+notype&quot;,&quot;Dejavu Sans&quot;,&quot;Helvetica Neue&quot;,Arial,sans-=
+serif;background-color:rgb(255,255,255)"><font size=3D"1">The content of th=
+is email is confidential and intended for the recipient specified in messag=
+e only. It is strictly forbidden to share any part of this message with any=
+ third party, without a written consent of the sender.=C2=A0</font></em>
+--000000000000f7206305ad297ceb
+Content-Type: text/calendar; charset="UTF-8"; method=CANCEL
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20200818T210000Z
+DTEND:20200818T220000Z
+DTSTAMP:20200818T163625Z
+ORGANIZER;CN=nfernandes@exactsales.com.br:mailto:nfernandes@exactsales.com.
+ br
+UID:00aht5i82s6bmpuqht1qke04c3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=nferna
+ ndes@exactsales.com.br;X-NUM-GUESTS=0:mailto:nfernandes@exactsales.com.br
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=co
+ ntato@soliveenergiasolar.com.br;X-NUM-GUESTS=0:mailto:contato@soliveenergia
+ solar.com.br
+CREATED:20200817T211032Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a video call.\nJoin: https://meet.google.com/svo-qmpa-
+ rky\n(BR) +55 11 4560-8086 PIN: 120172018#\nView more phone numbers: https:
+ //tel.meet/svo-qmpa-rky?pin=1546945180257&hs=7\n-::~:~::~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200818T163624Z
+LOCATION:
+SEQUENCE:1
+STATUS:CANCELLED
+SUMMARY:Fechamento - Solive - 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--000000000000f7206305ad297ceb--
+--000000000000f7206605ad297ced
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6Q0FOQ0VM
+DQpCRUdJTjpWRVZFTlQNCkRUU1RBUlQ6MjAyMDA4MThUMjEwMDAwWg0KRFRFTkQ6MjAyMDA4MThU
+MjIwMDAwWg0KRFRTVEFNUDoyMDIwMDgxOFQxNjM2MjVaDQpPUkdBTklaRVI7Q049bmZlcm5hbmRl
+c0BleGFjdHNhbGVzLmNvbS5icjptYWlsdG86bmZlcm5hbmRlc0BleGFjdHNhbGVzLmNvbS4NCiBi
+cg0KVUlEOjAwYWh0NWk4MnM2Ym1wdXFodDFxa2UwNGMzQGdvb2dsZS5jb20NCkFUVEVOREVFO0NV
+VFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVEO0NO
+PW5mZXJuYQ0KIG5kZXNAZXhhY3RzYWxlcy5jb20uYnI7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOm5m
+ZXJuYW5kZXNAZXhhY3RzYWxlcy5jb20uYnINCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JP
+TEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtDTj1jbw0KIG50YXRvQHNv
+bGl2ZWVuZXJnaWFzb2xhci5jb20uYnI7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmNvbnRhdG9Ac29s
+aXZlZW5lcmdpYQ0KIHNvbGFyLmNvbS5icg0KQ1JFQVRFRDoyMDIwMDgxN1QyMTEwMzJaDQpERVND
+UklQVElPTjotOjp+On46On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fjp+On4NCiA6fjp+On46fjp+On46fjp+Ojp+On46Oi1cblBsZWFzZSBkbyBub3Qg
+ZWRpdCB0aGlzIHNlY3Rpb24gb2YgdGhlIGRlc2NyaXB0aW8NCiBuLlxuXG5UaGlzIGV2ZW50IGhh
+cyBhIHZpZGVvIGNhbGwuXG5Kb2luOiBodHRwczovL21lZXQuZ29vZ2xlLmNvbS9zdm8tcW1wYS0N
+CiBya3lcbihCUikgKzU1IDExIDQ1NjAtODA4NiBQSU46IDEyMDE3MjAxOCNcblZpZXcgbW9yZSBw
+aG9uZSBudW1iZXJzOiBodHRwczoNCiAvL3RlbC5tZWV0L3N2by1xbXBhLXJreT9waW49MTU0Njk0
+NTE4MDI1NyZocz03XG4tOjp+On46On46fjp+On46fjp+On46fjp+On4NCiA6fjp+On46fjp+On46
+fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+Ojp+On46Oi0NCkxBU1QtTU9E
+SUZJRUQ6MjAyMDA4MThUMTYzNjI0Wg0KTE9DQVRJT046DQpTRVFVRU5DRToxDQpTVEFUVVM6Q0FO
+Q0VMTEVEDQpTVU1NQVJZOkZlY2hhbWVudG8gLSBTb2xpdmUgLSANClRSQU5TUDpPUEFRVUUNCkVO
+RDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+--000000000000f7206605ad297ced--

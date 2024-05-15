@@ -1,0 +1,207 @@
+Return-Path: <leticia.lopes@solfacil.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id SKQ7FKxAEWFFawYAJcoV8Q
+	(envelope-from <leticia.lopes@solfacil.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 09 Aug 2021 14:50:20 +0000
+Return-path: <leticia.lopes@solfacil.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 09 Aug 2021 14:50:20 +0000
+Received: from mail-ej1-f54.google.com ([209.85.218.54]:42587)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <leticia.lopes@solfacil.com.br>)
+	id 1mD6bb-001mBi-PN
+	for contato@soliveenergiasolar.com.br; Mon, 09 Aug 2021 14:50:20 +0000
+Received: by mail-ej1-f54.google.com with SMTP id e19so29420521ejs.9
+        for <contato@soliveenergiasolar.com.br>; Mon, 09 Aug 2021 07:50:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=solfacil-com-br.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=yRIwouuLzswfizVuYLvQlmUOeRcftcq5KHkvGhWt78s=;
+        b=h9NW6f0A5D3ikk+gkqpM+EmEzf2xHISYT+2qRXHuPWUxNppPT4T13PHR6K2UwmqFH+
+         msKMsXASi/i7eVYWSBChd8IZwQ8hR8yIOUYuOMU//7vVeesP2x26iv9bhq8rbg3YzbVE
+         Hfh1pnH9pf8QdiawdvYXlUpKfaK0O9TNW/LHWIzYwCIXDqhle4ZD/vPtbB2BKlWl7kYU
+         lyGdju5SptQv2zFRmeDnzJnpRtwGJAB2wppPX4pKivsKhzcszosVj7ma/yQ7LInGVoX9
+         3Sc2sRnx+XiwIKd4cenPH+zzl0ZUGANgBbhoVLIK1MnccOe+X7btwo6a5C1oUfzuNyLv
+         KDoA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=yRIwouuLzswfizVuYLvQlmUOeRcftcq5KHkvGhWt78s=;
+        b=BBV8tRph1uIFMbkYh/iEaep0EuITO62pOi9Vht9VdTf0VZwxgyp9YXNeAeqtW5ZKfK
+         0ezE0SKk9C2AZbUjK0+ClnXNxPk4iOnEJ7RX0OPYlC6/BkB0aX3L/6MUT3GEga6QQm2W
+         HCmWKkYtoh5fSeYXP4YllodZpQK6priURuBNVZSevyul83ARH5XR+0A1Gs/claiD1/5u
+         VqPCnCBIqWPeZFRolh4oXl+GblpRxpncQA4DMEF17OnTf0tsp+o64zBd7DR6CkNmcVMJ
+         sL31RCUxHA64CyMUeP1mTpEKqcAGDnqJoig40VCVi/xbMRjfFreu8GEGn2Kw+Ryd9nzD
+         fPPg==
+X-Gm-Message-State: AOAM5333lClV8yKVNOFsv2i27oobYJShQlzBW8gCNrob5PTL9evLjICP
+	DhFZ+p9Ff9bVsmDHxUzQI+GnI+nQIJEHdwkMYdNvFQ==
+X-Google-Smtp-Source: ABdhPJyl+2Qz1dAHdwofuGV2h9/kSzXZY76+ZczrTxwSR2tRcnpIa7L+2Sq3OEAGyeQdPb11jU61SQxntGaYAuZoTrg=
+X-Received: by 2002:a17:906:4115:: with SMTP id j21mr22567264ejk.206.1628520618286;
+ Mon, 09 Aug 2021 07:50:18 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAM33V4B66TzdQuvQS0ZHvdzX9zAx1aA_c_X89szTWVO9jJU1xA@mail.gmail.com>
+In-Reply-To: <CAM33V4B66TzdQuvQS0ZHvdzX9zAx1aA_c_X89szTWVO9jJU1xA@mail.gmail.com>
+From: Leticia Lopes <leticia.lopes@solfacil.com.br>
+Date: Mon, 9 Aug 2021 11:50:05 -0300
+Message-ID: <CANiA=V2hMHBA--mm3aU5nqnma1jmFgQR3aDQcFZ2RjbxGCbM_Q@mail.gmail.com>
+Subject: =?UTF-8?B?RndkOiBBbsOhbGlzZSBkZSBjcsOpZGl0byDwn5Sl8J+agA==?=
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000f676e505c9218096"
+Bcc: contato@soliveenergiasolar.com.br
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  É isso mesmo! -- Letícia Lopes 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mjt.lu]
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_FONT_SIZE_LARGE   BODY: HTML font size is large
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--000000000000f676e505c9218096
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=C3=89 isso mesmo!
+
+
+--=20
+
+Let=C3=ADcia Lopes
+
+*Analista Comercial*
+
+(11) 94883-6844
+leticia.lopes@solfacil.com.br <tiago.ramon@solfacil.com.br> |
+www.solfacil.com.br <http://www.solfacil.com.br/>
+<http://www.solfacil.com.br/>
+
+
+
+Pela primeira vez na sua vida, seja dono(a) da sua conta de luz.
+Antes de imprimir, pense na sua responsabilidade com o meio ambiente
+
+--000000000000f676e505c9218096
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><br><div dir=3D"ltr"><div style=
+=3D"margin:0px auto;max-width:600px"><table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:600=
+px"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0px;text-al=
+ign:center"><div style=3D"text-align:left;direction:ltr;display:inline-bloc=
+k;vertical-align:top;width:600px"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" width=3D"100%" style=3D"vertical-align=
+:top"><tbody><tr><td align=3D"center" style=3D"padding:0px;word-break:break=
+-word"><br><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"border-collapse:collapse;border-spacing:0px"><tbody>=
+<tr><td style=3D"width:600px"><img alt=3D"" height=3D"auto" src=3D"https://=
+x95ww.mjt.lu/img/x95ww/b/xs7v/i673.png" width=3D"550" style=3D"border:none;=
+display:block;outline:none;height:auto;width:550px;font-size:13px"><img alt=
+=3D"" height=3D"auto" src=3D"https://x95ww.mjt.lu/img/x95ww/b/xio5/xworr.pn=
+g" width=3D"600" style=3D"outline:none;border:none;display:block;height:aut=
+o;width:600px;font-size:13px"></td></tr></tbody></table></td></tr></tbody><=
+/table></div></td></tr></tbody></table></div><div style=3D"background-image=
+:initial;background-position:initial;background-size:initial;background-rep=
+eat:initial;background-origin:initial;background-clip:initial;margin:0px au=
+to;max-width:600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"background-image:initial;b=
+ackground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial;width:600px"><tbody><tr=
+><td style=3D"direction:ltr;font-size:0px;padding:20px 0px;text-align:cente=
+r"><div style=3D"text-align:left;direction:ltr;display:inline-block;vertica=
+l-align:top;width:600px"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%" style=3D"vertical-align:top"><t=
+body><tr><td align=3D"left" style=3D"padding:0px 25px;word-break:break-word=
+"><div style=3D"font-family:Arial,sans-serif;line-height:1;color:rgb(0,0,0)=
+"><h1 style=3D"text-align:center;margin-top:10px;margin-bottom:10px;font-we=
+ight:normal"><font size=3D"6">=C3=89 isso mesmo!<br></font></h1></div></td>=
+</tr></tbody></table></div></td></tr></tbody></table></div><div style=3D"ba=
+ckground-image:initial;background-position:initial;background-size:initial;=
+background-repeat:initial;background-origin:initial;background-clip:initial=
+;margin:0px auto;max-width:600px"><table align=3D"center" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background-i=
+mage:initial;background-position:initial;background-size:initial;background=
+-repeat:initial;background-origin:initial;background-clip:initial;width:600=
+px"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0px;text-al=
+ign:center"><div style=3D"text-align:left;direction:ltr;display:inline-bloc=
+k;vertical-align:top;width:600px"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" width=3D"100%" style=3D"vertical-align=
+:top"><tbody><tr><td align=3D"center" style=3D"padding:0px 25px;word-break:=
+break-word"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"border-collapse:collapse;border-spacing:0px"><tbody=
+><tr><td style=3D"width:550px"><img alt=3D"" height=3D"auto" src=3D"https:/=
+/x95ww.mjt.lu/img/x95ww/b/xii2/xwvt3.png" width=3D"550" style=3D"outline:no=
+ne;border:none;display:block;height:auto;width:550px;font-size:13px"></td><=
+/tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></tab=
+le></div><div style=3D"background-image:initial;background-position:initial=
+;background-size:initial;background-repeat:initial;background-origin:initia=
+l;background-clip:initial;margin:0px auto;max-width:600px"><br></div></div>=
+</div><div><br></div>-- <br><div dir=3D"ltr" class=3D"gmail_signature" data=
+-smartmail=3D"gmail_signature"><div dir=3D"ltr"><br style=3D"color:rgb(34,3=
+4,34)"><div dir=3D"ltr" style=3D"color:rgb(34,34,34)"><div dir=3D"ltr"><tab=
+le style=3D"color:rgb(136,136,136);border:medium none;border-collapse:colla=
+pse"><tbody><tr style=3D"height:57.75pt"><td style=3D"padding:5pt"><img src=
+=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D1E9-5BwNa62sI8VTC=
+iVaxvGqoWNJKXohH&amp;revid=3D0BwdFIlufu6PFU2NZMXJqZEIvY2oyOU9SZEdjcmJDc0ZvM=
+i9zPQ" width=3D"200" height=3D"86"></td><td style=3D"padding:5pt"><p dir=3D=
+"ltr" style=3D"line-height:1.8;margin-top:0pt;margin-bottom:0pt"><span styl=
+e=3D"font-size:10pt;font-family:Verdana;color:rgb(118,113,113);font-weight:=
+700;vertical-align:baseline;white-space:pre-wrap">Let=C3=ADcia Lopes</span>=
+</p><p dir=3D"ltr" style=3D"line-height:1.8;margin-top:0pt;margin-bottom:0p=
+t"><a><font color=3D"#767171" face=3D"Verdana"><span style=3D"font-size:13.=
+3333px;white-space:pre-wrap"><b>Analista Comercial</b></span></font></a></p=
+><p dir=3D"ltr" style=3D"line-height:1.8;margin-top:0pt;margin-bottom:0pt">=
+<a><font color=3D"#222222" face=3D"Verdana"><span style=3D"font-size:10pt;w=
+hite-space:pre-wrap">(11) 94883-6844</span></font></a><br></p><span style=
+=3D"font-size:10pt;font-family:Verdana;color:rgb(128,128,128);vertical-alig=
+n:baseline;white-space:pre-wrap"><a href=3D"mailto:tiago.ramon@solfacil.com=
+.br" style=3D"color:rgb(17,85,204)" target=3D"_blank">leticia.lopes@solfaci=
+l.com.br</a> | </span><a href=3D"http://www.solfacil.com.br/" style=3D"colo=
+r:rgb(17,85,204)" target=3D"_blank"><span style=3D"font-size:10pt;font-fami=
+ly:Verdana;color:rgb(128,128,128);vertical-align:baseline;white-space:pre-w=
+rap"> </span><span style=3D"font-size:10pt;font-family:Verdana;vertical-ali=
+gn:baseline;white-space:pre-wrap">www.solfacil.com.br</span></a><a href=3D"=
+http://www.solfacil.com.br/" style=3D"color:rgb(17,85,204)" target=3D"_blan=
+k"><span style=3D"font-size:10pt;font-family:Verdana;vertical-align:baselin=
+e;white-space:pre-wrap"></span></a><a href=3D"http://www.solfacil.com.br/" =
+style=3D"color:rgb(17,85,204)" target=3D"_blank"><span style=3D"font-size:1=
+0pt;font-family:Arial;vertical-align:baseline;white-space:pre-wrap"></span>=
+</a><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0p=
+t"><br><font size=3D"2"><span style=3D"font-family:verdana,sans-serif"><spa=
+n style=3D"color:rgb(128,128,128);vertical-align:baseline;white-space:pre-w=
+rap"><b></b></span></span></font></p></td></tr></tbody></table><div><span s=
+tyle=3D"color:rgb(102,102,102)"><span style=3D"font-family:Verdana;font-siz=
+e:10.6667px;white-space:pre-wrap"><span style=3D"font-size:10.6667px"><font=
+ size=3D"2"><br></font></span></span></span></div><div><span style=3D"color=
+:rgb(102,102,102)"><span style=3D"font-family:Verdana;font-size:10.6667px;w=
+hite-space:pre-wrap"><span style=3D"font-size:10.6667px"><font size=3D"2">P=
+ela primeira vez na sua vida, seja dono(a) da sua conta de luz.</font></spa=
+n></span></span></div><div style=3D"color:rgb(0,0,0)"><span style=3D"color:=
+rgb(191,191,191);font-family:Verdana;font-size:10.6667px;white-space:pre-wr=
+ap"></span></div><div style=3D"color:rgb(0,0,0)"><span style=3D"color:rgb(1=
+91,191,191);font-family:Verdana;font-size:10.6667px;white-space:pre-wrap">A=
+ntes de imprimir, pense na sua responsabilidade com o meio ambiente</span><=
+/div></div></div></div></div></div>
+
+--000000000000f676e505c9218096--

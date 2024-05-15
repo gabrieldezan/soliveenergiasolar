@@ -1,0 +1,151 @@
+Return-Path: <gustavosarmento@yahoo.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id tU0EG20FomLnbQAAJcoV8Q
+	(envelope-from <gustavosarmento@yahoo.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 09 Jun 2022 14:36:29 +0000
+Return-path: <gustavosarmento@yahoo.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 09 Jun 2022 14:36:29 +0000
+Received: from sonic316-54.consmr.mail.gq1.yahoo.com ([98.137.69.30]:36746)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <gustavosarmento@yahoo.com.br>)
+	id 1nzJGu-0007JG-NO
+	for contato@soliveenergiasolar.com.br;
+	Thu, 09 Jun 2022 14:36:29 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com.br; s=s2048; t=1654785387; bh=hfIrbM9OoHF8MsMZFOgZ5en8MkiSu3JVRsCQ8y7sDQA=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=qrnYiwYxNfZrNWDY8SEHk9QxAzuqIImjGdzs8Mh2eNwmvuAIHRlj6ttQqSz9/69Qc7dbyHoRO2ZUwGUwwB4P50rhhNoit2EXWa2shfg51H1HdSvh23oGccvDZQKJH4symw00nImZEICamxb7wL3qV/zliG3NP89rtMRqhNGeZSfFxeTObDsOA6iCPFyPqlQo+PwnraXpJQuZX+UrGX2qcm5A3oVpwxmA1u0LakN/KfhBvKfKczsLL5neCDOnBNXc4s9I/QvcT07Vavg87utMsE0w8LjoS6yvRCdX22SnNkSWGUTKQgfMDjkt6wL+t08AHUZ7U+ikkcATTxO+/jAXtQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1654785387; bh=zyHCzVnfsBkvf5+DiZ+kiveiUR6gkQF09jzhV4lsDWJ=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=Xaw6KexBMrmkAvWi5Al2SzCQrKbC2CY75ZS0Ax5roWJJd3f1FgXtemUaDzZxwdX+PGzxt1AAR5kD5Aj+FUr/Zig9LFzQSgDEibSn9O1zGWSBzz2Em8mhPu5HzhG5LV/6lI/jpv/Ll5irASCevhKgM21z4RTjj3vEFSs+EhCrAena8DygRzwTip3mFLWggypOeGZFGvSmOCYC0xDp4LlrsyblohH/xygYmlsUpT/MmqPpxDilAqjMUODvpooQ9GEGBpqzzFUj8sPzaSlk1SHnOkemic3km71wetA9EEItdLeULU4TbB0+9JL5zG5pWJuQslrFL5yckvv66mxcbn/xEQ==
+X-YMail-OSG: t2XbAkIVM1kA329ihFj85m.CsPpSrq.tKsLjEB54LGzwVaOjrWnHCKJcKVh9LMH
+ azwNX..H7cs4M_yveDagcjMi8YsPGeApW__pg46SwqvaGhfbyhNjmB2gfftDSJl.bPI9msaA55RY
+ 868cMXAAEHk40FLIlNKYOd_5RtErZgXgMqrmDdS5Eh76mKgycCrgGyNbX3SAWknGzVM3AiJ8LQgA
+ 0Au2OD9uVoLBZpokU2efHYOENHHwPsDR9sm9JHddtJ_tpfehL1qefEYGmCl1WCeq4N7yCOXIFq88
+ rGt69YIYm.9d.LF_lVXgCG9nStePme0LuW92oJp.iLYgFAf760qpROea5..sNbVuq7mZ87HSkNX2
+ 7hfEXCbaAIdl8yjcrqk3NzfGr0EFyeLpag7GSmiSaBx7EtYRyXgBCNXhsbkEADZL4jQnrKW6Ivhe
+ Z2rsXITWp5tmeOgXdk8u2yOUCEhRdzBEV5NVBPu.W.vkbVtS_fN0alTY5XQpXNtXY.ErrTFApaaV
+ 91wVPRMG9ft6XqBc3TnawEUniHKjoBoQYb1pZSR2BichcFcin4BNeeVesk5FeoxFtHlbnhiEbdaH
+ MR8DEd3mekxnITfVKwT_Beh23UAxaYXc2y77W.xM8hFbeisn20NC2jS0K25NLqz1MXnsIeLbKIJP
+ EWxxNZXaRsddN27DrmjIZ3a5O7UFioR3khcHpUaCzWtjarPA8FF8ARf8Nn6m8PMkyo4gdLAbXhKd
+ 1uUuFjl9pGmt0OhNC06CFO.gq9yJUOFwfFpDL0EDneC0UvSRFLkaNtnp3Ys0yk3xzsgnl0qVFYvT
+ jyUuEgurXhVegKKalNTe.iXXZJCvAG.U.cd62Uu1h5RzA3h7iqWyPgWz6zN_BAw_F5wKGgG6dNXR
+ EUTf3Secy6Ruv_aH.D38bPmC4joq7ZJvXntJs5MWgp7e4qugdJ82HztOMsMwMpWxa7tKOspMLJmx
+ Zaxpzb.xcCwieCLbS6CQfv9WA8S9gD6.FwUlsFtllCG4qCAQN85.13TwM4BowHS0UVkzRehaAOLg
+ 2wHvcL7.C2ArXcnh46k.mm43eM9yYXhxEjV1Ggq3v_.xnMEV3EkZg0MYPmdsbnE7lWE2BGgdSZLn
+ jKahsfv4H4yB1HkrY4nirVyemTiX.g2jTaHHqytCNEOV_o5iwXAI3aGEzZbD2JsVdmgrURFsUWYp
+ T1XQs997UVxtiulwdm.Qg4Wjgv20cwGKwfU2wLHbFxsTr6XxE8kYNLxydpTiekSdkhjGQKaGwv.V
+ ymebHHSIhXkXoXlO46nZo8ZkfjDuh5ZBj42Ik_sC1F37IM6I7mV8tvNLwlMjU4WavE3_it7t8QAo
+ H9hl3ALzlOHFd1_e8B.g.rDmt4gdG.sczDEu7uvOaTkWoInDoTjjIq56GfSczY7mq9zrRoAIsRXs
+ JEtsFKfg2dUZ15Knm4VmrrboAlsXlDpS56NRCs4_BmNqTU98Y2S4oYhtcTGp8bdKFu5D8x5LcBA8
+ Wa9xPVaHZIPAOWxJScP48NbOywM_m5ecfwyAC_kDvYIE.s.sITlClFLbEaC.yd1U3sRFw_wdnYgG
+ sNLi_HW7z9J83kSKY6KM.PTU9.pwopY78MDXZhYWqwd.WMMYIGb4DuBwYLR0MDKGbY0HrTdyQ7Zb
+ nW_Njc5ya9mFTh3le7rEWYctNv8Du_JES0r75z61kLEOzcEWxGW4ohZbQUqda7JQebIZwj3ahPJa
+ 9JxwzMPVOZwbm4.ckwu7ODxFUQpZbs8zIbItOvK5CoVPWixdRX6GY_U.UVNPUn8kbUXnhd_ry45_
+ Evjdb3V2KfqwrrZJ.VxLO3dej2QTj9lZo6LPBkFcMaNfzvjzrNNM94xzFwvvC9eMItLao6NWkRUe
+ WfEQrEigUa8mbTof2RaRJ9wYhrzjc5LSOOUaG7mcnB45e9abrUh_TqpNjdNc18snVzMHMOv7H4_9
+ J0nVP7PlGuEhGBhhLZ4Ex2PwChn5YQ8gUyaXDvSHnaUvitEnawHvxi_.N3pZ5TAcJbfTASO75Fc7
+ NGbcm6yT3_WmCQmH.0UfNYopt8EPZG5AcbhNDHwguDyMW9ywBx_OOCHAi.xhY.C62ATKYgtKf41J
+ ZvIx047ZDo0O1FmjjSwb2ZwUUuLqnQJ1JwAKqCd1Cg0bIxzDPzgSaWy0CgGxuAPiHaOsAX56ZTcf
+ P3PMBcZB5QXFFxTiKIGg.kgkkZ7BjepC2ROEiRBeTA_fzGdpppveKlz0oc_aShXYRY7TUe5dlZbk
+ N141GJnibDzqpJTosLo7yQuo8rWeHiYxBEqIMI9lsgvQGN6rp2EhrkWedbctxUSWYz5hylkLEbCi
+ l.0LiqlfmjLUN_MAMrJA_VVaOWbTTFWpIxL3JUmObpDcGl._x9GkxCEH5UeIbEBRYFij37UVDBHx
+ 8jvW1QljQbHnspf_YXq1Tk4NCfdq20bl5vMFwmCRMmoFxxAfyfw0_LYOdyjuuCwBBXZn2YvPdn_U
+ yaF8RICBqzVvsalUgFkzWwh.zgXfWAxlosANsvR8I3hSiRYXiKZz7r4sEliUaArMcFCTsS6nvpCV
+ h8m_Qjdt3jQiSqPDRPiC9uWLdZ7LDrDhVx2YA2iW6JpwIp6NH8vOK02mjI2vSIN9bF0Eo0XGUDHD
+ 8Ao_z_p8HPwpNtm77IoMk877ZHkZBy0rPlBZWnl8aD9a.4Cg5zL3Jym6Tf_svON1PhVBl
+X-Sonic-MF: <gustavosarmento@yahoo.com.br>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.gq1.yahoo.com with HTTP; Thu, 9 Jun 2022 14:36:27 +0000
+Date: Thu, 9 Jun 2022 14:36:34 +0000 (UTC)
+From: gustavo sarmento neves <gustavosarmento@yahoo.com.br>
+Reply-To: gustavo sarmento neves <gustavosarmento@yahoo.com.br>
+To: contato@soliveenergiasolar.com.br
+Message-ID: <135928520.1157641.1654785394572@mail.yahoo.com>
+In-Reply-To: <1654774758.221460158@f47.my.com>
+References: <1654774758.221460158@f47.my.com>
+Subject: Assunto: Proposta energia solar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1157640_650583243.1654785394570"
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 2271
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Bom diaOl pode enviar por e-mail Enviado do Yahoo Mail no
+   Android Em qui., 9 9e jun. 9e 2022 às 8:39, contato@soliveenergiasolar.com.br
+    escreveu: Bom dia Gustavo, me chamo Rodrigo. Estou tentando entrar em contato
+    através do telefone que foi passado porém não [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: onelink.me]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [gustavosarmento[at]yahoo.com.br]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+------=_Part_1157640_650583243.1654785394570
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Bom diaOl pode enviar por e-mail
+
+Enviado do Yahoo Mail no Android=20
+=20
+  Em qui., 9 9e jun. 9e 2022 =C3=A0s 8:39, contato@soliveenergiasolar.com.b=
+r<contato@soliveenergiasolar.com.br> escreveu:   Bom dia Gustavo, me chamo =
+Rodrigo.
+Estou tentando entrar em contato atrav=C3=A9s do telefone que foi passado p=
+or=C3=A9m n=C3=A3o estou conseguindo, caso possa enviar sua proposta por e-=
+mail me confirme e caso tenha algum outro n=C3=BAmero para contato passe qu=
+e eu entrarei em contato.
+
+
+Enviado de myMail para iOS
+ =20
+
+------=_Part_1157640_650583243.1654785394570
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Bom dia<div>Ol pode enviar por e-mail<br><br><div id=3D"ymail_android_signa=
+ture"><a id=3D"ymail_android_signature_link" href=3D"https://go.onelink.me/=
+107872968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__=
+AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGr=
+owth&amp;af_sub3=3DEmailSignature">Enviado do Yahoo Mail no Android</a></di=
+v> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-famil=
+y:Roboto, sans-serif; color:#6D00F6;"> <div>Em qui., 9 9e jun. 9e 2022 =C3=
+=A0s 8:39, contato@soliveenergiasolar.com.br</div><div>&lt;contato@soliveen=
+ergiasolar.com.br&gt; escreveu:</div> </div> <div style=3D"padding: 10px 0 =
+0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div id=3D"yi=
+v6297257829">
+<div><div id=3D"yiv6297257829composeWebView_editable_content" style=3D"text=
+-align:left;"><div>Bom dia Gustavo, me chamo Rodrigo.</div><div><br></div><=
+div>Estou tentando entrar em contato atrav=C3=A9s do telefone que foi passa=
+do por=C3=A9m n=C3=A3o estou conseguindo, caso possa enviar sua proposta po=
+r e-mail me confirme e caso tenha algum outro n=C3=BAmero para contato pass=
+e que eu entrarei em contato.</div><div><br></div><div id=3D"yiv6297257829m=
+ail-app-auto-default-signature"><br><br>Enviado de myMail para iOS<br></div=
+><div id=3D"yiv6297257829composeWebView_previouse_content"></div></div></di=
+v>
+</div> </div> </blockquote></div>
+------=_Part_1157640_650583243.1654785394570--

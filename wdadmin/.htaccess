@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ principal.php?url=$1
+RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ http://localhost/solive/wdadmin/$1 [R=301,L,NE]
+RewriteRule ^(.*)$ https://soliveenergiasolar.com.br/wdadmin$1 [R=301,L,NE]

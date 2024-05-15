@@ -1,0 +1,197 @@
+Return-Path: <garima@wesofy.in>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id SD2DOGmGa2P+MAAAIElduQ
+	(envelope-from <garima@wesofy.in>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 09 Nov 2022 10:52:25 +0000
+Return-path: <garima@wesofy.in>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 09 Nov 2022 10:52:25 +0000
+Received: from mail-pf1-f194.google.com ([209.85.210.194]:42803)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <garima@wesofy.in>)
+	id 1osigz-0007JD-83
+	for contato@soliveenergiasolar.com.br;
+	Wed, 09 Nov 2022 10:52:25 +0000
+Received: by mail-pf1-f194.google.com with SMTP id b185so16335911pfb.9
+        for <contato@soliveenergiasolar.com.br>; Wed, 09 Nov 2022 02:52:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=wesofy.in; s=google;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Aaa2M7KnodU5V/rNw524/tj03aycGFt6EP9MMkE6M5Y=;
+        b=afeXXMd+dxUvZn2Yt/8UUiCeqO9/MTPNkCZDT8uzN+LUJpL+LDGDE9HS5/kWEShPki
+         8Z3NfmoEHB2xAU2uzD8f2wg2QfFtTVYA/2kPVerK8t+ZRM++qROQGnXU3etVIqXYomN6
+         k6bFnKvWTZ2bbwN3AUZjbNlf9xWwD+WIFvqBRFlQc1bIcxfMHBdD3+KDH+x35lvN7FXU
+         shYfJ8gHWr8kCTYaj59Brkcdb4/CXBDYhNhApi0AFI430MN2qAZpqL7LUyehXf66y0ID
+         +fneXg5tsHWQLsKrAbddrcVXKYdde/szNdO/4nBDMEtHmIIz70DipwBKrG8ohVxuKTll
+         Dhow==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Aaa2M7KnodU5V/rNw524/tj03aycGFt6EP9MMkE6M5Y=;
+        b=A406ik/blS/WMshzuV8I+VLp9AIf82g//ktQ156kFKVeOy1OJYSwSa/9JssPT9wv7n
+         vjGPpgkXUZfzsUuAgGlT4KTWxP1ufIzvV34sC/jLglkETKw2w0Usn8nLVj09ltRJpPYb
+         q93XRiuVQkrljtwBrebVxr6XdMjctgXhHQx7llXwuuBFyBXNqColDF2O6wRKqkP2VC3s
+         n1iunuqELs5Wd3Gjoo1nVH3qG/eoiJFx6op9CNYuKEbVs8RGI3HtReToAPiK/611/Q7p
+         iIfTbE763JKDhYTjRnyZCN++3I+IYD59dyEq6HBwZTPH/+c0/Olit+1DDbGC2FKNVxaT
+         lRww==
+X-Gm-Message-State: ACrzQf1RiuJwGfJh8TIuHI4wkKDYkyfbweFoqLhCLpThyCB6FU0tOw8D
+	Ct8jgAA9ie1y7pGdaWFrJ4caP8H5NTlshg==
+X-Google-Smtp-Source: AMsMyM6OYJOa1cq8sRSxW+Yz1k5tMY7RUYvqsQGIPXiicRMattHbWNRIbOxobjvl1i5iYHJ4Q/MuYQ==
+X-Received: by 2002:a05:6a00:1781:b0:561:7f7f:dc38 with SMTP id s1-20020a056a00178100b005617f7fdc38mr61251265pfg.42.1667991143318;
+        Wed, 09 Nov 2022 02:52:23 -0800 (PST)
+Received: from k ([49.36.144.124])
+        by smtp.gmail.com with ESMTPSA id p5-20020a170902ebc500b001868981a18esm8777803plg.6.2022.11.09.02.52.22
+        for <contato@soliveenergiasolar.com.br>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 09 Nov 2022 02:52:23 -0800 (PST)
+From: "Garima" <garima@wesofy.in>
+To: <contato@soliveenergiasolar.com.br>
+Subject: Re: App Proposal
+Date: Wed, 9 Nov 2022 16:22:11 +0530
+Message-ID: <781401d8f429$5797eb00$06c7c100$@in>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_7815_01D8F457.71502700"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adj0F1BCqvBtH3PiRq2FU6NLOv3L7Q==
+Content-Language: en-us
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, My name is Garima, and we are a team of Professional IOS
+    & Android Apps Developer with 7+ years' experience based in India. Do you
+    need a great App adjusted or built from scratch? Reply me if you need any
+    kinds of help in mobile Apps. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: wesofy.in]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_7815_01D8F457.71502700
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi, 
+
+ 
+
+My name is Garima, and we are a team of Professional IOS & Android Apps
+Developer with 7+ years' experience based in India. Do you need a great App
+adjusted or built from scratch? 
+
+ 
+
+Reply me if you need any kinds of help in mobile Apps. 
+
+ 
+
+Kind regards, 
+
+Garima, 
+
+Mobile App Development (India)
+
+ 
+
+
+------=_NextPart_000_7815_01D8F457.71502700
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>Hi, =
+</p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>&nbs=
+p;</p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>My =
+name is <b>Garima</b>, and we are a team of Professional IOS &amp; =
+Android Apps Developer with 7+ years&#8217; experience based in India. =
+Do you need a great App adjusted or built from scratch? </p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>&nbs=
+p;</p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>Repl=
+y me if you need any kinds of help in mobile Apps. </p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>&nbs=
+p;</p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>Kind=
+ regards, </p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><b>G=
+arima</b>, </p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>Mobi=
+le App Development (India)</p><p class=3DMsoNormal =
+style=3D'mso-margin-bottom-alt:auto;line-height:normal'><o:p>&nbsp;</o:p>=
+</p></div></body></html>
+------=_NextPart_000_7815_01D8F457.71502700--
+

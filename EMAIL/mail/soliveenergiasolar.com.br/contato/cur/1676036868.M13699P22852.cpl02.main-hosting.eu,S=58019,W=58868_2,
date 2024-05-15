@@ -1,0 +1,849 @@
+Return-Path: <bounce+6b6395.78802b-contato=soliveenergiasolar.com.br@nubank.sounu.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id eGw+AARL5mNEWQAAIElduQ
+	(envelope-from <bounce+6b6395.78802b-contato=soliveenergiasolar.com.br@nubank.sounu.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 10 Feb 2023 13:47:48 +0000
+Return-path: <bounce+6b6395.78802b-contato=soliveenergiasolar.com.br@nubank.sounu.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 10 Feb 2023 13:47:48 +0000
+Received: from m236-131.mailgun.net ([159.135.236.131]:54989)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <bounce+6b6395.78802b-contato=soliveenergiasolar.com.br@nubank.sounu.com.br>)
+	id 1pQTkh-0003zn-1o
+	for contato@soliveenergiasolar.com.br;
+	Fri, 10 Feb 2023 13:47:47 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=nubank.sounu.com.br;
+ q=dns/txt; s=pic; t=1676036822; x=1676044022;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: To: To: From:
+ From: Subject: Subject: Mime-Version: Date: Sender: Sender;
+ bh=3uTYlIGkNqlsaggG0TNloASds+x6KnTTNs4ANFiN1fI=; b=F3zUUdhh0lLLyFU4Y+WySeIBOljwTNIP6h7cg27wF/t2QPd2XP1J7oKY8Tzi5xOL5KUEok8R
+ zO2GmHw1ICIdhsYkLXeg35GO2HTT0TilFMwsxtSaOJba0LvZTZ+rOUR6NHLrIueH0SepXU0u
+ HPQ3BkNDd6JtJlxwB/aNmm9EvHc=
+X-Mailgun-Sending-Ip: 159.135.236.131
+X-Mailgun-Sid: WyI1NGJkNyIsImNvbnRhdG9Ac29saXZlZW5lcmdpYXNvbGFyLmNvbS5iciIsIjc4ODAyYiJd
+Received: from <unknown> (<unknown> []) by b99efe572f25 with HTTP id
+ 63e64aca92e535ce095e974e; Fri, 10 Feb 2023 13:46:50 GMT
+Sender: todomundo@nubank.sounu.com.br
+Date: Fri, 10 Feb 2023 13:46:50 +0000
+Mime-Version: 1.0
+Subject: Venda mais com NuPay!
+From: Nubank <todomundo@nubank.sounu.com.br>
+To: Solive Energia Solar <contato@soliveenergiasolar.com.br>
+X-Mailgun-Variables: {"nu-contact-id": "6273ebc6-f765-4b29-8b1c-6c93f6fd3d86",
+ "nu-external-id": "a4a0e59b-bb6c-3f8b-8cb8-42bec5e76431", "nu-prototype":
+ "s17", "nu-template-name": "company/nupay-pj/email/nupaypj-announ-2/v1"}
+Message-Id: <20230210134650.0d0a6c23d55c7fb5@nubank.sounu.com.br>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Um novo jeito de receber pagamentos no crédito imediatamente
+    de clientes Nubank. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+    ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ � [...] 
+ Content analysis details:   (0.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nubank.com.br]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: nubank.com.br]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: amazonaws.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image
+                             area
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title></title><!--[if !mso]><!-- --><meta http-equiv=3D"X-UA-Com=
+patible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-=
+Type" content=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" conten=
+t=3D"width=3Ddevice-width,initial-scale=3D1"><style type=3D"text/css">#outl=
+ook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-=
+size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-de=
+coration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }</style><!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]--><style type=3D"text/css">@media only screen and (min-wi=
+dth:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+=2Emj-column-per-33 { width:33% !important; max-width: 33%; }
+=2Emj-column-per-60 { width:60% !important; max-width: 60%; }
+=2Emj-column-per-15 { width:15% !important; max-width: 15%; }
+=2Emj-column-per-85 { width:85% !important; max-width: 85%; }
+      }</style><style type=3D"text/css">@media only screen and (max-width:4=
+80px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style><style type=3D"text/css">.body-subtitle div {
+        font-size:17px !important;
+        }
+
+        .body-title div{
+        font-size:25px !important;
+        }
+
+        .header-title div{
+        font-size:25px !important;
+        }
+
+        .body-normal div {
+        font-size:17px !important;
+        }
+
+        .body-bullets div {
+        font-size:25px !important;
+        }
+
+        .body-blog div {
+        font-size:20px !important;
+        }
+
+        .body-footer div {
+        font-size:18px !important;
+        }
+
+        .body-footer-legal div {
+        font-size:24px !important;
+        }
+
+        .button-white a {
+        font-size:17px !important;
+        }
+
+        .link-none {
+        text-decoration: none;
+        color:FFFFFF;
+        }
+
+  @media only screen and (max-width: 480px){
+
+        .body-subtitle div {
+        font-size:11px !important;
+        }
+
+        .body-title div{
+        font-size:15px !important;
+        }
+
+        .header-title div{
+        font-size:15px !important;
+        }
+
+        .body-normal div {
+        font-size:14px !important;
+        }
+
+        .body-bullets div {
+        font-size:16px !important;
+        }
+
+        .body-blog div {
+        font-size:12px !important;
+        }
+
+        .body-footer div {
+        font-size:15px !important;
+        }
+
+        .body-footer-legal div {
+        font-size:18px !important;
+        }
+
+        .button-white a {
+        font-size:15px !important;
+        }
+
+  }</style><!-- =F0=9F=9B=91PREVIEW TEXT --></head><body style=3D"backgroun=
+d-color:#E5E5E5;"><div style=3D"display:none;font-size:1px;color:#ffffff;li=
+ne-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Um n=
+ovo jeito de receber pagamentos no cr=C3=A9dito imediatamente de clientes N=
+ubank. &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;</div><div style=3D"background-color:#E5E5E5;"><!--[if mso | IE]><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"backgrou=
+nd:#F4F4F4;background-color:#F4F4F4;margin:0px auto;max-width:600px;"><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"background:#F4F4F4;background-color:#F4F4F4;width:1=
+00%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0px;text-=
+align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0"><![endif]--><!-- ONLY CHANGE THE IMAGE =
+BELOW! =F0=9F=91=87 use the masterbrand folders to guarantee sizing --><!--=
+[if mso | IE]><tr><td align=3D"left" class=3D"image-outlook" width=3D"600px=
+" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"image-outlook" style=3D"width:600px;" width=3D"600" ><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect s=
+tyle=3D"width:600px;" xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"tru=
+e" stroke=3D"false"><v:fill origin=3D"0.5, 0" position=3D"0.5, 0" src=3D"ht=
+tps://cdn.nubank.com.br/masterbrand/photos/pj/new-pj-photo-shoot/new-pj-pho=
+to-shoot-4.jpeg" type=3D"tile" /><v:textbox style=3D"mso-fit-shape-to-text:=
+true" inset=3D"0,0,0,0"><![endif]--><div class=3D"image" style=3D"backgroun=
+d:url(https://cdn.nubank.com.br/masterbrand/photos/pj/new-pj-photo-shoot/ne=
+w-pj-photo-shoot-4.jpeg) top center / 100% no-repeat;margin:0px auto;max-wi=
+dth:600px;"><div style=3D"line-height:0;font-size:0;"><table align=3D"cente=
+r" background=3D"https://cdn.nubank.com.br/masterbrand/photos/pj/new-pj-pho=
+to-shoot/new-pj-photo-shoot-4.jpeg" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"background:url(https://cdn.nubank.=
+com.br/masterbrand/photos/pj/new-pj-photo-shoot/new-pj-photo-shoot-4.jpeg) =
+top center / 100% no-repeat;width:100%;"><tbody><tr><td style=3D"direction:=
+ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table ro=
+le=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><t=
+d align=3D"left" class=3D"" style=3D"vertical-align:top;width:600px;" ><![e=
+ndif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:=
+top;padding-right:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"c=
+enter" style=3D"font-size:0px;padding:0%;word-break:break-word;"><table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"border-collapse:collapse;border-spacing:0px;" class=3D"mj-full-width-mo=
+bile"><tbody><tr><td style=3D"width:590px;" class=3D"mj-full-width-mobile">=
+<img height=3D"auto" src=3D"https://cdn.nubank.com.br/engagement_machine/ph=
+otos/Header_transparente_600x420.png" style=3D"border:0;display:block;outli=
+ne:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width=
+=3D"590"></td></tr></tbody></table></td></tr></table></td></tr></tbody></ta=
+ble></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody=
+></table></div></div><!--[if mso | IE]></v:textbox></v:rect></td></tr></tab=
+le></td></tr><![endif]--><!-- =F0=9F=9B=91HEADER TITLE --><!--[if mso | IE]=
+><tr><td align=3D"left" class=3D"" width=3D"600px" ><table align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width=
+:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-=
+line-height-rule:exactly;"><![endif]--><div style=3D"background:#E4E4E4;bac=
+kground-color:#E4E4E4;margin:0px auto;max-width:600px;"><table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ style=3D"background:#E4E4E4;background-color:#E4E4E4;width:100%;"><tbody><=
+tr><td style=3D"direction:ltr;font-size:0px;padding:0;text-align:center;"><=
+!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"width:600px;=
+" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size:0;line-height:0;text-align:left;display:inline-block;width:10=
+0%;direction:ltr;"><!--[if mso | IE]><table role=3D"presentation" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"align:left;vertica=
+l-align:middle;width:198px;" ><![endif]--><div class=3D"mj-column-per-33 mj=
+-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;di=
+splay:inline-block;vertical-align:middle;width:33%;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbo=
+dy><tr><td style=3D"background-color:#E4E4E4;vertical-align:middle;padding:=
+0;padding-right:5%;padding-left:0%;"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"lef=
+t" style=3D"font-size:0px;padding:0;word-break:break-word;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-collapse:collapse;border-spacing:0px;"><tbody><tr><td style=3D"width:=
+180px;"><img height=3D"auto" src=3D"https://cdn.nubank.com.br/masterbrand/u=
+nique-files/pj-header-logo.png" style=3D"border:0;display:block;outline:non=
+e;text-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"180=
+"></td></tr></tbody></table></td></tr></table></td></tr></tbody></table></d=
+iv><!--[if mso | IE]></td><td style=3D"align:left;vertical-align:middle;wid=
+th:360px;" ><![endif]--><div class=3D"mj-column-per-60 mj-outlook-group-fix=
+" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block=
+;vertical-align:middle;width:60%;"><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=
+=3D"background-color:#E4E4E4;vertical-align:middle;padding-top:0%;padding-r=
+ight:5%;padding-bottom:0%;padding-left:3%;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><!-- ONLY CHA=
+NGE THE TEXT HERE =F0=9F=91=87, DON'T CHANGE FORMATTING!!!! --><tr><td alig=
+n=3D"left" class=3D"header-title" style=3D"font-size:0px;padding:0;padding-=
+top:2%;padding-bottom:2%;word-break:break-word;"><div style=3D"font-family:=
+Helvetica;font-size:13px;font-style:normal;font-weight:bold;line-height:110=
+%;text-align:left;color:#000000;">Venda mais com o NuPay, o jeito Nu de rec=
+eber</div></td></tr></table></td></tr></tbody></table></div><!--[if mso | I=
+E]></td></tr></table><![endif]--></div><!--[if mso | IE]></td></tr></table>=
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></t=
+able></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if =
+mso | IE]></td></tr></table><![endif]--><!-- =F0=9F=9B=91BODY TITLE - NOW Y=
+OU CAN HAVE 2 LEVELS OF INTRO (HEADER + BODY) --><!--[if mso | IE]><table a=
+lign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D""=
+ style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;fon=
+t-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"backgro=
+und:#F4F4F4;background-color:#F4F4F4;margin:0px auto;max-width:600px;"><tab=
+le align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"background:#F4F4F4;background-color:#F4F4F4;widt=
+h:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0px;te=
+xt-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" wi=
+dth=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=
+=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-=
+-><div style=3D"background:#F4F4F4;background-color:#F4F4F4;margin:0px auto=
+;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"background:#F4F4F4;backgrou=
+nd-color:#F4F4F4;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-si=
+ze:0px;padding:20px 0;padding-bottom:0px;padding-top:10%;text-align:center;=
+"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"body-title-outlook=
+" style=3D"vertical-align:top;width:600px;" ><![endif]--><div class=3D"mj-c=
+olumn-per-100 mj-outlook-group-fix body-title" style=3D"font-size:0px;text-=
+align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%=
+;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top;padding-rig=
+ht:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%"><!-- ONLY CHANGE THE TEXT HERE =
+=F0=9F=91=87, DON'T CHANGE FORMATTING!!!! --><tr><td align=3D"left" class=
+=3D"body-title" style=3D"font-size:0px;padding:10px 25px;padding-top:2%;pad=
+ding-bottom:2%;word-break:break-word;"><div style=3D"font-family:Helvetica;=
+font-size:13px;font-style:normal;font-weight:bold;letter-spacing:-0.5px;lin=
+e-height:115%;text-align:left;color:#111111;">Ol=C3=A1, Solive Energia Sola=
+r!</div></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]=
+></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso =
+| IE]></td></tr></table></td></tr><![endif]--> <!-- =F0=9F=9B=91BODY NORMAL=
+ - YOU CAN COPY AND PASTE THIS SECTION FOR REGULAR TEXT --><!-- THIS STANDA=
+RD CONSIDERS OFF-WHITE BACKGROUND "#F4F4F4" AND BLACK TEXT "#111111" --><!-=
+-[if mso | IE]><tr><td align=3D"left" class=3D"" width=3D"600px" ><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"backgrou=
+nd:#F4F4F4;background-color:#F4F4F4;margin:0px auto;max-width:600px;"><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"background:#F4F4F4;background-color:#F4F4F4;width:1=
+00%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0;pa=
+dding-bottom:0px;text-align:center;"><!--[if mso | IE]><table role=3D"prese=
+ntation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"=
+left" class=3D"body-normal-outlook" style=3D"vertical-align:top;width:600px=
+;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix body-n=
+ormal" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-=
+block;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td styl=
+e=3D"vertical-align:top;padding-right:5%;padding-left:5%;"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%=
+"><tr><td align=3D"left" class=3D"body-normal" style=3D"font-size:0px;paddi=
+ng:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div =
+style=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-weight=
+:normal;line-height:130%;text-align:left;color:#111111;">Temos novidades na=
+ sua Conta PJ: o NuPay! Agora <strong>voc=C3=AA pode cobrar clientes Nubank=
+ e receber imediatamente pagamentos no cr=C3=A9dito </strong>=C3=A0 vista o=
+u em at=C3=A9 12x pela menor taxa do mercado.</div></td></tr></table></td><=
+/tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><=
+/td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></t=
+r><![endif]--> <!-- =F0=9F=9B=91BODY BULLETS - THIS IS A SUBTITLE, WITH HIG=
+HLIGHT AND DIFFERENT COLLOR, FOR TEXT BREAKS OR CTAS --><!-- THIS STANDARD =
+CONSIDERS OFF-WHITE BACKGROUND "#F4F4F4" AND PURPLE TEXT "#2F0549" --><!--[=
+if mso | IE]><tr><td align=3D"left" class=3D"" width=3D"600px" ><table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"background=
+:#F4F4F4;background-color:#F4F4F4;margin:0px auto;max-width:600px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background:#F4F4F4;background-color:#F4F4F4;width:100=
+%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0;padd=
+ing-bottom:0px;text-align:center;"><!--[if mso | IE]><table role=3D"present=
+ation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"le=
+ft" class=3D"body-bullets-outlook" style=3D"vertical-align:top;width:600px;=
+" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix body-bu=
+llets" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-=
+block;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td styl=
+e=3D"vertical-align:top;padding-right:5%;padding-left:5%;"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%=
+"><tr><td align=3D"left" class=3D"body-bullets" style=3D"font-size:0px;padd=
+ing:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div=
+ style=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-weigh=
+t:normal;line-height:130%;text-align:left;color:#2F0549;"><!--ONLY CHANGE T=
+HE TEXT HERE =F0=9F=91=87, DON'T CHANGE FORMATTING!!!!--> <strong>Imediato,=
+ f=C3=A1cil e seguro</strong></div></td></tr></table></td></tr></tbody></ta=
+ble></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody=
+></table></div><!--[if mso | IE]></td></tr></table></td></tr><![endif]--><!=
+-- =F0=9F=9B=91ICON TEXT - USE THIS TO CREATE SHORT TEXT HIGHLIGHT WITH IMP=
+ORTANT ATTRIBUTES --><!--[if mso | IE]><tr><td align=3D"left" class=3D"" wi=
+dth=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=
+=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-=
+-><div style=3D"background:#F4F4F4;background-color:#F4F4F4;margin:0px auto=
+;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"background:#F4F4F4;backgrou=
+nd-color:#F4F4F4;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-si=
+ze:0px;padding:20px 0;padding-bottom:0px;padding-left:40px;padding-right:40=
+px;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D=
+"" style=3D"width:520px;" ><![endif]--><div class=3D"mj-column-per-100 mj-o=
+utlook-group-fix" style=3D"font-size:0;line-height:0;text-align:left;displa=
+y:inline-block;width:100%;direction:ltr;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td styl=
+e=3D"align:left;vertical-align:middle;width:78px;" ><![endif]--><div class=
+=3D"mj-column-per-15 mj-outlook-group-fix" style=3D"font-size:0px;text-alig=
+n:left;direction:ltr;display:inline-block;vertical-align:middle;width:15%;"=
+><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" width=3D"100%"><tbody><tr><td style=3D"vertical-align:middle;padding-ri=
+ght:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%"><!-- ONLY CHANGE THE ICON HERE =
+=F0=9F=91=87, DON'T CHANGE FORMATTING!!!! --><tr><td align=3D"center" style=
+=3D"font-size:0px;padding:0px;word-break:break-word;"><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-co=
+llapse:collapse;border-spacing:0px;" class=3D"mj-full-width-mobile"><tbody>=
+<tr><td style=3D"width:50px;" class=3D"mj-full-width-mobile"><img height=3D=
+"auto" src=3D"https://nu-emails.s3.amazonaws.com/nu-PJ/icons/icon-moneyin.p=
+ng" style=3D"border:0;display:block;outline:none;text-decoration:none;heigh=
+t:auto;width:100%;font-size:13px;" width=3D"50"></td></tr></tbody></table><=
+/td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td=
+ style=3D"align:left;vertical-align:middle;width:442px;" ><![endif]--><div =
+class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:=
+85%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:middle;paddi=
+ng-right:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"left" clas=
+s=3D"body-normal" style=3D"font-size:0px;padding:0px;padding-top:2%;padding=
+-bottom:2%;word-break:break-word;"><div style=3D"font-family:Helvetica;font=
+-size:13px;font-style:normal;font-weight:normal;line-height:130%;text-align=
+:left;color:#000000;"><!--ONLY CHANGE THE TEXT HERE =F0=9F=91=87, DON'T CHA=
+NGE FORMATTING!!!!--> Dinheiro na hora e com a menor taxa do mercado. E seu=
+ cliente pode pagar no cr=C3=A9dito ou com saldo da conta.</div></td></tr><=
+/table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table>=
+<![endif]--></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr=
+></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><![end=
+if]--><!-- =F0=9F=9B=91ICON TEXT - USE THIS TO CREATE SHORT TEXT HIGHLIGHT =
+WITH IMPORTANT ATTRIBUTES --><!--[if mso | IE]><tr><td align=3D"left" class=
+=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><=
+td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]--><div style=3D"background:#F4F4F4;background-color:#F4F4F4;margin:=
+0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#F4F4F4;=
+background-color:#F4F4F4;width:100%;"><tbody><tr><td style=3D"direction:ltr=
+;font-size:0px;padding:20px 0;padding-bottom:0px;padding-left:40px;padding-=
+right:40px;text-align:center;"><!--[if mso | IE]><table role=3D"presentatio=
+n" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" =
+class=3D"" style=3D"width:520px;" ><![endif]--><div class=3D"mj-column-per-=
+100 mj-outlook-group-fix" style=3D"font-size:0;line-height:0;text-align:lef=
+t;display:inline-block;width:100%;direction:ltr;"><!--[if mso | IE]><table =
+role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr>=
+<td style=3D"align:left;vertical-align:middle;width:78px;" ><![endif]--><di=
+v class=3D"mj-column-per-15 mj-outlook-group-fix" style=3D"font-size:0px;te=
+xt-align:left;direction:ltr;display:inline-block;vertical-align:middle;widt=
+h:15%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:middle;pad=
+ding-right:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" width=3D"100%"><!-- ONLY CHANGE THE ICON=
+ HERE =F0=9F=91=87, DON'T CHANGE FORMATTING!!!! --><tr><td align=3D"center"=
+ style=3D"font-size:0px;padding:0px;word-break:break-word;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-collapse:collapse;border-spacing:0px;" class=3D"mj-full-width-mobile"=
+><tbody><tr><td style=3D"width:50px;" class=3D"mj-full-width-mobile"><img h=
+eight=3D"auto" src=3D"https://nu-emails.s3.amazonaws.com/nu-PJ/icons/icon-h=
+appy.png" style=3D"border:0;display:block;outline:none;text-decoration:none=
+;height:auto;width:100%;font-size:13px;" width=3D"50"></td></tr></tbody></t=
+able></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></=
+td><td style=3D"align:left;vertical-align:middle;width:442px;" ><![endif]--=
+><div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font-size:0p=
+x;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;=
+width:85%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:middle=
+;padding-right:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"left=
+" class=3D"body-normal" style=3D"font-size:0px;padding:0px;padding-top:2%;p=
+adding-bottom:2%;word-break:break-word;"><div style=3D"font-family:Helvetic=
+a;font-size:13px;font-style:normal;font-weight:normal;line-height:130%;text=
+-align:left;color:#000000;"><!--ONLY CHANGE THE TEXT HERE =F0=9F=91=87, DON=
+'T CHANGE FORMATTING!!!!--> F=C3=A1cil de cobrar e pagar, no presencial ou =
+online: sem dados de cart=C3=A3o nem maquininha, tudo pelo app do Nubank.</=
+div></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></t=
+d></tr></table><![endif]--></div><!--[if mso | IE]></td></tr></table><![end=
+if]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><=
+/td></tr><![endif]--><!-- =F0=9F=9B=91ICON TEXT - USE THIS TO CREATE SHORT =
+TEXT HIGHLIGHT WITH IMPORTANT ATTRIBUTES --><!--[if mso | IE]><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]--><div style=3D"background:#F4F4F4;background-color:=
+#F4F4F4;margin:0px auto;max-width:600px;"><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"back=
+ground:#F4F4F4;background-color:#F4F4F4;width:100%;"><tbody><tr><td style=
+=3D"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-l=
+eft:40px;padding-right:40px;text-align:center;"><!--[if mso | IE]><table ro=
+le=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><t=
+d align=3D"left" class=3D"" style=3D"width:520px;" ><![endif]--><div class=
+=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0;line-heigh=
+t:0;text-align:left;display:inline-block;width:100%;direction:ltr;"><!--[if=
+ mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0"><tr><td style=3D"align:left;vertical-align:middle;width:78px;=
+" ><![endif]--><div class=3D"mj-column-per-15 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:middle;width:15%;"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"verti=
+cal-align:middle;padding-right:5%;padding-left:5%;"><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><!-- =
+ONLY CHANGE THE ICON HERE =F0=9F=91=87, DON'T CHANGE FORMATTING!!!! --><tr>=
+<td align=3D"center" style=3D"font-size:0px;padding:0px;word-break:break-wo=
+rd;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"border-collapse:collapse;border-spacing:0px;" class=3D"mj-=
+full-width-mobile"><tbody><tr><td style=3D"width:50px;" class=3D"mj-full-wi=
+dth-mobile"><img height=3D"auto" src=3D"https://cdn.nubank.com.br/masterbra=
+nd/icons/pj/nu_logo.png" style=3D"border:0;display:block;outline:none;text-=
+decoration:none;height:auto;width:100%;font-size:13px;" width=3D"50"></td><=
+/tr></tbody></table></td></tr></table></td></tr></tbody></table></div><!--[=
+if mso | IE]></td><td style=3D"align:left;vertical-align:middle;width:442px=
+;" ><![endif]--><div class=3D"mj-column-per-85 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:middle;width:85%;"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"verti=
+cal-align:middle;padding-right:5%;padding-left:5%;"><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><=
+td align=3D"left" class=3D"body-normal" style=3D"font-size:0px;padding:0px;=
+padding-top:2%;padding-bottom:2%;word-break:break-word;"><div style=3D"font=
+-family:Helvetica;font-size:13px;font-style:normal;font-weight:normal;line-=
+height:130%;text-align:left;color:#000000;"><!--ONLY CHANGE THE TEXT HERE =
+=F0=9F=91=87, DON'T CHANGE FORMATTING!!!!--> Seu cliente finaliza o pagamen=
+to no pr=C3=B3prio app do Nubank, em um aparelho autenticado e com confirma=
+=C3=A7=C3=A3o de senha.</div></td></tr></table></td></tr></tbody></table></=
+div><!--[if mso | IE]></td></tr></table><![endif]--></div><!--[if mso | IE]=
+></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso =
+| IE]></td></tr></table></td></tr><![endif]--><!-- =F0=9F=9B=91BUTTON - NOW=
+ THIS FORMAT IS RESPONSIVE TO MOBILE SIZING, TRY IT OUT! --><!--[if mso | I=
+E]><tr><td align=3D"left" class=3D"" width=3D"600px" ><table align=3D"cente=
+r" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"wid=
+th:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;ms=
+o-line-height-rule:exactly;"><![endif]--><div style=3D"background:#F4F4F4;b=
+ackground-color:#F4F4F4;margin:0px auto;max-width:600px;"><table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"background:#F4F4F4;background-color:#F4F4F4;width:100%;"><tbody=
+><tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0;padding-bottom=
+:0px;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=
+=3D"body-normal-outlook" style=3D"vertical-align:top;width:600px;" ><![endi=
+f]--><div class=3D"mj-column-per-100 mj-outlook-group-fix body-normal" styl=
+e=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;verti=
+cal-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertic=
+al-align:top;padding-right:5%;padding-left:5%;"><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><!-- ONLY=
+ CHANGE YOUR CTA LINK HERE =F0=9F=91=87, DON'T CHANGE FORMATTING!!!! --><tr=
+><td align=3D"left" vertical-align=3D"middle" class=3D"button-white" style=
+=3D"font-size:0px;padding:10px 25px;word-break:break-word;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-collapse:separate;line-height:100%;"><tr><td align=3D"center" bgcolor=
+=3D"#4C0677" role=3D"presentation" style=3D"border:none;border-radius:64px;=
+cursor:auto;font-style:normal;mso-padding-alt:15px 30px 15px 30px;backgroun=
+d:#4C0677;" valign=3D"middle"><a href=3D"https://blog.nubank.com.br/nupay-c=
+onta-pj-do-nubank?utm_source=3Demail&utm_medium=3Dpj-ds&utm_campaign=3Dnupa=
+y-announcement" style=3D"display:inline-block;background:#4C0677;color:#FFF=
+FFF;font-family:Helvetica;font-size:13px;font-style:normal;font-weight:bold=
+;line-height:130%;margin:0;text-decoration:none;text-transform:none;padding=
+:15px 30px 15px 30px;mso-padding-alt:0px;border-radius:64px;" target=3D"_bl=
+ank"><mj-text css-class=3D"button-white"><!--ONLY CHANGE THE TEXT HERE =F0=
+=9F=91=87, DON'T CHANGE FORMATTING!!!!--> Saiba mais</mj-text><img src=3D"h=
+ttps://cdn.nubank.com.br/masterbrand/icons/pf/arrow_right.png" style=3D"wid=
+th:25px; vertical-align:middle; padding-left:10px"></a></td></tr></table></=
+td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr=
+></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td=
+></tr></table></td></tr><![endif]--> <!-- =F0=9F=9B=91BODY BULLETS - THIS I=
+S A SUBTITLE, WITH HIGHLIGHT AND DIFFERENT COLLOR, FOR TEXT BREAKS OR CTAS =
+--><!-- THIS STANDARD CONSIDERS OFF-WHITE BACKGROUND "#F4F4F4" AND PURPLE T=
+EXT "#2F0549" --><!--[if mso | IE]><tr><td align=3D"left" class=3D"" width=
+=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D=
+"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><=
+div style=3D"background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;ma=
+x-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"background:#FFFFFF;background-=
+color:#FFFFFF;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:20px 0;padding-bottom:0px;text-align:center;"><!--[if mso | IE]=
+><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0"><tr><td align=3D"left" class=3D"body-bullets-outlook" style=3D"vertical=
+-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-ou=
+tlook-group-fix body-bullets" style=3D"font-size:0px;text-align:left;direct=
+ion:ltr;display:inline-block;vertical-align:top;width:100%;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"1=
+00%"><tbody><tr><td style=3D"vertical-align:top;padding-right:5%;padding-le=
+ft:5%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" width=3D"100%"><tr><td align=3D"left" class=3D"body-bullets" sty=
+le=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word=
+-break:break-word;"><div style=3D"font-family:Helvetica;font-size:13px;font=
+-style:normal;font-weight:normal;line-height:130%;text-align:left;color:#2F=
+0549;"><!--ONLY CHANGE THE TEXT HERE =F0=9F=91=87, DON'T CHANGE FORMATTING!=
+!!!--> <strong>Cobre em 3 passos</strong></div></td></tr></table></td></tr>=
+</tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td>=
+</tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><!=
+[endif]--> <!-- =F0=9F=9B=91APP FLOW WITH COLOR BREAK - USE THIS TO SHOW YO=
+UR APP GIFS, WITH A HALF PURPLE BG --><!-- =E2=96=B6=EF=B8=8FIF YOU WANT A =
+REGULAR OFF-WHITE BG, JUST CHANGE THE "purple-offwhite" BELOW TO "offwhite"=
+ only --><!--[if mso | IE]><tr><td align=3D"left" class=3D"image-outlook" w=
+idth=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"image-outlook" style=3D"width:600px;" width=3D"600" =
+><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactl=
+y;"><![endif]--><div class=3D"image" style=3D"background:#FFFFFF;background=
+-color:#FFFFFF;margin:0px auto;max-width:600px;"><table align=3D"center" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"background:#FFFFFF;background-color:#FFFFFF;width:100%;"><tbody><tr><td=
+ style=3D"direction:ltr;font-size:0px;padding:0px;text-align:center;"><!--[=
+if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"vertical-align:t=
+op;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-gr=
+oup-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inlin=
+e-block;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td st=
+yle=3D"vertical-align:top;padding:0px;padding-right:5%;padding-left:5%;"><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ width=3D"100%"><!-- CHANGE THE GIF SOURCE HERE =F0=9F=91=87, SUGGESTED FOR=
+MATTING IS width=3D"250px" --><tr><td align=3D"center" style=3D"font-size:0=
+px;padding:10px 25px;padding-top:0px;padding-right:50px;padding-bottom:0px;=
+padding-left:50px;word-break:break-word;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:col=
+lapse;border-spacing:0px;"><tbody><tr><td style=3D"width:250px;"><img heigh=
+t=3D"auto" src=3D"http://cdn.nubank.com.br/pj/nupay-pj.gif" style=3D"border=
+:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;f=
+ont-size:13px;" width=3D"250"></td></tr></tbody></table></td></tr></table><=
+/td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif=
+]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></t=
+d></tr><![endif]--><!-- =F0=9F=9B=91ICON TEXT - USE THIS TO CREATE SHORT TE=
+XT HIGHLIGHT WITH IMPORTANT ATTRIBUTES --><!--[if mso | IE]><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]--><div style=3D"background:#2F0549;background-color:=
+#2F0549;margin:0px auto;max-width:600px;"><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"back=
+ground:#2F0549;background-color:#2F0549;width:100%;"><tbody><tr><td style=
+=3D"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:36px;padding-=
+left:24px;padding-right:24px;text-align:center;"><!--[if mso | IE]><table r=
+ole=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td align=3D"left" class=3D"" style=3D"width:552px;" ><![endif]--><div class=
+=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0;line-heigh=
+t:0;text-align:left;display:inline-block;width:100%;direction:ltr;"><!--[if=
+ mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0"><tr><td style=3D"align:left;vertical-align:middle;width:552px=
+;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:middle;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vert=
+ical-align:middle;padding-right:5%;padding-left:5%;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr>=
+<td align=3D"left" class=3D"body-normal" style=3D"font-size:0px;padding:10p=
+x 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div style=
+=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-weight:norm=
+al;line-height:130%;text-align:left;color:#FFFFFF;"><ol style=3D"display:bl=
+ock; padding-left:15px;"><li style=3D"padding-left:3%">Digite o valor da co=
+bran=C3=A7a;<br><br></li><li style=3D"padding-left:3%">Escolha o n=C3=BAmer=
+o m=C3=A1ximo de parcelas que deseja oferecer;<br><br></li><li style=3D"pad=
+ding-left:3%">Insira o CPF do seu cliente e pronto!</li></ol></div></td></t=
+r><tr><td align=3D"left" class=3D"body-normal" style=3D"font-size:0px;paddi=
+ng:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div =
+style=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-weight=
+:normal;line-height:130%;text-align:left;color:#FFFFFF;">Seu cliente recebe=
+ uma notifica=C3=A7=C3=A3o automaticamente, finaliza a cobran=C3=A7a no app=
+ do Nubank e voc=C3=AA recebe o dinheiro na hora na sua conta. Voc=C3=AA ta=
+mb=C3=A9m pode enviar o link de pagamento por onde preferir.</div></td></tr=
+></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></tabl=
+e><![endif]--></div><!--[if mso | IE]></td></tr></table><![endif]--></td></=
+tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><![e=
+ndif]--><!-- =F0=9F=9B=91FOOTER --><!--[if mso | IE]></table><![endif]--></=
+td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"backgrou=
+nd:#181818;background-color:#181818;margin:0px auto;max-width:600px;"><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"background:#181818;background-color:#181818;width:1=
+00%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0px;text-=
+align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" width=
+=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D=
+"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><=
+div style=3D"margin:0px auto;max-width:600px;"><table align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:2=
+0px 0;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=
+=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]--><div class=3D"=
+mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:l=
+eft;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" w=
+idth=3D"100%"><tbody><tr><td style=3D"vertical-align:top;padding-right:5%;p=
+adding-left:5%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" width=3D"100%"><tr><td align=3D"left" class=3D"body-foo=
+ter-legal" style=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-=
+bottom:2%;word-break:break-word;"><div style=3D"font-family:Helvetica;font-=
+size:13px;font-style:normal;font-weight:bold;line-height:130%;text-align:le=
+ft;color:#FFFFFF;"><b>Abra=C3=A7os,<br>Equipe Nubank<br><br></b></div></td>=
+</tr><tr><td align=3D"left" class=3D"body-footer" style=3D"font-size:0px;pa=
+dding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><d=
+iv style=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-wei=
+ght:normal;line-height:130%;text-align:left;color:#FFFFFF;">Por favor, pedi=
+mos que voc=C3=AA n=C3=A3o responda esse e-mail, pois se trata de uma mensa=
+gem autom=C3=A1tica e n=C3=A3o =C3=A9 poss=C3=ADvel dar continuidade com se=
+u atendimento por aqui.</div></td></tr></table></td></tr></tbody></table></=
+div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></tab=
+le></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td align=3D"lef=
+t" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600=
+" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font=
+-size:0px;padding:20px 0;text-align:center;"><!--[if mso | IE]><table role=
+=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td =
+align=3D"left" class=3D"" style=3D"vertical-align:top;width:600px;" ><![end=
+if]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:t=
+op;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:to=
+p;padding-right:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"lef=
+t" style=3D"font-size:0px;padding:10px 25px;word-break:break-word;"><!--[if=
+ mso | IE]><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" ><tr><td><![endif]--><table align=3D"left" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"float:none;display:inline-table;"><tr><td style=3D"padding:4px;"><table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"background:#181818;border-radius:3px;width:50px;"><tr><td style=3D"fo=
+nt-size:0;height:50px;vertical-align:middle;width:50px;"><a href=3D"http://=
+www.facebook.com/nubank" target=3D"_blank"><img height=3D"50" src=3D"https:=
+//cdn.nubank.com.br/delivery-templates/icons/ico-social-facebook.png" style=
+=3D"border-radius:3px;display:block;" width=3D"50"></a></td></tr></table></=
+td></tr></table><!--[if mso | IE]></td><td><![endif]--><table align=3D"left=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" st=
+yle=3D"float:none;display:inline-table;"><tr><td style=3D"padding:4px;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"background:#181818;border-radius:3px;width:50px;"><tr><td style=3D=
+"font-size:0;height:50px;vertical-align:middle;width:50px;"><a href=3D"http=
+s://twitter.com/nubank" target=3D"_blank"><img height=3D"50" src=3D"https:/=
+/cdn.nubank.com.br/delivery-templates/icons/ico-social-twitter.png" style=
+=3D"border-radius:3px;display:block;" width=3D"50"></a></td></tr></table></=
+td></tr></table><!--[if mso | IE]></td><td><![endif]--><table align=3D"left=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" st=
+yle=3D"float:none;display:inline-table;"><tr><td style=3D"padding:4px;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"background:#181818;border-radius:3px;width:50px;"><tr><td style=3D=
+"font-size:0;height:50px;vertical-align:middle;width:50px;"><a href=3D"http=
+://www.instagram.com/nubank" target=3D"_blank"><img height=3D"50" src=3D"ht=
+tps://cdn.nubank.com.br/delivery-templates/icons/ico-social-instagram.png" =
+style=3D"border-radius:3px;display:block;" width=3D"50"></a></td></tr></tab=
+le></td></tr></table><!--[if mso | IE]></td><td><![endif]--><table align=3D=
+"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"float:none;display:inline-table;"><tr><td style=3D"padding:4px;=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"background:#181818;border-radius:3px;width:50px;"><tr><td sty=
+le=3D"font-size:0;height:50px;vertical-align:middle;width:50px;"><a href=3D=
+"https://www.youtube.com/channel/UCgsDX3hTwiPdtGHJjMFfDxg" target=3D"_blank=
+"><img height=3D"50" src=3D"https://cdn.nubank.com.br/delivery-templates/ic=
+ons/ico-social-youtube.png" style=3D"border-radius:3px;display:block;" widt=
+h=3D"50"></a></td></tr></table></td></tr></table><!--[if mso | IE]></td></t=
+r></table><![endif]--></td></tr></table></td></tr></tbody></table></div><!-=
+-[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></di=
+v><!--[if mso | IE]></td></tr></table></td></tr><tr><td align=3D"left" clas=
+s=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr>=
+<td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><=
+![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0=
+px;padding:20px 0;text-align:center;"><!--[if mso | IE]><table role=3D"pres=
+entation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D=
+"left" class=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]--><d=
+iv class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;=
+text-align:left;direction:ltr;display:inline-block;vertical-align:top;width=
+:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top;paddin=
+g-right:5%;padding-left:5%;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"left" class=
+=3D"body-normal" style=3D"font-size:0px;padding:10px 25px;padding-top:2%;pa=
+dding-bottom:2%;word-break:break-word;"><div style=3D"font-family:Helvetica=
+;font-size:13px;font-style:normal;font-weight:normal;line-height:130%;text-=
+align:left;color:#FFFFFF;">Caso ainda tenha d=C3=BAvidas, acesse <strong><a=
+ style=3D"color: white" href=3D"https://nuapp.nubank.com.br/bnVhcHA6Ly9udWh=
+lbHA/dXRtX3NvdXJjZT1lbWFpbA=3D=3D">Me ajuda</a> </strong>diretamente no seu=
+ aplicativo.<br><br>Para emerg=C3=AAncias ligue para 0800 591 2117. Atendim=
+entos s=C3=A3o realizados 24 horas, todos os dias pelo chat ou telefone.</d=
+iv></td></tr><tr><td align=3D"left" class=3D"unsubscription-link-class" sty=
+le=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word=
+-break:break-word;"><div style=3D"font-family:Helvetica;font-size:13px;font=
+-style:normal;font-weight:normal;line-height:130%;text-align:left;color:#FF=
+FFFF;">N=C3=A3o deseja receber mais nossos nossos emails? <a href=3D"https:=
+//webapp-proxy-webhooks.nubank.com.br/api/webhooks/email-unsubscribe/ABMTdw=
+12R8ZF-9NGphkVbD47ztIMZknFtT8cMA0waUeE4ITgiMu3L8XAKYQ9N20L1jksy_xUKUbQoi82r=
+sO0OAHUf3zzWj_imqErJJEQjiM0clc0YAx-e_NhPcWC11SaHTG7G7nQCWvGkaRvGioYx1cp9rtr=
+78O_kPEUyfHd5pmSJrMDqwVftm_cReaIkPXV24f3wYt5H0-5l7513YvyfBZ9sW95Vy2VDXH2_Ro=
+jDQ4N20jcytLi6GILsPw-FFrVQ97chRx0RYRJ8YHmdzajhPfChRAXna_dCw.ADBfDS6FPUSfFDM=
+Yq1s9CnGOlpA3vnxBC3fcbREtTrd0R_kt0RmCQiNiKPqj3ASHvxv6HIjAwu0WtdXvERt3GRiog-=
+0caHcwEexeIfVRD4b26uFKLdBk4uUK7z79UsK4PC6i5M38p6_XC3tX3r_G7gEJsXDVswXcrow75=
+eS3OVx2iPCAxQ" style=3D"color: FFFFFF;text-decoration: none">Clique aqui pa=
+ra se descadastrar. </a>.<br><br></div></td></tr><tr><td align=3D"left" cla=
+ss=3D"body-normal" style=3D"font-size:0px;padding:10px 25px;padding-top:2%;=
+padding-bottom:2%;word-break:break-word;"><div style=3D"font-family:Helveti=
+ca;font-size:13px;font-style:normal;font-weight:normal;line-height:130%;tex=
+t-align:left;color:#FFFFFF;">Nu Pagamentos S.A - Institui=C3=A7=C3=A3o de P=
+agamento 18.236.120/0001-58<br>Rua Capote Valente, 39 - 05409-000- S=C3=A3o=
+ Paulo - SP</div></td></tr></table></td></tr></tbody></table></div><!--[if =
+mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!-=
+-[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></=
+tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></div><=
+img width=3D"1px" height=3D"1px" alt=3D"" src=3D"http://email.nubank.sounu.=
+com.br/o/eJw1j0tuwzAMBU9T72joS8kLb3sPUqZap7YsOHLQ3L5KgezIATkPT2aNAZXFaMywzC=
+FGZXhYZ6OMVUYrbR16NapFESZjF-9TyOw_nCoXU_kZ78dVrjEd-8jn8D37SRJazKxyyApD1MRJp=
+ZydmyhHM5QLmux1oyZQaJe5v1Yqzw_zWa5KT6i3PspO6_ZG9QZUSs8B09FDvxz1PNrRnlXmuw4v=
+IL9NzkIbrMtMjpT4iYEZE9gcGWLiCM6wJC8BndXD2ZNLo3b0LvdjWx8iRc6vlfpC57tRN_-fpfY=
+SowlWOCHkgB4cmwki6wSYJpsxL3aJ-AdeKWpR"></body></html>

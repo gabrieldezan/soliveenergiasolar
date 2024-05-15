@@ -1,0 +1,180 @@
+Return-Path: <>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id MHhwMRhQ52EEZgAAJcoV8Q
+	(envelope-from <>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 18 Jan 2022 23:41:12 +0000
+Return-path: <>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 18 Jan 2022 23:41:12 +0000
+Received: from anteater.oak.relay.mailchannels.net ([23.83.215.3]:56460)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1n9y6C-0006lp-71
+	for contato@soliveenergiasolar.com.br; Tue, 18 Jan 2022 23:41:12 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id 6CF72621A00; Tue, 18 Jan 2022 23:41:10 +0000 (UTC)
+Date: Tue, 18 Jan 2022 23:41:10 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: contato@soliveenergiasolar.com.br
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="AC4446214C7.1642549270/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20220118234110.6CF72621A00@relay.mailchannels.net>
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mailchannels.net]
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--AC4446214C7.1642549270/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<contato@swordspeeches.com.br>: host mail1.swordspeeches.com.br[63.143.35.246]
+    refused to talk to me: 421 Downstream server error
+
+--AC4446214C7.1642549270/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: AC4446214C7
+X-Postfix-Sender: rfc822; contato@soliveenergiasolar.com.br
+Arrival-Date: Tue, 18 Jan 2022 16:44:12 +0000 (UTC)
+
+Final-Recipient: rfc822; contato@swordspeeches.com.br
+Original-Recipient: rfc822;contato@swordspeeches.com.br
+Action: failed
+Status: 4.0.0
+Remote-MTA: dns; mail1.swordspeeches.com.br
+Diagnostic-Code: smtp; 421 Downstream server error
+
+--AC4446214C7.1642549270/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <contato@soliveenergiasolar.com.br>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id AC4446214C7
+	for <contato@swordspeeches.com.br>; Tue, 18 Jan 2022 16:44:12 +0000 (UTC)
+Received: from cpl19.main-hosting.eu (unknown [127.0.0.6])
+	(Authenticated sender: hostingercpanel)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 0B154620C49
+	for <contato@swordspeeches.com.br>; Tue, 18 Jan 2022 16:44:03 +0000 (UTC)
+X-Sender-Id: hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu (cpl19.main-hosting.eu
+ [109.106.251.201])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.106.113.21 (trex/6.4.3);
+	Tue, 18 Jan 2022 16:44:12 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId:
+ hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MailChannels-Auth-Id: hostingercpanel
+X-Eyes-Irritate: 7f67d7cd2f58af5a_1642524252264_556087921
+X-MC-Loop-Signature: 1642524252264:3963643908
+X-MC-Ingress-Time: 1642524252263
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=soliveenergiasolar.com.br; s=default; h=Content-Type:In-Reply-To:References
+	:Message-ID:Subject:To:From:Date:MIME-Version:Sender:Reply-To:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=XZX4CE7vG1wu/ieIT48HTGBwCdGD1Ds96XpCF928q7I=; b=HGRTh6wdmcmn0mVb2TjKdvBhMr
+	adFy2W5CMOfccDUxWwm4cOtzSV3ODJAX9DBq3+Uu3Kk7xi6IN+KcL4w1xMJnqqxKQRoipQJku4XB/
+	Z7Je+Y5DRkDky79pJem0TMSZvYYgfsEYJpEsfIPtITch+DH9BYIFim0xb4rv98ctiiDHL2IdRras+
+	4ELaF2Ocy6HzlbA2mPetlHAsWU+T7K5NAf4My+3paX3B954ZGpRx6hCfl6BJGRtPSOXOMBHZI3EC7
+	/k06iNgGAAzCCR+ExABYiPgKTdk75H6raipNVeVDAwyuVRGdBYg49nW0X/yOUnNn5oVposNNucoXT
+	4JSZ3sXg==;
+Received: from localhost ([127.0.0.1]:62160 helo=cpl19.main-hosting.eu)
+	by cpl19.main-hosting.eu with esmtpa (Exim 4.94.2)
+	(envelope-from <contato@soliveenergiasolar.com.br>)
+	id 1n9raT-0002Op-JU
+	for contato@swordspeeches.com.br; Tue, 18 Jan 2022 16:44:02 +0000
+MIME-Version: 1.0
+Date: Tue, 18 Jan 2022 16:44:01 +0000
+From: contato@soliveenergiasolar.com.br
+To: contato@swordspeeches.com.br
+Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Leitura_=28exibida=29=3A_9o?=
+ =?UTF-8?Q?=2E_Congresso_Brasileiro_de_Lideran=C3=A7a_e_Gestao_De_Pessoas_?=
+ =?UTF-8?Q?-_contato=40soliveenergiasolar=2Ecom=2Ebr?=
+Message-ID: <ef7c6b27a868768472b5c3f9c9d8df03@soliveenergiasolar.com.br>
+X-Sender: contato@soliveenergiasolar.com.br
+References: <66b5448ffb98da10be7ec6f6001ae456@swordspeeches.com.br>
+In-Reply-To: <66b5448ffb98da10be7ec6f6001ae456@swordspeeches.com.br>
+User-Agent: Roundcube Webmail/1.4.12
+Content-Type: multipart/report;
+ report-type=disposition-notification;
+ boundary="=_00713e8600aed6ef291ed283195eea83"
+X-AuthUser: contato@soliveenergiasolar.com.br
+
+--=_00713e8600aed6ef291ed283195eea83
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Esta =C3=A9 uma confirma=C3=A7=C3=A3o de leitura da sua mensagem
+
+	Para: <contato@soliveenergiasolar.com.br>
+	Assunto: 9o. Congresso Brasileiro de Lideran=C3=A7a e Gestao De Pessoas -
+contato@soliveenergiasolar.com.br
+	Data: 2022-01-18 01:16
+
+Nota: Esta confirma=C3=A7=C3=A3o de leitura somente informa que a mensagem =
+foi aberta
+no computador do destinat=C3=A1rio. N=C3=A3o h=C3=A1 garantia que o destina=
+t=C3=A1rio tenha
+lido ou compreendido o conte=C3=BAdo da mensagem.
+--=_00713e8600aed6ef291ed283195eea83
+Content-Transfer-Encoding: 7bit
+Content-Type: message/disposition-notification;
+ name=MDNPart2.txt
+Content-Disposition: inline;
+ filename=MDNPart2.txt;
+ size=292
+
+Final-Recipient: rfc822; contato@soliveenergiasolar.com.br
+Original-Message-ID: <66b5448ffb98da10be7ec6f6001ae456@swordspeeches.com.br>
+Disposition: manual-action/MDN-sent-manually; displayed
+Original-Recipient: <contato@soliveenergiasolar.com.br>
+Reporting-UA: Roundcube Webmail/1.4.12
+
+--=_00713e8600aed6ef291ed283195eea83--
+
+--AC4446214C7.1642549270/relay.mailchannels.net--

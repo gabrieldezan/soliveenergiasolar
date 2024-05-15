@@ -1,0 +1,174 @@
+Return-Path: <vihaan@delhitechie.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id eFVyM9nSHGZ9EQAAIElduQ
+	(envelope-from <vihaan@delhitechie.com>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 15 Apr 2024 07:10:17 +0000
+Return-path: <vihaan@delhitechie.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 15 Apr 2024 07:10:17 +0000
+Received: from mail-pl1-f194.google.com ([209.85.214.194]:48233)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <vihaan@delhitechie.com>)
+	id 1rwGTp-0001vv-11
+	for contato@soliveenergiasolar.com.br;
+	Mon, 15 Apr 2024 07:10:17 +0000
+Received: by mail-pl1-f194.google.com with SMTP id d9443c01a7336-1e3cf5b171eso23115255ad.0
+        for <contato@soliveenergiasolar.com.br>; Mon, 15 Apr 2024 00:10:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=delhitechie-com.20230601.gappssmtp.com; s=20230601; t=1713165015; x=1713769815; darn=soliveenergiasolar.com.br;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=goRyH22FFYoBYovfkamTP15HVOrv2iQGk3dxg5Ayxi8=;
+        b=wP+ijD/i3QG8FupqCWOyF680Y2/aDTOS5XU427xhrJJh3UaMnv5iarvgcmxrnS2i0t
+         k8lXPPZNMC+Kochic3c30OIcs5kWUtkmiGYV/DC5C/Y34vqwf8u2RG1TC+HgUhUjlPYm
+         q9n6oEHnQXP0M4biU9KG5ZxkELDa4ef3L7F5ss+5JsladPnvdfikbcIIZ8j1Le6clx/D
+         IutoUHr4m7sy5RjG9W7JBtGShTSiXsX7SNDYI6ovuN6AOEt28EUQyaU8kj3iZ0TcwbU+
+         QESIdrgNS7KqbiW539krLy1m//xd1I0V9grEpN2GS1J818D7qvVMTzg9tyJbInFRSeyW
+         qZPA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1713165015; x=1713769815;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=goRyH22FFYoBYovfkamTP15HVOrv2iQGk3dxg5Ayxi8=;
+        b=iy1JJXS90ncG3QFWzw5I/8pzU9PLPujRJRDVsq/GtUSjx5OuvyBsAju7tY/qHYWGCR
+         3WFVkJ5RBOKjR90NMnBBHGARk223juJMbFL+LKyhl0blVDiPpdaLDTB87eZHQB+3+iae
+         7aaFH738MBuFoFuw7WuxUX5gzOnVKh7jMwEfn6GfR8Xmtayc3GL1PRpiWITmVjyEdihq
+         xg3Y6JQ3SJ1FVwTP3ne96cFZTK1ZhP5Cjab5SRXBXzg3seGWyxrkSeRBQJKRK/Z5Uj8U
+         Wjmb+HnnS9NH6HbelWAIAAVIdSAQne64tA3Tfbo18LSRTbX0A3oVYu3CqdToc+V8Woxq
+         Kodw==
+X-Gm-Message-State: AOJu0Yx4fJ0YOR3LQ9Iu+wu9TrlKnT62MGHJ0wvDxUOQnqPwxn1/arb7
+	IxvBzfaHPFYNScorH9UGPTnPovXQz1F9pGvK4oWjYA4xXe7CMjCkaD3u7S12UKFLxDLA+MigbGU
+	7ntg=
+X-Google-Smtp-Source: AGHT+IENDIMdv16fL5rzZSVLW6M6AFLX3erbi2tY/vHYgR3ae+bX39ZM01e9tauWNJ9GTKBfZLUOqQ==
+X-Received: by 2002:a17:902:ce0e:b0:1e2:d4da:6c72 with SMTP id k14-20020a170902ce0e00b001e2d4da6c72mr13725423plg.0.1713165015120;
+        Mon, 15 Apr 2024 00:10:15 -0700 (PDT)
+Received: from DESKTOPVGTL7SH ([122.161.77.46])
+        by smtp.gmail.com with ESMTPSA id n2-20020a170902d2c200b001e3d38c9e70sm7123982plc.125.2024.04.15.00.10.13
+        for <contato@soliveenergiasolar.com.br>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Apr 2024 00:10:14 -0700 (PDT)
+From: "Vihaan" <vihaan@delhitechie.com>
+To: <contato@soliveenergiasolar.com.br>
+Subject: SEO/SMO Revolution Awaits
+Date: Mon, 15 Apr 2024 12:39:16 +0530
+Message-ID: <970f01da8f03$f6a986b0$e3fc9410$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_9710_01DA8F32.1061C2B0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdqO/Ggn+clFXXSVTzmcKyz0/IaDvg==
+Content-Language: en-us
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, We are purely SEO Company; we can place your website
+    on top of the Natural Listings on Google. We can fairly quickly promote your
+    website to the top of the search rankings. We would be happy to send you
+   a proposal using the top search phrases for your area of expertise. 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 FROM_FMBLA_NEWDOM14    From domain was registered in last 7-14 days
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_9710_01DA8F32.1061C2B0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+   Hello,
+
+We are purely SEO Company; we can place your website on top of the Natural
+Listings on Google.
+
+We can fairly quickly promote your website to the top of the search
+rankings. We would be happy to send you a proposal using the top search
+phrases for your area of expertise. 
+
+Please let me know if you have any SEO needs, and we could send you a
+proposal.
+
+Look forward to hearing from you. 
+
+Best Regards,
+
+Vihaan
+
+
+------=_NextPart_000_9710_01DA8F32.1061C2B0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'>&nbs=
+p;&nbsp; Hello,</p><p class=3DMsoNormal> </p><p class=3DMsoNormal>We are =
+purely SEO Company; we can place your website on top of the Natural =
+Listings on Google.</p><p class=3DMsoNormal>We can fairly quickly =
+promote your website to the top of the search rankings. We would be =
+happy to send you a proposal using the top search phrases for your area =
+of expertise. </p><p class=3DMsoNormal>Please let me know if you have =
+any SEO needs, and we could send you a proposal.</p><p =
+class=3DMsoNormal>Look forward to hearing from you. </p><p =
+class=3DMsoNormal>Best Regards,</p><p =
+class=3DMsoNormal><b>Vihaan<o:p></o:p></b></p></div></body></html>
+------=_NextPart_000_9710_01DA8F32.1061C2B0--
+

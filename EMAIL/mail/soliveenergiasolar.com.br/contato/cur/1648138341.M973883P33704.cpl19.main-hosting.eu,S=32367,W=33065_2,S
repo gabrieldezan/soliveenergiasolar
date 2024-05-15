@@ -1,0 +1,698 @@
+Return-Path: <renan.belarmino@aldo.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id n8+eOWWYPGKogwAAJcoV8Q
+	(envelope-from <renan.belarmino@aldo.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 24 Mar 2022 16:12:21 +0000
+Return-path: <renan.belarmino@aldo.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 24 Mar 2022 16:12:21 +0000
+Received: from mail-mw2nam10on2085.outbound.protection.outlook.com ([40.107.94.85]:62432 helo=NAM10-MW2-obe.outbound.protection.outlook.com)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <renan.belarmino@aldo.com.br>)
+	id 1nXQ4S-0008kn-No
+	for contato@soliveenergiasolar.com.br; Thu, 24 Mar 2022 16:12:21 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=SKoeDlmPq7ptV5/6o8lUFpaCB/IH/LlYJ4x+Mw8UXuvwFx9G8i5Tp+gsmqWFnHswW3ua4Myj3xwuyh0Lww9nSoWbbp4kSlBXwMracXBUR8dfhOIQ3jF7ii57MPNVu8lDl4TzAk8y9A8cL/n0WeaeVEovGX3Bs/BTxvriTTNpSu5JecM8hLXa/ZU/rm2WjUeSU20OA9ZJt2u0GB9lOVOxK2BH+B32oQDjsdbv8/AzT2MzYkLiE/OPaf8xweG+XqceTvJAIOQkBRZBDeNCdTIveJh0j9EFv1nSlRIi3beBX/ZYRrN12dgbRzElOypWeBfvH2xPQe6wdb4K1xwxnLiELA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=3E4Rlb68EJrnSaFRiHRNiW5GYKO7gy9O2aVeH0bt4iU=;
+ b=K4yslWpC2bH3HKV+Snbhs9f/pantuj4L9HZOpDxjWNIIlA6XZ5fXh4PgshKEgx4lwuZXxW6GtsukbgyhLHFwoSYQzYGMvpMjqioRY84rVyaGD3dM6TDAWKj89Q+hyEuT1zIJ4yP93jc4Vm7cb6N9Yk05MIs2Z2MyXMjtTe6WZg3eeU46WQu2/v0CP4kX6twej0nYeMSPrL28N4n7xf9+XsFYyJO6cA/zKOn5pv+PGq5pLOgih0FrexnkaFeR6FCV1x2+IZzXeIFuu+397lre5CdT100BlVUuNrx+Ujub1zNeufp+8ekYb8eLwPqu9h3z9E4op8GGD13bhDw/zUtCSQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=permerror (sender ip
+ is 191.7.188.102) smtp.rcpttodomain=soliveenergiasolar.com.br
+ smtp.mailfrom=aldo.com.br; dmarc=fail (p=quarantine sp=quarantine pct=1)
+ action=none header.from=aldo.com.br; dkim=none (message not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aldo.com.br;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=3E4Rlb68EJrnSaFRiHRNiW5GYKO7gy9O2aVeH0bt4iU=;
+ b=4+FB0vYQSHkTq/psIiiW+Ujg0eiCBcxjeRNOOwaCjvi3bEQKkRzLNh5aV4lrWepHPccxFBANjkVQXdNV6vrXugovDgDsHdPgUIJWsZLgk4srHdCh34L6ZRqYpzIrNfVyFeRCsgowmH/+2nEvVy0ddcXk5U0/lNS9SUB0/SCuSYs=
+Received: from DM5PR21CA0008.namprd21.prod.outlook.com (2603:10b6:3:ac::18) by
+ SC1PR80MB3629.lamprd80.prod.outlook.com (2603:10d6:4:73::12) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5102.18; Thu, 24 Mar 2022 16:12:14 +0000
+Received: from DM3NAM02FT016.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:3:ac:cafe::a1) by DM5PR21CA0008.outlook.office365.com
+ (2603:10b6:3:ac::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5123.8 via Frontend
+ Transport; Thu, 24 Mar 2022 16:12:13 +0000
+X-MS-Exchange-Authentication-Results: spf=permerror (sender IP is
+ 191.7.188.102) smtp.mailfrom=aldo.com.br; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=none header.from=aldo.com.br;
+Received-SPF: PermError (protection.outlook.com: domain of aldo.com.br used an
+ invalid SPF mechanism)
+Received: from mail.aldo.com.br (191.7.188.102) by
+ DM3NAM02FT016.mail.protection.outlook.com (10.13.4.77) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5102.17 via Frontend Transport; Thu, 24 Mar 2022 16:12:12 +0000
+Received: from WIN-EXC004.aldo.com.br (192.168.0.81) by WIN-EXC004.aldo.com.br
+ (192.168.0.81) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.986.14; Thu, 24 Mar
+ 2022 13:12:11 -0300
+Received: from WIN-EXC004.aldo.com.br ([fe80::20d2:2fc6:6569:4740]) by
+ WIN-EXC004.aldo.com.br ([fe80::20d2:2fc6:6569:4740%10]) with mapi id
+ 15.02.0986.014; Thu, 24 Mar 2022 13:12:11 -0300
+From: Renan Belarmino <renan.belarmino@aldo.com.br>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject: =?iso-8859-1?Q?Cota=E7=E3o_solicitada_cl_2378645?=
+Thread-Topic: =?iso-8859-1?Q?Cota=E7=E3o_solicitada_cl_2378645?=
+Thread-Index: Adg/mcmq4G0n2Q/TSPOJ03D6HOO4aA==
+Date: Thu, 24 Mar 2022 16:12:10 +0000
+Message-ID: <c2dbf2aa379148dfad3fa76ca3bbe708@aldo.com.br>
+Accept-Language: en-US
+Content-Language: pt-BR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.32.1.197]
+Content-Type: multipart/alternative;
+	boundary="_000_c2dbf2aa379148dfad3fa76ca3bbe708aldocombr_"
+MIME-Version: 1.0
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 2987f71d-261a-415a-18d0-08da0db10ea7
+X-MS-TrafficTypeDiagnostic: SC1PR80MB3629:EE_
+X-Microsoft-Antispam-PRVS:
+	<SC1PR80MB3629A6C2773FB0BEB8000EF8A8199@SC1PR80MB3629.lamprd80.prod.outlook.com>
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	oRuY5FBMV+rN2Up3laGH+CGBDLGj7n4bhAtFljBBFTkI5DR36wQ7mu4c8639QsA2o8AvmmYoSkv7cIMxpbU4Sym7BtNdh5C/377kfynusNFJ/x2nK6X7NP6zujRuDWHY2/QzGRiwpiSxgd8qhLrGiyChTB1gtxWkxYhXEGa2D4PuqdVxZa+2zUMplErReGX5bTxB3NWLfog1GMprBJ+XccosVCUPPemhKP1AMeO2GRQSgcmfSuAnRdDjhZJ/8fIT9iNzyDcsA1dnRlvqg5VpUuiBxhwroWQRQOnrniz2bLwCf4ELWWoX8q4Mq51Hp5kcbiqIl2jazh27gd4e7qpmgjaPv395ciPmtb31jq74nXqR5Xvifr9GZI5n/ANKdKetXWuW8d1LDi04BlXqtftD4Z6jPy0Cqt1ABoTF/cPBzKxP9tOfrzYNjWv9Bf4vmeH5gXQxNaKI/+Hl12/sVjmtB47gcXmnIs3XD5T2R4HlCXvpVDNVuxTNuw0I3b/+r7IvJ2426/yZcWJ2Wi2SzpU/QNXHXxcwmDJ+RMJ2PuILNz4RHNUSVhG60pjGWR07lXV5ZTCvGxRdUMGLwf7zci2CaI7XcQAtBQrJherqnXU75/aCf0zm3c6IiEiwD3JgtfKb0OarHNODC3hDaGik8YgLe0o07hbKEONRcKro434vEDOQ8CJMLnGihQiy1v8tJeFdftojbQLbHY66HfeT/rp1TzKqk08w+/CGMnR3JAc9ADVnvKHk4yIlOBJE69uFVZYybRNiPPLhDK8ogpX02FseBeWIy1M0m7qamm+O4Crpfb4j4mDYNnVULayX33PhoSGBrFRtCOiAeYazF0HdgA1feg==
+X-Forefront-Antispam-Report:
+	CIP:191.7.188.102;CTRY:BR;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.aldo.com.br;PTR:191.7.188.102.fibercom.net.br;CAT:NONE;SFS:(13230001)(46966006)(36840700001)(40470700004)(7696005)(336012)(2906002)(83380400001)(426003)(5660300002)(24736004)(108616005)(34070700002)(36756003)(316002)(44832011)(40460700003)(26005)(166002)(186003)(508600001)(2616005)(36860700001)(356005)(8936002)(81166007)(47076005)(19627235002)(86362001)(224303003)(6916009)(82310400004)(70206006)(70586007);DIR:OUT;SFP:1101;
+X-OriginatorOrg: aldo.com.br
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Mar 2022 16:12:12.9269
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2987f71d-261a-415a-18d0-08da0db10ea7
+X-MS-Exchange-CrossTenant-Id: 9233dc53-3e9e-4435-a0b2-8a6b93cbb49f
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=9233dc53-3e9e-4435-a0b2-8a6b93cbb49f;Ip=[191.7.188.102];Helo=[mail.aldo.com.br]
+X-MS-Exchange-CrossTenant-AuthSource:
+	DM3NAM02FT016.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SC1PR80MB3629
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Boa tarde, Segue abaixo a cotação solicitada: Segue cotação
+    personalizada, validade 7 dias. GF 453,06KWP JINKO TIGER PRO MONO 540W MAX
+    250KW 12MPPT TRIF 800V 
+ Content analysis details:   (1.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: g.page]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: linkr.bio]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.8 UPPERCASE_50_75        message body is 50-75% uppercase
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--_000_c2dbf2aa379148dfad3fa76ca3bbe708aldocombr_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Boa tarde,
+Segue abaixo a cota=E7=E3o solicitada:
+
+Segue cota=E7=E3o personalizada, validade 7 dias.
+
+
+GF 453,06KWP JINKO TIGER PRO MONO 540W MAX 250KW 12MPPT TRIF 800V
+
+
+
+
+
+,
+
+Qtd
+
+Total do gerador
+
+117715-3
+
+INVERSOR GROWATT MAX250KTL3 HV 250KW TRIFASICO 800V 12MPPT 24 ENTRADAS MONI=
+TORAMENTO
+
+2
+
+R$              1.139.019,00
+
+151929-0
+
+PAINEL SOLAR JINKO JKM540M-72HL4-V TIGER PRO 540W 144 CEL MONO HALF CELL 20=
+,94% EFICIENCIA
+
+839
+
+=C1rea m=EDnima necess=E1ria
+
+151788-0
+
+CABO SOLAR 4S16045_2K SOLAR FLEXIVEL SN 120=B0C 1,8KV C.C. PRETO
+
+3000
+
+2.164,62 m=B2
+
+151789-4
+
+CABO SOLAR 4S16080_2K SOLAR FLEXIVEL SN 120=B0C 1,8KV C.C. VERMELHO
+
+3000
+
+Peso total
+
+030081-8
+
+CONECTOR MC4 STAUBLI 32.0016P0001-UR PV-KBT4/6II-UR ACOPLADOR FEMEA
+
+120
+
+25347,5 Kg
+
+030082-2
+
+CONECTOR MC4 STAUBLI 32.0017P0001-UR PV-KST4/6II-UR ACOPLADOR MACHO
+
+120
+
+Pre=E7o Kw
+
+141841-2
+
+ESTRUTURA ROMAGNOLE 412111 RS-326 PRATIC LITE 4 PAINEIS TELHA METALICA 55CM
+
+210
+
+R$                       2.514,04
+
+
+
+Atenciosamente,
+
+Renan Belarmino
+
+[http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_03.jpg]
+
+[http://download.aldo.com.br/assinaturas/APROVADO_02.jpg]<http://g.page/ald=
+o.solar/review?gm>
+
+Vendedor(a)
+
+Direto   +55 44 3261 2048
+
+PABX   +55 44 3261 2000
+
+[http://download.aldo.com.br/assinaturas/2022_04.jpg]
+
+[http://download.aldo.com.br/assinaturas/image004.jpg]renan.belarmino@aldo.=
+com.br
+
+[http://download.aldo.com.br/assinaturas/APROVADO_10.jpg]<https://linkr.bio=
+/aldosolar>
+
+
+
+
+--_000_c2dbf2aa379148dfad3fa76ca3bbe708aldocombr_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloDeEmail17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"PT-BR" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Boa tarde,<o:p></o:=
+p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Segue abaixo a cota=
+=E7=E3o solicitada:<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal">Segue cota=E7=E3o personalizada, validade 7 dias.<o:=
+p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"1042" style=3D"width:781.45pt;margin-left:-.15pt;border-col=
+lapse:collapse">
+<tbody>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;background:white;padding:0cm 3.5pt 0cm 3.5pt;height=
+:15.0pt">
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er:solid windowtext 1.0pt;border-left:none;padding:0cm 3.5pt 0cm 3.5pt;heig=
+ht:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"color:black;mso-fareast-language:PT-BR">GF 453,06KWP JINKO TIGER=
+ PRO MONO 540W MAX 250KW 12MPPT TRIF 800V</span></b><b><span style=3D"color=
+:black;mso-fareast-language:PT-BR"><o:p></o:p></span></b></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+:solid windowtext 1.0pt;border-left:none;padding:0cm 3.5pt 0cm 3.5pt;height=
+:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">&nbsp;<o:p></o:p></span></p=
+>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;pad=
+ding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;background:#ED7D31;padding:0cm 3.5p=
+t 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"mso-fareast-language:PT-BR">&nbsp;</span><span style=3D"mso-fareast=
+-language:PT-BR"><o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;background:#ED7D31;padding:0cm 3.5pt 0cm 3.5pt;h=
+eight:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"mso-fareast-language:PT-BR">,<o:p></o:p></span></b></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;background:#ED7D31;padding:0cm 3.5pt 0cm 3.5pt;hei=
+ght:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"color:white;mso-fareast-language:PT-BR">Qtd<o:p></o:p></span></b=
+></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der:solid windowtext 1.0pt;border-left:none;background:#ED7D31;padding:0cm =
+3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:white;mso-fareast-language:PT-B=
+R">Total do gerador<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;padding:0cm 3.5pt 0cm 3.5pt;height:=
+15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:PT-B=
+R">117715-3<o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">INVERSOR =
+GROWATT MAX250KTL3 HV 250KW TRIFASICO 800V 12MPPT 24 ENTRADAS MONITORAMENTO=
+<o:p></o:p></span></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">2<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><b><span style=3D"color:black;mso-fareast-language:P=
+T-BR">R$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp; 1.139.019,00
+<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;background:white;padding:0cm 3.5pt =
+0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">151929-0<=
+o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;background:white;padding:0cm 3.5pt 0cm 3.5pt;hei=
+ght:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">PAINEL SO=
+LAR JINKO JKM540M-72HL4-V TIGER PRO 540W 144 CEL MONO HALF CELL 20,94% EFIC=
+IENCIA<o:p></o:p></span></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">839<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;background:#ED7D31;padding:0cm 3.5pt 0cm 3.5pt;=
+height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:white;mso-fareast-language:PT-B=
+R">=C1rea m=EDnima necess=E1ria<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;padding:0cm 3.5pt 0cm 3.5pt;height:=
+15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">151788-0<=
+o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">CABO SOLA=
+R 4S16045_2K SOLAR FLEXIVEL SN 120=B0C 1,8KV C.C. PRETO<o:p></o:p></span></=
+p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">3000<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span sty=
+le=3D"color:black;mso-fareast-language:PT-BR">2.164,62 m=B2<o:p></o:p></spa=
+n></p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;padding:0cm 3.5pt 0cm 3.5pt;height:=
+15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:PT-B=
+R">151789-4<o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">CABO SOLA=
+R 4S16080_2K SOLAR FLEXIVEL SN 120=B0C 1,8KV C.C. VERMELHO<o:p></o:p></span=
+></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">3000<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;background:#ED7D31;padding:0cm 3.5pt 0cm 3.5pt;=
+height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:white;mso-fareast-language:PT-B=
+R">Peso total<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;padding:0cm 3.5pt 0cm 3.5pt;height:=
+15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:PT-B=
+R">030081-8<o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">CONECTOR =
+MC4 STAUBLI 32.0016P0001-UR PV-KBT4/6II-UR ACOPLADOR FEMEA<o:p></o:p></span=
+></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">120<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span sty=
+le=3D"color:black;mso-fareast-language:PT-BR">25347,5 Kg<o:p></o:p></span><=
+/p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;padding:0cm 3.5pt 0cm 3.5pt;height:=
+15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:PT-B=
+R">030082-2<o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">CONECTOR =
+MC4 STAUBLI 32.0017P0001-UR PV-KST4/6II-UR ACOPLADOR MACHO<o:p></o:p></span=
+></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">120<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;background:#ED7D31;padding:0cm 3.5pt 0cm 3.5pt;=
+height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:white;mso-fareast-language:PT-B=
+R">Pre=E7o Kw<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:15.0pt">
+<td width=3D"76" nowrap=3D"" valign=3D"bottom" style=3D"width:57.0pt;border=
+:solid windowtext 1.0pt;border-top:none;padding:0cm 3.5pt 0cm 3.5pt;height:=
+15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:PT-B=
+R">141841-2<o:p></o:p></span></p>
+</td>
+<td width=3D"751" nowrap=3D"" valign=3D"bottom" style=3D"width:563.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR">ESTRUTURA=
+ ROMAGNOLE 412111 RS-326 PRATIC LITE 4 PAINEIS TELHA METALICA 55CM<o:p></o:=
+p></span></p>
+</td>
+<td width=3D"56" nowrap=3D"" valign=3D"bottom" style=3D"width:42.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"color:black;mso-fareast-language:PT-BR">210<o:p></o:p></span></p>
+</td>
+<td width=3D"159" nowrap=3D"" valign=3D"bottom" style=3D"width:119.45pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt">
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:PT-B=
+R">R$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.514,04
+<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Atenciosamente,<o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"479" style=3D"width:359.25pt">
+<tbody>
+<tr>
+<td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:15.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#205682;mso-fareast-language:PT-BR">Renan Bel=
+armino</span></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-fareast-language:PT-BR"><img width=3D"251" he=
+ight=3D"11" style=3D"width:2.6166in;height:.1166in" id=3D"_x0000_i1029" src=
+=3D"http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_03.jpg=
+" alt=3D"http://download.aldo.com.br/assinaturas/assinatura-2020-aprovada_0=
+3.jpg"></span><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span>=
+</p>
+</td>
+<td width=3D"153" rowspan=3D"7" valign=3D"bottom" style=3D"width:114.75pt;p=
+adding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><a href=3D"http://g.page/aldo.solar/review?gm"><span=
+ style=3D"color:blue;mso-fareast-language:PT-BR;text-decoration:none"><img =
+border=3D"0" width=3D"238" height=3D"209" style=3D"width:2.475in;height:2.1=
+75in" id=3D"_x0000_i1028" src=3D"http://download.aldo.com.br/assinaturas/AP=
+ROVADO_02.jpg" alt=3D"http://download.aldo.com.br/assinaturas/APROVADO_02.j=
+pg"></span></a><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span=
+></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.5pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">Vendedor(=
+a)</span></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">Direto&nbsp;=
+&nbsp;</span><span style=3D"mso-fareast-language:PT-BR">
+</span><b><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,san=
+s-serif;color:#4E4E50;mso-fareast-language:PT-BR">&#43;55 44 3261 2048</spa=
+n></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#4E4E50;mso-fareast-language:PT-BR">PABX&nbsp;&n=
+bsp;</span><span style=3D"mso-fareast-language:PT-BR">
+</span><b><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,san=
+s-serif;color:#4E4E50;mso-fareast-language:PT-BR">&#43;55 44 3261 2000</spa=
+n></b><b><span style=3D"mso-fareast-language:PT-BR">
+</span></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p=
+>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR"><img bord=
+er=3D"0" width=3D"241" height=3D"8" style=3D"width:2.5083in;height:.0833in"=
+ id=3D"_x0000_i1027" src=3D"http://download.aldo.com.br/assinaturas/2022_04=
+.jpg" alt=3D"http://download.aldo.com.br/assinaturas/2022_04.jpg"></span><s=
+pan style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-fareast-language:PT-BR"><img border=3D"0" wid=
+th=3D"15" height=3D"15" style=3D"width:.1583in;height:.1583in" id=3D"_x0000=
+_i1026" src=3D"http://download.aldo.com.br/assinaturas/image004.jpg" alt=3D=
+"http://download.aldo.com.br/assinaturas/image004.jpg"></span><b><i><span s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#8A=
+8A8B;mso-fareast-language:PT-BR">renan.belarmino@aldo.com.br</span></i></b>=
+<b><i><span style=3D"mso-fareast-language:PT-BR">
+</span></i></b><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span=
+></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><a href=3D"https://linkr.bio/aldosolar"><span style=
+=3D"color:blue;mso-fareast-language:PT-BR;text-decoration:none"><img border=
+=3D"0" width=3D"241" height=3D"56" style=3D"width:2.5083in;height:.5833in" =
+id=3D"_x0000_i1025" src=3D"http://download.aldo.com.br/assinaturas/APROVADO=
+_10.jpg" alt=3D"http://download.aldo.com.br/assinaturas/APROVADO_10.jpg"></=
+span></a><span style=3D"mso-fareast-language:PT-BR"><o:p></o:p></span></p>
+</td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+<td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_c2dbf2aa379148dfad3fa76ca3bbe708aldocombr_--

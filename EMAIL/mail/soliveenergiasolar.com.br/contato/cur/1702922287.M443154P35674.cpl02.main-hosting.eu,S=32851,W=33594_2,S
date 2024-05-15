@@ -1,0 +1,743 @@
+Return-Path: <bounces+28488453-57ff-contato=soliveenergiasolar.com.br@em6377.accounts.rdstation.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id YITyGS+IgGVaiwAAIElduQ
+	(envelope-from <bounces+28488453-57ff-contato=soliveenergiasolar.com.br@em6377.accounts.rdstation.com>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 18 Dec 2023 17:58:07 +0000
+Return-path: <bounces+28488453-57ff-contato=soliveenergiasolar.com.br@em6377.accounts.rdstation.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 18 Dec 2023 17:58:07 +0000
+Received: from o1678955x35.outbound-mail.sendgrid.net ([167.89.55.35]:6042)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <bounces+28488453-57ff-contato=soliveenergiasolar.com.br@em6377.accounts.rdstation.com>)
+	id 1rFHsU-00029u-13
+	for contato@soliveenergiasolar.com.br;
+	Mon, 18 Dec 2023 17:58:07 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=accounts.rdstation.com;
+	h=from:subject:mime-version:to:content-type:content-transfer-encoding:
+	cc:content-type:from:subject:to;
+	s=s1; bh=4in5mIH7uY2k4EaGaO583pAIwQbPfK1x3wBKoUA+ko8=;
+	b=novSpG8GoL9i4+zzujWA9GIUrIKh2rqrJIiAU4sGs1dIC3EA+jepgIS2ZlImcC3FMYlg
+	wiZejTOUQ5KoEETafr7RzWed54RLiwjlYZWkWcPrLURIaPtfRUor1PBkVTSLDSwxRkCQfK
+	wByXvwaq2gaXRWf6b6QMrFaPZcP8KCxrC6NL9jklgH42xLeHhHI8PAapxKZANfjjZmjiYV
+	06bf0UxKYEb7Q90oTQA8sSntWPcR7HGITEv8iJyAKQQe4PiDmwnJnuq4E2ruNq1D8hPrPX
+	B/L0xsp/DFWkortRjP18jHA3QbVe4xY5clBUnGoRHdz9MYDpmWLlGqREnxxYb3MQ==
+Received: by filterdrecv-6d6bf4565d-kj5mq with SMTP id filterdrecv-6d6bf4565d-kj5mq-1-6580882D-21
+        2023-12-18 17:58:05.287630327 +0000 UTC m=+5354191.968180777
+Received: from accounts.rdstation.com (unknown)
+	by geopod-ismtpd-0 (SG)
+	with ESMTP id BMyrkUQwTsCIJ4FwX5aC2A
+	for <contato@soliveenergiasolar.com.br>;
+	Mon, 18 Dec 2023 17:58:05.091 +0000 (UTC)
+Date: Mon, 18 Dec 2023 17:58:05 +0000 (UTC)
+From: RD Station <info@accounts.rdstation.com>
+Message-ID: <6580882ce7e18_1f50045892e@rd-auth-sidekiq-6d7ccc7bff-dg9sn.mail>
+Subject: Sua senha expirou. Cadastre sua nova senha de acesso ao RD Station
+Mime-Version: 1.0
+X-SG-EID: 
+ =?us-ascii?Q?kFiEHXF6QUXwu=2FfkN3FbfuC52VeAISbljlKNGUpFeNGAbswqLzQD12XYheQVyN?=
+ =?us-ascii?Q?1x5P7V7yp3spLjzBvhzHNLICHywiV7IDK0l1zXM?=
+ =?us-ascii?Q?=2FGBkXr=2FRqs27KLVT0Jafv26Zj2RaJ+OOjdnNacH?=
+ =?us-ascii?Q?OuwBOvXieni3cqYE61pLTadw5Qpw+NX2JTbL89J?=
+ =?us-ascii?Q?NYfhh=2FO5=2F6O140jdZZ4wfUDssqnhKhjQ04yw9ih?=
+ =?us-ascii?Q?RVd0xu2MxjTAITfbcfcUowMEch45qkSRF7phXL5?=
+ =?us-ascii?Q?7L2+lq9NlGX7Xx2hKHP7Q=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FL+Tu5pOl+Sq7Jenjwlwb?=
+ =?us-ascii?Q?N6UQ+4bg5uxmovS7ciQkQJF8JpPHoLqM6uLLTv8?=
+ =?us-ascii?Q?IgtxLgguU0Ig+wJMGiD2BITKHmnmFTXlU4CvDWx?=
+ =?us-ascii?Q?jZm8gfR2jZm3ZuTkAe8dEA76avTkNR4=3D?=
+To: contato@soliveenergiasolar.com.br
+X-Entity-ID: URTh8QpDGF+D1BeTomEneQ==
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6580882c75f50_1f50045891c0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Sua senha expirou. Cadastre sua nova senha de acesso ao RD
+    Station Olá, Rodrigo! A senha de acesso ao RD Station pelo Email %{user_email}
+    expirou 
+ Content analysis details:   (1.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: cloudfront.net]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: cloudfront.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 HTTPS_HTTP_MISMATCH    BODY: No description available.
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.1 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+
+----==_mimepart_6580882c75f50_1f50045891c0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Sua senha expirou. Cadastre sua nova senha de acesso ao RD Station=0D
+=0D
+Ol=E1, Rodrigo!=0D
+=0D
+A senha de acesso ao RD Station pelo Email %{user_email} expirou=0D
+=0D
+Para cadastrar uma nova senha, basta clicar no bot=E3o abaixo (=E9 bem rapi=
+dinho, n=E3o leva mais do que 2 minutos).=0D
+=0D
+Aten=E7=E3o: =C9 importante que a senha seja diferente da anterior, ok?=0D
+=0D
+Cadastrar nova senha=0D
+=0D
+Se preferir, copie e cole o link abaixo no seu navegador:=0D
+=0D
+accounts.rdstation.com.br/password/94b5bee9-f257-4a6c-b6b3-13a2483387ec/edi=
+t=0D
+=0D
+Por medidas de seguran=E7a, esse link  expira no prazo de 24 horas. Se prec=
+isar de um novo link, fa=E7a login na sua conta e clique em "Esqueceu sua s=
+enha?"=0D
+=0D
+Caso voc=EA ainda n=E3o tenha dupla autentica=E7=E3o na sua conta, recomend=
+amos fortemente que ative. Esse processo =E9 bem r=E1pido e ajuda a protege=
+r seus dados, veja como fazer:=0D
+=0D
+1 - Acesse o seu RD Station com a nova senha cadastrada e v=E1 no menu Perf=
+il & Prefer=EAncias e depois Seguran=E7a ou clique no seguinte link:=20=0D
+=0D
+https://u28488453.ct.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6IV=
+95Cea8Nah0dRx3AsVeho7OcNt9-2B-2Bg3dQqQQrHFHmZ9T8bUKsuxuOqyvGREAoV-2FHg-3D-3=
+DB5BK_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1L=
+oCODGsmmbaHrrvJu44cYBQviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2=
+B8CeNEDEdiAweHeUdMjmkmX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqz=
+Sw-2FlrHPKvLvHK3nzcTNvI7J9GLaQLEnHCH5gsH1O4mER7dMwC2d8gxs0rEQVH7yLqOHSCa2s6=
+PDzqqtFKtbq3Ap7SDR9SIay39i6jGlyZG7ksJVMO80jEoYNVXmGOEivRf1U5D-2BuW4Qe3-2BLm=
+UpEt13TL9144QPeVdE-3D=0D
+=0D
+2 - Clique em "Ativar" na parte inferior dentro de Autentica=E7=E3o de dois=
+ fatores=0D
+=0D
+3 - Baixe um aplicativo de autentica=E7=E3o (https://u28488453.ct.sendgrid.=
+net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6ISbFxjreLTsF0Aql7VYazNTqOMaeKzU9=
+4EehBIBNtMpkmMvaiwpdtAu9agICeTWdT0wds9i7S3nPEs3LI2nTyZIYkeQrKBJ40zpa2A66w1R=
+Yvepd_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1L=
+oCODGsmmbaHrrvJu44cYBQviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2=
+B8CeNEDEdiAweHeUdMjmkmX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqz=
+Sw-2FlrHPKvLvHFq1fZFznZGOCpajUl45fQQPQMLzsfrbl3fX-2BeLNriM0-2FzaTX2udyxxHbN=
+q4uUXS2W5GwW-2BbrRR0hgDxs9tKqt-2FmKRaOEE4WtlvZH0Uia4pgjSHnHcjO1-2FtUp1W32rS=
+gnsRslyCPEF1s-2BKl7-2BLp0uoU-3D como Okta ou Authy ou, caso voc=EA j=E1 ten=
+ha algum, acesse o aplicativo de autentica=E7=E3o=0D
+=0D
+4 - Siga as orienta=E7=F5es do aplicativo para adicionar uma nova conta=0D
+=0D
+5 - Pelo aplicativo, leia o QR code exibido na tela do RD Station ou adicio=
+ne a chave de seguran=E7a. Clique em "Avan=E7ar"=0D
+=0D
+6 - Insira o c=F3digo gerado na tela de acesso do RD Station=0D
+=0D
+7 - Clique em "Avan=E7ar" para completar o processo=0D
+=0D
+Caso tenha d=FAvidas, acesse este artigo. (https://u28488453.ct.sendgrid.ne=
+t/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6ISbFxjreLTsF0Aql7VYazNS-2FaAJspUHa=
+xDNXabyOv5kyyFxXGfCroiNEqrClq1XtoM4oCrP3aMVZQRoNM-2FLliEkZorygIUP2DqcPPJTfT=
+j44vSjZ_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak=
+1LoCODGsmmbaHrrvJu44cYBQviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big=
+-2B8CeNEDEdiAweHeUdMjmkmX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwc=
+qzSw-2FlrHPKvLvHPd9-2B3UHAv9X8ccKgWKh9uFg7Hj5z5KNOYcJZ0Ecoq72AsSn-2B1gA3cPX=
+9H1ePDXDyY0mTOvJpKzAXrp4d6Krs-2BL9aO9olCm6usN4Hi3MWAsAhPvjVbu7YEN5CwDKjklhD=
+Rqhc48kGxjLhPwdbk-2BOB-2Bo-3D=0D
+=0D
+Desejamos =F3timos neg=F3cios.=0D
+=0D
+Equipe RD Station=0D
+
+----==_mimepart_6580882c75f50_1f50045891c0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">=0D
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:sch=
+emas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"=
+>=0D
+<head>=0D
+  <meta charset=3D"utf-8">=0D
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width">=0D
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0D
+  <meta name=3D"x-apple-disable-message-reformatting">=0D
+  <title>RD Station</title>=0D
+  <link rel=3D"preconnect" href=3D"https://fonts.gstatic.com">=0D
+  <link href=3D"https://fonts.googleapis.com/css2?family=3DNunito+Sans:wght=
+@400;700&display=3Dswap" rel=3D"stylesheet">=0D
+=0D
+  <style>=0D
+    .primary-button {=0D
+      background-color: #19C1CE !important;=0D
+      color: black !important;=0D
+      font-family:'Nunito Sans','Helvetica Neue Light',Helvetica,Arial,sans=
+-serif;=0D
+      font-style: normal;=0D
+      font-weight: bold;=0D
+      font-size: 14px;=0D
+      line-height: 140%;=0D
+      padding: 8px 12px 8px 12px;=0D
+      border-radius: 2px;=0D
+    }=0D
+=0D
+    .primary-button:hover, .primary-button:focus {=0D
+      color: #000000;=0D
+      text-decoration: underline;=0D
+    }=0D
+=0D
+    p {=0D
+      font-family:'Nunito Sans','Helvetica Neue Light',Helvetica,Arial,sans=
+-serif;=0D
+      font-style: normal;=0D
+      font-weight: normal;=0D
+      font-size: 14px;=0D
+      line-height: 140%;=0D
+      letter-spacing: -0.01em;=0D
+      color: #212429;=0D
+    }=0D
+=0D
+    table {=0D
+      border-collapse: collapse;=0D
+    }=0D
+=0D
+    h1, h2, h3, h4, h5, h6 {=0D
+      display: block;=0D
+      margin: 0;=0D
+      padding: 0;=0D
+    }=0D
+=0D
+    img, a img {=0D
+      border: 0;=0D
+      height: auto;=0D
+      outline: none;=0D
+      text-decoration: none;=0D
+    }=0D
+=0D
+    body, #bodyTable, #bodyCell {=0D
+      height: 100%;=0D
+      margin: 0;=0D
+      padding: 0;=0D
+      width: 100%;=0D
+    }=0D
+=0D
+    #outlook a {=0D
+      padding: 0;=0D
+    }=0D
+=0D
+    img {=0D
+      -ms-interpolation-mode: bicubic;=0D
+    }=0D
+=0D
+    table {=0D
+      mso-table-lspace: 0pt;=0D
+      mso-table-rspace: 0pt;=0D
+    }=0D
+=0D
+    .ReadMsgBody {=0D
+      width: 100%;=0D
+    }=0D
+=0D
+    p, a, li, td, blockquote {=0D
+      mso-line-height-rule: exactly;=0D
+    }=0D
+=0D
+    a[href^=3Dtel], a[href^=3Dsms] {=0D
+      color: inherit;=0D
+      cursor: default;=0D
+      text-decoration: none;=0D
+    }=0D
+=0D
+    p, a, li, td, body, table, blockquote {=0D
+      -ms-text-size-adjust: 100%;=0D
+      -webkit-text-size-adjust: 100%;=0D
+    }=0D
+=0D
+    .ExternalClass {=0D
+      width: 100%;=0D
+    }=0D
+=0D
+    /* Force Hotmail to display emails at full width */=0D
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass f=
+ont, .ExternalClass td, .ExternalClass div {=0D
+      line-height: 100%;=0D
+    }=0D
+=0D
+    /* Forces Hotmail to display normal line spacing.  More on that: http:/=
+/www.emailonacid.com/forum/viewthread/43/ */=0D
+    a[x-apple-data-detectors] {=0D
+      color: inherit !important;=0D
+      text-decoration: none !important;=0D
+      font-size: inherit !important;=0D
+      font-family: inherit !important;=0D
+      font-weight: inherit !important;=0D
+      line-height: inherit !important;=0D
+    }=0D
+=0D
+    .sectionContainer {=0D
+      max-width: 600px !important;=0D
+    }=0D
+=0D
+    .img-max {=0D
+      vertical-align: bottom;=0D
+    }=0D
+=0D
+    /* media queries */=0D
+    @media only screen and (min-width: 768px) {=0D
+      .columnContainer {=0D
+        max-width: 600px !important;=0D
+      }=0D
+    }=0D
+=0D
+    @media only screen and (max-width: 480px) {=0D
+      p, a, li, td, body, table, blockquote {=0D
+        -webkit-text-size-adjust: none !important;=0D
+      }=0D
+=0D
+      p {=0D
+        font-size: 16px !important;=0D
+        line-height: 150% !important;=0D
+      }=0D
+=0D
+      body {=0D
+        width: 100% !important;=0D
+        min-width: 100% !important;=0D
+      }=0D
+    }=0D
+=0D
+    @media only screen and (max-width: 480px) {=0D
+      .columnContainer {=0D
+        max-width: 100% !important;=0D
+        width: 100% !important;=0D
+      }=0D
+    }=0D
+=0D
+    @media only screen and (max-width: 480px) {=0D
+      h1 {=0D
+        font-size: 22px !important;=0D
+        line-height: 125% !important;=0D
+      }=0D
+=0D
+      h2 {=0D
+        font-size: 20px !important;=0D
+        line-height: 125% !important;=0D
+      }=0D
+=0D
+      h3 {=0D
+        font-size: 18px !important;=0D
+        line-height: 125% !important;=0D
+      }=0D
+=0D
+      h4 {=0D
+        font-size: 16px !important;=0D
+        line-height: 150% !important;=0D
+      }=0D
+    }=0D
+=0D
+    @media (max-width: 480px) {=0D
+      .padding {=0D
+        padding-left: 18px !important;=0D
+        padding-right: 18px !important;=0D
+      }=0D
+    }=0D
+=0D
+    @media (max-width: 480px) {=0D
+      .img-max {=0D
+        width: 100% !important;=0D
+      }=0D
+    }=0D
+=0D
+    @media (max-width: 480px) {=0D
+      .makefull {=0D
+        max-width: 100% !important;=0D
+        width: 100% !important;=0D
+      }=0D
+    }=0D
+=0D
+    a {=0D
+      color: #11a7b6;=0D
+      text-decoration: none;=0D
+      cursor: pointer;=0D
+    }=0D
+=0D
+    a:hover, a:focus {=0D
+      color: #11a7b6;=0D
+      text-decoration: underline;=0D
+    }=0D
+  </style>=0D
+  <!--[if mso]>=0D
+  <style type=3D"text/css">=0D
+    body, table, td, h2, a, p, span {=0D
+      font-family: Helvetica, Arial, sans-serif !important;=0D
+    }=0D
+  </style>=0D
+  <![endif]-->=0D
+  <!--[if gte mso 9]>=0D
+  <xml>=0D
+    <o:OfficeDocumentSettings>=0D
+      <o:AllowPNG/>=0D
+      <o:PixelsPerInch>96</o:PixelsPerInch>=0D
+    </o:OfficeDocumentSettings>=0D
+  </xml>=0D
+  <![endif]-->=0D
+</head>=0D
+<body style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; =
+width: 100%; height: 100%; margin: 0; padding: 0; background-color: #ffffff=
+;" data-new-gr-c-s-check-loaded=3D"14.1000.0" data-gr-ext-installed=3D"">=0D
+<center style=3D"border-style: solid; border-color: #19c1ce; border-width: =
+4px 0 0 0;">=0D
+  <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust=
+: 100%; -webkit-text-size-adjust: 100%; width: 100%; height: 100%; margin: =
+0; padding: 0; background-color: #ffffff;">=0D
+    <tbody>=0D
+    <tr>=0D
+      <td align=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"mso-line=
+-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust=
+: 100%; width: 100%; height: 100%; margin: 0; padding: 0; border-top: 0;">=0D
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10=
+0%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspa=
+ce: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">=0D
+          <tbody>=0D
+          <tr>=0D
+            <td align=3D"center" valign=3D"top" class=3D"section1Column" st=
+yle=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-t=
+ext-size-adjust: 100%; background-color: #FFFFFF; border-top: 0; border-bot=
+tom: 0px; padding-top: 0px; padding-bottom: 0px;">=0D
+              <!--[if (gte mso 9)|(IE)]>=0D
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"600" style=3D"width:600px"=0D
+                     class=3D"sectionContainerIE">=0D
+                <tr>=0D
+                  <td valign=3D"top" align=3D"center" width=3D"600" style=
+=3D"width:600px;">=0D
+              <![endif]-->=0D
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" class=3D"sectionContainer" style=3D"border-collapse: collapse; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%; width:100%; max-width: 600px !important; backg=
+round-color: #FFFFFF;">=0D
+                <tbody>=0D
+                <tr>=0D
+                  <td align=3D"center" valign=3D"top" class=3D"section1Colu=
+mn" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%; background-color: transparent; border-top: 0; =
+border-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">=0D
+                    <!--[if (gte mso 9)|(IE)]>=0D
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600" style=3D"width:600px"=0D
+                           class=3D"sectionContainerIE">=0D
+                      <tr>=0D
+                        <td valign=3D"top" align=3D"center" width=3D"600" s=
+tyle=3D"width:600px;">=0D
+                    <![endif]-->=0D
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" class=3D"sectionContainer" style=3D"border-collapse: collap=
+se; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100=
+%; -webkit-text-size-adjust: 100%; width:100%; max-width: 600px !important;=
+ background-color: transparent;">=0D
+                      <tbody>=0D
+                        <tr style=3D"text-align: center">=0D
+                          <img alt=3D"RD Station" border=3D"0" width=3D"185=
+" style=3D"padding: 24px 0 10px 0" src=3D"https://db4f7hpyu4bbz.cloudfront.=
+net/assets/rdstation-logo-184fc5817882fc6cb12447a3966b2d9497117dac2d34bfbb1=
+f42056cc2241283.png" />=0D
+                        </tr>=0D
+                      </tbody>=0D
+                    </table>=0D
+                    <!--[if (gte mso 9)|(IE)]>=0D
+                    </td>=0D
+                    </tr>=0D
+                    </table>=0D
+                    <![endif]-->=0D
+                  </td>=0D
+                </tr>=0D
+                </tbody>=0D
+              </table>=0D
+              <!--[if (gte mso 9)|(IE)]>=0D
+              </td>=0D
+              </tr>=0D
+              </table>=0D
+              <![endif]-->=0D
+            </td>=0D
+          </tr>=0D
+=0D
+=0D
+<tr>=0D
+  <td align=3D"center" valign=3D"top" id=3D"section3Columns" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; border-top: 0px; border-bottom: 0px; padding-top: 40px; padding-=
+bottom: 0px;">=0D
+    <!--[if (gte mso 9)|(IE)]>=0D
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" c=
+lass=3D"sectionContainerIE"=0D
+           style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;ma=
+x-width: 600px !important;">=0D
+      <tr>=0D
+        <td valign=3D"top" align=3D"center" width=3D"600"=0D
+            style=3D"width:600px;mso-line-height-rule: exactly;-ms-text-siz=
+e-adjust: 100%;-webkit-text-size-adjust: 100%;">=0D
+    <![endif]-->=0D
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" =
+class=3D"sectionContainer" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-=
+size-adjust: 100%; width:100%; max-width: 600px !important;">=0D
+      <tbody>=0D
+      <tr>=0D
+        <td align=3D"center" valign=3D"top" style=3D"color:#848e95;font-fam=
+ily:'Nunito Sans','Helvetica Neue Light',Helvetica,Arial,sans-serif;;font-s=
+ize:15px;line-height:150%;text-align:left; padding: 0 30px 0; mso-line-heig=
+ht-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100=
+%;">=0D
+            <h2 style=3D"color: #212429; font-family: 'Nunito Sans',Helveti=
+ca,Arial,sans-serif; font-size: 20px; font-style: normal; font-weight: 700;=
+ line-height: 150%; letter-spacing: -0.2px"> Ol=C3=A1, Rodrigo!</h2>=0D
+=0D
+  <h3 style=3D"margin: 23px 0; color: #212429; text-align: center; font-fam=
+ily: 'Nunito Sans',Helvetica,Arial,sans-serif; font-size: 16px; font-style:=
+ normal; font-weight: 800; line-height: 150%; letter-spacing: -0.16px"> A s=
+enha de acesso ao RD Station pelo Email contato@soliveenergiasolar.com.br e=
+xpirou</h3>=0D
+=0D
+  <div style=3D'margin-bottom: 16px; color: #212429; font-size: 14px; lette=
+r-spacing: -0.14px; line-height: 19.6px; text-align: justify'>=0D
+    <span style=3D'margin: 0'>Para cadastrar uma nova senha, basta clicar n=
+o bot=C3=A3o abaixo (=C3=A9 bem rapidinho, n=C3=A3o leva mais do que 2 minu=
+tos).</span>=0D
+  </div>=0D
+=0D
+  <div style=3D'margin-bottom: 14px; color: #DC3356; font-size: 14px; lette=
+r-spacing: -0.14px; line-height: 19.6px; text-align: center'>=0D
+    <span style=3D'margin: 0'>Aten=C3=A7=C3=A3o: =C3=89 importante que a se=
+nha seja </span>=0D
+    <span style=3D'margin: 0'><strong>diferente da anterior</strong></span>=
+<span style=3D'margin: 0'>, ok?</span>=0D
+  </div>=0D
+=0D
+  <div style=3D'text-align: center; margin: 23px 0'>=0D
+    <a class=3D"primary-button" style=3D"display: inline-block" href=3D"acc=
+ounts.rdstation.com.br/password/94b5bee9-f257-4a6c-b6b3-13a2483387ec/edit">=
+Cadastrar nova senha</a>=0D
+  </div>=0D
+=0D
+  <div style=3D'margin: 23px 32px; font-size: 12px; letter-spacing: -0.12px=
+; line-height: 15.6px; text-align: justify'>=0D
+    <div style=3D'margin-bottom: 16px; color: #212429'>=0D
+      <p style=3D'margin: 0; font-size: 12px; letter-spacing: -0.12px; line=
+-height: 15.6px; text-align: justify'>Se preferir, copie e cole o link abai=
+xo no seu navegador:</p>=0D
+      <p style=3D'margin: 0; font-size: 12px; letter-spacing: -0.12px; line=
+-height: 15.6px; text-align: justify'><a style=3D"color: #11A7B6" href=3D"a=
+ccounts.rdstation.com.br/password/94b5bee9-f257-4a6c-b6b3-13a2483387ec/edit=
+">accounts.rdstation.com.br/password/94b5bee9-f257-4a6c-b6b3-13a2483387ec/e=
+dit</a></p>=0D
+    </div>=0D
+=0D
+    <div style=3D'color: #DC3356'>=0D
+      <span style=3D'margin: 0'>Por medidas de seguran=C3=A7a, esse link </=
+span>=0D
+      <span style=3D'margin: 0'><strong> expira no prazo de 24 horas. </str=
+ong></span>=0D
+      <span style=3D'margin: 0; color: #212429'>Se precisar de um novo link=
+, fa=C3=A7a login na sua conta e clique em &quot;Esqueceu sua senha?&quot;<=
+/span>=0D
+    </div>=0D
+  </div>=0D
+=0D
+  <div style=3D'margin-bottom: 14px; color: #212429; font-size: 14px; lette=
+r-spacing: -0.14px; line-height: 19.6px; text-align: justify'>=0D
+    <span style=3D'margin: 0'>Caso voc=C3=AA </span>=0D
+    <span style=3D'margin: 0'><strong>ainda n=C3=A3o tenha dupla autentica=
+=C3=A7=C3=A3o na sua conta, </strong></span>=0D
+    <span style=3D'margin: 0'>recomendamos fortemente que ative. Esse proce=
+sso =C3=A9 bem r=C3=A1pido e ajuda a proteger seus dados, veja como fazer:<=
+/span>=0D
+  </div>=0D
+=0D
+  <div style=3D'margin: 0px 29px 23px; padding: 8px 24px; border-radius: 2p=
+x; background: #F1F3F5; color: #212429; font-size: 12px; letter-spacing: -0=
+.12px'>=0D
+    <p style=3D'margin: 0; font-size: 12px; letter-spacing: -0.12px'>=0D
+      <span style=3D'margin: 0'>1 - Acesse o seu </span>=0D
+      <span style=3D'margin: 0; color: #11A7B6'><strong><a href=3D"https://=
+u28488453.ct.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6IV95Cea8Na=
+h0dRx3AsVeho4749pK6jNXEgT2A-2FuEDMT-2FvqG9_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-=
+2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1LoCODGsmmbaHrrvJu44cYBQviMONIzgGR-2F6Fm=
+cHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2B8CeNEDEdiAweHeUdMjmkmX-2B-2FWAb7-2FgC=
+2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqzSw-2FlrHPKvLvHFLOlBR2ZaTUkbZI11hgYzJ5G=
+F6vyDbj3fHyRzNbVDL6PYUmyZaKu-2BhBPFTjTQ-2FWy-2Bhm0RyHPlyNXXuLtUMi4b7QLVFMNX=
+g-2BTz0Ex5yKWz-2BpfSCCLpfRBeijT5boBb1SYucJm7LXtGr-2Fm98gq7jTvFk-3D">RD Stat=
+ion </a></strong></span>=0D
+      <span style=3D'margin: 0'>com a nova senha cadastrada e v=C3=A1 no me=
+nu Perfil &amp; Prefer=C3=AAncias e depois Seguran=C3=A7a ou clique no segu=
+inte link: </span>=0D
+    </p>=0D
+    <p style=3D'margin-bottom: 18px; margin-top: 0; font-size: 12px; letter=
+-spacing: -0.12px'><a style=3D"color: #11A7B6" href=3D"https://u28488453.ct=
+.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6IV95Cea8Nah0dRx3AsVeho=
+7OcNt9-2B-2Bg3dQqQQrHFHmZ9T8bUKsuxuOqyvGREAoV-2FHg-3D-3DdjCL_kK98eMpoK8EC5a=
+OeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1LoCODGsmmbaHrrvJu44cY=
+BQviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2B8CeNEDEdiAweHeUdMjm=
+kmX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqzSw-2FlrHPKvLvHP8Vy9b=
+gO-2FKQx1P-2FCSZiGRA268RULTD-2BKhdGxBDFb0AaGE-2BN3t66E8oh9RXy2rwEV4r8dJNE3R=
+WtHXFEJfxUdgnWxcSASkfSC-2BqIOockQmpWaY-2FWXD-2BGgCxYWjAd9fxIcnn-2BvMPabOr6A=
+FPBF4aoTzc-3D">https://accounts.rdstation.com.br/profile/security</a></p>=0D
+    <p style=3D'margin-bottom: 18px; font-size: 12px; letter-spacing: -0.12=
+px'>2 - Clique em &quot;Ativar&quot; na parte inferior dentro de Autentica=
+=C3=A7=C3=A3o de dois fatores</p>=0D
+    <p style=3D'margin-bottom: 18px; font-size: 12px; letter-spacing: -0.12=
+px'>=0D
+      <span style=3D'margin: 0'>3 - Baixe um </span>=0D
+      <span style=3D'margin: 0; color: #11A7B6'><strong><a href=3D"https://=
+u28488453.ct.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6ISbFxjreLT=
+sF0Aql7VYazNTqOMaeKzU94EehBIBNtMpkmMvaiwpdtAu9agICeTWdT0wds9i7S3nPEs3LI2nTy=
+ZI5CaAXN9PuP98jUCYm-2F5sy3E3w_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe=
+7xFM7wLjRkH0Lnl6qJEZak1LoCODGsmmbaHrrvJu44cYBQviMONIzgGR-2F6FmcHyfoYXAgRTdy=
+OwvtbcsmR8F5zBNkC-2Big-2B8CeNEDEdiAweHeUdMjmkmX-2B-2FWAb7-2FgC2RWEWCa102u-2=
+Fi-2BCNI9eWUOtvs95rmwcqzSw-2FlrHPKvLvHDm5qgvMtyWynMM1ipqsLHMG4HXod6UDh2WHfC=
+rdOoE-2FNh6wFdwKQcJ3Rjlda-2FerBSPSpznn2UiZ20UKwzXju-2F12xayWpd5u8fYoZ-2B9T7=
+QAbSJD1OHnzZh2kvWov9jxOF9y7dq247jhgA8raP2wteLU-3D">aplicativo de autentica=
+=C3=A7=C3=A3o</a></strong></span><span style=3D'margin: 0'>, como Okta ou A=
+uthy ou, caso voc=C3=AA j=C3=A1 tenha algum, acesse o aplicativo de autenti=
+ca=C3=A7=C3=A3o</span>=0D
+    </p>=0D
+    <p style=3D'margin-bottom: 18px; font-size: 12px; letter-spacing: -0.12=
+px'>4 - Siga as orienta=C3=A7=C3=B5es do aplicativo para adicionar uma nova=
+ conta</p>=0D
+    <p style=3D'margin-bottom: 18px; font-size: 12px; letter-spacing: -0.12=
+px'>5 - Pelo aplicativo, leia o QR code exibido na tela do RD Station ou ad=
+icione a chave de seguran=C3=A7a. Clique em &quot;Avan=C3=A7ar&quot;</p>=0D
+    <p style=3D'margin-bottom: 18px; font-size: 12px; letter-spacing: -0.12=
+px'>6 - Insira o c=C3=B3digo gerado na tela de acesso do RD Station</p>=0D
+    <p style=3D'margin: 0; font-size: 12px; letter-spacing: -0.12px'>7 - Cl=
+ique em &quot;Avan=C3=A7ar&quot; para completar o processo</p>=0D
+  </div>=0D
+=0D
+  <p style=3D'margin: 23px 0'>=0D
+    <span style=3D'margin: 0'>Caso tenha d=C3=BAvidas, acesse </span>=0D
+    <span style=3D'margin: 0'><strong><a style=3D"color: #11A7B6; margin: 0=
+" href=3D"https://u28488453.ct.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F=
+-2FS8BT6ISbFxjreLTsF0Aql7VYazNS-2FaAJspUHaxDNXabyOv5kyyFxXGfCroiNEqrClq1Xto=
+M4oCrP3aMVZQRoNM-2FLliEkICR3qlSp8b6lGUb7WYKuGOomm_kK98eMpoK8EC5aOeSV4JTRSPz=
+qUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1LoCODGsmmbaHrrvJu44cYBQviMONIzgG=
+R-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2B8CeNEDEdiAweHeUdMjmkmX-2B-2FWA=
+b7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqzSw-2FlrHPKvLvHDJg35WR-2FpeXz-2F=
+KQZcMH7l8tgi0dkBfa0pDCq6N4EAOHUnuFR1-2BS98lVutpA3mQy1tjRY5xmxFq2EQdlJC8Hp-2=
+FviaJ5wNtILQ9YVR0fF7WWaUqHxO-2BoxjLd-2Fy0DTL-2B0wTU720nA8zw9A-2BTvj4cunMTA-=
+3D">este artigo.</a></strong></span>=0D
+  </p>=0D
+=0D
+  <p style=3D'margin: 23px 0 12px 0'>Desejamos =C3=B3timos neg=C3=B3cios.</=
+p>=0D
+=0D
+  <p style=3D'margin-bottom: 23px'><strong>Equipe RD Station</strong></p>=0D
+=0D
+        </td>=0D
+      </tr>=0D
+      </tbody>=0D
+    </table>=0D
+    <!--[if (gte mso 9)|(IE)]>=0D
+    </td>=0D
+    </tr>=0D
+    </table>=0D
+    <![endif]-->=0D
+  </td>=0D
+</tr>=0D
+=0D
+              <span style=3D"display:none;font-size:1px;color:#FFFFFF;line-=
+height:1px;height:1px;max-width:0px;overflow:hidden;">=E2=80=A2</span>=0D
+=0D
+              <tr style=3D"border-top-width:4px;border-top-color:#f1f3f5;bo=
+rder-top-style:solid;border-spacing:0!important;border-collapse:collapse!im=
+portant;table-layout:fixed!important;margin:0 auto">=0D
+                <td style=3D"padding: 32px 20px; font-family: Nunito Sans, =
+sans-serif; font-style: normal;font-weight: normal;font-size: 12px;line-hei=
+ght: 130%;text-align: center;letter-spacing: -0.01em;font-feature-settings:=
+ 'ss02' on; color:#3A4149;">=0D
+                  Se surgirem d=C3=BAvidas, acesse nossa <a href=3D"https:/=
+/u28488453.ct.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6ISbFxjreL=
+TsF0Aql7VYazNQ2gsR0KXsnEIiE3n-2FwBQQWdNGVKscupxx7zbERy7nQbQ-3D-3Dmioc_kK98e=
+MpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1LoCODGsmmbaH=
+rrvJu44cYBQviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2B8CeNEDEdiA=
+weHeUdMjmkmX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqzSw-2FlrHPKv=
+LvHL1FpaA1tqRbv00KO4qMX7NWleKQpZHh-2F-2Fj17aUMr3EoYSepLYN8tus-2BZYLKyF-2Fnw=
+l8oP-2BFdezhjFug4demCgf2pphobe0Aeirl3MIg7csSo-2FDh2GpNH76-2FMUE9XOaXNpzf4iX=
+tXrUgN0AgxBAbfjms-3D" target=3D"_blank" title=3D"Central de Ajuda">Central =
+de Ajuda</a> ou entre em contato com a nossa <a href=3D"https://u28488453.c=
+t.sendgrid.net/ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6ISbFxjreLTsF0Aql7VYaz=
+NQ2gsR0KXsnEIiE3n-2FwBQQWvNTvGc-2F3rRglCcFOMTr8Ow-3D-3DXeyM_kK98eMpoK8EC5aO=
+eSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZak1LoCODGsmmbaHrrvJu44cYB=
+QviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5zBNkC-2Big-2B8CeNEDEdiAweHeUdMjmk=
+mX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUOtvs95rmwcqzSw-2FlrHPKvLvHDZNY4QV=
+kFHR8ewL-2B-2BTWX2mw57E8Tqroj3HjDbwTGzDqUgNKOLI5HOvF-2FdTeWx1g0RHEzIqORK1Pl=
+GrhXq8z8JJhCU-2BAiVO6R90PgDQKUsEW4b8cr5Y-2F6DVoldOmEjMdmB4mgCIjcesZjTUoQoOO=
+I3M-3D" target=3D"_blank" title=3D"Equipe de suporte">equipe de suporte</a>=
+.<br/>Estamos =C3=A0 disposi=C3=A7=C3=A3o para te ajudar!=0D
+                  <br/>=0D
+                  <br/>=0D
+                  Enviado por <a href=3D"https://u28488453.ct.sendgrid.net/=
+ls/click?upn=3DcY7audebobhhi-2F-2FS8BT6IV95Cea8Nah0dRx3AsVeho4749pK6jNXEgT2=
+A-2FuEDMT-2Fupki_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0L=
+nl6qJEZak1LoCODGsmmbaHrrvJu44cYBQviMONIzgGR-2F6FmcHyfoYXAgRTdyOwvtbcsmR8F5z=
+BNkC-2Big-2B8CeNEDEdiAweHeUdMjmkmX-2B-2FWAb7-2FgC2RWEWCa102u-2Fi-2BCNI9eWUO=
+tvs95rmwcqzSw-2FlrHPKvLvHMesksv5Pq2kRFQ9WeEDUNI82Y-2Bl6GZ9XwS1hSw-2FAhlIx-2=
+Fu-2FMn1FzjWXde0SI6aVM-2Bx-2BpuZq9fI0jPu8-2F0PzVgShQ4Q9YPPyY8-2FkohWIdJxZY-=
+2FWBpmyqN98Nf-2FBaHo7gKgUqAbp3lXXF5uS7wOkISLA-3D">RD Station</a>.<br/>=0D
+                  <br/>=0D
+                  =C2=A9 RD Station. Todos os direitos reservados.=0D
+                </td>=0D
+              </tr>=0D
+            </table>=0D
+          </td>=0D
+        </tr>=0D
+      </tbody>=0D
+    </table>=0D
+  <img src=3D"https://u28488453.ct.sendgrid.net/wf/open?upn=3Dm8sqQTK7H7veP=
+1VIavT-2Fp3OiTEP71oo3bfrUM75McanZKUpUtyGA7Sq0KWWnziuekLL9ADLQyek87VVrKReSOU=
+Y40INuEBNGtZYwCehQd2moae4mldY8u39Rw2NBkkscrOSQwYMKKQCBU-2FFMtkmNZNXq0xbKTkQ=
+XlrdrOVjivuMwPCbg1YA-2FH38cTEoPb3kSql6G7WyDjPlN9KjlVPWnHdZwcaTYjDx73ynLz6mu=
+Mk-2BdUJgj5tsJmlhfibsZ5qBGR0sraVRwSLJ2y4Mg7HJrwPMMr1Hcerf7SyfM5G-2FMZXQKuBU=
+iUFtbZOA32pypWUZtEEv34rk5HT9b3EBYqloREVVxY2uD9gQAGLlsU-2FANGbxbZ-2B1KjHy8Ka=
+H4VfXJooQJ" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:=
+1px !important;width:1px !important;border-width:0 !important;margin-top:0 =
+!important;margin-bottom:0 !important;margin-right:0 !important;margin-left=
+:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-=
+right:0 !important;padding-left:0 !important;"/></body>=0D
+</html>=0D
+=0D
+
+----==_mimepart_6580882c75f50_1f50045891c0--

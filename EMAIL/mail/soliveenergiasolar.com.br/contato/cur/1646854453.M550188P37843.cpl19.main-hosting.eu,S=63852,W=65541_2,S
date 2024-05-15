@@ -1,0 +1,1689 @@
+Return-Path: <naoresponda@nexen.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id UHNxIDUBKWLTkwAAJcoV8Q
+	(envelope-from <naoresponda@nexen.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 09 Mar 2022 19:34:13 +0000
+Return-path: <naoresponda@nexen.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 09 Mar 2022 19:34:13 +0000
+Received: from mail-il1-f170.google.com ([209.85.166.170]:38758)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <naoresponda@nexen.com.br>)
+	id 1nS24a-0001Ht-Iy
+	for contato@soliveenergiasolar.com.br; Wed, 09 Mar 2022 19:34:13 +0000
+Received: by mail-il1-f170.google.com with SMTP id o12so2235658ilg.5
+        for <contato@soliveenergiasolar.com.br>; Wed, 09 Mar 2022 11:34:11 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=nexen-com-br.20210112.gappssmtp.com; s=20210112;
+        h=from:to:subject:message-id:content-transfer-encoding:date
+         :mime-version;
+        bh=BsHlOnHZuYea9Clah0XEgXyXtDa59MqocEE9EdYLC8s=;
+        b=LPEEtcefsVD/Kk8MCu7jLd8C7WSP30IJ3Xeitiyh+kmMM5GJUlVJ8X4BOhabknyePI
+         Qs7v+TPn9Bad6H/8n7J7Yls4oPqWuUbzfOKTL3u1aKnrTrfatYevZmwotpQ9Fizzn5bQ
+         /EdSt9mllJh59IKg69uyH5/+UJBdc9SHPo5VW8a6X+/bb9l0qMNEOiaYS3s4YwTQjI+w
+         ZKGz3v4+rhlUP3+bf3eLxpNCUxGUsZgZPWeTE2KmQPYOxpVFJIKlzjvMJtPER2dnih/S
+         YXCQtO7pD/cuQmYJGF56VMTni5QJj7hTJfxor0Syv/TYGupZpqdXV8sbAPhn0CahhNov
+         V1xA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:from:to:subject:message-id
+         :content-transfer-encoding:date:mime-version;
+        bh=BsHlOnHZuYea9Clah0XEgXyXtDa59MqocEE9EdYLC8s=;
+        b=ipghtshTt8QNFFE2/kS6/oq60UlWTK1IEAAuSm7fMe1du5lAfWiRQYsDS80TNtm9M5
+         9eLxz6FHJ81gz3ScmJQQyl6TLvn+c6E3mGdyP8mtrFjo+qIvQbtULloMBxHR9q7bRJUb
+         o1OMTUXsvevw3ybOusSjPltOeR9p1lsfB3htiRkgk9jKA39HQ+Q+JjQsuumxEXcQk7+5
+         KjSK/AybN/77XTYKmcG5bp8aAiJt/VhFHYnEW/Sw615u6ZFJnkq2zr1gjuYgTZ2GgrQ4
+         f6vuqhfrobx/IxQechYcYmUbwS957Ta1TeTuAT7zIC5hwUGKl/N9CSpHCVRoWwfIRTNn
+         dUcA==
+X-Gm-Message-State: AOAM532bEYVMldK2QST5RC++OIMVgr4qsAILhkpXvZrHh402i1CA8vQy
+	DfV/ia5DH4kUeJCDivW8O2CO1blDIpoqoA==
+X-Google-Smtp-Source: ABdhPJzKobQsKiXZ0nu3XWUMfZqfrNvoUInBx5QWxEJ7FsYnxm2dFgDviIu+FbfWG5ySPpVE8CsUxA==
+X-Received: by 2002:a05:6e02:b43:b0:2c5:d499:5136 with SMTP id f3-20020a056e020b4300b002c5d4995136mr733638ilu.225.1646854450022;
+        Wed, 09 Mar 2022 11:34:10 -0800 (PST)
+Received: from [127.0.0.1] (ec2-3-137-97-160.us-east-2.compute.amazonaws.com. [3.137.97.160])
+        by smtp.gmail.com with ESMTPSA id i8-20020a0566022c8800b006463c801381sm1445152iow.48.2022.03.09.11.34.09
+        for <contato@soliveenergiasolar.com.br>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 09 Mar 2022 11:34:09 -0800 (PST)
+Content-Type: text/html; charset=utf-8
+From: naoresponda@nexen.com.br
+To: contato@soliveenergiasolar.com.br
+Subject: =?UTF-8?Q?Nexen_-_Cadastro_em_an=C3=A1lise?=
+Message-ID: <01d9a821-ec31-9d0f-dcd3-67113c73ae40@nexen.com.br>
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 09 Mar 2022 19:34:08 +0000
+MIME-Version: 1.0
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ☰ ⊗ Olá Solive energia solar ltda! Seu cadastro foi
+   realizado com sucesso e esta aguardando processo de aprovação... 
+ Content analysis details:   (1.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" =
+xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-=
+com:office:office">
+  <head>
+    <title> </title>
+    <!--[if !mso]><!-- =
+-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3DUTF-8">
+    <meta name=3D"viewport" =
+content=3D"width=3Ddevice-width, initial-scale=3D1">
+   =20
+    <!--[if mso]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+    <!--[if lte mso 11]>
+      <style type=3D"text/css">
+        .mj-outlook-group-fix {
+          width: 100% !important;
+        }
+      </style>
+    <![endif]-->
+    <!--[if !mso]><!-->
+   =20
+   =20
+    <!--<![endif]-->
+   =20
+   =20
+   =20
+  </head>
+
+  <body style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; margin: 0; padding: 0;">
+    <div style>
+      <!-- Header -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-bottom: 3px solid #333; border-collapse: =
+collapse; direction: ltr; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 20px 0; text-align: center;">
+                <!--[if mso | IE]>
+                  <table =
+role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:top;width:107.6px;"
+            >
+          <![endif]-->
+                <div =
+class=3D"mj-column-per-20 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100=
+%;">
+                  <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"center" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; border-spacing: 0px; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+                                  <tbody>
+                                    <tr>
+                                  =
+    <td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 90px;">
+                                     =
+   <a href=3D"https://schumann.core.dcg.com.br/nexen" target=3D"_blank">
+                                          <img alt=3D"Nexen logo" =
+height=3D"18" src=3D"https://schumann.core.dcg.com.br/Custom/Content/Themes=
+/Nexen/Emails/Images/logo-nexen.png" style=3D"-ms-interpolation-mode: =
+bicubic; border: 0; display: block; font-size: 13px; height: 18px; =
+line-height: 100%; outline: none; text-decoration: none; width: 100%;" =
+width=3D"90">
+                                        </a>
+                                      </td>
+                               =
+     </tr>
+                                  </tbody>
+                                </table>
+                              =
+</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+            <td
+               class=3D"" =
+style=3D"vertical-align:top;width:430.4px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-80 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" width=3D"100%" style=3D"border-collapse: collapse; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"center" class=3D"align-right" style=3D"border-collapse: collapse; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; =
+word-break: break-word;">
+                                <!--[if !mso><!=
+--><input type=3D"checkbox" id=3D"3dac80c4330b07fd" =
+class=3D"mj-menu-checkbox" style=3D"display:none !important; max-height:0; =
+visibility:hidden;">
+                                <!--<![endif]-->
+                                <div class=3D"mj-menu-trigger" =
+style=3D"display:none;max-height:0px;max-width:0px;font-size:0px;overflow:h=
+idden;">
+                                  <label for=3D"3dac80c4330b07fd" =
+class=3D"mj-menu-label" style=3D"display:block;cursor:pointer;mso-hide:all;=
+-moz-user-select:none;user-select:none;color:#ff9600;font-size:30px;font-fa=
+mily:Ubuntu, Helvetica, Arial, sans-serif;text-transform:uppercase;text-dec=
+oration:none;line-height:30px;padding:10px;" align=3D"center">
+                                    <span class=3D"mj-menu-icon-open" =
+style=3D"mso-hide:all;">
+                                      &#9776;
+                                    </span>
+                               =
+     <span class=3D"mj-menu-icon-close" style=3D"display:none;mso-hide:all;=
+">
+                                      &#8855;
+                          =
+          </span>
+                                  </label>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Header -->
+      <!-- Content 01 -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 40px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; padding-bottom: =
+28px; word-break: break-word;">
+                                <div =
+style=3D"font-family:helvetica;font-size:25px;font-weight:bold;line-height:=
+1;text-align:left;color:#ff9600;">
+                                  =
+Ol=C3=A1
+                                  <mj-raw>Solive energia solar =
+ltda</mj-raw>!
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:15px;line-height:1;text-align:left;color:#767676;">
+                                  <p style=3D"display: block; margin: 13px =
+0;">
+                                    Seu cadastro foi realizado com =
+sucesso e esta aguardando processo de aprova=C3=A7=C3=A3o...
+                                  </p>
+
+                                  =
+<p style=3D"display: block; margin: 13px 0;">
+                             =
+       Fique tranquilo, esse processo =C3=A9 rapido.
+                                  </p>
+                                  <p=
+ style=3D"display: block; margin: 13px 0;">
+                               =
+     Assim que finalizarmos a analise voc=C3=AA ser=C3=A1 notificado =
+atrav=C3=A9s deste mesmo e-mail.
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+     =20
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+style=3D"border-collapse: collapse; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; word-break: break-word;">
+                                <p style=3D"border-top: solid 3px #333333; =
+display: block; font-size: 1; margin: 0px auto; width: 100%;"></p>
+                                <!--[if mso | IE]>
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:solid 3px #333333;font-size:1;margin:=
+0px auto;width:488px;" role=3D"presentation" width=3D"488px"
+        >
+          <tr>
+            <td style=3D"height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- Content 02 -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:15px;font-weight:bold;line-height:1;text-align:left;color:=
+#231f20;">
+                                  <p style=3D"display: block; =
+margin: 13px 0;">Com a nexen voc=C3=AA:</p>
+                               =
+ </div>
+                              </td>
+                            =
+</tr>
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:15px;line-height:1;text-align:left;color:#767676;">
+                                  <p style=3D"display: block; margin: 13px =
+0;">Economiza em at=C3=A9 95% na conta de luz</p>
+                         =
+         <p style=3D"display: block; margin: 13px 0;">
+                                    Produz sua pr=C3=B3pria energia com =
+autonomia
+                                  </p>
+                          =
+        <p style=3D"display: block; margin: 13px 0;">
+                                    Financia seus equipamentos com =
+facilidade
+                                  </p>
+                         =
+         <p style=3D"display: block; margin: 13px 0;">Protege o meio =
+ambiente</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if =
+mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Content 02 -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-=
+height-rule:exactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+style=3D"border-collapse: collapse; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; word-break: break-word;">
+                                <p style=3D"border-top: solid 3px #333333; =
+display: block; font-size: 1; margin: 0px auto; width: 100%;"></p>
+                                <!--[if mso | IE]>
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:solid 3px #333333;font-size:1;margin:=
+0px auto;width:488px;" role=3D"presentation" width=3D"488px"
+        >
+          <tr>
+            <td style=3D"height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- Content 03 -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:15px;font-weight:bold;line-height:1;text-align:left;color:=
+#231f20;">
+                                  <p style=3D"display: block; =
+margin: 13px 0;">Solu=C3=A7=C3=B5es em energia solar</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align=3D"left" style=3D"border-collapse: =
+collapse; font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+padding: 0; word-break: break-word;">
+                                <div =
+style=3D"font-family:helvetica;font-size:15px;line-height:1;text-align:left=
+;color:#767676;">
+                                  <p style=3D"display: =
+block; margin: 13px 0;">Para o seu lar</p>
+                                =
+  <p style=3D"display: block; margin: 13px 0;">Para o seu neg=C3=B3cio</p>
+                                  <p style=3D"display: block; margin: 13px =
+0;">
+                                    Financia seus equipamentos com =
+facilidade
+                                  </p>
+                         =
+         <p style=3D"display: block; margin: 13px 0;">Para a =
+ind=C3=BAstria</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if =
+mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Content 03 -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-=
+height-rule:exactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+style=3D"border-collapse: collapse; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; word-break: break-word;">
+                                <p style=3D"border-top: solid 3px #333333; =
+display: block; font-size: 1; margin: 0px auto; width: 100%;"></p>
+                                <!--[if mso | IE]>
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:solid 3px #333333;font-size:1;margin:=
+0px auto;width:488px;" role=3D"presentation" width=3D"488px"
+        >
+          <tr>
+            <td style=3D"height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- Social Share -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"width:488px;"
+            >
+          <![endif]-->
+                <div =
+class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0;line-=
+height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                  <!--[if mso | IE]>
+        <table  role=3D"presentation" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+          <tr>
+       =20
+              <td
+                 style=3D"vertical-align:top;width:244px;=
+"
+              >
+              <![endif]-->
+                  <div =
+class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%=
+;">
+                    <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                      <tbody>
+                        <tr>
+                          <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                            <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                              <tr>
+                                <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                  <div =
+style=3D"font-family:helvetica;font-size:21px;line-height:1;text-align:left=
+;color:#000000;">
+                                    <p style=3D"display: =
+block; margin: 13px 0;">Acompanhe a Nexen</p>
+                             =
+     </div>
+                                </td>
+                         =
+     </tr>
+                            </table>
+                          =
+</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!--[if mso | IE]>
+              </td>
+             =20
+              <td
+                 style=3D"vertical-align:top;width:244px;=
+"
+              >
+              <![endif]-->
+                  <div =
+class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%=
+;">
+                    <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                      <tbody>
+                        <tr>
+                          <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                            <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                              <tr>
+                                <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                  <table cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" border=3D"0" style=3D"border: none; =
+border-collapse: collapse; color: #000000; font-family: helvetica; =
+font-size: 13px; line-height: 22px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; table-layout: auto; width: 100%;">
+                                    <tr align=3D"right">
+                                      <td style=3D"border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <a href=3D"http://" =
+target=3D"_blank" rel=3D"noopener noreferrer">
+                            =
+              <img width=3D"59px" height=3D"59px" src=3D"https://schumann.=
+core.dcg.com.br/Custom/Content/Themes/Nexen/Emails/Images/facebook.png" =
+style=3D"-ms-interpolation-mode: bicubic; border: 0; height: auto; =
+line-height: 100%; outline: none; text-decoration: none;">
+                                        </a>
+                              =
+        </td>
+                                      <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                                        <a =
+href=3D"http://" target=3D"_blank" rel=3D"noopener noreferrer">
+                                          <img width=3D"59px" =
+height=3D"59px" src=3D"https://schumann.core.dcg.com.=
+br/Custom/Content/Themes/Nexen/Emails/Images/instagram.png" =
+style=3D"-ms-interpolation-mode: bicubic; border: 0; height: auto; =
+line-height: 100%; outline: none; text-decoration: none;">
+                                        </a>
+                              =
+        </td>
+                                      <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                                        <a =
+href=3D"http://" target=3D"_blank" rel=3D"noopener noreferrer">
+                                          <img width=3D"59px" =
+height=3D"59px" src=3D"https://schumann.core.dcg.com.=
+br/Custom/Content/Themes/Nexen/Emails/Images/linkedin.png" =
+style=3D"-ms-interpolation-mode: bicubic; border: 0; height: auto; =
+line-height: 100%; outline: none; text-decoration: none;">
+                                        </a>
+                              =
+        </td>
+                                    </tr>
+                                  </table>
+                                =
+</td>
+                              </tr>
+                            =
+</table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!--[if mso | IE]>
+              </td>
+             =20
+          </tr>
+          </table>
+        <![endif]-->
+                </div>
+                <!--[if mso | =
+IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Social Share -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-=
+height-rule:exactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+style=3D"border-collapse: collapse; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; word-break: break-word;">
+                                <p style=3D"border-top: solid 3px #333333; =
+display: block; font-size: 1; margin: 0px auto; width: 100%;"></p>
+                                <!--[if mso | IE]>
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:solid 3px #333333;font-size:1;margin:=
+0px auto;width:488px;" role=3D"presentation" width=3D"488px"
+        >
+          <tr>
+            <td style=3D"height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- Simulator -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:15px;line-height:1;text-align:left;color:#767676;">
+                                  <p style=3D"display: block; margin: 13px =
+0;"><a class=3D"mj-link" href=3D"https://www.nexen.com.br/simulador" =
+target=3D"_blank" style=3D"display:inline-block;color:#767676;font-family:h=
+elvetica;font-size:15px;line-height:1px;text-decoration:none;text-transform=
+:none;">Clique aqui e fa=C3=A7a uma simula=C3=A7=C3=A3o!</a></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Simulator -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+style=3D"border-collapse: collapse; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; word-break: break-word;">
+                                <p style=3D"border-top: solid 3px #333333; =
+display: block; font-size: 1; margin: 0px auto; width: 100%;"></p>
+                                <!--[if mso | IE]>
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:solid 3px #333333;font-size:1;margin:=
+0px auto;width:488px;" role=3D"presentation" width=3D"488px"
+        >
+          <tr>
+            <td style=3D"height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- Contact -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:15px;line-height:1;text-align:left;color:#767676;">
+                                  <p style=3D"display: block; margin: 13px =
+0;">Compre pelo telefone</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td =
+align=3D"left" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:18px;font-weight:bold;line-height:1;text-align:left;color:=
+#231f20;">
+                                  <p style=3D"display: block; =
+margin: 13px 0;">(49)3319-3300</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if =
+mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Contact -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-=
+height-rule:exactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+style=3D"border-collapse: collapse; font-size: 0px; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; word-break: break-word;">
+                                <p style=3D"border-top: solid 3px #333333; =
+display: block; font-size: 1; margin: 0px auto; width: 100%;"></p>
+                                <!--[if mso | IE]>
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:solid 3px #333333;font-size:1;margin:=
+0px auto;width:488px;" role=3D"presentation" width=3D"488px"
+        >
+          <tr>
+            <td style=3D"height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- Promotion Rules -->
+      <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:538px;" width=3D"538"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+      <div style=3D"margin:0px =
+auto;max-width:538px;">
+        <table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; width: 100%;">
+          <tbody>
+            <tr>
+              <td style=3D"border-collapse: collapse; direction: ltr; =
+font-size: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px=
+ 25px; text-align: center;">
+                <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:=
+top;width:488px;"
+            >
+          <![endif]-->
+                <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+                  <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;">
+                    <tbody>
+                      <tr>
+                        <td =
+style=3D"border-collapse: collapse; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding: 0; vertical-align: top;">
+                          <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                            <tr>
+                              <td =
+align=3D"center" style=3D"border-collapse: collapse; font-size: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; word-break: =
+break-word;">
+                                <div style=3D"font-family:hel=
+vetica;font-size:13px;line-height:23px;text-align:center;color:#767676;">
+                                  <p style=3D"display: block; margin: 13px =
+0;">
+                                    Promo=C3=A7=C3=B5es v=C3=A1lidas =
+por tempo limitado ou
+                                    enquanto durarem =
+os estoques.
+                                  </p>
+                                  <p style=3D"display: block; margin: 13px =
+0;">
+                                    Confira aqui nossas Pol=C3=ADticas=
+ e
+                                    Regulamentos.
+                                  </p>
+                                  <p=
+ style=3D"display: block; margin: 13px 0;">
+                               =
+     AS IMAGENS NESTA MENSAGEM S=C3=83O MERAMENTE
+                         =
+           ILUSTRATIVAS.
+                                  </p>
+                                  <p style=3D"display: block; margin: 13px =
+0;">
+                                    Caso haja diferen=C3=A7a de =
+pre=C3=A7o ou descri=C3=A7=C3=A3o do
+                                    =
+produto entre este e-mail e o site, a
+                                    =
+condi=C3=A7=C3=A3o v=C3=A1lida e praticada ser=C3=A1 a do site.
+                                    O valor da compra =C3=A9 o pre=C3=A7o =
+aplicado no
+                                    carrinho.
+                                  </p>
+                                  <p=
+ style=3D"display: block; margin: 13px 0;">
+                               =
+     Este e-mail =C3=A9 um aviso informativo, n=C3=A3o
+                                    significa que voc=C3=AA est=C3=A1 =
+comprando estes
+                                    produtos nem tenha =
+feito uma reserva de
+                                    compra deles. =
+Pre=C3=A7os e condi=C3=A7=C3=B5es de
+                                    =
+pagamento exclusivos para compras via
+                                    =
+internet, e podem variar nas lojas f=C3=ADsicas.
+                          =
+          Entre em contato com um consultor nexen para
+                                    confirma=C3=A7=C3=A3o de pre=C3=A7os.
+                                  </p>
+                                  <p=
+ style=3D"display: block; margin: 13px 0;">
+                               =
+     Voc=C3=AA est=C3=A1 recebendo este e-mail porque
+                                    <mj-raw>contato@soliveenergiasolar.com.=
+br</mj-raw> est=C3=A1
+                                    cadastrado em =
+nossa base de e-mails.
+                                    Respeitamos sua =
+privacidade, se preferir
+                                    parar de =
+receber nossos e-mails clique aqui.
+                                    =
+Para ver nossa pol=C3=ADtica de privacidade
+                               =
+     clique aqui. Adicione
+                                    <span =
+style=3D"color: #000; background-color: red">vendas@e-nexen.com.br</span>
+                                    em seus contatos para garantir o =
+recebimento
+                                    de nossas =
+promo=C3=A7=C3=B5es.
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      <!-- END Contact -->
+    </div>
+  </body>
+</html>

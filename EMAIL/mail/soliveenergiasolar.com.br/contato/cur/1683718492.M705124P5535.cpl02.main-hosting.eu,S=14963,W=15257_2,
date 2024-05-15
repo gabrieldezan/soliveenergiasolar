@@ -1,0 +1,294 @@
+Return-Path: <bounces+915850-b36f-contato=soliveenergiasolar.com.br@mail.rdstation-fin.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id wIUnKVyBW2SfFQAAIElduQ
+	(envelope-from <bounces+915850-b36f-contato=soliveenergiasolar.com.br@mail.rdstation-fin.com>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 10 May 2023 11:34:52 +0000
+Return-path: <bounces+915850-b36f-contato=soliveenergiasolar.com.br@mail.rdstation-fin.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 10 May 2023 11:34:52 +0000
+Received: from o6.email.resultadosdigitais.com.br ([167.89.25.29]:58200)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <bounces+915850-b36f-contato=soliveenergiasolar.com.br@mail.rdstation-fin.com>)
+	id 1pwi5r-0009sc-2l
+	for contato@soliveenergiasolar.com.br;
+	Wed, 10 May 2023 11:34:52 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=rdstation-fin.com;
+	h=from:subject:mime-version:reply-to:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=s1; bh=fSAvN0eoj1fF4RurvCww+HYcQ3sCzZPvM/xipOltVHc=;
+	b=THQldurUxTpU6b7+1fO9psAoJhRM0C8CwIUtOwnnzTTW3CDy9tCqp6q02eMMPn0XVMeu
+	IIr8xE37agLj0lVNRaaoOSGXmxJbaiz1JUUdR/4vuYW++NA2lQ/InXI+cj9uJ9RQmAAdfv
+	KAxCfm9oOz8oU59aAPKYYM2s2xH8oVIyEBTi1jGkziWjlA5Ladka9/mx5p7CroS1hdyo38
+	QnyKYXGn3oqdJ8s2FLJzffwVKUKVjXy5uXSHOo/wN+oZ5h/y+ZGSENhASRciBd/z+Qn2Lz
+	Re4tZDEagxf0x+4bOLGLTfKhkreHJ8OsiltwzXoGXBa7FNOr7qNo6euprWT0FrsA==
+Received: by filterdrecv-7457b4c9b5-zkl2v with SMTP id filterdrecv-7457b4c9b5-zkl2v-1-645B815A-1A
+        2023-05-10 11:34:50.653270376 +0000 UTC m=+1289395.750116561
+Received: from rdstation-fin.com (unknown)
+	by geopod-ismtpd-7 (SG)
+	with ESMTP id XCVEiZiuSBSMPtgrZhUxoQ
+	for <contato@soliveenergiasolar.com.br>;
+	Wed, 10 May 2023 11:34:50.517 +0000 (UTC)
+Date: Wed, 10 May 2023 11:34:50 +0000 (UTC)
+From: Financial RD Station <financial@rdstation-fin.com>
+Message-ID: <645b8159d3260_129b1c1224e6@worker-sidekiq-7c894b4ff8-bxqhj.mail>
+Subject: Pagamento confirmado e NF =?UTF-8?B?ZGlzcG9uw612ZWw=?= do RD Station
+ Marketing - http://soliveenergiasolar.com.br
+Mime-Version: 1.0
+Reply-To: Financial RD Station <financial@rdstation-fin.com>
+X-SG-EID: 
+ =?us-ascii?Q?UMHEpXUiLQ1lKnQCfw0JZypAjCvLv2CSasAYRdJn1whzGwer9c4N+tDdqSgTxn?=
+ =?us-ascii?Q?4LQvDcbDUaP6LdHI2QzXD5GP+xY0l2q7hrA64h6?=
+ =?us-ascii?Q?EtJ+hVdanjyiwDizZibfX2oXIAmTE2fS2T5wEF6?=
+ =?us-ascii?Q?8h=2FD18I8QrXbg8C4wA=2F92M0zz4MBfMx2STBbHDg?=
+ =?us-ascii?Q?GmT+cNAAtm7uJVGq91dIg170iRB1DzFwXv01Kb=2F?=
+ =?us-ascii?Q?U6Y3VGuXC68ahQ4c6S6HiIo1SGHpTjwgMHCO3Dc?=
+ =?us-ascii?Q?GRj=2F7ovMWjgUZrMmADpMH7kILGWuDMaGU1iByWY?=
+ =?us-ascii?Q?PHQ=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb1enyDHgmk+aa=2Fu39liyrAZ5Ln=2F+rl0ImhylYXBAoj?=
+ =?us-ascii?Q?RsBekhl1vYcDGgyiS=2FOMYc0hPvWKExG8myD+Z6y?=
+ =?us-ascii?Q?HvfROOCq=2F3ilk6M0oxC2FcLxTjd9uSWoXRA4iaw?=
+ =?us-ascii?Q?PZ9WkINx1MQGpdnEUknmmEumLbCgWPi3z64f1yi?=
+ =?us-ascii?Q?3fL412RVNkfCUI6ry6HW8dTGxMA7EIUQB3NfV7G?=
+ =?us-ascii?Q?p2qrkLf+eVeh7jpfVKGngV0ug9epY474NYX3FVv?=
+ =?us-ascii?Q?BtuO9LnavLPApiDv3JPWRABH4lTfBBi8jSjXbDw?=
+ =?us-ascii?Q?VrrGW3bkpK5szLbxZT7RP2HPP=2FeUU2wteE783Pl?=
+ =?us-ascii?Q?GvEC1taWN1jJmDdMMKAFf5N1ZhDGSJcxEtQWTQF?=
+ =?us-ascii?Q?yo5Pz+=2FOEvA535YVD+Twaecb0tcJyRhg=3D=3D?=
+To: contato@soliveenergiasolar.com.br
+X-Entity-ID: WERxkjTetDnwLN9YhqJ3yA==
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_645b8159d27ce_129b1c122334";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Cobrança paga! Tudo certo por aqui. Olá, tudo bem? Queremos
+    apenas informar que já identificamos o pagamento da cobrança #2040815 do
+   RD Station Marketing da conta <strong>http://soliveenergiasolar.com.br. 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: rdstation-fin.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+
+----==_mimepart_645b8159d27ce_129b1c122334
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Cobran=E7a paga! Tudo certo por aqui.
+Ol=E1, tudo bem?
+
+Queremos apenas informar que j=E1 identificamos o pagamento da cobran=E7a #=
+2040815 do RD Station Marketing da conta <strong>http://soliveenergiasolar.=
+com.br.
+
+- Data do pagamento:</strong> 10/05/2023
+- Valor: R$75,00
+- Meio de pagamento: Cart=E3o
+
+Acesse a Nota Fiscal #1596668: https://nfps-e.pmf.sc.gov.br/consulta-fronte=
+nd/#!/consulta?cod=3D2BD3ABFD9E5D8BF5&cmc=3D4562399
+
+Atenciosamente,
+Equipe Financeira
+RD Station
+
+---------------------------------------------------------------------------=
+------------------------
+
+Esta =E9 uma mensagem autom=E1tica. N=E3o responda a esse email.
+
+Se surgirem d=FAvidas, voc=EA pode acessar nossa Central de Ajuda
+
+Central de Ajuda RD Station Marketing: https://ajuda.rdstation.com.br/hc/pt=
+-br/categories/360001773531-Contrata%C3%A7%C3%A3o-e-Financeiro
+
+Central de Ajuda RD Station CRM: https://crmsupport.rdstation.com.br/hc/pt-=
+br/categories/360001119772
+
+Estamos =E0 disposi=E7=E3o para te ajudar!
+
+=A9 RD Station. Todos os direitos reservados.
+
+----==_mimepart_645b8159d27ce_129b1c122334
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" width=3D"100%" style=3D"border-top-width: 4px; border-t=
+op-color: #19C1CE; border-top-style: solid; border-spacing: 0!important; bo=
+rder-collapse: collapse!important; table-layout: fixed!important; margin:0 =
+auto;">
+  <tbody>
+    <tr>
+      <td style=3D"border-bottom-width: 2px; border-bottom-color: #E1E4E8; =
+border-bottom-style: solid; max-width: 600px; display: block; margin: 0 aut=
+o; margin-bottom: 40px;">
+        <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" width=3D"600" style=3D"border-spacing: 0!important; border-colla=
+pse: collapse!important; table-layout:fixed!important; margin:0 auto; margi=
+n-top: 24px;">
+          <tbody>
+            <tr>
+              <td style=3D"padding: 16px;" align=3D"left">
+                <img alt=3D"RD Station" width=3D"150" border=3D"0" style=3D=
+"display: block;" src=3D"https://contas.rdstation.com.br/images/company/log=
+o-rd-station-default.png">
+              </td>
+              <td style=3D"font-family: Arial; font-size: 14px; line-height=
+: 20px; color:#212429; padding:0 16px;" align=3D"right"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align=3D"center" valign=3D"top">
+        <table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" align=3D"center" bgcolor=3D"#FFFFFF" style=3D"background-color: #FFFFFF;=
+ font-family: Arial; font-size: 14px; line-height: 20px; color:#212429;">
+          <tbody>
+            <tr>
+              <td valign=3D"top">
+<h1 style=3D"font-weight: bold; font-size: 20px; color: #212429;">Cobran=E7=
+a paga! Tudo certo por aqui.</h1>
+<p>Ol=E1, tudo bem?</p>
+<p>Queremos apenas informar que j=E1 identificamos o pagamento da <strong>c=
+obran=E7a #2040815</strong> do <strong>RD Station Marketing</strong> da con=
+ta <strong>http://soliveenergiasolar.com.br</strong>.</p>
+<ul style=3D"padding-left: 16px">
+<li><strong>Data do pagamento:</strong> 10/05/2023</li>
+<li><strong>Valor:</strong> R$75,00</li>
+<li><strong>Meio de pagamento:</strong> Cart=E3o</li>
+</ul>
+<p style=3D"text-align: center;"><span style=3D"display: block;">          =
+   <a href=3D"http://urls.rdstation-fin.com/ls/click?upn=3DQ37RLYsywIVs3cCe=
+IuDnXGkDaayfSE0Yo-2Fzj15iEhPBy3QO4EJjn05iXn78nkyDqy6WMEKjddYtaIQYlptqQEpzeU=
+T-2FnNS1MYwv90SAsX9gd6saUAMbjx-2FlomF2M9CPi4wDFNQOEvVKqzDj77YeO-2Fw-3D-3DGN=
+Qa_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZarWL4v4=
+xug9fdjgxTeyAoRwWCZm1Ib3aFdpuVfKthCEEmsPNxE2Ubab0WXNdtnx2w4O6mIg8cVY-2BK4Cp=
+CPgzzVBs8GHKybfBJNBtc8FdFxvEs0KqvgILIWHyPnWwhS6r36NsJqV88iB4Orc2ZuGlGA-2FIj=
+NSk1EaNEaQH8YDuBKU1lS2bTdQN8xx3l6fI2cWEA93ZAUragAMQXrY63z1VRaxyCTt73nYtld6c=
+50i-2F7i-2Bd0bQSsEVaLRQQkGnpeL89BpJmvo3r1nLv7JoJrxNRK2Z2v3P9-2FemCAo-2Fs0EA=
+8djrn1afXP1gJTH8eCxIySLnNn4GkLZWfRpAXdTr5HoM3AX-2FvjTFSkjqB5hY5qR7F7QeZgntH=
+ssjPQdPYFkBhAVBCF6IiuNnJVzGO3brXnKcqXgtqQIuDe2pyQ1cB6ik9LBk2J7khVE71wl-2B9O=
+ERSnHh56Ke35GNj1lncb5gRztguqQlk3rZMHSund4ndiztbW59Y1poXm8fRqyfjDKkSlndKLWI3=
+96U-2BlHNUIJoKogP4Rcktm-2F4HSH-2Fk5lYs-2FQ14-2FAcA-3D" style=3D"padding: 11=
+px 16px;             background-color: #FFF; font-weight: bold;            =
+ text-align: center; color: #19C1CE; display: inline-block; border-radius: =
+2px; text-decoration: none;             border: 1px solid #97A1AC;">       =
+      Acesse a Nota Fiscal #1596668</a></span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" align=3D"center" bgcolor=3D"#FFFFFF;" style=3D"background-color: #FFFFFF=
+; font-family: Arial; font-size: 14px; line-height: 20px; color:#212429; ma=
+rgin-top: 24px; margin-bottom: 24px;">
+          <tbody>
+            <tr>
+              <td valign=3D"top">
+                <p>Atenciosamente,<br/> Equipe Financeira<br/> <strong>RD S=
+tation</strong></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" width=3D"100%" style=3D"border-top-width: 4px; border-t=
+op-color: #F1F3F5; border-top-style: solid; border-spacing: 0!important; bo=
+rder-collapse: collapse!important; table-layout: fixed!important; margin:0 =
+auto;">
+  <tbody>
+    <tr>
+      <td style=3D"font-family: Arial; font-size: 14px; line-height: 20px; =
+color:#212429; padding: 32px 20px; max-width: 600px; display: block; margin=
+: 0 auto;" align=3D"center">
+        <p>Esta =E9 uma mensagem autom=E1tica. N=E3o responda a esse email.=
+</p>
+        <p>Se surgirem d=FAvidas, voc=EA pode acessar a <a href=3D"http://u=
+rls.rdstation-fin.com/ls/click?upn=3D-2FRRoUCqLjQ9BRcmiNi2yqeb3qPLlz-2BRnSD=
+ujw0gBDOU3QGXCRUKpHOZ1DKRY5CxCmBnA-2B9r4-2BGU2LSrw8cFdAt8ZIDjOv2mTYxJfJ45zY=
+B1zGM2acgsoDoRYfGiNoZoUx28KvmJzZjG4vRxQExrtZw-3D-3DQ4Sx_kK98eMpoK8EC5aOeSV4=
+JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZarWL4v4xug9fdjgxTeyAoRwWCZm1I=
+b3aFdpuVfKthCEEmsPNxE2Ubab0WXNdtnx2w4O6mIg8cVY-2BK4CpCPgzzVBs8GHKybfBJNBtc8=
+FdFxvEs0KqvgILIWHyPnWwhS6r36NsJqV88iB4Orc2ZuGlGA-2FIjNSk1EaNEaQH8YDuBKU1lS2=
+bTdQN8xx3l6fI2cWEA93ZAUragAMQXrY63z1VRaxyCTt73nYtld6c50i-2F7i-2Bd0bQSsEVaLR=
+QQkGnpeL89BpJmvo3r1nLv7JoJrxNRK2Z2v3P9-2FemCAo-2Fs0EA8djrn8jj4kBt2NRaRv7pvA=
+kWTa8PbSfbuw-2FMDV9r5Tlu3HZ00QPqCPdGeL8zuii1zo3789pDJ23EiM5TSqrd6Oz0CC7T6u5=
+MI7I7MoRQNcrKIOGRFvoUnVHYE6ik-2BqA5fmEswRFT-2FxAoBxRSE9TJd4oHacPr4-2BScUZka=
+ksKzS4-2FP69ZEbwCJCP6vwvgC6b43guO-2B4b1AluP8VFSCRnxToUbhI9qxK2lUtUMcdQvXbIf=
+BAMEV5bcrG6Y3nwKQ7ieQOhj3c-3D" title=3D"Central de Ajuda RD Station Marketi=
+ng" style=3D"text-decoration: none; color: #11A7B6; font-weight: bold;" tar=
+get=3D"_blank">Central de Ajuda RD Station Marketing</a> ou a <a href=3D"ht=
+tp://urls.rdstation-fin.com/ls/click?upn=3DBqkZCjWvQIERKnjEAZQhpEbWLE1fjosL=
+MvgOfxx0p-2BMLP9ah9PLR-2FbTj1IYqEcpzVbhvVy8-2FLdt1qHhjblnDwVKDRZOFUjDPIObn0=
+qkB0-2Bo-3DuE9S_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Ln=
+l6qJEZarWL4v4xug9fdjgxTeyAoRwWCZm1Ib3aFdpuVfKthCEEmsPNxE2Ubab0WXNdtnx2w4O6m=
+Ig8cVY-2BK4CpCPgzzVBs8GHKybfBJNBtc8FdFxvEs0KqvgILIWHyPnWwhS6r36NsJqV88iB4Or=
+c2ZuGlGA-2FIjNSk1EaNEaQH8YDuBKU1lS2bTdQN8xx3l6fI2cWEA93ZAUragAMQXrY63z1VRax=
+yCTt73nYtld6c50i-2F7i-2Bd0bQSsEVaLRQQkGnpeL89BpJmvo3r1nLv7JoJrxNRK2Z2v3P9-2=
+FemCAo-2Fs0EA8djrmrwXwlf8pDkjSn4fS7aFfLeindXXd-2B71iH4pFZVnAsPfbpw0TVvCcm2I=
+B6Jc4Gf5lbIaHhiVdGaXzvEBjwIlEK78k3NnlG6J6U-2BZYQBO-2FYAX3dXlYbSxhaxsmyf7Ppf=
+LvEdtkGdGs7TidARiRi4eJe0fVhVHMef8y1c3qiTjppf1yaZhm2EOqrbgcSgvVb3iho3y96ZcJG=
+vQanzqjdAMp9oiqZ-2FE3IzD1CWoo-2BWapJNYoFulkOcp9aoc1D5Pbykjw-3D" title=3D"Ce=
+ntral de Ajuda RD Station CRM" style=3D"text-decoration: none; color: #11A7=
+B6; font-weight: bold;" target=3D"_blank">Central de Ajuda RD Station CRM</=
+a>. Estamos =E0 disposi=E7=E3o para te ajudar!</p>
+        <p><img alt=3D"RD Station" width=3D"91" border=3D"0" style=3D"displ=
+ay: block;" src=3D"https://contas.rdstation.com.br/images/company/logo-rd-s=
+tation-default.png"></p>
+        <p>=A9 RD Station. Todos os direitos reservados.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<img src=3D"http://urls.rdstation-fin.com/wf/open?upn=3Dm8sqQTK7H7veP1VIavT=
+-2Fp3OiTEP71oo3bfrUM75McanZKUpUtyGA7Sq0KWWnziuecbvMIO-2FGIf5kkzdvzJnBmzLe76=
+e6uMQf7rfH3JfBgT6aJ5BZatSw5xNnCAkI7YTDmIgwKOKvMYeIb9IYDI2SQ14b1wmjf-2BT1tRY=
+b-2FSl7Xzs4RZltcMKqlTVL8xvYPn027HtuQ-2FdJ7ewrB6zI6CvFdXMOsxF7haoOzf1ruS17-2=
+FLLiu6cO2wSaEdcwNGgmge2-2B-2FV03U-2FAAjv2Bm0Ihf40rNsTcBfdF9EobYhMr-2BXIQBUu=
+u5aKupRlsAvFq-2F40z4B7aThFnvcunUAelIHZgLOFGVFYSFM-2BHUHGaN-2FV3c0fPILPWKAcF=
+65jdWTCFk324PvAfae97z-2BKxBxZIKtqErw7YtDYVnFc-2BqAu5Wj0bMsjYQykYTmQtPp1rZxc=
+e3xuz0eUje435gLe2p8B5h7tZL1j-2FHArxV5c90y7yAnlycYy1kCWJu39PNy6KnJU0qPCwviLg=
+CzBRXOj3CWJ8UlDHNxfRirZZeCDTvWGC5b-2F1tWIsQ8mdKgCaQPoDXJkdhd6bJqdclL3Q8PCIp=
+Fxr8P4oSs3V2B3Fy9QXe8SX3QDQoqX-2Bf38-3D" alt=3D"" width=3D"1" height=3D"1" =
+border=3D"0" style=3D"height:1px !important;width:1px !important;border-wid=
+th:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-r=
+ight:0 !important;margin-left:0 !important;padding-top:0 !important;padding=
+-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"=
+/>
+----==_mimepart_645b8159d27ce_129b1c122334--

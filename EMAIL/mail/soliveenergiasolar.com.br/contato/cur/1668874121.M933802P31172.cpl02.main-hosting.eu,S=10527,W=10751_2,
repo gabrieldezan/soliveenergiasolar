@@ -1,0 +1,224 @@
+Return-Path: <0103018490a62771-010cf452-08af-43ac-8523-c2151c99fbbd-000000@mailer.conexa.app>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id YIsoN4n/eGPEeQAAIElduQ
+	(envelope-from <0103018490a62771-010cf452-08af-43ac-8523-c2151c99fbbd-000000@mailer.conexa.app>)
+	for <contato@soliveenergiasolar.com.br>; Sat, 19 Nov 2022 16:08:41 +0000
+Return-path: <0103018490a62771-010cf452-08af-43ac-8523-c2151c99fbbd-000000@mailer.conexa.app>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Sat, 19 Nov 2022 16:08:41 +0000
+Received: from d215-8.smtp-out.sa-east-1.amazonses.com ([23.249.215.8]:47609)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.95)
+	(envelope-from <0103018490a62771-010cf452-08af-43ac-8523-c2151c99fbbd-000000@mailer.conexa.app>)
+	id 1owQOX-00024g-37
+	for contato@soliveenergiasolar.com.br;
+	Sat, 19 Nov 2022 16:08:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ehpusqurqkmiy4bdwajoxju2xgsi6zqa; d=conexa.app; t=1668874119;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=KEcVGsLNe3fd1Oj4jnv8KOjYyWDQ+0/qB5VcHHhp78I=;
+	b=Ln5F31C0fZwAqjvpe2MUN4JG1fwh109Uw14lmdimCVqZTFZdn+8evr7LLwqhdHAZ
+	5uEEq1qYUFWlA/Ped//HylBUhVNHXN7RTN+YzZAMpRDyz0OUwrqjkg2SzPvbWKhUVE/
+	QZ0ZNEE3Rtt2Pawd/IZktYBrJyDqY/eb2z6wADBk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=bm3ypaoivbtdzmy3b6w37fzb5voa2uru; d=amazonses.com; t=1668874119;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=KEcVGsLNe3fd1Oj4jnv8KOjYyWDQ+0/qB5VcHHhp78I=;
+	b=Y3Zk93b69A9xr/azdJ0yUhJkD60wfm3IR8eW+M0TZAwQrpf/pwXG4vxrJKte2hws
+	tM7mDTDIEepwUHJyq1gWRB+tUA3wKDBoj/YsQytYA5dAvnmRzaKWr3EZryxHCnyXE4+
+	9SMOL68eFL580yGB8n+MXco4N7m/Wuw6NXSLX0Bo=
+From: WIGGLE COMUNICACAO <envios@conexa.app>
+Reply-To: financeiros@wiggle.com.br
+To: contato@soliveenergiasolar.com.br
+Subject: =?UTF-8?Q?Importante:_Pagamento_n=C3=A3o_encontrado?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_294290_610158219.1668874119030"
+Message-ID: <0103018490a62771-010cf452-08af-43ac-8523-c2151c99fbbd-000000@sa-east-1.amazonses.com>
+Date: Sat, 19 Nov 2022 16:08:39 +0000
+Feedback-ID: 1.sa-east-1.rMO+gWn51nLYEJBb/1yMQrIT9GNU/e9OLPyhKPDYVs0=:AmazonSES
+X-SES-Outgoing: 2022.11.19-23.249.215.8
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  SOLIVE ENERGIA SOLAR LTDA, Não identificamos o pagamento
+   de seu boleto junto a WIGGLE COMUNICACAO. Pedimos sua colaboração para regularização
+    imediata evitando o bloqueio de recados e posteriormente protesto bancário
+    do t [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_ZEN_BLOCKED_OPENDNS RBL: ADMINISTRATOR NOTICE: The query
+                              to zen.spamhaus.org was blocked due to
+                             usage of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [23.249.215.8 listed in zen.spamhaus.org]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: conexa.app]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: conexa.app]
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+------=_Part_294290_610158219.1668874119030
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+SOLIVE ENERGIA SOLAR LTDA,
+
+N=C3=A3o identificamos o pagamento de seu boleto junto a WIGGLE COMUNICACAO=
+.
+Pedimos sua colabora=C3=A7=C3=A3o para regulariza=C3=A7=C3=A3o imediata evi=
+tando o bloqueio de recados e posteriormente protesto banc=C3=A1rio do t=C3=
+=ADtulo conforme previsto em contrato.
+
+
+**Link da fatura para pagamento:**
+
+https://wiggle.conexa.app/index.php?r=3Dcobranca/fatura&id=3D832734d84f83c1=
+cc5ce22ab3eb9d02cb&u=3Dcontato%40soliveenergiasolar.com.br (Acesse: https:/=
+/wiggle.conexa.app/index.php?r=3Dcobranca/fatura&id=3D832734d84f83c1cc5ce22=
+ab3eb9d02cb&u=3Dcontato%40soliveenergiasolar.com.br" target=3D"_blank)
+
+
+**Detalhes da Cobran=C3=A7a:**
+-----------------------------------------------------------------
+Cliente: SOLIVE ENERGIA SOLAR
+Valor: R$ 1.749,00
+Vencimento: 17/11/2022
+
+
+QTD DESCRI=C3=87=C3=83O SOLICITANTE VALOR (R$)
+1 SOCIAL ADS Mensal - de 17/11/2022 a 16/12/2022 (Contrato) 1.749,00
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+**Valor Bruto:** R$ 1.749,00
+**[Desconto] -** R$ 0,00
+**Valor do ISS (2,15%): - ** R$ 37,60
+**Desconto: - **R$
+**Valor Final:** R$ 1.749,00
+
+Qualquer d=C3=BAvida, problema ou sugest=C3=A3o por favor entre em contato =
+conosco para que possamos lhe ajudar.
+
+
+**Atenciosamente,
+WIGGLE COMUNICACAO
+45999832476
+/**
+
+------=_Part_294290_610158219.1668874119030
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+SOLIVE ENERGIA SOLAR LTDA,<br />
+<br />
+N&atilde;o identificamos o pagamento de seu boleto junto a WIGGLE COMUNICAC=
+AO.<br />
+Pedimos sua colabora&ccedil;&atilde;o para regulariza&ccedil;&atilde;o imed=
+iata evitando o bloqueio de recados e posteriormente protesto banc&aacute;r=
+io do t&iacute;tulo conforme previsto em contrato.<br />
+<br />
+<strong>Link da fatura para pagamento:</strong><br />
+<br />
+<a href=3D"https://wiggle.conexa.app/index.php?r=3Dcobranca/fatura&id=3D832=
+734d84f83c1cc5ce22ab3eb9d02cb&u=3Dcontato%40soliveenergiasolar.com.br" targ=
+et=3D"_blank">https://wiggle.conexa.app/index.php?r=3Dcobranca/fatura&id=3D=
+832734d84f83c1cc5ce22ab3eb9d02cb&u=3Dcontato%40soliveenergiasolar.com.br</a=
+><br />
+<br />
+<strong>Detalhes da Cobran&ccedil;a:</strong><br />
+-----------------------------------------------------------------<br />
+Cliente: SOLIVE ENERGIA SOLAR<br />
+Valor: R$ 1.749,00<br />
+Vencimento: 17/11/2022<br />
+<div id=3D"cliente38"><div class=3D"detalhamento"><table class=3D"table hid=
+den2" style=3D"width: 100%; border-spacing:1px; border-collapse:collapse; b=
+order-width:1px; font-size: 13px;"><tr>
+=09=09=09=09=09=09=09=09<th class=3D"thQtdApp" >QTD</th>
+=09=09=09=09=09=09=09=09<th class=3D"thDescApp" style=3D"width: 55%;">DESCR=
+I=C3=87=C3=83O</th>
+=09=09=09=09=09=09=09=09<th style=3D"width: 20%;" class=3D"thSolicitante">S=
+OLICITANTE</th>
+=09=09=09=09=09=09=09=09<th class=3D"thValorApp" style=3D"text-align: right=
+">VALOR (R$)</th>
+=09=09=09=09=09=09=09</tr><tr>
+=09=09=09=09=09=09=09=09=09=09<td class=3D"tdQtdApp">1</td>
+=09=09=09=09=09=09=09=09=09=09<td class=3D"tdDescApp">SOCIAL ADS Mensal - d=
+e 17/11/2022 a 16/12/2022 (Contrato)</td>
+=09=09=09=09=09=09=09=09=09=09<td class=3D"tdSolicitante"></td>
+=09=09=09=09=09=09=09=09=09=09<td class=3D"tdValorApp" style=3D"text-align:=
+ right">1.749,00</td>
+=09=09=09=09=09=09=09=09=09</tr></table><div class=3D"bodyLabel boxValFinai=
+s" data-id=3D"38"><hr class=3D"detalhamento"><div style=3D"text-align: righ=
+t;margin-top: 10px;">
+=09=09=09=09=09=09=09=09<label>
+=09=09=09=09=09=09=09=09=09<strong>Valor Bruto:</strong> R$ <span id=3D"tot=
+al38">1.749,00</span>
+=09=09=09=09=09=09=09=09=09<input type=3D"hidden" id=3D"valorRecibo38" valu=
+e=3D"0,00">
+=09=09=09=09=09=09=09=09</label>
+=09=09=09=09=09=09=09</div><div style=3D"text-align: right; display:none; o=
+verflow:hidden;">
+=09=09=09=09=09=09=09=09<label>
+=09=09=09=09=09=09=09=09=09<strong>[Desconto] -</strong> R$ <span id=3D"des=
+conto38">0,00</span>
+=09=09=09=09=09=09=09=09</label>
+=09=09=09=09=09=09=09</div><div id=3D"aliquota-container38" style=3D"displa=
+y:none">
+=09=09=09=09=09=09=09=09<label>
+=09=09=09=09=09=09=09=09=09<div style=3D"text-align: right" class=3D"valorD=
+escontado">
+=09=09=09=09=09=09=09=09=09=09<strong>Valor do ISS (<span id=3D"aliquota38"=
+>2,15</span>%): - </strong> R$ <span id=3D"valor-iss38">37,60</span>
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09</label>
+=09=09=09=09=09=09=09</div><div id=3D"desconto-container38" style=3D"displa=
+y:none">
+=09=09=09=09=09=09=09=09<label>
+=09=09=09=09=09=09=09=09=09<div style=3D"text-align: right"  class=3D"valor=
+Descontado">
+=09=09=09=09=09=09=09=09=09=09<strong>Desconto: - </strong>R$ <span id=3D"v=
+alor-desconto-aplicado38"></span>
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09</label>
+=09=09=09=09=09=09=09</div><div style=3D"text-align: right">
+=09=09=09=09=09=09=09=09<strong>Valor Final:</strong> R$ <span class=3D"val=
+orFinal" data-enabled=3Dtrue id=3D"totalComDesconto38">1.749,00</span>
+=09=09=09=09=09=09=09</div></div></div></div><br />
+<br />
+Qualquer d&uacute;vida, problema ou sugest&atilde;o por favor entre em cont=
+ato conosco para que possamos lhe ajudar.<br />
+<br />
+<strong>Atenciosamente,<br />
+WIGGLE COMUNICACAO<br />
+45999832476<br />
+/</strong><br><img src=3D"https://wiggle.conexa.app/index.php?r=3Daviso/reg=
+istrarVisualizacao&idEmail=3D730&email=3Dcontato@soliveenergiasolar.com.br"=
+ width=3D"1" height=3D"1" style=3D"display:block" alt=3D"_" />
+------=_Part_294290_610158219.1668874119030--

@@ -1,0 +1,1888 @@
+Return-Path: <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id gJTkJBHsc2IVQwAAJcoV8Q
+	(envelope-from <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 05 May 2022 15:24:01 +0000
+Return-path: <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 05 May 2022 15:24:01 +0000
+Received: from m225-25.mailgun.net ([159.135.225.25]:21852)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounce+25b23e.cdeec-contato=soliveenergiasolar.com.br@nubank.com.br>)
+	id 1nmdKi-0005ED-T3
+	for contato@soliveenergiasolar.com.br; Thu, 05 May 2022 15:24:01 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=nubank.com.br; q=dns/txt;
+ s=mailgun; t=1651764220; h=Message-Id: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version: Date: Sender: Sender;
+ bh=GZJR7uFqml9VthsALxWzDlZYd+n8004z1MBNLduM9Qg=; b=IglYLiQmKFPw+gqOjFGYFpQx3w1AqGdsjaV6hM/U9Pdpqk+7RLILmII7DRDYXs97rbtY06OK
+ ru7Y4tKeEfQrzFWDy4/mPkA0zBEmy94IdkF6DdVer/JGT8n4f4+gaghzQJmYFcMuxj52IKNe
+ 5ezCVvtZoRqVC5viYcYz2R4/NLrsFLNTv37t45UuTgq5AY3SQRnI11jCZPScM1Ya9sjfHES5
+ /Kv3J/WJvsuWeZvRrnuYiAX+ttpdNPM5LSiLN1JevkRLIE/oRvgpLIguvR0mGclrW0b2pmht
+ Np+D61OK6fQv0oQFirG1UHUmKihTKtE4+2czrilY4ltkLUIJzCYccA==
+X-Mailgun-Sending-Ip: 159.135.225.25
+X-Mailgun-Sid: WyJhMzQ4MiIsICJjb250YXRvQHNvbGl2ZWVuZXJnaWFzb2xhci5jb20uYnIiLCAiY2RlZWMiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n17.prod.us-east-1.postgun.com with HTTP id 6273ebe7793316916ad7edbe;
+ Thu, 05 May 2022 15:23:19 GMT
+Sender: todomundo@nubank.com.br
+Date: Thu, 05 May 2022 15:23:19 +0000
+Mime-Version: 1.0
+Content-Type: multipart/mixed; boundary="4745f63a867a289c42690b954c8c4e3edfc3562739a817246fabafd880e3"
+Subject: Sua conta PJ foi criada
+From: Nubank <todomundo@nubank.com.br>
+To: Solive Energia Solar <contato@soliveenergiasolar.com.br>
+X-Mailgun-Variables: {"nu-contact-id":"6273ebc6-f765-4b29-8b1c-6c93f6fd3d86",
+ "nu-external-id":"95dfb760-ff87-3813-b05e-3450a04f40ef",
+ "nu-prototype":"s17",
+ "nu-template-name":"company/savings-account/welcome/emails/new-account-creation-welcome-2-test/v1"}
+Message-Id: <20220505152319.26e72ec739e88c94@nubank.com.br>
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Veja seus dados de conta e como fazer seu primeiro depósito.
+    Essa comunicação é sobre a conta PJ do seu negócio Solive Energia Solar
+    Pode comemorar! Sua conta PJ foi criada 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--4745f63a867a289c42690b954c8c4e3edfc3562739a817246fabafd880e3
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">=20
+ <head>=20
+  <title></title><!--[if !mso]><!-- -->=20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><!--<![endif]-=
+->=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">=20
+  <style type=3D"text/css">#outlook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-=
+size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-de=
+coration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }</style><!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->=20
+  <style type=3D"text/css">@media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+=2Emj-column-per-14 { width:14% !important; max-width: 14%; }
+=2Emj-column-per-1 { width:1% !important; max-width: 1%; }
+=2Emj-column-per-85 { width:85% !important; max-width: 85%; }
+      }</style>=20
+  <style type=3D"text/css">@media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style>=20
+  <style type=3D"text/css">.text div {
+    font-size: 16px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .text div {
+      font-size: 12px !important;
+      line-height: 146% !important;
+    }
+  } =20
+  .subtitle div {
+    font-size: 20px !important;
+    line-height: 125% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .subtitle div {
+      font-size: 16px !important;
+      line-height: 132% !important;
+    }
+  }  =20
+  .title div {
+    font-size: 48px !important;
+    line-height: 115% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .title div {
+      font-size: 28px !important;
+      line-height: 112% !important;
+    }
+  }=20
+  .button a {
+    font-size: 18px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .button a {
+      font-size: 14px !important;
+      line-height: 116% !important;
+    }
+  }
+  .small-text div {
+    font-size: 10px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .small-text div {
+      font-size: 10px !important;
+      line-height: 132% !important;
+    }
+  }=20
+  .step-number div {
+    font-size: 18px !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .step-number div {
+      font-size: 14px !important;
+    }
+  }=20
+  .icon img {
+    width: 44px !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .icon img {
+      width: 32px !important;
+    }
+  }.text div {
+    font-size: 16px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .text div {
+      font-size: 12px !important;
+      line-height: 146% !important;
+    }
+  } =20
+  .subtitle div {
+    font-size: 20px !important;
+    line-height: 125% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .subtitle div {
+      font-size: 16px !important;
+      line-height: 132% !important;
+    }
+  }  =20
+  .title div {
+    font-size: 48px !important;
+    line-height: 115% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .title div {
+      font-size: 28px !important;
+      line-height: 112% !important;
+    }
+  }=20
+  .button a {
+    font-size: 18px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .button a {
+      font-size: 14px !important;
+      line-height: 116% !important;
+    }
+  }
+  .small-text div {
+    font-size: 10px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .small-text div {
+      font-size: 10px !important;
+      line-height: 132% !important;
+    }
+  }=20
+  .step-number div {
+    font-size: 18px !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .step-number div {
+      font-size: 14px !important;
+    }
+  }=20
+  .icon img {
+    width: 44px !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .icon img {
+      width: 32px !important;
+    }
+  }.text div {
+    font-size: 16px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .text div {
+      font-size: 12px !important;
+      line-height: 146% !important;
+    }
+  } =20
+  .subtitle div {
+    font-size: 20px !important;
+    line-height: 125% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .subtitle div {
+      font-size: 16px !important;
+      line-height: 132% !important;
+    }
+  }  =20
+  .title div {
+    font-size: 48px !important;
+    line-height: 115% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .title div {
+      font-size: 28px !important;
+      line-height: 112% !important;
+    }
+  }=20
+  .button a {
+    font-size: 18px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .button a {
+      font-size: 14px !important;
+      line-height: 116% !important;
+    }
+  }
+  .small-text div {
+    font-size: 10px !important;
+    line-height: 132% !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .small-text div {
+      font-size: 10px !important;
+      line-height: 132% !important;
+    }
+  }=20
+  .step-number div {
+    font-size: 18px !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .step-number div {
+      font-size: 14px !important;
+    }
+  }=20
+  .icon img {
+    width: 44px !important;
+  }=20
+  @media only screen and (max-width: 480px){
+    .icon img {
+      width: 32px !important;
+    }
+  }</style>=20
+  <meta name=3D"format-detection" content=3D"telephone=3Dno">=20
+  <meta name=3D"format-detection" content=3D"telephone=3Dno">=20
+  <meta name=3D"format-detection" content=3D"telephone=3Dno">=20
+ </head>=20
+ <body>=20
+  <div style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;ma=
+x-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+    Veja seus dados de conta e como fazer seu primeiro dep=C3=B3sito.=20
+  </div>=20
+  <div> <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><=
+tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;=
+"><![endif]-->=20
+   <div style=3D"background:#FFFFFF;background-color:#FFFFFF;margin:0px aut=
+o;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#FFFFFF;background-color:#FFFFF=
+F;width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-bottom:=
+24px;padding-left:48px;padding-right:48px;padding-top:24px;text-align:cente=
+r;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;wid=
+th:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"small-text" style=3D"font-size:=
+0px;padding:0px;padding-bottom:8px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:10px;line-he=
+ight:132%;text-align:left;color:#000000;">
+                   Essa comunica=C3=A7=C3=A3o =C3=A9 sobre <b>a conta PJ do=
+ seu neg=C3=B3cio</b> Solive Energia Solar=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><v:rect style=3D"width:600px;" xmlns:v=3D"urn:schemas-m=
+icrosoft-com:vml" fill=3D"true" stroke=3D"false"><v:fill origin=3D"0.5, 0" =
+position=3D"0.5, 0" src=3D"https://nu-emails.s3.amazonaws.com/nu-PJ/headers=
+/header-purple-bg.png" type=3D"tile" /><v:textbox style=3D"mso-fit-shape-to=
+-text:true" inset=3D"0,0,0,0"><![endif]-->=20
+   <div style=3D"background:url(https://nu-emails.s3.amazonaws.com/nu-PJ/he=
+aders/header-purple-bg.png) top center / 100% 130px no-repeat;margin:0px au=
+to;max-width:600px;">=20
+    <div style=3D"line-height:0;font-size:0;">=20
+     <table align=3D"center" background=3D"https://nu-emails.s3.amazonaws.c=
+om/nu-PJ/headers/header-purple-bg.png" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"background:url(https://nu-email=
+s.s3.amazonaws.com/nu-PJ/headers/header-purple-bg.png) top center / 100% 13=
+0px no-repeat;width:100%;">=20
+      <tbody>=20
+       <tr>=20
+        <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:4=
+8px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D=
+"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td cla=
+ss=3D"" style=3D"vertical-align:top;width:504px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"fon=
+t-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-alig=
+n:top;width:100%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;">=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"left" style=3D"font-size:0px;padding:40px 0px=
+ 40px 0px;word-break:break-word;">=20
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"=
+>=20
+                   <tbody>=20
+                    <tr>=20
+                     <td style=3D"width:50px;"><img height=3D"auto" src=3D"=
+https://staging-cdn.nubank.com.br/pj/savings-account/nu logo_White.png" sty=
+le=3D"border:0;display:block;outline:none;text-decoration:none;height:auto;=
+width:100%;font-size:13px;" width=3D"50"></td>=20
+                    </tr>=20
+                   </tbody>=20
+                  </table></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+       </tr>=20
+      </tbody>=20
+     </table>=20
+    </div>=20
+   </div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><v:rect style=3D"width:600px;" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D"false"><v:fi=
+ll origin=3D"0.5, 0" position=3D"0.5, 0" src=3D"https://nu-emails.s3.amazon=
+aws.com/nu-PJ/headers/header-purple-bg.png" type=3D"tile" /><v:textbox styl=
+e=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![endif]-->=20
+   <div style=3D"background:url(https://nu-emails.s3.amazonaws.com/nu-PJ/he=
+aders/header-purple-bg.png) top center / 100% 140px no-repeat;margin:0px au=
+to;max-width:600px;">=20
+    <div style=3D"line-height:0;font-size:0;">=20
+     <table align=3D"center" background=3D"https://nu-emails.s3.amazonaws.c=
+om/nu-PJ/headers/header-purple-bg.png" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"background:url(https://nu-email=
+s.s3.amazonaws.com/nu-PJ/headers/header-purple-bg.png) top center / 100% 14=
+0px no-repeat;width:100%;">=20
+      <tbody>=20
+       <tr>=20
+        <td style=3D"direction:ltr;font-size:0px;padding:0px;text-align:cen=
+ter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0"><tr><td class=3D"" width=3D"600px" ><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" sty=
+le=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;"><v:rect style=3D"width:600px;" xmlns:=
+v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D"false"><v:fill =
+origin=3D"0.5, 0" position=3D"0.5, 0" src=3D"https://nu-emails.s3.amazonaws=
+=2Ecom/nu-PJ/photos/photo2.png" type=3D"t=
+ile" /><v:textbox style=3D"mso-fit-s=
+hape-to-text:true" inset=3D"0,0,0,0"><![endif]-->=20
+         <div style=3D"background:url(https://nu-emails.s3.amazonaws.com/nu=
+-PJ/photos/photo2.png) top center / 508px 280px no-repeat;margin:0px auto;m=
+ax-width:600px;">=20
+          <div style=3D"line-height:0;font-size:0;">=20
+           <table align=3D"center" background=3D"https://nu-emails.s3.amazo=
+naws.com/nu-PJ/photos/photo2.png" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"background:url(https://nu-emails.s3.=
+amazonaws.com/nu-PJ/photos/photo2.png) top center / 508px 280px no-repeat;w=
+idth:100%;">=20
+            <tbody>=20
+             <tr>=20
+              <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-=
+left:48px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table r=
+ole=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td class=3D"" style=3D"vertical-align:top;width:504px;" ><![endif]-->=20
+               <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:100%;">=20
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" width=3D"100%">=20
+                 <tbody>=20
+                  <tr>=20
+                   <td style=3D"vertical-align:top;padding:0px;">=20
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" width=3D"100%">=20
+                     <tbody>=20
+                      <tr>=20
+                       <td style=3D"font-size:0px;word-break:break-word;"><=
+!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td height=3D"280" style=3D"vertical-align:top;heig=
+ht:280px;"><![endif]-->=20
+                        <div style=3D"height:280px;">
+                          &nbsp;=20
+                        </div><!--[if mso | IE]></td></tr></table><![endif]=
+--></td>=20
+                      </tr>=20
+                     </tbody>=20
+                    </table></td>=20
+                  </tr>=20
+                 </tbody>=20
+                </table>=20
+               </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+             </tr>=20
+            </tbody>=20
+           </table>=20
+          </div>=20
+         </div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table></t=
+d></tr></table><![endif]--></td>=20
+       </tr>=20
+      </tbody>=20
+     </table>=20
+    </div>=20
+   </div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:top;width:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"title" style=3D"font-size:0px;p=
+adding:0px;padding-top:48px;padding-bottom:48px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:48px;font-we=
+ight:bold;line-height:115%;text-align:left;color:#000000;">
+                   Pode comemorar! Sua conta PJ foi criada=20
+                 </div></td>=20
+               </tr>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;padding-bottom:32px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;"> <strong>Sua conta PJ est=C3=A1 p=
+ronta para ser usada.</strong> Os dados dela s=C3=A3o:=20
+                 </div></td>=20
+               </tr>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;"> <strong>Banco:</strong> Nu Pagam=
+entos (0260)=20
+                  <br>=20
+                  <br><strong>Ag=C3=AAncia:</strong> 0001=20
+                  <br>=20
+                  <br><strong>Conta:</strong> 80622344-7=20
+                  <br>=20
+                  <br>A sua <strong>declara=C3=A7=C3=A3o de conta ativa</st=
+rong> est=C3=A1 no arquivo anexo. Esse documento confirma que voc=C3=AA pos=
+sui uma <strong>conta PJ</strong> ativa no Nubank.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:top;width:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"subtitle" style=3D"font-size:0p=
+x;padding:0px;padding-top:48px;padding-bottom:32px;word-break:break-word;">=
+=20
+                 <div style=3D"font-family:Helvetica;font-size:20px;font-we=
+ight:bold;line-height:125%;text-align:left;color:#000000;">
+                   Como deposito dinheiro na conta?=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"width:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direc=
+tion:ltr;"> <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"vertical-align:top;width:=
+70px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:14%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;padding-top:16px;"=
+>=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"center" class=3D"step-number" style=3D"font-s=
+ize:0px;padding:0px;padding-right:16px;word-break:break-word;">=20
+                  <div style=3D"font-family:Helvetica;font-size:18px;font-w=
+eight:bold;line-height:132%;text-align:center;color:#000000;">
+                    1=20
+                  </div></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td><td style=3D"vertical-align:top;width=
+:5px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+top;width:1%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;">=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td><td style=3D"vertical-align:top;width=
+:428px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:85%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;padding-top:16px;"=
+>=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"left" class=3D"text" style=3D"font-size:0px;p=
+adding:0px;word-break:break-word;">=20
+                  <div style=3D"font-family:Helvetica;font-size:16px;line-h=
+eight:132%;text-align:left;color:#000000;">
+                    Na tela inicial do app, clique no seu perfil no canto s=
+uperior esquerdo e acesse sua conta PJ clicando em "<strong>Acessar outra c=
+onta</strong>";=20
+                  </div></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td></tr></table><![endif]-->=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"width:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direc=
+tion:ltr;"> <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"vertical-align:top;width:=
+70px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:14%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;padding-top:16px;"=
+>=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"center" class=3D"step-number" style=3D"font-s=
+ize:0px;padding:0px;padding-right:16px;word-break:break-word;">=20
+                  <div style=3D"font-family:Helvetica;font-size:18px;font-w=
+eight:bold;line-height:132%;text-align:center;color:#000000;">
+                    2=20
+                  </div></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td><td style=3D"vertical-align:top;width=
+:5px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+top;width:1%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;">=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td><td style=3D"vertical-align:top;width=
+:428px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:85%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;padding-top:16px;"=
+>=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"left" class=3D"text" style=3D"font-size:0px;p=
+adding:0px;word-break:break-word;">=20
+                  <div style=3D"font-family:Helvetica;font-size:16px;line-h=
+eight:132%;text-align:left;color:#000000;">
+                    Toque na op=C3=A7=C3=A3o "<strong>Depositar</strong>" n=
+a tela inicial do app;=20
+                  </div></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td></tr></table><![endif]-->=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"width:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direc=
+tion:ltr;"> <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td style=3D"vertical-align:top;width:=
+70px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:14%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;padding-top:16px;"=
+>=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"center" class=3D"step-number" style=3D"font-s=
+ize:0px;padding:0px;padding-right:16px;word-break:break-word;">=20
+                  <div style=3D"font-family:Helvetica;font-size:18px;font-w=
+eight:bold;line-height:132%;text-align:center;color:#000000;">
+                    3=20
+                  </div></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td><td style=3D"vertical-align:top;width=
+:5px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+top;width:1%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;">=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td><td style=3D"vertical-align:top;width=
+:428px;" ><![endif]-->=20
+         <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:85%;">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%">=20
+           <tbody>=20
+            <tr>=20
+             <td style=3D"vertical-align:top;padding:0px;padding-top:16px;"=
+>=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+               <tbody>=20
+                <tr>=20
+                 <td align=3D"left" class=3D"text" style=3D"font-size:0px;p=
+adding:0px;word-break:break-word;">=20
+                  <div style=3D"font-family:Helvetica;font-size:16px;line-h=
+eight:132%;text-align:left;color:#000000;">
+                    Escolha a op=C3=A7=C3=A3o que preferir para colocar din=
+heiro na conta: atrav=C3=A9s de um boleto de dep=C3=B3sito, Pix ou usando s=
+eus dados da conta para transferir.=20
+                  </div></td>=20
+                </tr>=20
+               </tbody>=20
+              </table></td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+         </div><!--[if mso | IE]></td></tr></table><![endif]-->=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:top;width:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"subtitle" style=3D"font-size:0p=
+x;padding:0px;padding-top:48px;padding-bottom:32px;word-break:break-word;">=
+=20
+                 <div style=3D"font-family:Helvetica;font-size:20px;font-we=
+ight:bold;line-height:125%;text-align:left;color:#000000;">
+                   Algumas coisas sobre o uso da conta PJ:=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:8px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:middle;width:70.56px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"icon" style=3D"font-size:0px;pa=
+dding:0px;padding-right:24px;word-break:break-word;">=20
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;">=
+=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"width:46px;"><img height=3D"auto" src=3D"h=
+ttps://nu-emails.s3.amazonaws.com/nu-PJ/icons/icon-moneyin.png" style=3D"bo=
+rder:0;display:block;outline:none;text-decoration:none;height:auto;width:10=
+0%;font-size:13px;" width=3D"46"></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:top;width:5.04px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-s=
+ize:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:t=
+op;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;padding-top:16px;">=
+=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:middle;width:428.4px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;">
+                   Todas as <strong>transfer=C3=AAncias s=C3=A3o gratuitas =
+e ilimitadas</strong> para qualquer banco.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:8px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:middle;width:70.56px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"icon" style=3D"font-size:0px;pa=
+dding:0px;padding-right:24px;word-break:break-word;">=20
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;">=
+=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"width:46px;"><img height=3D"auto" src=3D"h=
+ttps://nu-emails.s3.amazonaws.com/nu-PJ/icons/icon-barcode.png" style=3D"bo=
+rder:0;display:block;outline:none;text-decoration:none;height:auto;width:10=
+0%;font-size:13px;" width=3D"46"></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:top;width:5.04px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-s=
+ize:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:t=
+op;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;padding-top:16px;">=
+=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:middle;width:428.4px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;">
+                   Voc=C3=AA pode <strong>gerar boletos de cobran=C3=A7a di=
+reto pelo aplicativo</strong>. H=C3=A1 uma tarifa de R$ 3,00 apenas se o bo=
+leto for pago.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:8px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:middle;width:70.56px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"icon" style=3D"font-size:0px;pa=
+dding:0px;padding-right:24px;word-break:break-word;">=20
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;">=
+=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"width:46px;"><img height=3D"auto" src=3D"h=
+ttps://nu-emails.s3.amazonaws.com/nu-PJ/icons/icon-money.png" style=3D"bord=
+er:0;display:block;outline:none;text-decoration:none;height:auto;width:100%=
+;font-size:13px;" width=3D"46"></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:top;width:5.04px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-s=
+ize:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:t=
+op;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;padding-top:16px;">=
+=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:middle;width:428.4px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;">
+                   Existem <strong>5 boletos de dep=C3=B3sito gratuitos por=
+ m=C3=AAs</strong> para voc=C3=AA depositar dinheiro na sua conta.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:8px;padding-left:48=
+px;padding-right:48px;text-align:center;"><!--[if mso | IE]><table role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td clas=
+s=3D"" style=3D"vertical-align:middle;width:70.56px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-14 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"icon" style=3D"font-size:0px;pa=
+dding:0px;padding-right:24px;word-break:break-word;">=20
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;">=
+=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"width:46px;"><img height=3D"auto" src=3D"h=
+ttps://nu-emails.s3.amazonaws.com/nu-PJ/icons/icon-receipt.png" style=3D"bo=
+rder:0;display:block;outline:none;text-decoration:none;height:auto;width:10=
+0%;font-size:13px;" width=3D"46"></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:top;width:5.04px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-1 mj-outlook-group-fix" style=3D"font-s=
+ize:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:t=
+op;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;padding-top:16px;">=
+=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%"></table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align=
+:middle;width:428.4px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-85 mj-outlook-group-fix" style=3D"font-=
+size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:=
+middle;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:middle;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;">
+                   =C3=89 poss=C3=ADvel <strong>gerar o extrato banc=C3=A1r=
+io direto pelo aplicativo</strong>.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"margin:0px auto;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-bottom:=
+64px;padding-left:48px;padding-right:48px;padding-top:32px;text-align:cente=
+r;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;wid=
+th:504px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:132%;text-align:left;color:#000000;">
+                   Caso queira saber mais sobre como usar sua conta, prepar=
+amos <a href=3D"https://blog.nubank.com.br/conta-pj-nubank-virei-cliente-e-=
+agora/" style=3D"color:#000;font-weight: bold;">um guia</a> com tudo o que =
+voc=C3=AA precisa saber e como aproveitar todas as vantagens para o seu neg=
+=C3=B3cio.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"background:#F0F1F5;background-color:#F0F1F5;margin:0px aut=
+o;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F0F1F5;background-color:#F0F1F=
+5;width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-left:48=
+px;padding-right:48px;padding-top:64px;text-align:center;"><!--[if mso | IE=
+]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:504px;" ><![end=
+if]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;padding-bottom:24px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:150%;text-align:left;color:#000000;"> <b>Abra=C3=A7os,<br>Equipe Nuban=
+k<br></b>=20
+                 </div></td>=20
+               </tr>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:150%;text-align:left;color:#000000;">
+                   Tem d=C3=BAvidas sobre este email?=20
+                  <br>=20
+                  <br>Nosso atendimento =C3=A9 24 horas, para falar com o n=
+osso time responda essa mensagem ou ligue 0800 591 2117.=20
+                  <br>=20
+                  <br>Se voc=C3=AA n=C3=A3o ficou satisfeito com a solu=C3=
+=A7=C3=A3o do nosso time de atendimento entre em contato com a ouvidoria. L=
+igue para 0800 887 0463 em dias =C3=BAteis, das 9h as 18h, hor=C3=A1rio de =
+S=C3=A3o Paulo.=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"background:#F0F1F5;background-color:#F0F1F5;margin:0px aut=
+o;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F0F1F5;background-color:#F0F1F=
+5;width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-bottom:=
+8px;padding-left:24px;padding-right:48px;padding-top:32px;text-align:left;"=
+><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:=
+528px;" ><![endif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" style=3D"font-size:0px;padding:10px 25px=
+;padding-right:0px;word-break:break-word;"><!--[if mso | IE]><table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" ><tr><td><![endif]-->=20
+                 <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table=
+;">=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"padding:0px 24px 24px 0px;">=20
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-radius:3px;width:44px;">=20
+                      <tbody>=20
+                       <tr>=20
+                        <td style=3D"font-size:0;height:44px;vertical-align=
+:middle;width:44px;"><a href=3D"http://www.facebook.com/nubank" target=3D"_=
+blank"><img height=3D"44" src=3D"https://nu-emails.s3.amazonaws.com/nu-PJ/i=
+cons/footer-facebook.png" style=3D"border-radius:3px;display:block;" width=
+=3D"44"></a></td>=20
+                       </tr>=20
+                      </tbody>=20
+                     </table></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table><!--[if mso | IE]></td><td><![endif]-->=20
+                 <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table=
+;">=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"padding:0px 24px 24px 0px;">=20
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-radius:3px;width:44px;">=20
+                      <tbody>=20
+                       <tr>=20
+                        <td style=3D"font-size:0;height:44px;vertical-align=
+:middle;width:44px;"><a href=3D"https://twitter.com/nubank" target=3D"_blan=
+k"><img height=3D"44" src=3D"https://nu-emails.s3.amazonaws.com/nu-PJ/icons=
+/footer-twitter.png" style=3D"border-radius:3px;display:block;" width=3D"44=
+"></a></td>=20
+                       </tr>=20
+                      </tbody>=20
+                     </table></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table><!--[if mso | IE]></td><td><![endif]-->=20
+                 <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table=
+;">=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"padding:0px 24px 24px 0px;">=20
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-radius:3px;width:44px;">=20
+                      <tbody>=20
+                       <tr>=20
+                        <td style=3D"font-size:0;height:44px;vertical-align=
+:middle;width:44px;"><a href=3D"https://www.youtube.com/channel/UCgsDX3hTwi=
+PdtGHJjMFfDxg" target=3D"_blank"><img height=3D"44" src=3D"https://nu-email=
+s.s3.amazonaws.com/nu-PJ/icons/footer-youtube.png" style=3D"border-radius:3=
+px;display:block;" width=3D"44"></a></td>=20
+                       </tr>=20
+                      </tbody>=20
+                     </table></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table><!--[if mso | IE]></td><td><![endif]-->=20
+                 <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table=
+;">=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"padding:0px 24px 24px 0px;">=20
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-radius:3px;width:44px;">=20
+                      <tbody>=20
+                       <tr>=20
+                        <td style=3D"font-size:0;height:44px;vertical-align=
+:middle;width:44px;"><a href=3D"http://www.instagram.com/nubank" target=3D"=
+_blank"><img height=3D"44" src=3D"https://nu-emails.s3.amazonaws.com/nu-PJ/=
+icons/footer-instagram.png" style=3D"border-radius:3px;display:block;" widt=
+h=3D"44"></a></td>=20
+                       </tr>=20
+                      </tbody>=20
+                     </table></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table><!--[if mso | IE]></td><td><![endif]-->=20
+                 <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table=
+;">=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"padding:0px 24px 24px 0px;">=20
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-radius:3px;width:44px;">=20
+                      <tbody>=20
+                       <tr>=20
+                        <td style=3D"font-size:0;height:44px;vertical-align=
+:middle;width:44px;"><a href=3D"https://www.linkedin.com/company/nubank/" t=
+arget=3D"_blank"><img height=3D"44" src=3D"https://nu-emails.s3.amazonaws.c=
+om/nu-PJ/icons/footer-linkedin.png" style=3D"border-radius:3px;display:bloc=
+k;" width=3D"44"></a></td>=20
+                       </tr>=20
+                      </tbody>=20
+                     </table></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table><!--[if mso | IE]></td><td><![endif]-->=20
+                 <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table=
+;">=20
+                  <tbody>=20
+                   <tr>=20
+                    <td style=3D"padding:0px 24px 24px 0px;">=20
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-radius:3px;width:44px;">=20
+                      <tbody>=20
+                       <tr>=20
+                        <td style=3D"font-size:0;height:44px;vertical-align=
+:middle;width:44px;"><a href=3D"https://comunidade.nubank.com.br/" target=
+=3D"_blank"><img height=3D"44" src=3D"https://nu-emails.s3.amazonaws.com/nu=
+-PJ/icons/footer-blog.png" style=3D"border-radius:3px;display:block;" width=
+=3D"44"></a></td>=20
+                       </tr>=20
+                      </tbody>=20
+                     </table></td>=20
+                   </tr>=20
+                  </tbody>=20
+                 </table><!--[if mso | IE]></td></tr></table><![endif]--></=
+td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-he=
+ight-rule:exactly;"><![endif]-->=20
+   <div style=3D"background:#F0F1F5;background-color:#F0F1F5;margin:0px aut=
+o;max-width:600px;">=20
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#F0F1F5;background-color:#F0F1F=
+5;width:100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td style=3D"direction:ltr;font-size:0px;padding:0px;padding-bottom:=
+64px;padding-left:48px;padding-right:48px;text-align:center;"><!--[if mso |=
+ IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:504px;" ><![en=
+dif]-->=20
+        <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font=
+-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align=
+:top;width:100%;">=20
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" width=3D"100%">=20
+          <tbody>=20
+           <tr>=20
+            <td style=3D"vertical-align:top;padding:0px;">=20
+             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">=20
+              <tbody>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:150%;text-align:left;color:#000000;">
+                   Nu Pagamentos S.A. 18.236.120/0001-58=20
+                 </div></td>=20
+               </tr>=20
+               <tr>=20
+                <td align=3D"left" class=3D"text" style=3D"font-size:0px;pa=
+dding:0px;word-break:break-word;">=20
+                 <div style=3D"font-family:Helvetica;font-size:16px;line-he=
+ight:150%;text-align:left;color:#000000;">
+                   Rua Capote Valente, 39 - 05409-000 - S=C3=A3o Paulo, SP.=
+=20
+                 </div></td>=20
+               </tr>=20
+              </tbody>=20
+             </table></td>=20
+           </tr>=20
+          </tbody>=20
+         </table>=20
+        </div><!--[if mso | IE]></td></tr></table><![endif]--></td>=20
+      </tr>=20
+     </tbody>=20
+    </table>=20
+   </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"unsubscription-link-cla=
+ss-outlook" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-hei=
+ght:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><!--[if ms=
+o | IE]></td></tr></table><![endif]-->=20
+  </div> =20
+ <img width=3D"1px" height=3D"1px" alt=3D"" src=3D"http://email.nubank.com.=
+br/o/eJw1T8uSwyAM-5rm5g5vkkOu_Q8DpstsAhlC0u3fL9nZ3mRZkq0w-0DkhzQLJgTTTHMtJJ=
+_uwpAV5K2caBz9pG6K5cNh_r77st5dHb7m6LgInIIJwZJSxjJmmLCELghyNg75gEbrtmAjyLjS3=
+K0b5vdNPHY8U37ugN6XI7fOvGjpa-qIVkzL3kGm10cAvhK2VDL860D07P0ynvw6tNXSSntvNO_c=
+XgT9NKoZF0hhnnSIzhoGMY4W5MglOKYJpNIMmYqKURxqfy83bKVX3cuSTqJM9ZmwD1g_tXvyn8y=
+3K9gIK8l5A9EaDcqJCUbHPRg_yWhikGE0vyBZcs0"></body>
+</html>
+--4745f63a867a289c42690b954c8c4e3edfc3562739a817246fabafd880e3
+Content-Type: application/pdf; name="declaracao-de-conta-de-pagamentos-ativa.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="declaracao-de-conta-de-pagamentos-ativa.pdf"
+
+JVBERi0xLjQKJfbk/N8KMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovVmVyc2lvbiAvMS43Ci9Q
+YWdlcyAyIDAgUgo+PgplbmRvYmoKMyAwIG9iago8PAovQ3JlYXRpb25EYXRlIChEOjIwMjIwNTA1
+MTIyMzE2LTAzJzAwJykKL1Byb2R1Y2VyIChvcGVuaHRtbHRvcGRmLmNvbSkKPj4KZW5kb2JqCjIg
+MCBvYmoKPDwKL1R5cGUgL1BhZ2VzCi9LaWRzIFs0IDAgUl0KL0NvdW50IDEKPj4KZW5kb2JqCjQg
+MCBvYmoKPDwKL1R5cGUgL1BhZ2UKL01lZGlhQm94IFswLjAgMC4wIDU5NS4yNzUgODQxLjg3NV0K
+L1BhcmVudCAyIDAgUgovQ29udGVudHMgNSAwIFIKL1Jlc291cmNlcyA2IDAgUgo+PgplbmRvYmoK
+NSAwIG9iago8PAovTGVuZ3RoIDE2NDMKL0ZpbHRlciAvRmxhdGVEZWNvZGUKPj4Kc3RyZWFtDQp4
+nN1Y3W8cNRC3lLd9odCkpC1IfiiQItjaXtu7K1VIubtcUAmUoLRBAl4KKqgiVPSFf5/xx9hj315u
+A+WFXO686/XHfPzmN+MVreh6w/9qFH/SCP6qkYJ/3fzwExf8l+bPprN8EKYdYMhVY8zYqt4Ilfp+
+J32ddUvpATphVnmXx//WXDZ/NKJV4yA0F61Qnemg1dbanr/5tdGKq0G3Ro/jCHv62641cS1jurjd
+tl6c6rZ6CRvJDv543cJGi4vm0VryoVWGX7xsJGgsuORaqVbDWpL3g22VVUbyi6vmsRCdFeJYCmGU
+gBv4h6/WcD9Au4796/BMuu8QrnUP33gN/36OXuZ16HNp4lzXmi/4xavm5AL8kKQbW8PtoPnPVyD9
+6zdXkq9eN+egJ0g8Wl631+gpVCulMor3RoEbnPWCnirKo23Qy+toQntsShtQ2ZUN/cY978N436/j
+vdN5zP0w7Np5zr5qhTYQXm7UR/GxUMabxdpWSwWIAD2O2CdsxU7Zd+w524N2Bb9ruDtnl3D94UNc
+9cb4UKprrfMOt71oO0C1DPu9wDW3THQYBSG1hC36DKpoWLOqwBWN4p2wjKABZ8hkkN3y0a2OmGWK
+PWKfsZH9eATGgB/pfgz7FDofQE8Y8AB69qDtwYAP5qmkZI6TI/YxrNuxz7ONdwtaLnCH3WfvsgN2
+yO5C+wHbh6v32G3/2We34PnhPLmEpP7p2Rn4/nv2FPz/7CbSlcsYANEpLHDGnsDVHtjrKfuWfQn3
+ALJZcplBtkYmdT8Cec49NufLVCzxmFDGGK5peHUyUBSlLH0cUSdC+GLo+TC0GYFShvB1bRGyyzjH
+ktDuIxUur6eJ3TLsQHi0opWtJYGk4pLHcSkaODcImmLZI0TdPL9CvPU0DjbYZvfu5RL3Ye+7EAkH
+gPn34XOL3ZsnCQTUkCHrmPDSM+ApAHUPrk6gfeaj4Vns38KPuyUut7odY9X9HkALsj+cTeB6HHw1
+IqcI3MWaBIFPfLh8888JPJhI99ZFUEgW/wUPx22szxGYk+ZyY5ystePFJKNCaMdo8kl5CNHmZJTz
+kqWSYws8IWRt8BdvIytuGPb/Rj9E1dK5+zFv3fF5a9/jn+atQ3Z/dljVrnfw9NrpXDN56btoNarh
+mGFKNfPPsT511l3m+1m1LU0q1o0pLKUmSmk4BuhWQjmeIExqPT1Gz5nohegNigKDMmAtHfXX19aM
+ccyQETKu8/ypWpSu721K1sQWw81TgWtNDkP/nNjdy2ayDIhgXwujbn2uqxHN3iZxzalMluZOybKM
+SCfjKPINpQ2ch/ZXm3MMyiKyHTbsTmQIdpiBCQMpQ+mECbQ5YrXQs8u29PeCyD0V3X2gSXeGQWy7
+604F7Alcj7KBW2tR+ghtjris8URjZcN2OrQFjhHr0Z8YV1Njx5PtGJdyBzs5+3ai5A5ZySsr2QhO
+k70Rj5pgax11WG2J1WgjyhcG10VfoQ0oxpbZBrV/av+n+KJYjufSBfER9UW6x73HvCb6d2p+iuFl
+zBY4H2WoMkfikNpvE3Hp1yF4SnOjHRAjUxmS8tRC4pozcCF7V6olXKR1EZuKxADKZgn+d9ivyLhx
+jJuT/GgqnXW2S8KKjPbC/LbFxgZtYMj8ig+K6gB5JeYC9GuaM2S/TFUOyIV+TMF3GeMb+tTcNZN/
+0/qEd7Gf1gCYn1PlhDqtNn0yhzfUaFtF8IG5CuVxMWBIzNXxPyVX4Tv0K4kHXWH/38Srn4v1wjLH
+IlaH1D8hJ6dy+eZvz8BcUNpoTUob6jKbt5lKU0lMpBJS5iSqg/GLiiK9ibGUwbCtSiRMHwbNJiv1
+rwuhKjVMpaDUmnJOkZ7dXqsoVxyvcCyWK7Hs0SeBdtJeIt6bsAdSUjclL8Jxy8E/6bHONE5tNWUD
+/y5lEdsu9g2hXJZ6HtUq90q1jyXOEZwE9uFzD04F7n3RJRy+z+FEe+bfG7kDtzvbHsD5fo99Bdfu
+SP6cvQN3l/5dUzgB4zn4zD3dcY5wEkARoEGCkby8TlojOdtgtUniQ9ShVyj50SKaFK3pGKYq9EwR
+mYrIH6aPa1PFCo2mtL+oCIQW8oSAdDW+SKjrt4SSRfwekzF9fCuHSKQsgaRIkLogxIn2TfJVBOkQ
+qRc56lO/DnL4Z+uZiJVDK8Yx4cXNRdKdTJj0xb8hScFhakFsWRSt583f9cEM8Q0KZW5kc3RyZWFt
+CmVuZG9iago2IDAgb2JqCjw8Ci9Gb250IDcgMCBSCi9YT2JqZWN0IDw8Ci9Gb3JtMSA4IDAgUgo+
+Pgo+PgplbmRvYmoKNyAwIG9iago8PAovRjEgOSAwIFIKL0YyIDEwIDAgUgo+PgplbmRvYmoKOCAw
+IG9iago8PAovTGVuZ3RoIDExMzQKL1R5cGUgL1hPYmplY3QKL1N1YnR5cGUgL0Zvcm0KL1Jlc291
+cmNlcyA8PAovRXh0R1N0YXRlIDExIDAgUgo+PgovQkJveCBbMC4wIDAuMCAxMjguMCAxMjguMF0K
+L0ZpbHRlciAvRmxhdGVEZWNvZGUKL01hdHJpeCBbMC43NSAwLjAgMC4wIDAuNzUgMC4wIDAuMF0K
+Pj4Kc3RyZWFtDQp4nLVVy24cRwy871fMD6TNR5NsXuMAOSc+5AMWjhNACWAIyPenqmdWKwe+RsJK
+yxqyh2QV2V9vX2+/4COH2jr+uvEvPy/72w+CL/L4d+J/3H67/f0W1T2kXREph63Ran7Ffms9/J7x
+qjokj64xRXO/ukavsjfo5R2UY/Y3yMohM+t4AypGdOkTyBg6q477MygNQTNYyRCLPgJJWvcOqnY/
+Isby9QiSKeuYMVKmH6qoIRHkNcwdQbLGajscMWk7RnjMUkJlNuGSI7ucQE7azHL2ttEWhsTwujwc
+/SKgqfuMaGHMHJ1IhIBE7qA5KmUHTcMjAlFdBKxnbWC67uTUIxC02zo3MVp4sgIEIcRyrBV+FHIX
+icMN71+OiHIUXLHPmK1HybCFqrxHkNRcIxg558gQRUTWcPE4Jp4oWpM4ex5hI+gOQ9HbyBG5iQFS
+IBrniiLHy1w+ZknThJuS/La8/E+E1Kx9YrJa2FrnG1gZTGee9xuOynfAyxuAQJR2AYaM0Y250NHL
+oebwAMc02ej0YdZ5HVl4Eo2iNc6A2FXJjpjksx9FIwC0TZQ1kaQh6UUxuh0TDoKutiEX4OiqlTBr
+ZAeG0HeUU0lJyND2PGWVfdIttmVUT0ksj014ze1D1k7ZtKzYgKcpj9Xo2EHQQuMr383yVBoCBoDk
+1p4mFWSPBkyQQJne9+CqQzgBORRFTcBwcDgr8RPALLAnPa8Q6coD+ghIaXvIUogOg7j6DBEmtxYa
+fg7TA2odKPqdT/tYOOxpYzucfP9nqXDbfPjp8z9/3j//+vOPx8dPN6Tc64DeyLmMmRDBp4/vne6v
+33V6vd8+fHnV48vr7fe9+1LpBQqEAjIsMIyBs5YH8vJEFIq2uBBwusln9MMDrSvG0J4gNsHm3Hoj
+YvDAsE3D1NBmZBlXGIihgDm+lFlzCHG2bykjQ/MiuWV4woFfUIZjeSg4Xg3yMWf3G/Jz/LDT2BV2
+YPVFntI0TPphjkGvue12RhjnYW0g0WijXOYOEA4k7AxLHrgsNzPN9JL8Ts6oFp7gSIzLjFy0oV6U
+0Vh2wTKAiGJfFaZg4QyFmBqEYCsFPWhb7O3huQsHshJnQmW5MFH04NbFTSCc9m1jnnAN+JXVhQSb
+SeVe9lS27GmTQN4TzwiSPJMrZetkfQdQaD3sBBTNIS/cFD/QBg/gXInTNOOKaVxYeMcDYMGYosvk
+llzIAeVOnII2qK9dBMSOOV+QFBRyYIC4IxoqFrYJ68bFSEWH1EkFFOSbPF6CJlgQF9srleRNyf3c
+uajAtlHRFxCbbT/lMPkqiEG89gGh8pCH59bHvu5gT8VShF0K+VNQRWvBPAUoLr03HZZgUdXe+8KE
+iHmjBLq5mDQuQ67++w1XNQorFpYOV9zlUzEY2K9YA8UFvSAPTAEky22XqLPRsaL0sDY4wXwpOpnb
+CGzfRHMgL7pjGKgaLDFc1UEPV7wHqbXwSuDQ8MrFsqvz9gPCTc9qRE8PPbWy5hnxzcq4/2/r6fz9
+F4cS74ENCmVuZHN0cmVhbQplbmRvYmoKOSAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQg
+L0FBQVVOSitHcmFwaGlrLVJlZ3VsYXIKL1N1YnR5cGUgL1R5cGUwCi9FbmNvZGluZyAvSWRlbnRp
+dHktSAovRGVzY2VuZGFudEZvbnRzIFsxMiAwIFJdCi9Ub1VuaWNvZGUgMTMgMCBSCj4+CmVuZG9i
+agoxMCAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQgL0FBQVlPRitHcmFwaGlrLUJvbGQK
+L1N1YnR5cGUgL1R5cGUwCi9FbmNvZGluZyAvSWRlbnRpdHktSAovRGVzY2VuZGFudEZvbnRzIFsx
+NCAwIFJdCi9Ub1VuaWNvZGUgMTUgMCBSCj4+CmVuZG9iagoxMSAwIG9iago8PAovZ3MxIDE2IDAg
+Ugo+PgplbmRvYmoKMTIgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL1N1YnR5cGUgL0NJREZvbnRUeXBl
+MgovQmFzZUZvbnQgL0FBQVVOSitHcmFwaGlrLVJlZ3VsYXIKL0NJRFN5c3RlbUluZm8gMTcgMCBS
+Ci9Gb250RGVzY3JpcHRvciAxOCAwIFIKL1cgWzAgWzUwMF0KIDMgWzI2NV0KIDE1IFsyODIgMzM0
+IDI4MiA0MDMgNjgxIDM5OSA1NTQgNjA0IDYxNyA1ODcKNjE5IDUyNSA2MDcgNjIwIDI5Ml0KIDM1
+IFs5MTUgNjc0IDYyMiA3MzAgNjk2IDU2Nl0KIDQyIFs3NjddCjQ0IFsyNzcgNDIwXQogNDcgWzUz
+NSA4NTYgNzI0IDgxMSA1ODFdCiA1MyBbNjI4IDYyNyA1NjFdCiA1NyBbNjU0XQogNjggWzU0MCA2
+MjcgNTcwIDYyNyA1NjggMzQ2IDYyNyA1OTggMjU1IDI1NQo1MTYgMjU2IDkxMCA1OTggNjA0IDYy
+NyA2MjcgMzc2IDQ4MCAzNTUKNTk0IDUzNF0KOTMgWzQ4M10KIDk4IFsyNjVdCiAxNTggWzU0MCA1
+NDBdCiAxNjEgWzU0MF0KIDE2NSBbNTcwXQoxNjggWzU2OF0KIDE3MSBbMjU1XQogMTc3IFs2MDRd
+CiAxNzkgWzYwNF0KIDE4NCBbNTk0XQpdCi9DSURUb0dJRE1hcCAxOSAwIFIKPj4KZW5kb2JqCjEz
+IDAgb2JqCjw8Ci9MZW5ndGggMzU0Ci9GaWx0ZXIgL0ZsYXRlRGVjb2RlCj4+CnN0cmVhbQ0KeJxd
+kt2KgzAQhe/zFLnsXhTrX7uCCNYq9GJ/WHcfwOpYhDWGaC98+03nZLuwgXCYL3MmEzJecT6d1bBI
+791MbU2L7AfVGZqnm2lJXug6KOEHshvaxUWCpR0bLTzrrtd5ofGs+kmkqfQ+7OG8mFVu8m660JPw
+3kxHZlBXufkqahvXN62/aSS1yJ3IMtlRL2yll0a/NiNJj33bc2cThmXdWhOncMbnqkkGsPjop506
+mnXTkmnUlUS6syuTaWVXJkh1/86Fn8B36f8MoTU8JNhlDCuO/BNgwTBwKc8sETKDHBASHQALQNij
+BBA1Q1SJUDOMAQ8scQCYAELiPcMoQgS49xnGuMHJIWe4D5ACydFnUnKUoIkSMPeRAilDQLTkpMSL
+cjzaSYmL8iMgpDwxPKKYkwo1j3i0kyoGRDEnVc4/9vsz/Hv3MXvMRnszxo4FDyPPw30SBkWPedWT
+vrt4/wCJML1qDQplbmRzdHJlYW0KZW5kb2JqCjE0IDAgb2JqCjw8Ci9UeXBlIC9Gb250Ci9TdWJ0
+eXBlIC9DSURGb250VHlwZTIKL0Jhc2VGb250IC9BQUFZT0YrR3JhcGhpay1Cb2xkCi9DSURTeXN0
+ZW1JbmZvIDIwIDAgUgovRm9udERlc2NyaXB0b3IgMjEgMCBSCi9XIFswIFs1MTldCiAzIFsxOTdd
+CiAxNSBbMzA2XQogMTcgWzI5OV0KIDI5IFszMDVdCjM2IFs3NDddCiAzOCBbNzU5IDc0MyA2MTJd
+CiA0NSBbNDc4XQogNDkgWzc3NyA4MTkgNjUyXQogNTUgWzYxOF0KNjggWzU3OCA2NDMgNTgzIDY0
+MiA1OTggMzg2XQogNzYgWzI5NV0KIDc4IFs1NzcgMjk0IDkzMSA2MjQgNjIyIDY0MyA2NDIgNDI4
+IDUxNSAzODkKNjIzIDU5M10KIDkxIFs2MDBdCiA5OCBbMTk3XQoxNTggWzU3OCA1NzhdCiAxNjEg
+WzU3OF0KIDE2OCBbNTk4XQpdCi9DSURUb0dJRE1hcCAyMiAwIFIKPj4KZW5kb2JqCjE1IDAgb2Jq
+Cjw8Ci9MZW5ndGggMzQwCi9GaWx0ZXIgL0ZsYXRlRGVjb2RlCj4+CnN0cmVhbQ0KeJxdkstugzAQ
+Rff+Ci/bRUR4hAQJIRFCJBZ9qLQfQPAQIRVjGbLg7+vMpalUS+jKx3MZe2a8ojpVup+l927HtqZZ
+dr1WlqbxZluSF7r2WviBVH07rzvB0g6NEZ5z18s001DpbhRpKr0PdzjNdpFPuRov9Cy8N6vI9voq
+n76K2u3rmzHfNJCe5VZkmVTUCfenl8a8NgNJj32bSrmAfl42zsQhHPG5GJIBLD7u046KJtO0ZBt9
+JZFu3cpkenYrE6TVv3Ph7+G7dH+G0BkeEmwzhmdASFAw9H3erRKUgCdASJgzDCKEQCIfMAY8AIaA
+8K0SwR4iQ4grRUgU7gEhu4hhtGZIWGIkigpASJwAlvCtkUeGuyMgZH9gGAcIgeQoSAJ7goKUgDnu
+uUqJF+V43yplzn34rTf35D48j463N2tds3nEuMv3/vaaHlNoRnN38fcDpbO0aA0KZW5kc3RyZWFt
+CmVuZG9iagoxNiAwIG9iago8PAovVHlwZSAvRXh0R1N0YXRlCi9CTSAvQ29tcGF0aWJsZQo+Pgpl
+bmRvYmoKMTcgMCBvYmoKPDwKL1JlZ2lzdHJ5IChBZG9iZSkKL09yZGVyaW5nIChJZGVudGl0eSkK
+L1N1cHBsZW1lbnQgMAo+PgplbmRvYmoKMTggMCBvYmoKPDwKL1R5cGUgL0ZvbnREZXNjcmlwdG9y
+Ci9Gb250TmFtZSAvQUFBVU5KK0dyYXBoaWstUmVndWxhcgovRmxhZ3MgNAovRm9udFdlaWdodCA0
+MDAuMAovSXRhbGljQW5nbGUgMC4wCi9Gb250QkJveCBbLTIzMC4wIC0yMjQuMCAxMDkyLjAgMTEx
+My4wXQovQXNjZW50IDgwOS4wCi9EZXNjZW50IC0xOTEuMAovQ2FwSGVpZ2h0IDcxNS4wCi9YSGVp
+Z2h0IDUyMy4wCi9TdGVtViAxNzEuODYKL0ZvbnRGaWxlMiAyMyAwIFIKL0NJRFNldCAyNCAwIFIK
+Pj4KZW5kb2JqCjE5IDAgb2JqCjw8Ci9MZW5ndGggMTQxCi9GaWx0ZXIgL0ZsYXRlRGVjb2RlCj4+
+CnN0cmVhbQ0KeJy1jtcOwlAMQw+UXUbZZUMZZe+9x///E9FVVfWhPGLJTizZSkAhgD+CaIQIEyFK
+jDgJdJKkSJPB8OSy5MhToEhJXFloUhGtUqNOg6bsLdp0ZFq+l7r06DPAZsiIMROmzJizYMmKNRu2
+7Nhz4Og0Tm73/OP7f+PCVfTmuLvSh9KnJ/USvl33+QJiQgjnDQplbmRzdHJlYW0KZW5kb2JqCjIw
+IDAgb2JqCjw8Ci9SZWdpc3RyeSAoQWRvYmUpCi9PcmRlcmluZyAoSWRlbnRpdHkpCi9TdXBwbGVt
+ZW50IDAKPj4KZW5kb2JqCjIxIDAgb2JqCjw8Ci9UeXBlIC9Gb250RGVzY3JpcHRvcgovRm9udE5h
+bWUgL0FBQVlPRitHcmFwaGlrLUJvbGQKL0ZsYWdzIDQKL0ZvbnRXZWlnaHQgNzAwLjAKL0l0YWxp
+Y0FuZ2xlIDAuMAovRm9udEJCb3ggWy0yNDMuMCAtMjMyLjAgMTE5OC4wIDExMzcuMF0KL0FzY2Vu
+dCA4MDkuMAovRGVzY2VudCAtMTkxLjAKL0NhcEhlaWdodCA3MTUuMAovWEhlaWdodCA1MjMuMAov
+U3RlbVYgMTg3LjMyOTk5Ci9Gb250RmlsZTIgMjUgMCBSCi9DSURTZXQgMjYgMCBSCj4+CmVuZG9i
+agoyMiAwIG9iago8PAovTGVuZ3RoIDEwMAovRmlsdGVyIC9GbGF0ZURlY29kZQo+PgpzdHJlYW0N
+CnictYzXDoNQDEMPq1AoZZVVRsv8/08kQgjpStxHLDmJbcWww+AaptDSZLaiHOEDF+90nsf2CXgd
+d6jpgjcRMQkp2a4/wpyCkoqaLw0tHT0//pIMyu+obb0XE7PMRfHWDbTeAuYNCmVuZHN0cmVhbQpl
+bmRvYmoKMjMgMCBvYmoKPDwKL0xlbmd0aCAzNjUzCi9GaWx0ZXIgL0ZsYXRlRGVjb2RlCi9MZW5n
+dGgxIDU3MDgKPj4Kc3RyZWFtDQp4nJ1YC1ST5/l/3zeBJIZbSEJAUAMBgiBeCEm4BLmEJEBIIAQC
+hJvhErAGkJvipVZFUKtYlSq1qLVd2607PT26/ud/7t/Z29r/NrbOdtWu23FzZzs73U53zla1ulPz
+sef9vkRR4fScic93eS/P83vu7xeEEUICVIQIWtvtGdo8N4d4MLITSNjt2+atbor6GzzvQ0ia1tPl
+6Yx84sdb4Pl1GNP1wICghhcK73+B9+Se3uHRo/yICoRkQoRwlK+/w4OIpxoheSy8y3o9o5vRJIL3
+mFWwXgmEQR5BGCXPjaOrIBVkK9R6hVu3wbEj4fepdAUyoC9xNM6jc3qtRm649qXdTsdtc9+gX6Ed
+gB7FJKVm67JiZN/NTk3NTg1J0aWk6Ni9oXM+PMITsnyxBodiVSVz/Vne6XudMA2SDXN3SC/5FIWj
+eIRCklILcLZOkxWzDMtC1Vk6eEtVJYXCWwxu2H16emzviam9LRu63E3eHtHl02kvvHV5Ju3s5bLJ
+A2m7nj02ljZ+hMpMhEssmUVgF41EoNVrJO+ee9VBRoYco34tzEth/iuQKYd5LdZpqQyBaj0GuXJZ
+JE6US3FCt7FgTOYQ7ujqGDn6AW6U4YzedkPpC0/s6G3eOvmOhdUtDbArgU8Ki1ytWQ4cgFsG1mqy
+WKah97kKlmO5LBQn9e/nV4fWOWoc07qsCWNhSZ2gkr+3s31koLh8UrRzQ2lNefGh8u1aY0VB/dZ+
+e+8aSVPZhs3UTmq4mECnJWAplKhN1GKNRCNXyVM0EjzJPI8twx0dzJt3TyaQOCbacvI6pgECGDMA
+YwTsS3gYI6uxJFGeKNex+EJxXP9WoTOspLK8tqbUV6DEx5mL2pb2nYdFfc3FxmZHZZMJP2X93bo9
+vr7xoN+yQfd4iiwkaTUJOE6hWo2p4gG9qRM5U8jBhQUWb97SU0/V9UU4w9bnOb28pZ6CjXsmBiz1
+rvKy5iZRVvOAWfLWbENddtazT6/STnT6xkqbrbaWBnNdK+gC8YrvBPwqBRvI8fF/MyfwZ8wtMm4O
+8xcjiLJcwJXK+laJVrHIsDZbp2evrCMoKF4QlCxGOh/f2oK+yooCTe74G/v6Dk5tyDNbc3Ktdp2p
+ocFY2twsyuw0mlpjZPZsZ3e3o3tt1kTXAH69KEdTUuwrYmZsptKKylKjjYtr/dxdsoZcRXEPR4c+
+AqyTqr0f47z54pPat0TUhptK6tvw0vaCnrGJgV1jh4fBMBVgIKGnPif3mclVmn1e39grM5kX3sZl
+LpNrA7UPyKuBXPwEvwy5GIlQdCAbSeD+OpuV3H+czCYn84NgjhKUOdfL85LzSIdKOF9y+OSyCAJg
+1Q8gK/QaQSgXP0pAvJxQjTQR+CEtZj3nvPpvzl+4npxbqMzVCBSOzPKGQWdLgsC5fEnemtI3mCsf
+ZtSMOap862zq7+3Jsuuy1pm0U8bBY44f3vn4jLE7N2FVepq2tbpzX6nhXlV724FXf3HWtKMtR51e
+4sCRDeCTxkqNAXAnA/hdEA8CyAqICI1UpU4USHma5K8Hv3KZmc9Nn++8S2b92o8+ImPMUeoXHnLD
+njzYE4FiaZ2AJMoCP0B6Um+oeBqu5mRgGOce3J/91WcrebLv3F670VK5++xzVXXHyewl/mBKdI2F
+39GFp/KNfIPO/5NxvrGQyzk9xOB5cg0tnV/RFKpgJQsYDY/PvHn5+MhLYlf8+f4DY0ONg+GO6LOi
+n74qfOGj7ZtfeXFCeHCm0bXtSS6eKO49gFtEqxdFzYaPSn0fsPsnFy5derOzff/k/iMeMvveGdGZ
+Dy3TE8Kxkywmuj8c9ovpbpr38Ad3N36RuYiXMF/jZjJruWlh/JYHOvw/6LBscR1UkIFQOI69eOnd
+U0PnouoT3th2cN/O/s3kY5z6mujnLwrP/npg8CzoceDMLm+Z9rlXKN824H4RcPBYLSRt9dRBMJ46
+dwdXw3gY9IkktRYEaGFaFvp0UfKatcP1fSJpmewACfHf8XYF9cHgXBTC8QFN6rEFeO0M4Kf6Mhw/
+mI+HaqmS8FQ8iXvb9Wuj9f+Ivw1rf0My/Vri9r9KKbBnO2tjugdCQKLCEvcAbnZ2MtOw/gKpgvVd
+/hk2v++QW1BnwuZ5WblQ2zp1+sMPsO69905tOXRodPvhadHHp4QzV379vPD5T8peGhM++cpLe4W7
+v3PfxytYH8nm+TgDx2HOy+Dk2f5Dh/qHt1c6zgDQ7if4vm7mOu4pN/EPBfbXsbGtmLdfIFXxVJRF
+MJ77D3mqf++52jdxpto2QWbbu/hOTyTzPtYzP8c79/HN+dR+a0G/HNBPHaxePC7v1WwlfVDoIeMV
+XG8rHt8jrg2RppVnm1vKurZt2dvp273EHl5ttdhLe3aNTIqe9KqyV8daDevzo6Ib3c5+b5vRUJSd
+kxMla/K4t4FMiDUiY/MZ0NPoUkn+cQXfuUL2WSz+nZxfl8OazVwPSORRv/Kw5Kbr6tUaaAz+g2Qr
+BBNry5UQT78iMrCEkkYUrV/5eF6nl4MAzlWqJLnsM5vnxIA12+ALcwqHnW87DW2l9WUXRTZbrT21
+UN9aW/V/zHdLrCXG/OLuBo5/LdjHzAtBErSCsxCA1UjYrrfQ2aWgOdbpjG3XbxwfG7LXNJkr21pE
+2nQXL4R5Iy33mVHhthMmb5uwrbvLI/R0Uj0zgb8E8H9LDcnsPza1yb1LXBP9VHlbiz2/LtQmfEp0
+bFS45WRj62CvW9jqNRa4+lGgzt8hKwBzFLXifa4KGufaCPwI5LiNYwd8w3pA3bnatqG+yt7QKDo8
+Khw91YLt975xp+WbAGt7x0ZA3RngHQ54H0G8DCfSvsc2iUTKG6dvnjzo69zPbOHVVe+IcoaPMjhL
+fKiwhgO9Zyze3dZkc+LiaQfrbzgV4iI4P8q4mNBwfUgOrJZhOP9IvFZrlU25PGFF5e7d+ANznaN+
+iVnsbjUz+UGdiyGnZMAnLRDJMWwysU0tYACtRsL2MKp+QPuU3hFxXfR4dQP4rHv/00+AIfCBQeuG
+xucbW95uLGuqqqlcmXfYJ+idbqllYvuHsLzDJahv764VOjtY3LUgXAC25qo1FxgQcxKuTUpqndKG
+Ale701BYUAdB8GZatreXeRtbTEWVRuZ9wE3L2A/JXyEXxA/6OQ84PbsqMXFVYpuTjCpXK5Wr/T1E
+7L/N6SqaKw7skczbo12PuVLK7Xw9XeW0Bjbfe83MT0shGv+nNjuHGd8CzEs4zNDsoXQA1M89N252
+fQEw5f+6yXyBI5l/cbnoguv3YX2glrtqeSH3vuH48ArB5ivYcTnVXfHAAKz+wTvYwakbSo3r0to6
+nP05NZSIuFqd1b42q2sT8xau2FtRwrwTuAXtCrylD3gvZlcidj5i1kCcroH98+v2gikLmXXsxrHj
+/faWFnsVHP6mh4QjJ0+MCLecMPkaBU0+n1vo3hSsBRXEDDzZWqAIomL7MwScRP8Q49pAGdgEJeG1
+QCm4SN5tCJQBbTpz66v5pYDFXMHGMJe3kkdC9xHcv4zt1AdS1x/I24s4Ki2fy91af+FX8/KW87kT
+eIuD9tTLIzC1Y3xVictFxK3rsomdX9bE/InzOa2rF2G9iq2qbDZxXYGFM68n8KAnfN26ie9YMjCY
+W+yt7i39vrRalL0uU6exrMnVx3WI3NVdTnVKmNR4oGo6Q70yKTkpXCRJ0qeVu2jez/0b55G9NO9p
+9WZTXyOnGS+DciIPvWkqs1qd27cXJyesEFQU4RLz1q1m5sNKsVnM4qwCnAwR0zgJofshAWjiawPF
+Doc4O5z56/PrnE5pvai9G1uZSzRIcIH/NkQNp2scXPzAg35vcL3ms8vumVOut4iYKcf/C2mH6Tck
+/gWsEbHfkuxHSaJcjrXM3/A08wlOD8OXzJGMrZyePbmedBee4unZVarWKHjf1pm+7ulZ37JgdyJd
+U1P+4wu3qMdlQTJ/q6y/r+/pcfzXsv4Its5AYDqcNO/TN/iF8G2ysUlRFh4RwzeE5qgVFu5Jf2Jh
+MJsy4mTaQvbiP7xoj6Y9NJ3toWsQ4gcrPytfDd+Di7XUSKyDLx9c7tLxdEJVdIwsKjJcmdq+/bE2
+O9wQm5J7bXVqskwZLUwwiY/0PdR0a3pDMkMyMtRgH6433oY4iqffHOALhUotkC7eJI/5rJsK6upa
+F2mVpOvoUavVf/zxjkloTcaI9bsg4HWIeDc4tsTJOnGGbRe8QB2k69iqgrn4WLQaioDD0ocrIhcT
+C5fFIH8aE0q0etGYWFRe5wLR0PqI/IfCYGEcJFAHqJ6K+1o+Xg34oF7BvIrA6fZ4WcBsXBXf2Hoh
+ti3ScBuJeV/QULu2Zfp97v4H6dzSOSW/lN9If79jf1njYhHxVkJ3/hnfC/NL+aWB8Qf/SvEtWAZV
+BC9FydiODHC34SkUSl6D52dQIklHUtKM0shGpCZWlEE2IQMJR0rShnKJD+lxMqrhTaFM8hJKJn3I
+TX6H9ORHcNcBzcG8HLXhl1EqUSA3rwHGPoV7BqwxwfMw0BBaS9ahZeQIWk4S0Ep4ryV5wG8IKAdl
+YjeKZ59d0DPm4Hwyh0SEj2pBERfvCKyFccCXye6DdXgU5m6glbgD9tWgKhKD4vCfkZzqyPIPUh7H
+H/i52P2UYP0j9kkAomWZpvYo0C+BvgRr0XpzDui3wHUt0MtAPwNrVwO9A3QPcv9/gMBPIZVAsDbk
+BkKhUUA9QLuBzgNdQUjABwIegn1APwX3wRohPAu/BwTzIpgTHQX6C0JLioCeAwK5YpAlhnEx7AkD
+HmGAKQxkhcG+MJAbbgA6DXQXoQg4hUbA2gjgFwm9LTIHqDNAMBYFa6M+RUjSDAR6SP4JJzngH/1b
++vsvGzWlyEZzmz0Z0MiiY0Wckf4Df3EeJg0KZW5kc3RyZWFtCmVuZG9iagoyNCAwIG9iago8PAov
+TGVuZ3RoIDEzCi9GaWx0ZXIgL0ZsYXRlRGVjb2RlCj4+CnN0cmVhbQ0KeJz7/x8raAAAKnwXag0K
+ZW5kc3RyZWFtCmVuZG9iagoyNSAwIG9iago8PAovTGVuZ3RoIDIwODUKL0ZpbHRlciAvRmxhdGVE
+ZWNvZGUKL0xlbmd0aDEgMzEwNAo+PgpzdHJlYW0NCnicpVZ9UFTXFT/3vv14sM/VZXdZkQgsG3eF
+Bdzdx9vlGyGuVj7CMgXBiIWNEBBFiLEWQVrFapQYqzXRpmOIugmF+pV2TatprbbVlBGHNs3ko5PG
+SZM4mom241RjOs2+7XnvgdI0jn+U4bz37t1zzzn3nN/53QsEALQwHyi4WoNPdUWjwODMRhS2dfWG
+J9xs8Ap+fx8g5pO2lmDz9D+ceg8gtg3nvG04oT3BFOD4II4fbutY111TpI7H8XkcH1jduSIIcOw5
+AF0Tjg92BLu7oAuqADgcQgoKQX8UCMyIbiOx8AvJt8VhtPS01wz1pBFtPmpAVvQ2ROAsxOBvqfZs
+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
+BPwfSAC32A0KZW5kc3RyZWFtCmVuZG9iagoyNiAwIG9iago8PAovTGVuZ3RoIDEzCi9GaWx0ZXIg
+L0ZsYXRlRGVjb2RlCj4+CnN0cmVhbQ0KeJz7/x8LaAAA+5oVbA0KZW5kc3RyZWFtCmVuZG9iagp4
+cmVmCjAgMjcKMDAwMDAwMDAwMCA2NTUzNSBmDQowMDAwMDAwMDE1IDAwMDAwIG4NCjAwMDAwMDAx
+NjkgMDAwMDAgbg0KMDAwMDAwMDA3OCAwMDAwMCBuDQowMDAwMDAwMjI2IDAwMDAwIG4NCjAwMDAw
+MDAzNDIgMDAwMDAgbg0KMDAwMDAwMjA2MCAwMDAwMCBuDQowMDAwMDAyMTIxIDAwMDAwIG4NCjAw
+MDAwMDIxNjMgMDAwMDAgbg0KMDAwMDAwMzUwMSAwMDAwMCBuDQowMDAwMDAzNjUwIDAwMDAwIG4N
+CjAwMDAwMDM3OTcgMDAwMDAgbg0KMDAwMDAwMzgzMSAwMDAwMCBuDQowMDAwMDA0Mzg3IDAwMDAw
+IG4NCjAwMDAwMDQ4MTYgMDAwMDAgbg0KMDAwMDAwNTIzNiAwMDAwMCBuDQowMDAwMDA1NjUxIDAw
+MDAwIG4NCjAwMDAwMDU3MDYgMDAwMDAgbg0KMDAwMDAwNTc4MSAwMDAwMCBuDQowMDAwMDA2MDUy
+IDAwMDAwIG4NCjAwMDAwMDYyNjggMDAwMDAgbg0KMDAwMDAwNjM0MyAwMDAwMCBuDQowMDAwMDA2
+NjE0IDAwMDAwIG4NCjAwMDAwMDY3ODkgMDAwMDAgbg0KMDAwMDAxMDUzMiAwMDAwMCBuDQowMDAw
+MDEwNjE5IDAwMDAwIG4NCjAwMDAwMTI3OTQgMDAwMDAgbg0KdHJhaWxlcgo8PAovUm9vdCAxIDAg
+UgovSW5mbyAzIDAgUgovSUQgWzwwNTAwNzFDQTVEQkNFRERDMjAwMDFEN0NFQjM2MzRFNT4gPDA1
+MDA3MUNBNURCQ0VEREMyMDAwMUQ3Q0VCMzYzNEU1Pl0KL1NpemUgMjcKPj4Kc3RhcnR4cmVmCjEy
+ODgxCiUlRU9GCg==
+--4745f63a867a289c42690b954c8c4e3edfc3562739a817246fabafd880e3--

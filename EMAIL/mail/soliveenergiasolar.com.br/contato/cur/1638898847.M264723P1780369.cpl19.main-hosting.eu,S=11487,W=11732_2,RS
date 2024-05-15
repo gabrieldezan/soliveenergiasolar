@@ -1,0 +1,245 @@
+Return-Path: <wstopassola@gmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id 3s2pD5+cr2GRKhsAJcoV8Q
+	(envelope-from <wstopassola@gmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 07 Dec 2021 17:40:47 +0000
+Return-path: <wstopassola@gmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 07 Dec 2021 17:40:47 +0000
+Received: from mail-ot1-f52.google.com ([209.85.210.52]:38566)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <wstopassola@gmail.com>)
+	id 1mueSK-007T6K-4E
+	for contato@soliveenergiasolar.com.br; Tue, 07 Dec 2021 17:40:47 +0000
+Received: by mail-ot1-f52.google.com with SMTP id n104-20020a9d2071000000b005799790cf0bso19062644ota.5
+        for <contato@soliveenergiasolar.com.br>; Tue, 07 Dec 2021 09:40:43 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=NLksYqs5NTcdR1ohOwSPr5e+tMIFbUL8ztjFMvy3g+A=;
+        b=HFbFMWeq8HmlAqeeVd91wePGNu4jrn/8dzGMXvINF7GrtxJOBzCR5M0gBch61Lp4Zt
+         lyfatH+tSPeEJE99baXKSeBMqrIqIFpKP7nsmUkY7Gd4HPpvq2tuZzqtIf/J8Hq1h/yY
+         akLdOksZpX6IwHTMDWxPt4cC1dpBVOkkOGbB6RtNSRPJDPJVnWH9Qd/RqEdE+7+uTTy7
+         cm3gsFnMPoSvEaoLdOG2EU3I7m9EKVeBtfjbKYJTmJ57T9UHnGiUDGlfyYlmih+A58/B
+         N2FgygJKkLvN3KQMiRm1MZNslzAk6RvXifdvXikJyX7SxBG/VlS1fwtyUPxzFE/x2lJj
+         KT5Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=NLksYqs5NTcdR1ohOwSPr5e+tMIFbUL8ztjFMvy3g+A=;
+        b=ULwwf8BnMZxzmMEs2S9j6SeMR/cYdkMu5JeIPy4ZB5hLdWVg6eXaYZ6Cflf27EzBvE
+         aSoasMXBOMypXH155q2mDO1H60DEmepOnbEMGRXrOjB79IYwhpUI5L5i+hdBCWsa9zFk
+         inaHl0rp1NAMARGmDrmTx0wKvsjp+Qt/kcnOqSPZDkRqedzUTG4iixdq155iqCMhqgE6
+         XnOesbOCb8GGMQknVdqs73tFDQu/l0pDrc8yR2TR921osp/TRG1oahb09gfuOmvo4CQB
+         +970vDW4bL44o4IY8hMfPzZ6aTl0ue0E/+YE0Dg1yjKkV/6zvbzDhuipl/hufz/Wf75q
+         NPuA==
+X-Gm-Message-State: AOAM53009WUD3+LbAHRUmnoFW+I4SqfyHCtk9ImtnVnVV/NhBp9JNIHz
+	pGDu9p6179iLq+W7rT+qY/xMpakj+BXAEfw4JivzeBC5
+X-Google-Smtp-Source: ABdhPJx69miFXEY2QPL/FGluOu5L61Ap1XD/KDaFjmb2qaepk6RguJRsBjmbMdCCUus8b8mDBlYq93i6RLhOjVVSOTc=
+X-Received: by 2002:a05:6830:8e:: with SMTP id a14mr34524064oto.280.1638898842826;
+ Tue, 07 Dec 2021 09:40:42 -0800 (PST)
+MIME-Version: 1.0
+References: <987444553.10883.1637815782262.JavaMail.jboss@pew-66-fwbfx>
+ <CAHtsUnvUJQbOdyiBQMGjjSVUYEfY6xJb0enSg+AdyxgSUSDE7Q@mail.gmail.com> <882848f63b331da27d53cca7dcb48679@soliveenergiasolar.com.br>
+In-Reply-To: <882848f63b331da27d53cca7dcb48679@soliveenergiasolar.com.br>
+From: Willian Stopassola <wstopassola@gmail.com>
+Date: Tue, 7 Dec 2021 14:40:33 -0300
+Message-ID: <CAHtsUntcT-S2L-rTPoL4NJBvvMXuaEzYz6ewrTArQazaJHDuVg@mail.gmail.com>
+Subject: =?UTF-8?Q?Re=3A_Fwd=3A_An=C3=A1lise_do_projeto_=2D_Protocolo_da_an=C3=A1lise?=
+	=?UTF-8?Q?_20212281468408?=
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="000000000000597b3f05d291dffd"
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Boa tarde. Não foi e o projeto perdeu validade, não foi
+   quitada a ART. Em ter., 7 de dez. de 2021 às 11:22, escreveu: 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: copel.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [wstopassola[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+--000000000000597b3f05d291dffd
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Boa tarde.
+
+N=C3=A3o foi e o projeto perdeu validade, n=C3=A3o foi quitada a ART.
+
+Em ter., 7 de dez. de 2021 =C3=A0s 11:22, <contato@soliveenergiasolar.com.b=
+r>
+escreveu:
+
+> Em 2021-11-25 04:54, Willian Stopassola escreveu:
+> > ---------- Forwarded message ---------
+> > De: <medicao.projetos@copel.com>
+> > Date: qui., 25 de nov. de 2021 =C3=A0s 01:50
+> > Subject: An=C3=A1lise do projeto - Protocolo da an=C3=A1lise 2021228146=
+8408
+> > To: <anaclaudiacanzi@hotmail.com>
+> > Cc: <wstopassola@gmail.com>, <willianstopassola@gmail.com>
+> >
+> > Prezado(a),
+> >
+> > Informamos que a solicita=C3=A7=C3=A3o de acesso da unidade consumidora
+> > 107178486 foi aprovada pela Copel.
+> >
+> > Em anexo, o Formul=C3=A1rio de Solicita=C3=A7=C3=A3o de Acesso, o Parec=
+er de
+> > Acesso e o Relacionamento Operacional.
+> >
+> > Solicitar a vistoria e conex=C3=A3o da microgera=C3=A7=C3=A3o em:
+> > https://www.copel.com/hpcweb/form-geracao-distribuida/.
+> > Caso tenha d=C3=BAvidas, verificar nos canais de atendimento do grupo B=
+:
+> >
+> >      Ag=C3=AAncia virtual: https://www.copel.com/hpcweb/;
+> >      Telef=C3=B4nico: 0800 51 00 116;
+> >      WhatsApp: 41 3013-8973.
+> >
+> > Obs.: ao requisitar a vistoria, apresente o documento de
+> > responsabilidade t=C3=A9cnica (ART/TRT), o formul=C3=A1rio de solicita=
+=C3=A7=C3=A3o de
+> > acesso assinado (o mesmo que est=C3=A1 anexado neste e-mail) e informe =
+o
+> > n=C3=BAmero do protocolo 20212281468408.
+> >
+> > O Formul=C3=A1rio para Cadastro de Unidades Participantes do Sistema de
+> > Compensa=C3=A7=C3=A3o (autoconsumo remoto) para inclus=C3=A3o de benefi=
+ci=C3=A1rios
+> > =E2=80=93 caso exista =E2=80=93 dever=C3=A1 ser anexado =C3=A0 solicita=
+=C3=A7=C3=A3o de vistoria.
+> >
+> > Caso a equipe de vistoria verifique que as unidades consumidoras n=C3=
+=A3o
+> > foram ligadas especificamente para atender cargas, mas com a
+> > finalidade exclusiva para gera=C3=A7=C3=A3o de energia, identificando a
+> > divis=C3=A3o de minigera=C3=A7=C3=A3o em microgera=C3=A7=C3=B5es, onde =
+a soma das
+> > gera=C3=A7=C3=B5es - na mesma propriedade ou em propriedades cont=C3=AD=
+guas de
+> > mesma titularidade - ultrapassem o limite de 75 kW, a vistoria ser=C3=
+=A1
+> > reprovada.
+> >
+> > -------------------------
+> >  Esta mensagem e seus anexos foram verificados por software
+> > anti-v=C3=ADrus. Recomenda-se que n=C3=A3o sejam abertos e/ou executado=
+s
+> > anexos de mensagens de conte=C3=BAdo ou remetente duvidoso.
+>
+> Will, foi solicitado a vistoria dessa cliente?
+>
+
+--000000000000597b3f05d291dffd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Boa tarde.<div><br></div><div>N=C3=A3o foi e o projeto per=
+deu validade, n=C3=A3o foi quitada a ART.</div></div><br><div class=3D"gmai=
+l_quote"><div dir=3D"ltr" class=3D"gmail_attr">Em ter., 7 de dez. de 2021 =
+=C3=A0s 11:22, &lt;<a href=3D"mailto:contato@soliveenergiasolar.com.br">con=
+tato@soliveenergiasolar.com.br</a>&gt; escreveu:<br></div><blockquote class=
+=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rg=
+b(204,204,204);padding-left:1ex">Em 2021-11-25 04:54, Willian Stopassola es=
+creveu:<br>
+&gt; ---------- Forwarded message ---------<br>
+&gt; De: &lt;<a href=3D"mailto:medicao.projetos@copel.com" target=3D"_blank=
+">medicao.projetos@copel.com</a>&gt;<br>
+&gt; Date: qui., 25 de nov. de 2021 =C3=A0s 01:50<br>
+&gt; Subject: An=C3=A1lise do projeto - Protocolo da an=C3=A1lise 202122814=
+68408<br>
+&gt; To: &lt;<a href=3D"mailto:anaclaudiacanzi@hotmail.com" target=3D"_blan=
+k">anaclaudiacanzi@hotmail.com</a>&gt;<br>
+&gt; Cc: &lt;<a href=3D"mailto:wstopassola@gmail.com" target=3D"_blank">wst=
+opassola@gmail.com</a>&gt;, &lt;<a href=3D"mailto:willianstopassola@gmail.c=
+om" target=3D"_blank">willianstopassola@gmail.com</a>&gt;<br>
+&gt; <br>
+&gt; Prezado(a),<br>
+&gt; <br>
+&gt; Informamos que a solicita=C3=A7=C3=A3o de acesso da unidade consumidor=
+a<br>
+&gt; 107178486 foi aprovada pela Copel.<br>
+&gt; <br>
+&gt; Em anexo, o Formul=C3=A1rio de Solicita=C3=A7=C3=A3o de Acesso, o Pare=
+cer de<br>
+&gt; Acesso e o Relacionamento Operacional.<br>
+&gt; <br>
+&gt; Solicitar a vistoria e conex=C3=A3o da microgera=C3=A7=C3=A3o em:<br>
+&gt; <a href=3D"https://www.copel.com/hpcweb/form-geracao-distribuida/" rel=
+=3D"noreferrer" target=3D"_blank">https://www.copel.com/hpcweb/form-geracao=
+-distribuida/</a>.<br>
+&gt; Caso tenha d=C3=BAvidas, verificar nos canais de atendimento do grupo =
+B:<br>
+&gt; <br>
+&gt;=C2=A0 =C2=A0 =C2=A0 Ag=C3=AAncia virtual: <a href=3D"https://www.copel=
+.com/hpcweb/" rel=3D"noreferrer" target=3D"_blank">https://www.copel.com/hp=
+cweb/</a>;<br>
+&gt;=C2=A0 =C2=A0 =C2=A0 Telef=C3=B4nico: 0800 51 00 116;<br>
+&gt;=C2=A0 =C2=A0 =C2=A0 WhatsApp: 41 3013-8973.<br>
+&gt; <br>
+&gt; Obs.: ao requisitar a vistoria, apresente o documento de<br>
+&gt; responsabilidade t=C3=A9cnica (ART/TRT), o formul=C3=A1rio de solicita=
+=C3=A7=C3=A3o de<br>
+&gt; acesso assinado (o mesmo que est=C3=A1 anexado neste e-mail) e informe=
+ o<br>
+&gt; n=C3=BAmero do protocolo 20212281468408.<br>
+&gt; <br>
+&gt; O Formul=C3=A1rio para Cadastro de Unidades Participantes do Sistema d=
+e<br>
+&gt; Compensa=C3=A7=C3=A3o (autoconsumo remoto) para inclus=C3=A3o de benef=
+ici=C3=A1rios<br>
+&gt; =E2=80=93 caso exista =E2=80=93 dever=C3=A1 ser anexado =C3=A0 solicit=
+a=C3=A7=C3=A3o de vistoria.<br>
+&gt; <br>
+&gt; Caso a equipe de vistoria verifique que as unidades consumidoras n=C3=
+=A3o<br>
+&gt; foram ligadas especificamente para atender cargas, mas com a<br>
+&gt; finalidade exclusiva para gera=C3=A7=C3=A3o de energia, identificando =
+a<br>
+&gt; divis=C3=A3o de minigera=C3=A7=C3=A3o em microgera=C3=A7=C3=B5es, onde=
+ a soma das<br>
+&gt; gera=C3=A7=C3=B5es - na mesma propriedade ou em propriedades cont=C3=
+=ADguas de<br>
+&gt; mesma titularidade - ultrapassem o limite de 75 kW, a vistoria ser=C3=
+=A1<br>
+&gt; reprovada.<br>
+&gt; <br>
+&gt; -------------------------<br>
+&gt;=C2=A0 Esta mensagem e seus anexos foram verificados por software<br>
+&gt; anti-v=C3=ADrus. Recomenda-se que n=C3=A3o sejam abertos e/ou executad=
+os<br>
+&gt; anexos de mensagens de conte=C3=BAdo ou remetente duvidoso.<br>
+<br>
+Will, foi solicitado a vistoria dessa cliente?<br>
+</blockquote></div>
+
+--000000000000597b3f05d291dffd--

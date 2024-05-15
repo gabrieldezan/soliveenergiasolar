@@ -1,0 +1,177 @@
+Return-Path: <afiliense.oficial@gmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id 4K5sItwMQWSiEQAAIElduQ
+	(envelope-from <afiliense.oficial@gmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 20 Apr 2023 09:58:52 +0000
+Return-path: <afiliense.oficial@gmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 20 Apr 2023 09:58:52 +0000
+Received: from mail-oo1-f50.google.com ([209.85.161.50]:50335)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <afiliense.oficial@gmail.com>)
+	id 1ppR3z-0003bp-2v
+	for contato@soliveenergiasolar.com.br;
+	Thu, 20 Apr 2023 09:58:52 +0000
+Received: by mail-oo1-f50.google.com with SMTP id 006d021491bc7-54711bc097bso220804eaf.0
+        for <contato@soliveenergiasolar.com.br>; Thu, 20 Apr 2023 02:58:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1681984731; x=1684576731;
+        h=em-task:em-campaign:mime-version:importance:date:subject:reply-to
+         :to:message-id:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=aTyvwGnqprnURJb+/jO1DD4gpvtxr6FNVC9F688Tv0w=;
+        b=F0wGJrl1ESM4xBxHpTdzNxP7Yqzr5dhoLMzWHKaPRyjb+Qh6LvSfrcfMNumjB1ukWZ
+         OZFHJzsKcD/2156WH5G80rNV3wbSal02rbJMKK4/5FWi6KlaQjoCqyHkBnra3WLMhoPw
+         IEzGpioxqV2FZ0R1YsiNZ2t73JXWGIaaH6FgLBJ41CSx4VvYg/7hQdDowLaNiEQ7RotS
+         Icm8fAwHVreJIGj1DbV7g43awWlqWXQwuiGPrnyVgrEpKKpZtKCmo1K1jorYubfKi5cd
+         w7/hRfvm1gYiFemVEn0rZOlSwDC6YY1kxPIvh4ss1O5tooxr8tciP0Mb1m2b8XoOZGtJ
+         CioQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1681984731; x=1684576731;
+        h=em-task:em-campaign:mime-version:importance:date:subject:reply-to
+         :to:message-id:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=aTyvwGnqprnURJb+/jO1DD4gpvtxr6FNVC9F688Tv0w=;
+        b=ZsFiZgaZFiY8Nt5j6GxW7OIcMUAOQYdgsyH9LpMUuWvtkGjNraF6SBWDr2bzaRTdrz
+         nUhyCEdYi4HBqoI7ofVEYcOzRab61HMtYszFWkkRdD9RAX25yeve0EE6m5IdUyagb1Er
+         34as46XGhhWJptJwz8rU0p4if0DTTz4TVeVY+zJmzwsH5zut0mOgZH7bMjKx/PUn+6Wr
+         TqJR/9kPLd8dg1qK8/8/u5dJTBx3ea0nImLzxqdAKACNd/yk5RqxhnvUlYJUyKze6LSd
+         tNf/uzrj2anKTUqqdi4qcmL3bUW9FK905Tzan+SNdzlsJmDBsL26zwzcTs/JrlpfCXKY
+         qy7g==
+X-Gm-Message-State: AAQBX9e2tbNpw+cKOxWUHqmxtxqyz+h5Zdk8AvwG8MWwDg+Gw1B7TOOl
+	+9J+ot0+v3EQi2Bfh6Rul1kvUin1+eniCg==
+X-Google-Smtp-Source: AKy350a93ydsy/rr9kikdoBrX5aF+7uHZZR7kiYIUfiTEUHwGTulbcov83KHDBP1vbmVl6Y6rVhFeA==
+X-Received: by 2002:a05:6808:99a:b0:38c:5629:d50f with SMTP id a26-20020a056808099a00b0038c5629d50fmr504123oic.20.1681984730451;
+        Thu, 20 Apr 2023 02:58:50 -0700 (PDT)
+Received: from FCRUQKGV ([181.216.210.219])
+        by smtp.gmail.com with ESMTPSA id z10-20020a4a984a000000b005413e617935sm431751ooi.15.2023.04.20.02.58.49
+        for <contato@soliveenergiasolar.com.br>
+        (version=TLS1 cipher=DES-CBC3-SHA bits=112/168);
+        Thu, 20 Apr 2023 02:58:49 -0700 (PDT)
+From: Contato <afiliense.oficial@gmail.com>
+X-Google-Original-From: "Contato" <millyyounger351@gmail.com>
+Message-ID: <5adacd28ec5d84e7.ghhx5k6z@gmail.com>
+To: <contato@soliveenergiasolar.com.br>
+Reply-To: "Contato" <mayconsfreitas@gmail.com>
+Subject: Parceria: Solive Energia Solar Ltda
+Date: Thu, 20 Apr 2023 06:58:50 -0300
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_846_3391_50041029.15565614"
+EM-Campaign: {4685D7CD-F464-4FC0-9050-9A06B0FC7CF0}
+EM-Task: 1
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Rodrigo eu me chamo Maycon Freitas é que eu liguei no telefone
+    (45) 98809-1351 porém sem sucesso, a empresa: Solive Energia Solar Ltda
+   trabalha com Energia Solar? Eu acho que tenho clientes pra voc� [...] 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [afiliense.oficial[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+X-Spam-Flag: NO
+
+This message is in MIME format with multi-part. Since your mail reader does
+not understand this format, some or all of this message may not be legible.
+
+------=_NextPart_846_3391_50041029.15565614
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Rodrigo=20eu=20me=20chamo=20Maycon=20Freitas=20=C3=A9=20que=20eu=20liguei=
+=20no=20telefone=20(45)=2098809-1351=20por=C3=A9m=20sem=20sucesso,=20a=20em=
+presa:=20Solive=20Energia=20Solar=20Ltda=20trabalha=20com=20Energia=20Solar=
+?
+Eu=20acho=20que=20tenho=20clientes=20pra=20voc=C3=AAs,=20n=C3=B3s=20temos=
+=20acesso=20mensalmente=20a=20todas=20as=20empresas=20que=20s=C3=A3o=20aber=
+tas=20em=20Cascavel/PR=20e=20que=20possuem=20alto=20CONSUMO=20DE=20ENERGIA,=
+=20s=C3=A3o=20dados=20completos=20e=20atualizados=20junto=20=C3=A0=20receit=
+a=20federal,=20isso=20te=20interessa?
+=20
+Nas=20planilhas=20voc=C3=AA=20encontrar=C3=A1=20todas=20as=20informa=C3=A7=
+=C3=B5es=20abaixo=20das=20empresas:
+=E2=9C=85=20Cnpj,=20Identificador=20M=20F,=20Raz=C3=A3o=20Social,=20Nome=
+=20Fantasia,=20Situa=C3=A7=C3=A3o=20Cadastral,=20Data=20Situa=C3=A7=C3=A3o=
+=20Cadastral,=20Motivo=20Situa=C3=A7=C3=A3o=20Cadastral,=20Nome=20Cidade=20=
+Exterior,=20C=C3=B3digo=20Pa=C3=ADs,=20Nome=20Pa=C3=ADs,=20Codigo=20Naturez=
+a=20Jur=C3=ADdica,=20Data=20In=C3=ADcio=20Atividade,=20Cnae=20Fiscal,=20Cna=
+e,=20Ramo=20De=20Atividade,=20Descri=C3=A7=C3=A3o=20Tipo=20Logradouro,=20Lo=
+gradouro,=20N=C3=BAmero,=20Complemento,=20Bairro,=20Cep,=20Uf,=20C=C3=B3dig=
+o=20Munic=C3=ADpio,=20Munic=C3=ADpio,=20Ddd=20Telefone=201,=20Ddd=20Telefon=
+e=202,=20Ddd=20Fax,=20Correio=20Electr=C3=B3nico,=20Qualificacao=20Respons=
+=C3=A1vel,=20Capital=20Social=20Empresa,=20Porte=20Empresa,=20Opcao=20Simpl=
+es,=20Data=20Op=C3=A7=C3=A3o=20Simples,=20Data=20Exclus=C3=A3o=20Simples,=
+=20Op=C3=A7=C3=A3o=20Mei,=20Situa=C3=A7=C3=A3o=20Especial,=20Data=20Situa=
+=C3=A7=C3=A3o=20Especial,=20S=C3=B3cios,=20Id.
+=20
+Atenciosamente:
+Maycon=20Souza=20Freitas
+Tel.=20(073)=2099118-6569=20WhatsApp
+
+------=_NextPart_846_3391_50041029.15565614
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD><TITLE>Parceria:=20Solive=20Energia=20Solar=20Ltda</TITLE>
+<META=20content=3D"text/html;=20charset=3Dutf-8"=20http-equiv=3DContent-Ty=
+pe>
+<META=20name=3DGENERATOR=20content=3D"MSHTML=2011.00.10570.1001">
+</HEAD>
+<BODY>
+<P><FONT=20face=3Dtahoma><B>Rodrigo&nbsp;</B>eu=20me=20chamo=20<B>Maycon=
+=20Freitas</B>=20=C3=A9=20que=20eu=20liguei=20no=20telefone<B>=20(45)=20988=
+09-1351</B>=20por=C3=A9m=20sem=20sucesso,=20a=20empresa:<B>=20Solive=20Ener=
+gia=20Solar=20Ltda&nbsp;</B>trabalha=20com&nbsp;<B>Energia=20Solar</B>?</FO=
+NT></P>
+<P><FONT=20face=3Dtahoma>Eu=20acho=20que=20tenho=20clientes=20pra=20voc=C3=
+=AAs,=20n=C3=B3s=20temos=20acesso&nbsp;mensalmente=20a=20todas&nbsp;as=20em=
+presas=20que=20s=C3=A3o=20abertas=20em<B>=20Cascavel/PR</B>=20e=20que=20pos=
+suem=20alto=20<B>CONSUMO=20DE=20ENERGIA</B>,=20s=C3=A3o=20dados=20completos=
+=20e=20atualizados=20junto=20=C3=A0=20receita=20federal,=20<B>isso=20te=20i=
+nteressa?</B></FONT></P>
+<P>&nbsp;</P>
+<P><FONT=20face=3Dtahoma><B>Nas=20planilhas=20voc=C3=AA=20encontrar=C3=A1=
+=20todas=20as=20informa=C3=A7=C3=B5es=20abaixo=20das=20empresas:</B></FONT>=
+</P>
+<P><FONT=20face=3Dtahoma>=E2=9C=85=20<EM>Cnpj,=20Identificador=20M=20F,=20=
+Raz=C3=A3o=20Social,=20Nome=20Fantasia,=20Situa=C3=A7=C3=A3o=20Cadastral,=
+=20Data=20Situa=C3=A7=C3=A3o=20Cadastral,=20Motivo=20Situa=C3=A7=C3=A3o=20C=
+adastral,=20Nome=20Cidade=20Exterior,=20C=C3=B3digo=20Pa=C3=ADs,=20Nome=20P=
+a=C3=ADs,=20Codigo=20Natureza=20Jur=C3=ADdica,=20Data=20In=C3=ADcio=20Ativi=
+dade,=20Cnae=20Fiscal,=20Cnae,=20Ramo=20De=20Atividade,=20Descri=C3=A7=C3=
+=A3o=20Tipo=20Logradouro,=20Logradouro,=20N=C3=BAmero,=20Complemento,=20Bai=
+rro,=20Cep,=20Uf,=20C=C3=B3digo=20Munic=C3=ADpio,=20Munic=C3=ADpio,=20Ddd=
+=20Telefone=201,=20Ddd=20Telefone=202,=20Ddd=20Fax,=20Correio=20Electr=C3=
+=B3nico,=20Qualificacao=20Respons=C3=A1vel,=20Capital=20Social=20Empresa,=
+=20Porte=20Empresa,=20Opcao=20Simples,=20Data=20Op=C3=A7=C3=A3o=20Simples,=
+=20Data=20Exclus=C3=A3o=20Simples,=20Op=C3=A7=C3=A3o=20Mei,=20Situa=C3=A7=
+=C3=A3o=20Especial,=20Data=20Situa=C3=A7=C3=A3o=20Especial,=20S=C3=B3cios,=
+=20Id.</EM></FONT></P>
+<P><EM><FONT=20face=3DTahoma></FONT></EM><FONT=20face=3DTahoma>&nbsp;</P><=
+/FONT>
+<P><FONT=20face=3Dtahoma><B>Atencio</B></FONT><FONT=20face=3Dtahoma><B>sam=
+ente:<BR>Maycon=20Souza=20Freitas<BR>Tel.=20(073)=2099118-6569=20WhatsApp</=
+B></FONT></P></BODY></HTML>
+
+------=_NextPart_846_3391_50041029.15565614--

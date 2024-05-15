@@ -1,0 +1,435 @@
+Return-Path: <donotreply-mail@granitex.eu>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id gO75HjZ/M2RfFgAAIElduQ
+	(envelope-from <donotreply-mail@granitex.eu>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 10 Apr 2023 03:15:02 +0000
+Return-path: <donotreply-mail@granitex.eu>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 10 Apr 2023 03:15:02 +0000
+Received: from ns549480.ip-139-99-149.net ([139.99.149.193]:57942 helo=granitex.eu)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <donotreply-mail@granitex.eu>)
+	id 1plhze-0009Az-2G
+	for contato@soliveenergiasolar.com.br;
+	Mon, 10 Apr 2023 03:15:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mail1; d=granitex.eu;
+ h=From:To:Subject:Date:MIME-Version:Message-ID:Content-Type;
+ i=contact@granitex.eu;
+ bh=jjpjPqv6AU/l5IfDtY2AbzGDpE98e3/pDLCvYw2Y/iY=;
+ b=MKAQvcSGHxDCpWpSIuN+NKis9652sW0qW8LKjU0+MtSdAr/KM/bd4NQR6BNPoFownf/N26PL/bjo
+   G1VBnkhHwvFNiThzTitZf1xpY5vK/ZljvTjys4uXV9vOr7snYY71w1cvRfS2P56/OJ9bGRXB/NnD
+   Et/YZ5FfgQQLacQi2Dw57B5OE2gpMSXNqF5CnMhWMVG7wry1tHKP2Ec0UfPaUBXjRHTqjgn6kbhe
+   11CHRMBxt4ea31DCP2GmyvxnsRychkt3GHCRxUOixhEPk12F4JtBYl+qVG7jV6DXr0etd3ZAHtZP
+   AbQERLSR+kOwzMOjERnY/FuwfS1eIADRK2Zw9g==
+Authentication-Results: granitex.eu; spf=neutral 
+ (trace: RE5TIHJlY29yZChzKToKICAgIGdyYW5pdGV4LmV1LiAxNDQwMCBJTiBUWFQgInY9c3BmMS
+  BhIG14IGE6Z3Jhbml0ZXguZXUgbXg6Z3Jhbml0ZXguZXUgaXA0OjEzOS45OS4xNDkuMC8yNCA/YWx
+  sIgogICAgZ3Jhbml0ZXguZXUuIEEgKG5vIHJlY29yZHMpCiAgICBncmFuaXRleC5ldS4gOTAwIElO
+  IE1YIDEwIG1haWwucmVnaXN0ZXIuaXQuCiAgICBtYWlsLnJlZ2lzdGVyLml0LiA1NjIwMSBJTiBBI
+  DE5NS4xMTAuMTI0LjEzMgogICAgZ3Jhbml0ZXguZXUuIEEgKG5vIHJlY29yZHMpCiAgICBncmFuaX
+  RleC5ldS4gOTAwIElOIE1YIDEwIG1haWwucmVnaXN0ZXIuaXQuCiAgICBtYWlsLnJlZ2lzdGVyLml
+  0LiA1NjIwMSBJTiBBIDE5NS4xMTAuMTI0LjEzMgo=) smtp.mailfrom=donotreply-mail@granitex.eu;
+ dkim=none reason="message not signed"
+From: "=?utf-8?B?2JzYnNic0IXYnNic2JzYnNic2Jx12JzYnNic2JzYnNic0YDYnNic2JzYnNic2JzRgNic2JzYnNic2JzYnNC+2JzYnNic2JzYnNic0LPYnNic2JzYnNic2Jx02JzYnNic?=" <donotreply-mail@granitex.eu>
+To: contato@soliveenergiasolar.com.br
+Subject: =?utf-8?B?2JzYnNic0rvYnNic2JzYnNic2JzQvtic2JzYnNic2JzYnNGV2JzYnNic2JzYnNicdNic2JzYnNic2JzYnNGW2JzYnNic2JzYnNicbtic2JzYnNic2JzYnMmh2JzYnNic2JzYnNic0LXYnNic2JzYnNic2JxyINic2JzYnC0gUtC12JzYnNicbtC12JzYnNicd9Cw2JzYnNicbCBy0LXYnNic2JxxdWly0LXYnNic2JxkIGbQvtic2JzYnHIgc29saXZlZW5lcmdpYXNvbGFyLmNvbS5iciAuIM+52JzYnNic0L7YnNic2JxuZmlybSDRg9ic2JzYnNC+2JzYnNicdXIg0YDYnNic2JzQsNic2JzYnNGD2JzYnNicbdC12JzYnNicbnQgbdC12JzYnNicdGjQvtic2JzYnGQgIQ==?=
+Date: Mon, 10 Apr 2023 05:14:14 +0200
+MIME-Version: 1.0
+Message-ID: <1681089352466c28287cd3e8b58ad53582c3f30da5_145954@granitex.eu>
+Content-Type: multipart/related; boundary="--=_Next_C623_20181209_EC12.0.12.2622"
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, We’re sorry to tell you that we tried to renew your
+    services, but got a payment failure. The following services are due for renewal
+    : - soliveenergiasolar.com.br - 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: fonts.googleapis.com]
+  0.5 JMQ_SPF_NEUTRAL        ASKDNS: SPF set to ?all
+                             [granitex.eu TXT:v=spf1 a mx a:granitex.eu]
+                             [mx:granitex.eu ip4:139.99.149.0/24]
+                             [?all]
+  0.0 RCVD_IN_ZEN_BLOCKED_OPENDNS RBL: ADMINISTRATOR NOTICE: The query
+                              to zen.spamhaus.org was blocked due to
+                             usage of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [139.99.149.193 listed in zen.spamhaus.org]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: granitex.eu]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+----=_Next_C623_20181209_EC12.0.12.2622
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META http-equiv=
+=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0"><LINK
+rel=3Dstylesheet
+href=3D"https://fonts.googleapis.com/css?family=
+=3DOpen+Sans:400,600|Roboto:400,500">
+<STYLE type=3Dtext/css>
+body {
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block !important;
+            border: none;
+        }
+        #backgroundTable {
+            margin: 0;
+            padding: 10px 10px 10px 10px;
+            width: 100% !important;
+            line-height: 100%;
+        }
+
+        @media screen and (max-width: 480px), screen and (max-device-width:=
+ 480px) {
+            .flex, [class=3Dflex] {
+                width: 94% !important;
+            }
+            #backgroundTable {
+                padding: 10px 0 10px 0px;
+            }
+        }</STYLE>
+<!--Fallback For Outlook -->
+</HEAD>
+<BODY
+style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px">
+<TABLE id=3DbackgroundTable style=3D"BACKGROUND: #ffffff" cellSpacing=3D0
+cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD><!-- Main Container -->
+      <TABLE class=3Dflex
+      style=3D"FONT-FAMILY: 'Open Sans', Arial, Helvetica, sans-serif;=
+ BORDER-COLLAPSE: collapse"
+      cellSpacing=3D0 cellPadding=3D0 width=3D600 align=3Dcenter border=3D0>
+        <TBODY>
+        <TR>
+          <TD><!-- Header -->
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+              <TBODY>
+              <TR>
+                <TD
+                style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 20px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px"
+                height=3D30><IMG border=3D0 hspace=3D0 alt=3D"Web Hosting"
+                  src=3D"cid:6f4d9bb2d65d126c"></TD></TR></TBODY></TABLE><!--=
+ End Header --></TD></TR>
+        <TR>
+          <TD
+          style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 0px;=
+ PADDING-RIGHT: 0px">&nbsp;</TD></TR>
+        <TR>
+          <TD class=3Dbody-text
+          style=3D"FONT-SIZE: 16px; FONT-FAMILY: 'Open Sans', Arial,=
+ Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: #444444; PADDING-BOTTOM:=
+ 25px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 26px; PADDING-RIGHT:=
+ 0px">
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+              <TBODY>
+              <TR>
+                <TD style=3D"HEIGHT: 26px">
+                  <P>Hello, <BR></P></TD></TR>
+              <TR>
+                <TD>
+                  <P
+                  data-mce-style=3D"color: #444444; font-family: Arial,=
+ Helvetica, Tahoma, sans-serif; font-size: 14px;">We=E2=80=99re
+                  sorry to tell you that we tried to renew your services, but
+                  got a payment failure. The following services are due for
+                  renewal :</P></TD></TR>
+              <TR>
+                <TD
+                style=3D"PADDING-BOTTOM: 14px; PADDING-TOP: 14px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">-
+                  <A
+                  href=
+=3D"http://khabilasoliveenergiasolar.com.br-org-cardabo.conciergerie-bateau-ca=
+net.com/hos-en?contato@soliveenergiasolar.com.br"><B>soliveenergiasolar.com.br=
+</B></A>
+                  -</TD></TR>
+              <TR>
+                <TD>
+                  <P class=3Dauto-style1
+                  style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; LINE-HEIGHT:=
+ 1.38"
+                  dir=3Dltr
+                  data-mce-style=3D"line-height: 1.38; margin-top: 0pt;=
+ margin-bottom: 0pt;">Please
+                  renew your services now at : <A
+                  href=
+=3D"http://khabilasoliveenergiasolar.com.br-org-cardabo.conciergerie-bateau-ca=
+net.com/hos-en?contato@soliveenergiasolar.com.br">h=D8=9C=D8=9C=D8=9C=D8=9C=
+=D8=9C=D8=9Ct=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Ct=D8=9C=D8=9C=D8=9C=D8=9C=D8=
+=9C=D8=9C=D1=80=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D1=95://w=D8=9C=D8=9C=D8=
+=9C=D8=9C=D8=9C=D8=9Cw=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cw.account-=D8=9C=D8=
+=9C=D8=9C=D2=BB=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D0=BE=D8=9C=D8=9C=D8=9C=
+=D8=9C=D8=9C=D8=9C=D1=95=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Ct=D8=9C=D8=9C=D8=
+=9C=D8=9C=D8=9C=D8=9C=D1=96=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cn=D8=9C=D8=9C=
+=D8=9C=D8=9C=D8=9C=D8=9C=C9=A1=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D0=B5=D8=
+=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cr.net?soliveenergiasolar.com.br=
+=3DvpIzXAfkQjgdg84G/?_task=3Dmail?contato@soliveenergiasolar.com.br=
+=3DINBOX&_action=3Dshow</A></P>
+                  <P class=3Dauto-style1
+                  style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; LINE-HEIGHT:=
+ 1.38"
+                  dir=3Dltr
+                  data-mce-style=3D"line-height: 1.38; margin-top: 0pt;=
+ margin-bottom: 0pt;">&nbsp;</P>
+                  <P class=3Dauto-style1
+                  style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; LINE-HEIGHT:=
+ 1.38"
+                  dir=3Dltr
+                  data-mce-style=3D"line-height: 1.38; margin-top: 0pt;=
+ margin-bottom: 0pt;">Please
+                  note that unless action is taken these products will be
+                  suspended and then deleted. </P>
+                  <DIV>&nbsp;</DIV>
+                  <DIV class=3Dauto-style1
+                  style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; LINE-HEIGHT:=
+ 1.38"
+                  dir=3Dltr
+                  data-mce-style=3D"line-height: 1.38; margin-top: 0pt;=
+ margin-bottom: 0pt;">As
+                  per our terms and conditions; in the event of non-payment=
+ or
+                  ignorance, your services will be completely discontinued
+                  within a period 48 hours according to the conditions set=
+ out
+                  in our contracts.
+                  <P>&nbsp;</P>
+                  <P class=3Dauto-style1
+                  style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt; LINE-HEIGHT:=
+ 1.38"
+                  dir=3Dltr
+                  data-mce-style=3D"line-height: 1.38; margin-top: 0pt;=
+ margin-bottom: 0pt;">&nbsp;</P></DIV></TD></TR>
+              <TR>
+                <TD>
+                  <P>Sincerely,<BR>The
+                  =D8=9C=D8=9C=D8=9C=D2=BB=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=
+=9C=D0=BE=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D1=95=D8=9C=D8=9C=D8=9C=D8=9C=
+=D8=9C=D8=9Ct=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D1=96=D8=9C=D8=9C=D8=9C=D8=
+=9C=D8=9C=D8=9Cn=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=C9=A1=D8=9C=D8=9C=D8=9C=
+=D8=9C=D8=9C=D8=9C=D0=B5=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cr
+                  Team</P>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=
+=3Dcenter
+                  border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"FONT-SIZE: 0px; LINE-HEIGHT: 0" bgColor=
+=3D#dddddd
+                      height=3D1>&nbsp;</TD></TR>
+                    <TR>
+                      <TD align=3Dcenter>
+                        <P
+                        style=3D"FONT-SIZE: 11px; COLOR: #bbbbbb;=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 12px; PADDING-LEFT: 0px; PADDING-RIGHT:=
+ 0px">You
+                        are receiving this email because you are using domain
+                        name services through
+                        =D8=9C=D8=9C=D8=9C=D2=BB=D8=9C=D8=9C=D8=9C=D8=9C=D8=
+=9C=D8=9C=D0=BE=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D1=95=D8=9C=D8=9C=D8=9C=
+=D8=9C=D8=9C=D8=9Ct=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D1=96=D8=9C=D8=9C=D8=
+=9C=D8=9C=D8=9C=D8=9Cn=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=C9=A1=D8=9C=D8=9C=
+=D8=9C=D8=9C=D8=9C=D8=9C=D0=B5=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cr.<BR>=D8=
+=9C=D8=9C=D8=9C=D2=BB=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D0=BE=D8=9C=D8=9C=
+=D8=9C=D8=9C=D8=9C=D8=9C=D1=95=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Ct=D8=9C=D8=
+=9C=D8=9C=D8=9C=D8=9C=D8=9C=D1=96=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cn=D8=9C=
+=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=C9=A1=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D0=
+=B5=D8=9C=D8=9C=D8=9C=D8=9C=D8=9C=D8=9Cr
+                        Hosting Ltd., 3rd Floor, 11-12 St. James's Square,
+                        London SW1Y 4LB,
+           =
+ UK</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY><=
+/TABLE><!-- End Main Container --></TD></TR></TBODY></TABLE></BODY></HTML>
+
+----=_Next_C623_20181209_EC12.0.12.2622
+Content-Type: image/png; name="yawkiraki.png"
+Content-Transfer-Encoding: base64
+Content-ID: <6f4d9bb2d65d126c>
+
+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
+
+----=_Next_C623_20181209_EC12.0.12.2622--
+

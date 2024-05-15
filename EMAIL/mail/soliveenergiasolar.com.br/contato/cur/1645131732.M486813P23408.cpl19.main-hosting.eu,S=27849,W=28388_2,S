@@ -1,0 +1,539 @@
+Return-Path: <s-2nxujr9kbbcxfcihd0jx1k47l13ye56b5n556u0vp9pbv8b5drlk67g7@bounce.linkedin.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id IP/wHNS3DmJwWwAAJcoV8Q
+	(envelope-from <s-2nxujr9kbbcxfcihd0jx1k47l13ye56b5n556u0vp9pbv8b5drlk67g7@bounce.linkedin.com>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 17 Feb 2022 21:02:12 +0000
+Return-path: <s-2nxujr9kbbcxfcihd0jx1k47l13ye56b5n556u0vp9pbv8b5drlk67g7@bounce.linkedin.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 17 Feb 2022 21:02:12 +0000
+Received: from maila-gf.linkedin.com ([108.174.0.134]:36999)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <s-2nxujr9kbbcxfcihd0jx1k47l13ye56b5n556u0vp9pbv8b5drlk67g7@bounce.linkedin.com>)
+	id 1nKnul-0008L2-Gf
+	for contato@soliveenergiasolar.com.br; Thu, 17 Feb 2022 21:02:12 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-201806-01; t=1645131689;
+	bh=Vw3MsfyRZIg1psy+HeNBgTpj959E9fQ+KD7YNia5S1U=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=I/8ilVD+6tY+/CssO4ICmaw7P3LRkSN8dlxCw8FL0JrFT9xhP3btWNBKdVuqvbelf
+	 B5g2Msa6ptRP83ZG7qbko+GNfGHEldk3ttRdJXsE2VCeB/BQcwIF0Qw95lOlKikJp1
+	 LqUr3U/K0Ibmw8ZP79wydrYKRlUafQ7juz0CaHeGEKMgTw8kGG0/iE5GbcgH5MWjv5
+	 mYWM+gdZMqUY9TWYtN4FAH+v+Ia87Msoy9VP5jDa4G5Mit61gpYbp69Qei1psMXI0z
+	 E8kXVVDTaHgCaKoFG8X+E6qOqse7Fx8c1H0bhk7u3TSxzBb/FKONoXTlnEShT2LnCT
+	 9uCtLFpnR40uQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maila.linkedin.com;
+	s=proddkim1024; t=1645131689;
+	bh=Vw3MsfyRZIg1psy+HeNBgTpj959E9fQ+KD7YNia5S1U=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=KtR22dj6DEw0wL3+egc6La/Az7Mdwe7LBBZ3WeX9Bs8mAQRWhgOigJ/JwHvsPwZ50
+	 hl9gUa0p1fL1ol6PNgGodjJKJpmBCOfRQMBCd57Ja+RfWITHVigRO6CTEj0MxZLDu3
+	 3t5RUUxgwwOnNy8EOsuN41qOGt/M6Pz03rBizfmc=
+From: =?UTF-8?Q?LinkedIn_=E2=80=94_seguran=C3=A7a?=
+ <security-noreply@linkedin.com>
+Message-ID: <1875450693.5246.1645131689681@ltx1-app46064.prod.linkedin.com>
+Subject: SOLIVE, sua senha foi redefinida.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5244_798695723.1645131689678"
+To: SOLIVE ENERGIA SOLAR <contato@soliveenergiasolar.com.br>
+Date: Thu, 17 Feb 2022 21:01:29 +0000 (UTC)
+X-LinkedIn-Class: ACCT-ADMIN
+X-LinkedIn-Template: security_reset_password_notification
+X-LinkedIn-fbl: m2-clvfv1cr7ojdlx79910bzb0ayg4ml0h9g9zje720yaeleza5huis4byvfz820mrc1dp1cw5wsn7t0ikfh7kittv098xj9l1nd52tsgsifw5hmkste0lk058hotn896f6sjwmdy7r
+X-LinkedIn-Id: e6i1c6-kzrgxjrv-1b
+X-Spam-Status: No, score=-5.2
+X-Spam-Score: -51
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá, SOLIVE. Você redefiniu sua senha do LinkedIn. Obrigado
+    por utilizar o LinkedIn. Equipe do LinkedIn 
+ Content analysis details:   (-5.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -3.0 RCVD_IN_VALIDITY_CERTIFIED RBL: Sender in Validity Certification
+                              - Contact certification@validity.com
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -2.0 RCVD_IN_VALIDITY_SAFE  RBL: Sender in Validity Safe - Contact
+                             certification@validity.com
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+------=_Part_5244_798695723.1645131689678
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Ol=C3=A1, SOLIVE.
+
+Voc=C3=AA redefiniu sua senha do LinkedIn.
+
+Obrigado por utilizar o LinkedIn.
+Equipe do LinkedIn
+
+
+
+Quando e onde isso ocorreu:
+Data:17 de fevereiro de 2022 21:01 (GMT)
+
+Navegador:Chrome
+
+Sistema operacional:Windows
+
+Localidade aproximada:Cascavel, Parana, Brasil
+
+N=C3=A3o fez isso? Certifique-se de alterar sua senha imediatamente: https:=
+//www.linkedin.com/e/v2?e=3De6i1c6-kzrgxjrv-1b&lipi=3Durn%3Ali%3Apage%3Aema=
+il_security_reset_password_notification%3BLKvnjGGzTJScaFlVCK78gA%3D%3D&a=3D=
+uas-request-password-reset&midToken=3DAQFIbiNVcKS5ug&midSig=3D3MlrVqmiXJoa8=
+1&ek=3Dsecurity_reset_password_notification
+
+
+
+=C2=A9 2022 LinkedIn Ireland Unlimited Company. LinkedIn, a logomarca do Li=
+nkedIn e InMail s=C3=A3o marcas registradas da LinkedIn Corporation nos Est=
+ados Unidos e/ou em outros pa=C3=ADses. Todos os direitos reservados.
+
+
+
+Este e-mail foi enviado para SOLIVE ENERGIA SOLAR (Diretor administrativo n=
+a Solive Energia Solar).=20
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/e/v2?e=3De6i1c6=
+-kzrgxjrv-1b&lipi=3Durn%3Ali%3Apage%3Aemail_security_reset_password_notific=
+ation%3BLKvnjGGzTJScaFlVCK78gA%3D%3D&a=3DcustomerServiceUrl&midToken=3DAQFI=
+biNVcKS5ug&midSig=3D3MlrVqmiXJoa81&ek=3Dsecurity_reset_password_notificatio=
+n&articleId=3D4788
+
+No caso de d=C3=BAvidas ou se precisar de ajuda, entre em contato com o Ate=
+ndimento ao Cliente do LinkedIn: https://www.linkedin.com/e/v2?e=3De6i1c6-k=
+zrgxjrv-1b&lipi=3Durn%3Ali%3Apage%3Aemail_security_reset_password_notificat=
+ion%3BLKvnjGGzTJScaFlVCK78gA%3D%3D&a=3DcustomerServiceUrl&midToken=3DAQFIbi=
+NVcKS5ug&midSig=3D3MlrVqmiXJoa81&ek=3Dsecurity_reset_password_notification
+
+LinkedIn =C3=A9 um nome comercial registrado da LinkedIn Ireland Unlimited =
+Company.
+Registrada na Irlanda como uma empresa privada e ilimitada. Registro n=C3=
+=BAmero 477441.
+Registrada em: Wilton Plaza, Wilton Place, Dublin 2, Irlanda
+------=_Part_5244_798695723.1645131689678
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns=3D"http://www.w3=
+.org/1999/xhtml" style=3D"-webkit-text-size-adjust:none;"> <head> <meta htt=
+p-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-8"> <meta name=
+=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewport" content=3D"=
+width=3Ddevice-width; initial-scale=3D0.666667; maximum-scale=3D0.666667; u=
+ser-scalable=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"=
+> <title></title> <style type=3D"text/css">@media all and (max-width:590px)=
+ {
+  *[class].responsive { width:290px !important; }
+
+  *[id]#center {
+    width:50%;
+    margin:0 auto;
+    display:table;
+  }
+
+  *[class].responsive-spacer table { width:20px !important; }
+
+  *[class].vspacer {
+    margin-top:10px !important;
+    margin-bottom:15px !important;
+    margin-left:0 !important;
+  }
+
+  *[class].res-font14 { font-size:14px !important; }
+
+  *[class].res-font16 { font-size:16px !important; }
+
+  *[class].res-font13 { font-size:13px !important; }
+
+  *[class].res-font12 { font-size:12px !important; }
+
+  *[class].res-font10 { font-size:10px !important; }
+
+  *[class].res-font18 { font-size:18px !important; }
+
+  *[class].res-font18 span { font-size:18px !important; }
+
+  *[class].responsive-50per { width:100% !important; }
+
+  *[class].responsive-spacer70 { width:70px !important; }
+
+  *[class].hideIMG {
+    height:0px !important;
+    width:0px !important;
+  }
+
+  *[class].res-height30 { height:30px !important; }
+
+  *[class].res-height20 { height:20px !important; }
+
+  *[class].res-height20 div { height:20px !important; }
+
+  *[class].res-height10 { height:10px !important; }
+
+  *[class].res-height10 div { height:10px !important; }
+
+  *[class].res-height10.email-spacer div {
+    height:10px !important;
+    min-height:10px !important;
+    line-height:10px !important;
+    font-size:10px !important;
+  }
+
+  *[class].res-height0 { height:0px !important; }
+
+  *[class].res-height0 div { height:0px !important; }
+
+  *[class].res-width280 { width:280px !important; }
+
+  *[class].res-width25 { width:25px !important; }
+
+  *[class].res-width10 { width:10px !important; }
+
+  *[class].res-width10 table { width:10px !important; }
+
+  *[class].res-width120 { width:120px !important; }
+
+  *[class].res-padding { width:0 !important; }
+
+  *[class].res-padding table { width:0 !important; }
+
+  *[class].cellpadding-none { width:0px !important; }
+
+  *[class].cellpadding-none table { border:collapse !important; }
+
+  *[class].cellpadding-none table td { padding:0 !important; }
+
+  *[class].display-none { display:none !important; }
+
+  *[class].display-block { display:block !important; }
+
+  *[class].remove-margin { margin:0 !important; }
+
+  *[class].remove-border { border:none !important; }
+
+  *[class].res-img60 {
+    width:60px !important;
+    height:60px !important;
+  }
+
+  *[class].res-img75 {
+    width:75px !important;
+    height:75px !important;
+  }
+
+  *[class].res-img100 {
+    width:100px !important;
+    height:100px !important;
+  }
+
+  *[class].res-img320 {
+    width:320px !important;
+    height:auto !important;
+    position:relative;
+  }
+
+  *[class].res-img90x63 {
+    width:90px !important;
+    height:63px !important;
+  }
+
+  *[class].res-border { border-top:1px solid #E1E1E1 !important; }
+
+  *[class].responsive2col { width:100% !important; }
+
+  *[class].center-content { text-align:center !important; }
+
+  *[class].hide-for-mobile { display:none !important; }
+
+  *[class].show-for-mobile {
+    width:100% !important;
+    max-height:none !important;
+    visibility:visible !important;
+    overflow:visible !important;
+    float:none !important;
+    height:auto !important;
+    display:block !important;
+  }
+
+  *[class].responsive-table { display:table !important; }
+
+  *[class].responsive-row { display:table-row !important; }
+
+  *[class].responsive-cell { display:table-cell !important; }
+
+  *[class].fix-table-content { table-layout:fixed; }
+
+  *[class].res-padding08 { padding-top:8px; }
+
+  *[class].header-spacer {
+    table-layout:auto !important;
+    width:250px !important;
+  }
+
+  *[class].header-spacer td,
+*[class].header-spacer div { width:250px !important; }
+}
+@media all and (-webkit-min-device-pixel-ratio:1.5) {
+  *[id]#base-header-logo {
+    background-image:url(https://static.licdn.com/sc/p/com.linkedin.email-a=
+ssets-frontend%3Aemail-assets-frontend-static-content%2B__latest__/f/%2Fema=
+il-assets-frontend%2Fimages%2Femail%2Flogos%2Flogo_linkedin_tm_email_197x48=
+_v1.png) !important;
+    background-size:95px;
+    background-repeat:no-repeat;
+    width:95px !important;
+    height:21px !important;
+  }
+
+  *[id]#base-header-logo img { opacity:0; }
+
+  *[id]#base-header-logo a { height:21px !important; }
+
+  *[id]#base-header-logo-china {
+    background-image:url(https://static.licdn.com/sc/p/com.linkedin.email-a=
+ssets-frontend%3Aemail-assets-frontend-static-content%2B__latest__/f/%2Fema=
+il-assets-frontend%2Fimages%2Femail%2Flogos%2Flogo_linkedin_tm_china_email_=
+266x42_v1.png) !important;
+    background-size:133px;
+    background-repeat:no-repeat;
+    width:133px !important;
+    height:21px !important;
+  }
+
+  *[id]#base-header-logo-china img { display:none; }
+
+  *[id]#base-header-logo-china a { height:21px !important; }
+}
+</style> </head> <body style=3D"background-color:#DFDFDF;padding:0;margin:0=
+ auto;width:100%;"> <span style=3D"display: none !important;font-size: 1px;=
+visibility: hidden;opacity: 0;color: transparent;height: 0;width: 0;mso-hid=
+e: all;">Voc=C3=AA redefiniu sua senha.</span> <table border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"font-family:Helvetica,Arial,sans-serif=
+; border-collapse:collapse; width:100% !important; font-family:Helvetica,Ar=
+ial,sans-serif; margin:0; padding:0;" width=3D"100%" bgcolor=3D"#DFDFDF"> <=
+tbody> <tr> <td colspan=3D"3"> <table border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"font-family:Helvetica,Arial,sans-serif; " width=3D"1">=
+ <tbody> <tr> <td> <div style=3D"height:5px;font-size:5px;line-height:5px;"=
+> &nbsp; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td> <table ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" width=3D"10=
+0%" style=3D"table-layout: fixed;"> <tbody> <tr> <td align=3D"center"> <tab=
+le border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:He=
+lvetica,Arial,sans-serif; min-width:290px;" width=3D"540" class=3D"responsi=
+ve"> <tbody> <tr> <td style=3D"font-family:Helvetica,Arial,sans-serif;"> <t=
+able width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"=
+email-spacer"> <tbody> <tr> <td> <div style=3D"height:8px;font-size:8px;lin=
+e-height:8px"> &nbsp; </div></td> </tr> </tbody> </table> <table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Helvetica,Arial=
+,sans-serif;" width=3D"100%" bgcolor=3D"#DDDDDD"> <tbody> <tr> <td align=3D=
+"left" valign=3D"middle" width=3D"95" height=3D"21" id=3D"base-header-logo"=
+><a style=3D"text-decoration:none;cursor:pointer;border:none;display:block;=
+height:21px;width:100%;" href=3D"https://www.linkedin.com/comm/feed/?midTok=
+en=3DAQFIbiNVcKS5ug&amp;midSig=3D3MlrVqmiXJoa81&amp;trk=3Deml-security_rese=
+t_password_notification-null-7-null&amp;trkEmail=3Deml-security_reset_passw=
+ord_notification-null-7-null-null-e6i1c6%7Ekzrgxjrv%7E1b-null-neptune%2Ffee=
+d&amp;lipi=3Durn%3Ali%3Apage%3Aemail_security_reset_password_notification%3=
+BLKvnjGGzTJScaFlVCK78gA%3D%3D"><img src=3D"https://static.licdn.com/sc/p/co=
+m.linkedin.email-assets-frontend%3Aemail-assets-frontend-static-content%2B_=
+_latest__/f/%2Femail-assets-frontend%2Fimages%2Femail%2Flogos%2Flogo_linked=
+in_tm_email_95x21_v1.png" width=3D"95" height=3D"21" alt=3D"LinkedIn" style=
+=3D"border:none;text-decoration:none;"></a></td> </tr> </tbody> </table> <t=
+able width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"=
+email-spacer"> <tbody> <tr> <td> <div style=3D"height:8px;font-size:8px;lin=
+e-height:8px"> &nbsp; </div></td> </tr> </tbody> </table> <table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Helvetica,Arial=
+,sans-serif;" width=3D"100%" bgcolor=3D"#333333"> <tbody> <tr> <td width=3D=
+"20" class=3D"responsive-spacer"> <table width=3D"20" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"1" class=3D"email-spacer"> <tbody> <tr> <td> <div =
+style=3D"height:0px;font-size:0px;line-height:0px"> &nbsp; </div></td> </tr=
+> </tbody> </table></td> <td width=3D"100%"> <table width=3D"500" cellspaci=
+ng=3D"0" cellpadding=3D"1" border=3D"0" class=3D"header-spacer" style=3D"ta=
+ble-layout: fixed;"> <tbody> <tr> <td width=3D"500"> <div style=3D"height:1=
+2px;font-size:12px;line-height:12px;width:500px;"> &nbsp; </div></td> </tr>=
+ </tbody> </table></td> <td width=3D"20" class=3D"responsive-spacer"> <tabl=
+e width=3D"20" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"em=
+ail-spacer"> <tbody> <tr> <td> <div style=3D"height:0px;font-size:0px;line-=
+height:0px"> &nbsp; </div></td> </tr> </tbody> </table></td> </tr> </tbody>=
+ </table> <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+font-family:Helvetica,Arial,sans-serif; " width=3D"100%" bgcolor=3D"#FFFFFF=
+"> <tbody> <tr> <td width=3D"20" class=3D"res-width10"> <table width=3D"20p=
+x" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-spacer r=
+es-width10"> <tbody> <tr> <td> <div style=3D"height:0px;font-size:0px;line-=
+height:0px"> &nbsp; </div></td> </tr> </tbody> </table></td> <td style=3D"c=
+olor: #333333; font-family: Helvetica,Arial,sans-serif; font-size: 15px; li=
+ne-height: 18px;" align=3D"left"> <table width=3D"1" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"1" class=3D"email-spacer res-height10"> <tbody> <tr=
+> <td> <div style=3D"height:20px;font-size:20px;line-height:20px"> &nbsp; <=
+/div></td> </tr> </tbody> </table> <table border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"font-family:Helvetica,Arial,sans-serif; " width=3D=
+"100%" bgcolor=3D"#FFFFFF"> <tbody> <tr> <td>Ol=C3=A1, SOLIVE.</td> </tr> <=
+tr> <td> <table width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1=
+" class=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"height:20px;font-=
+size:20px;line-height:20px"> &nbsp; </div></td> </tr> </tbody> </table></td=
+> </tr> <tr> <td>Voc=C3=AA redefiniu sua senha do LinkedIn.</td> </tr> <tr>=
+ <td> <table width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" c=
+lass=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"height:20px;font-siz=
+e:20px;line-height:20px"> &nbsp; </div></td> </tr> </tbody> </table></td> <=
+/tr> <tr> <td>Obrigado por utilizar o LinkedIn.</td> </tr> <tr> <td>Equipe =
+do LinkedIn</td> </tr> <tr> <td> <table width=3D"1" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"1" class=3D"email-spacer"> <tbody> <tr> <td> <div st=
+yle=3D"height:20px;font-size:20px;line-height:20px"> &nbsp; </div></td> </t=
+r> </tbody> </table></td> </tr> </tbody> </table></td> <td width=3D"20" cla=
+ss=3D"res-width10"> <table width=3D"20px" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"1" class=3D"email-spacer res-width10"> <tbody> <tr> <td> <div =
+style=3D"height:0px;font-size:0px;line-height:0px"> &nbsp; </div></td> </tr=
+> </tbody> </table></td> </tr> </tbody> </table></td> </tr> </tbody> </tabl=
+e> <table width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" clas=
+s=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"height:5px;font-size:5p=
+x;line-height:5px"> &nbsp; </div></td> </tr> </tbody> </table> <table borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Helvetica,=
+Arial,sans-serif; padding:20px;font-size:13px;line-height:14px;background-c=
+olor:#f1f1f1;color:#333333" width=3D"540" bgcolor=3D"#F1F1F1" class=3D"resp=
+onsive"> <tbody> <tr> <td><!--[if !mso 9]><!--> <div class=3D"show-for-mobi=
+le" style=3D"background-color:none;width:0;max-height:0;visibility:collapse=
+;overflow:hidden;float:left;display:none;"> <table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"font-family:Helvetica,Arial,sans-serif; "=
+ width=3D"100%" class=3D"show-for-mobile" align=3D"left"> <tbody> <tr> <td>=
+Quando e onde isso ocorreu:</td> </tr> <tr> <td> <table width=3D"1" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-spacer"> <tbody> =
+<tr> <td> <div style=3D"height:10px;font-size:10px;line-height:10px"> &nbsp=
+; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td style=3D"color:#9=
+99999">Data:</td> </tr> <tr> <td>17 de fevereiro de 2022 21:01 (GMT)</td> <=
+/tr> <tr> <td style=3D"color:#999999;padding-top:10px;">Navegador:</td> </t=
+r> <tr> <td>Chrome</td> </tr> <tr> <td style=3D"color:#999999;padding-top:1=
+0px;">Sistema operacional:</td> </tr> <tr> <td>Windows</td> </tr> <tr> <td =
+style=3D"color:#999999;padding-top:10px;">Localidade aproximada:</td> </tr>=
+ <tr> <td>Cascavel, Parana, Brasil</td> </tr> <tr> <td> <table width=3D"1" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-spacer"> <t=
+body> <tr> <td> <div style=3D"height:10px;font-size:10px;line-height:10px">=
+ &nbsp; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td colspan=3D"=
+2"><strong>N=C3=A3o fez isso?</strong> Certifique-se de <a style=3D"text-de=
+coration:none;color:#0077B5;" target=3D"blank" href=3D"https://www.linkedin=
+.com/e/v2?e=3De6i1c6-kzrgxjrv-1b&amp;lipi=3Durn%3Ali%3Apage%3Aemail_securit=
+y_reset_password_notification%3BLKvnjGGzTJScaFlVCK78gA%3D%3D&amp;a=3Duas-re=
+quest-password-reset&amp;midToken=3DAQFIbiNVcKS5ug&amp;midSig=3D3MlrVqmiXJo=
+a81&amp;ek=3Dsecurity_reset_password_notification">alterar sua senha</a> im=
+ediatamente.</td> </tr> </tbody> </table> </div><!--<![endif]--> <div class=
+=3D"hide-for-mobile"> <table border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"font-family:Helvetica,Arial,sans-serif; " width=3D"100%" class=
+=3D"hide-for-mobile" align=3D"left"> <tbody> <tr> <td align=3D"left" colspa=
+n=3D"2">Quando e onde isso ocorreu:</td> </tr> <tr> <td align=3D"left"> <ta=
+ble width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"e=
+mail-spacer"> <tbody> <tr> <td> <div style=3D"height:10px;font-size:10px;li=
+ne-height:10px"> &nbsp; </div></td> </tr> </tbody> </table></td> </tr> <tr>=
+ <td align=3D"left" style=3D"color:#999999">Data:</td> <td align=3D"left">1=
+7 de fevereiro de 2022 21:01 (GMT)</td> </tr> <tr> <td> <table width=3D"1" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-spacer"> <t=
+body> <tr> <td> <div style=3D"height:1px;font-size:1px;line-height:1px"> &n=
+bsp; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td align=3D"left"=
+ style=3D"color:#999999">Navegador:</td> <td align=3D"left">Chrome</td> </t=
+r> <tr> <td> <table width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"1" class=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"height:1px;f=
+ont-size:1px;line-height:1px"> &nbsp; </div></td> </tr> </tbody> </table></=
+td> </tr> <tr> <td align=3D"left" style=3D"color:#999999">Sistema operacion=
+al:</td> <td align=3D"left">Windows</td> </tr> <tr> <td> <table width=3D"1"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-spacer"> <=
+tbody> <tr> <td> <div style=3D"height:1px;font-size:1px;line-height:1px"> &=
+nbsp; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td> <table width=
+=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-spac=
+er"> <tbody> <tr> <td> <div style=3D"height:1px;font-size:1px;line-height:1=
+px"> &nbsp; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td align=
+=3D"left" style=3D"color:#999999">Localidade aproximada:</td> <td align=3D"=
+left">Cascavel, Parana, Brasil</td> </tr> <tr> <td align=3D"left"> <table w=
+idth=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"1" class=3D"email-=
+spacer"> <tbody> <tr> <td> <div style=3D"height:10px;font-size:10px;line-he=
+ight:10px"> &nbsp; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td =
+align=3D"left" colspan=3D"2"><strong>N=C3=A3o fez isso?</strong> Certifique=
+-se de <a style=3D"text-decoration:none;color:#0077B5;" target=3D"blank" hr=
+ef=3D"https://www.linkedin.com/e/v2?e=3De6i1c6-kzrgxjrv-1b&amp;lipi=3Durn%3=
+Ali%3Apage%3Aemail_security_reset_password_notification%3BLKvnjGGzTJScaFlVC=
+K78gA%3D%3D&amp;a=3Duas-request-password-reset&amp;midToken=3DAQFIbiNVcKS5u=
+g&amp;midSig=3D3MlrVqmiXJoa81&amp;ek=3Dsecurity_reset_password_notification=
+">alterar sua senha</a> imediatamente.</td> </tr> </tbody> </table> </div><=
+/td> </tr> </tbody> </table> <table border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"font-family:Helvetica,Arial,sans-serif; " width=3D"540" =
+class=3D"responsive"> <tbody> <tr></tr> </tbody> </table> <table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Helvetica,Arial=
+,sans-serif; " width=3D"540" class=3D"responsive"> <tbody> <tr> <td> <table=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-family:Helv=
+etica,Arial,sans-serif; " width=3D"100%" class=3D"responsive"> <tbody> <tr>=
+ <td> <table width=3D"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" c=
+lass=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"height:10px;font-siz=
+e:10px;line-height:10px"> &nbsp; </div></td> </tr> </tbody> </table></td> <=
+/tr> <tr> <td align=3D"center"> <table border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" style=3D"color:#999999;font-size:11px;font-family:Helvetica,Ar=
+ial,sans-serif;" width=3D"100%"> <tbody> <tr> <td align=3D"center" dir=3D"l=
+tr">=C2=A9 2022 LinkedIn Ireland Unlimited Company. LinkedIn, a logomarca d=
+o LinkedIn e InMail s=C3=A3o marcas registradas da LinkedIn Corporation nos=
+ Estados Unidos e/ou em outros pa=C3=ADses. Todos os direitos reservados.</=
+td> </tr> <tr> <td> <table width=3D"1" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" class=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"height=
+:10px;font-size:10px;line-height:10px"> &nbsp; </div></td> </tr> </tbody> <=
+/table></td> </tr> <tr> <td align=3D"center"></td> </tr> <tr> <td align=3D"=
+center"></td> </tr> <tr> <td align=3D"center">Este e-mail foi enviado para =
+SOLIVE ENERGIA SOLAR (Diretor administrativo na Solive Energia Solar). <a h=
+ref=3D"https://www.linkedin.com/e/v2?e=3De6i1c6-kzrgxjrv-1b&amp;lipi=3Durn%=
+3Ali%3Apage%3Aemail_security_reset_password_notification%3BLKvnjGGzTJScaFlV=
+CK78gA%3D%3D&amp;a=3DcustomerServiceUrl&amp;midToken=3DAQFIbiNVcKS5ug&amp;m=
+idSig=3D3MlrVqmiXJoa81&amp;ek=3Dsecurity_reset_password_notification&amp;ar=
+ticleId=3D4788" style=3D"color:#0077B5;text-decoration:none;">Saiba por que=
+ inclu=C3=ADmos isto.</a></td> </tr> <tr> <td align=3D"center">No caso de d=
+=C3=BAvidas ou se precisar de ajuda, entre em contato com o <a target=3D"_b=
+lank" href=3D"https://www.linkedin.com/e/v2?e=3De6i1c6-kzrgxjrv-1b&amp;lipi=
+=3Durn%3Ali%3Apage%3Aemail_security_reset_password_notification%3BLKvnjGGzT=
+JScaFlVCK78gA%3D%3D&amp;a=3DcustomerServiceUrl&amp;midToken=3DAQFIbiNVcKS5u=
+g&amp;midSig=3D3MlrVqmiXJoa81&amp;ek=3Dsecurity_reset_password_notification=
+" style=3D"color:#0077B5;text-decoration:none;">Atendimento ao Cliente do L=
+inkedIn</a>.</td> </tr> <tr> <td> <table width=3D"1" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" class=3D"email-spacer"> <tbody> <tr> <td> <div s=
+tyle=3D"height:10px;font-size:10px;line-height:10px"> &nbsp; </div></td> </=
+tr> </tbody> </table></td> </tr> <tr> <td align=3D"center" dir=3D"ltr">Link=
+edIn =C3=A9 um nome comercial registrado da LinkedIn Ireland Unlimited Comp=
+any.</td> </tr> <tr> <td align=3D"center" dir=3D"ltr">Registrada na Irlanda=
+ como uma empresa privada e ilimitada. Registro n=C3=BAmero 477441.</td> </=
+tr> <tr> <td align=3D"center" dir=3D"ltr">Registrada em: Wilton Plaza, Wilt=
+on Place, Dublin 2, Irlanda</td> </tr> <tr> <td> <table width=3D"1" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-spacer"> <tbody> =
+<tr> <td> <div style=3D"height:10px;font-size:10px;line-height:10px"> &nbsp=
+; </div></td> </tr> </tbody> </table></td> </tr> <tr> <td align=3D"center">=
+</td> </tr> <tr> <td> <table width=3D"1" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" class=3D"email-spacer"> <tbody> <tr> <td> <div style=3D"heig=
+ht:10px;font-size:10px;line-height:10px"> &nbsp; </div></td> </tr> </tbody>=
+ </table></td> </tr> </tbody> </table></td> </tr> <tr> <td> <table width=3D=
+"1" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-spacer"=
+> <tbody> <tr> <td> <div style=3D"height:20px;font-size:20px;line-height:20=
+px"> &nbsp; </div></td> </tr> </tbody> </table></td> </tr> </tbody> </table=
+></td> </tr> </tbody> </table></td> </tr> </tbody> </table></td> </tr> </tb=
+ody> </table> <img alt=3D"" role=3D"presentation" src=3D"http://www.linkedi=
+n.com/emimp/ip_WlRacE1XTTJMV3Q2Y21kNGFuSjJMVEZpOmMyVmpkWEpwZEhsZmNtVnpaWFJm=
+Y0dGemMzZHZjbVJmYm05MGFXWnBZMkYwYVc5dTo=3D.gif" style=3D"width:1px; height:=
+1px;"> </body> </html>
+------=_Part_5244_798695723.1645131689678--
+

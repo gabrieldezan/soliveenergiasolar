@@ -1,0 +1,905 @@
+Return-Path: <luana@exactsales.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from srv252.prodns.com.br
+	by srv252.prodns.com.br with LMTP
+	id iOqvClhnX18PFg8AAYt2BQ
+	(envelope-from <luana@exactsales.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 14 Sep 2020 09:51:36 -0300
+Return-path: <luana@exactsales.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 14 Sep 2020 09:51:36 -0300
+Received: from mail-oo1-f44.google.com ([209.85.161.44]:39236)
+	by srv252.prodns.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <luana@exactsales.com.br>)
+	id 1kHnxG-004BvO-Vb
+	for contato@soliveenergiasolar.com.br; Mon, 14 Sep 2020 09:51:36 -0300
+Received: by mail-oo1-f44.google.com with SMTP id s17so3985489ooe.6
+        for <contato@soliveenergiasolar.com.br>; Mon, 14 Sep 2020 05:51:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=exactsales.com.br; s=google;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=7/fM9Lp8WZfoCOhvI2R1+Gi0T8e3FL6nn/PzKJXjtO0=;
+        b=c9yrUFYiCfGfVPIgF2s/YAxTVxvHl6kBPZW63MvU2Fa8SNi7PEevlUCK8si2uLLNZT
+         LTa6QZFTfEXWVfVervgBoajS24lpISlufk4J4MHt75tBgn0/NodIjYPumljZPxuMmTFG
+         QaSsUMwlVY0PiU3bCUzNZBm3McTvKrFqamqSc=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=7/fM9Lp8WZfoCOhvI2R1+Gi0T8e3FL6nn/PzKJXjtO0=;
+        b=FyoCHFvEKS01DNEa+DpF0zqrKNAI1It5yETKDMI1DnRpUAvv1f5gMEmMBE+hQNMzvM
+         PxHAzX6XQM/arV2z68H8ORgsU1iN3a8QJdg6eGcekVo1vCxg/TqplEmD+mktm4YMk/DH
+         6DIsuPTOm0Y/dckNW24TmiJ4FYnnu0a65/NbJYMiHiAaatopNxoF5qnp8e5EPjeuh/k8
+         aI+9w2EUiboMMtu/o4RswHEj3hpnH3b2Hztl0mW3tZ7AWMAgGlsEHkvslu2o4UfNAHRV
+         BxcXyOFVMCgs1diEoqlzhSbXpj3Dw2TQ7IOzKIPPQBrg7wEKgj5EX0a/ZBTVLNa576PH
+         416A==
+X-Gm-Message-State: AOAM5322alQIvPkSzwGJhU5buVsO6s99nIh/9vTxXWV1KLUuWnLh1tro
+	ralADrtX0ovIcTeOYBwO+cw/2ws00JX+eZNv1Kb+jgr2ch8X4IqrWPrHgeWDc8TMUDaktRxzyTW
+	U0KbLDoVr4O3hVu7Y3yhCoWLa5vHPQK2X3LuOaKIO
+X-Google-Smtp-Source: ABdhPJxGaMAsBv50p/5GkqrStlCe1EcjTuh33XJR+lKCfohzabyZ2fqfw5RrCLPwi7AB/753clAm//NSI3uklsaO1zA=
+X-Received: by 2002:a4a:d509:: with SMTP id m9mr10211036oos.77.1600087883499;
+ Mon, 14 Sep 2020 05:51:23 -0700 (PDT)
+MIME-Version: 1.0
+References: <zHMpk1aKQz6qps8L2fgyeQ@ismtpd0050p1iad1.sendgrid.net>
+ <CABwF8aKBF94Uwhp4t9uthobctgK4rTJs9yZxTckT7bcc+OUhRg@mail.gmail.com>
+ <CABwF8aJ7RBz8QnY=eQs55nh7Yb_23xtjYqeG+cD8+hR6S2Sa2g@mail.gmail.com>
+ <CABwF8aKU5VE6__anbA_Xi19GzD6yWYoYfBgkX1brVHFV_82hrw@mail.gmail.com> <CABwF8a+ZGB1XmZanrrEXUDdptcvQaCtDk2T76WzbS88qr_u4Uw@mail.gmail.com>
+In-Reply-To: <CABwF8a+ZGB1XmZanrrEXUDdptcvQaCtDk2T76WzbS88qr_u4Uw@mail.gmail.com>
+From: Luana Kruhs <luana@exactsales.com.br>
+Date: Mon, 14 Sep 2020 09:50:47 -0300
+Message-ID: <CABwF8a+fYpBUFN7M=3hErYJvtTnp7-6_sVaRDuW-8+SAgh5BYw@mail.gmail.com>
+Subject: Re: Novo evento: Kickoff - Solive Energia solar LTDA - 14:30 Ter, 8
+ Set 2020 - Abertura do Projeto
+To: rodrigo_umr@hotmail.com
+Cc: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="000000000000e7e3a905af457dfc"
+X-Spam-Status: No, score=-2.2
+X-Spam-Score: -21
+X-Spam-Bar: --
+X-Spam-Flag: NO
+
+--000000000000e7e3a905af457dfc
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1 Rodrigo, bom dia. Tudo bem?
+
+Tentei contato contigo agora pela manh=C3=A3 no n=C3=BAmero (45) 9880-91351=
+ sem
+sucesso. Tamb=C3=A9m n=C3=A3o recebi retorno das mensagens que enviei no Wh=
+atsApp.
+
+Para reagendar a reuni=C3=A3o de Kick Off voc=C3=AA pode acessar o link a s=
+eguir e
+escolher o melhor dia e hor=C3=A1rio: www.calendly.com/kickoffexactsales
+
+=C3=89 de suma import=C3=A2ncia que essa reuni=C3=A3o seja efetuada antes d=
+os pagamentos,
+para que assim voc=C3=AA tenha uma vis=C3=A3o mais clara do projeto e tamb=
+=C3=A9m possamos
+realizar os alinhamos necess=C3=A1rios para a boa execu=C3=A7=C3=A3o da imp=
+lementa=C3=A7=C3=A3o.
+
+Qualquer d=C3=BAvida estou a disposi=C3=A7=C3=A3o!
+
+Em qui., 10 de set. de 2020 =C3=A0s 10:46, Luana Kruhs <luana@exactsales.co=
+m.br>
+escreveu:
+
+> Ol=C3=A1 Rodrigo, bom dia.
+>
+> Fiquei lhe aguardando no link do Hangouts at=C3=A9 10h45. Entrei em conta=
+to por
+> liga=C3=A7=C3=A3o e WhatsApp no n=C3=BAmero (45) 9880-91351 sem sucesso.
+>
+> Desta forma teremos que remarcar nossa reuni=C3=A3o, envio o link da minh=
+a
+> agenda para que voc=C3=AA possa escolher o melhor dia e hor=C3=A1rio:
+> https://calendly.com/kickoffexactsales
+>
+> Qualquer d=C3=BAvida estou a disposi=C3=A7=C3=A3o.
+>
+> Em qui., 10 de set. de 2020 =C3=A0s 10:00, Luana Kruhs <luana@exactsales.=
+com.br>
+> escreveu:
+>
+>> Ol=C3=A1 Rodrigo. Tudo bem?
+>>
+>> Segue link para nossa reuni=C3=A3o: https://meet.google.com/uia-yewt-uvj
+>>
+>> At=C3=A9 logo!
+>>
+>> Em ter., 8 de set. de 2020 =C3=A0s 13:07, Luana Kruhs <luana@exactsales.=
+com.br>
+>> escreveu:
+>>
+>>> Ol=C3=A1 Rodrigo. Tudo bem?
+>>>
+>>> Como combinamos, a reuni=C3=A3o ficou para dia 10/09 (quinta-feira) as =
+10h30.
+>>>
+>>> Refor=C3=A7o a import=C3=A2ncia do preenchimento do question=C3=A1rio i=
+nformacional de
+>>> projeto *antes* da reuni=C3=A3o, assim saberei mais sobre sua empresa e=
+ a
+>>> reuni=C3=A3o ser=C3=A1 mais produtiva. Voc=C3=AA pode acess=C3=A1-lo *c=
+licando aqui*
+>>> <https://docs.google.com/forms/d/e/1FAIpQLSfTkZ77OYiypbvDvgnIfPaN_PxtZx=
+yZ4_9LrsfFssgKpvIMaQ/viewform?usp=3Dsf_link>
+>>> .
+>>>
+>>> Abra=C3=A7os e at=C3=A9 l=C3=A1!
+>>>
+>>>
+>>> Em qua., 2 de set. de 2020 =C3=A0s 13:09, Luana Kruhs <
+>>> luana@exactsales.com.br> escreveu:
+>>>
+>>>> Ol=C3=A1, Rodrigo. Tudo bem?
+>>>>
+>>>> Me chamo Luana Kr=C3=BChs e fa=C3=A7o parte da Ger=C3=AAncia de Implem=
+enta=C3=A7=C3=A3o, sou a
+>>>> Analista respons=C3=A1vel pela abertura do projeto da Solive.
+>>>>
+>>>> A abertura do projeto =C3=A9 uma reuni=C3=A3o de alinhamento realizada=
+ antes da
+>>>> data do in=C3=ADcio do projeto e pode ser via audioconfer=C3=AAncia po=
+r Skype ou
+>>>> Hangouts. A dura=C3=A7=C3=A3o da reuni=C3=A3o =C3=A9 de 40 a 60min.
+>>>>
+>>>>
+>>>> Confirmo o convite para a nossa reuni=C3=A3o *do dia 08/09 as 14h30*.
+>>>>
+>>>> Ser=C3=A1 interessante se puder passar desde j=C3=A1 quais as pessoas =
+que
+>>>> participar=C3=A3o do projeto (Nome, Cargo, E-mail e Telefone).
+>>>>
+>>>> Caso ainda n=C3=A3o tenha preenchido, refor=C3=A7o a import=C3=A2ncia =
+do preenchimento
+>>>> do question=C3=A1rio informacional de projeto *antes* da reuni=C3=A3o,=
+ assim
+>>>> saberei mais sobre sua empresa e a reuni=C3=A3o ser=C3=A1 mais produti=
+va. Voc=C3=AA
+>>>> pode acess=C3=A1-lo *clicando aqui*
+>>>> <https://docs.google.com/forms/d/e/1FAIpQLSfTkZ77OYiypbvDvgnIfPaN_PxtZ=
+xyZ4_9LrsfFssgKpvIMaQ/viewform?usp=3Dsf_link>
+>>>> .
+>>>>
+>>>> Abra=C3=A7os!
+>>>>
+>>>>
+>>>> Em qua., 2 de set. de 2020 =C3=A0s 10:48, Calendly <
+>>>> notifications@calendly.com> escreveu:
+>>>>
+>>>>> [image: Calendly]
+>>>>>
+>>>>> Ol=C3=A1 Ger=C3=AAncia de Implementa=C3=A7=C3=A3o da Exact Sales,
+>>>>>
+>>>>> Foi agendado um novo evento.
+>>>>>
+>>>>> * Tipo de evento: *
+>>>>> Abertura do Projeto
+>>>>>
+>>>>> * Convidado: *
+>>>>> Kickoff - Solive Energia solar LTDA
+>>>>>
+>>>>> * E-mail do convidado: *
+>>>>> rodrigo_umr@hotmail.com
+>>>>>
+>>>>> * Data/hora do evento: *
+>>>>> 14:30 - Ter=C3=A7a-feira, 8 Setembro 2020 (Hor=C3=A1rio de Bras=C3=AD=
+lia)
+>>>>>
+>>>>> * Descri=C3=A7=C3=A3o: *
+>>>>>
+>>>>> A abertura do projeto =C3=A9 uma reuni=C3=A3o de alinhamento realizad=
+a antes da
+>>>>> data do in=C3=ADcio do projeto e pode ser via audioconfer=C3=AAncia p=
+or Skype ou
+>>>>> Hangouts. A dura=C3=A7=C3=A3o da reuni=C3=A3o =C3=A9 de 40 a 60min.
+>>>>>
+>>>>> * Fuso hor=C3=A1rio do convidado: *
+>>>>> Hor=C3=A1rio de Bras=C3=ADlia
+>>>>>
+>>>>> Ver convidado no Calendly
+>>>>> <https://click.calendly.com/ls/click?upn=3Div9HLNn5AOyjxPwviujPh1UO1c=
+PB1zUL30ucSq-2FRio4vKLpoab5v9EHMyNLQX941TEZLWqVOiN-2BM1YwDLv7UKmmGxKmV7DkX6=
+U8BAushaGbks4FxEIRheTXv-2BU-2FbzJPHAHPVonrI6ebBjiaIh-2Few-2BXpaPdrHIBJhjflg=
+jzm74mw-3Dqc5h_MEZ-2BCZkFIBizjoEacqWj4VK8Ma7Bu-2FKWMHNzChDMxVR3rozSTj6-2Fze=
+GohcvHgjEb0zlagz3MBTm8P3eJcHnqDud-2FG-2BUwzmuCN20ToT-2FKJxvOcAsQiLfaGx-2BaG=
+TC96YT8GT8-2B2IrfRfW-2BLFWnVE1-2Bufp1zWuIRxcg7Qmz2Pyj1X8CjbsSmPWG5A5fnA-2FE=
+QX9i1BRnlNzHjlxbMGng-2BhmOh5-2BugjQO3jCT1mgOAav1fgNUrrMGqtpQGWkvqLJk1C5vdq4=
+3Qcp-2BenD2jHBTrt-2FRVV4h5JPQaaeTdAc5z4Paj7Y-3D>
+>>>>>
+>>>>> Enviado por Calendly
+>>>>> <https://click.calendly.com/ls/click?upn=3Div9HLNn5AOyjxPwviujPh8ng8X=
+4g1AwE4OVUu3PRuF4-3DwWvE_MEZ-2BCZkFIBizjoEacqWj4VK8Ma7Bu-2FKWMHNzChDMxVR3ro=
+zSTj6-2FzeGohcvHgjEb0zlagz3MBTm8P3eJcHnqDvdMh38s982zVzlhs-2BLTp63Shm4XGwSic=
+uGEKjs6AjbmcPuZJwA7ukAjoJ4oqBq7irT-2FMf5NIvHpxFcp-2FTe2nGNoRL-2Bd-2BsoP3cNy=
+VQ4FFUON-2FwDEhtAoWgoI1w-2F9XwkWowctKIRZmaMBy3pREPoCFW5BR-2Bz-2FsQbNIEPzD4R=
+tmobfmJrlqfxLRlAKr6HMZaW2rIfQBrt8PNhJUo3Zi5DvHIc-3D>
+>>>>> Denunciar este evento
+>>>>> <https://click.calendly.com/ls/click?upn=3Div9HLNn5AOyjxPwviujPh1UO1c=
+PB1zUL30ucSq-2FRio4vKLpoab5v9EHMyNLQX941fn1ZvDvcc7cx8NSWzkc1bvzYzL3EUXCaEmK=
+jUyvRM75L9WJ3D7rZ8z3dDf2HaBQphRdTE-2BRNlAk0nLw3fXW7JQ-3D-3D-nsA_MEZ-2BCZkFI=
+BizjoEacqWj4VK8Ma7Bu-2FKWMHNzChDMxVR3rozSTj6-2FzeGohcvHgjEb0zlagz3MBTm8P3eJ=
+cHnqDo5cHm5j-2Bz5HnnkIDSj3GhJQ8cddLugEVn5r0e5ABDRHKGC51Qt6vMwLJ8zSrAUN3H8sQ=
+ZBnQUdrI1LWAp6dGIoWz3IfGjFtUsffdFaFoTTou2YVPP9VdjxxUXVZK-2Fvk4ql1uwnVpr7uns=
+pRwXEyX5AnC7wGYUbzYA1MdIZIiQgChHW03DLJqeVMr5nBucUyjE7YoYII4a8esKSiUzjZdGg-3=
+D>
+>>>>>
+>>>>
+>>>>
+>>>> --
+>>>>
+>>>> Luana Kr=C3=BChs
+>>>>
+>>>> Analista de Projetos
+>>>>
+>>>> fone: +55 48 3025 7750 | +55 48 3181 0180
+>>>>
+>>>>
+>>>> https://www.exactsales.com.br
+>>>>
+>>>> <https://www.exactsales.com.br/>
+>>>>
+>>>> Rod. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)
+>>>>
+>>>> CEP 88032-005 - Saco Grande
+>>>>
+>>>> Florian=C3=B3polis/SC
+>>>>
+>>>>
+>>>
+>>> --
+>>>
+>>> Luana Kr=C3=BChs
+>>>
+>>> Analista de Projetos
+>>>
+>>> fone: +55 48 3025 7750 | +55 48 3181 0180
+>>>
+>>>
+>>> https://www.exactsales.com.br
+>>>
+>>> <https://www.exactsales.com.br/>
+>>>
+>>> Rod. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)
+>>>
+>>> CEP 88032-005 - Saco Grande
+>>>
+>>> Florian=C3=B3polis/SC
+>>>
+>>>
+>>
+>> --
+>>
+>> Luana Kr=C3=BChs
+>>
+>> Analista de Projetos
+>>
+>> fone: +55 48 3025 7750 | +55 48 3181 0180
+>>
+>>
+>> https://www.exactsales.com.br
+>>
+>> <https://www.exactsales.com.br/>
+>>
+>> Rod. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)
+>>
+>> CEP 88032-005 - Saco Grande
+>>
+>> Florian=C3=B3polis/SC
+>>
+>>
+>
+> --
+>
+> Luana Kr=C3=BChs
+>
+> Analista de Projetos
+>
+> fone: +55 48 3025 7750 | +55 48 3181 0180
+>
+>
+> https://www.exactsales.com.br
+>
+> <https://www.exactsales.com.br/>
+>
+> Rod. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)
+>
+> CEP 88032-005 - Saco Grande
+>
+> Florian=C3=B3polis/SC
+>
+>
+
+--=20
+
+Luana Kr=C3=BChs
+
+Analista de Projetos
+
+fone: +55 48 3025 7750 | +55 48 3181 0180
+
+
+https://www.exactsales.com.br
+
+<https://www.exactsales.com.br/>
+
+Rod. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)
+
+CEP 88032-005 - Saco Grande
+
+Florian=C3=B3polis/SC
+
+--=20
+The content of this email is confidential and intended for the recipient=20
+specified in message only. It is strictly forbidden to share any part of=20
+this message with any third party, without a written consent of the sender.=
+=C2=A0
+
+--000000000000e7e3a905af457dfc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Ol=C3=A1 Rodrigo, bom dia. Tudo bem?<div><br></div><div>Te=
+ntei contato contigo agora pela manh=C3=A3 no n=C3=BAmero=C2=A0(45) 9880-91=
+351 sem sucesso. Tamb=C3=A9m n=C3=A3o recebi retorno das mensagens que envi=
+ei no WhatsApp.</div><div><br></div><div>Para reagendar a reuni=C3=A3o de K=
+ick Off voc=C3=AA pode acessar o link a seguir e escolher o melhor dia e ho=
+r=C3=A1rio: <a href=3D"http://www.calendly.com/kickoffexactsales">www.calen=
+dly.com/kickoffexactsales</a></div><div><br></div><div>=C3=89 de suma impor=
+t=C3=A2ncia que essa reuni=C3=A3o seja efetuada antes dos pagamentos, para =
+que assim voc=C3=AA tenha uma vis=C3=A3o mais clara do projeto e tamb=C3=A9=
+m possamos realizar os alinhamos necess=C3=A1rios para a boa execu=C3=A7=C3=
+=A3o da implementa=C3=A7=C3=A3o.</div><div><br></div><div>Qualquer=C2=A0d=
+=C3=BAvida estou a=C2=A0disposi=C3=A7=C3=A3o!</div></div><br><div class=3D"=
+gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">Em qui., 10 de set. de 2=
+020 =C3=A0s 10:46, Luana Kruhs &lt;<a href=3D"mailto:luana@exactsales.com.b=
+r">luana@exactsales.com.br</a>&gt; escreveu:<br></div><blockquote class=3D"=
+gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(20=
+4,204,204);padding-left:1ex"><div dir=3D"ltr">Ol=C3=A1 Rodrigo, bom dia.<di=
+v><br></div><div>Fiquei lhe aguardando no link do Hangouts at=C3=A9 10h45. =
+Entrei em contato por liga=C3=A7=C3=A3o e WhatsApp no n=C3=BAmero=C2=A0(45)=
+ 9880-91351 sem sucesso.</div><div><br></div><div>Desta forma teremos que r=
+emarcar nossa reuni=C3=A3o, envio o link da minha agenda para que voc=C3=AA=
+ possa escolher o melhor dia e hor=C3=A1rio:=C2=A0<a href=3D"https://calend=
+ly.com/kickoffexactsales" target=3D"_blank">https://calendly.com/kickoffexa=
+ctsales</a></div><div><br></div><div>Qualquer d=C3=BAvida estou a disposi=
+=C3=A7=C3=A3o.</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" c=
+lass=3D"gmail_attr">Em qui., 10 de set. de 2020 =C3=A0s 10:00, Luana Kruhs =
+&lt;<a href=3D"mailto:luana@exactsales.com.br" target=3D"_blank">luana@exac=
+tsales.com.br</a>&gt; escreveu:<br></div><blockquote class=3D"gmail_quote" =
+style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);pa=
+dding-left:1ex"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span st=
+yle=3D"background-color:rgb(255,255,255)">Ol=C3=A1 Rodrigo. T</span>udo bem=
+?<div><br></div><div>Segue link para nossa reuni=C3=A3o:=C2=A0<a href=3D"ht=
+tps://meet.google.com/uia-yewt-uvj" target=3D"_blank">https://meet.google.c=
+om/uia-yewt-uvj</a></div><div><br></div><div>At=C3=A9 logo!</div></div></di=
+v></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr=
+">Em ter., 8 de set. de 2020 =C3=A0s 13:07, Luana Kruhs &lt;<a href=3D"mail=
+to:luana@exactsales.com.br" target=3D"_blank">luana@exactsales.com.br</a>&g=
+t; escreveu:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px=
+ 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><di=
+v dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span style=3D"background-c=
+olor:rgb(255,255,255)">Ol=C3=A1 Rodrigo. Tudo</span> bem?<div><br></div><di=
+v>Como combinamos, a reuni=C3=A3o ficou para dia 10/09 (quinta-feira) as 10=
+h30.</div><div><br></div><div><span style=3D"color:rgb(0,0,0)">Refor=C3=A7o=
+=C2=A0a=C2=A0import=C3=A2ncia=C2=A0do preenchimento do question=C3=A1rio in=
+formacional de projeto=C2=A0</span><b style=3D"color:rgb(0,0,0)"><u>antes</=
+u></b><span style=3D"color:rgb(0,0,0)">=C2=A0da reuni=C3=A3o, assim saberei=
+ mais sobre sua empresa e a reuni=C3=A3o ser=C3=A1 mais produtiva.=C2=A0</s=
+pan><span style=3D"color:rgb(0,0,0);background-color:rgb(255,255,0)">Voc=C3=
+=AA pode acess=C3=A1-lo=C2=A0<a href=3D"https://docs.google.com/forms/d/e/1=
+FAIpQLSfTkZ77OYiypbvDvgnIfPaN_PxtZxyZ4_9LrsfFssgKpvIMaQ/viewform?usp=3Dsf_l=
+ink" target=3D"_blank"><b>clicando=C2=A0aqui</b></a>.</span><span style=3D"=
+color:rgb(0,0,0)">=C2=A0=C2=A0</span>=C2=A0=C2=A0<br></div><div><br></div><=
+div>Abra=C3=A7os e at=C3=A9 l=C3=A1!</div><div><br></div></div></div></div>=
+<br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">Em qua=
+., 2 de set. de 2020 =C3=A0s 13:09, Luana Kruhs &lt;<a href=3D"mailto:luana=
+@exactsales.com.br" target=3D"_blank">luana@exactsales.com.br</a>&gt; escre=
+veu:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px=
+ 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div><font color=3D"#000000" style=3D"background-color:rgb(255,255,255)">Ol=
+=C3=A1, Rodrigo. Tudo bem?<br></font><div><font color=3D"#000000" style=3D"=
+background-color:rgb(255,255,255)"><br>Me chamo Luana Kr=C3=BChs e fa=C3=A7=
+o parte da Ger=C3=AAncia de Implementa=C3=A7=C3=A3o, sou a Analista respons=
+=C3=A1vel pela abertura do projeto da Solive.</font></div><div><font color=
+=3D"#000000" style=3D"background-color:rgb(255,255,255)"><br></font></div><=
+div><font color=3D"#000000" style=3D"background-color:rgb(255,255,255)">A a=
+bertura do projeto =C3=A9 uma reuni=C3=A3o de alinhamento realizada antes d=
+a data do in=C3=ADcio do projeto e pode ser via audioconfer=C3=AAncia por S=
+kype ou Hangouts. A dura=C3=A7=C3=A3o da reuni=C3=A3o =C3=A9 de 40 a 60min.=
+<br></font></div><p class=3D"MsoNormal"><font color=3D"#000000" style=3D"ba=
+ckground-color:rgb(255,255,255)"><u></u></font></p><div><div><p class=3D"Ms=
+oNormal"><font color=3D"#000000" style=3D"background-color:rgb(255,255,255)=
+">=C2=A0</font></p></div></div></div><div><font color=3D"#000000" style=3D"=
+background-color:rgb(255,255,255)"><span style=3D"font-size:12.6667px">Conf=
+irmo o convite para a nossa reuni=C3=A3o=C2=A0<b>do dia 08/09 as 14h30</b><=
+/span><span style=3D"font-size:12.6667px">.</span><br></font></div><div><fo=
+nt color=3D"#000000"><br></font></div><div><font color=3D"#000000">Ser=C3=
+=A1 interessante se puder passar desde j=C3=A1 quais as pessoas que partici=
+par=C3=A3o do projeto (Nome, Cargo, E-mail e Telefone).</font></div><div><b=
+><font color=3D"#000000"><br></font></b></div><div><font color=3D"#000000">=
+Caso ainda n=C3=A3o tenha preenchido, refor=C3=A7o=C2=A0a=C2=A0import=C3=A2=
+ncia=C2=A0do preenchimento do question=C3=A1rio informacional de projeto=C2=
+=A0<b><u>antes</u></b>=C2=A0da reuni=C3=A3o, assim saberei mais sobre sua e=
+mpresa e a reuni=C3=A3o ser=C3=A1 mais produtiva.=C2=A0<span style=3D"backg=
+round-color:rgb(255,255,0)">Voc=C3=AA pode acess=C3=A1-lo=C2=A0<a href=3D"h=
+ttps://docs.google.com/forms/d/e/1FAIpQLSfTkZ77OYiypbvDvgnIfPaN_PxtZxyZ4_9L=
+rsfFssgKpvIMaQ/viewform?usp=3Dsf_link" target=3D"_blank"><b>clicando=C2=A0a=
+qui</b></a>.</span>=C2=A0=C2=A0<b><br></b></font></div><div><b><font color=
+=3D"#000000"><br></font></b></div></div><div><div dir=3D"ltr"><div dir=3D"l=
+tr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><di=
+v><font color=3D"#000000">Abra=C3=A7os!</font></div></div></div></div></div=
+></div></div></div></div></div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div><span style=3D"font-size:8pt;font-family:Arial;back=
+ground-color:transparent;vertical-align:baseline;white-space:pre-wrap"><br>=
+</span></div></div></div></div></div></div></div></div></div></div></div><b=
+r><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">Em qua.,=
+ 2 de set. de 2020 =C3=A0s 10:48, Calendly &lt;<a href=3D"mailto:notificati=
+ons@calendly.com" target=3D"_blank">notifications@calendly.com</a>&gt; escr=
+eveu:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0p=
+x 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><u></u>
+
+ =20
+ =20
+ =20
+ =20
+
+ =20
+
+
+
+
+  <div bgcolor=3D"#ffffff" style=3D"font-family:&quot;Proxima Nova&quot;,pr=
+oxima-nova,Helvetica,&quot;Arial sans-serif&quot;;height:100%;background-co=
+lor:rgb(255,255,255);width:100%">
+    <div style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helveti=
+ca,&quot;Arial sans-serif&quot;;padding:20px 0px;margin:0px auto;max-width:=
+600px">
+
+
+      <table style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Hel=
+vetica,&quot;Arial sans-serif&quot;;width:80%;margin:0px auto;padding-botto=
+m:20px;border-bottom:1px dashed rgb(218,218,218)">
+        <tbody><tr style=3D"font-family:&quot;Proxima Nova&quot;,proxima-no=
+va,Helvetica,&quot;Arial sans-serif&quot;">
+          <td style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,He=
+lvetica,&quot;Arial sans-serif&quot;;text-align:center">
+            <p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,H=
+elvetica,&quot;Arial sans-serif&quot;">
+              <img alt=3D"Calendly" src=3D"http://assets.calendly.com/asset=
+s/emails/logo-email-header-bf5b520caa9ce340db28579b758ee14277f7cb1d44412d66=
+7a32934fae15ca96.png" width=3D"55" height=3D"50" style=3D"font-family: &quo=
+t;Proxima Nova&quot;, proxima-nova, Helvetica, &quot;Arial sans-serif&quot;=
+; max-width: 100%;">
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+
+     =20
+      <table style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Hel=
+vetica,&quot;Arial sans-serif&quot;;width:80%;margin:30px auto 0px;font-siz=
+e:16px">
+        <tbody><tr style=3D"font-family:&quot;Proxima Nova&quot;,proxima-no=
+va,Helvetica,&quot;Arial sans-serif&quot;">
+          <td style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,He=
+lvetica,&quot;Arial sans-serif&quot;;color:rgb(77,80,85);line-height:22px">
+            <p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,H=
+elvetica,&quot;Arial sans-serif&quot;;margin-bottom:12px">
+    Ol=C3=A1 Ger=C3=AAncia de Implementa=C3=A7=C3=A3o da Exact Sales,
+</p>
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-bottom:12px">
+  Foi agendado um novo evento.
+</p>
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-bottom:12px">
+  <strong style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvet=
+ica,&quot;Arial sans-serif&quot;;font-size:14px">
+    Tipo de evento:
+  </strong>
+  <br style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,=
+&quot;Arial sans-serif&quot;">
+  Abertura do Projeto
+</p>
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-bottom:12px">
+  <strong style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvet=
+ica,&quot;Arial sans-serif&quot;;font-size:14px">
+    Convidado:
+  </strong>
+  <br style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,=
+&quot;Arial sans-serif&quot;">
+  Kickoff - Solive Energia solar LTDA
+</p>
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-bottom:12px">
+  <strong style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvet=
+ica,&quot;Arial sans-serif&quot;;font-size:14px">
+    E-mail do convidado:
+  </strong>
+  <br style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,=
+&quot;Arial sans-serif&quot;">
+  <a href=3D"mailto:rodrigo_umr@hotmail.com" style=3D"font-family:&quot;Pro=
+xima Nova&quot;,proxima-nova,Helvetica,&quot;Arial sans-serif&quot;;color:r=
+gb(77,155,215);text-decoration:none" target=3D"_blank">rodrigo_umr@hotmail.=
+com</a>
+</p>
+
+
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-bottom:12px">
+  <strong style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvet=
+ica,&quot;Arial sans-serif&quot;;font-size:14px">
+    Data/hora do evento:
+  </strong>
+  <br style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,=
+&quot;Arial sans-serif&quot;">
+  14:30 - Ter=C3=A7a-feira, 8 Setembro 2020 (Hor=C3=A1rio de Bras=C3=ADlia)
+</p>
+
+
+  <p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&=
+quot;Arial sans-serif&quot;;margin-bottom:12px">
+    <strong style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helv=
+etica,&quot;Arial sans-serif&quot;;font-size:14px">
+      Descri=C3=A7=C3=A3o:
+    </strong>
+    <br style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetic=
+a,&quot;Arial sans-serif&quot;">
+    </p><p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helve=
+tica,&quot;Arial sans-serif&quot;">A abertura do projeto =C3=A9 uma reuni=
+=C3=A3o de alinhamento realizada antes da data do in=C3=ADcio do projeto e =
+pode ser via audioconfer=C3=AAncia por Skype ou Hangouts. A dura=C3=A7=C3=
+=A3o da reuni=C3=A3o =C3=A9 de 40 a 60min.</p>
+ =20
+
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-bottom:12px">
+  <strong style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvet=
+ica,&quot;Arial sans-serif&quot;;font-size:14px">
+    Fuso hor=C3=A1rio do convidado:
+  </strong>
+  <br style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,=
+&quot;Arial sans-serif&quot;">
+    Hor=C3=A1rio de Bras=C3=ADlia
+</p>
+
+
+
+
+
+
+
+<p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helvetica,&qu=
+ot;Arial sans-serif&quot;;margin-top:24px">
+<a href=3D"https://click.calendly.com/ls/click?upn=3Div9HLNn5AOyjxPwviujPh1=
+UO1cPB1zUL30ucSq-2FRio4vKLpoab5v9EHMyNLQX941TEZLWqVOiN-2BM1YwDLv7UKmmGxKmV7=
+DkX6U8BAushaGbks4FxEIRheTXv-2BU-2FbzJPHAHPVonrI6ebBjiaIh-2Few-2BXpaPdrHIBJh=
+jflgjzm74mw-3Dqc5h_MEZ-2BCZkFIBizjoEacqWj4VK8Ma7Bu-2FKWMHNzChDMxVR3rozSTj6-=
+2FzeGohcvHgjEb0zlagz3MBTm8P3eJcHnqDud-2FG-2BUwzmuCN20ToT-2FKJxvOcAsQiLfaGx-=
+2BaGTC96YT8GT8-2B2IrfRfW-2BLFWnVE1-2Bufp1zWuIRxcg7Qmz2Pyj1X8CjbsSmPWG5A5fnA=
+-2FEQX9i1BRnlNzHjlxbMGng-2BhmOh5-2BugjQO3jCT1mgOAav1fgNUrrMGqtpQGWkvqLJk1C5=
+vdq43Qcp-2BenD2jHBTrt-2FRVV4h5JPQaaeTdAc5z4Paj7Y-3D" style=3D"font-family:&=
+quot;Proxima Nova&quot;,proxima-nova,Helvetica,&quot;Arial sans-serif&quot;=
+;color:rgb(77,155,215);text-decoration:none" target=3D"_blank">Ver convidad=
+o no Calendly</a>
+</p>
+
+
+
+
+
+          </td>
+        </tr>
+      </tbody></table>
+
+     =20
+      <table style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Hel=
+vetica,&quot;Arial sans-serif&quot;;width:80%;margin:30px auto;border-top:1=
+px dashed rgb(218,218,218);clear:both">
+        <tbody><tr style=3D"font-family:&quot;Proxima Nova&quot;,proxima-no=
+va,Helvetica,&quot;Arial sans-serif&quot;">
+          <td style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,He=
+lvetica,&quot;Arial sans-serif&quot;;color:rgb(168,168,168);padding-top:15p=
+x">
+
+             =20
+              <p style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova=
+,Helvetica,&quot;Arial sans-serif&quot;;font-size:12px;text-align:left">
+                  Enviado por <a href=3D"https://click.calendly.com/ls/clic=
+k?upn=3Div9HLNn5AOyjxPwviujPh8ng8X4g1AwE4OVUu3PRuF4-3DwWvE_MEZ-2BCZkFIBizjo=
+EacqWj4VK8Ma7Bu-2FKWMHNzChDMxVR3rozSTj6-2FzeGohcvHgjEb0zlagz3MBTm8P3eJcHnqD=
+vdMh38s982zVzlhs-2BLTp63Shm4XGwSicuGEKjs6AjbmcPuZJwA7ukAjoJ4oqBq7irT-2FMf5N=
+IvHpxFcp-2FTe2nGNoRL-2Bd-2BsoP3cNyVQ4FFUON-2FwDEhtAoWgoI1w-2F9XwkWowctKIRZm=
+aMBy3pREPoCFW5BR-2Bz-2FsQbNIEPzD4RtmobfmJrlqfxLRlAKr6HMZaW2rIfQBrt8PNhJUo3Z=
+i5DvHIc-3D" style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,Helv=
+etica,&quot;Arial sans-serif&quot;;color:rgb(77,155,215);text-decoration:no=
+ne" target=3D"_blank">Calendly</a>
+              </p>
+             =20
+
+          </td>
+            <td style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova,=
+Helvetica,&quot;Arial sans-serif&quot;;padding-top:15px;text-align:right">
+              <a style=3D"font-family:&quot;Proxima Nova&quot;,proxima-nova=
+,Helvetica,&quot;Arial sans-serif&quot;;color:rgb(77,155,215);text-decorati=
+on:none;font-size:12px;margin-top:1em" href=3D"https://click.calendly.com/l=
+s/click?upn=3Div9HLNn5AOyjxPwviujPh1UO1cPB1zUL30ucSq-2FRio4vKLpoab5v9EHMyNL=
+QX941fn1ZvDvcc7cx8NSWzkc1bvzYzL3EUXCaEmKjUyvRM75L9WJ3D7rZ8z3dDf2HaBQphRdTE-=
+2BRNlAk0nLw3fXW7JQ-3D-3D-nsA_MEZ-2BCZkFIBizjoEacqWj4VK8Ma7Bu-2FKWMHNzChDMxV=
+R3rozSTj6-2FzeGohcvHgjEb0zlagz3MBTm8P3eJcHnqDo5cHm5j-2Bz5HnnkIDSj3GhJQ8cddL=
+ugEVn5r0e5ABDRHKGC51Qt6vMwLJ8zSrAUN3H8sQZBnQUdrI1LWAp6dGIoWz3IfGjFtUsffdFaF=
+oTTou2YVPP9VdjxxUXVZK-2Fvk4ql1uwnVpr7unspRwXEyX5AnC7wGYUbzYA1MdIZIiQgChHW03=
+DLJqeVMr5nBucUyjE7YoYII4a8esKSiUzjZdGg-3D" target=3D"_blank">
+                Denunciar este evento
+              </a>
+            </td>
+        </tr>
+      </tbody></table>
+    </div>
+ =20
+<img src=3D"https://click.calendly.com/wf/open?upn=3DWRtOeRTGp6YDBoeAhpMGrO=
+2m4ysh-2BkDGgKdnyIgapbKn92e-2BEb-2B98BS2YxJdGo-2F8q5f3Z1NqaybBAtmTu0gsEQXBe=
+GOp-2BZsyGGOtnPXCmRD4tcO-2BegeB6XJ6VrehNSlUvztrYbOyEfjcMOyA19vAvGBdKRx-2Fiz=
+mfVFTyE2ABHejSokfumGutkeaxz47teojh4HtnX-2FuROp63LZS9bLF1aVe0W5QaZcg-2FQLH-2=
+FgNMT31CswxILNlgowqY59KDrb29vOhotPKVkI61BW8qhPoFxv1Pb3LLaQtWyHEigYBbJOYA-3D=
+" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height: 1px; widt=
+h: 1px; border-width: 0px; margin: 0px; padding: 0px;">
+</div>
+
+
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span><p style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><span><span style=3D"font-size:=
+9.5pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-=
+weight:700;vertical-align:baseline;white-space:pre-wrap">Luana Kr=C3=BChs</=
+span></span><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;color:rg=
+b(153,153,153);background-color:transparent;vertical-align:baseline;white-s=
+pace:pre-wrap">Analista de Projetos</span></p><br><p dir=3D"ltr" style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:=
+8pt;font-family:Arial;color:rgb(68,68,68);background-color:transparent;vert=
+ical-align:baseline;white-space:pre-wrap">fone: </span><span style=3D"font-=
+size:8pt;font-family:Arial;color:rgb(17,85,204);background-color:transparen=
+t;vertical-align:baseline;white-space:pre-wrap">+55 48 3025 7750</span><spa=
+n style=3D"font-size:8pt;font-family:Arial;color:rgb(68,68,68);background-c=
+olor:transparent;vertical-align:baseline;white-space:pre-wrap"> | </span><s=
+pan style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,204);backgroun=
+d-color:transparent;vertical-align:baseline;white-space:pre-wrap">+55 48 31=
+81 0180</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><a href=3D"https://www.exactsales.com.br/" target=
+=3D"_blank"><span style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,=
+204);background-color:transparent;vertical-align:baseline;white-space:pre-w=
+rap">https://www.exactsales.com.br</span></a></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://www.exa=
+ctsales.com.br/" target=3D"_blank"><span style=3D"font-size:8pt;font-family=
+:Arial;color:rgb(17,85,204);background-color:transparent;vertical-align:bas=
+eline;white-space:pre-wrap"><span style=3D"border:none;display:inline-block=
+;overflow:hidden;width:300px;height:97px"><img src=3D"https://lh6.googleuse=
+rcontent.com/ihdb72AhJQzUN7j2jQTgp2dzaHz-7PhrsjnrsP--L4CDsOde4JNpSUb5tRJMWl=
+jAcAk-23SEqOrobaacr39HdR5WFWBdGlktE9DKGoTVvFqvrQXqWw9VaVkD7uJgpjR4o3pgJG-Z"=
+ width=3D"300" height=3D"97" style=3D"margin-left: 0px; margin-top: 0px;"><=
+/span></span></a></p><br><p dir=3D"ltr" style=3D"line-height:1.656;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;ba=
+ckground-color:transparent;vertical-align:baseline;white-space:pre-wrap">Ro=
+d. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)</span></p><p dir=3D"ltr"=
+ style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:8pt;font-family:Arial;background-color:transparent;vertical-a=
+lign:baseline;white-space:pre-wrap">CEP 88032-005 - Saco Grande</span></p><=
+p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:8pt;font-family:Arial;background-color:transparent=
+;vertical-align:baseline;white-space:pre-wrap">Florian=C3=B3polis/SC</span>=
+</p><div><span style=3D"font-size:8pt;font-family:Arial;background-color:tr=
+ansparent;vertical-align:baseline;white-space:pre-wrap"><br></span></div></=
+span></div></div></div></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span><p style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><span><span style=3D"font-size:=
+9.5pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-=
+weight:700;vertical-align:baseline;white-space:pre-wrap">Luana Kr=C3=BChs</=
+span></span><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;color:rg=
+b(153,153,153);background-color:transparent;vertical-align:baseline;white-s=
+pace:pre-wrap">Analista de Projetos</span></p><br><p dir=3D"ltr" style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:=
+8pt;font-family:Arial;color:rgb(68,68,68);background-color:transparent;vert=
+ical-align:baseline;white-space:pre-wrap">fone: </span><span style=3D"font-=
+size:8pt;font-family:Arial;color:rgb(17,85,204);background-color:transparen=
+t;vertical-align:baseline;white-space:pre-wrap">+55 48 3025 7750</span><spa=
+n style=3D"font-size:8pt;font-family:Arial;color:rgb(68,68,68);background-c=
+olor:transparent;vertical-align:baseline;white-space:pre-wrap"> | </span><s=
+pan style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,204);backgroun=
+d-color:transparent;vertical-align:baseline;white-space:pre-wrap">+55 48 31=
+81 0180</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><a href=3D"https://www.exactsales.com.br/" target=
+=3D"_blank"><span style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,=
+204);background-color:transparent;vertical-align:baseline;white-space:pre-w=
+rap">https://www.exactsales.com.br</span></a></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://www.exa=
+ctsales.com.br/" target=3D"_blank"><span style=3D"font-size:8pt;font-family=
+:Arial;color:rgb(17,85,204);background-color:transparent;vertical-align:bas=
+eline;white-space:pre-wrap"><span style=3D"border:none;display:inline-block=
+;overflow:hidden;width:300px;height:97px"><img src=3D"https://lh6.googleuse=
+rcontent.com/ihdb72AhJQzUN7j2jQTgp2dzaHz-7PhrsjnrsP--L4CDsOde4JNpSUb5tRJMWl=
+jAcAk-23SEqOrobaacr39HdR5WFWBdGlktE9DKGoTVvFqvrQXqWw9VaVkD7uJgpjR4o3pgJG-Z"=
+ width=3D"300" height=3D"97" style=3D"margin-left: 0px; margin-top: 0px;"><=
+/span></span></a></p><br><p dir=3D"ltr" style=3D"line-height:1.656;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;ba=
+ckground-color:transparent;vertical-align:baseline;white-space:pre-wrap">Ro=
+d. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)</span></p><p dir=3D"ltr"=
+ style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:8pt;font-family:Arial;background-color:transparent;vertical-a=
+lign:baseline;white-space:pre-wrap">CEP 88032-005 - Saco Grande</span></p><=
+p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:8pt;font-family:Arial;background-color:transparent=
+;vertical-align:baseline;white-space:pre-wrap">Florian=C3=B3polis/SC</span>=
+</p><div><span style=3D"font-size:8pt;font-family:Arial;background-color:tr=
+ansparent;vertical-align:baseline;white-space:pre-wrap"><br></span></div></=
+span></div></div></div></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span><p style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><span><span style=3D"font-size:=
+9.5pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-=
+weight:700;vertical-align:baseline;white-space:pre-wrap">Luana Kr=C3=BChs</=
+span></span><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;color:rg=
+b(153,153,153);background-color:transparent;vertical-align:baseline;white-s=
+pace:pre-wrap">Analista de Projetos</span></p><br><p dir=3D"ltr" style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:=
+8pt;font-family:Arial;color:rgb(68,68,68);background-color:transparent;vert=
+ical-align:baseline;white-space:pre-wrap">fone: </span><span style=3D"font-=
+size:8pt;font-family:Arial;color:rgb(17,85,204);background-color:transparen=
+t;vertical-align:baseline;white-space:pre-wrap">+55 48 3025 7750</span><spa=
+n style=3D"font-size:8pt;font-family:Arial;color:rgb(68,68,68);background-c=
+olor:transparent;vertical-align:baseline;white-space:pre-wrap"> | </span><s=
+pan style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,204);backgroun=
+d-color:transparent;vertical-align:baseline;white-space:pre-wrap">+55 48 31=
+81 0180</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><a href=3D"https://www.exactsales.com.br/" target=
+=3D"_blank"><span style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,=
+204);background-color:transparent;vertical-align:baseline;white-space:pre-w=
+rap">https://www.exactsales.com.br</span></a></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://www.exa=
+ctsales.com.br/" target=3D"_blank"><span style=3D"font-size:8pt;font-family=
+:Arial;color:rgb(17,85,204);background-color:transparent;vertical-align:bas=
+eline;white-space:pre-wrap"><span style=3D"border:none;display:inline-block=
+;overflow:hidden;width:300px;height:97px"><img src=3D"https://lh6.googleuse=
+rcontent.com/ihdb72AhJQzUN7j2jQTgp2dzaHz-7PhrsjnrsP--L4CDsOde4JNpSUb5tRJMWl=
+jAcAk-23SEqOrobaacr39HdR5WFWBdGlktE9DKGoTVvFqvrQXqWw9VaVkD7uJgpjR4o3pgJG-Z"=
+ width=3D"300" height=3D"97" style=3D"margin-left: 0px; margin-top: 0px;"><=
+/span></span></a></p><br><p dir=3D"ltr" style=3D"line-height:1.656;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;ba=
+ckground-color:transparent;vertical-align:baseline;white-space:pre-wrap">Ro=
+d. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)</span></p><p dir=3D"ltr"=
+ style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:8pt;font-family:Arial;background-color:transparent;vertical-a=
+lign:baseline;white-space:pre-wrap">CEP 88032-005 - Saco Grande</span></p><=
+p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:8pt;font-family:Arial;background-color:transparent=
+;vertical-align:baseline;white-space:pre-wrap">Florian=C3=B3polis/SC</span>=
+</p><div><span style=3D"font-size:8pt;font-family:Arial;background-color:tr=
+ansparent;vertical-align:baseline;white-space:pre-wrap"><br></span></div></=
+span></div></div></div></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><=
+div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span><p style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><span><span style=3D"font-size:=
+9.5pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-=
+weight:700;vertical-align:baseline;white-space:pre-wrap">Luana Kr=C3=BChs</=
+span></span><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;color:rg=
+b(153,153,153);background-color:transparent;vertical-align:baseline;white-s=
+pace:pre-wrap">Analista de Projetos</span></p><br><p dir=3D"ltr" style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:=
+8pt;font-family:Arial;color:rgb(68,68,68);background-color:transparent;vert=
+ical-align:baseline;white-space:pre-wrap">fone: </span><span style=3D"font-=
+size:8pt;font-family:Arial;color:rgb(17,85,204);background-color:transparen=
+t;vertical-align:baseline;white-space:pre-wrap">+55 48 3025 7750</span><spa=
+n style=3D"font-size:8pt;font-family:Arial;color:rgb(68,68,68);background-c=
+olor:transparent;vertical-align:baseline;white-space:pre-wrap"> | </span><s=
+pan style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,204);backgroun=
+d-color:transparent;vertical-align:baseline;white-space:pre-wrap">+55 48 31=
+81 0180</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><br></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><a href=3D"https://www.exactsales.com.br/" target=
+=3D"_blank"><span style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,=
+204);background-color:transparent;vertical-align:baseline;white-space:pre-w=
+rap">https://www.exactsales.com.br</span></a></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://www.exa=
+ctsales.com.br/" target=3D"_blank"><span style=3D"font-size:8pt;font-family=
+:Arial;color:rgb(17,85,204);background-color:transparent;vertical-align:bas=
+eline;white-space:pre-wrap"><span style=3D"border:none;display:inline-block=
+;overflow:hidden;width:300px;height:97px"><img src=3D"https://lh6.googleuse=
+rcontent.com/ihdb72AhJQzUN7j2jQTgp2dzaHz-7PhrsjnrsP--L4CDsOde4JNpSUb5tRJMWl=
+jAcAk-23SEqOrobaacr39HdR5WFWBdGlktE9DKGoTVvFqvrQXqWw9VaVkD7uJgpjR4o3pgJG-Z"=
+ width=3D"300" height=3D"97" style=3D"margin-left: 0px; margin-top: 0px;"><=
+/span></span></a></p><br><p dir=3D"ltr" style=3D"line-height:1.656;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;ba=
+ckground-color:transparent;vertical-align:baseline;white-space:pre-wrap">Ro=
+d. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact Sales)</span></p><p dir=3D"ltr"=
+ style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:8pt;font-family:Arial;background-color:transparent;vertical-a=
+lign:baseline;white-space:pre-wrap">CEP 88032-005 - Saco Grande</span></p><=
+p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:8pt;font-family:Arial;background-color:transparent=
+;vertical-align:baseline;white-space:pre-wrap">Florian=C3=B3polis/SC</span>=
+</p><div><span style=3D"font-size:8pt;font-family:Arial;background-color:tr=
+ansparent;vertical-align:baseline;white-space:pre-wrap"><br></span></div></=
+span></div></div></div></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><span><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><spa=
+n><span style=3D"font-size:9.5pt;font-family:Arial;color:rgb(0,0,0);backgro=
+und-color:transparent;font-weight:700;vertical-align:baseline;white-space:p=
+re-wrap">Luana Kr=C3=BChs</span></span><br></p><p dir=3D"ltr" style=3D"line=
+-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:8pt=
+;font-family:Arial;color:rgb(153,153,153);background-color:transparent;vert=
+ical-align:baseline;white-space:pre-wrap">Analista de Projetos</span></p><b=
+r><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"font-size:8pt;font-family:Arial;color:rgb(68,68,68);backgr=
+ound-color:transparent;vertical-align:baseline;white-space:pre-wrap">fone: =
+</span><span style=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,204);=
+background-color:transparent;vertical-align:baseline;white-space:pre-wrap">=
++55 48 3025 7750</span><span style=3D"font-size:8pt;font-family:Arial;color=
+:rgb(68,68,68);background-color:transparent;vertical-align:baseline;white-s=
+pace:pre-wrap"> | </span><span style=3D"font-size:8pt;font-family:Arial;col=
+or:rgb(17,85,204);background-color:transparent;vertical-align:baseline;whit=
+e-space:pre-wrap">+55 48 3181 0180</span></p><p dir=3D"ltr" style=3D"line-h=
+eight:1.38;margin-top:0pt;margin-bottom:0pt"><br></p><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://w=
+ww.exactsales.com.br/" target=3D"_blank"><span style=3D"font-size:8pt;font-=
+family:Arial;color:rgb(17,85,204);background-color:transparent;vertical-ali=
+gn:baseline;white-space:pre-wrap">https://www.exactsales.com.br</span></a><=
+/p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0p=
+t"><a href=3D"https://www.exactsales.com.br/" target=3D"_blank"><span style=
+=3D"font-size:8pt;font-family:Arial;color:rgb(17,85,204);background-color:t=
+ransparent;vertical-align:baseline;white-space:pre-wrap"><span style=3D"bor=
+der:none;display:inline-block;overflow:hidden;width:300px;height:97px"><img=
+ src=3D"https://lh6.googleusercontent.com/ihdb72AhJQzUN7j2jQTgp2dzaHz-7Phrs=
+jnrsP--L4CDsOde4JNpSUb5tRJMWljAcAk-23SEqOrobaacr39HdR5WFWBdGlktE9DKGoTVvFqv=
+rQXqWw9VaVkD7uJgpjR4o3pgJG-Z" width=3D"300" height=3D"97" style=3D"margin-l=
+eft: 0px; margin-top: 0px;"></span></span></a></p><br><p dir=3D"ltr" style=
+=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt"><span style=3D"font=
+-size:8pt;font-family:Arial;background-color:transparent;vertical-align:bas=
+eline;white-space:pre-wrap">Rod. Jos=C3=A9 Carlos Daux, 5500 - 29B (Exact S=
+ales)</span></p><p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;background-=
+color:transparent;vertical-align:baseline;white-space:pre-wrap">CEP 88032-0=
+05 - Saco Grande</span></p><p dir=3D"ltr" style=3D"line-height:1.656;margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"font-size:8pt;font-family:Arial;=
+background-color:transparent;vertical-align:baseline;white-space:pre-wrap">=
+Florian=C3=B3polis/SC</span></p><div><span style=3D"font-size:8pt;font-fami=
+ly:Arial;background-color:transparent;vertical-align:baseline;white-space:p=
+re-wrap"><br></span></div></span></div></div></div></div></div></div></div>=
+</div></div>
+
+<br>
+<em style=3D"margin:0px;padding:0px;border:0px;vertical-align:baseline;colo=
+r:rgb(68,68,68);font-family:&quot;Segoe UI&quot;,Frutiger,&quot;Frutiger Li=
+notype&quot;,&quot;Dejavu Sans&quot;,&quot;Helvetica Neue&quot;,Arial,sans-=
+serif;background-color:rgb(255,255,255)"><font size=3D"1">The content of th=
+is email is confidential and intended for the recipient specified in messag=
+e only. It is strictly forbidden to share any part of this message with any=
+ third party, without a written consent of the sender.=C2=A0</font></em>
+--000000000000e7e3a905af457dfc--

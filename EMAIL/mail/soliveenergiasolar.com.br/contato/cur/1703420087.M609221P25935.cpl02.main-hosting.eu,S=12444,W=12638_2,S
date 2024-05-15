@@ -1,0 +1,194 @@
+Return-Path: <exataconstrcao@dfcugroup.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id 6KkwJLcgiGVPZQAAIElduQ
+	(envelope-from <exataconstrcao@dfcugroup.com>)
+	for <contato@soliveenergiasolar.com.br>; Sun, 24 Dec 2023 12:14:47 +0000
+Return-path: <exataconstrcao@dfcugroup.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Sun, 24 Dec 2023 12:14:47 +0000
+Received: from mail-db5eur01on2075.outbound.protection.outlook.com ([40.107.15.75]:8418 helo=EUR01-DB5-obe.outbound.protection.outlook.com)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <exataconstrcao@dfcugroup.com>)
+	id 1rHNNW-0001Za-2q
+	for contato@soliveenergiasolar.com.br;
+	Sun, 24 Dec 2023 12:14:47 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=fXkZPht1GKgXhQahtriBwUaeSr5Ze0TETe8SMvywmKDmAqYDuB4YSE2ZjJt/MQL/pj+sNy//i4rg3RGxXHdLAV4dUOne89VhSKIv6+hxuxEPRrNAxs4fxym9EUgc+DtTkZ0767Gxg0cx03d9PIoIIzwqZOMSuQT5WD1Qh++WMaPe7AQGR6Zoz3LaBycUDcmxMp/eOrUIU1YMqCKkkpO6y0lwtHu3vBtJ6jpU6Lj96BqnCkGNLtSuiIC7TP+uG82oU7q530g1Hvd6rqkR73XDocx8X3qKkos13VUmBkorNSISSrqnlOrujr6K/2xDAiM+ys+2iP9zLymO7T5EOAq0IQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=vqju63CBm7JBbWdThFHqW1kZWlE99x4YEU1URNEkAfI=;
+ b=BTMtn/GoqUlmrS5Px1J4S1b6F8jE6KB2QVbNThtJs+nGQicwX0JXSicUZqxUoveAQJPyJZ6dWZQsOt04W/0XmGOSNjuj1XK3wkAkY/RAp5FZz7VapruMvOek3E1bp9Ep8+b8AfysbTkwEO6uP0fikHVu0jz6OEH1foB4zrit734ULOj5vYU+UaKqMSseicmv/Qm9H6TLI6ssbhKmzf6gTVIo5IGyj9HQc5uX5tiZaD7IjZ8OGXGw3rXz9tS/BIhBHryGHuKL2Q8ifl4SKfp8OdMdC//gPRmYYOzZ9MhgqiYXSJsaGe/62uLdXxT57zpo7n7mXfcMO3UbILwF1915bg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 80.88.2.101) smtp.rcpttodomain=soliveenergiasolar.com.br
+ smtp.mailfrom=dfcugroup.com; dmarc=fail (p=reject sp=none pct=100)
+ action=oreject header.from=dfcugroup.com; dkim=none (message not signed);
+ arc=none (0)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dfcugroup.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=vqju63CBm7JBbWdThFHqW1kZWlE99x4YEU1URNEkAfI=;
+ b=k4GMn6uXZDKeo7tq61YRIb1Dg8RrM2QZbLPbMxpPWqejmzI/TV6bK8DFhvvgfzRcLwVw21zKVxo0GtJPr2odoyRqlPMqu4ougMwP+BX7AqLM8/h+pDadO80x0IxqSd6owOMvl1SEu275CIoV7AsUIFE1x1NUaZqTzAl2I8SM+FBpJJJEKvPov1DSVFJPMFoyQr2/JKd+HHYZSxOlJoXoq2qME2WZd5V9/Ukksb6THaCiTCXVXwmn9abDsJRSjVk9r8O40IwDXUh5ghSGyZilB3AOPouRhfzsDo4SMyXdudDZZspp/ba+Bfb5514w5lQ3tbdqq8UkaPTvR8b/XoxaYg==
+Received: from AM0PR04CA0121.eurprd04.prod.outlook.com (2603:10a6:208:55::26)
+ by DB8PR04MB6777.eurprd04.prod.outlook.com (2603:10a6:10:11f::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7113.24; Sun, 24 Dec
+ 2023 12:14:45 +0000
+Received: from AM3PEPF00009BA2.eurprd04.prod.outlook.com
+ (2603:10a6:208:55:cafe::8a) by AM0PR04CA0121.outlook.office365.com
+ (2603:10a6:208:55::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7113.26 via Frontend
+ Transport; Sun, 24 Dec 2023 12:14:45 +0000
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 80.88.2.101)
+ smtp.mailfrom=dfcugroup.com; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=oreject header.from=dfcugroup.com;
+Received-SPF: Fail (protection.outlook.com: domain of dfcugroup.com does not
+ designate 80.88.2.101 as permitted sender) receiver=protection.outlook.com;
+ client-ip=80.88.2.101; helo=mail.dfcugroup.com;
+Received: from mail.dfcugroup.com (80.88.2.101) by
+ AM3PEPF00009BA2.mail.protection.outlook.com (10.167.16.27) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7135.14 via Frontend Transport; Sun, 24 Dec 2023 12:14:44 +0000
+Received: from DR-SRV-MAIL-01.dfcugroup.com (10.129.2.29) by
+ DR-SRV-MAIL-01.dfcugroup.com (10.129.2.29) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1118.40; Sun, 24 Dec 2023 15:14:25 +0300
+Received: from WIN-4TTI4DH7SGH (10.129.2.12) by DR-SRV-MAIL-01.dfcugroup.com
+ (10.129.2.29) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.1118.40 via Frontend
+ Transport; Sun, 24 Dec 2023 15:14:25 +0300
+From: "Management  Partner" <exataconstrcao@dfcugroup.com>
+Subject: 23 Dec 2023
+To: <contato@soliveenergiasolar.com.br>
+Content-Type: multipart/alternative;
+	boundary="MLYymp2GG=_oxxDl7P4BS8JDeGWqKgt1L7"
+MIME-Version: 1.0
+Reply-To: <account@clusiveffer.com>
+Date: Sun, 24 Dec 2023 14:15:14 -0800
+Message-ID: <2413202312151466FE0DBE84-9F09CC6261@dfcugroup.com>
+Received-SPF: Pass (DR-SRV-MAIL-01.dfcugroup.com: domain of
+ exataconstrcao@dfcugroup.com designates 10.129.2.12 as permitted sender)
+ receiver=DR-SRV-MAIL-01.dfcugroup.com; client-ip=10.129.2.12;
+ helo=WIN-4TTI4DH7SGH;
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM3PEPF00009BA2:EE_|DB8PR04MB6777:EE_
+X-MS-Office365-Filtering-Correlation-Id: 9e785487-eb9e-4a8b-0f02-08dc0479ea7a
+X-MS-Exchange-AtpMessageProperties: SA
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	ucve4eFtKDvgtD7nC/pTDA0lrYHuT5lSa9y7gJDrx1fpFJDNPP435EEH2kOKaU3JpImQzuCdb8A6ClQdX0SPcKwyRuOg75mETDm6FBq1GcYhbmmZoX6F+TK97lXrKs7uf0kVTcSK9vLkHXOVhOq2IyzbBeXjklddLCoK38SSAOVuo99w6dNyitVffveMHbdERxwK4SH4MBc5jC2S8YyigN08z3nuotQkI008ATes/kmXNVAlTZphFsDVC0UqNA6t1qFTGazd4XoAfkyiBsoLfCU2d+v5l4df5HPADQaD2RJMRSOgRc+HaVgoCVVyS3Izfu6NMDQN2glL6t9BAAdliRkeK2lnE35d9cJKsE40xnGLvMkdfIUgk+cYM1BWOABWQ47HpOBWjzyzP0+i3rtaQquCMKfB8NWH7AezQ71t2oUvuPthW+8xKEdawCow7APyNThjJgPvsdNf1IPzDedeu/S25zidGygT529ET3H9mEoxN8L2AnOi37tXquKEQWZ7TlEPc4mQyI9F+1oXRPYSbPl6a6s2JM9j9AU3Jk0yklVhNRNdTU+dsSI+sJ9ZfLKCEzfSxy3LaQjp0cbFHUK/klNjVcFaCQ8Hji14kKUXlqdTH6yFttKy7q1ZgEt5/0ADz9sVBIT4oOzh+IoHh2Pwrhm1GCIOpvbk2NuOLnrnbKek11BRQIQ+9ogQ/OxnlcKOlyDJf9WQXMwL2+vBEK8LMh9IhekO/CWUooKCmZ9C4NnrJWyjxU538iVBnyK8YfC3uGv8zjLjFcekSGJm38SbPezYoetVduth8/1dgIP2LdlYniIHzBDGma564UWS99fNI5l8KKDn0fsEN0ah0Ne50nGzL8r58lhpulu6hCKoL9cCJgr/BVdEciNWTtuAb4A8
+X-Forefront-Antispam-Report:
+	CIP:80.88.2.101;CTRY:UG;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.dfcugroup.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230031)(4636009)(376002)(346002)(39860400002)(136003)(396003)(230473577357003)(230373577357003)(61400799012)(82310400011)(186009)(64100799003)(451199024)(36840700001)(46966006)(40470700004)(86362001)(2906002)(478600001)(6666004)(26005)(6916009)(2616005)(426003)(70206006)(70586007)(8676002)(8936002)(316002)(5660300002)(336012)(41300700001)(356005)(81166007)(82740400003)(83380400001)(47076005)(36860700001)(66899024)(33656002)(40480700001)(36756003)(40460700003)(489414023)(133353001)(36900700001);DIR:OUT;SFP:1101;
+X-OriginatorOrg: dfcugroup.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Dec 2023 12:14:44.8064
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9e785487-eb9e-4a8b-0f02-08dc0479ea7a
+X-MS-Exchange-CrossTenant-Id: db40d353-b86d-460b-927a-79ba54aa219f
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=db40d353-b86d-460b-927a-79ba54aa219f;Ip=[80.88.2.101];Helo=[mail.dfcugroup.com]
+X-MS-Exchange-CrossTenant-AuthSource:
+	AM3PEPF00009BA2.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8PR04MB6777
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Greetings to you. We are a Creative Business Consulting company,
+    offering corporate and personal loans at 3% interest rate for the duration
+    of 10 years and more. If you already have a shovel-ready project in need
+   of funding, we will be delighted to work with you. 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: dfcugroup.com]
+  0.0 DATE_IN_FUTURE_06_12   Date: is 6 to 12 hours after Received: date
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+--MLYymp2GG=_oxxDl7P4BS8JDeGWqKgt1L7
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings to you.
+
+We are a Creative Business Consulting company, offering corporate and perso=
+nal loans at 3% interest rate for the duration of 10  years and more.
+
+If you already have a shovel-ready project in need of funding, we will be d=
+elighted to work with you.
+
+Thank you,
+Investment Analyst/Consultant
+
+DISCLAIMER: This e-mail and any attachments are confidential and may also b=
+e priviledged. It is intended solely for the use of the individual(s) to wh=
+om it is addressed. If you are not an intended recipient you must not use, =
+disclose, distribute, copy, print, or rely on this e-mail. DISCLAIMER: This=
+ e-mail and any attachments are confidential and may also be priviledged. I=
+t is intended solely for the use of the individual(s) to whom it is address=
+ed. If you are not an intended recipient you must not use, disclose, distri=
+bute, copy, print, or rely on this e-mail.
+
+--MLYymp2GG=_oxxDl7P4BS8JDeGWqKgt1L7
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<title>23 Dec 2023</title>
+</head>
+<body style=3D"BACKGROUND-COLOR: #ffffff" bgcolor=3D"#ffffff">
+<p align=3D"left"><font size=3D"3" face=3D"Arial">Greetings to you.</font><=
+/p>
+<p align=3D"left"><font size=3D"3" face=3D"Arial">We are a Creative Busines=
+s Consulting company, offering corporate and personal loans at 3% interest =
+rate for the duration of 10&nbsp; years and more.</font></p>
+<p align=3D"left"><font size=3D"3" face=3D"Arial">If you already have a sho=
+vel-ready project in need of funding, we will be delighted to work with you=
+.</font></p>
+<p align=3D"left"><font size=3D"3" face=3D"Arial">Thank you,<br>
+Investment Analyst/Consultant&nbsp;&nbsp;</font></p>
+DISCLAIMER: This e-mail and any attachments are confidential and may also b=
+e priviledged. It is intended solely for the use of the individual(s) to wh=
+om it is addressed. If you are not an intended recipient you must not use, =
+disclose, distribute, copy, print,
+ or rely on this e-mail. DISCLAIMER: This e-mail and any attachments are co=
+nfidential and may also be priviledged. It is intended solely for the use o=
+f the individual(s) to whom it is addressed. If you are not an intended rec=
+ipient you must not use, disclose,
+ distribute, copy, print, or rely on this e-mail.
+</body>
+</html>
+
+--MLYymp2GG=_oxxDl7P4BS8JDeGWqKgt1L7--

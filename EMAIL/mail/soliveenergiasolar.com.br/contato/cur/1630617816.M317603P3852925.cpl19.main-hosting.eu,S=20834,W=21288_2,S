@@ -1,0 +1,454 @@
+Return-Path: <leonardo.moreira@embracon.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id SEGWEthAMWF9yjoAJcoV8Q
+	(envelope-from <leonardo.moreira@embracon.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 02 Sep 2021 21:23:36 +0000
+Return-path: <leonardo.moreira@embracon.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 02 Sep 2021 21:23:36 +0000
+Received: from mail-eopbgr800137.outbound.protection.outlook.com ([40.107.80.137]:6330 helo=NAM03-DM3-obe.outbound.protection.outlook.com)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <leonardo.moreira@embracon.com.br>)
+	id 1mLuBL-00GB5c-7V
+	for contato@soliveenergiasolar.com.br; Thu, 02 Sep 2021 21:23:36 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=QSgPgMlL2f+GOaBEkJJUungnKGEmRve2qvuaWaSlcY+/+4hdVAB4qwK304CMsBgZMD1nk60x9mkxgAYuGZVGGUaqPyczPfRRzlmgCO7IkOeimSCBaacPk9DssNdNn/bGg9GmUraqr/YDfPZPmswLxBKK2dvRZ3z7CCSJzGj2nU+wn9J8zvYVCejzd20QRhEQwoMd9XI6xB700LoxSJwnvA2SS4pZWmJJOQAOCwOjh+T5xSu7gJTLj2kGdulyRNuomeD2MEb4MBRv/FUe5H2R1y1psRpjydbt4jIYA5rf38nhelM9Lb5DZ8a+vpQXv+1IKbw8uslrAGLEhOI6LXQTmA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=fOZCg/wdnWZjEPxTxiAVF4Vh5E9avqhoX1eULuWJxVs=;
+ b=UW2zWt6LSnaryBlurl/3xgg//rZWFL5VUV9yczmz2ZmBGfNWySILQoHw0snpO1NeGGHZJ3fhGnFDYzyy5HCVIIi/s7/UFC7TToR32K+Uu8BaqWxUYPJYGITgl0u3O3T09v+UhiNXkyorYO5MmLBNSxwxkCogjl/HbFtugtXFFRG1jI6fXh38+7ISCwfQ7TWAB6AbnseRO0mwJLXmCKYeo1bI5FKs4GfEeiX0VgbAQi8uYPZ6Bp1ePkq43tN27bDrTpRNX+jpUZo6lkjC3PHrjxAO3t4M+G8yb6ZBk0u7mg05w3vuAIFjosG6+y+kmN/HBD7w3K5d6f1cEZTe0Iwktw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=embracon.com.br; dmarc=pass action=none
+ header.from=embracon.com.br; dkim=pass header.d=embracon.com.br; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=embraconadm.onmicrosoft.com; s=selector2-embraconadm-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=fOZCg/wdnWZjEPxTxiAVF4Vh5E9avqhoX1eULuWJxVs=;
+ b=XFVz/kaMQGwYpma9jsduJpJZIGbYje8vBeJzDksvHFLlOZJI/T2HRgGcs5ogFtukE+P4jvrxrVgO3Jrd9/emHF16F+FxD76TNX5wRQPk2lx3l/kHXl5CMMiY1rbImVaZuUABloPeLvS1hg+kD0h9aulhW6i/atdmILeWrlo445o=
+Received: from CPXP215MB1016.LAMP215.PROD.OUTLOOK.COM (2603:10d6:103:2::11) by
+ CP0P215MB1203.LAMP215.PROD.OUTLOOK.COM (2603:10d6:103:1f::14) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4478.19; Thu, 2 Sep 2021 21:23:31 +0000
+Received: from CPXP215MB1016.LAMP215.PROD.OUTLOOK.COM
+ ([fe80::529:9a8b:e921:1fbe]) by CPXP215MB1016.LAMP215.PROD.OUTLOOK.COM
+ ([fe80::529:9a8b:e921:1fbe%5]) with mapi id 15.20.4478.021; Thu, 2 Sep 2021
+ 21:23:31 +0000
+From: leonardo.moreira <leonardo.moreira@embracon.com.br>
+Subject: =?iso-8859-1?Q?RE:_Cons=F3rcio_Imobili=E1rio_taxas_a_partir_1.4%?=
+Thread-Topic: =?iso-8859-1?Q?Cons=F3rcio_Imobili=E1rio_taxas_a_partir_1.4%?=
+Thread-Index: AQHXn+5KsukxG2+phEeVJUAuP9wprQ==
+Date: Thu, 2 Sep 2021 21:23:31 +0000
+Message-ID:
+ <CPXP215MB101684064E872D6930EEA086C1CE9@CPXP215MB1016.LAMP215.PROD.OUTLOOK.COM>
+Accept-Language: pt-BR, en-US
+Content-Language: pt-BR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: soliveenergiasolar.com.br; dkim=none (message not
+ signed) header.d=none;soliveenergiasolar.com.br; dmarc=none action=none
+ header.from=embracon.com.br;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 4eb79399-b277-41ba-3b2b-08d96e57ea0c
+x-ms-traffictypediagnostic: CP0P215MB1203:
+x-microsoft-antispam-prvs:
+ <CP0P215MB1203A44A9628522D732FC92EC1CE9@CP0P215MB1203.LAMP215.PROD.OUTLOOK.COM>
+x-ms-oob-tlc-oobclassifiers: OLM:130;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ IxhzQ1FJZKXTJYLpKhVkTxkVUDBJPj4BcvfKJwNrgIou1IJMmj16CTjcMUob3g6zSUlqFOAzy7+ELzkXlQWk1XWFDRrouLNqBVEfVpf3xH4ZycwtySr/8petazgMqpPljVOdXftByOOU/+zPJ3c17i3fMOLKPNgBBoc6nH3zcWGTOpjrLTMq4IPldMCkCuRYN2Tbr/hXfnmwqeJQazD75VAGrP1gb/F6B+q70YL0j8SHoONaeJ3oN7XTDJG1M6dD1kmUetCnPhmTKuq5MoiYeue9odOGIY1EdOf0Nd/DwMxrBHsZxYpw3vhQhko/ygvutj+Fh1SexunUFjw5dZfDTOz2hrC4C+jFS17yTH0CxwvxV/j4B0C6khY0g53mFpA5K0N6jBPwKQikXlsNMqu8Ws6oQYDafZ4DJG7+CgJFMzNGMwxisBn4zFr7Y+CGqETY0ddBs4FOCSUu+cpseDtLsAF+/JCDHgGDQaJtxLOKH/k++/E9UqxLpCdW28QYy+xjuB/RaaG8BjN1MbdGiP43sutZupMCWpVAZK5xkR07jPxBpkP+3FaEoFf02lUENsuErB7yufZTIgGXNMV3I+pPdea7BLRMvIUsVGnk2cIeLDojluUfUZHCHojWP06xSeWFnegkY8ch4KfPzdn5tgQ/H3ao3cT3sFdXKK6e45uB0nCyh6L9+noV+05z0ohOX7TCOIO5bhVNlERq6qF8N+6HAMAncO6JxJchMcKftV17p5bt+faL/H7yOmLFoDhiAXGOmjoNNLEvLzZu8tAezvwGcLYEXpSNfpQZHG8XkdCd8AUQLSH8WOA8/c+AxquUDpwe
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CPXP215MB1016.LAMP215.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(39860400002)(346002)(136003)(366004)(376002)(396003)(9686003)(38100700002)(122000001)(33656002)(66476007)(478600001)(76116006)(186003)(109986005)(166002)(66556008)(316002)(66946007)(7416002)(55016002)(19627405001)(7406005)(66446008)(64756008)(2906002)(71200400001)(26005)(38070700005)(83380400001)(66574015)(7696005)(224303003)(52536014)(6506007)(55236004)(86362001)(5660300002)(15974865002)(8936002);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?vvv/Fj329DOkbXkJc+tVEFAzYjwSh8GGHERtS1vrg4mlNUobbLTIODZaAS?=
+ =?iso-8859-1?Q?q4L9VEbSXGdnv8RBuNoQ4P0pdatxP0RzQFHkaOD1Eo017HNvmciMzBP5aY?=
+ =?iso-8859-1?Q?P4tkq/TSH/HRtdFvNkNtlj3bRLtLVvyiR2Ucse2L6BLKZPT3zmbhSoICSm?=
+ =?iso-8859-1?Q?za3f2I1Uo77hrAf6BUjXxXMZ7PG+AYXgSfs4yt+ImnCOCivVkXImrvSIU6?=
+ =?iso-8859-1?Q?SGdPE6+kaJ+IVq+E6cxfi1fIlcefFHhgy0eUpzIHyDHi0RPsYpjyYCvLgj?=
+ =?iso-8859-1?Q?TedNmt8+w1BT1ERS+2FHQVy73AFdy5YMRNdZXDw6PSKiR7+jqjKSUjl7T1?=
+ =?iso-8859-1?Q?PqMBUY/pKJRA1P91lV/dzWyrXEoAAKYgV1AHIHvAFce+PGwZxWIfGeLnyE?=
+ =?iso-8859-1?Q?aSwhsiIK66VNNZ27lmqdDvn+8itb2P1Y/pYqTjdjz2UeY7RVryDd6U7ORD?=
+ =?iso-8859-1?Q?jP2Eo23XPBglMXQJwfV7afHID8lDaf9jI8AkD5XpSo3eZHsgpOZF8lAq7d?=
+ =?iso-8859-1?Q?JuIhEWqPBVnE2oIcBdRVKWwx/cSkFloxj8rP0mkuHhq+rmh1tBD4iN2Ivj?=
+ =?iso-8859-1?Q?cFQkDc+3unMOnfeBuDCNNLXU9VrWUoA9DESOeooqKbyhseJsMz+Tiw9ezs?=
+ =?iso-8859-1?Q?YXpYEZOX6/WWhqtan/GisPgI7Xfq4TFwIaSlZ2JwwgkPMVtNHDj9+467Hy?=
+ =?iso-8859-1?Q?htoOubo1BI/ljZRovfmL6tv9Bt0vtOP7hdis0F4aaggVpFu23L6810zh3v?=
+ =?iso-8859-1?Q?OzszhOfEvYu8SYtdm9WWmyC2DOnOkGcV3x3MLri+2WQEYG+M6ByEB86MNM?=
+ =?iso-8859-1?Q?3qa0zbemakcjlwxyXz6HSm+YUb87BKvhaPuAjYQ+V1ffhLkIbwypvq9LwU?=
+ =?iso-8859-1?Q?JuQdYfH2aO3sM9uBIp/dSNx2KZiDvJfVBL96oasZ8iBGiwmbPY1H1pTejd?=
+ =?iso-8859-1?Q?XenxzQR3bsUUTQzd7MyxzXyODTqwx42ccSJ1bXZLEkCxYBN2H13Eqx2seX?=
+ =?iso-8859-1?Q?UKKGHE5H/+mm35gFW7HbGxOdcFgW4cDV+uaulR6wuqDG1svkxdgJMhqe7Z?=
+ =?iso-8859-1?Q?4TxejCTz1tkkFsznY/759y+h802qBMiEeRgK5XxMIbOgA/kOCA/FPkNaYw?=
+ =?iso-8859-1?Q?wXvbqLdK/GQUTHYilO27gNc1q6ps9SbZe7Yh8u/XiCLCoxUpfgMhtb3iAQ?=
+ =?iso-8859-1?Q?3sCRkNZtw32PZ7edMmuZ+4gOJKKomZNrBYSb8LjQ2vMmVWAVvEIcQyBbwX?=
+ =?iso-8859-1?Q?BMv0Ibl26Ypi8YLWIYMrmFS5JUXpHUZ4xaY0fg9g9Tn4A+SApZGJFxywgA?=
+ =?iso-8859-1?Q?kv8eEbrfPWsv46xR5N1cHq5mcgZSL7e6OilwxiZRu43r+gI=3D?=
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_CPXP215MB101684064E872D6930EEA086C1CE9CPXP215MB1016LAMP_"
+MIME-Version: 1.0
+X-OriginatorOrg: embracon.com.br
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CPXP215MB1016.LAMP215.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4eb79399-b277-41ba-3b2b-08d96e57ea0c
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Sep 2021 21:23:31.6886
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: d3b1fece-6695-49c0-8903-60fd690d0941
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: xeDEhQwEg84kWYWLSkhaZuTn5FrgzAEx+GuHgTYlL69uP/vOW3Jq4li/N5CgZABgatGmz52gcBPa7QSIhhdDtVqy5X/rhQM2PACqxnGsTgM1PDRsiu9Ou0mmW2sbxx0F
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CP0P215MB1203
+X-Spam-Status: No, score=2.6
+X-Spam-Score: 26
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Prezado! Meu nome é Leonardo Moreira , sou especialista financeiro.
+    Estou encaminhando esta mensagem, pois estamos trabalhando este mês com a
+    linha de crédito imobiliário com taxas exclusivas para vocês, Empre [...]
+    
+ Content analysis details:   (2.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: embraconadm.onmicrosoft.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.2 MISSING_HEADERS        Missing To: header
+  1.4 FUZZY_CREDIT           BODY: Attempt to obfuscate words in spam
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--_000_CPXP215MB101684064E872D6930EEA086C1CE9CPXP215MB1016LAMP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Prezado!
+
+Meu nome =E9 Leonardo Moreira , sou especialista financeiro.
+Estou encaminhando esta mensagem, pois estamos trabalhando este m=EAs com a=
+ linha de cr=E9dito imobili=E1rio com taxas exclusivas para voc=EAs, Empres=
+=E1rios com CNPJ ativo.
+
+O cr=E9dito serve para: reforma, constru=E7=E3o, compra de terreno, compra =
+de im=F3vel, quita=E7=E3o de financiamento banc=E1rio, portabilidade de fin=
+anciamento, aporte financeiro etc.
+
+Somos fiscalizados pelo Banco Central do Brasil.
+
+Cr=E9dito dispon=EDvel com taxa de 1,4% a 1,9% ao Ano.
+
+CR=C9DITO R$ 200.000,00
+Entrada 1=B0 e 2=B0: R$ 3.300,00
++178 parcelas: R$ 1.300,00
+
+CR=C9DITO R$ 300.000,00
+Entrada 1=B0 e 2=B0: R$ 4.950,00
++178 parcelas: R$ 1.950,00
+
+CR=C9DITO R$ 400.000,00
+Entrada 1=B0 e 2=B0: R$6.600,00
++178 parcelas: R$ 2.600,00
+
+Cr=E9dito R$ 500.000,00
+Entrada 1=B0 e 2=B0 R$ 8.250,00
+178 parcelas R$ 3.250,00
+
+Cr=E9dito R$ 700.000,00
+Entrada 1=B0 e 2=B0 R$ 11.550,00
+178 parcelas R$ 4.550,00
+
+ Cr=E9dito R$ 800.000,00
+Entrada 1=B0 e 2=B0 R$ 13.200,00
+178 parcelas R$ 5.200,00
+
+Cr=E9dito R$ 1.000.000,00
+Entrada 1=B0 e 2=B0 R$ 16.500,00
+178 parcelas R$ 6.500,00
+
+Cr=E9dito R$ 1.500.000,00
+Entrada 1=B0 e 2=B0 R$ 24.750,00
+178 parcelas R$ 9.750,00
+
+Cr=E9dito R$ 2.000.000,00
+Entrada 1=B0 e 2=B0 R$ 33.000,00
+178 parcelas R$ 13.000,00
+
+Temos outros valores, solicite uma simula=E7=E3o, cr=E9dito de R$80.000,00 =
+=E0 R$ 10 Milh=F5es.
+
+
+A carta de cr=E9dito =E9 v=E1lida para as seguintes finalidades:
+
+RURAL: Para compra de fazendas, ch=E1caras, s=EDtios e terrenos, caminh=F5e=
+s, tratores, frigor=EDficos e m=E1quinas agr=EDcolas.
+
+IM=D3VEL: Para comprar casa e/ou apartamentos pronto pra morar ou na planta=
+, terrenos e constru=E7=F5es.
+
+QUITA=C7=C3O: Para quitar seu financiamento imobili=E1rio junto ao banco, r=
+eduzindo prazo ou parcela em at=E9 80%. Na quita=E7=E3o, n=F3s pedimos o co=
+ngelamento das suas parcelas do financiamento por 1 ano.
+Quitar apartamento que est=E1 na planta.
+
+APORTE FINANCEIRO: Voc=EA deixa o valor como garantia e recebe o valor aval=
+iado do mesmo em esp=E9cie.
+
+Para maiores informa=E7=F5es, entrar em contato:
+
+Att,
+Leonardo Moreira
+Consultor | Comercial | Embracon Administradora
+Telefone: (48)9 8844-2557
+
+Site: www.embracon.com.br/consultor/Leonardo.moreira
+
+e-mail: Leonardo.moreira@embracon.com.br
+
+Endere=E7o: Rua Professor Othon Gama D'e=E7a , n =B0 572 - Centro Florian=
+=F3polis
+
+[https://img.embracon.com.br/assinatura/assinatura.jpg]<https://img.embraco=
+n.com.br/assinatura/assinatura.jpg>
+Leonardo Moreira
+Consultor Financeiro
+Florian=F3polis ilha - SC
+Tel.: (48) 9 8844-2557
+www.embracon.com.br/consutor/leonardo-morei<https://www.embracon.com.br/>ra
+
+Esta mensagem =E9 destinada exclusivamente para a(s) pessoa(s) a quem =E9 d=
+irigida, podendo conter informa=E7=E3o confidencial e legalmente protegida.=
+ Se voc=EA n=E3o for destinat=E1rio desta mensagem, desde j=E1 fica notific=
+ado de abster-se a divulgar, copiar, distribuir, examinar ou, de qualquer f=
+orma, utilizar a informa=E7=E3o contida nesta mensagem, por ser ilegal. Cas=
+o voc=EA tenha recebido esta mensagem por engano, pedimos que responda essa=
+ mensagem informando o acontecido.
+
+--_000_CPXP215MB101684064E872D6930EEA086C1CE9CPXP215MB1016LAMP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+Prezado! </div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+<div><br>
+</div>
+<div>Meu nome =E9 Leonardo Moreira , sou especialista financeiro.</div>
+<div>Estou encaminhando esta mensagem, pois estamos trabalhando este m=EAs =
+com a linha de cr=E9dito imobili=E1rio com taxas exclusivas para voc=EAs, E=
+mpres=E1rios com CNPJ ativo.
+</div>
+<div><br>
+</div>
+<div>O cr=E9dito serve para: reforma, constru=E7=E3o, compra de terreno, co=
+mpra de im=F3vel, quita=E7=E3o de financiamento banc=E1rio, portabilidade d=
+e financiamento, aporte financeiro etc.
+</div>
+<div><br>
+</div>
+<div>Somos fiscalizados pelo Banco Central do Brasil.</div>
+<div><br>
+</div>
+<div>Cr=E9dito dispon=EDvel com taxa de 1,4% a 1,9% ao Ano.</div>
+<div><br>
+</div>
+<div>CR=C9DITO R$ 200.000,00</div>
+<div>Entrada 1=B0 e 2=B0: R$ 3.300,00</div>
+<div>+178 parcelas: R$ 1.300,00 </div>
+<div><br>
+</div>
+<div>CR=C9DITO R$ 300.000,00</div>
+<div>Entrada 1=B0 e 2=B0: R$ 4.950,00</div>
+<div>+178 parcelas: R$ 1.950,00</div>
+<div><br>
+</div>
+<div>CR=C9DITO R$ 400.000,00</div>
+<div>Entrada 1=B0 e 2=B0: R$6.600,00</div>
+<div>+178 parcelas: R$ 2.600,00</div>
+<div><br>
+</div>
+<div>Cr=E9dito R$ 500.000,00</div>
+<div>Entrada 1=B0 e 2=B0 R$ 8.250,00</div>
+<div>178 parcelas R$ 3.250,00</div>
+<div><br>
+</div>
+<div>Cr=E9dito R$ 700.000,00</div>
+<div>Entrada 1=B0 e 2=B0 R$ 11.550,00</div>
+<div>178 parcelas R$ 4.550,00</div>
+<div><br>
+</div>
+<div>&nbsp;Cr=E9dito R$ 800.000,00</div>
+<div>Entrada 1=B0 e 2=B0 R$ 13.200,00</div>
+<div>178 parcelas R$ 5.200,00</div>
+<div><br>
+</div>
+<div>Cr=E9dito R$ 1.000.000,00</div>
+<div>Entrada 1=B0 e 2=B0 R$ 16.500,00</div>
+<div>178 parcelas R$ 6.500,00</div>
+<div><br>
+</div>
+<div>Cr=E9dito R$ 1.500.000,00</div>
+<div>Entrada 1=B0 e 2=B0 R$ 24.750,00</div>
+<div>178 parcelas R$ 9.750,00</div>
+<div><br>
+</div>
+<div>Cr=E9dito R$ 2.000.000,00</div>
+<div>Entrada 1=B0 e 2=B0 R$ 33.000,00</div>
+<div>178 parcelas R$ 13.000,00</div>
+<div><br>
+</div>
+<div>Temos outros valores, solicite uma simula=E7=E3o, cr=E9dito de R$80.00=
+0,00 =E0 R$ 10 Milh=F5es.</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>A carta de cr=E9dito =E9 v=E1lida para as seguintes finalidades:</div>
+<div><br>
+</div>
+<div>RURAL: Para compra de fazendas, ch=E1caras, s=EDtios e terrenos, camin=
+h=F5es, tratores, frigor=EDficos e m=E1quinas agr=EDcolas.</div>
+<div><br>
+</div>
+<div>IM=D3VEL: Para comprar casa e/ou apartamentos pronto pra morar ou na p=
+lanta, terrenos e constru=E7=F5es.</div>
+<div><br>
+</div>
+<div>QUITA=C7=C3O: Para quitar seu financiamento imobili=E1rio junto ao ban=
+co, reduzindo prazo ou parcela em at=E9 80%. Na quita=E7=E3o, n=F3s pedimos=
+ o congelamento das suas parcelas do financiamento por 1 ano.</div>
+<div>Quitar apartamento que est=E1 na planta.</div>
+<div><br>
+</div>
+<div>APORTE FINANCEIRO: Voc=EA deixa o valor como garantia e recebe o valor=
+ avaliado do mesmo em esp=E9cie.</div>
+<div><br>
+</div>
+<div>Para maiores informa=E7=F5es, entrar em contato: </div>
+<div><br>
+</div>
+<div>Att, </div>
+<div>Leonardo Moreira </div>
+<div>Consultor | Comercial | Embracon Administradora</div>
+<div>Telefone: (48)9 8844-2557</div>
+<div><br>
+</div>
+<div>Site: www.embracon.com.br/consultor/Leonardo.moreira </div>
+<div><br>
+</div>
+<div>e-mail: Leonardo.moreira@embracon.com.br</div>
+<div><br>
+</div>
+Endere=E7o: Rua Professor Othon Gama D'e=E7a , n =B0 572 - Centro Florian=
+=F3polis<br>
+</div>
+<div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+<br>
+</div>
+<div id=3D"Signature">
+<div>
+<div></div>
+<div></div>
+<table style=3D"font-family:&quot;times new roman&quot;; color:rgb(0,0,0); =
+text-align:start; background-color:rgb(252,253,254); height:179px">
+<tbody>
+<tr style=3D"height:93px">
+<td style=3D"height:93px">
+<table style=3D"height:61px">
+<tbody>
+<tr style=3D"height:61px">
+<td valign=3D"top" style=3D"font-family:tahoma,arial,verdana; width:515px">=
+<span style=3D"margin:0px; color:rgb(68,101,111)"><span style=3D"margin:0px=
+"><a href=3D"https://img.embracon.com.br/assinatura/assinatura.jpg" target=
+=3D"_blank" rel=3D"nofollow noopener noreferrer nofollow noopener noreferre=
+r nofollow noopener noreferrer nofollow noopener noreferrer nofollow noopen=
+er noreferrer nofollow noopener noreferrer nofollow noopener noreferrer nof=
+ollow noopener noreferrer" style=3D"margin:0px"><img width=3D"516" height=
+=3D"138" style=3D"margin:0px" src=3D"https://img.embracon.com.br/assinatura=
+/assinatura.jpg"></a></span></span></td>
+<td style=3D"width:2px"></td>
+<td style=3D"width:157px"><span style=3D"margin:0px; font-size:small; font-=
+family:arial; color:rgb(31,73,125)"><span style=3D"margin:0px; font-size:11=
+pt"><span style=3D"margin:0px; color:rgb(68,101,111)"><span style=3D"margin=
+:0px">
+<table style=3D"background-color:rgb(252,253,254); height:61px">
+<tbody>
+<tr style=3D"height:61px">
+<td style=3D"width:157px"><b><span style=3D"margin:0px; font-size:12pt; fon=
+t-family:arial,helvetica,sans-serif; color:firebrick">Leonardo&nbsp;</span>=
+<span style=3D"margin:0px; font-family:arial,helvetica,sans-serif; color:fi=
+rebrick"><span style=3D"margin:0px">Moreira</span></span><br>
+<span style=3D"margin:0px; font-size:small; font-family:arial; color:rgb(31=
+,73,125)"><span style=3D"margin:0px; font-size:11pt; font-family:arial,helv=
+etica,sans-serif">Consultor Financeiro&nbsp;<br>
+</span>Florian=F3polis ilha - SC<br>
+<span style=3D"margin:0px; font-size:12pt; font-family:tahoma,&quot;new yor=
+k&quot;,times,serif"><span style=3D"margin:0px; font-size:11pt; font-family=
+:arial,helvetica,sans-serif">Tel.:&nbsp;<span style=3D"margin:0px; color:rg=
+b(68,101,111)"><a style=3D"margin:0px">(48) 9 8844-2557</a></span></span></=
+span></span><span style=3D"margin:0px; font-size:small; font-family:arial">=
+<br>
+<span style=3D"margin:0px; font-size:11pt"><span style=3D"margin:0px"><span=
+ style=3D"margin:0px"><a href=3D"https://www.embracon.com.br/" target=3D"_b=
+lank" rel=3D"noopener noreferrer" style=3D"color:rgb(68,101,111); margin:0p=
+x"><span style=3D"margin:0px; color:rgb(0,102,204)">www.embracon.com.br/con=
+sutor/leonardo-morei</span></a><font color=3D"#0066cc">r</font>a</span></sp=
+an></span></span></b></td>
+</tr>
+</tbody>
+</table>
+</span></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"height:86px">
+<td style=3D"height:86px"><br>
+<span style=3D"margin:0px; font-size:small; font-family:arial; color:rgb(10=
+2,102,102)"><i>Esta mensagem =E9 destinada exclusivamente para a(s) pessoa(=
+s) a quem =E9 dirigida, podendo conter informa=E7=E3o confidencial e legalm=
+ente protegida. Se voc=EA n=E3o for destinat=E1rio
+ desta mensagem, desde j=E1 fica notificado de abster-se a divulgar, copiar=
+, distribuir, examinar ou, de qualquer forma, utilizar a informa=E7=E3o con=
+tida nesta mensagem, por ser ilegal. Caso voc=EA tenha recebido esta mensag=
+em por engano, pedimos que responda essa
+ mensagem informando o acontecido.</i></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CPXP215MB101684064E872D6930EEA086C1CE9CPXP215MB1016LAMP_--

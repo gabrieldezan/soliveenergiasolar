@@ -1,0 +1,116 @@
+Return-Path: <recepcao@grupopaf.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id cANaNwUsuWTwOAAAIElduQ
+	(envelope-from <recepcao@grupopaf.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 20 Jul 2023 12:43:49 +0000
+Return-path: <recepcao@grupopaf.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 20 Jul 2023 12:43:49 +0000
+Received: from ns2.grupopaf.com.br ([209.145.60.117]:42767)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <recepcao@grupopaf.com.br>)
+	id 1qMT0W-0005ep-3B
+	for contato@soliveenergiasolar.com.br;
+	Thu, 20 Jul 2023 12:43:49 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=grupopaf.com.br; s=default; h=Subject:To:From:MIME-Version:Content-Type:
+	Sender:Reply-To:Date:Message-ID:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=DzX2qJeacgB8GW+7CVqPgv+ChXAR0fISoJt9XdB4qRg=; b=FMOIegQsniCV6BewairbvcNQjF
+	kYVd9ZSBo65pDg4fKDwjfPJLRgWCVedtzFB29WMGSrYZCOdkQwm+Z8A847DrqLlThKebGP4SZGjuS
+	oikhSjVrbZh8QuVnvxqwMAnLSgUpLaGs0fv+udcUtYOiErASUVianXsS6kYDlDpscFQal75bbD17M
+	bmmC2QTjOq+YWogasiVUm7ZIYzChrioHcYN1KBdev2Zy1i8i3KndxFJbltQlGFbY20V9i/HsT2BHd
+	mqDcOd682Xe5SFK1FL3IDfrI6OIDSvsnaBHUzDyIrgy0QvO5+qD8stPcqi1dJDFjeUekoh1K/XOHo
+	raJtqFuQ==;
+Received: from [45.95.67.205] (port=62583 helo=[10.11.18.192])
+	by vps.grupopaf.com.br with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <recepcao@grupopaf.com.br>)
+	id 1qMSzt-0001xj-22
+	for contato@soliveenergiasolar.com.br;
+	Thu, 20 Jul 2023 09:43:07 -0300
+Content-Type: multipart/mixed; boundary="===============7437669803530159714=="
+MIME-Version: 1.0
+From: Procon-PR <recepcao@grupopaf.com.br>
+To: contato@soliveenergiasolar.com.br
+Subject: =?utf-8?q?Procon_notifica_109994?=
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps.grupopaf.com.br
+X-AntiAbuse: Original Domain - soliveenergiasolar.com.br
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - grupopaf.com.br
+X-Get-Message-Sender-Via: vps.grupopaf.com.br: authenticated_id: recepcao@grupopaf.com.br
+X-Authenticated-Sender: vps.grupopaf.com.br: recepcao@grupopaf.com.br
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=3.0
+X-Spam-Score: 30
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Notificação Procon Processo Nº494299 Procon-PR Prezados,
+    
+ Content analysis details:   (3.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: is.gd]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+                [Blocked - see <https://www.spamcop.net/bl.shtml?45.95.67.205>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  1.4 MISSING_DATE           Missing Date: header
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+--===============7437669803530159714==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PGh0bWw+CjxoZWFkPgogIDx0aXRsZT5Ob3RpZmljYcOnw6NvIFByb2NvbjwvdGl0bGU+CiAgPHN0
+eWxlPgogICAgYm9keSB7CiAgICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsKICAg
+IH0KCiAgICAuYyB7CiAgICAgIHdpZHRoOiA2MDBweDsKICAgICAgbWFyZ2luOiBhdXRvOwogICAg
+fQoKICAgIC5oLAogICAgLmYgewogICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgIGJhY2tn
+cm91bmQtY29sb3I6ICNmNWY1ZjU7CiAgICAgIHBhZGRpbmc6IDEwcHg7CiAgICB9CgogICAgLm0g
+ewogICAgICBtYXJnaW46IDIwcHggMDsKICAgIH0KICA8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5Pgog
+IDxkaXYgY2xhc3M9ImMiPgogICAgPGRpdiBjbGFzcz0iaCI+CiAgICAgIDxoMT5Qcm9jZXNzbyBO
+wro0OTQyOTkgUHJvY29uLVBSPC9oMT4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0ibSI+CiAg
+ICAgIDxwPlByZXphZG9zLDwvcD4KICAgICAgPHA+RXN0YW1vcyBub3RpZmljYW5kbyB1bWEgYWJl
+cnR1cmEgZGUgcmVjbGFtYcOnw6NvIGRlIHVtIGNvbnN1bWlkb3Igw6Agc3VhIGVtcHJlc2E6PC9w
+PgogICAgICA8dWw+CiAgICAgICAgPGxpPjxzdHJvbmc+Q05QSjwvc3Ryb25nPjogMzgyNTY5MTUw
+MDAxMzU8L2xpPgogICAgICAgIDxsaT48c3Ryb25nPlJhesOjbyBTb2NpYWw8L3N0cm9uZz46IFNP
+TElWRSBFTkVSR0lBIFNPTEFSIExUREE8L2xpPgogICAgICAgIDxsaT48c3Ryb25nPkVuZGVyZcOn
+bzwvc3Ryb25nPjogUlVBIEpPUkdFIExBQ0VSREEsIDM0NiwgIENFTlRSTywgQ0FTQ0FWRUwsIFBS
+LCA4NTgxMDIyMDwvbGk+CiAgICAgIDwvdWw+CiAgICAgIDxwPlZvY8OqIHBvZGUgdmlzdWFsaXph
+ciBkZXRhbGhlcyBkbyBwcm9jZXNzbyBhIHNlZ3Vpcjo8L3A+CiAgICAgIDxwPjxhIGhyZWY9Imh0
+dHBzOi8vaXMuZ2Qvdmpwd0IyIj5Qcm9jb25fUFJfY29kXzQ5NDI5OTwvYT48L3A+CiAgICAgIDxw
+PkF0ZW5jaW9zYW1lbnRlLDwvcD4KICAgICAgPHA+RXF1aXBlIFByb2Nvbi1QUjwvcD4KICAgIDwv
+ZGl2PgogICAgPGRpdiBjbGFzcz0iZiI+CiAgICAgIDxwPlByb2Nvbi1QUiB8IFByb3RlZ2VuZG8g
+b3MgZGlyZWl0b3MgZG8gY29uc3VtaWRvcjwvcD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L2JvZHk+
+CjwvaHRtbD4K
+
+--===============7437669803530159714==--

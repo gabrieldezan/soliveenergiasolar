@@ -1,0 +1,1687 @@
+Return-Path: <39J2FXxYKAEkqz2x3-2pnpt043-yz2p0w9rzzrwp.nzx@trix.bounces.google.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from srv252.prodns.com.br
+	by srv252.prodns.com.br with LMTP
+	id uEjxJiKehV/rRwwAAYt2BQ
+	(envelope-from <39J2FXxYKAEkqz2x3-2pnpt043-yz2p0w9rzzrwp.nzx@trix.bounces.google.com>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 13 Oct 2020 09:31:30 -0300
+Return-path: <39J2FXxYKAEkqz2x3-2pnpt043-yz2p0w9rzzrwp.nzx@trix.bounces.google.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 13 Oct 2020 09:31:30 -0300
+Received: from mail-yb1-f198.google.com ([209.85.219.198]:51824)
+	by srv252.prodns.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <39J2FXxYKAEkqz2x3-2pnpt043-yz2p0w9rzzrwp.nzx@trix.bounces.google.com>)
+	id 1kSJSj-004681-7m
+	for contato@soliveenergiasolar.com.br; Tue, 13 Oct 2020 09:31:30 -0300
+Received: by mail-yb1-f198.google.com with SMTP id k9so10074190ybf.18
+        for <contato@soliveenergiasolar.com.br>; Tue, 13 Oct 2020 05:31:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:message-id:date:subject:from:to;
+        bh=3szbqs89KocEbdt5eRspYjiZxeLHyL+p6Z7xG64ek3E=;
+        b=J2KFiFlfbp1etBkbXyqXyfoUdsZZxhUD51xj8kK4Pv4JYGnFEh7aizmj18F9hjunMp
+         Rc1efbZulQCh1eGeONTZk4SpglLai3DwLORKg3YgWY4UtwLkyxOFh99TE92rna096N0z
+         bQ6v8OM3wPUmEeFVm8vbAOoj+efWI0Le4zgtSFSGXHbbjaDR5WU2S0ljtevKGZKuz+NU
+         xUoVHidwx/jG1o+OUdEmyVTPUDgLgM5TPgc4p/MFYSu/Rqk6j0+EKmBAGxn4UmoDPkvc
+         Q48zQrF/ewuj7YEA+CTLhaoANkjBz0YP5Tuaj+RbJyHeYBwZsxad/EHSC4UELib6fuMl
+         /Y8Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:message-id:date:subject:from:to;
+        bh=3szbqs89KocEbdt5eRspYjiZxeLHyL+p6Z7xG64ek3E=;
+        b=SByGtVQdkhf4dpxF4ecgeHyzQZGb7rneTfSoiKZLtvhJAu0+cgV0f+4JU5BaljWv4k
+         cDu7BfNpe40dZXW2CDaMMlhZUDq44u6EGciW7KlKZnGNiGfc4rQWq8b3jAPKvr3R2DXa
+         5UhJULoZrUpQJypw7c/yWpQnmDSdOXBmx5s7yoX/HNJZUr2VTbd4csDfyqmcoEmYGcTV
+         BUplBNnMXGKz8neU/oiW8oQ+3SjfABnjt/Hi9FZXP27o2yOOUT4xhQD/ASWp75K9xInK
+         sLguEy0mKg4+JJNbHTfoSYK6GLIb4QJ2+h9qUQBxKTYdFtO/OF7OqDopyi4LN3T9DkQT
+         hKMQ==
+X-Gm-Message-State: AOAM532QR5rfuqaTqKX5ODzrBFQ8oyJisu6frmgByp+zh/9XpcxuFLAy
+	xN87Vz8JdVohBXqMICng1kYHsY9k0IrNfSwXbz74ug==
+X-Google-Smtp-Source: ABdhPJxclc67ZOl2OK86X1v7HGkRjn0G7UVkSG9Mch0XEPXlmdLhXKg91K609+EuDq3M5SPVSIE8RaNXMN9jmP9NSM9S+A==
+MIME-Version: 1.0
+X-Received: by 2002:a25:838b:: with SMTP id t11mr984011ybk.265.1602592244000;
+ Tue, 13 Oct 2020 05:30:44 -0700 (PDT)
+Message-ID: <0000000000006c83dd05b18c95f7@google.com>
+Date: Tue, 13 Oct 2020 12:30:44 +0000
+Subject: =?UTF-8?B?SW1wbGVtZW50YcOnw6NvIEV4YWN0IFNhbGVzOiBJbmZvcm1hw6fDtWVzIEJhc2U=?=
+From: =?UTF-8?Q?Formul=C3=A1rios_Google?= <forms-receipts-noreply@google.com>
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="0000000000006c83ce05b18c95f4"
+X-Spam-Status: No, score=-7.7
+X-Spam-Score: -76
+X-Spam-Bar: -------
+X-Spam-Flag: NO
+
+--0000000000006c83ce05b18c95f4
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+Rm9ybXVsw6FyaW9zIEdvb2dsZQ0KDQoNCkFncmFkZWNlbW9zIG8gcHJlZW5jaGltZW50byBkZSBJ
+bXBsZW1lbnRhw6fDo28gRXhhY3QgU2FsZXM6IEluZm9ybWHDp8O1ZXMgQmFzZQ0KSXN0byBmb2kg
+byBxdWUgcmVjZWJlbW9zIGRlIHZvY8OqOg0KDQoNCkltcGxlbWVudGHDp8OjbyBFeGFjdCBTYWxl
+czogSW5mb3JtYcOnw7VlcyBCYXNlDQoNCklORk9STUHDh8OVRVMgSU5JQ0lBSVMgUEFSQSBQUk9K
+RVRPIERFIElNUExFTUVOVEHDh8ODTw0KDQoNCkVuZGVyZcOnbyBkZSBlLW1haWwgKg0KDQoNCmNv
+bnRhdG9Ac29saXZlZW5lcmdpYXNvbGFyLmNvbS5icg0KDQoNClJhesOjbyBTb2NpYWwgZGEgRW1w
+cmVzYTogKg0KDQoNClNvbGl2ZSBFbmVyZ2lhIFNvbGFlDQoNCg0KTm9tZSBGYW50YXNpYTogKg0K
+DQoNClNvbGl2ZSBFbmVyZ2lhIFNvbGFyDQoNCg0KQ29tbyBmaWNvdSBzYWJlbmRvIGRhIEV4YWN0
+IFNhbGVzPyAqDQoNCg0KQSBlbXByZXNhIGVudHJvdSBlbSBjb250YXRvIGNvbWlnbyBlIGFzc2lt
+IGNvbmhlY2kgYSBFeGFjdA0KDQoNClF1YWwgZm9pIG8gZmF0b3IgZGVjaXNpdm8gcGFyYSBhZHF1
+aXJpciBvIEV4YWN0IFNwb3R0ZXI/ICoNCg0KDQphIGNvbmZpYW7Dp2EgcGFzc2FkYSBlbSB0b2Rv
+cyBvcyBjb250YXRvcw0KDQoNCkFsZ3VtYSBkZXNzYXMgYcOnw7VlcyByZWFsaXphZGFzIHBlbGEg
+RXhhY3QgY29sYWJvcm91IGNvbSBhIHN1YSB0b21hZGEgZGUgIA0KZGVjaXPDo28gZGUgY29udHJh
+dGFyIGEgcGxhdGFmb3JtYT8gKg0KDQoNCkV2ZW50byBvbmxpbmUgb3JnYW5pemFkbyBwZWxhIEV4
+YWN0IChsaXZlLCB3ZWJpbmFyLCBldGMpDQoNCg0KRXZlbnRvIG9ubGluZSBlbSBxdWUgYSBFeGFj
+dCBwYXJ0aWNpcG91IChsaXZlLCB3ZWJpbmFyLCBldGMpDQoNCg0KUGFsZXN0cmEgZW0gZXZlbnRv
+IHByZXNlbmNpYWwNCg0KDQpXb3Jrc2hvcHMNCg0KDQrinJMNCkFzIGHDp8O1ZXMgbGlzdGFkYXMg
+bsOjbyBpbmZsdWVuY2lhcmFtIGEgdG9tYWRhIGRlIGRlY2lzw6NvDQoNCg0KT3V0cm86DQoNCg0K
+U2UgY29uc2VndWlyIHNlIHJlY29yZGFyLCBxdWFsIG8gbm9tZSBkbyBldmVudG8/DQoNCg0KV29y
+a3Nob3AgQWNlcnRlIGVtIENoZWlvDQoNCg0KTsOjbyBQYXJlLCBBZGFwdGUNCg0KDQpSRCBTdW1t
+aXQNCg0KDQpTdGFydHVwIFN1bW1pdA0KDQoNCuKckw0KTsOjbyBwYXJ0aWNpcGVpIGRlIG5lbmh1
+bSBldmVudG8gY29tIGEgRXhhY3QgU2FsZXMNCg0KDQpPdXRybzoNCg0KDQpGYXR1cmFtZW50byBh
+bnVhbDogKg0KDQoNCk7Do28gcG9zc3VpIGZhdHVyYW1lbnRvDQoNCg0KTWVub3MgZGUgUiQgMTAw
+IG1pbCAvIGFubw0KDQoNCkRlIFIkIDEwMCBtaWwgYXTDqSBSJCA0ODAgbWlsIC8gYW5vDQoNCg0K
+RGUgUiQgNDgxIG1pbCBhdMOpIFIkIDQsOCBNaWxow7VlcyAvIGFubw0KDQoNCkRlIFIkIDQsODEg
+TWlsaMO1ZXMgYXTDqSBSJCA5MCBNaWxow7VlcyAvIGFubw0KDQoNCkFjaW1hIGRlIFIkIDkwIE1p
+bGjDtWVzIC8gYW5vDQoNCg0KTsK6IGRlIGNvbGFib3JhZG9yZXM6ICoNCg0KDQpBdMOpIDEwIGNv
+bGFib3JhZG9yZXMNCg0KDQpEZSAxMSBhdMOpIDIwIGNvbGFib3JhZG9yZXMNCg0KDQpEZSAyMSBh
+dMOpIDUwIGNvbGFib3JhZG9yZXMNCg0KDQpEZSA1MSBhdMOpIDIwMCBjb2xhYm9yYWRvcmVzDQoN
+Cg0KRGUgMjAxIGF0w6kgNTAwIGNvbGFib3JhZG9yZXMNCg0KDQpEZSA1MDEgYXTDqSAxMDAwIGNv
+bGFib3JhZG9yZXMNCg0KDQpEZSAxMDAxIGF0w6kgNTAwMCBjb2xhYm9yYWRvcmVzDQoNCg0KRGUg
+NTAwMSBhdMOpIDEwMDAwIGNvbGFib3JhZG9yZXMNCg0KDQpBY2ltYSBkZSAxMDAwMCBjb2xhYm9y
+YWRvcmVzDQoNCg0KTsO6bWVybyBkZSBjbGllbnRlcyBhdGVuZGlkb3MgKg0KDQoNCk7Do28gcG9z
+c3VvIGNsaWVudGVzDQoNCg0KQXTDqSAxMCBjbGllbnRlcw0KDQoNCkRlIDExIGF0w6kgNTAgY2xp
+ZW50ZXMNCg0KDQpEZSA1MSBhdMOpIDEwMCBjbGllbnRlcw0KDQoNCkRlIDEwMSBhdMOpIDUwMCBj
+bGllbnRlcw0KDQoNCk1haXMgZGUgNTAwIGNsaWVudGVzDQoNCg0KUmVnacOjbyBkZSBBdHVhw6fD
+o286ICoNCg0KDQpDYXNjYXZlbA0KDQoNCkNhcmFjdGVyw61zdGljYXMgQ29tZXJjaWFpcw0KDQpO
+ZXNzYSBldGFwYSB2b2PDqiBkZXZlIGRlc2NyZXZlciBhcyBjYXJhY3RlcsOtc3RpY2FzIGNvbWVy
+Y2lhaXMgZGUgc3VhICANCmVtcHJlc2EuIEVzc2FzIGluZm9ybWHDp8O1ZXMgbm9zIGFqdWRhcsOj
+byBhIHRyYcOnYXIgcGFyw6JtZXRyb3MgcGFyYSBhbmFsaXNhciAgDQpwb3Nzw612ZWlzIGRpcmVj
+aW9uYW1lbnRvcyBkZSBpbXBsZW1lbnRhw6fDo28gZSByZWN1cnNvcyBlc3BlY8OtZmljb3MgZG8g
+RXhhY3QgIA0KU3BvdHRlci4NCg0KDQpQb3NzdWkgZnVuw6fDo28gZGUgUHLDqS12ZW5kYXMgYXR1
+YWxtZW50ZSBuYSBlbXByZXNhPyAqDQoNClBvZGUgc2VyIGVuY2FyYWRvIGNvbW8gcHLDqS12ZW5k
+YXMsIHF1YWxxdWVyIHByb2Zpc3Npb25hbCBxdWUgZXN0ZWphIGFsb2NhZG8gIA0KZW0gc3VhIG9y
+Z2FuaXphw6fDo28gY29tIG8gb2JqZXRpdm8gZGUgdHJpYXIgbGVhZHMgKHBlbG8gbWVub3MgZW0g
+Y29udGF0byAgDQp0ZWxlZsO0bmljbykgcGFyYSByZXBhc3NhciBhbyB0aW1lIGRlIHZlbmRhcy4g
+QWxndW1hcyBkYXMgZGVmaW5pw6fDtWVzIHF1ZSAgDQpwb2RlbSBjb250ZW1wbGFyIGVzc2EgZnVu
+w6fDo28gc8OjbywgU0RScywgQkRScywgR2VyYcOnw6NvIGRlIGRlbWFuZGEsICANClByb3NwZWPD
+p8OjbywgZXRjLg0KDQoNClNpbQ0KDQoNCk7Do28NCg0KDQpOwrogdmVuZGVkb3JlczogKg0KDQpW
+ZW5kZWRvcmVzIHPDo28gcHJvZmlzc2lvbmFpcyBkZWRpY2Fkb3MgZXhjbHVzaXZhbWVudGUgcGFy
+YSBleGVjdcOnw6NvIGRlICANCm5lZ29jaWHDp8OjbyBlIHZlbmRhcyBkYXMgc29sdcOnw7VlcyBk
+ZSBzdWEgZW1wcmVzYSwgZ2VyYWxtZW50ZSB0cmFiYWxoYW5kbyBzb2IgIA0KcmVnaW1lIENMVA0K
+DQoNCk7Do28gcG9zc3VlbSBwcm9maXNzaW9uYWlzIGV4Y2x1c2l2b3MgcGFyYSB2ZW5kYXMNCg0K
+DQoxIHZlbmRlZG9yDQoNCg0KMiB2ZW5kZWRvcmVzDQoNCg0KMyBhIDYgdmVuZGVkb3Jlcw0KDQoN
+CjcgYSAxMiB2ZW5kZWRvcmVzDQoNCg0KMTIgYSAyMCB2ZW5kZWRvcmVzDQoNCg0KTWFpcyBkZSAy
+MCB2ZW5kZWRvcmVzDQoNCg0KTsK6IHJlcHJlc2VudGFudGVzIGNvbWVyY2lhaXM6ICoNCg0KUmVw
+cmVzZW50YW50ZXMgc8OjbyBwcm9maXNzaW9uYWlzIGRlZGljYWRvcyBwYXJhIGV4ZWN1w6fDo28g
+ZGUgbmVnb2NpYcOnw6NvIGUgIA0KdmVuZGFzLCBxdWUgcG9kZW0gb3UgbsOjbyB0cmFiYWxoYXIg
+Y29tIGV4Y2x1c2l2aWRhZGUgcGFyYSBzdWEgZW1wcmVzYSwgIA0KZ2VyYWxtZW50ZSB0cmFiYWxo
+YW5kbyBjb21vIHByZXN0YWRvcmVzIGRlIHNlcnZpw6dvDQoNCg0KTsOjbyBwb3NzdWVtIHJlcHJl
+c2VudGFudGVzIGNvbWVyY2lhaXMNCg0KDQoxIHJlcHJlc2VudGFudGUNCg0KDQoyIHJlcHJlc2Vu
+dGFudGVzDQoNCg0KMyBhIDYgcmVwcmVzZW50YW50ZXMNCg0KDQo3IGEgMTIgcmVwcmVzZW50YW50
+ZXMNCg0KDQoxMiBhIDIwIHJlcHJlc2VudGFudGVzDQoNCg0KTWFpcyBkZSAyMCByZXByZXNlbnRh
+bnRlcw0KDQoNClRheGEgZGUgY29udmVyc8OjbyBlbSB2ZW5kYXMgKHByaW1laXJhcyByZXVuacO1
+ZXMgcmVhbGl6YWRhcyBwZWxvIHZlbmRlZG9yIC8gIA0KdmVuZGFzIHJlYWxpemFkYXMpOiAqDQoN
+Cg0KTWVub3MgZGUgNSUNCg0KDQo1IGEgMTAlDQoNCg0KMTAgYSAxNSUNCg0KDQoxNSBhIDIwJQ0K
+DQoNCjIwIGEgMjUlDQoNCg0KMjUgYSAzMCUNCg0KDQozMCBhIDUwJQ0KDQoNCk1haXMgZGUgNTAl
+DQoNCg0KTsOjbyBtYXBlYWRvDQoNCg0KVGlwbyBkZSBWZW5kYSAqDQoNCg0K4pyTDQpWZW5kYSBw
+cmVzZW5jaWFsIChGaWVsZCBTYWxlcykNCg0KDQrinJMNClZlbmRhIHJlbW90YSAoSW5zaWRlIFNh
+bGVzKQ0KDQoNCk8gY29tZXJjaWFsIHBvc3N1aSBtZXRhcyBkZWZpbmlkYXMgcGFyYSBub3ZvcyBu
+ZWfDs2Npb3MgcGFyYSBvIGFubyBlbSAgDQpleGVyY8OtY2lvPyAqDQoNCg0KU2ltLCBwb3NzdWkg
+bWV0YSBkZSBub3ZvcyBjbGllbnRlcw0KDQoNClNpbSwgcG9zc3VpIG1ldGEgZGUgZmF0dXJhbWVu
+dG8NCg0KDQpOw6NvIHBvc3N1aSBtZXRhcyBkZWZpbmlkYXMNCg0KDQpUaWNrZXQgTcOpZGlvOiAq
+DQoNCg0KQXTDqSBSJCA1MDANCg0KDQpSJCA1MDAgYSBSJCAxMDAwDQoNCg0KUiQgMTAwMCBhIFIk
+IDE1MDANCg0KDQpSJCAxNTAwIGEgUiQgMiBtaWwNCg0KDQpSJCAyIG1pbCBhIFIkIDUgbWlsDQoN
+Cg0KUiQgNSBtaWwgYSBSJCAxMCBtaWwNCg0KDQpSJCAxMCBtaWwgYSBSJCAyMCBtaWwNCg0KDQpS
+JCAyMCBtaWwgYSBSJCAxMDAgbWlsDQoNCg0KTWFpcyBkZSBSJCAxMDAgbWlsDQoNCg0KUmVjZWl0
+YSDDqSByZWNvcnJlbnRlPyAqDQoNCg0KU2ltDQoNCg0KTsOjbw0KDQoNCkNpY2xvIE3DqWRpbyBk
+ZSBWZW5kYXM6ICoNCg0KTyBjaWNsbyBtw6lkaW8gZGUgdmVuZGFzIMOpIGEgbcOpZGlhIGRlIHRl
+bXBvIGRhcyBuZWdvY2lhw6fDtWVzIGRlIHNldSB0aW1lIGRlICANCnZlbmRhcywgZGVzZGUgbyBw
+cmltZWlybyBjb250YXRvIGNvbSBvIGxlYWQgYXTDqSBhIGNvbmNsdXPDo28gZGEgbmVnb2NpYcOn
+w6NvLg0KDQoNCk51bmNhIHJlYWxpem91IHZlbmRhcw0KDQoNCk7Do28gbWFwZWFkbw0KDQoNCkF0
+w6kgMSBzZW1hbmENCg0KDQoxIGEgMiBzZW1hbmFzDQoNCg0KMyBhIDQgc2VtYW5hcw0KDQoNCjEg
+YSAyIG1lc2VzDQoNCg0KMyBhIDQgbWVzZXMNCg0KDQo1IGEgNiBtZXNlcw0KDQoNCjcgbWVzZXMg
+YXTDqSAxMiBtZXNlcw0KDQoNCk1haXMgZGUgMTIgbWVzZXMNCg0KDQpGZXJyYW1lbnRhcyBkYSBP
+cGVyYcOnw6NvIENvbWVyY2lhbDoNCg0KRXNzYSBldGFwYSBub3MgYWp1ZGFyw6EgYSB2ZXJpZmlj
+YXIgcXVhaXMgYXMgbmVjZXNzaWRhZGVzL29wb3J0dW5pZGFkZXMgZGUgIA0KaW50ZWdyYcOnw6Nv
+IHBvZGVyZW1vcyBjb250ZW1wbGFyIG5vIGNyb25vZ3JhbWEgZGUgaW1wbGVtZW50YcOnw6NvLg0K
+DQoNClF1YWlzIGRhcyBmZXJyYW1lbnRhcyBhYmFpeG8gZXN0w6NvIHByZXNlbnRlcyBlbSBzZXUg
+c2V0b3IgZGUgbWFya2V0aW5nOiAqDQoNCg0KTsOjbyB1dGlsaXphIGZlcnJhbWVudGEgZGUgYXV0
+b21hw6fDo28gSW5ib3VuZA0KDQoNClJEIFN0YXRpb24NCg0KDQpIdWJzcG90DQoNCg0KU2hhcnBT
+cHJpbmcNCg0KDQpPdXRybzoNCg0KDQpRdWFsIGRvcyBDUk1zIGFiYWl4byBzdWEgZW1wcmVzYSB1
+dGlsaXphOiAqDQoNCg0KTsOjbyB1dGlsaXphIENSTQ0KDQoNCkFnZW5kb3INCg0KDQpEeW5hbWlj
+cw0KDQoNCkh1YnNwb3QgQ1JNDQoNCg0KTW9za2l0IENSTQ0KDQoNCk5lY3RhciBDUk0NCg0KDQpQ
+aXBlZHJpdmUNCg0KDQpQbHVnIENSTQ0KDQoNClNhbGVzRm9yY2UNCg0KDQpWaXN0YSBDUk0NCg0K
+DQpWVGlnZXINCg0KDQpab2hvDQoNCg0KT3V0cm86DQoNCg0KU2Vydmlkb3IgZGUgZS1tYWlsOiAq
+DQoNCg0KR29vZ2xlIC0gRy1tYWlsDQoNCg0KTWljcm9zb2Z0IC0gT3V0bG9vaw0KDQoNCk1pY3Jv
+c29mdCAtIE9mZmljZSAzNjUNCg0KDQpNaWNyb3NvZnQgLSBFeGNoYW5nZQ0KDQoNCk91dHJvOg0K
+DQoNClF1YWlzIG91dHJhcyBmZXJyYW1lbnRhcyAoc29mdHdhcmVzLCBhcGxpY2F0aXZvcywgZXRj
+Likgc3VhIGVtcHJlc2EgdXRpbGl6YSAgDQpuYSBvcGVyYcOnw6NvIGNvbWVyY2lhbD8gKg0KDQoN
+Ckluc3RhZ3JhbSBlIEZhY2Vib29rDQoNCg0KRm9jbyBkZSBJbXBsZW1lbnRhw6fDo286DQoNCkVz
+c2EgZXRhcGEgdmlzYSBsZXZhbnRhciBpbmZvcm1hw6fDtWVzIGRldGFsaGFkYXMgcGFyYSBhdXhp
+bGlhciBuYSAgDQpjb21wcmVlbnPDo28gZG8gcHJvZHV0byBvdSBzZXJ2acOnbyBxdWUgc2Vyw6Eg
+Zm9jbyBkYSBpbXBsZW1lbnRhw6fDo28sIHBhcmEgbyAgDQpxdWFsIGNvbnN0cnVpcmVtb3MganVu
+dG9zIG8gcHJpbWVpcm8gZmlsdHJvIGRlIHF1YWxpZmljYcOnw6NvLg0KDQoNCklyw6EgY29udHJh
+dGFyIG5vdm9zIGNvbGFib3JhZG9yZXMgcGFyYSBleGVjdcOnw6NvIGRhIHByw6ktdmVuZGFzIGUg
+dXRpbGl6YcOnw6NvICANCmRvIEV4YWN0IFNwb3R0ZXI/ICoNCg0KDQpTaW0sIGNvbnRyYXRhcmVt
+b3MgMSBub3ZvIHByw6ktdmVuZGVkb3INCg0KDQpTaW0sIGNvbnRyYXRhcmVtb3MgMiBub3ZvcyBw
+csOpLXZlbmRlZG9yZXMNCg0KDQpTaW0sIGNvbnRyYXRhcmVtb3MgMyBub3ZvcyBwcsOpLXZlbmRl
+ZG9yZXMNCg0KDQpTaW0sIGNvbnRyYXRhcmVtb3MgbWFpcyAzIG5vdm9zIGRlIHByw6ktdmVuZGVk
+b3Jlcw0KDQoNCkrDoSB0ZW1vcyBjb2xhYm9yYWRvciBkZWZpbmlkbyBwYXJhIGZ1bsOnw6NvIGRl
+IHByw6ktdmVuZGFzDQoNCg0KTsOjbyBjb250cmF0YXJlbW9zIHByw6ktdmVuZGVkb3Jlcw0KDQoN
+ClNvbHXDp8OjbyAobm9tZSBkbyBwcm9kdXRvL3NlcnZpw6dvKSBmb2NvIGRhIGltcGxlbWVudGHD
+p8OjbzogKg0KDQoNCkVuZXJnaWEgc29sYXIgLyB2ZW5kYSBlIGluc3RhbGHDp8Ojbw0KDQoNCkRl
+c2NyZXZhIGEgc29sdcOnw6NvOiAqDQoNCg0KQWxjYW7Dp2FyIG8gbWFpb3IgbnVtZXJvIGRlIHBl
+c3NvYXMgY29tIG8gc29mdHdhcmUgZGUgdmVuZGFzDQoNCg0KUXVhaXMgZG9yZXMgZXNzYSBzb2x1
+w6fDo28gYXRlbmRlPyAqDQoNClVtYSBkb3Igw6kgdW0gcHJvYmxlbWEgZXNwZWPDrWZpY28gcXVl
+IG9zIHBvc3PDrXZlaXMgY2xpZW50ZXMgZGEgc3VhIGVtcHJlc2EgIA0KZXN0w6NvIGVuZnJlbnRh
+bmRvLg0KDQoNCk8gYWx0byB2YWxvciBkbyBwcm9kdXRvDQoNCg0KUMO6YmxpY28gQWx2bzogKg0K
+DQpJbmZvcm1hciBuZXNzZSBjYW1wbyBxdWFpcyBvcyBzZWdtZW50b3MgcHJpb3JpdMOhcmlvcyBw
+YXJhIHByb3NwZWPDp8OjbyBvdSAgDQp2aXPDo28gZ2VyYWwgZG8gdGlwbyBkZSBlbXByZXNhIHF1
+ZSBub3JtYWxtZW50ZSDDqSBidXNjYWRvIGF0dWFsbWVudGUgZW0gc3VhICANCnByb3NwZWPDp8Oj
+byBjb21lcmNpYWwNCg0KDQpNZXJjYWRvcywgQ2xpbmljYXMsIE1lY2FuaWNhcywgQ2FzYXMsIEVt
+cHJlc2FzIGRpdmVyc2FzLCBNb3RlaXMsICANCkZyaWdvcmlmaWNvcywgTG9qYXMgZSBldGMuDQoN
+Cg0KTm9ybWFsbWVudGUsIHF1ZW0gw6kgbyBkZWNpc29yIHNvYnJlIGEgY29tcHJhIGRlc3NhIHNv
+bHXDp8OjbyBuYXMgZW1wcmVzYXMgZW0gIA0KcXVlIHZvY8OqIHByb3NwZWN0YT8gKg0KDQpVdGls
+aXphciBjYXJnb3MgKEV4ZW1wbG86IEdlcmVudGUgZGUgbWFya2V0aW5nLCBnZXJlbnRlIGRlIHZl
+bmRhcywgZGlyZXRvciAgDQpkZSBub3ZvcyBuZWfDs2Npb3MsIGV0Yy4pIG91IGV4cHJlc3PDo28g
+dXRpbGl6YWRhIHBhcmEgY2FyYWN0ZXJpemFyIG8gIA0KcmVzcG9uc8OhdmVsIHBlbGEgZGVtYW5k
+YSAoRXhlbXBsbzogUmVzcG9uc8OhdmVsIHBlbG8gZGVzZW52b2x2aW1lbnRvIGRlICANCm5vdm9z
+IHByb2R1dG9zKQ0KDQoNCkRpcmV0b3IgQ29tZXJjaWFsDQoNCg0KUXVhaXMgb3MgY29uY29ycmVu
+dGVzIGRlIHN1YSBzb2x1w6fDo28/ICoNCg0KDQpUcmFiYWxoYXIgY29tIG8gbWVsaG9yIHZhbG9y
+IGRvIG1lcmNhZG8sIGNvYnJpbmRvIHF1YWxxdWVyIG9mZXJ0YSBkYSAgDQpjb25jb3JyZW5jaWEN
+Cg0KDQpRdWFpcyBvcyBkaWZlcmVuY2lhaXMgZGUgc3VhIHNvbHXDp8OjbyBmcmVudGUgYW9zIGNv
+bmNvcnJlbnRlcz8gKg0KDQoNClVtYSBlcXVpcGUgY29tIGFub3MgZGUgZXhwZXJpYW5jaWEgbmEg
+YXJlYSBkZSBlbmVyZ2lhIHNvbGFyDQoNCg0KQ3JpdMOpcmlvcyBkZSBRdWFsaWZpY2HDp8OjbzoN
+Cg0KRXNzYSBzZcOnw6NvIHZpc2EgY29tcHJlZW5kZXIgb3MgY3JpdMOpcmlvcyByZWxldmFudGVz
+IHBhcmEgcXVhbGlmaWNhw6fDo28gZG9zICANCmxlYWRzIG5hIHN1YSBvcGVyYcOnw6NvLiBFc3Nh
+cyBpbmZvcm1hw6fDtWVzIG5vcyBhanVkYXLDo28gYSBjb25zdHJ1aXIgYXMgIA0KcGVyZ3VudGFz
+IGUgcmVzcG9zdGFzIChmaWx0cm9zKSBwZWxvcyBxdWFpcyBzZXVzIGxlYWRzIHNlcsOjbyBhdmFs
+aWFkb3MgcG9yICANCnNldXMgcHLDqS12ZW5kZWRvcmVzLg0KDQoNCkV4aXN0ZSB2ZXJiYSAob3LD
+p2FtZW50bywgaW52ZXN0aW1lbnRvKSBtw61uaW1hIHF1ZSBvIGxlYWQgZGV2ZSBwb3NzdWlyIHBh
+cmEgIA0KY29udHJhdGFyIHN1YSBzb2x1w6fDo28/ICoNCg0KDQpTaW0NCg0KDQpOw6NvDQoNCg0K
+Tm9ybWFsbWVudGUgZXNzYSB2ZXJiYSBlc3TDoSBwcmV2aXN0YSBubyBjZW50cm8gZGUgY3VzdG9z
+IGRhIGVtcHJlc2EgLyBsZWFkICANCm91IMOpIGFsZ28gZm9tZW50YWRvIHBlbG8gc2V1IGNvbWVy
+Y2lhbD8gKg0KDQoNClZlcmJhIGrDoSBwcmV2aXN0YQ0KDQoNCk7Do28gcG9zc3VpIHZlcmJhIHBy
+ZXZpc3RhLCDDqSBuZWdvY2lhZG8ganVudG8gY29tIG8gdmVuZGVkb3INCg0KDQpOb3JtYWxtZW50
+ZSBvIGRlY2lzb3IgdGVtIGF1dG9ub21pYSBwYXJhIGRlY2lkaXIgc29icmUgYSBjb21wcmEgc296
+aW5obywgb3UgIA0KcHJlY2lzYSBlbnZvbHZlciBvdXRyb3Mgc3Rha2Vob2xkZXJzIHBhcmEgZGVj
+aXPDo28/ICoNCg0KDQpEZWNpZGUgc296aW5obw0KDQoNClBhciBkZSBkZWNpc8Ojbw0KDQoNClBy
+ZWNpc2EgY29uc3VsdGFyIG91dHJvcyBzZXRvcmVzDQoNCg0KUHJlY2lzYSBkZSBhcHJvdmHDp8Oj
+byBkbyBjb25zZWxobyBhZG1pbmlzdHJhdGl2bw0KDQoNCk91dHJvOg0KDQoNCkV4aXN0ZSBwbGFu
+ZWphbWVudG8gZGUgdGVtcG8gZG9zIGxlYWRzIHBhcmEgYXF1aXNpw6fDo28gZGEgc3VhIHNvbHXD
+p8Ojbz8gKg0KDQoNCk7Do28gZmF6ZW0gcGxhbmVqYW1lbnRvLCDDqSB1bWEgZGVtYW5kYSBmb21l
+bnRhZGEgcGVsbyBjb21lcmNpYWwNCg0KDQpTaW0sIHBsYW5lamFtIGEgY29tcHJhDQoNCg0KUXVh
+bCBvIHRlbXBvIGxpbWl0ZSBkZSBjb21wcmEgcGFyYSBxdWUgbyBsZWFkIHNlamEgY29uc2lkZXJh
+ZG8gcXVhbGlmaWNhZG8/ICANCioNCg0KDQpPIHRlbXBvIGRlIGNvbXByYSBuw6NvIMOpIGltcGFj
+dGFudGUNCg0KDQpBdMOpIDEgc2VtYW5hDQoNCg0KQXTDqSAxIG3DqnMNCg0KDQpEZSAyIGEgMyBt
+ZXNlcw0KDQoNCkRlIDQgYSA2IG1lc2VzDQoNCg0KTWFpcyBkZSA2IG1lc2VzDQoNCg0KUXVhaXMg
+b3V0cmFzIGNhcmFjdGVyw61zdGljYXMgc8OjbyBzaWduaWZpY2F0aXZhcyBwYXJhIGNvbnNpZGVy
+YXIgbyBsZWFkICANCnF1YWxpZmljYWRvPyAqDQoNCg0KQWNyZWRpdG8gcXVlIHRvZG9zIHPDo28g
+cXVhbGlmaWNhZG9zLCBvcyBxdWUgbmFvIGNvbXByYW0gaG9qZSBwb2RlbSBjb21wcmFyICANCmFt
+YW5oYSwgZW50w6NvIHRvZG9zIHRlbSBzdWEgcXVhbGlmaWNhw6fDo28uDQoNCg0KUXVhaXMgY2Fy
+YWN0ZXLDrXN0aWNhcyBkb3MgbGVhZHMgc8OjbyBsaW1pdGFudGVzIHBhcmEgc3VhIHZlbmRhPyAq
+DQoNCkNhcmFjdGVyw61zdGljYXMgbGltaXRhbnRlcyBzw6NvIGFxdWVsYXMgcXVlIHF1YW5kbyBp
+ZGVudGlmaWNhZGFzIGVtIHVtIGxlYWQgIA0KZGV2ZW0gZGVzcXVhbGlmaWPDoS1sbyBpbWVkaWF0
+YW1lbnRlLiBQb2RlbSBzZXIgZmF0b3JlcyBjb21vIHVtYSBsaW1pdGHDp8OjbyAgDQp0w6ljbmlj
+YSAoRXguOiBwYXJhIHVtYSBlbXByZXNhIGRlIG1hcXVpbsOhcmlvIGluZHVzdHJpYWwsIHNlIHVt
+IGxlYWQgbsOjbyB0ZW0gIA0KZXNwYcOnbyBmw61zaWNvIHBhcmEgaW5zdGFsYcOnw6NvIGRlIG1h
+cXVpbsOhcmlvLCBuw6NvIHNlcsOhIHBvc3PDrXZlbCByZWFsaXphciBhICANCnZlbmRhKSwgdW1h
+IGNhcmFjdGVyw61zdGljYSBkbyBzZXUgcHJvZHV0byAoRXguOiBsaW1pdGUgbcOheGltbyBkZSB1
+c3XDoXJpb3MgIA0KcXVlIHVtIGRldGVybWluYWRvIHNvZnR3YXJlIGF0ZW5kZSksIG91IGNhcmFj
+dGVyw61zdGljYSBkbyBzZXUgbmVnw7NjaW8gKEV4LjogIA0KcGFyYSBtaW5oYSBzb2x1w6fDo28g
+dGVyIG1haW9yIGVmaWNpw6puY2lhIGEgZW1wcmVzYSBkbyBsZWFkIGRldmUgcG9zc3VpciB1bSAg
+DQpuw7ptZXJvIG3DrW5pbW8gZGUgY29sYWJvcmFkb3JlcykNCg0KDQpzZW0gZXNwYcOnbyBwYXJh
+IGEgaW5zdGFsYcOnw6NvIGRvIHNpc3RlbWENCg0KDQpDcmllIHNldSBwcsOzcHJpbyBmb3JtdWzD
+oXJpbyBkbyBHb29nbGUuDQoNCg0K
+--0000000000006c83ce05b18c95f4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style nonce=3D"kBAOwqH/fLoY9Qm6wsCKBw">@import url(https://fon=
+ts.googleapis.com/css?family=3DGoogle+Sans:400,500|Roboto:300,400,400i,500,=
+700&subset=3Dlatin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-e=
+xt);</style><style nonce=3D"kBAOwqH/fLoY9Qm6wsCKBw">[class=3D"x_body-conten=
+t-wrapper"] * {white-space: normal !important;}</style></head><body dir=3D"=
+ltr" style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif=
+;font-size: 14px; font-weight: 400; line-height: 20px;text-align: start; wo=
+rd-wrap: break-word; margin: 0; padding: 0; height: 100%; width: 100%;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background-co=
+lor:rgb(80,93,111);" width=3D"100%" role=3D"presentation"><tbody><tr height=
+=3D"64px"><td style=3D"padding: 0 24px;"><img alt=3D"Formul=C3=A1rios Googl=
+e" height=3D"26px" style=3D"display: inline-block; margin: 0; vertical-alig=
+n: middle;" width=3D"143px" src=3D"https://www.gstatic.com/docs/forms/googl=
+e_forms_logo_lockup_white_2x.png"></td></tr></tbody></table><div class=3D"b=
+ody-content-wrapper" style=3D"padding: 12px; background-color: rgb(238,239,=
+241);"><div style=3D"margin: 0 auto; max-width: 640px; min-width: 154px;"><=
+div style=3D"border: 1px solid #dadce0; padding: 20px 12px;background-color=
+: #fff; border-radius: 8px; margin-bottom: 12px;padding: 20px;"><h1 style=
+=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Aria=
+l,sans-serif;font-size: 20px; font-weight: 400; line-height: 28px;margin: 0=
+ 0 12px;">Agradecemos o preenchimento de <a href=3D"https://docs.google.com=
+/forms/d/e/1FAIpQLSfTkZ77OYiypbvDvgnIfPaN_PxtZxyZ4_9LrsfFssgKpvIMaQ/viewfor=
+m?usp=3Dmail_form_link" target=3D"_blank" style=3D"white-space: pre-wrap;">=
+Implementa=C3=A7=C3=A3o Exact Sales: Informa=C3=A7=C3=B5es Base</a></h1>Ist=
+o foi o que recebemos de voc=C3=AA:</div><div style=3D"border-bottom: 1px s=
+olid #dadce0; border-left: 1px solid #dadce0; border-right: 1px solid #dadc=
+e0; border-top: 8px solid rgb(80,93,111); padding: 20px;background-color: #=
+fff; border-radius: 8px; margin-bottom: 12px;"><h1 dir=3D"ltr" style=3D"fon=
+t-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size=
+: 32px; font-weight: 400; line-height: 42px;white-space: pre-wrap;margin: 0=
+ 0 12px;">Implementa=C3=A7=C3=A3o Exact Sales: Informa=C3=A7=C3=B5es Base</=
+h1><div style=3D"white-space: pre-wrap;margin-bottom: 12px;">INFORMA=C3=87=
+=C3=95ES INICIAIS PARA PROJETO DE IMPLEMENTA=C3=87=C3=83O</div></div><form =
+action=3D'' method=3D'GET'><div style=3D"border: 1px solid #dadce0; padding=
+: 20px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px=
+;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" sty=
+le=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Ar=
+ial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-s=
+pace: pre-wrap;margin: 0 0 16px;">Endere=C3=A7o de e-mail<span style=3D"col=
+or: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div>=
+<div style=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div dir=3D"aut=
+o" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38=
+);margin: 12px 0 8px; min-height: 20px;display: inline-block; max-width: 10=
+0%; min-width: 50%;">contato@soliveenergiasolar.com.br</div></div></div></d=
+iv><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;background-c=
+olor: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><=
+div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;fon=
+t-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size=
+: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;margin: 0=
+ 0 16px;">Raz=C3=A3o Social da Empresa:<span style=3D"color: #d93025;" aria=
+-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padd=
+ing: 0 12px;"><div style=3D"width: 100%;"><div dir=3D"auto" style=3D"white-=
+space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8=
+px; min-height: 20px;display: inline-block; max-width: 100%; min-width: 50%=
+;">Solive Energia Solae</div></div></div></div><div style=3D"border: 1px so=
+lid #dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8px;=
+ margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;">=
+<h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#39;=
+,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-=
+height: 24px;white-space: pre-wrap;margin: 0 0 16px;">Nome Fantasia:<span s=
+tyle=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span>=
+</h2></div><div style=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div=
+ dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba=
+(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display: inline-block; ma=
+x-width: 100%; min-width: 50%;">Solive Energia Solar</div></div></div></div=
+><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;background-col=
+or: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><di=
+v style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-=
+family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: =
+16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;margin: 0 0=
+ 16px;">Como ficou sabendo da Exact Sales?<span style=3D"color: #d93025;" a=
+ria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"p=
+adding: 0 12px;"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bo=
+ttom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;widt=
+h: 100%;">A empresa entrou em contato comigo e assim conheci a Exact</div><=
+/div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;back=
+ground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: =
+12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #20=
+2124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;f=
+ont-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;m=
+argin: 0 0 16px;">Qual foi o fator decisivo para adquirir o Exact Spotter?<=
+span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *<=
+/span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"width: 100%;=
+"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotte=
+d rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display: inline-blo=
+ck; max-width: 100%; min-width: 50%;">a confian=C3=A7a passada em todos os =
+contatos </div></div></div></div><div style=3D"border: 1px solid #dadce0; p=
+adding: 20px 12px;background-color: #fff; border-radius: 8px; margin-bottom=
+: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"aut=
+o" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvet=
+ica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;w=
+hite-space: pre-wrap;margin: 0 0 16px;">Alguma dessas a=C3=A7=C3=B5es reali=
+zadas pela Exact colaborou com a sua tomada de decis=C3=A3o de contratar a =
+plataforma?<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=
+=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=
+=3D"checkbox" aria-checked=3D"false" aria-label=3D"Evento online organizado=
+ pela Exact (live, webinar, etc)" style=3D"border: solid 2px #9aa0a6; borde=
+r-radius: 3px; height: 16px; width: 16px;"></div></td><td style=3D"min-widt=
+h: 8px;"></td><td style=3D"word-break: break-word;">Evento online organizad=
+o pela Exact (live, webinar, etc)</td></tr></table></div><div style=3D"marg=
+in-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica=
+,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;colo=
+r: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"chec=
+kbox" aria-checked=3D"false" aria-label=3D"Evento online em que a Exact par=
+ticipou (live, webinar, etc)" style=3D"border: solid 2px #9aa0a6; border-ra=
+dius: 3px; height: 16px; width: 16px;"></div></td><td style=3D"min-width: 8=
+px;"></td><td style=3D"word-break: break-word;">Evento online em que a Exac=
+t participou (live, webinar, etc)</td></tr></table></div><div style=3D"marg=
+in-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica=
+,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;colo=
+r: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"chec=
+kbox" aria-checked=3D"false" aria-label=3D"Palestra em evento presencial" s=
+tyle=3D"border: solid 2px #9aa0a6; border-radius: 3px; height: 16px; width:=
+ 16px;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-bre=
+ak: break-word;">Palestra em evento presencial</td></tr></table></div><div =
+style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-heig=
+ht: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div=
+ role=3D"checkbox" aria-checked=3D"false" aria-label=3D"Workshops" style=3D=
+"border: solid 2px #9aa0a6; border-radius: 3px; height: 16px; width: 16px;"=
+></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: bre=
+ak-word;">Workshops</td></tr></table></div><div style=3D"margin-top: 16px;"=
+><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-se=
+rif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; t=
+able-layout: fixed;"><tr><td><div role=3D"checkbox" aria-checked=3D"true" a=
+ria-label=3D"As a=C3=A7=C3=B5es listadas n=C3=A3o influenciaram a tomada de=
+ decis=C3=A3o" style=3D"border: solid 2px #5f6368; border-radius: 3px; heig=
+ht: 16px; width: 16px;background-color: #5f6368; color: #fff; font-size: 14=
+px; line-height: 16px; text-align: center;">&#10003;</div></td><td style=3D=
+"min-width: 8px;"></td><td style=3D"word-break: break-word;">As a=C3=A7=C3=
+=B5es listadas n=C3=A3o influenciaram a tomada de decis=C3=A3o</td></tr></t=
+able></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;=
+font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight=
+: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixe=
+d;"><tr><td><div role=3D"checkbox" aria-checked=3D"false" aria-label=3D"Out=
+ro: " style=3D"border: solid 2px #9aa0a6; border-radius: 3px; height: 16px;=
+ width: 16px;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"w=
+hite-space: nowrap;">Outro:&nbsp;&nbsp;</td><td style=3D"word-break: break-=
+word;border-bottom: 1px dotted rgba(0,0,0,0.38);width: 99%;"></td></tr></ta=
+ble></div></div></div><div style=3D"border: 1px solid #dadce0; padding: 20p=
+x 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;marg=
+in-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D=
+"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,s=
+ans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-space:=
+ pre-wrap;margin: 0 0 16px;">Se conseguir se recordar, qual o nome do event=
+o?</h2></div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: 16px=
+;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-=
+serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;m=
+argin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"checkbox" aria-c=
+hecked=3D"false" aria-label=3D"Workshop Acerte em Cheio" style=3D"border: s=
+olid 2px #9aa0a6; border-radius: 3px; height: 16px; width: 16px;"></div></t=
+d><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">=
+Workshop Acerte em Cheio</td></tr></table></div><div style=3D"margin-top: 1=
+6px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sa=
+ns-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757=
+a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"checkbox" ari=
+a-checked=3D"false" aria-label=3D"N=C3=A3o Pare, Adapte" style=3D"border: s=
+olid 2px #9aa0a6; border-radius: 3px; height: 16px; width: 16px;"></div></t=
+d><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">=
+N=C3=A3o Pare, Adapte</td></tr></table></div><div style=3D"margin-top: 16px=
+;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-=
+serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;m=
+argin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"checkbox" aria-c=
+hecked=3D"false" aria-label=3D"RD Summit" style=3D"border: solid 2px #9aa0a=
+6; border-radius: 3px; height: 16px; width: 16px;"></div></td><td style=3D"=
+min-width: 8px;"></td><td style=3D"word-break: break-word;">RD Summit</td><=
+/tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #=
+202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font=
+-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layou=
+t: fixed;"><tr><td><div role=3D"checkbox" aria-checked=3D"false" aria-label=
+=3D"Startup Summit" style=3D"border: solid 2px #9aa0a6; border-radius: 3px;=
+ height: 16px; width: 16px;"></div></td><td style=3D"min-width: 8px;"></td>=
+<td style=3D"word-break: break-word;">Startup Summit</td></tr></table></div=
+><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-famil=
+y: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; lin=
+e-height: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"=
+checkbox" aria-checked=3D"true" aria-label=3D"N=C3=A3o participei de nenhum=
+ evento com a Exact Sales" style=3D"border: solid 2px #5f6368; border-radiu=
+s: 3px; height: 16px; width: 16px;background-color: #5f6368; color: #fff; f=
+ont-size: 14px; line-height: 16px; text-align: center;">&#10003;</div></td>=
+<td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">N=
+=C3=A3o participei de nenhum evento com a Exact Sales</td></tr></table></di=
+v><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-fami=
+ly: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; li=
+ne-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><=
+td><div role=3D"checkbox" aria-checked=3D"false" aria-label=3D"Outro: " sty=
+le=3D"border: solid 2px #9aa0a6; border-radius: 3px; height: 16px; width: 1=
+6px;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"white-spac=
+e: nowrap;">Outro:&nbsp;&nbsp;</td><td style=3D"word-break: break-word;bord=
+er-bottom: 1px dotted rgba(0,0,0,0.38);width: 99%;"></td></tr></table></div=
+></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;ba=
+ckground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom=
+: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #=
+202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif=
+;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap=
+;margin: 0 0 16px;">Faturamento anual:<span style=3D"color: #d93025;" aria-=
+label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"paddi=
+ng: 0 12px;"><div style=3D"margin-top: 16px;"><table style=3D"color: #20212=
+4;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weig=
+ht: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fi=
+xed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=
+=A3o possui faturamento" style=3D"border: solid 2px #9aa0a6; height: 16px; =
+width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;">=
+</td><td style=3D"word-break: break-word;">N=C3=A3o possui faturamento</td>=
+</tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: =
+#202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; fon=
+t-weight: 400; line-height: 20px;margin-top: 8px; table-layout: fixed;"><tr=
+><td><div role=3D"radio" aria-checked=3D"true" aria-label=3D"Menos de R$ 10=
+0 mil / ano" style=3D"border: solid 2px #5f6368; height: 16px; width: 16px;=
+ border-radius: 50%;"><div style=3D"background-color: #5f6368; border: soli=
+d 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"></div=
+></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: bre=
+ak-word;">Menos de R$ 100 mil / ano</td></tr></table></div><div style=3D"ma=
+rgin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helveti=
+ca,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;co=
+lor: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"ra=
+dio" aria-checked=3D"false" aria-label=3D"De R$ 100 mil at=C3=A9 R$ 480 mil=
+ / ano" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bord=
+er-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"word-break: break-word;">De R$ 100 mil at=C3=A9 R$ 480 mil / ano</td></tr>=
+</table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #2021=
+24;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-wei=
+ght: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: f=
+ixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"De =
+R$ 481 mil at=C3=A9 R$ 4,8 Milh=C3=B5es / ano" style=3D"border: solid 2px #=
+9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td styl=
+e=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">De R$ 481 =
+mil at=C3=A9 R$ 4,8 Milh=C3=B5es / ano</td></tr></table></div><div style=3D=
+"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helv=
+etica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px=
+;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D=
+"radio" aria-checked=3D"false" aria-label=3D"De R$ 4,81 Milh=C3=B5es at=C3=
+=A9 R$ 90 Milh=C3=B5es / ano" style=3D"border: solid 2px #9aa0a6; height: 1=
+6px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8=
+px;"></td><td style=3D"word-break: break-word;">De R$ 4,81 Milh=C3=B5es at=
+=C3=A9 R$ 90 Milh=C3=B5es / ano</td></tr></table></div><div style=3D"margin=
+-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,A=
+rial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color:=
+ #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio"=
+ aria-checked=3D"false" aria-label=3D"Acima de R$ 90 Milh=C3=B5es  / ano" s=
+tyle=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius=
+: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-bre=
+ak: break-word;">Acima de R$ 90 Milh=C3=B5es  / ano</td></tr></table></div>=
+</div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;bac=
+kground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom:=
+ 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #2=
+02124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;=
+font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;=
+margin: 0 0 16px;">N=C2=BA de colaboradores:<span style=3D"color: #d93025;"=
+ aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D=
+"padding: 0 12px;"><div style=3D"margin-top: 16px;"><table style=3D"color: =
+#202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; fon=
+t-weight: 400; line-height: 20px;margin-top: 8px; table-layout: fixed;"><tr=
+><td><div role=3D"radio" aria-checked=3D"true" aria-label=3D"At=C3=A9 10 co=
+laboradores" style=3D"border: solid 2px #5f6368; height: 16px; width: 16px;=
+ border-radius: 50%;"><div style=3D"background-color: #5f6368; border: soli=
+d 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"></div=
+></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: bre=
+ak-word;">At=C3=A9 10 colaboradores</td></tr></table></div><div style=3D"ma=
+rgin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helveti=
+ca,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;co=
+lor: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"ra=
+dio" aria-checked=3D"false" aria-label=3D"De 11 at=C3=A9 20 colaboradores" =
+style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radiu=
+s: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-br=
+eak: break-word;">De 11 at=C3=A9 20 colaboradores</td></tr></table></div><d=
+iv style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: =
+Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-h=
+eight: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><=
+div role=3D"radio" aria-checked=3D"false" aria-label=3D"De 21 at=C3=A9 50 c=
+olaboradores" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px=
+; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td st=
+yle=3D"word-break: break-word;">De 21 at=C3=A9 50 colaboradores</td></tr></=
+table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124=
+;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weigh=
+t: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fix=
+ed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"De 51=
+ at=C3=A9 200 colaboradores" style=3D"border: solid 2px #9aa0a6; height: 16=
+px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8p=
+x;"></td><td style=3D"word-break: break-word;">De 51 at=C3=A9 200 colaborad=
+ores</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" a=
+ria-label=3D"De 201 at=C3=A9 500 colaboradores" style=3D"border: solid 2px =
+#9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td sty=
+le=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">De 201 at=
+=C3=A9 500 colaboradores</td></tr></table></div><div style=3D"margin-top: 1=
+6px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sa=
+ns-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757=
+a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-c=
+hecked=3D"false" aria-label=3D"De 501 at=C3=A9 1000 colaboradores" style=3D=
+"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"=
+></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: bre=
+ak-word;">De 501 at=C3=A9 1000 colaboradores</td></tr></table></div><div st=
+yle=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Robot=
+o,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height=
+: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div r=
+ole=3D"radio" aria-checked=3D"false" aria-label=3D"De 1001 at=C3=A9 5000 co=
+laboradores" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px;=
+ border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td sty=
+le=3D"word-break: break-word;">De 1001 at=C3=A9 5000 colaboradores</td></tr=
+></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202=
+124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-we=
+ight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: =
+fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"De=
+ 5001 at=C3=A9 10000 colaboradores" style=3D"border: solid 2px #9aa0a6; hei=
+ght: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-wi=
+dth: 8px;"></td><td style=3D"word-break: break-word;">De 5001 at=C3=A9 1000=
+0 colaboradores</td></tr></table></div><div style=3D"margin-top: 16px;"><ta=
+ble style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;=
+font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-=
+top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D=
+"false" aria-label=3D"Acima de 10000 colaboradores" style=3D"border: solid =
+2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td=
+ style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Acima=
+ de 10000 colaboradores</td></tr></table></div></div></div><div style=3D"bo=
+rder: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-=
+radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"paddin=
+g: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Goog=
+le Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight=
+: 400; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">N=C3=BAme=
+ro de clientes atendidos<span style=3D"color: #d93025;" aria-label=3D"Pergu=
+nta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><=
+div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family:=
+ Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-=
+height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td>=
+<div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=A3o possuo cl=
+ientes" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bord=
+er-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"word-break: break-word;">N=C3=A3o possuo clientes</td></tr></table></div><=
+div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family:=
+ Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-=
+height: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"ra=
+dio" aria-checked=3D"true" aria-label=3D"At=C3=A9 10 clientes" style=3D"bor=
+der: solid 2px #5f6368; height: 16px; width: 16px; border-radius: 50%;"><di=
+v style=3D"background-color: #5f6368; border: solid 5px #5f6368; border-rad=
+ius: 50%; margin: 3px; height: 0; width: 0;"></div></div></td><td style=3D"=
+min-width: 8px;"></td><td style=3D"word-break: break-word;">At=C3=A9 10 cli=
+entes</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" a=
+ria-label=3D"De 11 at=C3=A9 50 clientes" style=3D"border: solid 2px #9aa0a6=
+; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"m=
+in-width: 8px;"></td><td style=3D"word-break: break-word;">De 11 at=C3=A9 5=
+0 clientes</td></tr></table></div><div style=3D"margin-top: 16px;"><table s=
+tyle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-=
+size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: =
+8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fals=
+e" aria-label=3D"De 51 at=C3=A9 100 clientes" style=3D"border: solid 2px #9=
+aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">De 51 at=C3=
+=A9 100 clientes</td></tr></table></div><div style=3D"margin-top: 16px;"><t=
+able style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif=
+;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin=
+-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=
+=3D"false" aria-label=3D"De 101 at=C3=A9 500 clientes" style=3D"border: sol=
+id 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td>=
+<td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">De=
+ 101 at=C3=A9 500 clientes</td></tr></table></div><div style=3D"margin-top:=
+ 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,=
+sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #707=
+57a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria=
+-checked=3D"false" aria-label=3D"Mais de 500 clientes" style=3D"border: sol=
+id 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td>=
+<td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Ma=
+is de 500 clientes</td></tr></table></div></div></div><div style=3D"border:=
+ 1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-radiu=
+s: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 =
+12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sa=
+ns&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400=
+; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">Regi=C3=A3o de=
+ Atua=C3=A7=C3=A3o:<span style=3D"color: #d93025;" aria-label=3D"Pergunta o=
+brigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div s=
+tyle=3D"width: 100%;"><div dir=3D"auto" style=3D"white-space: pre-wrap;bord=
+er-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px=
+;display: inline-block; max-width: 100%; min-width: 50%;">Cascavel </div></=
+div></div></div><div style=3D"border-bottom: 1px solid #dadce0; border-left=
+: 1px solid #dadce0; border-right: 1px solid #dadce0; border-top: 8px solid=
+ rgb(80,93,111); padding: 0;background-color: #fff; border-radius: 8px; mar=
+gin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 ;"><h2 dir=
+=3D"auto" style=3D"color: #fff;font-family: &#39;Google Sans&#39;,Roboto,He=
+lvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24=
+px;background-color: rgb(80,93,111); margin: 0; padding: 4px 24px 12px;">Ca=
+racter=C3=ADsticas Comerciais</h2><div dir=3D"auto" style=3D"color: #202124=
+;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; font-weigh=
+t: 400; letter-spacing: .25px; line-height: 16px;white-space: pre-wrap;marg=
+in: 24px 17px;">Nessa etapa voc=C3=AA deve descrever as caracter=C3=ADstica=
+s comerciais de sua empresa. Essas informa=C3=A7=C3=B5es nos ajudar=C3=A3o =
+a tra=C3=A7ar par=C3=A2metros para analisar poss=C3=ADveis direcionamentos =
+de implementa=C3=A7=C3=A3o e recursos espec=C3=ADficos do Exact Spotter.</d=
+iv></div><div style=3D"padding: 0 12px;"></div></div><div style=3D"border: =
+1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-radius=
+: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 1=
+2px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google San=
+s&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400;=
+ line-height: 24px;white-space: pre-wrap;margin: 0;">Possui fun=C3=A7=C3=A3=
+o de Pr=C3=A9-vendas atualmente na empresa?<span style=3D"color: #d93025;" =
+aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2><div style=3D"color:=
+ #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; fo=
+nt-weight: 400; letter-spacing: .25px; line-height: 16px;white-space: pre-w=
+rap;margin: 4px 0 20px;" dir=3D"auto">Pode ser encarado como pr=C3=A9-venda=
+s, qualquer profissional que esteja alocado em sua organiza=C3=A7=C3=A3o co=
+m o objetivo de triar leads (pelo menos em contato telef=C3=B4nico) para re=
+passar ao time de vendas. Algumas das defini=C3=A7=C3=B5es que podem contem=
+plar essa fun=C3=A7=C3=A3o s=C3=A3o, SDRs, BDRs, Gera=C3=A7=C3=A3o de deman=
+da, Prospec=C3=A7=C3=A3o, etc.</div></div><div style=3D"padding: 0 12px;"><=
+div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family:=
+ Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-=
+height: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"ra=
+dio" aria-checked=3D"true" aria-label=3D"Sim" style=3D"border: solid 2px #5=
+f6368; height: 16px; width: 16px; border-radius: 50%;"><div style=3D"backgr=
+ound-color: #5f6368; border: solid 5px #5f6368; border-radius: 50%; margin:=
+ 3px; height: 0; width: 0;"></div></div></td><td style=3D"min-width: 8px;">=
+</td><td style=3D"word-break: break-word;">Sim</td></tr></table></div><div =
+style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-heig=
+ht: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div=
+ role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=A3o" style=3D"bor=
+der: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></d=
+iv></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-w=
+ord;">N=C3=A3o</td></tr></table></div></div></div><div style=3D"border: 1px=
+ solid #dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8=
+px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px=
+;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#=
+39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; li=
+ne-height: 24px;white-space: pre-wrap;margin: 0;">N=C2=BA vendedores:<span =
+style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span=
+></h2><div style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans=
+-serif;font-size: 12px; font-weight: 400; letter-spacing: .25px; line-heigh=
+t: 16px;white-space: pre-wrap;margin: 4px 0 20px;" dir=3D"auto">Vendedores =
+s=C3=A3o profissionais dedicados exclusivamente para execu=C3=A7=C3=A3o de =
+negocia=C3=A7=C3=A3o e vendas das solu=C3=A7=C3=B5es de sua empresa, geralm=
+ente trabalhando sob regime CLT</div></div><div style=3D"padding: 0 12px;">=
+<div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family=
+: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line=
+-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td=
+><div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=A3o possuem =
+profissionais exclusivos para vendas" style=3D"border: solid 2px #9aa0a6; h=
+eight: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-=
+width: 8px;"></td><td style=3D"word-break: break-word;">N=C3=A3o possuem pr=
+ofissionais exclusivos para vendas</td></tr></table></div><div style=3D"mar=
+gin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetic=
+a,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;col=
+or: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"rad=
+io" aria-checked=3D"false" aria-label=3D"1 vendedor" style=3D"border: solid=
+ 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><t=
+d style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">1 ve=
+ndedor</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table-layout: =
+fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" aria-label=3D"2 v=
+endedores" style=3D"border: solid 2px #5f6368; height: 16px; width: 16px; b=
+order-radius: 50%;"><div style=3D"background-color: #5f6368; border: solid =
+5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"></div><=
+/div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break=
+-word;">2 vendedores</td></tr></table></div><div style=3D"margin-top: 16px;=
+"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-s=
+erif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;ma=
+rgin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-check=
+ed=3D"false" aria-label=3D"3 a 6 vendedores" style=3D"border: solid 2px #9a=
+a0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">3 a 6 vende=
+dores</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" a=
+ria-label=3D"7 a 12 vendedores" style=3D"border: solid 2px #9aa0a6; height:=
+ 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width:=
+ 8px;"></td><td style=3D"word-break: break-word;">7 a 12 vendedores</td></t=
+r></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #20=
+2124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-w=
+eight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout:=
+ fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"1=
+2 a 20 vendedores" style=3D"border: solid 2px #9aa0a6; height: 16px; width:=
+ 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><=
+td style=3D"word-break: break-word;">12 a 20 vendedores</td></tr></table></=
+div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-fa=
+mily: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; =
+line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr=
+><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Mais de 20 ve=
+ndedores" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bo=
+rder-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=
+=3D"word-break: break-word;">Mais de 20 vendedores</td></tr></table></div><=
+/div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;back=
+ground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: =
+12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #20=
+2124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;f=
+ont-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;m=
+argin: 0;">N=C2=BA representantes comerciais:<span style=3D"color: #d93025;=
+" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2><div style=3D"colo=
+r: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; =
+font-weight: 400; letter-spacing: .25px; line-height: 16px;white-space: pre=
+-wrap;margin: 4px 0 20px;" dir=3D"auto">Representantes s=C3=A3o profissiona=
+is dedicados para execu=C3=A7=C3=A3o de negocia=C3=A7=C3=A3o e vendas, que =
+podem ou n=C3=A3o trabalhar com exclusividade para sua empresa, geralmente =
+trabalhando como prestadores de servi=C3=A7o</div></div><div style=3D"paddi=
+ng: 0 12px;"><div style=3D"margin-top: 16px;"><table style=3D"color: #20212=
+4;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weig=
+ht: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fi=
+xed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=
+=A3o possuem representantes comerciais" style=3D"border: solid 2px #9aa0a6;=
+ height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"mi=
+n-width: 8px;"></td><td style=3D"word-break: break-word;">N=C3=A3o possuem =
+representantes comerciais</td></tr></table></div><div style=3D"margin-top: =
+16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,s=
+ans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #7075=
+7a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-=
+checked=3D"false" aria-label=3D"1 representante" style=3D"border: solid 2px=
+ #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td st=
+yle=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">1 repres=
+entante</td></tr></table></div><div style=3D"margin-top: 16px;"><table styl=
+e=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-siz=
+e: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table-layout:=
+ fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" aria-label=3D"2 =
+representantes" style=3D"border: solid 2px #5f6368; height: 16px; width: 16=
+px; border-radius: 50%;"><div style=3D"background-color: #5f6368; border: s=
+olid 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"></=
+div></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: =
+break-word;">2 representantes</td></tr></table></div><div style=3D"margin-t=
+op: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Ari=
+al,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #=
+70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" a=
+ria-checked=3D"false" aria-label=3D"3 a 6 representantes" style=3D"border: =
+solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></=
+td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;"=
+>3 a 6 representantes</td></tr></table></div><div style=3D"margin-top: 16px=
+;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-=
+serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;m=
+argin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-chec=
+ked=3D"false" aria-label=3D"7 a 12 representantes" style=3D"border: solid 2=
+px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td =
+style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">7 a 12=
+ representantes</td></tr></table></div><div style=3D"margin-top: 16px;"><ta=
+ble style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;=
+font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-=
+top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D=
+"false" aria-label=3D"12 a 20 representantes" style=3D"border: solid 2px #9=
+aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">12 a 20 rep=
+resentantes</td></tr></table></div><div style=3D"margin-top: 16px;"><table =
+style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font=
+-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top:=
+ 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fal=
+se" aria-label=3D"Mais de 20 representantes" style=3D"border: solid 2px #9a=
+a0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Mais de 20 =
+representantes</td></tr></table></div></div></div><div style=3D"border: 1px=
+ solid #dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8=
+px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px=
+;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#=
+39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; li=
+ne-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">Taxa de convers=C3=
+=A3o em vendas (primeiras reuni=C3=B5es realizadas pelo vendedor / vendas r=
+ealizadas):<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=
+=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=
+=3D"radio" aria-checked=3D"false" aria-label=3D"Menos de 5%" style=3D"borde=
+r: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div=
+></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-wor=
+d;">Menos de 5%</td></tr></table></div><div style=3D"margin-top: 16px;"><ta=
+ble style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;=
+font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table=
+-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" aria-lab=
+el=3D"5 a 10%" style=3D"border: solid 2px #5f6368; height: 16px; width: 16p=
+x; border-radius: 50%;"><div style=3D"background-color: #5f6368; border: so=
+lid 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"></d=
+iv></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: b=
+reak-word;">5 a 10%</td></tr></table></div><div style=3D"margin-top: 16px;"=
+><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-se=
+rif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;mar=
+gin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checke=
+d=3D"false" aria-label=3D"10 a 15%" style=3D"border: solid 2px #9aa0a6; hei=
+ght: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-wi=
+dth: 8px;"></td><td style=3D"word-break: break-word;">10 a 15%</td></tr></t=
+able></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;=
+font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight=
+: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixe=
+d;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"15 a 2=
+0%" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-r=
+adius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"wor=
+d-break: break-word;">15 a 20%</td></tr></table></div><div style=3D"margin-=
+top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Ar=
+ial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: =
+#70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" =
+aria-checked=3D"false" aria-label=3D"20 a 25%" style=3D"border: solid 2px #=
+9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td styl=
+e=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">20 a 25%</=
+td></tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"colo=
+r: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; =
+font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-l=
+ayout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-labe=
+l=3D"25 a 30%" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16p=
+x; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td s=
+tyle=3D"word-break: break-word;">25 a 30%</td></tr></table></div><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=
+=3D"radio" aria-checked=3D"false" aria-label=3D"30 a 50%" style=3D"border: =
+solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></=
+td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;"=
+>30 a 50%</td></tr></table></div><div style=3D"margin-top: 16px;"><table st=
+yle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-s=
+ize: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8=
+px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false=
+" aria-label=3D"Mais de 50%" style=3D"border: solid 2px #9aa0a6; height: 16=
+px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8p=
+x;"></td><td style=3D"word-break: break-word;">Mais de 50%</td></tr></table=
+></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font=
+-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 40=
+0; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;">=
+<tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=A3o m=
+apeado" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bord=
+er-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"word-break: break-word;">N=C3=A3o mapeado</td></tr></table></div></div></d=
+iv><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;background-c=
+olor: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><=
+div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;fon=
+t-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size=
+: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;margin: 0=
+ 0 16px;">Tipo de Venda<span style=3D"color: #d93025;" aria-label=3D"Pergun=
+ta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><d=
+iv style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: =
+Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-h=
+eight: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"che=
+ckbox" aria-checked=3D"true" aria-label=3D"Venda presencial (Field Sales)" =
+style=3D"border: solid 2px #5f6368; border-radius: 3px; height: 16px; width=
+: 16px;background-color: #5f6368; color: #fff; font-size: 14px; line-height=
+: 16px; text-align: center;">&#10003;</div></td><td style=3D"min-width: 8px=
+;"></td><td style=3D"word-break: break-word;">Venda presencial (Field Sales=
+)</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"c=
+olor: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14p=
+x; font-weight: 400; line-height: 20px;margin-top: 8px; table-layout: fixed=
+;"><tr><td><div role=3D"checkbox" aria-checked=3D"true" aria-label=3D"Venda=
+ remota (Inside Sales)" style=3D"border: solid 2px #5f6368; border-radius: =
+3px; height: 16px; width: 16px;background-color: #5f6368; color: #fff; font=
+-size: 14px; line-height: 16px; text-align: center;">&#10003;</div></td><td=
+ style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Venda=
+ remota (Inside Sales)</td></tr></table></div></div></div><div style=3D"bor=
+der: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-r=
+adius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding=
+: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Googl=
+e Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight:=
+ 400; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">O comercia=
+l possui metas definidas para novos neg=C3=B3cios para o ano em exerc=C3=AD=
+cio?<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria=
+"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"margin-=
+top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Ar=
+ial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-=
+top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D=
+"true" aria-label=3D"Sim, possui meta de novos clientes" style=3D"border: s=
+olid 2px #5f6368; height: 16px; width: 16px; border-radius: 50%;"><div styl=
+e=3D"background-color: #5f6368; border: solid 5px #5f6368; border-radius: 5=
+0%; margin: 3px; height: 0; width: 0;"></div></div></td><td style=3D"min-wi=
+dth: 8px;"></td><td style=3D"word-break: break-word;">Sim, possui meta de n=
+ovos clientes</td></tr></table></div><div style=3D"margin-top: 16px;"><tabl=
+e style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-to=
+p: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"f=
+alse" aria-label=3D"Sim, possui meta de faturamento" style=3D"border: solid=
+ 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><t=
+d style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Sim,=
+ possui meta de faturamento</td></tr></table></div><div style=3D"margin-top=
+: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial=
+,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70=
+757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" ari=
+a-checked=3D"false" aria-label=3D"N=C3=A3o possui metas definidas" style=3D=
+"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"=
+></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: bre=
+ak-word;">N=C3=A3o possui metas definidas</td></tr></table></div></div></di=
+v><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;background-co=
+lor: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><d=
+iv style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font=
+-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size:=
+ 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;margin: 0 =
+0 16px;">Ticket M=C3=A9dio:<span style=3D"color: #d93025;" aria-label=3D"Pe=
+rgunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;=
+"><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-fami=
+ly: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; li=
+ne-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><=
+td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"At=C3=A9 R$ 500=
+" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-rad=
+ius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-=
+break: break-word;">At=C3=A9 R$ 500</td></tr></table></div><div style=3D"ma=
+rgin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helveti=
+ca,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;co=
+lor: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"ra=
+dio" aria-checked=3D"false" aria-label=3D"R$ 500 a R$ 1000" style=3D"border=
+: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div>=
+</td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word=
+;">R$ 500 a R$ 1000</td></tr></table></div><div style=3D"margin-top: 16px;"=
+><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-se=
+rif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;mar=
+gin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checke=
+d=3D"false" aria-label=3D"R$ 1000 a R$ 1500" style=3D"border: solid 2px #9a=
+a0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">R$ 1000 a R=
+$ 1500</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" a=
+ria-label=3D"R$ 1500 a R$ 2 mil" style=3D"border: solid 2px #9aa0a6; height=
+: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width=
+: 8px;"></td><td style=3D"word-break: break-word;">R$ 1500 a R$ 2 mil</td><=
+/tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #=
+202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font=
+-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layou=
+t: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D=
+"R$ 2 mil a R$ 5 mil" style=3D"border: solid 2px #9aa0a6; height: 16px; wid=
+th: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></t=
+d><td style=3D"word-break: break-word;">R$ 2 mil a R$ 5 mil</td></tr></tabl=
+e></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;fon=
+t-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 4=
+00; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"=
+><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"R$ 5 mil =
+a R$ 10 mil" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px;=
+ border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td sty=
+le=3D"word-break: break-word;">R$ 5 mil a R$ 10 mil</td></tr></table></div>=
+<div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family=
+: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line=
+-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td=
+><div role=3D"radio" aria-checked=3D"false" aria-label=3D"R$ 10 mil a R$ 20=
+ mil" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border=
+-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"w=
+ord-break: break-word;">R$ 10 mil a R$ 20 mil</td></tr></table></div><div s=
+tyle=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Robo=
+to,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-heigh=
+t: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" =
+aria-checked=3D"true" aria-label=3D"R$ 20 mil a R$ 100 mil" style=3D"border=
+: solid 2px #5f6368; height: 16px; width: 16px; border-radius: 50%;"><div s=
+tyle=3D"background-color: #5f6368; border: solid 5px #5f6368; border-radius=
+: 50%; margin: 3px; height: 0; width: 0;"></div></div></td><td style=3D"min=
+-width: 8px;"></td><td style=3D"word-break: break-word;">R$ 20 mil a R$ 100=
+ mil</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" a=
+ria-label=3D"Mais de R$ 100 mil" style=3D"border: solid 2px #9aa0a6; height=
+: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width=
+: 8px;"></td><td style=3D"word-break: break-word;">Mais de R$ 100 mil</td><=
+/tr></table></div></div></div><div style=3D"border: 1px solid #dadce0; padd=
+ing: 20px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 1=
+2px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" =
+style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica=
+,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;whit=
+e-space: pre-wrap;margin: 0 0 16px;">Receita =C3=A9 recorrente?<span style=
+=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2=
+></div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: 16px;"><ta=
+ble style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;=
+font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table=
+-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" aria-lab=
+el=3D"Sim" style=3D"border: solid 2px #5f6368; height: 16px; width: 16px; b=
+order-radius: 50%;"><div style=3D"background-color: #5f6368; border: solid =
+5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"></div><=
+/div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break=
+-word;">Sim</td></tr></table></div><div style=3D"margin-top: 16px;"><table =
+style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font=
+-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top:=
+ 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fal=
+se" aria-label=3D"N=C3=A3o" style=3D"border: solid 2px #9aa0a6; height: 16p=
+x; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px=
+;"></td><td style=3D"word-break: break-word;">N=C3=A3o</td></tr></table></d=
+iv></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;=
+background-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bott=
+om: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color:=
+ #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-ser=
+if;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wr=
+ap;margin: 0;">Ciclo M=C3=A9dio de Vendas:<span style=3D"color: #d93025;" a=
+ria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2><div style=3D"color: =
+#202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; fon=
+t-weight: 400; letter-spacing: .25px; line-height: 16px;white-space: pre-wr=
+ap;margin: 4px 0 20px;" dir=3D"auto">O ciclo m=C3=A9dio de vendas =C3=A9 a =
+m=C3=A9dia de tempo das negocia=C3=A7=C3=B5es de seu time de vendas, desde =
+o primeiro contato com o lead at=C3=A9 a conclus=C3=A3o da negocia=C3=A7=C3=
+=A3o.</div></div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: =
+16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,s=
+ans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #7075=
+7a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-=
+checked=3D"false" aria-label=3D"Nunca realizou vendas" style=3D"border: sol=
+id 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td>=
+<td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Nu=
+nca realizou vendas</td></tr></table></div><div style=3D"margin-top: 16px;"=
+><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-se=
+rif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;mar=
+gin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checke=
+d=3D"false" aria-label=3D"N=C3=A3o mapeado" style=3D"border: solid 2px #9aa=
+0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">N=C3=A3o ma=
+peado</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table-layout: =
+fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" aria-label=3D"At=
+=C3=A9 1 semana" style=3D"border: solid 2px #5f6368; height: 16px; width: 1=
+6px; border-radius: 50%;"><div style=3D"background-color: #5f6368; border: =
+solid 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0;"><=
+/div></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break:=
+ break-word;">At=C3=A9 1 semana</td></tr></table></div><div style=3D"margin=
+-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,A=
+rial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color:=
+ #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio"=
+ aria-checked=3D"false" aria-label=3D"1 a 2 semanas" style=3D"border: solid=
+ 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><t=
+d style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">1 a =
+2 semanas</td></tr></table></div><div style=3D"margin-top: 16px;"><table st=
+yle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-s=
+ize: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8=
+px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false=
+" aria-label=3D"3 a 4 semanas" style=3D"border: solid 2px #9aa0a6; height: =
+16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: =
+8px;"></td><td style=3D"word-break: break-word;">3 a 4 semanas</td></tr></t=
+able></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;=
+font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight=
+: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixe=
+d;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"1 a 2 =
+meses" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; borde=
+r-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"=
+word-break: break-word;">1 a 2 meses</td></tr></table></div><div style=3D"m=
+argin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvet=
+ica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;c=
+olor: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"r=
+adio" aria-checked=3D"false" aria-label=3D"3 a 4 meses" style=3D"border: so=
+lid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td=
+><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">3=
+ a 4 meses</td></tr></table></div><div style=3D"margin-top: 16px;"><table s=
+tyle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-=
+size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: =
+8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fals=
+e" aria-label=3D"5 a 6 meses" style=3D"border: solid 2px #9aa0a6; height: 1=
+6px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8=
+px;"></td><td style=3D"word-break: break-word;">5 a 6 meses</td></tr></tabl=
+e></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;fon=
+t-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 4=
+00; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"=
+><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"7 meses a=
+t=C3=A9 12 meses" style=3D"border: solid 2px #9aa0a6; height: 16px; width: =
+16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><t=
+d style=3D"word-break: break-word;">7 meses at=C3=A9 12 meses</td></tr></ta=
+ble></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;f=
+ont-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight:=
+ 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed=
+;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Mais de=
+ 12 meses" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; b=
+order-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=
+=3D"word-break: break-word;">Mais de 12 meses</td></tr></table></div></div>=
+</div><div style=3D"border-bottom: 1px solid #dadce0; border-left: 1px soli=
+d #dadce0; border-right: 1px solid #dadce0; border-top: 8px solid rgb(80,93=
+,111); padding: 0;background-color: #fff; border-radius: 8px; margin-bottom=
+: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 ;"><h2 dir=3D"auto" s=
+tyle=3D"color: #fff;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Ari=
+al,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;backgrou=
+nd-color: rgb(80,93,111); margin: 0; padding: 4px 24px 12px;">Ferramentas d=
+a Opera=C3=A7=C3=A3o Comercial:</h2><div dir=3D"auto" style=3D"color: #2021=
+24;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; font-wei=
+ght: 400; letter-spacing: .25px; line-height: 16px;white-space: pre-wrap;ma=
+rgin: 24px 17px;">Essa etapa nos ajudar=C3=A1 a verificar quais as necessid=
+ades/oportunidades de integra=C3=A7=C3=A3o poderemos contemplar no cronogra=
+ma de implementa=C3=A7=C3=A3o.</div></div><div style=3D"padding: 0 12px;"><=
+/div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;back=
+ground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: =
+12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #20=
+2124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif;f=
+ont-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap;m=
+argin: 0 0 16px;">Quais das ferramentas abaixo est=C3=A3o presentes em seu =
+setor de marketing:<span style=3D"color: #d93025;" aria-label=3D"Pergunta o=
+brigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div s=
+tyle=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Robo=
+to,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-heigh=
+t: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" =
+aria-checked=3D"true" aria-label=3D"N=C3=A3o utiliza ferramenta de automa=
+=C3=A7=C3=A3o Inbound" style=3D"border: solid 2px #5f6368; height: 16px; wi=
+dth: 16px; border-radius: 50%;"><div style=3D"background-color: #5f6368; bo=
+rder: solid 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width:=
+ 0;"></div></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-=
+break: break-word;">N=C3=A3o utiliza ferramenta de automa=C3=A7=C3=A3o Inbo=
+und</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=3D=
+"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 1=
+4px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; ta=
+ble-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria=
+-label=3D"RD Station" style=3D"border: solid 2px #9aa0a6; height: 16px; wid=
+th: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></t=
+d><td style=3D"word-break: break-word;">RD Station</td></tr></table></div><=
+div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family:=
+ Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-=
+height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td>=
+<div role=3D"radio" aria-checked=3D"false" aria-label=3D"Hubspot" style=3D"=
+border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;">=
+</div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: brea=
+k-word;">Hubspot</td></tr></table></div><div style=3D"margin-top: 16px;"><t=
+able style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif=
+;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin=
+-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=
+=3D"false" aria-label=3D"SharpSpring" style=3D"border: solid 2px #9aa0a6; h=
+eight: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-=
+width: 8px;"></td><td style=3D"word-break: break-word;">SharpSpring</td></t=
+r></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #20=
+2124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-w=
+eight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout:=
+ fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"O=
+utro: " style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bord=
+er-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"white-space: nowrap;">Outro:&nbsp;&nbsp;</td><td style=3D"word-break: brea=
+k-word;border-bottom: 1px dotted rgba(0,0,0,0.38);width: 99%;"></td></tr></=
+table></div></div></div><div style=3D"border: 1px solid #dadce0; padding: 2=
+0px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;ma=
+rgin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=
+=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Aria=
+l,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-spa=
+ce: pre-wrap;margin: 0 0 16px;">Qual dos CRMs abaixo sua empresa utiliza:<s=
+pan style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</=
+span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: 1=
+6px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sa=
+ns-serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8=
+px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true"=
+ aria-label=3D"N=C3=A3o utiliza CRM" style=3D"border: solid 2px #5f6368; he=
+ight: 16px; width: 16px; border-radius: 50%;"><div style=3D"background-colo=
+r: #5f6368; border: solid 5px #5f6368; border-radius: 50%; margin: 3px; hei=
+ght: 0; width: 0;"></div></div></td><td style=3D"min-width: 8px;"></td><td =
+style=3D"word-break: break-word;">N=C3=A3o utiliza CRM</td></tr></table></d=
+iv><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-fam=
+ily: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; l=
+ine-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr>=
+<td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Agendor" style=
+=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50=
+%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: =
+break-word;">Agendor</td></tr></table></div><div style=3D"margin-top: 16px;=
+"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-s=
+erif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;ma=
+rgin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-check=
+ed=3D"false" aria-label=3D"Dynamics" style=3D"border: solid 2px #9aa0a6; he=
+ight: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-w=
+idth: 8px;"></td><td style=3D"word-break: break-word;">Dynamics</td></tr></=
+table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124=
+;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weigh=
+t: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fix=
+ed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Hubsp=
+ot CRM" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bord=
+er-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"word-break: break-word;">Hubspot CRM</td></tr></table></div><div style=3D"=
+margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helve=
+tica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;=
+color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"=
+radio" aria-checked=3D"false" aria-label=3D"Moskit CRM" style=3D"border: so=
+lid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td=
+><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">M=
+oskit CRM</td></tr></table></div><div style=3D"margin-top: 16px;"><table st=
+yle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-s=
+ize: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8=
+px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false=
+" aria-label=3D"Nectar CRM" style=3D"border: solid 2px #9aa0a6; height: 16p=
+x; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px=
+;"></td><td style=3D"word-break: break-word;">Nectar CRM</td></tr></table><=
+/div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-f=
+amily: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400;=
+ line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><t=
+r><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Pipedrive" s=
+tyle=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius=
+: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-bre=
+ak: break-word;">Pipedrive</td></tr></table></div><div style=3D"margin-top:=
+ 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,=
+sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #707=
+57a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria=
+-checked=3D"false" aria-label=3D"Plug CRM" style=3D"border: solid 2px #9aa0=
+a6; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D=
+"min-width: 8px;"></td><td style=3D"word-break: break-word;">Plug CRM</td><=
+/tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #=
+202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font=
+-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layou=
+t: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D=
+"SalesForce" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px;=
+ border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td sty=
+le=3D"word-break: break-word;">SalesForce</td></tr></table></div><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=
+=3D"radio" aria-checked=3D"false" aria-label=3D"Vista CRM" style=3D"border:=
+ solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div><=
+/td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;=
+">Vista CRM</td></tr></table></div><div style=3D"margin-top: 16px;"><table =
+style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font=
+-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top:=
+ 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fal=
+se" aria-label=3D"VTiger" style=3D"border: solid 2px #9aa0a6; height: 16px;=
+ width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"=
+></td><td style=3D"word-break: break-word;">VTiger</td></tr></table></div><=
+div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family:=
+ Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-=
+height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td>=
+<div role=3D"radio" aria-checked=3D"false" aria-label=3D"Zoho" style=3D"bor=
+der: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></d=
+iv></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-w=
+ord;">Zoho</td></tr></table></div><div style=3D"margin-top: 16px;"><table s=
+tyle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-=
+size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: =
+8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fals=
+e" aria-label=3D"Outro: " style=3D"border: solid 2px #9aa0a6; height: 16px;=
+ width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"=
+></td><td style=3D"white-space: nowrap;">Outro:&nbsp;&nbsp;</td><td style=
+=3D"word-break: break-word;border-bottom: 1px dotted rgba(0,0,0,0.38);width=
+: 99%;"></td></tr></table></div></div></div><div style=3D"border: 1px solid=
+ #dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8px; ma=
+rgin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2=
+ dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Ro=
+boto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-hei=
+ght: 24px;white-space: pre-wrap;margin: 0 0 16px;">Servidor de e-mail:<span=
+ style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</spa=
+n></h2></div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: 16px=
+;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-=
+serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" ar=
+ia-label=3D"Google - G-mail" style=3D"border: solid 2px #5f6368; height: 16=
+px; width: 16px; border-radius: 50%;"><div style=3D"background-color: #5f63=
+68; border: solid 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; =
+width: 0;"></div></div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"word-break: break-word;">Google - G-mail</td></tr></table></div><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=
+=3D"radio" aria-checked=3D"false" aria-label=3D"Microsoft - Outlook" style=
+=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50=
+%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: =
+break-word;">Microsoft - Outlook</td></tr></table></div><div style=3D"margi=
+n-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,=
+Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color=
+: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio=
+" aria-checked=3D"false" aria-label=3D"Microsoft - Office 365" style=3D"bor=
+der: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></d=
+iv></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-w=
+ord;">Microsoft - Office 365</td></tr></table></div><div style=3D"margin-to=
+p: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Aria=
+l,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #7=
+0757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" ar=
+ia-checked=3D"false" aria-label=3D"Microsoft - Exchange" style=3D"border: s=
+olid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></t=
+d><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">=
+Microsoft - Exchange</td></tr></table></div><div style=3D"margin-top: 16px;=
+"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-s=
+erif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;ma=
+rgin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-check=
+ed=3D"false" aria-label=3D"Outro: " style=3D"border: solid 2px #9aa0a6; hei=
+ght: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-wi=
+dth: 8px;"></td><td style=3D"white-space: nowrap;">Outro:&nbsp;&nbsp;</td><=
+td style=3D"word-break: break-word;border-bottom: 1px dotted rgba(0,0,0,0.3=
+8);width: 99%;"></td></tr></table></div></div></div><div style=3D"border: 1=
+px solid #dadce0; padding: 20px 12px;background-color: #fff; border-radius:=
+ 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12=
+px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans=
+&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; =
+line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">Quais outras fer=
+ramentas (softwares, aplicativos, etc.) sua empresa utiliza na opera=C3=A7=
+=C3=A3o comercial?<span style=3D"color: #d93025;" aria-label=3D"Pergunta ob=
+rigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div di=
+r=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,=
+0,0,0.38);margin: 12px 0 8px; min-height: 20px;width: 100%;">Instagram e Fa=
+cebook </div></div></div><div style=3D"border-bottom: 1px solid #dadce0; bo=
+rder-left: 1px solid #dadce0; border-right: 1px solid #dadce0; border-top: =
+8px solid rgb(80,93,111); padding: 0;background-color: #fff; border-radius:=
+ 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 ;"=
+><h2 dir=3D"auto" style=3D"color: #fff;font-family: &#39;Google Sans&#39;,R=
+oboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-he=
+ight: 24px;background-color: rgb(80,93,111); margin: 0; padding: 4px 24px 1=
+2px;">Foco de Implementa=C3=A7=C3=A3o:</h2><div dir=3D"auto" style=3D"color=
+: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; f=
+ont-weight: 400; letter-spacing: .25px; line-height: 16px;white-space: pre-=
+wrap;margin: 24px 17px;">Essa etapa visa levantar informa=C3=A7=C3=B5es det=
+alhadas para auxiliar na compreens=C3=A3o do produto ou servi=C3=A7o que se=
+r=C3=A1 foco da implementa=C3=A7=C3=A3o, para o qual construiremos juntos o=
+ primeiro filtro de qualifica=C3=A7=C3=A3o.</div></div><div style=3D"paddin=
+g: 0 12px;"></div></div><div style=3D"border: 1px solid #dadce0; padding: 2=
+0px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;ma=
+rgin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=
+=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Aria=
+l,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-spa=
+ce: pre-wrap;margin: 0 0 16px;">Ir=C3=A1 contratar novos colaboradores para=
+ execu=C3=A7=C3=A3o da pr=C3=A9-vendas e utiliza=C3=A7=C3=A3o do Exact Spot=
+ter?<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria=
+"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"margin-=
+top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Ar=
+ial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-=
+top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D=
+"true" aria-label=3D"Sim, contrataremos 1 novo pr=C3=A9-vendedor" style=3D"=
+border: solid 2px #5f6368; height: 16px; width: 16px; border-radius: 50%;">=
+<div style=3D"background-color: #5f6368; border: solid 5px #5f6368; border-=
+radius: 50%; margin: 3px; height: 0; width: 0;"></div></div></td><td style=
+=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">Sim, contra=
+taremos 1 novo pr=C3=A9-vendedor</td></tr></table></div><div style=3D"margi=
+n-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,=
+Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color=
+: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio=
+" aria-checked=3D"false" aria-label=3D"Sim, contrataremos 2 novos pr=C3=A9-=
+vendedores" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; =
+border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td styl=
+e=3D"word-break: break-word;">Sim, contrataremos 2 novos pr=C3=A9-vendedore=
+s</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"c=
+olor: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14p=
+x; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; tabl=
+e-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-l=
+abel=3D"Sim, contrataremos 3 novos pr=C3=A9-vendedores" style=3D"border: so=
+lid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div></td=
+><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;">S=
+im, contrataremos 3 novos pr=C3=A9-vendedores</td></tr></table></div><div s=
+tyle=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Robo=
+to,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-heigh=
+t: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div =
+role=3D"radio" aria-checked=3D"false" aria-label=3D"Sim, contrataremos mais=
+ 3 novos de pr=C3=A9-vendedores" style=3D"border: solid 2px #9aa0a6; height=
+: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width=
+: 8px;"></td><td style=3D"word-break: break-word;">Sim, contrataremos mais =
+3 novos de pr=C3=A9-vendedores</td></tr></table></div><div style=3D"margin-=
+top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Ar=
+ial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;color: =
+#70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" =
+aria-checked=3D"false" aria-label=3D"J=C3=A1 temos colaborador definido par=
+a fun=C3=A7=C3=A3o de pr=C3=A9-vendas" style=3D"border: solid 2px #9aa0a6; =
+height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min=
+-width: 8px;"></td><td style=3D"word-break: break-word;">J=C3=A1 temos cola=
+borador definido para fun=C3=A7=C3=A3o de pr=C3=A9-vendas</td></tr></table>=
+</div><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-=
+family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400=
+; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><=
+tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=A3o co=
+ntrataremos pr=C3=A9-vendedores" style=3D"border: solid 2px #9aa0a6; height=
+: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width=
+: 8px;"></td><td style=3D"word-break: break-word;">N=C3=A3o contrataremos p=
+r=C3=A9-vendedores</td></tr></table></div></div></div><div style=3D"border:=
+ 1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-radiu=
+s: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 =
+12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sa=
+ns&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400=
+; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">Solu=C3=A7=C3=
+=A3o (nome do produto/servi=C3=A7o) foco da implementa=C3=A7=C3=A3o:<span s=
+tyle=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span>=
+</h2></div><div style=3D"padding: 0 12px;"><div dir=3D"auto" style=3D"white=
+-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 =
+8px; min-height: 20px;width: 100%;">Energia solar / venda e instala=C3=A7=
+=C3=A3o </div></div></div><div style=3D"border: 1px solid #dadce0; padding:=
+ 20px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;=
+margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" styl=
+e=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Ari=
+al,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-sp=
+ace: pre-wrap;margin: 0 0 16px;">Descreva a solu=C3=A7=C3=A3o:<span style=
+=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2=
+></div><div style=3D"padding: 0 12px;"><div dir=3D"auto" style=3D"white-spa=
+ce: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px;=
+ min-height: 20px;width: 100%;">Alcan=C3=A7ar o maior numero de pessoas com=
+ o software de vendas </div></div></div><div style=3D"border: 1px solid #da=
+dce0; padding: 20px 12px;background-color: #fff; border-radius: 8px; margin=
+-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=
+=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto=
+,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height:=
+ 24px;white-space: pre-wrap;margin: 0;">Quais dores essa solu=C3=A7=C3=A3o =
+atende?<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3=
+ria"> *</span></h2><div style=3D"color: #202124;font-family: Roboto,Helveti=
+ca,Arial,sans-serif;font-size: 12px; font-weight: 400; letter-spacing: .25p=
+x; line-height: 16px;white-space: pre-wrap;margin: 4px 0 20px;" dir=3D"auto=
+">Uma dor =C3=A9 um problema espec=C3=ADfico que os poss=C3=ADveis clientes=
+ da sua empresa est=C3=A3o enfrentando.</div></div><div style=3D"padding: 0=
+ 12px;"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px=
+ dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;width: 100%;"=
+>O alto valor do produto </div></div></div><div style=3D"border: 1px solid =
+#dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8px; mar=
+gin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 =
+dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-heig=
+ht: 24px;white-space: pre-wrap;margin: 0;">P=C3=BAblico Alvo:<span style=3D=
+"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2><d=
+iv style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;f=
+ont-size: 12px; font-weight: 400; letter-spacing: .25px; line-height: 16px;=
+white-space: pre-wrap;margin: 4px 0 20px;" dir=3D"auto">Informar nesse camp=
+o quais os segmentos priorit=C3=A1rios para prospec=C3=A7=C3=A3o ou vis=C3=
+=A3o geral do tipo de empresa que normalmente =C3=A9 buscado atualmente em =
+sua prospec=C3=A7=C3=A3o comercial</div></div><div style=3D"padding: 0 12px=
+;"><div style=3D"width: 100%;"><div dir=3D"auto" style=3D"white-space: pre-=
+wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-hei=
+ght: 20px;display: inline-block; max-width: 100%; min-width: 50%;">Mercados=
+, Clinicas, Mecanicas, Casas, Empresas diversas, Moteis, Frigorificos, Loja=
+s e etc.</div></div></div></div><div style=3D"border: 1px solid #dadce0; pa=
+dding: 20px 12px;background-color: #fff; border-radius: 8px; margin-bottom:=
+ 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto=
+" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helveti=
+ca,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;wh=
+ite-space: pre-wrap;margin: 0;">Normalmente, quem =C3=A9 o decisor sobre a =
+compra dessa solu=C3=A7=C3=A3o nas empresas em que voc=C3=AA prospecta?<spa=
+n style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</sp=
+an></h2><div style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sa=
+ns-serif;font-size: 12px; font-weight: 400; letter-spacing: .25px; line-hei=
+ght: 16px;white-space: pre-wrap;margin: 4px 0 20px;" dir=3D"auto">Utilizar =
+cargos (Exemplo: Gerente de marketing, gerente de vendas, diretor de novos =
+neg=C3=B3cios, etc.)  ou express=C3=A3o utilizada para caracterizar o respo=
+ns=C3=A1vel pela demanda (Exemplo: Respons=C3=A1vel pelo desenvolvimento de=
+ novos produtos)</div></div><div style=3D"padding: 0 12px;"><div dir=3D"aut=
+o" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38=
+);margin: 12px 0 8px; min-height: 20px;width: 100%;">Diretor Comercial </di=
+v></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;b=
+ackground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-botto=
+m: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: =
+#202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-seri=
+f;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wra=
+p;margin: 0 0 16px;">Quais os concorrentes de sua solu=C3=A7=C3=A3o?<span s=
+tyle=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span>=
+</h2></div><div style=3D"padding: 0 12px;"><div dir=3D"auto" style=3D"white=
+-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 =
+8px; min-height: 20px;width: 100%;">Trabalhar com o melhor valor do mercado=
+, cobrindo qualquer oferta da concorrencia </div></div></div><div style=3D"=
+border: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; borde=
+r-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padd=
+ing: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: &#39;Go=
+ogle Sans&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weig=
+ht: 400; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;">Quais o=
+s diferenciais de sua solu=C3=A7=C3=A3o frente aos concorrentes?<span style=
+=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2=
+></div><div style=3D"padding: 0 12px;"><div dir=3D"auto" style=3D"white-spa=
+ce: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px;=
+ min-height: 20px;width: 100%;">Uma equipe com anos de experiancia na area =
+de energia solar</div></div></div><div style=3D"border-bottom: 1px solid #d=
+adce0; border-left: 1px solid #dadce0; border-right: 1px solid #dadce0; bor=
+der-top: 8px solid rgb(80,93,111); padding: 0;background-color: #fff; borde=
+r-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padd=
+ing: 0 ;"><h2 dir=3D"auto" style=3D"color: #fff;font-family: &#39;Google Sa=
+ns&#39;,Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400=
+; line-height: 24px;background-color: rgb(80,93,111); margin: 0; padding: 4=
+px 24px 12px;">Crit=C3=A9rios de Qualifica=C3=A7=C3=A3o:</h2><div dir=3D"au=
+to" style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;=
+font-size: 12px; font-weight: 400; letter-spacing: .25px; line-height: 16px=
+;white-space: pre-wrap;margin: 24px 17px;">Essa se=C3=A7=C3=A3o visa compre=
+ender os crit=C3=A9rios relevantes para qualifica=C3=A7=C3=A3o dos leads na=
+ sua opera=C3=A7=C3=A3o. Essas informa=C3=A7=C3=B5es nos ajudar=C3=A3o a co=
+nstruir as perguntas e respostas (filtros)  pelos quais seus leads ser=C3=
+=A3o avaliados por seus pr=C3=A9-vendedores.</div></div><div style=3D"paddi=
+ng: 0 12px;"></div></div><div style=3D"border: 1px solid #dadce0; padding: =
+20px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;m=
+argin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=
+=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Aria=
+l,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-spa=
+ce: pre-wrap;margin: 0 0 16px;">Existe verba (or=C3=A7amento, investimento)=
+ m=C3=ADnima que o lead deve possuir para contratar sua solu=C3=A7=C3=A3o?<=
+span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *<=
+/span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: =
+16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,s=
+ans-serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top: =
+8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true=
+" aria-label=3D"Sim" style=3D"border: solid 2px #5f6368; height: 16px; widt=
+h: 16px; border-radius: 50%;"><div style=3D"background-color: #5f6368; bord=
+er: solid 5px #5f6368; border-radius: 50%; margin: 3px; height: 0; width: 0=
+;"></div></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-br=
+eak: break-word;">Sim</td></tr></table></div><div style=3D"margin-top: 16px=
+;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-=
+serif;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;m=
+argin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-chec=
+ked=3D"false" aria-label=3D"N=C3=A3o" style=3D"border: solid 2px #9aa0a6; h=
+eight: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-=
+width: 8px;"></td><td style=3D"word-break: break-word;">N=C3=A3o</td></tr><=
+/table></div></div></div><div style=3D"border: 1px solid #dadce0; padding: =
+20px 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;m=
+argin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=
+=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Aria=
+l,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-spa=
+ce: pre-wrap;margin: 0 0 16px;">Normalmente essa verba est=C3=A1 prevista n=
+o centro de custos da empresa / lead ou =C3=A9 algo fomentado pelo seu come=
+rcial?<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3r=
+ia"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"margi=
+n-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,=
+Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;margi=
+n-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=
+=3D"true" aria-label=3D"Verba j=C3=A1 prevista" style=3D"border: solid 2px =
+#5f6368; height: 16px; width: 16px; border-radius: 50%;"><div style=3D"back=
+ground-color: #5f6368; border: solid 5px #5f6368; border-radius: 50%; margi=
+n: 3px; height: 0; width: 0;"></div></div></td><td style=3D"min-width: 8px;=
+"></td><td style=3D"word-break: break-word;">Verba j=C3=A1 prevista</td></t=
+r></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #20=
+2124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-w=
+eight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout:=
+ fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"N=
+=C3=A3o possui verba prevista, =C3=A9 negociado junto com o vendedor" style=
+=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50=
+%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: =
+break-word;">N=C3=A3o possui verba prevista, =C3=A9 negociado junto com o v=
+endedor</td></tr></table></div></div></div><div style=3D"border: 1px solid =
+#dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8px; mar=
+gin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 =
+dir=3D"auto" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-heig=
+ht: 24px;white-space: pre-wrap;margin: 0 0 16px;">Normalmente o decisor tem=
+ autonomia para decidir sobre a compra sozinho, ou precisa envolver outros =
+stakeholders para decis=C3=A3o?<span style=3D"color: #d93025;" aria-label=
+=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0=
+ 12px;"><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;fon=
+t-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 4=
+00; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"=
+><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Decide so=
+zinho" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; borde=
+r-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"=
+word-break: break-word;">Decide sozinho</td></tr></table></div><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria=
+-checked=3D"true" aria-label=3D"Par de decis=C3=A3o" style=3D"border: solid=
+ 2px #5f6368; height: 16px; width: 16px; border-radius: 50%;"><div style=3D=
+"background-color: #5f6368; border: solid 5px #5f6368; border-radius: 50%; =
+margin: 3px; height: 0; width: 0;"></div></div></td><td style=3D"min-width:=
+ 8px;"></td><td style=3D"word-break: break-word;">Par de decis=C3=A3o</td><=
+/tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #=
+202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font=
+-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layou=
+t: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D=
+"Precisa consultar outros setores" style=3D"border: solid 2px #9aa0a6; heig=
+ht: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-wid=
+th: 8px;"></td><td style=3D"word-break: break-word;">Precisa consultar outr=
+os setores</td></tr></table></div><div style=3D"margin-top: 16px;"><table s=
+tyle=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-=
+size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: =
+8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"fals=
+e" aria-label=3D"Precisa de aprova=C3=A7=C3=A3o do conselho administrativo"=
+ style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radi=
+us: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-b=
+reak: break-word;">Precisa de aprova=C3=A7=C3=A3o do conselho administrativ=
+o</td></tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"c=
+olor: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14p=
+x; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; tabl=
+e-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-l=
+abel=3D"Outro: " style=3D"border: solid 2px #9aa0a6; height: 16px; width: 1=
+6px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td=
+ style=3D"white-space: nowrap;">Outro:&nbsp;&nbsp;</td><td style=3D"word-br=
+eak: break-word;border-bottom: 1px dotted rgba(0,0,0,0.38);width: 99%;"></t=
+d></tr></table></div></div></div><div style=3D"border: 1px solid #dadce0; p=
+adding: 20px 12px;background-color: #fff; border-radius: 8px; margin-bottom=
+: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"aut=
+o" style=3D"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvet=
+ica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;w=
+hite-space: pre-wrap;margin: 0 0 16px;">Existe planejamento de tempo dos le=
+ads para aquisi=C3=A7=C3=A3o da sua solu=C3=A7=C3=A3o?<span style=3D"color:=
+ #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><di=
+v style=3D"padding: 0 12px;"><div style=3D"margin-top: 16px;"><table style=
+=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size=
+: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" a=
+ria-label=3D"N=C3=A3o fazem planejamento, =C3=A9 uma demanda fomentada pelo=
+ comercial" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; =
+border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td styl=
+e=3D"word-break: break-word;">N=C3=A3o fazem planejamento, =C3=A9 uma deman=
+da fomentada pelo comercial</td></tr></table></div><div style=3D"margin-top=
+: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial=
+,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top=
+: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"tr=
+ue" aria-label=3D"Sim, planejam a compra" style=3D"border: solid 2px #5f636=
+8; height: 16px; width: 16px; border-radius: 50%;"><div style=3D"background=
+-color: #5f6368; border: solid 5px #5f6368; border-radius: 50%; margin: 3px=
+; height: 0; width: 0;"></div></div></td><td style=3D"min-width: 8px;"></td=
+><td style=3D"word-break: break-word;">Sim, planejam a compra</td></tr></ta=
+ble></div></div></div><div style=3D"border: 1px solid #dadce0; padding: 20p=
+x 12px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;marg=
+in-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D=
+"color: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,s=
+ans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-space:=
+ pre-wrap;margin: 0 0 16px;">Qual o tempo limite de compra para que o lead =
+seja considerado qualificado?<span style=3D"color: #d93025;" aria-label=3D"=
+Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12p=
+x;"><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-fa=
+mily: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; =
+line-height: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr=
+><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"O tempo de co=
+mpra n=C3=A3o =C3=A9 impactante" style=3D"border: solid 2px #9aa0a6; height=
+: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"min-width=
+: 8px;"></td><td style=3D"word-break: break-word;">O tempo de compra n=C3=
+=A3o =C3=A9 impactante</td></tr></table></div><div style=3D"margin-top: 16p=
+x;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans=
+-serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px=
+; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"true" a=
+ria-label=3D"At=C3=A9 1 semana" style=3D"border: solid 2px #5f6368; height:=
+ 16px; width: 16px; border-radius: 50%;"><div style=3D"background-color: #5=
+f6368; border: solid 5px #5f6368; border-radius: 50%; margin: 3px; height: =
+0; width: 0;"></div></div></td><td style=3D"min-width: 8px;"></td><td style=
+=3D"word-break: break-word;">At=C3=A9 1 semana</td></tr></table></div><div =
+style=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-heig=
+ht: 20px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div=
+ role=3D"radio" aria-checked=3D"false" aria-label=3D"At=C3=A9 1 m=C3=AAs" s=
+tyle=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; border-radius=
+: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=3D"word-bre=
+ak: break-word;">At=C3=A9 1 m=C3=AAs</td></tr></table></div><div style=3D"m=
+argin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,Helvet=
+ica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;c=
+olor: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=3D"r=
+adio" aria-checked=3D"false" aria-label=3D"De 2 a 3 meses" style=3D"border:=
+ solid 2px #9aa0a6; height: 16px; width: 16px; border-radius: 50%;"></div><=
+/td><td style=3D"min-width: 8px;"></td><td style=3D"word-break: break-word;=
+">De 2 a 3 meses</td></tr></table></div><div style=3D"margin-top: 16px;"><t=
+able style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif=
+;font-size: 14px; font-weight: 400; line-height: 20px;color: #70757a;margin=
+-top: 8px; table-layout: fixed;"><tr><td><div role=3D"radio" aria-checked=
+=3D"false" aria-label=3D"De 4 a 6 meses" style=3D"border: solid 2px #9aa0a6=
+; height: 16px; width: 16px; border-radius: 50%;"></div></td><td style=3D"m=
+in-width: 8px;"></td><td style=3D"word-break: break-word;">De 4 a 6 meses</=
+td></tr></table></div><div style=3D"margin-top: 16px;"><table style=3D"colo=
+r: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; =
+font-weight: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-l=
+ayout: fixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-labe=
+l=3D"Mais de 6 meses" style=3D"border: solid 2px #9aa0a6; height: 16px; wid=
+th: 16px; border-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></t=
+d><td style=3D"word-break: break-word;">Mais de 6 meses</td></tr></table></=
+div></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px=
+;background-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bot=
+tom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color=
+: #202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-se=
+rif;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-w=
+rap;margin: 0 0 16px;">Quais outras caracter=C3=ADsticas s=C3=A3o significa=
+tivas para considerar o lead qualificado?<span style=3D"color: #d93025;" ar=
+ia-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"pa=
+dding: 0 12px;"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bot=
+tom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;width=
+: 100%;">Acredito que todos s=C3=A3o qualificados, os que nao compram hoje =
+podem comprar amanha, ent=C3=A3o todos tem sua qualifica=C3=A7=C3=A3o.</div=
+></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;ba=
+ckground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom=
+: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #=
+202124;font-family: &#39;Google Sans&#39;,Roboto,Helvetica,Arial,sans-serif=
+;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap=
+;margin: 0;">Quais caracter=C3=ADsticas dos leads s=C3=A3o limitantes para =
+sua venda?<span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=
+=B3ria"> *</span></h2><div style=3D"color: #202124;font-family: Roboto,Helv=
+etica,Arial,sans-serif;font-size: 12px; font-weight: 400; letter-spacing: .=
+25px; line-height: 16px;white-space: pre-wrap;margin: 4px 0 20px;" dir=3D"a=
+uto">Caracter=C3=ADsticas limitantes s=C3=A3o aquelas que quando identifica=
+das em um lead devem desqualific=C3=A1-lo imediatamente. Podem ser fatores =
+como uma limita=C3=A7=C3=A3o t=C3=A9cnica (Ex.: para uma empresa de maquin=
+=C3=A1rio industrial, se um lead n=C3=A3o tem espa=C3=A7o f=C3=ADsico para =
+instala=C3=A7=C3=A3o de maquin=C3=A1rio, n=C3=A3o ser=C3=A1 poss=C3=ADvel r=
+ealizar a venda), uma caracter=C3=ADstica do seu produto (Ex.: limite m=C3=
+=A1ximo de usu=C3=A1rios que um determinado software atende), ou  caracter=
+=C3=ADstica do seu neg=C3=B3cio (Ex.: para minha solu=C3=A7=C3=A3o ter maio=
+r efici=C3=AAncia a empresa do lead deve possuir um n=C3=BAmero m=C3=ADnimo=
+ de colaboradores)</div></div><div style=3D"padding: 0 12px;"><div dir=3D"a=
+uto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.=
+38);margin: 12px 0 8px; min-height: 20px;width: 100%;">sem espa=C3=A7o para=
+ a instala=C3=A7=C3=A3o do sistema</div></div></div></form></div><table ali=
+gn=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width: 672px=
+; min-width: 154px;" width=3D"100%" role=3D"presentation"><tbody><tr height=
+=3D"24px"><td></td></tr><tr><td><a href=3D"https://docs.google.com/forms?us=
+p=3Dmail_form_link" style=3D"color: #424242; font-size: 13px;">Crie seu pr=
+=C3=B3prio formul=C3=A1rio do Google.</a></td></tr></tbody></table></div></=
+body></html>
+--0000000000006c83ce05b18c95f4--

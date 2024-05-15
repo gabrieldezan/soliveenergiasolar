@@ -1,0 +1,713 @@
+Return-Path: <nfernandes@exactsales.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from srv252.prodns.com.br
+	by srv252.prodns.com.br with LMTP
+	id eMOQJNj0Ol9oGAMAAYt2BQ
+	(envelope-from <nfernandes@exactsales.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 17 Aug 2020 18:21:28 -0300
+Return-path: <nfernandes@exactsales.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 17 Aug 2020 18:21:28 -0300
+Received: from mail-ot1-f41.google.com ([209.85.210.41]:38499)
+	by srv252.prodns.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <nfernandes@exactsales.com.br>)
+	id 1k7mZL-000rtS-ME
+	for contato@soliveenergiasolar.com.br; Mon, 17 Aug 2020 18:21:28 -0300
+Received: by mail-ot1-f41.google.com with SMTP id q9so14592498oth.5
+        for <contato@soliveenergiasolar.com.br>; Mon, 17 Aug 2020 14:21:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=exactsales.com.br; s=google;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=gSnLqAndartwOmHWJP0BEwoQ/FV+NWgO5ADx2njtWs4=;
+        b=wq9mQ9lfaokEXAMB8hn2AbqlSIPIJuvI7I4EVFl67I6eAlidQ73alU2L+EJDgsFVxk
+         spDJq6eG+aMn8S7ayHyYOX08w37aP2R67G37g3yeOp78u9diOOB6dKf5k02SA9Ku9zBd
+         mN7RZFMNDrJYDdLWBcJGLoWaZ1cipMi68CVK8=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=gSnLqAndartwOmHWJP0BEwoQ/FV+NWgO5ADx2njtWs4=;
+        b=k9H640kd0v6HYL7DBHFiELEQdbcir3XlpS4WAjEabdvWsPGMdenOg+/kIcGfP4OPHn
+         +4GoA4ZiCHy+YKQ4+phr+l1vbxUzD6czvgmf7IdsQVB87iWJK2xyeJK3R9fg+vDBPja1
+         6IcOqoZ5KkFDMPix1FiFpCdTJ6wbnbMZSG92sg8OA+VaB7xgw3w9+G/NoGtjADqzVE5P
+         vmPLH1EXbURqu9pOJNW8D6C9Y1u0L2FuwFKxNbtD7xqslWROtHxoJga+KItOMP/Mc41D
+         Yo0gjUApvncbnUOD4CjdSsgfuv703q+s5AEjSRzpIO4xnFnUHFaZRp+T2uownPunXwvD
+         mkjQ==
+X-Gm-Message-State: AOAM532vk7OkdORhDF5BftggfPDlkXAKmiXlv2cgf4M05fLfC+atTFoc
+	UIKtwKeyT5cNlRS2lTFe1uLGVacEQVSW5HSWaM/zHBDAzqEubKfGlY9assTlZLWR2IpC1JL6bT8
+	O6o3pmaKIua4E4NVEjg8iG69paCbpVsg+o7L3zmxhRdwoPJpHHIE=
+X-Google-Smtp-Source: ABdhPJxwiZA6D88DHbE/l0ca1y4f3PR6/kdOHZfwVknnon+6b1opbMQiF8Rs6nx3LElXrkXwTsAdUhOLyFpqDyWEtSs=
+X-Received: by 2002:a05:6830:45b:: with SMTP id d27mr13110775otc.312.1597699276011;
+ Mon, 17 Aug 2020 14:21:16 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAPxaS+JRorqgKJ-EQa64jxANoFtBpFxmQ5meE+0xKF9=TBQC0A@mail.gmail.com>
+ <CAPxaS+Jn4mDJVNP=puSKNE0U4mfyCp8vFLo89owe4OoDP7-=jg@mail.gmail.com>
+ <CAPxaS++VWpf6-L1waMt5iU7eWRR8=Z3xBf3RVBKzpd2ZEtnCqg@mail.gmail.com>
+ <CAPxaS+++2mfiQMOTL8tsYO96jKn4wRM_9fHuVJxOa=SXsNEP2A@mail.gmail.com>
+ <CAPxaS+LcAOQN2uD4Ks5yJT-zmPeCQ4jT9ZaArty7Jb2vKAu4-w@mail.gmail.com> <CAPxaS++6YPXHP59YFhoLnF-OM_U9Ej9+OinCOo5mi_iikQ-4kw@mail.gmail.com>
+In-Reply-To: <CAPxaS++6YPXHP59YFhoLnF-OM_U9Ej9+OinCOo5mi_iikQ-4kw@mail.gmail.com>
+From: Naiara Fernandes Calgaro <nfernandes@exactsales.com.br>
+Date: Mon, 17 Aug 2020 18:21:56 -0300
+Message-ID: <CAPxaS+J8mdDPjVC1F5E4u+9s=xXtJP2Un89xqHJ7dV6C-n8gwA@mail.gmail.com>
+Subject: =?UTF-8?B?UMOzcyBSZXVuacOjbyAtIEV4YWN0IFNhbGVz?=
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/related; boundary="000000000000ce995d05ad1959bb"
+X-Spam-Status: No, score=-1.2
+X-Spam-Score: -11
+X-Spam-Bar: -
+X-Spam-Flag: NO
+
+--000000000000ce995d05ad1959bb
+Content-Type: multipart/alternative; boundary="000000000000ce995b05ad1959ba"
+
+--000000000000ce995b05ad1959ba
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Boa tarde Rodrigo, tudo bem?
+
+Primeiramente quero dizer que fiquei muito feliz com nossa reuni=C3=A3o e e=
+m
+apresentar nossa empresa e metodologia.
+
+
+Conforme combinado, segue a grava=C3=A7=C3=A3o da nossa conversa:
+
+
+ 2020-08-17 17-04-23 Solive.mkv
+<https://drive.google.com/file/d/1VVWz027MrRolWltA-SQVLwHxDUC1CkB5/view?usp=
+=3Ddrive_web>
+
+
+Ent=C3=A3o recapitulando tudo o que conversamos, a Exact vai:
+
+   - Entender as etapas do processo de vendas da Solive,
+   - Analisar seus melhores clientes para definir um perfil ideal para
+   qualifica=C3=A7=C3=A3o;
+   - Sugerir estrat=C3=A9gias para prospectar o mercado e trabalhar sua bas=
+e
+   utilizando o software;
+   - Implementar uma =C3=A1rea de Pr=C3=A9-Vendas para dar efici=C3=AAncia =
+ao seu processo
+   comercial;
+   - Estruturar com voc=C3=AA o filtro de qualifica=C3=A7=C3=A3o da pr=C3=
+=A9-venda;
+   - Criar gatilhos mentais e roteiro de abordagem para garantir
+   assertividade;
+   - Treinar a pessoa que vai fazer sua pr=C3=A9-venda;
+   - Acompanhar o processo rodando e garantir que entregamos o que foi
+   proposto no in=C3=ADcio do projeto.
+
+Nossa inten=C3=A7=C3=A3o =C3=A9 montar esse processo constru=C3=ADdo a quat=
+ro m=C3=A3os com voc=C3=AAs e
+graduar sua empresa, permitindo que todo o processo rode gerando resultados
+a partir do processo de Pr=C3=A9-Vendas.
+
+
+
+*SOBRE A IMPLEMENTA=C3=87=C3=83O:*
+=C3=98  At=C3=A9 4 semanas de implementa=C3=A7=C3=A3o
+=C3=98  17h30min de dedica=C3=A7=C3=A3o de um implementador;
+=C3=98  5h de reuni=C3=B5es semanais via Skype, com participa=C3=A7=C3=A3o =
+do cliente.
+=C3=98  Dedica=C3=A7=C3=A3o de um Customer Success / Gerente de Conta ao pr=
+ojeto.
+
+
+*CONDI=C3=87=C3=83O COMERCIAL BASEADA EM VELOCIDADE DE FECHAMENTO*
+
+*R$ 1.7500,00 *(=C3=80 VISTA) - BOLETO E/OU CART=C3=83O DE
+
+
+* O come=C3=A7o da implementa=C3=A7=C3=A3o ser=C3=A1 de acordo com a sua di=
+sponibilidade,
+preferencialmente dentro de at=C3=A9 15 dias do fechamento da proposta
+
+*SOBRE O SOFTWARE:*
+=C3=98  Mensal: R$ 796,00 sem multa (30 dias de aviso pr=C3=A9vio)
+=C3=98  6 meses: R$ 759,00 (multa de 30% das parcelas restantes)
+=C3=98  12 meses: R$ 699,00 (multa de 30% das parcelas restantes)
+
+* Inclusas todas as funcionalidades do sistema
+* Incluso at=C3=A9 4 Usu=C3=A1rios, acima disso cada usu=C3=A1rio custa R$1=
+99,00
+* N=C3=BAmero de leads ilimitados dentro do software
+* O pagamento =C3=A9 pr=C3=A9 pago (software + mensalidade)
+
+*SOBRE A ASSINATURA DE CONTRATO e FORMA DE PAGAMENTO :*
+=C3=98  Nosso contrato =C3=A9 preenchido digitalmente, via link
+=C3=98  Solicitamos que o pagamento da primeira parcela seja feito em at=C3=
+=A9 10
+dias da assinatura de contrato. Os demais vencimentos podem ser ajustados
+para o fluxo de pagamento da empresa.
+=C3=98 Ap=C3=B3s o pagamento da primeira parcela, em at=C3=A9 05 dias damos=
+ in=C3=ADcio =C3=A0
+implementa=C3=A7=C3=A3o.
+
+Abaixo deixo alguns v=C3=ADdeos de clientes nossos falando sobre os impacto=
+s do
+nosso m=C3=A9todo em suas empresas:
+
+Dayback - Energia Solar
+
+http://url.exactsal.es/DayBack
+
+Welle Laser - M=C3=A1quinas
+
+http://url.exactsal.es/WelleLaser
+
+
+Webinar
+
+https://www.youtube.com/watch?v=3D5H_j8MoImcE&feature=3Dyoutu.be
+
+
+
+
+Se voc=C3=AA reparar, existe uma semelhan=C3=A7a muito clara nos cases. Nen=
+hum deles
+se sentia totalmente preparados para alterar o processo de vendas, pelo
+contr=C3=A1rio, as dificuldades que eles estavam passando segurava o =C3=AD=
+mpeto de
+mexer no comercial, mas foi exatamente essa tomada de decis=C3=A3o que fez =
+eles
+darem uma reviravolta em sua situa=C3=A7=C3=A3o e virarem refer=C3=AAncias =
+em seus
+segmentos.
+
+
+Atenciosamente,
+
+Naiara Calgaro <https://www.linkedin.com/in/naiaracalgaro/>
+
+Sales Consultant
+
+nfernandes@exactsales.com.br
+
+https://exactsales.com.br
+
+48 3025 7750 <callto:4830257750> | 48 3181 0180 <callto:4831810180>
+
+48 99962 5700 <callto:48+99962+5700>
+
+[image: Mailtrack]
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+Remetente
+notificado por
+Mailtrack
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+06/07/20
+10:06:53
+[image: image.gif]
+
+[image: Mailtrack]
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+Remetente
+notificado por
+Mailtrack
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+08/07/20
+14:55:52
+[image: image.gif]
+
+[image: Mailtrack]
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+Remetente
+notificado por
+Mailtrack
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+08/07/20
+17:10:32
+[image: image.gif]
+[image: image.gif]
+[image: image.gif]
+
+[image: Mailtrack]
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+Remetente
+notificado por
+Mailtrack
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+10/07/20
+11:54:02
+[image: image.gif]
+
+[image: Mailtrack]
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+Remetente
+notificado por
+Mailtrack
+<https://mailtrack.io?utm_source=3Dgmail&utm_medium=3Dsignature&utm_campaig=
+n=3Dsignaturevirality5&>
+13/07/20
+09:27:13
+[image: image.gif]
+
+--=20
+The content of this email is confidential and intended for the recipient=20
+specified in message only. It is strictly forbidden to share any part of=20
+this message with any third party, without a written consent of the sender.=
+=C2=A0
+
+--000000000000ce995b05ad1959ba
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smart=
+mail=3D"gmail_signature"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"=
+><div dir=3D"ltr"><div dir=3D"ltr"></div></div></div></div></div></div></di=
+v><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><d=
+iv dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_a=
+ttr">Boa tarde Rodrigo, tudo bem?<br></div><div dir=3D"ltr"><div class=3D"g=
+mail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><d=
+iv class=3D"gmail_quote"><div dir=3D"ltr"><div dir=3D"ltr"><div class=3D"gm=
+ail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><di=
+v class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div di=
+r=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_q=
+uote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><br></div><div><p dir=3D"lt=
+r" style=3D"line-height:1.2;text-align:justify;margin-top:0pt;margin-bottom=
+:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(0,0,0);font=
+-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:basel=
+ine;white-space:pre-wrap">Primeiramente quero dizer que fiquei muito feliz =
+com nossa <span>reuni=C3=A3o</span> e em apresentar nossa empresa e metodol=
+ogia.</span></p><p dir=3D"ltr" style=3D"line-height:1.2;text-align:justify;=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family=
+:Arial;color:rgb(0,0,0);font-variant-numeric:normal;font-variant-east-asian=
+:normal;vertical-align:baseline;white-space:pre-wrap"><br></span></p><p dir=
+=3D"ltr" style=3D"line-height:1.2;text-align:justify;margin-top:0pt;margin-=
+bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(0,0,0=
+);font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align=
+:baseline;white-space:pre-wrap">Conforme combinado, segue a grava=C3=A7=C3=
+=A3o da nossa conversa:</span></p><p dir=3D"ltr" style=3D"line-height:1.2;t=
+ext-align:justify;margin-top:0pt;margin-bottom:0pt"><br></p><div class=3D"g=
+mail_chip gmail_drive_chip" style=3D"width:396px;height:18px;max-height:18p=
+x;background-color:rgb(245,245,245);padding:5px;font-family:arial;font-weig=
+ht:bold;font-size:13px;border:1px solid rgb(221,221,221);line-height:1"><a =
+href=3D"https://drive.google.com/file/d/1VVWz027MrRolWltA-SQVLwHxDUC1CkB5/v=
+iew?usp=3Ddrive_web" target=3D"_blank" style=3D"display:inline-block;max-wi=
+dth:366px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-de=
+coration-line:none;padding:1px 0px;border:none"><img style=3D"vertical-alig=
+n: bottom; border: none;" src=3D"https://drive-thirdparty.googleusercontent=
+.com/16/type/video/x-matroska">=C2=A0<span dir=3D"ltr" style=3D"vertical-al=
+ign:bottom">2020-08-17 17-04-23 Solive.mkv</span></a></div><p dir=3D"ltr" s=
+tyle=3D"line-height:1.2;text-align:justify;margin-top:0pt;margin-bottom:0pt=
+"><br></p><p dir=3D"ltr" style=3D"line-height:1.2;text-align:justify;margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;font-size:10pt=
+;white-space:pre-wrap">Ent=C3=A3o recapitulando tudo o que conversamos, a E=
+xact vai:</span><br></p><ul><li>Entender as etapas do processo de vendas da=
+ Solive,=C2=A0</li><li>Analisar seus melhores clientes para definir um perf=
+il ideal para qualifica=C3=A7=C3=A3o; </li><li>Sugerir estrat=C3=A9gias par=
+a prospectar o mercado e trabalhar sua base utilizando o software;</li><li>=
+Implementar uma =C3=A1rea de Pr=C3=A9-Vendas para dar efici=C3=AAncia ao se=
+u processo comercial;</li><li>Estruturar com voc=C3=AA o filtro de qualific=
+a=C3=A7=C3=A3o da pr=C3=A9-venda;</li><li>Criar gatilhos mentais e roteiro =
+de abordagem para garantir assertividade;</li><li>Treinar a pessoa que vai =
+fazer sua pr=C3=A9-venda;</li><li>Acompanhar o processo rodando e garantir =
+que entregamos o que foi proposto no in=C3=ADcio do projeto.</li></ul></div=
+><div><p style=3D"line-height:1.2;text-align:justify;margin-top:0pt;margin-=
+bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;font-variant-nu=
+meric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-s=
+pace:pre-wrap">Nossa inten=C3=A7=C3=A3o =C3=A9 montar esse processo </span>=
+<span style=3D"font-size:10pt;font-family:Arial;font-weight:700;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;whi=
+te-space:pre-wrap">constru=C3=ADdo</span><span style=3D"font-size:10pt;font=
+-family:Arial;font-variant-numeric:normal;font-variant-east-asian:normal;ve=
+rtical-align:baseline;white-space:pre-wrap"> </span><span style=3D"font-siz=
+e:10pt;font-family:Arial;font-weight:700;font-variant-numeric:normal;font-v=
+ariant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">a qu=
+atro m=C3=A3os com voc=C3=AAs </span><span style=3D"font-size:10pt;font-fam=
+ily:Arial;font-variant-numeric:normal;font-variant-east-asian:normal;vertic=
+al-align:baseline;white-space:pre-wrap">e graduar sua empresa, permitindo q=
+ue todo o processo rode gerando resultados a partir do processo de Pr=C3=A9=
+-Vendas.</span></p><p style=3D"line-height:1.2;text-align:justify;margin-to=
+p:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;fo=
+nt-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:bas=
+eline;white-space:pre-wrap"><br></span></p><p style=3D"line-height:1.2;text=
+-align:justify;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:1=
+0pt;font-family:Arial;color:rgb(0,0,0);font-variant-numeric:normal;font-var=
+iant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"><br st=
+yle=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size=
+:small;text-align:start;white-space:normal"></span></p><p style=3D"line-hei=
+ght:1.2;text-align:justify;margin-top:0pt;margin-bottom:0pt"><b style=3D"fo=
+nt-family:arial,sans-serif"><span style=3D"font-size:9.5pt">SOBRE A IMPLEME=
+NTA=C3=87=C3=83O:</span></b><br></p><div><div style=3D"font-family:arial,sa=
+ns-serif"><span style=3D"font-size:9.5pt"></span></div><div style=3D"font-f=
+amily:arial,sans-serif"><span style=3D"font-size:9.5pt;font-family:Wingding=
+s">=C3=98<span style=3D"font-variant-numeric:normal;font-variant-east-asian=
+:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&q=
+uot;Times New Roman&quot;">=C2=A0=C2=A0</span></span><span style=3D"font-si=
+ze:9.5pt">At=C3=A9=C2=A04 semanas de implementa=C3=A7=C3=A3o</span></div><d=
+iv style=3D"font-family:arial,sans-serif"><span style=3D"font-size:9.5pt;fo=
+nt-family:Wingdings">=C3=98<span style=3D"font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:nor=
+mal;font-family:&quot;Times New Roman&quot;">=C2=A0=C2=A0</span></span><spa=
+n style=3D"font-size:9.5pt">17h30min de dedica=C3=A7=C3=A3o de um implement=
+ador;=C2=A0</span><br><span style=3D"font-size:9.5pt;font-family:Wingdings"=
+>=C3=98<span style=3D"font-variant-numeric:normal;font-variant-east-asian:n=
+ormal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quo=
+t;Times New Roman&quot;">=C2=A0=C2=A0</span></span><span style=3D"font-size=
+:9.5pt">5h de reuni=C3=B5es semanais via Skype, com participa=C3=A7=C3=A3o =
+do cliente.</span></div><div style=3D"font-family:arial,sans-serif"><span s=
+tyle=3D"font-size:9.5pt;font-family:Wingdings">=C3=98<span style=3D"font-va=
+riant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;fon=
+t-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">=C2=
+=A0=C2=A0</span></span><span style=3D"font-size:9.5pt">Dedica=C3=A7=C3=A3o =
+de um Customer Success / Gerente de Conta ao projeto.=C2=A0</span></div><p =
+style=3D"line-height:1.2;text-align:justify;margin-top:0pt;margin-bottom:0p=
+t"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(0,0,0);font-va=
+riant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline=
+;white-space:pre-wrap"><br></span></p><p style=3D"line-height:1.2;text-alig=
+n:justify;margin-top:0pt;margin-bottom:0pt"><b style=3D"font-size:12.6667px=
+;font-family:Arial,sans-serif"><u>CONDI=C3=87=C3=83O COMERCIAL BASEADA EM V=
+ELOCIDADE DE FECHAMENTO</u></b></p><p style=3D"line-height:1.2;text-align:j=
+ustify;margin-top:0pt;margin-bottom:0pt"><b>R$ 1.7500,00=C2=A0</b>(=C3=80 V=
+ISTA) - BOLETO E/OU CART=C3=83O DE=C2=A0</p><p style=3D"line-height:1.2;tex=
+t-align:justify;margin-top:0pt;margin-bottom:0pt"><br></p><p style=3D"line-=
+height:1.2;text-align:justify;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-family:arial,sans-serif">* O come=C3=A7o da implementa=C3=A7=C3=A3=
+o ser=C3=A1 de acordo com a sua disponibilidade, preferencialmente dentro d=
+e at=C3=A9 15 dias do fechamento da proposta</span><br></p><div><div style=
+=3D"font-family:arial,sans-serif"><br></div><div style=3D"font-family:arial=
+,sans-serif"><b><span style=3D"font-size:9.5pt">SOBRE O SOFTWARE:</span></b=
+></div></div><div style=3D"font-family:arial,sans-serif"><div><div><div><di=
+v><span style=3D"font-size:9.5pt;font-family:Wingdings">=C3=98<span style=
+=3D"font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch=
+:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&=
+quot;">=C2=A0=C2=A0</span></span><span style=3D"font-size:9.5pt">Mensal: R$=
+ 796,00 sem multa (30 dias de aviso pr=C3=A9vio)</span><br></div><div><div>=
+<span style=3D"font-size:9.5pt;font-family:Wingdings">=C3=98<span style=3D"=
+font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:nor=
+mal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot=
+;">=C2=A0=C2=A0</span></span><span style=3D"font-size:9.5pt">6 meses: R$ 75=
+9,00 (multa de 30% das parcelas restantes)</span></div><div><span style=3D"=
+font-size:9.5pt;font-family:Wingdings">=C3=98<span style=3D"font-variant-nu=
+meric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7=
+pt;line-height:normal;font-family:&quot;Times New Roman&quot;">=C2=A0=C2=A0=
+</span></span><span style=3D"font-size:9.5pt">12 meses: R$ 699,00 (multa de=
+ 30% das parcelas restantes)</span></div><div><br></div></div></div><div><s=
+pan style=3D"font-size:9.5pt">* Inclusas todas as funcionalidades do sistem=
+a</span><br></div></div><div><span style=3D"font-size:9.5pt"><font color=3D=
+"#ff0000">* Incluso at=C3=A9 4 Usu=C3=A1rios, acima disso cada usu=C3=A1rio=
+ custa R$199,00</font></span></div><div><span style=3D"font-size:12.6667px"=
+>* N=C3=BAmero de leads ilimitados dentro do software</span></div></div><di=
+v><span style=3D"font-size:12.6667px">* O pagamento =C3=A9 pr=C3=A9 pago (s=
+oftware=C2=A0+ mensalidade)</span></div><div><br></div><div><b style=3D"fon=
+t-size:9.5pt">SOBRE A ASSINATURA DE CONTRATO e=C2=A0<b>FORMA DE PAGAMENTO</=
+b>=C2=A0:</b><br></div><div><span style=3D"font-size:9.5pt"><span style=3D"=
+font-size:9.5pt;font-family:Wingdings">=C3=98<span style=3D"font-variant-nu=
+meric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7=
+pt;line-height:normal;font-family:&quot;Times New Roman&quot;">=C2=A0=C2=A0=
+</span></span></span><span style=3D"font-size:9.5pt">Nosso contrato =C3=A9 =
+preenchido digitalmente, via link</span><br></div><div><span style=3D"font-=
+size:9.5pt;line-height:13.5533px"></span></div><div><font face=3D"Wingdings=
+" color=3D"#222222"><span style=3D"font-size:9.5pt">=C3=98</span></font><fo=
+nt color=3D"#222222">=C2=A0=C2=A0</font><font face=3D"arial, helvetica, san=
+s-serif" color=3D"#222222">Solicitamos que o pagamento da primeira parcela =
+seja feito em at=C3=A9 10 dias da assinatura de contrato.=C2=A0Os demais ve=
+ncimentos podem ser ajustados para o fluxo de pagamento da empresa.</font><=
+br></div><div><span style=3D"font-family:Wingdings;font-size:12.6667px">=C3=
+=98</span>=C2=A0Ap=C3=B3s o pagamento da primeira parcela, em at=C3=A9 05 d=
+ias damos in=C3=ADcio =C3=A0 implementa=C3=A7=C3=A3o.</div><div><br></div><=
+div><span style=3D"font-family:Arial;font-size:10pt;white-space:pre-wrap;te=
+xt-align:justify">Abaixo deixo alguns v=C3=ADdeos de clientes nossos faland=
+o sobre os impactos do nosso m=C3=A9todo em suas empresas:</span></div><div=
+><span style=3D"font-family:Arial;font-size:10pt;white-space:pre-wrap;text-=
+align:justify"><br></span></div><div><span id=3D"m_7881119615455714280m_108=
+9758551232185123m_207266739733187095gmail-docs-internal-guid-b08897b1-7fff-=
+3cd2-afe5-6fabeb819d57"><p dir=3D"ltr" style=3D"line-height:1.2;text-align:=
+justify;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;fon=
+t-family:Arial;font-variant-numeric:normal;font-variant-east-asian:normal;v=
+ertical-align:baseline;white-space:pre-wrap">Dayback - Energia Solar</span>=
+</p><p dir=3D"ltr" style=3D"line-height:1.2;text-align:justify;margin-top:0=
+pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color=
+:rgb(17,85,204);font-variant-numeric:normal;font-variant-east-asian:normal;=
+vertical-align:baseline;white-space:pre-wrap"><a href=3D"http://url.exactsa=
+l.es/DayBack" target=3D"_blank">http://url.exactsal.es/DayBack</a></span></=
+p></span></div><div><span style=3D"font-family:Arial;font-size:10pt;white-s=
+pace:pre-wrap;text-align:justify"><br></span></div><div><span id=3D"m_78811=
+19615455714280m_1089758551232185123m_207266739733187095m_872648996047370483=
+m_5388016595879863464m_738027820599261311m_9048171144494464449gmail-m_92915=
+8723542032703m_9006152598016904150m_-2411882665731112978gmail-docs-internal=
+-guid-fea52005-7fff-0844-f03d-67814fc1e1b5"><p dir=3D"ltr" style=3D"line-he=
+ight:1.2;text-align:justify;background-color:rgb(255,255,255);margin-top:0p=
+t;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:=
+rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-style:=
+normal;font-variant:normal;text-decoration:none;vertical-align:baseline;whi=
+te-space:pre-wrap">Welle Laser - M=C3=A1quinas</span></p><p dir=3D"ltr" sty=
+le=3D"line-height:1.2;text-align:justify;background-color:rgb(255,255,255);=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"text-decoration:underline;=
+font-size:10pt;font-family:Arial;color:rgb(17,85,204);background-color:rgb(=
+255,255,255);font-weight:400;font-style:normal;font-variant:normal;vertical=
+-align:baseline;white-space:pre-wrap"><a href=3D"http://url.exactsal.es/Wel=
+leLaser" style=3D"text-decoration:none" target=3D"_blank">http://url.exacts=
+al.es/WelleLaser</a></span></p><p dir=3D"ltr" style=3D"line-height:1.2;text=
+-align:justify;background-color:rgb(255,255,255);margin-top:0pt;margin-bott=
+om:0pt"><br></p><p style=3D"line-height:1.2;text-align:justify;background-c=
+olor:rgb(255,255,255);margin-top:0pt;margin-bottom:0pt">Webinar=C2=A0</p><p=
+ style=3D"line-height:1.2;text-align:justify;background-color:rgb(255,255,2=
+55);margin-top:0pt;margin-bottom:0pt"><a href=3D"https://www.youtube.com/wa=
+tch?v=3D5H_j8MoImcE&amp;feature=3Dyoutu.be" target=3D"_blank" style=3D"font=
+-family:Arial,Helvetica,sans-serif;text-align:start">https://www.youtube.co=
+m/watch?v=3D5H_j8MoImcE&amp;feature=3Dyoutu.be</a><span style=3D"font-famil=
+y:Arial,Helvetica,sans-serif;text-align:start">=C2=A0</span>=C2=A0=C2=A0<br=
+></p><p dir=3D"ltr" style=3D"line-height:1.2;text-align:justify;background-=
+color:rgb(255,255,255);margin-top:0pt;margin-bottom:0pt">=C2=A0</p><p dir=
+=3D"ltr" style=3D"line-height:1.2;text-align:justify;background-color:rgb(2=
+55,255,255);margin-top:0pt;margin-bottom:0pt"><br></p></span></div></div></=
+div><p style=3D"line-height:1.2;text-align:justify;margin-top:0pt;margin-bo=
+ttom:0pt"><span style=3D"font-family:Arial;font-size:10pt;white-space:pre-w=
+rap">Se voc=C3=AA reparar, existe uma semelhan=C3=A7a muito clara nos cases=
+. Nenhum deles se sentia totalmente preparados para alterar o processo de v=
+endas, pelo contr=C3=A1rio, as dificuldades que eles estavam passando segur=
+ava o =C3=ADmpeto de mexer no comercial, mas foi exatamente essa tomada de =
+decis=C3=A3o que fez eles darem uma reviravolta em sua situa=C3=A7=C3=A3o e=
+ virarem refer=C3=AAncias em seus segmentos.=C2=A0</span></p><p style=3D"li=
+ne-height:1.2;text-align:justify;margin-top:0pt;margin-bottom:0pt"><span st=
+yle=3D"font-family:Arial;font-size:10pt;white-space:pre-wrap"><br></span></=
+p></div></div></div></div></div></div></div></div></div></div></div></div><=
+/div></div></div></div></div></div></div><div><div dir=3D"ltr" data-smartma=
+il=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><span style=3D"=
+color:rgb(33,37,41);font-family:sans-serif;font-size:14px">Atenciosamente,<=
+/span><br style=3D"color:rgb(33,37,41);font-family:sans-serif;font-size:14p=
+x"><table style=3D"border-collapse:collapse;font-family:sans-serif;font-siz=
+e:12px;line-height:0.6"><tbody><tr><td><p dir=3D"ltr" style=3D"margin-top:0=
+px;margin-bottom:1rem"><img src=3D"https://exactsales.com.br/assinatura/exa=
+ct.gif" style=3D"vertical-align:middle;border-style:none"></p></td><td><p d=
+ir=3D"ltr" style=3D"margin-top:0px;margin-bottom:1rem"><span style=3D"font-=
+weight:bolder"><a href=3D"https://www.linkedin.com/in/naiaracalgaro/" rel=
+=3D"noopener" style=3D"color:black;background-color:transparent" target=3D"=
+_blank">Naiara Calgaro</a></span></p><p dir=3D"ltr" style=3D"margin-top:0px=
+;margin-bottom:1rem;color:gray">Sales Consultant</p><p dir=3D"ltr" style=3D=
+"margin-top:0px;margin-bottom:1rem"><a rel=3D"noopener" href=3D"mailto:nfer=
+nandes@exactsales.com.br" style=3D"color:black;background-color:transparent=
+" target=3D"_blank">nfernandes@exactsales.com.br</a></p><p dir=3D"ltr" styl=
+e=3D"margin-top:0px;margin-bottom:1rem"><a href=3D"https://exactsales.com.b=
+r/" rel=3D"noopener" style=3D"color:rgb(0,123,255);background-color:transpa=
+rent" target=3D"_blank">https://exactsales.com.br</a></p><p dir=3D"ltr" sty=
+le=3D"margin-top:0px;margin-bottom:1rem"><a href=3D"callto:4830257750" styl=
+e=3D"color:black;background-color:transparent" target=3D"_blank">48 3025 77=
+50</a>=C2=A0|=C2=A0<a href=3D"callto:4831810180" style=3D"color:black;backg=
+round-color:transparent" target=3D"_blank">48 3181 0180</a></p><p dir=3D"lt=
+r" style=3D"margin-top:0px;margin-bottom:1rem"><a href=3D"callto:48+99962+5=
+700" style=3D"color:black;background-color:transparent" target=3D"_blank">4=
+8 99962 5700</a></p></td></tr></tbody></table></div></div></div></div></div=
+></div></div></div></div></div><br><div id=3D"mt-signature">
+        <table border=3D"0" cellpadding=3D"8" cellspacing=3D"0">
+            <tbody><tr>
+                <td>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"text-decoration:none" target=3D"_blank">
+                        <img src=3D"https://s3.amazonaws.com/mailtrack-sign=
+ature/sender_notified.gif" alt=3D"Mailtrack" width=3D"32" height=3D"32">
+                    </a>
+                </td>
+                <td>
+                    <span style=3D"color:#777">Remetente notificado por</sp=
+an> <br>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"color:#4374f7" target=3D"_blank">Mailtrack</a>
+                    <span style=3D"color:transparent;font-size:0">06/07/20 =
+10:06:53</span>
+                </td>
+                <td>
+                   =20
+                </td>
+            </tr>
+        </tbody></table>
+    </div><div><img src=3D"cid:ii_kcdnx2ov0" alt=3D"image.gif" width=3D"1" =
+height=3D"1"><br></div></div>
+</div><br><div id=3D"mt-signature">
+        <table border=3D"0" cellpadding=3D"8" cellspacing=3D"0">
+            <tbody><tr>
+                <td>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"text-decoration:none" target=3D"_blank">
+                        <img src=3D"https://s3.amazonaws.com/mailtrack-sign=
+ature/sender_notified.gif" alt=3D"Mailtrack" width=3D"32" height=3D"32">
+                    </a>
+                </td>
+                <td>
+                    <span style=3D"color:#777">Remetente notificado por</sp=
+an> <br>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"color:#4374f7" target=3D"_blank">Mailtrack</a>
+                    <span style=3D"color:transparent;font-size:0">08/07/20 =
+14:55:52</span>
+                </td>
+                <td>
+                   =20
+                </td>
+            </tr>
+        </tbody></table>
+    </div><div><img src=3D"cid:ii_kcdsnq9j1" alt=3D"image.gif" width=3D"1" =
+height=3D"1"><br></div></div>
+</div><br><div id=3D"mt-signature">
+        <table border=3D"0" cellpadding=3D"8" cellspacing=3D"0">
+            <tbody><tr>
+                <td>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"text-decoration:none" target=3D"_blank">
+                        <img src=3D"https://s3.amazonaws.com/mailtrack-sign=
+ature/sender_notified.gif" alt=3D"Mailtrack" width=3D"32" height=3D"32">
+                    </a>
+                </td>
+                <td>
+                    <span style=3D"color:#777">Remetente notificado por</sp=
+an> <br>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"color:#4374f7" target=3D"_blank">Mailtrack</a>
+                    <span style=3D"color:transparent;font-size:0">08/07/20 =
+17:10:32</span>
+                </td>
+                <td>
+                   =20
+                </td>
+            </tr>
+        </tbody></table>
+    </div><div><img src=3D"cid:ii_kcf6dsf42" alt=3D"image.gif" width=3D"1" =
+height=3D"1"><br></div></div>
+</div><div><img src=3D"cid:ii_kdz0r4md3" alt=3D"image.gif" width=3D"1" heig=
+ht=3D"1"><br></div><div><img src=3D"cid:ii_kdz0r4mx4" alt=3D"image.gif" wid=
+th=3D"1" height=3D"1"><br></div></div>
+</div><br><div id=3D"mt-signature">
+        <table border=3D"0" cellpadding=3D"8" cellspacing=3D"0">
+            <tbody><tr>
+                <td>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"text-decoration:none" target=3D"_blank">
+                        <img src=3D"https://s3.amazonaws.com/mailtrack-sign=
+ature/sender_notified.gif" alt=3D"Mailtrack" width=3D"32" height=3D"32">
+                    </a>
+                </td>
+                <td>
+                    <span style=3D"color:#777">Remetente notificado por</sp=
+an> <br>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"color:#4374f7" target=3D"_blank">Mailtrack</a>
+                    <span style=3D"color:transparent;font-size:0">10/07/20 =
+11:54:02</span>
+                </td>
+                <td>
+                   =20
+                </td>
+            </tr>
+        </tbody></table>
+    </div><div><img src=3D"cid:ii_kdz0r4ng5" alt=3D"image.gif" width=3D"1" =
+height=3D"1"><br></div></div>
+</div><br><div id=3D"mt-signature">
+        <table border=3D"0" cellpadding=3D"8" cellspacing=3D"0">
+            <tbody><tr>
+                <td>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"text-decoration:none" target=3D"_blank">
+                        <img src=3D"https://s3.amazonaws.com/mailtrack-sign=
+ature/sender_notified.gif" alt=3D"Mailtrack" width=3D"32" height=3D"32">
+                    </a>
+                </td>
+                <td>
+                    <span style=3D"color:#777">Remetente notificado por</sp=
+an> <br>
+                    <a href=3D"https://mailtrack.io?utm_source=3Dgmail&amp;=
+utm_medium=3Dsignature&amp;utm_campaign=3Dsignaturevirality5&amp;" style=3D=
+"color:#4374f7" target=3D"_blank">Mailtrack</a>
+                    <span style=3D"color:transparent;font-size:0">13/07/20 =
+09:27:13</span>
+                </td>
+                <td>
+                   =20
+                </td>
+            </tr>
+        </tbody></table>
+    </div><div><img src=3D"cid:ii_kdz0r4o36" alt=3D"image.gif" width=3D"1" =
+height=3D"1"><br></div></div>
+</div><img width=3D"0" height=3D"0" class=3D"mailtrack-img" alt=3D"" style=
+=3D"display:flex" src=3D"https://mailtrack.io/trace/mail/f0af460e9e75928db5=
+b320be49439b45d086aded.png?u=3D5178346"></div>
+
+<br>
+<em style=3D"margin:0px;padding:0px;border:0px;vertical-align:baseline;colo=
+r:rgb(68,68,68);font-family:&quot;Segoe UI&quot;,Frutiger,&quot;Frutiger Li=
+notype&quot;,&quot;Dejavu Sans&quot;,&quot;Helvetica Neue&quot;,Arial,sans-=
+serif;background-color:rgb(255,255,255)"><font size=3D"1">The content of th=
+is email is confidential and intended for the recipient specified in messag=
+e only. It is strictly forbidden to share any part of this message with any=
+ third party, without a written consent of the sender.=C2=A0</font></em>
+--000000000000ce995b05ad1959ba--
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kcdnx2ov0>
+X-Attachment-Id: ii_kcdnx2ov0
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kcdsnq9j1>
+X-Attachment-Id: ii_kcdsnq9j1
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kcf6dsf42>
+X-Attachment-Id: ii_kcf6dsf42
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kdz0r4md3>
+X-Attachment-Id: ii_kdz0r4md3
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kdz0r4o36>
+X-Attachment-Id: ii_kdz0r4o36
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kdz0r4mx4>
+X-Attachment-Id: ii_kdz0r4mx4
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb
+Content-Type: image/gif; name="image.gif"
+Content-Disposition: inline; filename="image.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_kdz0r4ng5>
+X-Attachment-Id: ii_kdz0r4ng5
+
+R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+--000000000000ce995d05ad1959bb--

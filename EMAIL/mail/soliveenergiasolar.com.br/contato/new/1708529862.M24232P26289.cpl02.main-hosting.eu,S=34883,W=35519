@@ -1,0 +1,636 @@
+Return-Path: <1axbue2dw1pe0wc3rft6ddhizmsnz1eg3kt654@bf06x.hubspotemail.net>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id 6LbxAMYY1mWxZgAAIElduQ
+	(envelope-from <1axbue2dw1pe0wc3rft6ddhizmsnz1eg3kt654@bf06x.hubspotemail.net>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 21 Feb 2024 15:37:42 +0000
+Return-path: <1axbue2dw1pe0wc3rft6ddhizmsnz1eg3kt654@bf06x.hubspotemail.net>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 21 Feb 2024 15:37:42 +0000
+Received: from bid47ol.bf06x.hubspotemail.net ([158.247.23.147]:59709)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <1axbue2dw1pe0wc3rft6ddhizmsnz1eg3kt654@bf06x.hubspotemail.net>)
+	id 1rcofF-0007Zn-0l
+	for contato@soliveenergiasolar.com.br;
+	Wed, 21 Feb 2024 15:37:41 +0000
+Received: by 172.16.47.42 with SMTP id aybkfun4xszmp2fcfsufa7qf0n963zs2tk3yoj3s;
+        Wed, 21 Feb 2024 15:37:00 GMT
+DKIM-Signature: v=1; s=hs2; d=bf06x.hubspotemail.net; 
+        i=@bf06x.hubspotemail.net; 
+        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=39ELF1R2hmUS1Opl5VPLWRaZI51gtHU0/EFpfdVD0pA=; 
+        b=ZyLByluyOY1gQBXA+kM05R6pgviZZg0BfKFVOC3WAPbUfaNdUPmhM2hTyxjRZM
+         DIEvClHwfSMUxy2ZUCZytEjaXKzX2dCi6FzTGiaK3to6FTuca5RVGqROWer3rlA
+         ry/CG8zcRcXG/TYcHO5dAbzKBl5lJpzQXpnsE36LvwsYWPQNfhH3faMCadkTa2B
+         r3+jx7Pgva4lRvVgmiAEuMX5zafnkXh9ktEnOmX+GqrmNte0C/Xr0MqFGfy9UD1
+         vvuLAFFjvt0qE+zrgz1nFJHjJ8r0CjXiv4831CAnSw5j3nk/e+37mTvNWKHEN31
+         UnCaVv1ZRDK/GqpJGdCQehTqwt/w==; q=dns/txt; t=1708529820; 
+        x=1708792620;
+DKIM-Signature: v=1; s=hs2; d=bf06x.hs-send.com; 
+        i=@bf06x.hs-send.com; 
+        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=39ELF1R2hmUS1Opl5VPLWRaZI51gtHU0/EFpfdVD0pA=; 
+        b=KQxfa6crC37ZFDFNRWHqOuPSe0tD/Td+fUo3v/dRN0Bc9E+M3of/BQY1wIfkoB
+         U7LmsD0qCdPe+yhqg0uZAkIbt7aS/0DcTZuqd4aahXwfwBHxMEVO9X8dr4YxzLp
+         CO1EWWahxB+0GibUkq9rjC8cpCouvidRjY8u06nhcouWgq6xtiFivvvoxESA6IT
+         zHxm4fxVZW2fp8zv5Fd3LvxZzJQwSax9D7EeziX0NTDSaCiIIVHc7Fl7AM5Pmgw
+         SZAtwv3bTORMQ3AOxC4HSgBWWM+RTINAFEIGchPR30u+HrOSDq0R6g4ayhXSI4w
+         bM25J+Q1u3LDkSO75vb1x2r0xH5Q==; q=dns/txt; t=1708529820; 
+        x=1708792620;
+X-HS-Cid: 1axe1g5snw0vlyez4hwbvoj3dqortetbn2wamk
+List-Unsubscribe: <mailto:1axc3twxmryty0nsn4ttuas1wd320fr0gy7f0c@bf06x.hubspotemail.net?subject=unsubscribe>, <https://hs-22403785.s.hubspotemail.net/subscription-preferences/v2/unsubscribe-all?data=W2nXS-N30h-GsW1VsY_C3K7Xy1W49HPjb1_kG6fW38DrHx2KG-BmW2HrfxW3z0WSRW2TGYHX1Bgw5kW3SMNvp2YG_k3W1NjsM-1BF3S6W1Zd4lQ1_jWhYW3gs46y1QksFlW3FgbJC49HSsWW36g_992z--jyW4mv6ZV20W5gkW3gqt6R47SfQtW3VMtqd400q5yW2sBXF13yRtkcW36q5923g8mskW2WQftZ43VT-WW47N5pW2sxHyHW2xGlq13XMl_DW2w3bSf3VNhHtW36lk7P21llZzW36w30p2-zRtwW2YtXKp3jf6XYW3F8j-S2xFRLQW2WhMp12PhC0dW3b4DsJ1Zp8vMW4mk41Z3df5tCW3gfNWf3NNvq5W2Wfj5R45C--_W2TvThL1X1vYhW2FWsYt3R6rTrW2HRVVm214_6hW4hFwgh2WQHRkW1SgNJJ3bdRWyW3ZJ9VH2nXrZ3W32DdLd3jgkhTW4t7fM83C7KSXW2-lLhw2p5nZYW3z1hXw2-g5D7W2zHhRZ4mbRz-W4cjyXs3F99qFW47N90M3JXX5ZW3yW7xy2-vcYXW36kWXM23kJbYW30B0G14mdq4WW4phCXZ2z_W0nW3C6wKM32qWbk0>
+Date: Wed, 21 Feb 2024 10:37:00 -0500
+From: SOOLLAR DISTRIBUIDORA <vendas=soollar.com.br@bf06x.hs-send.com>
+Reply-To: vendas@soollar.com.br
+To: contato@soliveenergiasolar.com.br
+Message-ID: <1708529681390.0d643d38-830f-4162-a7e7-2f2b3252fd8c@bf06x.hubspotemail.net>
+Subject: =?utf-8?Q?HOJE_TEM_PROMO=C3=87=C3=83O_PARA_PALLET_FECHADO!?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_438800_1050474090.1708529819253"
+X-Report-Abuse-To: abuse@hubspot.com (see
+ https://policy.hubspot.com/abuse-complaints)
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Spam-Status: No, score=4.5
+X-Spam-Score: 45
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Para cada pallet fechado com 37 Placas Tsun 20 CENTROS DE
+   DISTRIBUIÇÃO EM 19 ESTADOS Pague e retire no mesmo dia 
+ Content analysis details:   (4.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: hubspotemail.net]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: hubspotemail.net]
+  4.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+ -0.0 DKIMWL_WL_MED          DKIMwl.org - Medium trust sender
+X-Spam-Flag: NO
+
+------=_Part_438800_1050474090.1708529819253
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Para cada pallet fechado com 37 Placas Tsun
+
+20 CENTROS DE DISTRIBUI=C3=87=C3=83O EM 19 ESTADOS
+
+Pague e retire no mesmo dia
+
+COMPRE E PAGUE 24H PELA PLATAFORMA
+
+www.soollar.com.br
+(https://d2Fh2X04.na1.hubspotlinks.com/Ctc/RK+113/d2Fh2X04/VVsJ2S23w7K9W3CG=
+qWh1BdrGVW56dvtZ59P3GpN8JCsDM3lcq-W7lCdLW6lZ3p9W3trqzR8vnpf5W1vrprt75s5d1Vv=
+FRbM6SyhV4W4j8Kg52sdxSqW2hw8bT9fBvh6W72tXQC6MMmwxW3z7gVC4qBhvyW2Rv7X06ylVpV=
+W24X0by1fCQmgW2MKh7j78gjHQW8wj2Qb7wpQ3SVqKQXt6-gK-kW3yJQ_d6nv2Q1W75WV5n6QVR=
+lXW24x14_262z78W6DZtyn3FD3S5N3HT1XMm9KRYW2cbQ025cPJ6cW3myVXZ8_dSRyW9jMTzW4y=
+G71rW1tVpFy20vjx4W8d9G-P3mQNymW4MznXM8-KyfVW6Lj7Pq2R59jNf428fY004 )
+
+Soollar Distribuidora, rua 3, Goi=C3=A2nia, GO 74993386, brasil, 62-3121-61=
+61
+
+Cancelar assinatura (https://hs-22403785.s.hubspotemail.net/hs/preferences-=
+center/pt-br/direct?data=3DW2nXS-N30h-zKW4m71Mx217VXbW3NT9rl2qDRCFW4pyJ1V1B=
+pZQcW2sB8Dt3_T-KzW2Frv-X2r59VBW2HF4dK30dCGHW2p0tRJ4mKfD6W2KqH9h23qJ3QW4mlFY=
+w4mKGpsW38c2Zy4kx2plW2HGfVm4p8z0bW3jshbp2xR3_XW3ZP6Tv2TgHQCW3H6Tv43ZXKX_W1Y=
+Z-7G2YFKY3W2TkJNJ362t9kW1XfzlF1V1JMqW2vQmMP45BL_WW2RsxHD47pDGCW3g0r212HF0Dj=
+W3SDdBJ1NxY15W4mds5H3-0jMYW41RgKM23pWB7W2FMYbV1VqWgWW49xwWr1SkfpWW257sX11Qd=
+WXjW25cClh4pxXfGW2HZvM82HrJ8FW45QpK-2qS6kjW3NF3sy2MMlM1W2y2wPb2TSwDdW2-L589=
+4rhSS4W212Wpr3Q_R_YW30tY6H3H4mVzW3W1w7S2TS3nwW4kKpP34cyWNtW3_F-5Z3VPb1NW1Xr=
+ZqC3K6fmPW4fn_cD3df4N8W1-Vxbw2HFZKkW38zbJm3j4m_PW47CTnD2p47nhW2TRJPw2YsmHBW=
+4hGm0R3gc8D_W3W3bK34mCWxbW2vzVqw4mdxcHW2nTXD436fkmbf49SXfm04&_hsenc=3Dp2ANq=
+tz-9fc6sFWJGu6R9q9bqzJSZDZeZ0DrXvtJbpcOS_y4SLTow1G_r82BdFXl19_XrlBYx7kEOD2j=
+8Kk4SVVylxL934Ihu4taYbNJCHWaJGvYS3OJi8GZU&_hsmi=3D295068185 )
+Gerenciar prefer=C3=AAncias (https://hs-22403785.s.hubspotemail.net/hs/pref=
+erences-center/pt-br/page?data=3DW2nXS-N30h-GzW2Mq0xR2TqDk6W239nSX23jRl7W2Y=
+sJNL21bp1gW3QQ27w21jhb5W1V1FMY3ZCFqdW2FrtXB2xMgvpW2MCr_03XPPHJW3Zt-Fz385GtL=
+W23l-c03VM6rYW2Ry4LW3JJRtcW24WbTs38613fW4mq4bd238twjW2Rjc4F1_v3m9W2nR0QF2TM=
+vfDW3VBjVV3ZWWT7W2THkwr1XmkjsW2CCPmh1_nDZYW3ZM5QW1_5f57W2xyqGk38t9NJW3_Zw21=
+4hrjzvW2MnlQN45mlqgW2sPkMQ3LRJyhW45FLmG2RSJ9_W4r9C9y4fGvMrW32p-BG32CRTCW1Bf=
+jnW1ZcfvHW1VfJX130c1N4W36mCkw4rwWs7W4r6BpV47xh8XW2WfjgJ3LMXNpW3XF00l4mdYrDW=
+2RkWYl3ZZjTLW3Cc0WN41qbZwW2PQvl62t50GFW2TQWxk3fYFtFW1Y-mN42-w0kTW32DKLh2WhM=
+kcW2sLVVF2xBDrbW2Pvqfk2Mm3rDW2qM7G_2WGJVjW1SjW4h32lLbSW3Fb1Td1BLXh0W1LGkvd2=
+-g34qW1Btm-K4cKc1GW23kgnp2t5t8qW45TS2l3QWrDFW4fhD2X1VwT2_f49rrDm04&_hsenc=
+=3Dp2ANqtz-9fc6sFWJGu6R9q9bqzJSZDZeZ0DrXvtJbpcOS_y4SLTow1G_r82BdFXl19_XrlBY=
+x7kEOD2j8Kk4SVVylxL934Ihu4taYbNJCHWaJGvYS3OJi8GZU&_hsmi=3D295068185 )
+------=_Part_438800_1050474090.1708529819253
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3=
+.org/1999/xhtml" xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:=
+v=3D"urn:schemas-microsoft-com:vml" lang=3D"pt"><head>
+    <title>HOJE TEM PROMO=C3=87=C3=83O PARA PALLET FECHADO!</title>
+    <meta property=3D"og:title" content=3D"HOJE TEM PROMO=C3=87=C3=83O PARA=
+ PALLET FECHADO!">
+    <meta name=3D"twitter:title" content=3D"HOJE TEM PROMO=C3=87=C3=83O PAR=
+A PALLET FECHADO!">
+   =20
+   =20
+   =20
+<meta name=3D"x-apple-disable-message-reformatting">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+    <!--[if gte mso 9]>
+  <xml>
+      <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+  </xml>
+ =20
+  <style>
+    ul > li {
+      text-indent: -1em;
+    }
+  </style>
+<![endif]-->
+<!--[if mso]>
+<style type=3D"text/css">
+ body, td {font-family: Arial, Helvetica, sans-serif;}
+ .hse-body-wrapper-table {background-color: #EAF0F6;}
+</style>
+<![endif]-->
+   =20
+     =20
+   =20
+  <meta name=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" co=
+ntent=3D"http://22403785.hs-sites.com/-temporary-slug-9c73d39a-9741-4b9b-af=
+31-33a1db404880"><meta name=3D"robots" content=3D"noindex,follow"><!--[if !=
+((mso)|(IE))]><!-- --><style type=3D"text/css">.moz-text-html .hse-column-c=
+ontainer{max-width:600px !important;width:600px !important}
+.moz-text-html .hse-column{display:table-cell;vertical-align:top}.moz-text-=
+html .hse-section .hse-size-12{max-width:600px !important;width:600px !impo=
+rtant}
+@media only screen and (min-width:640px){.hse-column-container{max-width:60=
+0px !important;width:600px !important}
+.hse-column{display:table-cell;vertical-align:top}.hse-section .hse-size-12=
+{max-width:600px !important;width:600px !important}
+}@media only screen and (max-width:639px){img.stretch-on-mobile,.hs_rss_ema=
+il_entries_table img,.hs-stretch-cta .hs-cta-img{height:auto !important;wid=
+th:100% !important}
+.display_block_on_small_screens{display:block}.hs_padded{padding-left:20px =
+!important;padding-right:20px !important}
+.hs-hm,table.hs-hm{display:none}.hs-hd{display:block !important}table.hs-hd=
+{display:table !important}
+}</style><!--<![endif]--><style type=3D"text/css">#hs_body #hs_cos_wrapper_=
+main a[x-apple-data-detectors]{color:inherit !important;text-decoration:non=
+e !important;font-size:inherit !important;font-family:inherit !important;fo=
+nt-weight:inherit !important;line-height:inherit !important}
+a{text-decoration:underline}p{margin:0}body{-ms-text-size-adjust:100%;-webk=
+it-text-size-adjust:100%;-webkit-font-smoothing:antialiased;moz-osx-font-sm=
+oothing:grayscale}</style></head>
+  <body id=3D"hs_body" bgcolor=3D"#EAF0F6" style=3D"margin:0 !important; pa=
+dding:0 !important; font-family:Arial, sans-serif; font-size:15px; color:#2=
+3496d; word-break:break-word">
+    <div id=3D"preview_text" style=3D"display:none;font-size:1px;color:#EAF=
+0F6;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;=
+" lang=3D"pt">Para cada pallet fechado com 37 Placas Tsun</div>
+   =20
+<!--[if gte mso 9]>
+<v:background xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"t">
+    <v:fill type=3D"tile" size=3D"100%,100%" color=3D"#ffffff"/>
+</v:background>
+<![endif]-->
+    <div class=3D"hse-body-background" lang=3D"pt" style=3D"background-colo=
+r:#eaf0f6" bgcolor=3D"#eaf0f6">
+      <table role=3D"presentation" class=3D"hse-body-wrapper-table" cellpad=
+ding=3D"0" cellspacing=3D"0" style=3D"border-spacing:0 !important; border-c=
+ollapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; margin:0; pad=
+ding:0; width:100% !important; min-width:320px !important; height:100% !imp=
+ortant" width=3D"100%" height=3D"100%">
+        <tbody><tr>
+          <td class=3D"hse-body-wrapper-td" valign=3D"top" style=3D"border-=
+collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-se=
+rif; font-size:15px; color:#23496d; word-break:break-word; padding-top:20px=
+; padding-bottom:20px">
+            <div id=3D"hs_cos_wrapper_main" class=3D"hs_cos_wrapper hs_cos_=
+wrapper_widget hs_cos_wrapper_type_dnd_area" style=3D"color: inherit; font-=
+size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widget" d=
+ata-hs-cos-type=3D"dnd_area"> =20
+  <div id=3D"section_1689683678995" class=3D"hse-section hse-section-first"=
+ style=3D"padding-left:10px; padding-right:10px">
+   =20
+   =20
+    <!--[if !((mso)|(IE))]><!-- -->
+      <div class=3D"hse-column-container" style=3D"min-width:280px; max-wid=
+th:600px; Margin-left:auto; Margin-right:auto; border-collapse:collapse; bo=
+rder-spacing:0; background-color:#ffffff" bgcolor=3D"#ffffff">
+    <!--<![endif]-->
+   =20
+    <!--[if (mso)|(IE)]>
+      <div class=3D"hse-column-container" style=3D"min-width:280px;max-widt=
+h:600px;width:100%;Margin-left:auto;Margin-right:auto;border-collapse:colla=
+pse;border-spacing:0;">
+      <table align=3D"center" style=3D"border-collapse:collapse;mso-table-l=
+space:0pt;mso-table-rspace:0pt;width:600px;" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"600" bgcolor=3D"#ffffff">
+      <tr style=3D"background-color:#ffffff;">
+    <![endif]-->
+    <!--[if (mso)|(IE)]>
+  <td valign=3D"top" style=3D"width:600px;">
+<![endif]-->
+<!--[if gte mso 9]>
+  <table role=3D"presentation" width=3D"600" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-table-rsp=
+ace:0pt;width:600px">
+<![endif]-->
+<div id=3D"column_1689683678995_0" class=3D"hse-column hse-size-12">
+  <div id=3D"hs_cos_wrapper_module_17083517750991" class=3D"hs_cos_wrapper =
+hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=3D"color: inherit; =
+font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widg=
+et" data-hs-cos-type=3D"module"><table class=3D"hse-image-wrapper" role=3D"=
+presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"b=
+order-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt">
+  <tbody>
+    <tr>
+      <td class=3D"hs_padded" align=3D"center" valign=3D"top" style=3D"bord=
+er-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans=
+-serif; color:#23496d; word-break:break-word; text-align:center; padding:10=
+px 20px; font-size:0px">
+        <img alt=3D"PALETTE COM 37 M=C3=93DULOS (6)" src=3D"https://hs-2240=
+3785.f.hubspotemail.net/hub/22403785/hubfs/PALETTE%20COM%2037%20M%C3%93DULO=
+S%20(6).jpg?width=3D1120&amp;upscale=3Dtrue&amp;name=3DPALETTE%20COM%2037%2=
+0M%C3%93DULOS%20(6).jpg" style=3D"outline:none; text-decoration:none; -ms-i=
+nterpolation-mode:bicubic; max-width:100%; font-size:16px" width=3D"560" al=
+ign=3D"middle" srcset=3D"https://hs-22403785.f.hubspotemail.net/hub/2240378=
+5/hubfs/PALETTE%20COM%2037%20M%C3%93DULOS%20(6).jpg?upscale=3Dtrue&amp;widt=
+h=3D1120&amp;upscale=3Dtrue&amp;name=3DPALETTE%20COM%2037%20M%C3%93DULOS%20=
+(6).jpg 560w, https://hs-22403785.f.hubspotemail.net/hub/22403785/hubfs/PAL=
+ETTE%20COM%2037%20M%C3%93DULOS%20(6).jpg?upscale=3Dtrue&amp;width=3D2240&am=
+p;upscale=3Dtrue&amp;name=3DPALETTE%20COM%2037%20M%C3%93DULOS%20(6).jpg 112=
+0w" sizes=3D"(max-width: 560px) 100vw, 560px">
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"border-spacing:0 !important; border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td class=3D"hs_padded" st=
+yle=3D"border-collapse:collapse; mso-line-height-rule:exactly; font-family:=
+Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; pa=
+dding:10px 20px"><div id=3D"hs_cos_wrapper_module_168987772920612" class=3D=
+"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=3D"=
+color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-gene=
+ral-type=3D"widget" data-hs-cos-type=3D"module"><!--[if gte mso 9]>
+<div style=3D"line-height: 0; font-size: 0px">
+  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D=
+"false" style=3D"width:560px; height:2pt;" fillcolor=3D"none">
+    <v:fill type=3D"tile"/>
+    <v:textbox inset=3D"0,0,0,0">
+      <div>
+<![endif]-->
+<table role=3D"presentation" width=3D"100%" align=3D"center" border=3D"0" s=
+tyle=3D"position:relative; top:-1px; min-width:20px; width:100%; max-width:=
+100%; border-spacing:0; mso-table-lspace:0pt; mso-table-rspace:0pt; border-=
+collapse:collapse; font-size:1px">
+  <tbody><tr><td width=3D"100%" valign=3D"middle" style=3D"border-collapse:=
+collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font=
+-size:15px; color:#23496d; word-break:break-word; line-height:0; border:tra=
+nsparent; border-bottom:1px solid #FF9902; mso-border-bottom-alt:2pt solid =
+#FF9902; border-bottom-width:1px"><!--[if mso 16]>&nbsp;<![endif]--></td></=
+tr>
+</tbody></table>
+<!--[if gte mso 9]>
+      </div>
+    </v:textbox>
+  </v:rect>
+</div>
+<![endif]--></div></td></tr></tbody></table>
+<table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"border-spacing:0 !important; border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td class=3D"hs_padded" st=
+yle=3D"border-collapse:collapse; mso-line-height-rule:exactly; font-family:=
+Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; pa=
+dding:10px 20px"><div id=3D"hs_cos_wrapper_module_17079990728953" class=3D"=
+hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=3D"c=
+olor: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-gener=
+al-type=3D"widget" data-hs-cos-type=3D"module"><div id=3D"hs_cos_wrapper_mo=
+dule_17079990728953_" class=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_=
+wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; line-h=
+eight: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=3D"ri=
+ch_text"><h2 style=3D"margin:0; mso-line-height-rule:exactly; line-height:1=
+75%; font-size:22px">20 CENTROS DE DISTRIBUI=C3=87=C3=83O EM 19 ESTADOS</h2=
+></div></div></td></tr></tbody></table>
+</div>
+<!--[if gte mso 9]></table><![endif]-->
+<!--[if (mso)|(IE)]></td><![endif]-->
+    <!--[if (mso)|(IE)]></tr></table><![endif]-->
+    </div>
+  =20
+  </div>
+ =20
+ =20
+  <div id=3D"section-1" class=3D"hse-section" style=3D"padding-left:10px; p=
+adding-right:10px">
+   =20
+   =20
+    <!--[if !((mso)|(IE))]><!-- -->
+      <div class=3D"hse-column-container" style=3D"min-width:280px; max-wid=
+th:600px; Margin-left:auto; Margin-right:auto; border-collapse:collapse; bo=
+rder-spacing:0; background-color:#ffffff; padding-bottom:30px" bgcolor=3D"#=
+ffffff">
+    <!--<![endif]-->
+   =20
+    <!--[if (mso)|(IE)]>
+      <div class=3D"hse-column-container" style=3D"min-width:280px;max-widt=
+h:600px;width:100%;Margin-left:auto;Margin-right:auto;border-collapse:colla=
+pse;border-spacing:0;">
+      <table align=3D"center" style=3D"border-collapse:collapse;mso-table-l=
+space:0pt;mso-table-rspace:0pt;width:600px;" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"600" bgcolor=3D"#ffffff">
+      <tr style=3D"background-color:#ffffff;">
+    <![endif]-->
+    <!--[if (mso)|(IE)]>
+  <td valign=3D"top" style=3D"width:600px;padding-bottom:30px;">
+<![endif]-->
+<!--[if gte mso 9]>
+  <table role=3D"presentation" width=3D"600" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-table-rsp=
+ace:0pt;width:600px">
+<![endif]-->
+<div id=3D"column-1-0" class=3D"hse-column hse-size-12">
+  <div id=3D"hs_cos_wrapper_module_17044632290891" class=3D"hs_cos_wrapper =
+hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=3D"color: inherit; =
+font-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widg=
+et" data-hs-cos-type=3D"module"><table class=3D"hse-image-wrapper" role=3D"=
+presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"b=
+order-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt">
+  <tbody>
+    <tr>
+      <td class=3D"hs_padded" align=3D"center" valign=3D"top" style=3D"bord=
+er-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans=
+-serif; color:#23496d; word-break:break-word; text-align:center; padding:10=
+px 20px; font-size:0px">
+        <img alt=3D"TEM INTEGRADOR PAGANDO" src=3D"https://hs-22403785.f.hu=
+bspotemail.net/hub/22403785/hubfs/TEM%20INTEGRADOR%20PAGANDO.png?width=3D11=
+20&amp;upscale=3Dtrue&amp;name=3DTEM%20INTEGRADOR%20PAGANDO.png" style=3D"o=
+utline:none; text-decoration:none; -ms-interpolation-mode:bicubic; max-widt=
+h:100%; font-size:16px" width=3D"560" align=3D"middle" srcset=3D"https://hs=
+-22403785.f.hubspotemail.net/hub/22403785/hubfs/TEM%20INTEGRADOR%20PAGANDO.=
+png?upscale=3Dtrue&amp;width=3D1120&amp;upscale=3Dtrue&amp;name=3DTEM%20INT=
+EGRADOR%20PAGANDO.png 560w, https://hs-22403785.f.hubspotemail.net/hub/2240=
+3785/hubfs/TEM%20INTEGRADOR%20PAGANDO.png?upscale=3Dtrue&amp;width=3D2240&a=
+mp;upscale=3Dtrue&amp;name=3DTEM%20INTEGRADOR%20PAGANDO.png 1120w" sizes=3D=
+"(max-width: 560px) 100vw, 560px">
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+<table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"border-spacing:0 !important; border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td class=3D"hs_padded" st=
+yle=3D"border-collapse:collapse; mso-line-height-rule:exactly; font-family:=
+Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; pa=
+dding:10px 20px 0px"><div id=3D"hs_cos_wrapper_module_169028621614616" clas=
+s=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-=
+general-type=3D"widget" data-hs-cos-type=3D"module"><div id=3D"hs_cos_wrapp=
+er_module_169028621614616_" class=3D"hs_cos_wrapper hs_cos_wrapper_widget h=
+s_cos_wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; =
+line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=
+=3D"rich_text"><h2 style=3D"margin:0; mso-line-height-rule:exactly; font-si=
+ze:22px; text-align:center; font-weight:normal; line-height:100%" align=3D"=
+center">Pague e retire no mesmo dia</h2></div></div></td></tr></tbody></tab=
+le>
+<table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"border-spacing:0 !important; border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td class=3D"hs_padded" st=
+yle=3D"border-collapse:collapse; mso-line-height-rule:exactly; font-family:=
+Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; pa=
+dding:10px 20px 0px"><div id=3D"hs_cos_wrapper_module_169028596259213" clas=
+s=3D"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=
+=3D"color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-=
+general-type=3D"widget" data-hs-cos-type=3D"module"><div id=3D"hs_cos_wrapp=
+er_module_169028596259213_" class=3D"hs_cos_wrapper hs_cos_wrapper_widget h=
+s_cos_wrapper_type_rich_text" style=3D"color: inherit; font-size: inherit; =
+line-height: inherit;" data-hs-cos-general-type=3D"widget" data-hs-cos-type=
+=3D"rich_text"><h2 style=3D"margin:0; mso-line-height-rule:exactly; line-he=
+ight:175%; font-size:22px; text-align:center" align=3D"center">COMPRE E PAG=
+UE 24H PELA PLATAFORMA</h2></div></div></td></tr></tbody></table>
+<table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"border-spacing:0 !important; border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td class=3D"hs_padded" st=
+yle=3D"border-collapse:collapse; mso-line-height-rule:exactly; font-family:=
+Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; pa=
+dding:10px 20px"><div id=3D"hs_cos_wrapper_module_16892494560926" class=3D"=
+hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=3D"c=
+olor: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-gener=
+al-type=3D"widget" data-hs-cos-type=3D"module">
+ =20
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"border-spacing:0 !important; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate!import=
+ant">
+    <tbody><tr>
+        <!--[if mso]>
+      <td align=3D"center" valign=3D"middle" bgcolor=3D"#FF9902" style=3D"b=
+order-radius:8px;cursor:auto;background-color:#FF9902;padding:12px 18px;">
+    <![endif]-->
+    <!--[if !mso]><!-- -->
+      <td align=3D"center" valign=3D"middle" bgcolor=3D"#FF9902" style=3D"b=
+order-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, s=
+ans-serif; font-size:15px; color:#23496d; word-break:break-word; border-rad=
+ius:8px; cursor:auto; background-color:#FF9902">
+   <!--<![endif]-->
+        <a href=3D"https://d2Fh2X04.na1.hubspotlinks.com/Ctc/RK+113/d2Fh2X0=
+4/VVsJ2S23w7K9W3CGqWh1BdrGVW56dvtZ59P3GpN8JCsDM3m2ndW7lCdLW6lZ3pQVLXX9W4cqj=
+XjW60VLHD5MtzZmW3st9yw1j7VP6W72cQqN79zY1LN5yvNWLPB4ljVm0d9V38wttwW4PJd074WH=
+THCW954LCG37CjW0W781f3l8xC3C7W4wJh8K5bN2nsW6n8b358nLzRQN363R2KH14RBVfKgNb7-=
+zQRyW5TNDWV7-yQkyW5jLglT1TSFD0W8xrgXt6RDW0lW90sfQ_21V46CW3t3M_x35kfLdW4NwRd=
+n2hRvjgW6jK4v168ch_5VdQ9_v8DPTXpW2WZ8dy2-ptkTN8qn0WM6jmJvW6Zb_RX56_gQVd6h6f=
+F04" target=3D"_blank" style=3D"color:#00a4bd; mso-line-height-rule:exactly=
+; font-size:34px; font-family:Arial, sans-serif; Margin:0; text-transform:n=
+one; text-decoration:none; padding:12px 18px; display:block" data-hs-link-i=
+d=3D"0">
+          <strong style=3D"color:#FFFFFF;font-weight:bold;text-decoration:n=
+one;font-style:normal;">          www.soollar.com.br          </strong>
+        </a>
+      </td>
+    </tr>
+  </tbody></table>
+</div></td></tr></tbody></table>
+<div id=3D"hs_cos_wrapper_module_16928785576864" class=3D"hs_cos_wrapper hs=
+_cos_wrapper_widget hs_cos_wrapper_type_module" style=3D"color: inherit; fo=
+nt-size: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widget=
+" data-hs-cos-type=3D"module"><table class=3D"hse-image-wrapper" role=3D"pr=
+esentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"bor=
+der-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; m=
+so-table-rspace:0pt">
+  <tbody>
+    <tr>
+      <td class=3D"hs_padded" align=3D"center" valign=3D"top" style=3D"bord=
+er-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans=
+-serif; color:#23496d; word-break:break-word; text-align:center; padding:10=
+px 20px; font-size:0px">
+        <img alt=3D"TRAZEMOS NOVIDADES PARA VOC=C3=8A! (2)" src=3D"https://=
+hs-22403785.f.hubspotemail.net/hub/22403785/hubfs/TRAZEMOS%20NOVIDADES%20PA=
+RA%20VOC%C3%8A!%20(2).png?width=3D678&amp;upscale=3Dtrue&amp;name=3DTRAZEMO=
+S%20NOVIDADES%20PARA%20VOC%C3%8A!%20(2).png" style=3D"outline:none; text-de=
+coration:none; -ms-interpolation-mode:bicubic; max-width:100%; font-size:16=
+px" width=3D"339" align=3D"middle" srcset=3D"https://hs-22403785.f.hubspote=
+mail.net/hub/22403785/hubfs/TRAZEMOS%20NOVIDADES%20PARA%20VOC%C3%8A!%20(2).=
+png?upscale=3Dtrue&amp;width=3D678&amp;upscale=3Dtrue&amp;name=3DTRAZEMOS%2=
+0NOVIDADES%20PARA%20VOC%C3%8A!%20(2).png 339w, https://hs-22403785.f.hubspo=
+temail.net/hub/22403785/hubfs/TRAZEMOS%20NOVIDADES%20PARA%20VOC%C3%8A!%20(2=
+).png?upscale=3Dtrue&amp;width=3D1356&amp;upscale=3Dtrue&amp;name=3DTRAZEMO=
+S%20NOVIDADES%20PARA%20VOC%C3%8A!%20(2).png 678w" sizes=3D"(max-width: 339p=
+x) 100vw, 339px">
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+<!--[if gte mso 9]></table><![endif]-->
+<!--[if (mso)|(IE)]></td><![endif]-->
+    <!--[if (mso)|(IE)]></tr></table><![endif]-->
+    </div>
+  =20
+  </div>
+ =20
+ =20
+  <div id=3D"section-2" class=3D"hse-section hse-section-last" style=3D"pad=
+ding-left:10px; padding-right:10px">
+   =20
+   =20
+    <!--[if !((mso)|(IE))]><!-- -->
+      <div class=3D"hse-column-container" style=3D"min-width:280px; max-wid=
+th:600px; Margin-left:auto; Margin-right:auto; border-collapse:collapse; bo=
+rder-spacing:0; padding-bottom:20px; padding-top:20px">
+    <!--<![endif]-->
+   =20
+    <!--[if (mso)|(IE)]>
+      <div class=3D"hse-column-container" style=3D"min-width:280px;max-widt=
+h:600px;width:100%;Margin-left:auto;Margin-right:auto;border-collapse:colla=
+pse;border-spacing:0;">
+      <table align=3D"center" style=3D"border-collapse:collapse;mso-table-l=
+space:0pt;mso-table-rspace:0pt;width:600px;" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation">
+      <tr>
+    <![endif]-->
+    <!--[if (mso)|(IE)]>
+  <td valign=3D"top" style=3D"width:600px;padding-bottom:20px; padding-top:=
+20px;">
+<![endif]-->
+<!--[if gte mso 9]>
+  <table role=3D"presentation" width=3D"600" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-table-rsp=
+ace:0pt;width:600px">
+<![endif]-->
+<div id=3D"column-2-0" class=3D"hse-column hse-size-12">
+  <div id=3D"hs_cos_wrapper_module-2-0-0" class=3D"hs_cos_wrapper hs_cos_wr=
+apper_widget hs_cos_wrapper_type_module" style=3D"color: inherit; font-size=
+: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widget" data-=
+hs-cos-type=3D"module"><table role=3D"presentation" class=3D"hse-footer hse=
+-secondary" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"bor=
+der-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; m=
+so-table-rspace:0pt; font-family:Arial, sans-serif; font-size:12px; line-he=
+ight:135%; color:#23496d; margin-bottom:0; padding:0">
+  <tbody>
+    <tr>
+      <td align=3D"center" valign=3D"top" style=3D"border-collapse:collapse=
+; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15=
+px; color:#23496d; word-break:break-word; text-align:center; margin-bottom:=
+0; line-height:135%; padding:10px 20px">
+        <p style=3D"mso-line-height-rule:exactly; font-family:Arial, sans-s=
+erif; font-size:12px; font-weight:normal; text-decoration:none; font-style:=
+normal; color:#23496d">
+          Soollar Distribuidora, rua 3, Goi=C3=A2nia, GO 74993386, brasil, =
+62-3121-6161
+        </p>
+        <p style=3D"mso-line-height-rule:exactly">
+          <a data-unsubscribe=3D"true" href=3D"https://hs-22403785.s.hubspo=
+temail.net/hs/preferences-center/pt-br/direct?data=3DW2nXS-N30h-zKW4m71Mx21=
+7VXbW3NT9rl2qDRCFW4pyJ1V1BpZQcW2sB8Dt3_T-KzW2Frv-X2r59VBW2HF4dK30dCGHW2p0tR=
+J4mKfD6W2KqH9h23qJ3QW4mlFYw4mKGpsW38c2Zy4kx2plW2HGfVm4p8z0bW3jshbp2xR3_XW3Z=
+P6Tv2TgHQCW3H6Tv43ZXKX_W1YZ-7G2YFKY3W2TkJNJ362t9kW1XfzlF1V1JMqW2vQmMP45BL_W=
+W2RsxHD47pDGCW3g0r212HF0DjW3SDdBJ1NxY15W4mds5H3-0jMYW41RgKM23pWB7W2FMYbV1Vq=
+WgWW49xwWr1SkfpWW257sX11QdWXjW25cClh4pxXfGW2HZvM82HrJ8FW45QpK-2qS6kjW3NF3sy=
+2MMlM1W2y2wPb2TSwDdW2-L5894rhSS4W212Wpr3Q_R_YW30tY6H3H4mVzW3W1w7S2TS3nwW4kK=
+pP34cyWNtW3_F-5Z3VPb1NW1XrZqC3K6fmPW4fn_cD3df4N8W1-Vxbw2HFZKkW38zbJm3j4m_PW=
+47CTnD2p47nhW2TRJPw2YsmHBW4hGm0R3gc8D_W3W3bK34mCWxbW2vzVqw4mdxcHW2nTXD436fk=
+mbf49SXfm04&amp;utm_source=3Dhs_email&amp;utm_medium=3Demail&amp;utm_conten=
+t=3D295068185&amp;_hsenc=3Dp2ANqtz-_5LJiFpoyISjoMaqLPJ0z4R-Ml9U-cupdipLPAVx=
+hD-tP7VcNgw54AeByQuED3ZLbpodfzop6_hinCE5PhEWmZJvlV7dRi1wQciMZKMzSEhdvRhDw&a=
+mp;_hsmi=3D295068185" style=3D"mso-line-height-rule:exactly; font-family:He=
+lvetica,Arial,sans-serif; font-size:12px; color:#00a4bd; font-weight:normal=
+; text-decoration:underline; font-style:normal" data-hs-link-id=3D"0" targe=
+t=3D"_blank">Cancelar assinatura</a>
+          <a data-unsubscribe=3D"true" href=3D"https://hs-22403785.s.hubspo=
+temail.net/hs/preferences-center/pt-br/page?data=3DW2nXS-N30h-GzW2Mq0xR2TqD=
+k6W239nSX23jRl7W2YsJNL21bp1gW3QQ27w21jhb5W1V1FMY3ZCFqdW2FrtXB2xMgvpW2MCr_03=
+XPPHJW3Zt-Fz385GtLW23l-c03VM6rYW2Ry4LW3JJRtcW24WbTs38613fW4mq4bd238twjW2Rjc=
+4F1_v3m9W2nR0QF2TMvfDW3VBjVV3ZWWT7W2THkwr1XmkjsW2CCPmh1_nDZYW3ZM5QW1_5f57W2=
+xyqGk38t9NJW3_Zw214hrjzvW2MnlQN45mlqgW2sPkMQ3LRJyhW45FLmG2RSJ9_W4r9C9y4fGvM=
+rW32p-BG32CRTCW1BfjnW1ZcfvHW1VfJX130c1N4W36mCkw4rwWs7W4r6BpV47xh8XW2WfjgJ3L=
+MXNpW3XF00l4mdYrDW2RkWYl3ZZjTLW3Cc0WN41qbZwW2PQvl62t50GFW2TQWxk3fYFtFW1Y-mN=
+42-w0kTW32DKLh2WhMkcW2sLVVF2xBDrbW2Pvqfk2Mm3rDW2qM7G_2WGJVjW1SjW4h32lLbSW3F=
+b1Td1BLXh0W1LGkvd2-g34qW1Btm-K4cKc1GW23kgnp2t5t8qW45TS2l3QWrDFW4fhD2X1VwT2_=
+f49rrDm04&amp;utm_source=3Dhs_email&amp;utm_medium=3Demail&amp;utm_content=
+=3D295068185&amp;_hsenc=3Dp2ANqtz-_5LJiFpoyISjoMaqLPJ0z4R-Ml9U-cupdipLPAVxh=
+D-tP7VcNgw54AeByQuED3ZLbpodfzop6_hinCE5PhEWmZJvlV7dRi1wQciMZKMzSEhdvRhDw&am=
+p;_hsmi=3D295068185" style=3D"mso-line-height-rule:exactly; font-family:Hel=
+vetica,Arial,sans-serif; font-size:12px; color:#00a4bd; font-weight:normal;=
+ text-decoration:underline; font-style:normal" data-hs-link-id=3D"0" target=
+=3D"_blank">Gerenciar prefer=C3=AAncias</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+<!--[if gte mso 9]></table><![endif]-->
+<!--[if (mso)|(IE)]></td><![endif]-->
+    <!--[if (mso)|(IE)]></tr></table><![endif]-->
+    </div>
+  =20
+  </div>
+  </div>
+          </td>
+        </tr>
+      </tbody></table>
+    </div>
+ =20
+<img src=3D"https://d2Fh2X04.na1.hubspotlinks.com/Cto/RK+113/d2Fh2X04/VVsJ2=
+S23w7K9W3CGqWh1BdrGVW56dvtZ59P3GpW8JCsnz8fYFrm2Zp1" alt=3D"" width=3D"1" he=
+ight=3D"1" border=3D"0" style=3D"display:none!important;min-height:1px!impo=
+rtant;width:1px!important;border-width:0!important;margin-top:0!important;m=
+argin-bottom:0!important;margin-right:0!important;margin-left:0!important;p=
+adding-top:0!important;padding-bottom:0!important;padding-right:0!important=
+;padding-left:0!important"></body></html>
+------=_Part_438800_1050474090.1708529819253--
+

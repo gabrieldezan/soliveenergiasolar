@@ -1,0 +1,92 @@
+Return-Path: <contatos@todasoperadoras.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id SJtoLK3yeWVfUgAAIElduQ
+	(envelope-from <contatos@todasoperadoras.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 13 Dec 2023 18:06:37 +0000
+Return-path: <contatos@todasoperadoras.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 13 Dec 2023 18:06:37 +0000
+Received: from mdk5mwnlnzy3.todasoperadoras.com.br ([186.251.133.14]:41842 helo=server.todasoperadoras.com.br)
+	by cpl02.main-hosting.eu with esmtp (Exim 4.96.2)
+	(envelope-from <contatos@todasoperadoras.com.br>)
+	id 1rDTcy-0009ji-01
+	for contato@soliveenergiasolar.com.br;
+	Wed, 13 Dec 2023 18:06:37 +0000
+Received: from DESKTOP-OH8VS1I.local (unknown [177.37.51.25])
+	by server.todasoperadoras.com.br (Postfix) with ESMTPA id 158D13ECA
+	for <contato@soliveenergiasolar.com.br>; Wed, 13 Dec 2023 15:09:13 -0300 (-03)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=todasoperadoras.com.br; s=default; t=1702490953;
+	bh=lBNsj+pNKuSEdSmHd+0AzWuppq2I9fnm81W1WrtCF/A=;
+	h=From:To:Subject:Date:Reply-To;
+	b=StD63cqI/QzIKjDCFapeasuwKV8iSah8ck8VbFvGLm4y6t6pEcnba7ooMd39qhPMN
+	 kgnOwsLfXS5riXR1a4uIudrvQS+hnPfprTXyeE8wxjuZ1lA0XDVJGgJrqNJ4wUEQWj
+	 FSf0Glgrij10lNgChyDmwfnqIXsf7tW4KlaoaujDGO5UPchodgQsAWz2c4TwunvQFD
+	 CdLF9b/TNPBg5MKYxzvC4Jn1rzBYOm1RIH4/BmCfEVAQKmNTtSJjE4Oa0rsRaBhIAx
+	 Ljh6bh4bpx7rytTsaY+r19TE1vfbEWlaHzAoMoO2SL2ar6MPtVrbg4xx0Q13Rpzn5T
+	 XKWWw2CIdLWUw==
+From: "Atendimento" <contatos@todasoperadoras.com.br>
+To: contato@soliveenergiasolar.com.br
+Subject: auto test
+Date: Wed, 13 Dec 2023 15:05:27 -0300
+MIME-Version: 1.0
+Message-ID: <1702241069466c28287cd3e8b58ad53582c3f30da5_2748@todasoperadoras.com.br>
+Reply-To: contatos@todasoperadoras.com.br
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Server self test. test done 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: todasoperadoras.com.br]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: todasoperadoras.com.br]
+  0.0 RCVD_IN_ZEN_BLOCKED_OPENDNS RBL: ADMINISTRATOR NOTICE: The query
+                              to zen.spamhaus.org was blocked due to
+                             usage of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [186.251.133.14 listed in zen.spamhaus.org]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: todasoperadoras.com.br]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8">
+</HEAD>
+<BODY>
+<DIV>Server self test. </DIV>
+<DIV>test done</DIV></BODY></HTML>
+

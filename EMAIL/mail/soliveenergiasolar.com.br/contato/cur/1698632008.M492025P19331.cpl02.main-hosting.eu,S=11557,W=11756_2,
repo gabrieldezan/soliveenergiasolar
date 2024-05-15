@@ -1,0 +1,199 @@
+Return-Path: <abcmetalurgica@hotmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id YPDOHEgRP2WDSwAAIElduQ
+	(envelope-from <abcmetalurgica@hotmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 30 Oct 2023 02:13:28 +0000
+Return-path: <abcmetalurgica@hotmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 30 Oct 2023 02:13:28 +0000
+Received: from mail-bn8nam12olkn2108.outbound.protection.outlook.com ([40.92.21.108]:13953 helo=NAM12-BN8-obe.outbound.protection.outlook.com)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <abcmetalurgica@hotmail.com>)
+	id 1qxHmR-00014X-2P
+	for contato@soliveenergiasolar.com.br;
+	Mon, 30 Oct 2023 02:13:28 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=c5BdPY7sH8Gil/2Dyq83yMenmtSYYasXHEUNCtW0bSifRlf3mrzmr3LCPtyuHo+p8gCQHoFmR59685b4gFYhB8TgGHAq+BYTAdZQcSYyXlZjJoGafyb4PO8wYaQDBCVVwP+Z1KrL1Rhbuobr7pBjWkEcvHBA5T4pbNRPtvBSGKK3DwrKnJmnDUapD3F47THrDKGRTZ5DgVLIelRio1Wi+0z5Kpx5n1cdwKhVF68FcbjfulBOxOp7jMA/bc3AyX9sErWEOizyyIEoF14oxODKfepvouQMGCqRMmJuiLDo0GTlO83a4NmxQdU1X3au+qvcccaTSyMuTqeP5BLVy2q/yQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=5FRQWy/jk6ddONlhoDkL2JjRsYbXSPT1f2+irQbEqCc=;
+ b=gCtAXAyX00Zdifov6yzVFyqydtKb9buLjiOWSW3XqmIHOGyP1+TZjpxywuKzZFzh4XYKfIte4/rVxH4dpVDP7VItEKTVWOApM93icZ1Q1jCqF6Qjsphm8bomO7gYykfxrngxuLiIQffz9ZXB0PJ97ktoEhy8R/KdC16ST1a9vT+IRKTyfSAsrSBRtTjBly09PtXOiyIwzs7ame9qM4b/v/2rICIo50kYOZwC3fgX61b7ry+XEgDCWxrPBgm2YpDD7PxFoRe8uttOf2MxS9GaenSpZccz33kwFpbIL0szlBBOuOZ51nFbPMAXAMg1Y5MPLvhhX8xMmGfJ3JunS8d92Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=5FRQWy/jk6ddONlhoDkL2JjRsYbXSPT1f2+irQbEqCc=;
+ b=G1SPXE+Rgcg5UYKb/ZikjJfvz34M4vwoHZocs8GUSqQ1GSmPPSJwNO09W20mGXLJL7lWO+fbd+PG491V1664dY6G22upOybBL7SZAqdcx4DOa0zOq/9UVYrZ1u4Rk54uUKqvISxkL16fLWjg8S9ptdwO0qIJN4UkirPC7T1Lt2Ka+lIpEawLKkT7jR13geCrnrCifZXdXBJEpXQtOGrL8oVs5ynohk77SNvJk2SwoeMb50vJMqnGZQ4bncgwduyuNIujHQv54cwKze5X1rpS8NdYU3zUKCVJq6/9X9k8PlvkjmhEzWXhp+8ofH4ky+oiPz9Ninkq4dK+K+rTQQyB9g==
+Received: from CPWPR80MB7517.lamprd80.prod.outlook.com (2603:10d6:103:1d1::5)
+ by SCZPR80MB7440.lamprd80.prod.outlook.com (2603:10d6:300:b6::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6933.26; Mon, 30 Oct
+ 2023 02:13:24 +0000
+Received: from CPWPR80MB7517.lamprd80.prod.outlook.com
+ ([fe80::e4fa:ab71:5f04:6dd9]) by CPWPR80MB7517.lamprd80.prod.outlook.com
+ ([fe80::e4fa:ab71:5f04:6dd9%3]) with mapi id 15.20.6933.024; Mon, 30 Oct 2023
+ 02:13:24 +0000
+From: GENESIO J ROEGELIN <abcmetalurgica@hotmail.com>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject: Boa noite , segue comprovante e notas(nfe-1449547760,nfe-1449547760).
+ contato@soliveenergiasolar.com.br - LRVZ68UL4H
+Thread-Topic: Boa noite , segue comprovante e
+ notas(nfe-1449547760,nfe-1449547760). contato@soliveenergiasolar.com.br -
+ LRVZ68UL4H
+Thread-Index: AQHaCtYTEebyb4k4O0u8v4K2bXXUZA==
+Date: Mon, 30 Oct 2023 02:09:13 +0000
+Message-ID:
+ <CPWPR80MB7517AEB494B32D24216DCE98D5A1A@CPWPR80MB7517.lamprd80.prod.outlook.com>
+Accept-Language: pt-BR, en-US
+Content-Language: pt-BR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-tmn: [qoF+LEIQLcKgegz+qVqO8kp3178/6ZyK]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CPWPR80MB7517:EE_|SCZPR80MB7440:EE_
+x-ms-office365-filtering-correlation-id: 3d816feb-16a3-4ccb-93b7-08dbd8edcc1f
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?aAdNvMpa6hi+HiNoe/TqxOCOT+V2zSUrclYDRrdtzZ9ORovd1iff+j7cmw?=
+ =?iso-8859-1?Q?fxcODNdyV2aG75brkrEc8KjTwns6HjpViae2frKkiPOhf7HAn1V34X4Au+?=
+ =?iso-8859-1?Q?qb38nZE4CYue5/5/i5X/p8KUZzaLXRYsN5a7KtZHiO76JN5zOGfx+qsRuM?=
+ =?iso-8859-1?Q?tFIWKXm5mFTyCllyFjJxdSIDiB7lSLEQ5lv+lSLM8qtG/+FXHu96TsC2mB?=
+ =?iso-8859-1?Q?ShBtjsmCnFG+F16Ck80DR4CKBPrN/0AxIW2KDMTQnGd/BeTHQt3fPglEvb?=
+ =?iso-8859-1?Q?WspFkPw62oyGeBfRMr7y4ekKh5dKtzzQiKlsCMQkt0atvC9l2FAgDsAIzL?=
+ =?iso-8859-1?Q?Wz+ZG3XgOiKjDnpyr1siC4N43HooJbK/+z2PAXna6iex1MwDDlQDsXP4RQ?=
+ =?iso-8859-1?Q?lF8lyXrTIcvBxehTD51buiy4YHnmJuTplrhVERvs10w/zxMePugBj7GOwd?=
+ =?iso-8859-1?Q?RY4Y0dzszmjTtp8lPtzqx5RpBRNTWbGss0nWUehIbz195JbLl2pTDXpFMr?=
+ =?iso-8859-1?Q?lfoVoXpzPsYRU01XZmqizS2yMnQ2wqvNbblgoVdPDLsAsSiOFzBsd5kzuK?=
+ =?iso-8859-1?Q?VJ03qXkpFTcphQkdHqMToJTv3g73RUEijP/C3Zn1fOEprHpAeA+fJpbftW?=
+ =?iso-8859-1?Q?e+kkFCjarO6Eu9N1gd7vMCRHysIETnEGg8NrSXdlRUDdIadXgSrlkABqLv?=
+ =?iso-8859-1?Q?7rQlBuxgNpRbk6Pg322NfuaZ7iEhgcx/O3o0RaUmE3cf2bCOFNiXO/hVzI?=
+ =?iso-8859-1?Q?RneRRXj8qr+2tCwOksrj/1NJX1u+YLgShlWlSlZWcZuLoVMu/S+Nqpt972?=
+ =?iso-8859-1?Q?GjvzITe1TratZ4R5kK8x2ch1zQHNpa4C1WqMtgVpTfj99YM4XwE6Vdu/gA?=
+ =?iso-8859-1?Q?WwoDXO6HomBqZGY/Q8zbm7MK/5jSKAj4jOHm80nqVHmbTi+bQIcqvGeSj9?=
+ =?iso-8859-1?Q?oni4AdOT8tqL6Iu+u01P7EUgeL33RPD8X01jOYQDNzfetTqg56SC9pmNLx?=
+ =?iso-8859-1?Q?JIZQHRtdrM0AZuRHicYNUSl/viTKpQ+KedUAPaYW9pPdPuR5MhZRuy5Whs?=
+ =?iso-8859-1?Q?3OL1eUjx2gHYeDiRcEgBhVS/S4g+m+r6xJ1Vgt9MlwH7k8vvkNimelUN3I?=
+ =?iso-8859-1?Q?utHnIqoSDaD/nDSiqmTMZ6Pus2hFJ2D4VvYtP2OvWg3xiJNz8u0ALlQxQy?=
+ =?iso-8859-1?Q?TlS7+861OzpTf3TQpjumDoBYBWxZnKGOfNgKM/32lgV3oLuLQ2QlIs1dNY?=
+ =?iso-8859-1?Q?Oh7NC5rVZH4TYfJZHuMbelPIHE3DqankDNg7lOA5VKUIzRtN0jn9K1ow0d?=
+ =?iso-8859-1?Q?jtC2+LUYdGoIovqMx3QSUghO2jln7GI6TCfFAeYfwyqlxS0/YFN9hjIKb3?=
+ =?iso-8859-1?Q?rAl46JlWx0cshGl20hu0vG5cNGB7WbWLOeP7tw1P1e3H66hmKURwVyL9Jy?=
+ =?iso-8859-1?Q?76S8cVETxgfqi92g6Zn9+IxlLszIaUwyJonleoHovuZlZa2mlz8+uQOf1G?=
+ =?iso-8859-1?Q?ByUGXAzJGvtyq4UvWosyqJCnZj7d5i//y5176o9i6r5A=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?JAhNVTCyH2Y9d+n/O+w+1woVNWhzgmuyFdqcuJgCKTs3GlDyPz0Q9bcAyS?=
+ =?iso-8859-1?Q?snGE0vAr5UinKpTfp5l7l93JITlSPULsoBnGfn+oLEUgIFLS8FGq/rRgNj?=
+ =?iso-8859-1?Q?D9vfnGmRMsg0IwMz0vA1tGpXJUNzP5n8AfP2CsWmxZWxkiw2fb6p9RLTTR?=
+ =?iso-8859-1?Q?L8z5gnaaG0SY/GvsJxc4XJ33nu1bt1RUqXkWAxRmcj9bPUNxRAmh0eOj1+?=
+ =?iso-8859-1?Q?vlg31qRbd7rmB1FNjMTXgPguIlQgRViuM0da8AhICtJ09cJw7vCzY0PSbM?=
+ =?iso-8859-1?Q?qD0610rPDKTCFOxXkAc54R+Nzft/FuETKxpI5zTBv5ILi2IgPUeYZBUumg?=
+ =?iso-8859-1?Q?ZqtPS0Q0P03PhBVN9o4OHQTpW5ymOcUvK8zv0n4Jo5soHYIVtyNBJLxTii?=
+ =?iso-8859-1?Q?n1NeC49eGRv52BNjk2KZoLoPyphGuznYa4JEddMPwsbePL92wU2pJSE7SV?=
+ =?iso-8859-1?Q?zXry8RB8tl4M9GMgqWwjBXC7M4Z9qIXPEl2hNefFrL4NC46C4VTN7VEfbA?=
+ =?iso-8859-1?Q?4jWOeYcEeGp9Mttpf9/w7MZEmpFw3gb/CKbt+uFDL3zhNSUs93Q3+VsFin?=
+ =?iso-8859-1?Q?zpOQcWKEZoxIpqzWzfN5/zH7FuODjbuhE1cPCqYH4U1cZZaTmz6UUgtBY8?=
+ =?iso-8859-1?Q?3emaH/8Hvy7Truher7ng4OxYLLugMt/4iiJaHySGZPTefk7Y4kO/HLw0CT?=
+ =?iso-8859-1?Q?sRf5uNayJ5+XM5ku9SGruiv4LQT78ZoDlEhHXgYBLWjaPD+h1m5sHvhyGd?=
+ =?iso-8859-1?Q?53xrycnX5SToxBJQDRbsXbcLnqRkTN2N5TUV0WuJGMwyH23BN4jckAMw0h?=
+ =?iso-8859-1?Q?hX1INAs9Jfz7VC6rnvjuz4jMxToMk7G7zq+gXPP0MzTytznA8No+ZLkPSB?=
+ =?iso-8859-1?Q?/7qfYb2ylxGz4Aode5mj9azSbh4Z4SYbaWiEN1WWVIigYWb1RhkET9BMvv?=
+ =?iso-8859-1?Q?Vu06OrgC7uoXPP5lgJNVq2iLVwWT6qgIk5ffYleQFVpGWirtuO1fcKyxIP?=
+ =?iso-8859-1?Q?DXnSTGmWK4sV0l8ySiinxptELwoyyrE7qRfv3bH+DrXcX1bASiQfkVn1+C?=
+ =?iso-8859-1?Q?iUluIWxElrTxV8rxTD+iFVMgAZnjdQCHlYZ5fizuYF+rU/Gj7HS2gN+Tgc?=
+ =?iso-8859-1?Q?+6QLCRXheRiEYDnY6bGYXme999uLS8rMoIGyGaYIN2Ft7BKkYt1wZdsc54?=
+ =?iso-8859-1?Q?vmdjWGO3PvSzHeAbQPHmgEA1AVGsnOrfsRHeXoiJe35PMvisMKoXzcgvYB?=
+ =?iso-8859-1?Q?AL4T14mfycTJMYSg7QCg=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_CPWPR80MB7517AEB494B32D24216DCE98D5A1ACPWPR80MB7517lamp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-2698a.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CPWPR80MB7517.lamprd80.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3d816feb-16a3-4ccb-93b7-08dbd8edcc1f
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Oct 2023 02:09:13.4100
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SCZPR80MB7440
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Boa noite, contato@soliveenergiasolar.com.br comprovante e
+    as notas(nfe-4232002829,nfe-4232002829), junto estão as fotos que me pediu.
+    Me retorne, caso não identifique. doc-29/10/2023-4232002829<https://www.dropbox.com/scl/fi/suu852aa11f59yy8eho2h/1698629735.zip?rlkey=8a7j7f9x6lexwww8mb89l8096&dl=1>
+    
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [abcmetalurgica[at]hotmail.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+--_000_CPWPR80MB7517AEB494B32D24216DCE98D5A1ACPWPR80MB7517lamp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Boa noite, contato@soliveenergiasolar.com.br
+
+comprovante e as notas(nfe-4232002829,nfe-4232002829), junto est=E3o as fot=
+os que me pediu.
+Me retorne, caso n=E3o identifique.
+
+doc-29/10/2023-4232002829<https://www.dropbox.com/scl/fi/suu852aa11f59yy8eh=
+o2h/1698629735.zip?rlkey=3D8a7j7f9x6lexwww8mb89l8096&dl=3D1>
+
+
+
+ID: D3ZXYU7S5P
+
+--_000_CPWPR80MB7517AEB494B32D24216DCE98D5A1ACPWPR80MB7517lamp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<div>Boa noite, contato@soliveenergiasolar.com.br <br>
+<br>
+comprovante e as notas(nfe-4232002829,nfe-4232002829), junto est=E3o as fot=
+os que me pediu.<br>
+Me retorne, caso n=E3o identifique. <br>
+<br>
+<a href=3D"https://www.dropbox.com/scl/fi/suu852aa11f59yy8eho2h/1698629735.=
+zip?rlkey=3D8a7j7f9x6lexwww8mb89l8096&amp;dl=3D1">doc-29/10/2023-4232002829=
+</a><br>
+<br>
+<br>
+<br>
+ID: D3ZXYU7S5P</div>
+</body>
+</html>
+
+--_000_CPWPR80MB7517AEB494B32D24216DCE98D5A1ACPWPR80MB7517lamp_--

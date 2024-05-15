@@ -1,0 +1,153 @@
+Return-Path: <everton.alves@aldo.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id MIhlALxhJ2KWlgAAJcoV8Q
+	(envelope-from <everton.alves@aldo.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 08 Mar 2022 14:01:32 +0000
+Return-path: <everton.alves@aldo.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 08 Mar 2022 14:01:32 +0000
+Received: from mail-mw2nam12on2053.outbound.protection.outlook.com ([40.107.244.53]:2017 helo=NAM12-MW2-obe.outbound.protection.outlook.com)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <everton.alves@aldo.com.br>)
+	id 1nRaP5-000BJD-71
+	for contato@soliveenergiasolar.com.br; Tue, 08 Mar 2022 14:01:31 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Z8ihEuFksS/djMyVfbKvo2+cEdGn/0U7lT6cvo719JR+xcW9x5n+7UOwqv009IE5ZjduLSeD7ffn2FNIBuUCHZQhfc9O0Q+8tyrYn3ud9ZKhbtJ5CpUg8cYUnC3E3W0hOgJVDeb7b2stsylOR5grk+MY3cTzQrI+AxCGvVFFOvdaJv8M88x7d9fK/tpHnP9fRvosrHm0Bd4CSjWkPzwQqs4uwMnOOP88MSdOv3SYotI+7RAKdDWoIH6iju640s4NMksFTIA4ZyHtS8XWjv8dHAbC0Zp2LlXl/WTmTEza0FTdfZYWLCvhNaPduUzaC+hBDr6dF1jxsM3yBgfsc2AB/w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=97I7WDiOdqUfCjbLb4b7eflh1ktP0QLyABAPAdOduNU=;
+ b=f/bYQzwLedRtdtaQVuCI6ya8MftUTQVvw/eowakz2JTgHN/hJIfmvo+xPf4AccR38R57Lrn9zCHXHPk0Zc1ACGJaQp5B763R9vNS8MXBqKG2u3P3vsY9I9mmqXj76KsWjfTIvhBT1BwiMgRox9nKI6OouAy1xAIrtCy4nmzDgD3vb9lt0Gz4RlOiPYOyG0rVRH+emQjS1vgURyLhnfE2lZieC57y1AgXYL9CJtlSclnbVl2ivSAZGBhCFIftZB8m4044WtKJZG7XvCLyiui3lS/T7pJYI1nKp6jVEn+G3YsT75LzSlXnzH/wP0/j60lFl1XrX+yni/N6wBMTG+wEyg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=permerror (sender ip
+ is 191.7.188.102) smtp.rcpttodomain=soliveenergiasolar.com.br
+ smtp.mailfrom=aldo.com.br; dmarc=fail (p=quarantine sp=quarantine pct=1)
+ action=none header.from=aldo.com.br; dkim=none (message not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aldo.com.br;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=97I7WDiOdqUfCjbLb4b7eflh1ktP0QLyABAPAdOduNU=;
+ b=Zz1gtoe21euVdd+pEZRztEPxM926l+PlAQbUmU4nw32Jwqn/himyjLfhxuduiC11zWWa3HLKFmKbf8NCeTQtK0f3oVFUWhuog3XzOvVbOBJVgWZn7JBNzrEuoXQYxmqtluXHG1R+k/4SKWReA1FbeOKHhPViFnxdx539URBVM6Q=
+Received: from BN9PR03CA0501.namprd03.prod.outlook.com (2603:10b6:408:130::26)
+ by SC1PR80MB0030.lamprd80.prod.outlook.com (2603:10d6:4:5c::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5038.14; Tue, 8 Mar
+ 2022 14:01:27 +0000
+Received: from BN1NAM02FT030.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:408:130:cafe::f9) by BN9PR03CA0501.outlook.office365.com
+ (2603:10b6:408:130::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5038.14 via Frontend
+ Transport; Tue, 8 Mar 2022 14:01:27 +0000
+X-MS-Exchange-Authentication-Results: spf=permerror (sender IP is
+ 191.7.188.102) smtp.mailfrom=aldo.com.br; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=none header.from=aldo.com.br;
+Received-SPF: PermError (protection.outlook.com: domain of aldo.com.br used an
+ invalid SPF mechanism)
+Received: from mail.aldo.com.br (191.7.188.102) by
+ BN1NAM02FT030.mail.protection.outlook.com (10.13.2.144) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5038.14 via Frontend Transport; Tue, 8 Mar 2022 14:01:26 +0000
+Received: from WIN-EXC004.aldo.com.br (192.168.0.81) by WIN-EXC004.aldo.com.br
+ (192.168.0.81) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.986.14; Tue, 8 Mar 2022
+ 11:01:24 -0300
+Received: from WIN-EXC004.aldo.com.br ([fe80::20d2:2fc6:6569:4740]) by
+ WIN-EXC004.aldo.com.br ([fe80::20d2:2fc6:6569:4740%10]) with mapi id
+ 15.02.0986.014; Tue, 8 Mar 2022 11:01:24 -0300
+From: Everton Da Silva Alves <everton.alves@aldo.com.br>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject: RES: Documentos - Contato 2378645
+Thread-Topic: Documentos - Contato 2378645
+Thread-Index: Adgy9CnddKOB/+M+Ql6DzQMS6/ue2AAGYgMAAAYwzOA=
+Date: Tue, 8 Mar 2022 14:01:24 +0000
+Message-ID: <70365822238a47a0be5d2ea604f8a1cd@aldo.com.br>
+References: <79848e5085ad44e897ad3b0ed1a33e68@aldo.com.br>
+ <ca296e49df01775625158ac593a39083@soliveenergiasolar.com.br>
+In-Reply-To: <ca296e49df01775625158ac593a39083@soliveenergiasolar.com.br>
+Accept-Language: pt-BR, en-US
+Content-Language: pt-BR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.32.1.187]
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 7746c18b-d06b-4407-5375-08da010c2349
+X-MS-TrafficTypeDiagnostic: SC1PR80MB0030:EE_
+X-Microsoft-Antispam-PRVS:
+	<SC1PR80MB0030E2FE6366BEDA16FE17F0BF099@SC1PR80MB0030.lamprd80.prod.outlook.com>
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	g9Nvl5QQM+cwSOclhkcsqsAm1fvxxkZVXr7ZpBvigVZ/jwWZ3jZlJDQbiJV46PHujYJxdTJvTGJ8wC12uqYnEhdF6RL76MyNw6DI0TD7UVHe8zzLHUiFTE11EeOkHbryZGtBNq8fEwYCf6Xu7ZfFofLvPmBSLy2Toz3O3Lh4nX2UDOEtuSuq9uPwjUapmyLSmvnLcQgj4NQiddMNoOpyOob3X9Jo2DyKLIBA7suaEFl8RA+WflBVwSa+5hlrHOXBAt7tY3jRlE1tAG0e2WgXI2XguXxzl8w29Os+v2uDQXkkQ0DjxDr42qZSPpazvkGirJqg/Jg6InWZqmQo6VZazWOSGmeYZTZ08gn8f5tN3L4tTMMU5K2/Op8bZAFfecGxt5kQvPeL798ihdN2GRwb59YELV51GJocwuYYE+H+ee/NPV9hB7mwsQvi2Twyw/Xs3vG18Tp3pd6psVOPChWILiIgSjGU1brMWHqVGOtPLrQyMIHG18IckEqXUuKbkUsFWl79ogobXdXcXf5sLBLKFiaSy+SxuynwHpd3Cg0yoDJk/Wt3BEeHCauctQBUbPaESXD0lgZzWcUjgaWOfp8sVnV/a7eqNShpiXx0uvaa1wQj/3fBgIevdTAR49NExmjSKeAQzvMJau6IlQCV7pVV0HRQ9RB9KFU2LQcnONuYJRNy4NKpDohvZ4+6D18fTMrliG7iGGuA6VOtXBI40M189vfl3BLMFCv857euee7eoIfcjY9KbR4bWnBnH6pIalx0
+X-Forefront-Antispam-Report:
+	CIP:191.7.188.102;CTRY:BR;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.aldo.com.br;PTR:191.7.188.102.fibercom.net.br;CAT:NONE;SFS:(13230001)(46966006)(36840700001)(40470700004)(45080400002)(36860700001)(356005)(70586007)(2616005)(47076005)(81166007)(6916009)(36756003)(426003)(336012)(966005)(70206006)(316002)(4744005)(508600001)(86362001)(7696005)(5660300002)(24736004)(8936002)(108616005)(186003)(26005)(2906002)(82310400004)(40460700003)(8676002);DIR:OUT;SFP:1101;
+X-OriginatorOrg: aldo.com.br
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Mar 2022 14:01:26.6933
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7746c18b-d06b-4407-5375-08da010c2349
+X-MS-Exchange-CrossTenant-Id: 9233dc53-3e9e-4435-a0b2-8a6b93cbb49f
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=9233dc53-3e9e-4435-a0b2-8a6b93cbb49f;Ip=[191.7.188.102];Helo=[mail.aldo.com.br]
+X-MS-Exchange-CrossTenant-AuthSource:
+	BN1NAM02FT030.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SC1PR80MB0030
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Bom dia! Documentos recebidos, já encaminhei para o cadastro,
+    assim que atualizarem, lhe aviso Att 
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: linkr.bio]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: aldo.com.br]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+X-Spam-Flag: NO
+
+Qm9tIGRpYSENCg0KRG9jdW1lbnRvcyByZWNlYmlkb3MsIGrDoSBlbmNhbWluaGVpIHBhcmEgbyBj
+YWRhc3RybywgYXNzaW0gcXVlIGF0dWFsaXphcmVtLCBsaGUgYXZpc28NCg0KQXR0DQoNCkV2ZXJ0
+b24gRGEgU2lsdmEgQWx2ZXMgDQoNCg0KDQoNClZlbmRlZG9yIA0KDQoNCkRpcmV0b8KgwqAgKzU1
+IDQ0IDMyNjEgMjAzOA0KDQoNClBBQljCoMKgICs1NSA0NCAzMjYxIDIwMDAgDQoNCg0KDQoNCg0K
+ZXZlcnRvbi5hbHZlcy5hbGRvQG91dGxvb2suY29tLmJyIA0KDQoNCg0KDQoNCg0KDQoNCg0KLS0t
+LS1NZW5zYWdlbSBvcmlnaW5hbC0tLS0tDQpEZTogY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIu
+Y29tLmJyIDxjb250YXRvQHNvbGl2ZWVuZXJnaWFzb2xhci5jb20uYnI+IA0KRW52aWFkYSBlbTog
+dGVyw6dhLWZlaXJhLCA4IGRlIG1hcsOnbyBkZSAyMDIyIDEwOjU4DQpQYXJhOiBFdmVydG9uIERh
+IFNpbHZhIEFsdmVzIDxldmVydG9uLmFsdmVzQGFsZG8uY29tLmJyPg0KQXNzdW50bzogUmU6IERv
+Y3VtZW50b3MgLSBDb250YXRvIDIzNzg2NDUNCg0KRW0gMjAyMi0wMy0wOCAxMzo1NiwgRXZlcnRv
+biBEYSBTaWx2YSBBbHZlcyBlc2NyZXZldToNCj4gQm9tIGRpYSENCj4gDQo+IENvbW8gY29udmVy
+c2FkbyBwb3IgdGVsZWZvbmUsIHBhcmEgYXR1YWxpemFyIHNldSBjYWRhc3Rybywgbm9zIGVudmll
+IG8gDQo+IGNvbnRyYXRvIHNvY2lhbCBhdHVhbGl6YWRvIGUgZG9jdW1lbnRvIGNvbSBmb3RvKFJH
+IG91IENOSCkgZG9zIHPDs2Npb3MuDQo+IA0KPiBRdWFscXVlciBkw7p2aWRhIGVzdGFyZWkgw6Ag
+ZGlzcG9zacOnw6NvIQ0KPiANCj4gYXR0DQo+IA0KPiBFdmVydG9uIERhIFNpbHZhIEFsdmVzIAkJ
+DQo+IA0KPiAgWzFdIAkJDQo+IA0KPiBWZW5kZWRvcihhKSAJCQ0KPiANCj4gRGlyZXRvICAgKzU1
+IDQ0IDMyNjEgMjAzOCAJCQ0KPiANCj4gUEFCWCAgICs1NSA0NCAzMjYxIDIwMDAgCQkNCj4gDQo+
+IF9ldmVydG9uLmFsdmVzQGFsZG8uY29tLmJyX18gXyAJCQ0KPiANCj4gIFsyXSAJCQ0KPiANCj4g
+DQo+IA0KPiBMaW5rczoNCj4gLS0tLS0tDQo+IFsxXSBodHRwOi8vZy5wYWdlL2FsZG8uc29sYXIv
+cmV2aWV3P2dtDQo+IFsyXSBodHRwczovL2xpbmtyLmJpby9hbGRvc29sYXINCg0KQm9tIGRpYSwN
+Cg0KU2VndWUgZW0gYW5leG8uDQo=

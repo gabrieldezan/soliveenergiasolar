@@ -1,0 +1,93 @@
+Return-Path: <plataforma@bedinsolar.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl10.main-hosting.eu
+	by cpl10.main-hosting.eu with LMTP
+	id mD/pG5uey2A4SAYAZZrKTA
+	(envelope-from <plataforma@bedinsolar.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 17 Jun 2021 19:12:27 +0000
+Return-path: <plataforma@bedinsolar.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 17 Jun 2021 19:12:27 +0000
+Received: from server228.bbhost.com.br ([131.196.197.200]:33931)
+	by cpl10.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <plataforma@bedinsolar.com.br>)
+	id 1ltxR8-001lrv-CQ
+	for contato@soliveenergiasolar.com.br; Thu, 17 Jun 2021 19:12:27 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=bedinsolar.com.br; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:To:From:Subject:Date:Message-ID:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=L/9rJA4J7tkXCH3RGmnrvqpdztiPiscOiG39YK8QBns=; b=laBZ7xi2VppgMyW4Z1O2d4fieh
+	UKBYUreIKpI78mj0QvjGOCCi54hkijal1TEmnZFyBwHaj8JQeXKe6avW2RvauQeRFmA5QzmVe69At
+	akLEx7dEPC14sWSSi2Xh8PnYXm8IRJJUgQfEdeIoDloYzDn2TGxIFMt7JT86/m9X3GQtGTbeJEtcl
+	d8vOk0ghqE6RBpFQtBj7QR8Gw63Z3tEAC6bELL9ShCXg+mwYU887uD7NzMJs+hl1dan7gk9zIbxox
+	zpCLllh4CfLUckoz20JqMVVzIFsGP84zqzFqbW/e1D6dytnrn1GH+bJADLSwd2B9DY/P66MJLUdah
+	CLV8PwEg==;
+Received: from [2804:3fd8:7000::200] (port=35172 helo=www.bedinsolar.com.br)
+	by server228.bbhost.com.br with esmtpa (Exim 4.94.2)
+	(envelope-from <plataforma@bedinsolar.com.br>)
+	id 1ltwsL-00FVhc-5R
+	for contato@soliveenergiasolar.com.br; Thu, 17 Jun 2021 15:36:22 -0300
+Message-ID: <b5398758cd56f5a74bab7576d0a31d33@www.bedinsolar.com.br>
+Date: Thu, 17 Jun 2021 18:36:19 +0000
+Subject: Send Mail Project
+From: Plataforma Bedin Solar <plataforma@bedinsolar.com.br>
+To: contato@soliveenergiasolar.com.br
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server228.bbhost.com.br
+X-AntiAbuse: Original Domain - soliveenergiasolar.com.br
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - bedinsolar.com.br
+X-Get-Message-Sender-Via: server228.bbhost.com.br: authenticated_id: plataforma@bedinsolar.com.br
+X-Authenticated-Sender: server228.bbhost.com.br: plataforma@bedinsolar.com.br
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl10.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá! Seu orçamento Teste foi cancelado. 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bedinsolar.com.br]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+<html>
+<body>
+<p>Ol=C3=A1!</p>
+<p> Seu or=C3=A7amento Teste foi cance=
+lado.</p>
+<p></p>
+<p></p>
+<p></p>
+
+   =20
+</body>
+</html>

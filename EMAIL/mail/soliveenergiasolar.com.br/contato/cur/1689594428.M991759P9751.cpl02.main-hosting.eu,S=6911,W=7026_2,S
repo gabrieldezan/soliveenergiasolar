@@ -1,0 +1,115 @@
+Return-Path: <alessandro.pereira@helte.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id 2DHyOjwqtWQXJgAAIElduQ
+	(envelope-from <alessandro.pereira@helte.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 17 Jul 2023 11:47:08 +0000
+Return-path: <alessandro.pereira@helte.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 17 Jul 2023 11:47:08 +0000
+Received: from mail-ot1-f68.google.com ([209.85.210.68]:44403)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <alessandro.pereira@helte.com.br>)
+	id 1qLMh2-0009EP-29
+	for contato@soliveenergiasolar.com.br;
+	Mon, 17 Jul 2023 11:47:08 +0000
+Received: by mail-ot1-f68.google.com with SMTP id 46e09a7af769-6b9cf7e6ab2so1110445a34.1
+        for <contato@soliveenergiasolar.com.br>; Mon, 17 Jul 2023 04:47:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=helte.com.br; s=google; t=1689594427; x=1692186427;
+        h=content-transfer-encoding:mime-version:to:message-id:subject:date
+         :from:from:to:cc:subject:date:message-id:reply-to;
+        bh=aPgzxu1lw+DzKhKv46kEX7F+uh0yWdXPNbV9ds/+RUE=;
+        b=QyPx0vtdXpvPFhcpKpGbJeeCrtEuZb7LXHJjHceRM7qL1Pl8wERlzoOxHhyYYMH9j6
+         uooDCr9oyz0Do6rV6JTSUtJMK64EORU09j/HfFWnGX8UQbqCgn0fuYvwmRUOs5JKEmVX
+         43XrXV2g0qfymbyWlvAApcEn/KzsOHtI+c5M6QOKENs1ZYwDzMVP8gqW3KXBsGDxs6KI
+         pGb8gea34xZnf8wWGwEgDuBDZu6w00gjB0DKTFBfCr7wOqwFwoBjv5Mzwtd7K+K66aKp
+         qVtnBYlZqHt6t+p88LgZTdn8P0yX5u0mqklwvoWOieiC1ZKpUiuWnArMlP94QZGKprla
+         Mk7g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689594427; x=1692186427;
+        h=content-transfer-encoding:mime-version:to:message-id:subject:date
+         :from:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=aPgzxu1lw+DzKhKv46kEX7F+uh0yWdXPNbV9ds/+RUE=;
+        b=irYXox0yrjpbXHtr9sz08C7uCR+hF7+I2p6L5rKYs/CD6/7vZrmcV1XQuhPOOs7wBJ
+         qqaPoLOjtaCEx/Qfjd/DFvkRLca8IkRhwT/dXzUIIFiVkNPA/s8GxQUO9MJCIQaxqsH1
+         sQ5IcSJ3MV0fhn0AWE4opRXlOAQzKAv+1gPLrNlBv7UOOc30HWhHsby7IcwcKLv+PhFE
+         2wBJmhv4wQe7a1TVzfd4mLdqUEb0MOjkmP9OO13eBD4w9HPsei9wYfWhM1KLWiaFhTTw
+         Xo/VYq5AHrJNGFRSR9z35+6Cbk2ffdx571dtV8z3SF79/Ms91tWTDTIpu9ly4GaRQCmu
+         /Xog==
+X-Gm-Message-State: ABy/qLa+Sz2T/y3mcdPZCjWdkwCAUIym+Fun7W78o3mw3+Cu42aiZRsH
+	DzdJB2WlOw4AtRv4cL2BgyxVL6AtnQsY7Jy+UawDNBZWwB7/fVkxvLgeczLUarJR8qjV7o+d54z
+	tED4VtDL4uaBMj492izjCVQf2dwOBi06uJcnyY9ztsM+/
+X-Google-Smtp-Source: APBJJlHtRTOC7N/3QxucSICOzDXh4KsVs3vsCwMrtTysJW1PPwP056QzI7K/GVfd4Q/75in9P71vRQ==
+X-Received: by 2002:a9d:6b0e:0:b0:6b9:57cb:8c42 with SMTP id g14-20020a9d6b0e000000b006b957cb8c42mr11922948otp.13.1689594427144;
+        Mon, 17 Jul 2023 04:47:07 -0700 (PDT)
+Received: from ploomesemailmongodb-prod-shard1-6b78c7d5db-hs5d8 ([191.238.134.176])
+        by smtp.gmail.com with ESMTPSA id h23-20020a9d61d7000000b006b9b0a08fdasm3961959otk.59.2023.07.17.04.47.06
+        for <contato@soliveenergiasolar.com.br>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 17 Jul 2023 04:47:06 -0700 (PDT)
+From: Alessandro Augusto Pereira <alessandro.pereira@helte.com.br>
+Date: Mon, 17 Jul 2023 11:47:06 +0000
+Subject: Anexo de documento Plataforma HELTE
+Message-Id: <QK6SQ2RDHKU4.7X4V2E44OR9C2@ploomesemailmongodb-prod-shard1-6b78c7d5db-hs5d8>
+To: "6132 - SOLIVE ENERGIA SOLAR LTDA <contato@soliveenergiasolar.com.br>"
+	<contato@soliveenergiasolar.com.br>
+X-Ploomes-Message-Id: 64b52a38362b9dc9232435e5
+X-Ploomes-Message-Internet: QK6SQ2RDHKU4.7X4V2E44OR9C2@ploomesemailmongodb-prod-shard1-6b78c7d5db-hs5d8
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=2.2
+X-Spam-Score: 22
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá, tudo bem? Durante o processo de validação do pedido
+    927769, constatamos que não foi anexado a CARTA DE AUTORIZAÇÃO DE RECEBIMENTO
+    DE MERCADORIA na Plataforma HELTE. Para que seja possível dar andamento
+   no processo é necessário que a mesma seja anexada. 
+ Content analysis details:   (2.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<p>Ol=C3=A1, tudo bem?</p><p>Durante o processo de valida=C3=A7=C3=A3o do p=
+edido&nbsp;<field key=3D"deal_title" path-id=3D"70">927769</field>, constat=
+amos que n=C3=A3o foi anexado a CARTA DE AUTORIZA=C3=87=C3=83O DE RECEBIMEN=
+TO DE MERCADORIA na Plataforma HELTE.</p><p>Para que seja poss=C3=ADvel dar=
+ andamento&nbsp;no processo =C3=A9 necess=C3=A1rio que a mesma seja anexada=
+.&nbsp;</p><p>Atenciosamente</p><br><img class=3D"ptc" src=3D"https://mails=
+upervisor.ploomes.com/api/image/64b52a38362b9dc9232435e528333" alt=3D"" wid=
+th=3D"1" height=3D"1" border=3D"0" style=3D"display: none!important"/>
+
+<br>
+<hr><div><span style=3D"font-size:x-small">Esta comunica=C3=A7=C3=A3o, incl=
+uindo seus anexos, =C3=A9 destinada exclusivamente ao uso do indiv=C3=ADduo=
+ a que se destina, podendo conter informa=C3=A7=C3=B5es confidenciais e ser=
+ considerada reservada e/ou privilegiada. Se voc=C3=AA n=C3=A3o for o desti=
+nat=C3=A1rio pretendido e recebeu esta mensagem por engano, notifique-me im=
+ediatamente, respondendo a este e-mail confirmando que excluir=C3=A1 esta c=
+omunica=C3=A7=C3=A3o e todas as suas c=C3=B3pias de seus dispositivos. O us=
+o n=C3=A3o autorizado dessa comunica=C3=A7=C3=A3o =C3=A9 vedado.</span><br>=
+</div><div></div>

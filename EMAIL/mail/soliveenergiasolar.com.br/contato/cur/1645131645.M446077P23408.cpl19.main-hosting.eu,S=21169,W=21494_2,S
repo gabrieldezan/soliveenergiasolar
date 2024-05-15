@@ -1,0 +1,325 @@
+Return-Path: <s-2dnfyzdyetly30zha86qng8gecbh3vtrjccoi9o67l92c78jcm2jnak3@bounce.linkedin.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id 0CODGn23DmJwWwAAJcoV8Q
+	(envelope-from <s-2dnfyzdyetly30zha86qng8gecbh3vtrjccoi9o67l92c78jcm2jnak3@bounce.linkedin.com>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 17 Feb 2022 21:00:45 +0000
+Return-path: <s-2dnfyzdyetly30zha86qng8gecbh3vtrjccoi9o67l92c78jcm2jnak3@bounce.linkedin.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 17 Feb 2022 21:00:45 +0000
+Received: from maila-gd.linkedin.com ([108.174.0.132]:36671)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <s-2dnfyzdyetly30zha86qng8gecbh3vtrjccoi9o67l92c78jcm2jnak3@bounce.linkedin.com>)
+	id 1nKntM-0006W4-HJ
+	for contato@soliveenergiasolar.com.br; Thu, 17 Feb 2022 21:00:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-201806-01; t=1645131602;
+	bh=qpvA5p0YkIN2SH+YIEfdTg+Qa6c3omHXJUHgnF35+EE=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=cODr8BNBhi3JUVYmEFeUwdaYREop5DsSmqkyF/MphlSTaHQ6E8m18HEtH2zdmUgO9
+	 AN4hKBb1wXvucg633sFCLhoP4n31mnFL/UhacTbE6OsvdltudujR4P5mTFYq0PUoXf
+	 a+lqZTCPROS2lALU06/Ho3CUYSlDdM6nTiy2zlxmjZWA71adoNz/PKcnucX0AhnmZQ
+	 GbHRMJE3UZoiW/yaUfMq9KSswbAPuxAMr13mf1ffEZKgZzovmwUI/judTylv+nl3Ax
+	 q2jKW/50iKHHwoyHSXiTlJmHwtxix3in/42yDNKN57QZWOgOyiwUgklxGJ5bWztOaG
+	 JeUK+lPrxG05Q==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maila.linkedin.com;
+	s=proddkim1024; t=1645131602;
+	bh=qpvA5p0YkIN2SH+YIEfdTg+Qa6c3omHXJUHgnF35+EE=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=X3BUZ6jP+TKW7Oh9H7FM985cIefbiwTjbl8BmJ8/pPl8UCONCsaddxoclqugmn1+c
+	 IvutJ57fPsPq96AsB+SL22BQ+JR3hlBf9uRyHenOG9bxCD3zZ4u51CtVh2dAL2rAr9
+	 4JTc/uBfB8IZ4CL3OL+/AVtwJEtFV+vTwbkIaRTA=
+From: LinkedIn <security-noreply@linkedin.com>
+Message-ID: <1588290738.4829.1645131602623@ltx1-app46154.prod.linkedin.com>
+Subject: =?UTF-8?Q?SOLIVE,_aqui_est=C3=A1_seu_c=C3=B3digo?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4827_1033012236.1645131602621"
+To: SOLIVE ENERGIA SOLAR <contato@soliveenergiasolar.com.br>
+Date: Thu, 17 Feb 2022 21:00:02 +0000 (UTC)
+X-LinkedIn-Class: ACCT-ADMIN
+X-LinkedIn-Template: security_ato_challenge_send_pin
+X-LinkedIn-fbl: m2-clvfukk0hqxf9pq83hyq5s73kk7ijd4x19igb20cg58afh7prfw8iv9pxseawcviyvkq0r4liqu26zkm2iryp4v9xgopypffgq3eo9tzpwe2gj8y2tzs79aytzbkjaew1kqdh113
+X-LinkedIn-Id: e6i1c6-kzrgvola-y
+X-Spam-Status: No, score=-5.2
+X-Spam-Score: -51
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá, SOLIVE. Recebemos uma solicitação para redefinir a
+    senha de sua conta no LinkedIn. 951326 
+ Content analysis details:   (-5.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -2.0 RCVD_IN_VALIDITY_SAFE  RBL: Sender in Validity Safe - Contact
+                             certification@validity.com
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -3.0 RCVD_IN_VALIDITY_CERTIFIED RBL: Sender in Validity Certification
+                              - Contact certification@validity.com
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+------=_Part_4827_1033012236.1645131602621
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Ol=C3=A1, SOLIVE.
+
+Recebemos uma solicita=C3=A7=C3=A3o para redefinir a senha de sua conta no =
+LinkedIn.
+
+951326
+
+Insira este c=C3=B3digo para concluir a redefini=C3=A7=C3=A3o.
+
+Obrigado por nos ajudar a manter sua conta segura.
+
+Equipe do LinkedIn
+
+.....................................
+
+
+
+Este e-mail foi enviado para SOLIVE ENERGIA SOLAR (Diretor administrativo n=
+a Solive Energia Solar).
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/e/v2?e=3De6i1c6=
+-kzrgvola-y&lipi=3Durn%3Ali%3Apage%3Aemail_security_ato_challenge_send_pin%=
+3BhxdaYAsvQYWzAZ5UbpUvNg%3D%3D&a=3DcustomerServiceUrl&midToken=3DAQFIbiNVcK=
+S5ug&midSig=3D3zzg5cBC7Ioa81&ek=3Dsecurity_ato_challenge_send_pin&articleId=
+=3D4788
+
+=C2=A9 2022 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2. LinkedIn =C3=A9 um nome comercial registrado da LinkedIn Ireland=
+ Unlimited Company. LinkedIn e o logo do LinkedIn s=C3=A3o marcas registrad=
+as do LinkedIn.
+------=_Part_4827_1033012236.1645131602621
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns=3D"http://www.w3=
+.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <head> <meta http-equiv=3D"Co=
+ntent-Type" content=3D"text/html;charset=3Dutf-8"> <meta name=3D"HandheldFr=
+iendly" content=3D"true"> <meta name=3D"viewport" content=3D"width=3Ddevice=
+-width; initial-scale=3D0.666667; user-scalable=3D0"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width"> <title></title><!--[if mso]><style typ=
+e=3D"text/css">body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-=
+serif;}.phoenix-email-container {width: 512px !important;}</style><![endif]=
+--><!--[if IE]><style type=3D"text/css">.phoenix-email-container {width: 51=
+2px !important;}</style><![endif]--> <style type=3D"text/css">@media only s=
+creen and (max-width:32em) {
+  .phoenix-email-container { width:100% !important; }
+}
+@media only screen and (max-width:20em) {}
+@media only screen and (max-device-width:30em) {}
+@media screen and (device-width:30em) and (device-height:22.5em), screen an=
+d (device-width:22.5em) and (device-height:30em), screen and (device-width:=
+20em) and (device-height:15em) {}
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+@media screen and (max-device-width:25.88em) and (max-device-height:48.5em)=
+ {}
+</style> </head> <body style=3D"padding:0;margin:0 auto;-webkit-text-size-a=
+djust:100%;width:100% !important;-ms-text-size-adjust:100%;font-family:'Hel=
+vetica Neue',Helvetica,Arial,sans-serif;"> <div style=3D"overflow:hidden;co=
+lor:transparent;visibility:hidden;mso-hide:all;width:0;font-size:0;opacity:=
+0;height:0;"> Por favor, verifique sua identidade. </div> <table role=3D"pr=
+esentation" align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%" bgcolor=3D"#EDF0F3" style=3D"background-color:#EDF0F3;tab=
+le-layout:fixed;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-tabl=
+e-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <tr> <td align=3D"center"=
+ style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspa=
+ce:0pt;-ms-text-size-adjust:100%;"> <center style=3D"width:100%;"> <table r=
+ole=3D"presentation" border=3D"0" class=3D"phoenix-email-container" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"512" bgcolor=3D"#FFFFFF" style=3D"bac=
+kground-color:#FFFFFF;margin:0 auto;max-width:512px;-webkit-text-size-adjus=
+t:100%;mso-table-rspace:0pt;width:inherit;mso-table-lspace:0pt;-ms-text-siz=
+e-adjust:100%;"> <tbody> <tr> <td bgcolor=3D"#F6F8FA" style=3D"background-c=
+olor:#F6F8FA;padding:12px;-webkit-text-size-adjust:100%;mso-table-rspace:0p=
+t;mso-table-lspace:0pt;-ms-text-size-adjust:100%;border-bottom:1px solid #E=
+CECEC;"> <table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%;mso-table=
+-rspace:0pt;width:100% !important;mso-table-lspace:0pt;-ms-text-size-adjust=
+:100%;min-width:100% !important;"> <tbody> <tr> <td align=3D"left" valign=
+=3D"middle" style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso=
+-table-lspace:0pt;-ms-text-size-adjust:100%;"><a href=3D"https://www.linked=
+in.com/comm/feed/?midToken=3DAQFIbiNVcKS5ug&amp;midSig=3D3zzg5cBC7Ioa81&amp=
+;trk=3Deml-security_ato_challenge_send_pin-header-1-home&amp;trkEmail=3Deml=
+-security_ato_challenge_send_pin-header-1-home-null-e6i1c6%7Ekzrgvola%7Ey-n=
+ull-neptune%2Ffeed&amp;lipi=3Durn%3Ali%3Apage%3Aemail_security_ato_challeng=
+e_send_pin%3BhxdaYAsvQYWzAZ5UbpUvNg%3D%3D" style=3D"cursor:pointer;color:#0=
+073B1;-webkit-text-size-adjust:100%;display:inline-block;text-decoration:no=
+ne;-ms-text-size-adjust:100%;"> <img alt=3D"LinkedIn" border=3D"0" src=3D"h=
+ttps://static.licdn.com/sc/p/com.linkedin.email-assets-frontend%3Aemail-ass=
+ets-frontend-static-content%2B__latest__/f/%2Femail-assets-frontend%2Fimage=
+s%2Femail%2Fphoenix%2Flogos%2Flogo_phoenix_header_blue_78x66_v1.png" height=
+=3D"34" width=3D"40" style=3D"outline:none;-ms-interpolation-mode:bicubic;c=
+olor:#FFFFFF;text-decoration:none;"></a></td> <td valign=3D"middle" width=
+=3D"100%" align=3D"right" style=3D"-webkit-text-size-adjust:100%;mso-table-=
+rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"><a href=3D"http=
+s://www.linkedin.com/comm/in/solive-energia-solar-0061a71bb?midToken=3DAQFI=
+biNVcKS5ug&amp;midSig=3D3zzg5cBC7Ioa81&amp;trk=3Deml-security_ato_challenge=
+_send_pin-header-6-profile&amp;trkEmail=3Deml-security_ato_challenge_send_p=
+in-header-6-profile-null-e6i1c6%7Ekzrgvola%7Ey-null-neptune%2Fprofile%7Evan=
+ity%2Eview&amp;lipi=3Durn%3Ali%3Apage%3Aemail_security_ato_challenge_send_p=
+in%3BhxdaYAsvQYWzAZ5UbpUvNg%3D%3D" style=3D"cursor:pointer;margin:0;color:#=
+0073B1;-webkit-text-size-adjust:100%;display:inline-block;text-decoration:n=
+one;-ms-text-size-adjust:100%;"> <table role=3D"presentation" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-si=
+ze-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adju=
+st:100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"paddi=
+ng:0 0 0 10px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-=
+lspace:0pt;-ms-text-size-adjust:100%;"><p style=3D"margin:0;font-weight:400=
+;"> <span style=3D"word-wrap:break-word;color:#4C4C4C;word-break:break-word=
+;font-weight:400;-ms-word-break:break-all;font-size:14px;line-height:1.429;=
+overflow-wrap:break-word;">SOLIVE ENERGIA SOLAR</span></p></td> <td valign=
+=3D"middle" width=3D"40" style=3D"-webkit-text-size-adjust:100%;mso-table-r=
+space:0pt;padding-left:10px;mso-table-lspace:0pt;-ms-text-size-adjust:100%;=
+"> <img alt=3D"SOLIVE ENERGIA SOLAR" border=3D"0" height=3D"36" width=3D"36=
+" src=3D"https://media-exp1.licdn.com/dms/image/C5603AQEPo9IgTIRldg/profile=
+-displayphoto-shrink_100_100/0/1604500562852?e=3D2159024400&amp;v=3Dbeta&am=
+p;t=3D-NLGeH_WW70Q8HhxMIJ2NGO02lyp1oizebOgO2ryC5A" style=3D"border-radius:5=
+0%;outline:none;-ms-interpolation-mode:bicubic;color:#FFFFFF;text-decoratio=
+n:none;"></td> </tr> </tbody> </table></a></td> <td width=3D"1" style=3D"-w=
+ebkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-t=
+ext-size-adjust:100%;">&nbsp;</td> </tr> </tbody> </table></td> </tr> <tr> =
+<td style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-l=
+space:0pt;-ms-text-size-adjust:100%;"> <table role=3D"presentation" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-si=
+ze-adjust:100%;"> <tbody> <tr> <td style=3D"padding:20px 24px 10px 24px;-we=
+bkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-te=
+xt-size-adjust:100%;"> <table role=3D"presentation" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:=
+100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;">=
+ <tbody> <tr> <td style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0=
+pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;padding-bottom:20px;"> <h=
+2 style=3D"margin:0;color:#262626;font-weight:700;font-size:20px;line-heigh=
+t:1.2;">Ol=C3=A1, SOLIVE.</h2></td> </tr> <tr> <td style=3D"-webkit-text-si=
+ze-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adju=
+st:100%;padding-bottom:20px;"> <p style=3D"margin:0;color:#4C4C4C;font-weig=
+ht:400;font-size:16px;line-height:1.25;">Recebemos uma solicita=C3=A7=C3=A3=
+o para redefinir a senha de sua conta no LinkedIn.</p></td> </tr> <tr> <td =
+style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspac=
+e:0pt;-ms-text-size-adjust:100%;padding-bottom:20px;"> <h2 style=3D"margin:=
+0;color:#262626;font-weight:700;font-size:24px;line-height:1.167;">951326</=
+h2></td> </tr> <tr> <td style=3D"-webkit-text-size-adjust:100%;mso-table-rs=
+pace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;padding-bottom:20px=
+;"> <p style=3D"margin:0;color:#4C4C4C;font-weight:400;font-size:16px;line-=
+height:1.25;">Insira este c=C3=B3digo para concluir a redefini=C3=A7=C3=A3o=
+.</p></td> </tr> <tr> <td style=3D"-webkit-text-size-adjust:100%;mso-table-=
+rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;padding-bottom:20=
+px;"> <p style=3D"margin:0;color:#4C4C4C;font-weight:400;font-size:16px;lin=
+e-height:1.25;">Obrigado por nos ajudar a manter sua conta segura.</p> <p s=
+tyle=3D"margin:0;color:#4C4C4C;font-weight:400;font-size:16px;line-height:1=
+.25;">Equipe do LinkedIn</p></td> </tr> </tbody> </table></td> </tr> </tbod=
+y> </table> <table role=3D"presentation" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%;mso-ta=
+ble-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <t=
+r> <td bgcolor=3D"#F8FAFC" style=3D"background-color:#F8FAFC;padding:16px 2=
+4px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt=
+;-ms-text-size-adjust:100%;"> <h2 style=3D"margin:0;color:#262626;font-weig=
+ht:700;font-size:14px;line-height:1.429;margin-bottom:12px;">Quando e onde =
+isso ocorreu</h2> <p style=3D"margin:0;color:#737373;font-weight:700;font-s=
+ize:12px;line-height:1.333;">Data:</p> <p style=3D"margin:0;color:#737373;f=
+ont-weight:400;font-size:12px;line-height:1.333;margin-bottom:12px;">17 de =
+fevereiro de 2022 21:00 (GMT)</p> <p style=3D"margin:0;color:#737373;font-w=
+eight:700;font-size:12px;line-height:1.333;">Sistema operacional:</p> <p st=
+yle=3D"margin:0;color:#737373;font-weight:400;font-size:12px;line-height:1.=
+333;margin-bottom:12px;">Windows</p> <p style=3D"margin:0;color:#737373;fon=
+t-weight:700;font-size:12px;line-height:1.333;">Navegador:</p> <p style=3D"=
+margin:0;color:#737373;font-weight:400;font-size:12px;line-height:1.333;mar=
+gin-bottom:12px;">Chrome</p> <p style=3D"margin:0;color:#737373;font-weight=
+:700;font-size:12px;line-height:1.333;">Localidade aproximada:</p> <p style=
+=3D"margin:0;color:#737373;font-weight:400;font-size:12px;line-height:1.333=
+;margin-bottom:12px;">Cascavel, Parana, Brasil</p> <p style=3D"margin:0;col=
+or:#737373;font-weight:400;font-size:12px;line-height:1.333;margin-top:12px=
+;"><strong>N=C3=A3o fez isso?</strong> Certifique-se de <a href=3D"https://=
+www.linkedin.com/e/v2?e=3De6i1c6-kzrgvola-y&amp;lipi=3Durn%3Ali%3Apage%3Aem=
+ail_security_ato_challenge_send_pin%3BhxdaYAsvQYWzAZ5UbpUvNg%3D%3D&amp;a=3D=
+uas-request-password-reset&amp;midToken=3DAQFIbiNVcKS5ug&amp;midSig=3D3zzg5=
+cBC7Ioa81&amp;ek=3Dsecurity_ato_challenge_send_pin&amp;li=3D11&amp;m=3Dsecu=
+rity_footer&amp;ts=3Dpassword_reset" style=3D"cursor:pointer;color:#0073B1;=
+-webkit-text-size-adjust:100%;display:inline-block;text-decoration:none;-ms=
+-text-size-adjust:100%;">alterar sua senha</a> imediatamente.</p></td> </tr=
+> </tbody> </table></td> </tr> <tr> <td style=3D"-webkit-text-size-adjust:1=
+00%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> =
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%" bgcolor=3D"#EDF0F3" align=3D"center" style=3D"background-=
+color:#EDF0F3;padding:0 24px;color:#6A6C6D;-webkit-text-size-adjust:100%;ms=
+o-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;text-alig=
+n:center;"> <tbody> <tr> <td align=3D"center" style=3D"padding:16px 0 0 0;-=
+webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-=
+text-size-adjust:100%;text-align:center;"></td> </tr> <tr> <td style=3D"-we=
+bkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-te=
+xt-size-adjust:100%;"> <table role=3D"presentation" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:=
+100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;">=
+ <tbody> <tr> <td align=3D"center" style=3D"padding:0 0 12px 0;-webkit-text=
+-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-a=
+djust:100%;text-align:center;"> <p style=3D"margin:0;color:#6A6C6D;font-wei=
+ght:400;font-size:12px;line-height:1.333;"></p></td> </tr> <tr> <td align=
+=3D"center" style=3D"padding:0 0 12px 0;-webkit-text-size-adjust:100%;mso-t=
+able-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;text-align:c=
+enter;"> <p style=3D"margin:0;word-wrap:break-word;color:#6A6C6D;word-break=
+:break-word;font-weight:400;-ms-word-break:break-all;font-size:12px;line-he=
+ight:1.333;overflow-wrap:break-word;">Este e-mail foi enviado para SOLIVE E=
+NERGIA SOLAR (Diretor administrativo na Solive Energia Solar). <a href=3D"h=
+ttps://www.linkedin.com/e/v2?e=3De6i1c6-kzrgvola-y&amp;lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_security_ato_challenge_send_pin%3BhxdaYAsvQYWzAZ5UbpUvNg%3D%3D&a=
+mp;a=3DcustomerServiceUrl&amp;midToken=3DAQFIbiNVcKS5ug&amp;midSig=3D3zzg5c=
+BC7Ioa81&amp;ek=3Dsecurity_ato_challenge_send_pin&amp;articleId=3D4788" sty=
+le=3D"cursor:pointer;color:#6A6C6D;-webkit-text-size-adjust:100%;text-decor=
+ation:underline;display:inline-block;-ms-text-size-adjust:100%;">Saiba por =
+que inclu=C3=ADmos isto.</a></p></td> </tr> <tr> <td align=3D"center" style=
+=3D"padding:0 0 8px 0;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;ms=
+o-table-lspace:0pt;-ms-text-size-adjust:100%;text-align:center;"><a href=3D=
+"https://www.linkedin.com/comm/feed/?midToken=3DAQFIbiNVcKS5ug&amp;midSig=
+=3D3zzg5cBC7Ioa81&amp;trk=3Deml-security_ato_challenge_send_pin-footer-3-ho=
+me&amp;trkEmail=3Deml-security_ato_challenge_send_pin-footer-3-home-null-e6=
+i1c6%7Ekzrgvola%7Ey-null-neptune%2Ffeed&amp;lipi=3Durn%3Ali%3Apage%3Aemail_=
+security_ato_challenge_send_pin%3BhxdaYAsvQYWzAZ5UbpUvNg%3D%3D" style=3D"cu=
+rsor:pointer;color:#6A6C6D;-webkit-text-size-adjust:100%;text-decoration:un=
+derline;display:inline-block;-ms-text-size-adjust:100%;"><img alt=3D"Linked=
+In" border=3D"0" height=3D"14" src=3D"https://static.licdn.com/sc/p/com.lin=
+kedin.email-assets-frontend%3Aemail-assets-frontend-static-content%2B__late=
+st__/f/%2Femail-assets-frontend%2Fimages%2Femail%2Fphoenix%2Flogos%2Flogo_p=
+hoenix_footer_darkgray_197x48_v1.png" width=3D"58" style=3D"outline:none;-m=
+s-interpolation-mode:bicubic;color:#FFFFFF;display:block;text-decoration:no=
+ne;"></a></td> </tr> <tr> <td align=3D"center" style=3D"padding:0 0 12px 0;=
+-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms=
+-text-size-adjust:100%;text-align:center;"> <p style=3D"margin:0;color:#6A6=
+C6D;font-weight:400;font-size:12px;line-height:1.333;">=C2=A9 2022 LinkedIn=
+ Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2. LinkedIn =
+=C3=A9 um nome comercial registrado da LinkedIn Ireland Unlimited Company. =
+LinkedIn e a logomarca do LinkedIn s=C3=A3o marcas registradas do LinkedIn.=
+</p></td> </tr> </tbody> </table></td> </tr> </tbody> </table></td> </tr> <=
+/tbody> </table> </center></td> </tr> </tbody> </table> <img alt=3D"" role=
+=3D"presentation" src=3D"http://www.linkedin.com/emimp/ip_WlRacE1XTTJMV3Q2Y=
+21kMmIyeGhMWGs9OmMyVmpkWEpwZEhsZllYUnZYMk5vWVd4c1pXNW5aVjl6Wlc1a1gzQnBiZz09=
+Og=3D=3D.gif" style=3D"outline:none;-ms-interpolation-mode:bicubic;color:#F=
+FFFFF;text-decoration:none;width:1px;height:1px;"> </body> </html>
+------=_Part_4827_1033012236.1645131602621--
+

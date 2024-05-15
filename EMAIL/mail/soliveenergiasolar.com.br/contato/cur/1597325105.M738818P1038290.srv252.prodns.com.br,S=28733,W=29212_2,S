@@ -1,0 +1,479 @@
+Return-Path: <claranjeira@exactsales.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from srv252.prodns.com.br
+	by srv252.prodns.com.br with LMTP
+	id qDulKzE/NV/S1w8AAYt2BQ
+	(envelope-from <claranjeira@exactsales.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 13 Aug 2020 10:25:05 -0300
+Return-path: <claranjeira@exactsales.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 13 Aug 2020 10:25:05 -0300
+Received: from mail-yb1-f202.google.com ([209.85.219.202]:54652)
+	by srv252.prodns.com.br with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <claranjeira@exactsales.com.br>)
+	id 1k6DE8-004NGf-Hw
+	for contato@soliveenergiasolar.com.br; Thu, 13 Aug 2020 10:25:05 -0300
+Received: by mail-yb1-f202.google.com with SMTP id b127so6671002ybh.21
+        for <contato@soliveenergiasolar.com.br>; Thu, 13 Aug 2020 06:24:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=hr3lCe8RpYUpePx4/WCFAatNChMc3YBWK8Kk94nf+rE=;
+        b=WyqqxYNb9RNGw9XtQ0G1q0pqc0ouFK3TLDXDK5n5oApAqUWCUX78Z/eOTwXVYUB7Iu
+         cXu1r0UAYweMszg8D1MqfDWux8ujY+NotknXB1VWz9LApEzbB9RiVZBDF72Sq0NRA0sV
+         fTWf75+9WUvCsqimGTMdmKAFN1q0jBS75oiI/EX6wBmcBDSxVe4AFr2QU6YVZR7dU1Kb
+         kLnVUwBoCGdwOa8Tls0OHpM7lQmhZzAqv97v+e8Uz79XAvsdaeh/xs+KrFgrWCinDOIO
+         Z39W7YCuBUa4trg4y6DU7TXxE4nqrlVYHVzBL96ZGzRI666Bzm50YRGj4FOhGDhpRtQ4
+         c8Fw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=exactsales.com.br; s=google;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=hr3lCe8RpYUpePx4/WCFAatNChMc3YBWK8Kk94nf+rE=;
+        b=Q7OrHmD+CGRTmtGZKLJw1A25W73mdjvJOAX7O+BKzKnYAOotHSewbItsQYBAE5euM6
+         Oxphgvh1XcqiiMF11JQx3m+98vMS8an6cYMKLhl1bH9vGNo00v97PPenfBUR/6M593o+
+         VcP2nRtKO48ljEub6yvkLy80oIt2Kl8oWX4aM=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:sender:message-id:date
+         :subject:from:to;
+        bh=hr3lCe8RpYUpePx4/WCFAatNChMc3YBWK8Kk94nf+rE=;
+        b=PB1bBrAkB3Vcim095AzptJUoV6mjDy47Azr/HgewnTEXjwqimOSqC35dHYI/S4ISFs
+         pvtIiHD3KQ8NijVvPKiCl9uNPiwf3sX/LS6azymZsd4yjT8beIo1ABGWHuP3+6tYbiEY
+         +pvITIsJLuzI0UWFPx8Sf6kmdyF6BGBVpwd+MJm+SfTr0dVwLIlJ54kmRfVDsGOA1nI/
+         rCB6WhsXLNeqtKEw1Bt/YAN1YQTSYFt/7VOs+KXTpsbj1Qh141lctVSxyGtOgcRWxJ8q
+         bgDLtOdIyQRPttBuyv5eTrr/W3sg2GfjnPKUfXpYQD1joLod0g+iQJjiZzK9hUaGHU13
+         D69g==
+X-Gm-Message-State: AOAM530BfuxwOZzeNvEt6Y4Ot6faQHdVMm7wUnH4/UJxuMZPZZ8I9mSO
+	79dtOKsFA8OVbQCjKyGeB1wazTTqPh6D3DBicJIjFsV87V1u4H40bFbx7GfCX6CupwE/TkO1Z24
+	3GRWoeXfDfPVhgbQRCgAsBW5ACHcpFldWrbcptHypPA==
+X-Google-Smtp-Source: ABdhPJwbQRSKoF2DKeVwOpxT2+1gtpzA8P3UptMLj/rdgInwGw29vjPp49McoZrc2rQb7SozOQvDEZSRIg0+AmqweyyA
+MIME-Version: 1.0
+X-Received: by 2002:a25:257:: with SMTP id 84mr6255140ybc.259.1597325092281;
+ Thu, 13 Aug 2020 06:24:52 -0700 (PDT)
+Reply-To: claranjeira@exactsales.com.br
+Sender: Google Agenda <calendar-notification@google.com>
+Message-ID: <000000000000b777d705acc23a53@google.com>
+Date: Thu, 13 Aug 2020 13:24:52 +0000
+Subject: =?UTF-8?Q?Convite=3A_Demonstra=C3=A7=C3=A3o_=7C_Exact_Sales_=2B_Solive_Energ?=
+	=?UTF-8?Q?ia_Solar_=2D_seg=2E_17_ago=2E_2020_5pm_=2D_6pm_=28BRT=29_=28contato=40solive?=
+	=?UTF-8?Q?energiasolar=2Ecom=2Ebr=29?=
+From: claranjeira@exactsales.com.br
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/mixed; boundary="000000000000b777c305acc23a51"
+X-Spam-Status: No, score=-1.2
+X-Spam-Score: -11
+X-Spam-Bar: -
+X-Spam-Flag: NO
+
+--000000000000b777c305acc23a51
+Content-Type: multipart/alternative; boundary="000000000000b777c105acc23a4f"
+
+--000000000000b777c105acc23a4f
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+Voc=C3=AA foi convidado para o seguinte evento.
+
+T=C3=ADtulo: Demonstra=C3=A7=C3=A3o | Exact Sales + Solive Energia Solar
+Conforme alinhamos, temos o nosso compromisso marcado para segunda-feira =
+=20
+(17/08), das 17h =C3=A0s 18h (hor=C3=A1rio de Bras=C3=ADlia). Ser=C3=A1 uma=
+ reuni=C3=A3o para =20
+apresentar as solu=C3=A7=C3=B5es em prospec=C3=A7=C3=A3o, qualifica=C3=A7=
+=C3=A3o de leads e otimiza=C3=A7=C3=A3o =20
+dos processos comerciais focados no cen=C3=A1rio e realidade da Solive Ener=
+gia =20
+Solar!Videoconfer=C3=AAncia ser=C3=A1 por =20
+gotomeeting:&nbsp;meet.google.com/zzn-bzec-yetPor favor, confirmar este =20
+invite.Qualquer d=C3=BAvida, estou a disposi=C3=A7=C3=A3o.Abra=C3=A7os e at=
+=C3=A9 l=C3=A1,Carolina =20
+LaranjeiraConsultora de Pr=C3=A9 Vendas48 3025-7750 (515) | 48 =20
+99646-8369claranjeira@exactsales.com.brwww.exactsales.com.br&nbsp; =20
+&nbsp;&nbsp;
+Quando: seg. 17 ago. 2020 5pm =E2=80=93 6pm Hor=C3=A1rio Padr=C3=A3o de Bra=
+s=C3=ADlia - S=C3=A3o Paulo
+
+Informa=C3=A7=C3=B5es de participa=C3=A7=C3=A3o: Entrar com o Google Meet
+https://meet.google.com/zzn-bzec-yet
+
+Participar por telefone
+(BR) +55 11 3957-7958 (N=C3=BAmero de identifica=C3=A7=C3=A3o pessoal (PIN)=
+: 337541904)
+
+Mais n=C3=BAmeros de telefone: =20
+https://tel.meet/zzn-bzec-yet?pin=3D7110887441225&hs=3D0
+
+Agenda: contato@soliveenergiasolar.com.br
+Quem:
+     * claranjeira@exactsales.com.br- organizador
+     * contato@soliveenergiasolar.com.br
+
+Detalhes do evento: =20
+https://www.google.com/calendar/event?action=3DVIEW&eid=3DMGZnZzEwcGZoOGNhd=
+m5pcmRmYm8wZGpvaXMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&tok=3DMjkjY=
+2xhcmFuamVpcmFAZXhhY3RzYWxlcy5jb20uYnI3NmQxMzlkMjcwMzdiNjgwNzdiNDdiMzI0MGRh=
+NzYzYWUxZWY0Zjk3&ctz=3DAmerica%2FSao_Paulo&hl=3Dpt_BR&es=3D0
+
+Convite do Google Agenda: https://www.google.com/calendar/
+
+Voc=C3=AA est=C3=A1 recebendo este e-mail de cortesia na conta =20
+contato@soliveenergiasolar.com.br por ser um participante deste evento.
+
+Para n=C3=A3o receber atualiza=C3=A7=C3=B5es futuras desse evento, recuse-o=
+. Voc=C3=AA tamb=C3=A9m =20
+pode se inscrever para uma Conta do Google em =20
+https://www.google.com/calendar/ e controlar suas configura=C3=A7=C3=B5es d=
+e =20
+notifica=C3=A7=C3=A3o de toda a sua agenda.
+
+Encaminhar este convite talvez permita que qualquer destinat=C3=A1rio modif=
+ique =20
+sua resposta de RSVP, envie uma resposta ao organizador e seja adicionado =
+=C3=A0 =20
+lista de convidados ou convide outras pessoas, independentemente do status =
+=20
+de convite delas. Saiba mais em =20
+https://support.google.com/calendar/answer/37135#forwarding
+
+--=20
+The content of this email is confidential and intended for the recipient=20
+specified in message only. It is strictly forbidden to share any part of=20
+this message with any third party, without a written consent of the sender.=
+=C2=A0
+
+--000000000000b777c105acc23a4f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"description" content=3D"Convite de claranjeira@exac=
+tsales.com.br"/></span><span itemprop=3D"object" itemscope itemtype=3D"http=
+://schema.org/Event"><div style=3D""><table cellspacing=3D"0" cellpadding=
+=3D"8" border=3D"0" summary=3D"" style=3D"width:100%;font-family:Arial,Sans=
+-serif;border:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:=
+#fff;"><tr><td><meta itemprop=3D"eventStatus" content=3D"http://schema.org/=
+EventScheduled"/><h4 style=3D"padding:6px 0;margin:0 0 4px 0;font-family:Ar=
+ial,Sans-serif;font-size:13px;line-height:1.4;border:1px Solid #fff;backgro=
+und:#fff;color:#090;font-weight:normal"><strong>Voc=C3=AA foi convidado par=
+a o seguinte evento.</strong></h4><div style=3D"padding:2px"><span itemprop=
+=3D"publisher" itemscope itemtype=3D"http://schema.org/Organization"><meta =
+itemprop=3D"name" content=3D"Google Calendar"/></span><meta itemprop=3D"eve=
+ntId/googleCalendar" content=3D"0fgg10pfh8cavnirdfbo0djois"/><h3 style=3D"p=
+adding:0 0 6px 0;margin:0;font-family:Arial,Sans-serif;font-size:16px;font-=
+weight:bold;color:#222"><span itemprop=3D"name">Demonstra=C3=A7=C3=A3o | Ex=
+act Sales + Solive Energia Solar</span></h3><table style=3D"display:inline-=
+table" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" summary=3D"Detalhes=
+ do evento"><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-se=
+rif;font-size:13px;color:#888;white-space:nowrap;width:90px" valign=3D"top"=
+><div><i style=3D"font-style:normal">Quando</i></div></td><td style=3D"padd=
+ing-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" val=
+ign=3D"top"><div style=3D"text-indent:-1px"><time itemprop=3D"startDate" da=
+tetime=3D"20200817T200000Z"></time><time itemprop=3D"endDate" datetime=3D"2=
+0200817T210000Z"></time>seg. 17 ago. 2020 5pm =E2=80=93 6pm <span style=3D"=
+color:#888">Hor=C3=A1rio Padr=C3=A3o de Bras=C3=ADlia - S=C3=A3o Paulo</spa=
+n></div></td></tr><tr><td style=3D"padding:0 1em 4px 0;font-family:Arial,Sa=
+ns-serif;font-size:13px;color:#888;white-space:nowrap;width:90px" valign=3D=
+"top"><div><i style=3D"font-style:normal">Informa=C3=A7=C3=B5es de particip=
+a=C3=A7=C3=A3o</i></div></td><td style=3D"padding-bottom:4px;font-family:Ar=
+ial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><div style=3D"text=
+-indent:-1px">Entrar com o Google Meet</div></td></tr><tr><td style=3D"padd=
+ing:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;whi=
+te-space:nowrap;width:90px"></td><td style=3D"padding-bottom:10px;font-fami=
+ly:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><div style=3D=
+"text-indent:-1px"><div style=3D"text-indent:-1px"><span itemprop=3D"potent=
+ialaction" itemscope itemtype=3D"http://schema.org/JoinAction"><span itempr=
+op=3D"name" content=3D"meet.google.com/zzn-bzec-yet"><span itemprop=3D"targ=
+et" itemscope itemtype=3D"http://schema.org/EntryPoint"><span itemprop=3D"u=
+rl" content=3D"https://meet.google.com/zzn-bzec-yet"><span itemprop=3D"http=
+Method" content=3D"GET"><a href=3D"https://meet.google.com/zzn-bzec-yet" st=
+yle=3D"color:#20c;white-space:nowrap" target=3D"_blank">meet.google.com/zzn=
+-bzec-yet</a></span></span></span></span></span> </div></div></td></tr><tr>=
+<td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13=
+px;color:#888;white-space:nowrap;width:90px"></td><td style=3D"padding-bott=
+om:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"t=
+op"></td></tr><td style=3D"padding:0 1em 4px 0;font-family:Arial,Sans-serif=
+;font-size:13px;color:#888;white-space:nowrap;width:90px"></td><td style=3D=
+"padding-bottom:4px;font-family:Arial,Sans-serif;font-size:13px;color:#222"=
+ valign=3D"top"><div style=3D"text-indent:-1px">Participar por telefone</di=
+v></td><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;f=
+ont-size:13px;color:#888;white-space:nowrap;width:90px"></td><td style=3D"p=
+adding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" =
+valign=3D"top"><div style=3D"text-indent:-1px"><div style=3D"text-indent:-1=
+px"><span style=3D"color:#888">(BR) </span><a href=3D"about:invalid#zSoyz" =
+style=3D"color:#20c;white-space:nowrap" target=3D"_blank">+55 11 3957-7958<=
+/a> <span style=3D"color:#888">(N=C3=BAmero de identifica=C3=A7=C3=A3o pess=
+oal (PIN): 337541904)</span></div></div></td></tr><tr><td style=3D"padding:=
+0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-s=
+pace:nowrap;width:90px"></td><td style=3D"padding-bottom:10px;font-family:A=
+rial,Sans-serif;font-size:13px;color:#222" valign=3D"top"></td></tr><tr><td=
+ style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;=
+color:#888;white-space:nowrap;width:90px"></td><td style=3D"padding-bottom:=
+10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"=
+><div style=3D"text-indent:-1px"><a href=3D"https://tel.meet/zzn-bzec-yet?p=
+in=3D7110887441225&amp;hs=3D0" style=3D"color:#20c;white-space:nowrap" targ=
+et=3D"_blank">Mais n=C3=BAmeros de telefone</a></div></td></tr><tr><td styl=
+e=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color=
+:#888;white-space:nowrap;width:90px" valign=3D"top"><div><i style=3D"font-s=
+tyle:normal">Agenda</i></div></td><td style=3D"padding-bottom:10px;font-fam=
+ily:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><div style=
+=3D"text-indent:-1px">contato@soliveenergiasolar.com.br</div></td></tr><tr>=
+<td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13=
+px;color:#888;white-space:nowrap;width:90px" valign=3D"top"><div><i style=
+=3D"font-style:normal">Quem</i></div></td><td style=3D"padding-bottom:10px;=
+font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><tab=
+le cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"padding-right:10px;=
+font-family:Arial,Sans-serif;font-size:13px;color:#222;width:10px"><div sty=
+le=3D"text-indent:-1px"><span style=3D"font-family:Courier New,monospace">&=
+#x2022;</span></div></td><td style=3D"padding-right:10px;font-family:Arial,=
+Sans-serif;font-size:13px;color:#222"><div style=3D"text-indent:-1px"><div>=
+<div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope ite=
+mtype=3D"http://schema.org/Person"><span itemprop=3D"name" class=3D"notrans=
+late">claranjeira@exactsales.com.br</span><meta itemprop=3D"email" content=
+=3D"claranjeira@exactsales.com.br"/></span><span itemprop=3D"organizer" ite=
+mscope itemtype=3D"http://schema.org/Person"><meta itemprop=3D"name" conten=
+t=3D"claranjeira@exactsales.com.br"/><meta itemprop=3D"email" content=3D"cl=
+aranjeira@exactsales.com.br"/></span><span style=3D"font-size:11px;color:#8=
+88">- organizador</span></div></div></div></td></tr><tr><td style=3D"paddin=
+g-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222;width:1=
+0px"><div style=3D"text-indent:-1px"><span style=3D"font-family:Courier New=
+,monospace">&#x2022;</span></div></td><td style=3D"padding-right:10px;font-=
+family:Arial,Sans-serif;font-size:13px;color:#222"><div style=3D"text-inden=
+t:-1px"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" =
+itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name" cla=
+ss=3D"notranslate">contato@soliveenergiasolar.com.br</span><meta itemprop=
+=3D"email" content=3D"contato@soliveenergiasolar.com.br"/></span></div></di=
+v></div></td></tr></table></td></tr></table><div style=3D"float:right;font-=
+weight:bold;font-size:13px"> <a href=3D"https://www.google.com/calendar/eve=
+nt?action=3DVIEW&amp;eid=3DMGZnZzEwcGZoOGNhdm5pcmRmYm8wZGpvaXMgY29udGF0b0Bz=
+b2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;tok=3DMjkjY2xhcmFuamVpcmFAZXhhY3RzYWxl=
+cy5jb20uYnI3NmQxMzlkMjcwMzdiNjgwNzdiNDdiMzI0MGRhNzYzYWUxZWY0Zjk3&amp;ctz=3D=
+America%2FSao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" style=3D"color:#20c;white-sp=
+ace:nowrap" itemprop=3D"url">mais detalhes &raquo;</a><br></div><div style=
+=3D"padding-bottom:15px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222;white-space:pre-wrap!important;white-space:-moz-pre-wrap!important;whit=
+e-space:-pre-wrap!important;white-space:-o-pre-wrap!important;white-space:p=
+re;word-wrap:break-word"><span>Conforme alinhamos, <b>temos o nosso comprom=
+isso marcado para segunda-feira (17/08), das 17h =C3=A0s 18h (hor=C3=A1rio =
+de Bras=C3=ADlia)</b>. Ser=C3=A1 uma reuni=C3=A3o para apresentar as solu=
+=C3=A7=C3=B5es em prospec=C3=A7=C3=A3o, qualifica=C3=A7=C3=A3o de leads e o=
+timiza=C3=A7=C3=A3o dos processos comerciais focados no cen=C3=A1rio e real=
+idade da <b>Solive Energia Solar!</b><br><br>Videoconfer=C3=AAncia ser=C3=
+=A1 por gotomeeting:=C2=A0<a href=3D"https://meet.google.com/zzn-bzec-yet?h=
+s=3D122&amp;authuser=3D0" target=3D"_blank">meet.google.com/zzn-bzec-yet</a=
+><br><br><br>Por favor, confirmar este invite.<br>Qualquer d=C3=BAvida, est=
+ou a disposi=C3=A7=C3=A3o.<br>Abra=C3=A7os e at=C3=A9 l=C3=A1,<br><br><b>Ca=
+rolina Laranjeira</b><br><b>Consultora de Pr=C3=A9 Vendas</b><br><b>48 3025=
+-7750 (515) | 48 99646-8369</b><br><b><a href=3D"mailto:tregina@exactsales.=
+com.br" target=3D"_blank">claranjeira@exactsales.com.br</a></b><br><b><a hr=
+ef=3D"https://www.google.com/url?q=3Dhttp%3A%2F%2Fwww.exactsales.com.br&amp=
+;sa=3DD&amp;ust=3D1597757092245000&amp;usg=3DAOvVaw2zUIvsLfd2yqWJY7yhwkM7" =
+target=3D"_blank">www.exactsales.com.br</a></b>=C2=A0 =C2=A0=C2=A0</span><m=
+eta itemprop=3D"description" content=3D"Conforme alinhamos, temos o nosso c=
+ompromisso marcado para segunda-feira (17/08), das 17h =C3=A0s 18h (hor=C3=
+=A1rio de Bras=C3=ADlia). Ser=C3=A1 uma reuni=C3=A3o para apresentar as sol=
+u=C3=A7=C3=B5es em prospec=C3=A7=C3=A3o, qualifica=C3=A7=C3=A3o de leads e =
+otimiza=C3=A7=C3=A3o dos processos comerciais focados no cen=C3=A1rio e rea=
+lidade da Solive Energia Solar!Videoconfer=C3=AAncia ser=C3=A1 por gotomeet=
+ing:&amp;nbsp;meet.google.com/zzn-bzec-yetPor favor, confirmar este invite.=
+Qualquer d=C3=BAvida, estou a disposi=C3=A7=C3=A3o.Abra=C3=A7os e at=C3=A9 =
+l=C3=A1,Carolina LaranjeiraConsultora de Pr=C3=A9 Vendas48 3025-7750 (515) =
+| 48 99646-8369claranjeira@exactsales.com.brwww.exactsales.com.br&amp;nbsp;=
+ &amp;nbsp;&amp;nbsp;"/></div></div><p style=3D"color:#222;font-size:13px;m=
+argin:0"><span style=3D"color:#888">Voc=C3=AA vai(contato@soliveenergiasola=
+r.com.br)?&nbsp;&nbsp;&nbsp;</span><wbr><strong><span itemprop=3D"potential=
+action" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=
+=3D"attendance" content=3D"http://schema.org/RsvpAttendance/Yes"/><span ite=
+mprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionHandler=
+"><link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET=
+"/><a href=3D"https://www.google.com/calendar/event?action=3DRESPOND&amp;ei=
+d=3DMGZnZzEwcGZoOGNhdm5pcmRmYm8wZGpvaXMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXI=
+uY29tLmJy&amp;rst=3D1&amp;tok=3DMjkjY2xhcmFuamVpcmFAZXhhY3RzYWxlcy5jb20uYnI=
+3NmQxMzlkMjcwMzdiNjgwNzdiNDdiMzI0MGRhNzYzYWUxZWY0Zjk3&amp;ctz=3DAmerica%2FS=
+ao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" style=3D"color:#20c;white-space:nowrap"=
+ itemprop=3D"url">Sim</a></span></span><span style=3D"margin:0 0.4em;font-w=
+eight:normal"> - </span><span itemprop=3D"potentialaction" itemscope itemty=
+pe=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendance" content=
+=3D"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=3D"handler" ite=
+mscope itemtype=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"m=
+ethod" href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=3D"https:/=
+/www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DMGZnZzEwcGZoOGNhd=
+m5pcmRmYm8wZGpvaXMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;rst=3D3=
+&amp;tok=3DMjkjY2xhcmFuamVpcmFAZXhhY3RzYWxlcy5jb20uYnI3NmQxMzlkMjcwMzdiNjgw=
+NzdiNDdiMzI0MGRhNzYzYWUxZWY0Zjk3&amp;ctz=3DAmerica%2FSao_Paulo&amp;hl=3Dpt_=
+BR&amp;es=3D0" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Tal=
+vez</a></span></span><span style=3D"margin:0 0.4em;font-weight:normal"> - <=
+/span><span itemprop=3D"potentialaction" itemscope itemtype=3D"http://schem=
+a.org/RsvpAction"><meta itemprop=3D"attendance" content=3D"http://schema.or=
+g/RsvpAttendance/No"/><span itemprop=3D"handler" itemscope itemtype=3D"http=
+://schema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"http://s=
+chema.org/HttpRequestMethod/GET"/><a href=3D"https://www.google.com/calenda=
+r/event?action=3DRESPOND&amp;eid=3DMGZnZzEwcGZoOGNhdm5pcmRmYm8wZGpvaXMgY29u=
+dGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;rst=3D2&amp;tok=3DMjkjY2xhcmFu=
+amVpcmFAZXhhY3RzYWxlcy5jb20uYnI3NmQxMzlkMjcwMzdiNjgwNzdiNDdiMzI0MGRhNzYzYWU=
+xZWY0Zjk3&amp;ctz=3DAmerica%2FSao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" style=3D=
+"color:#20c;white-space:nowrap" itemprop=3D"url">N=C3=A3o</a></span></span>=
+</strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www.google.com/cal=
+endar/event?action=3DVIEW&amp;eid=3DMGZnZzEwcGZoOGNhdm5pcmRmYm8wZGpvaXMgY29=
+udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&amp;tok=3DMjkjY2xhcmFuamVpcmFAZXh=
+hY3RzYWxlcy5jb20uYnI3NmQxMzlkMjcwMzdiNjgwNzdiNDdiMzI0MGRhNzYzYWUxZWY0Zjk3&a=
+mp;ctz=3DAmerica%2FSao_Paulo&amp;hl=3Dpt_BR&amp;es=3D0" style=3D"color:#20c=
+;white-space:nowrap" itemprop=3D"url">mais op=C3=A7=C3=B5es &raquo;</a></p>=
+</td></tr><tr><td style=3D"background-color:#f6f6f6;color:#888;border-top:1=
+px Solid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>Convite do <a=
+ href=3D"https://www.google.com/calendar/" target=3D"_blank" style=3D"">Goo=
+gle Agenda</a></p><p>Voc=C3=AA est=C3=A1 recebendo este e-mail de cortesia =
+na conta contato@soliveenergiasolar.com.br por ser um participante deste ev=
+ento.</p><p>Para n=C3=A3o receber atualiza=C3=A7=C3=B5es futuras desse even=
+to, recuse-o. Voc=C3=AA tamb=C3=A9m pode se inscrever para uma Conta do Goo=
+gle em https://www.google.com/calendar/ e controlar suas configura=C3=A7=C3=
+=B5es de notifica=C3=A7=C3=A3o de toda a sua agenda.</p><p>Encaminhar este =
+convite talvez permita que qualquer destinat=C3=A1rio modifique sua respost=
+a de RSVP, envie uma resposta ao organizador e seja adicionado =C3=A0 lista=
+ de convidados ou convide outras pessoas, independentemente do status de co=
+nvite delas. <a href=3D"https://support.google.com/calendar/answer/37135#fo=
+rwarding">Saiba mais</a>.</p></td></tr></table></div></span></span>
+<br>
+<em style=3D"margin:0px;padding:0px;border:0px;vertical-align:baseline;colo=
+r:rgb(68,68,68);font-family:&quot;Segoe UI&quot;,Frutiger,&quot;Frutiger Li=
+notype&quot;,&quot;Dejavu Sans&quot;,&quot;Helvetica Neue&quot;,Arial,sans-=
+serif;background-color:rgb(255,255,255)"><font size=3D"1">The content of th=
+is email is confidential and intended for the recipient specified in messag=
+e only. It is strictly forbidden to share any part of this message with any=
+ third party, without a written consent of the sender.=C2=A0</font></em>
+--000000000000b777c105acc23a4f
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: quoted-printable
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20200817T200000Z
+DTEND:20200817T210000Z
+DTSTAMP:20200813T132452Z
+ORGANIZER;CN=3Dclaranjeira@exactsales.com.br:mailto:claranjeira@exactsales.=
+co
+ m.br
+UID:0fgg10pfh8cavnirdfbo0djois@google.com
+ATTENDEE;CUTYPE=3DINDIVIDUAL;ROLE=3DREQ-PARTICIPANT;PARTSTAT=3DACCEPTED;RSV=
+P=3DTRUE
+ ;CN=3Dclaranjeira@exactsales.com.br;X-NUM-GUESTS=3D0:mailto:claranjeira@ex=
+actsa
+ les.com.br
+ATTENDEE;CUTYPE=3DINDIVIDUAL;ROLE=3DREQ-PARTICIPANT;PARTSTAT=3DNEEDS-ACTION=
+;RSVP=3D
+ TRUE;CN=3Dcontato@soliveenergiasolar.com.br;X-NUM-GUESTS=3D0:mailto:contat=
+o@sol
+ iveenergiasolar.com.br
+X-MICROSOFT-CDO-OWNERAPPTID:1509735827
+CREATED:20200813T132451Z
+DESCRIPTION:Conforme alinhamos\, <b>temos o nosso compromisso marcado para=
+=20
+ segunda-feira (17/08)\, das 17h =C3=A0s 18h (hor=C3=A1rio de Bras=C3=ADlia=
+)</b>. Ser=C3=A1 uma=20
+ reuni=C3=A3o para apresentar as solu=C3=A7=C3=B5es em prospec=C3=A7=C3=A3o=
+\, qualifica=C3=A7=C3=A3o de leads e
+  otimiza=C3=A7=C3=A3o dos processos comerciais focados no cen=C3=A1rio e r=
+ealidade da <b>S
+ olive Energia Solar!</b><br><br>Videoconfer=C3=AAncia ser=C3=A1 por gotome=
+eting:&nbsp
+ \;<a href=3D"https://meet.google.com/zzn-bzec-yet?hs=3D122&amp\;authuser=
+=3D0" id=3D
+ "ow613" __is_owner=3D"true">meet.google.com/zzn-bzec-yet</a><br><br><br>Po=
+r f
+ avor\, confirmar este invite.<br>Qualquer d=C3=BAvida\, estou a disposi=C3=
+=A7=C3=A3o.<br>A
+ bra=C3=A7os e at=C3=A9 l=C3=A1\,<br><br><b>Carolina Laranjeira</b><br><b>C=
+onsultora de Pr=C3=A9
+  Vendas</b><br><b>48 3025-7750 (515) | 48 99646-8369</b><br><b><a href=3D"=
+mai
+ lto:tregina@exactsales.com.br">claranjeira@exactsales.com.br</a></b><br><b=
+>
+ <a href=3D"http://www.exactsales.com.br">www.exactsales.com.br</a></b>&nbs=
+p\;
+  &nbsp\;&nbsp\;\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~=
+:
+ ~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nN=C3=A3o edite esta se=C3=A7=C3=A3o da de=
+scri=C3=A7=C3=A3o.\n\nEste
+  evento tem uma videochamada.\nParticipar: https://meet.google.com/zzn-bze=
+c
+ -yet\n(BR) +55 11 3957-7958 PIN: 337541904#\nVer mais n=C3=BAmeros de tele=
+fone:=20
+ https://tel.meet/zzn-bzec-yet?pin=3D7110887441225&hs=3D7\n\nVisualize o se=
+u eve
+ nto em https://www.google.com/calendar/event?action=3DVIEW&eid=3DMGZnZzEwc=
+GZoOG
+ Nhdm5pcmRmYm8wZGpvaXMgY29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJy&tok=3DM=
+jkj
+ Y2xhcmFuamVpcmFAZXhhY3RzYWxlcy5jb20uYnI3NmQxMzlkMjcwMzdiNjgwNzdiNDdiMzI0MG=
+R
+ hNzYzYWUxZWY0Zjk3&ctz=3DAmerica%2FSao_Paulo&hl=3Dpt_BR&es=3D1.\n-::~:~::~:=
+~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200813T132451Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Demonstra=C3=A7=C3=A3o | Exact Sales + Solive Energia Solar
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--000000000000b777c105acc23a4f--
+--000000000000b777c305acc23a51
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMjAwODE3VDIwMDAwMFoNCkRURU5EOjIwMjAwODE3
+VDIxMDAwMFoNCkRUU1RBTVA6MjAyMDA4MTNUMTMyNDUyWg0KT1JHQU5JWkVSO0NOPWNsYXJhbmpl
+aXJhQGV4YWN0c2FsZXMuY29tLmJyOm1haWx0bzpjbGFyYW5qZWlyYUBleGFjdHNhbGVzLmNvDQog
+bS5icg0KVUlEOjBmZ2cxMHBmaDhjYXZuaXJkZmJvMGRqb2lzQGdvb2dsZS5jb20NCkFUVEVOREVF
+O0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVE
+O1JTVlA9VFJVRQ0KIDtDTj1jbGFyYW5qZWlyYUBleGFjdHNhbGVzLmNvbS5icjtYLU5VTS1HVUVT
+VFM9MDptYWlsdG86Y2xhcmFuamVpcmFAZXhhY3RzYQ0KIGxlcy5jb20uYnINCkFUVEVOREVFO0NV
+VFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElP
+TjtSU1ZQPQ0KIFRSVUU7Q049Y29udGF0b0Bzb2xpdmVlbmVyZ2lhc29sYXIuY29tLmJyO1gtTlVN
+LUdVRVNUUz0wOm1haWx0bzpjb250YXRvQHNvbA0KIGl2ZWVuZXJnaWFzb2xhci5jb20uYnINClgt
+TUlDUk9TT0ZULUNETy1PV05FUkFQUFRJRDoxNTA5NzM1ODI3DQpDUkVBVEVEOjIwMjAwODEzVDEz
+MjQ1MVoNCkRFU0NSSVBUSU9OOkNvbmZvcm1lIGFsaW5oYW1vc1wsIDxiPnRlbW9zIG8gbm9zc28g
+Y29tcHJvbWlzc28gbWFyY2FkbyBwYXJhIA0KIHNlZ3VuZGEtZmVpcmEgKDE3LzA4KVwsIGRhcyAx
+N2ggw6BzIDE4aCAoaG9yw6FyaW8gZGUgQnJhc8OtbGlhKTwvYj4uIFNlcsOhIHVtYSANCiByZXVu
+acOjbyBwYXJhIGFwcmVzZW50YXIgYXMgc29sdcOnw7VlcyBlbSBwcm9zcGVjw6fDo29cLCBxdWFs
+aWZpY2HDp8OjbyBkZSBsZWFkcyBlDQogIG90aW1pemHDp8OjbyBkb3MgcHJvY2Vzc29zIGNvbWVy
+Y2lhaXMgZm9jYWRvcyBubyBjZW7DoXJpbyBlIHJlYWxpZGFkZSBkYSA8Yj5TDQogb2xpdmUgRW5l
+cmdpYSBTb2xhciE8L2I+PGJyPjxicj5WaWRlb2NvbmZlcsOqbmNpYSBzZXLDoSBwb3IgZ290b21l
+ZXRpbmc6Jm5ic3ANCiBcOzxhIGhyZWY9Imh0dHBzOi8vbWVldC5nb29nbGUuY29tL3p6bi1iemVj
+LXlldD9ocz0xMjImYW1wXDthdXRodXNlcj0wIiBpZD0NCiAib3c2MTMiIF9faXNfb3duZXI9InRy
+dWUiPm1lZXQuZ29vZ2xlLmNvbS96em4tYnplYy15ZXQ8L2E+PGJyPjxicj48YnI+UG9yIGYNCiBh
+dm9yXCwgY29uZmlybWFyIGVzdGUgaW52aXRlLjxicj5RdWFscXVlciBkw7p2aWRhXCwgZXN0b3Ug
+YSBkaXNwb3Npw6fDo28uPGJyPkENCiBicmHDp29zIGUgYXTDqSBsw6FcLDxicj48YnI+PGI+Q2Fy
+b2xpbmEgTGFyYW5qZWlyYTwvYj48YnI+PGI+Q29uc3VsdG9yYSBkZSBQcsOpDQogIFZlbmRhczwv
+Yj48YnI+PGI+NDggMzAyNS03NzUwICg1MTUpIHwgNDggOTk2NDYtODM2OTwvYj48YnI+PGI+PGEg
+aHJlZj0ibWFpDQogbHRvOnRyZWdpbmFAZXhhY3RzYWxlcy5jb20uYnIiPmNsYXJhbmplaXJhQGV4
+YWN0c2FsZXMuY29tLmJyPC9hPjwvYj48YnI+PGI+DQogPGEgaHJlZj0iaHR0cDovL3d3dy5leGFj
+dHNhbGVzLmNvbS5iciI+d3d3LmV4YWN0c2FsZXMuY29tLmJyPC9hPjwvYj4mbmJzcFw7DQogICZu
+YnNwXDsmbmJzcFw7XG5cbi06On46fjo6fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fjp+On46DQogfjp+On46fjp+On46fjp+On46fjp+On46On46fjo6LVxuTsOjbyBl
+ZGl0ZSBlc3RhIHNlw6fDo28gZGEgZGVzY3Jpw6fDo28uXG5cbkVzdGUNCiAgZXZlbnRvIHRlbSB1
+bWEgdmlkZW9jaGFtYWRhLlxuUGFydGljaXBhcjogaHR0cHM6Ly9tZWV0Lmdvb2dsZS5jb20venpu
+LWJ6ZWMNCiAteWV0XG4oQlIpICs1NSAxMSAzOTU3LTc5NTggUElOOiAzMzc1NDE5MDQjXG5WZXIg
+bWFpcyBuw7ptZXJvcyBkZSB0ZWxlZm9uZTogDQogaHR0cHM6Ly90ZWwubWVldC96em4tYnplYy15
+ZXQ/cGluPTcxMTA4ODc0NDEyMjUmaHM9N1xuXG5WaXN1YWxpemUgbyBzZXUgZXZlDQogbnRvIGVt
+IGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/YWN0aW9uPVZJRVcmZWlkPU1H
+Wm5aekV3Y0dab09HDQogTmhkbTVwY21SbVltOHdaR3B2YVhNZ1kyOXVkR0YwYjBCemIyeHBkbVZs
+Ym1WeVoybGhjMjlzWVhJdVkyOXRMbUp5JnRvaz1NamtqDQogWTJ4aGNtRnVhbVZwY21GQVpYaGhZ
+M1J6WVd4bGN5NWpiMjB1WW5JM05tUXhNemxrTWpjd016ZGlOamd3TnpkaU5EZGlNekkwTUdSDQog
+aE56WXpZV1V4WldZMFpqazMmY3R6PUFtZXJpY2ElMkZTYW9fUGF1bG8maGw9cHRfQlImZXM9MS5c
+bi06On46fjo6fjp+On46fjp+DQogOn46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fjp+On46fjp+On46fjp+On46On46fjo6LQ0KTEFTVC1NT0RJRklFRDoyMDIwMDgx
+M1QxMzI0NTFaDQpMT0NBVElPTjoNClNFUVVFTkNFOjANClNUQVRVUzpDT05GSVJNRUQNClNVTU1B
+Ulk6RGVtb25zdHJhw6fDo28gfCBFeGFjdCBTYWxlcyArIFNvbGl2ZSBFbmVyZ2lhIFNvbGFyDQpU
+UkFOU1A6T1BBUVVFDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=
+--000000000000b777c305acc23a51--

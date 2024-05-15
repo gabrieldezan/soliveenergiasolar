@@ -1,0 +1,669 @@
+Return-Path: <bounces+8524499-b4e7-contato=soliveenergiasolar.com.br@sendgrid.nubank.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id eK92Gz1enWWudQAAIElduQ
+	(envelope-from <bounces+8524499-b4e7-contato=soliveenergiasolar.com.br@sendgrid.nubank.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 09 Jan 2024 14:54:53 +0000
+Return-path: <bounces+8524499-b4e7-contato=soliveenergiasolar.com.br@sendgrid.nubank.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 09 Jan 2024 14:54:53 +0000
+Received: from o7.ptr4421.nubank.com.br ([168.245.15.69]:12790)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <bounces+8524499-b4e7-contato=soliveenergiasolar.com.br@sendgrid.nubank.com.br>)
+	id 1rNDVE-0000TY-2G
+	for contato@soliveenergiasolar.com.br;
+	Tue, 09 Jan 2024 14:54:53 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nubank.com.br;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:
+	cc:content-type:from:subject:to;
+	s=s1; bh=TIR6DRc5zIopV/1MwJU41sUpX7QFDup/SPwSOYlGWaM=;
+	b=Qh8FkGhPYIQLcvF9/IEUIHmdjvwf3kapUF+z9uKN78PIxObj0yYwMIWswUsQr8QcEW2Y
+	VYORvY5YNILNrCy94vwen7S4p2MSllMx+i26M0TcQ4n/mpQQkzQUlk+S6Dg8aI2jHf0Xn2
+	kgqQ+u4dFb3YFVmt1eQbRYuDoYcJK+tPS8kFCsrN4P5EKVIwh7/D0HuIptagb/UrhpXuwG
+	p3L44ND8T+2M3whf4ZqX7+TXkK38D+GW3LGagDINffJuU2cD24JYdJ2WrlwGem/82gTN67
+	nEDlecM4lccmPjPazdDJL2psB5c9bjvxYnUyNJO5TsJtbOQu59iZXwtbZ2ymOG4Q==
+Received: by filterdrecv-b7c5b88-t4m2j with SMTP id filterdrecv-b7c5b88-t4m2j-1-659D5E13-23
+        2024-01-09 14:54:11.611044223 +0000 UTC m=+7243930.869182518
+Received: from ODUyNDQ5OQ (unknown)
+	by geopod-ismtpd-4 (SG) with HTTP
+	id 6IQdF2SBQgOUZsiDzoJYUg
+	Tue, 09 Jan 2024 14:54:11.577 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 09 Jan 2024 14:54:11 +0000 (UTC)
+From: Nubank <todomundo@nubank.com.br>
+Mime-Version: 1.0
+Message-ID: <6IQdF2SBQgOUZsiDzoJYUg@geopod-ismtpd-4>
+Subject: O seu pedido de portabilidade de uma chave Pix para o Nubank falhou
+X-SG-EID: 
+ =?us-ascii?Q?gvfS1R1h1UUntBVDRTyyRgZLEA4EQzdX5h4eghi6okHzg2JCun3U4eFyGH4PWd?=
+ =?us-ascii?Q?FUR5MId5KPetaMoCC2d9Ga4q1RMinHyyNRZe5Bo?=
+ =?us-ascii?Q?mUM1WVpEwIq++XXIO5e8qJ9tAeTFwGoORmoMLL4?=
+ =?us-ascii?Q?j6VldWiPostyN70Qs2CFGCeg53bVJ3dfe=2FdejG7?=
+ =?us-ascii?Q?Z43zSMRuqLbuoJACM3zAQxue4N2d9=2FqJuNX9nNs?=
+ =?us-ascii?Q?sGQqP1s+03Yl2dxjvxjOS8HoJDyQ6pW7dalk8L?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FIJmNs2l70O8trsY2sKF6?=
+ =?us-ascii?Q?M9Jcoa2tJZhY95yEnKIxYlLhN9RWM9Hhl5U5qV=2F?=
+ =?us-ascii?Q?suqezez8vE6TiYAmtduOlgZpM=2FsURY0GmHzLgiv?=
+ =?us-ascii?Q?QObniOq6cgdiDAOqb2esi+PeSLHm3uaLVjLL3mm?=
+ =?us-ascii?Q?fd5TUUQLTOAsdD4QcKOgG+IT1XIsgUyTNLtoMba?=
+ =?us-ascii?Q?KPyRnJRaISnaayc2LsnuUAtphMl6kPyUpqg5CUg?=
+ =?us-ascii?Q?G3BLQ5cVbiaCt5EhTDyEEPoKIQY5FpK30vIb0JG?=
+ =?us-ascii?Q?cw+kzqYYqeI=2F8Nm82WiDs8bENlTT5VP6eR4JfcY?=
+ =?us-ascii?Q?TZaoRFQ=3D=3D?=
+To: contato@soliveenergiasolar.com.br
+X-Entity-ID: FKjv9Ukv4DeNKHy+wMr+cw==
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Acesse sua área Pix para saber mais O seu pedido de portabilidade
+    de uma chave Pix falhou Olá, Solive Energia Solar 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: amazonaws.com]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: amazonaws.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: amazonaws.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+ -0.0 DKIMWL_WL_HIGH         DKIMwl.org - High trust sender
+X-Spam-Flag: NO
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title></title><!--[if !mso]><!-- --><meta http-equiv=3D"X-UA-Com=
+patible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-=
+Type" content=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" conten=
+t=3D"width=3Ddevice-width,initial-scale=3D1"><style type=3D"text/css">#outl=
+ook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-=
+size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-de=
+coration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }</style><!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]--><style type=3D"text/css">@media only screen and (min-wi=
+dth:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-35 { width:35% !important; max-width: 35%; }
+.mj-column-per-55 { width:55% !important; max-width: 55%; }
+      }</style><style type=3D"text/css">@media only screen and (max-width:4=
+80px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style><style type=3D"text/css">.title-header div {
+        font-size: 34px !important;
+      }
+
+      .spacer-body {
+        height: 180px !important;
+      }
+
+      .name-text div {
+        font-size: 35px !important;
+      }
+
+      .body-title div {
+        font-size: 26px !important;
+      }
+
+      .body-normal div {
+        font-size: 16px !important;
+      }
+
+      .body-bullets div {
+        font-size: 22px !important;
+      }
+
+      .body-footer div {
+        font-size: 16px !important;
+      }
+
+      .body-legal div {
+        font-size: 12px !important;
+      }
+
+      .button-white a {
+        font-size: 14px !important;
+      }
+
+      .link-none {
+        text-decoration: none;
+        color: grey;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .title-header div {
+          font-size: 23px !important;
+        }
+
+        .spacer-body div {
+          height: 90px !important;
+        }
+
+        .name-text div {
+          color: #fff !important;
+          font-size: 22px !important;
+        }
+
+        .body-title div {
+          font-size: 18px !important;
+        }
+
+        .body-normal div {
+          font-size: 14px !important; letter-spacing: 0.5px !important;
+        }
+
+        .body-bullets div {
+          font-size: 14px !important;
+        }
+
+        .body-footer div {
+          font-size: 13px !important;
+        }
+
+        .body-legal div {
+          font-size: 10px !important;
+        }
+
+        .button-white a {
+          font-size: 12px !important;
+        }
+      }</style><!-- PREVIEW TEXT in the email --></head><body style=3D"back=
+ground-color:#E5E5E5;"><div style=3D"display:none;font-size:1px;color:#ffff=
+ff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"=
+>Acesse sua =E1rea Pix para saber mais</div><div style=3D"background-color:=
+#E5E5E5;"><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" >=
+<tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly=
+;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-si=
+ze:0px;padding:0px;text-align:center;"><!--[if mso | IE]><table role=3D"pre=
+sentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><v:rect style=3D"width:600px;" xmlns:v=3D"urn:schemas-microsof=
+t-com:vml" fill=3D"true" stroke=3D"false"><v:fill origin=3D"0.5, 0" positio=
+n=3D"0.5, 0" src=3D"https://cdn.nubank.com.br/engagement_machine/photos/fun=
+do_v2.png" type=3D"tile" /><v:textbox style=3D"mso-fit-shape-to-text:true" =
+inset=3D"0,0,0,0"><![endif]--><div style=3D"background:url(https://cdn.nuba=
+nk.com.br/engagement_machine/photos/fundo_v2.png) top center / 100% 100% no=
+-repeat;margin:0px auto;max-width:600px;"><div style=3D"line-height:0;font-=
+size:0;"><table align=3D"center" background=3D"https://cdn.nubank.com.br/en=
+gagement_machine/photos/fundo_v2.png" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" role=3D"presentation" style=3D"background:url(https://cdn.nuban=
+k.com.br/engagement_machine/photos/fundo_v2.png) top center / 100% 100% no-=
+repeat;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;pad=
+ding:20px 0;text-align:left;"><!--[if mso | IE]><table role=3D"presentation=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" c=
+lass=3D"" style=3D"width:600px;" ><![endif]--><div class=3D"mj-column-per-1=
+00 mj-outlook-group-fix" style=3D"font-size:0;line-height:0;text-align:left=
+;display:inline-block;width:100%;direction:ltr;"><!--[if mso | IE]><table r=
+ole=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td style=3D"align:left;vertical-align:middle;width:210px;" ><![endif]--><di=
+v class=3D"mj-column-per-35 mj-outlook-group-fix" style=3D"font-size:0px;te=
+xt-align:left;direction:ltr;display:inline-block;vertical-align:middle;widt=
+h:35%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" width=3D"100%"><tbody><tr><td style=3D"vertical-align:middle;pad=
+ding-right:3%;padding-left:10%;"><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"left" s=
+tyle=3D"font-size:0px;padding:10px 25px;padding-top:20px;padding-left:20px;=
+word-break:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;border-spaci=
+ng:0px;"><tbody><tr><td style=3D"width:80px;"><img height=3D"auto" src=3D"h=
+ttps://cdn.nubank.com.br/engagement_machine/photos/logo.png" style=3D"borde=
+r:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;=
+font-size:13px;" width=3D"80"></td></tr></tbody></table></td></tr></table><=
+/td></tr></tbody></table></div><!--[if mso | IE]></td><td style=3D"align:le=
+ft;vertical-align:middle;width:330px;" ><![endif]--><div class=3D"mj-column=
+-per-55 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direct=
+ion:ltr;display:inline-block;vertical-align:middle;width:55%;"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"=
+100%"><tbody><tr><td style=3D"vertical-align:middle;padding-right:3%;paddin=
+g-left:3%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" width=3D"100%"><tr><td align=3D"left" class=3D"name-text" st=
+yle=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;pad=
+ding-left:0px;word-break:break-word;"><div style=3D"font-family:Helvetica;f=
+ont-size:13px;font-style:normal;font-weight:normal;letter-spacing:1px;line-=
+height:130%;text-align:left;color:#555555;"></div></td></tr></table></td></=
+tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></=
+div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></tab=
+le></div></div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table></t=
+d></tr><![endif]--><!-- Email HEADER TITLE --><!--[if mso | IE]><tr><td ali=
+gn=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" wid=
+th=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><v:rect style=3D"width:600px;" xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" fill=3D"true" stroke=3D"false"><v:fill origin=3D"0.5, 0" posit=
+ion=3D"0.5, 0" src=3D"https://cdn.nubank.com.br/engagement_machine/photos/f=
+undo_v2.png" type=3D"tile" /><v:textbox style=3D"mso-fit-shape-to-text:true=
+" inset=3D"0,0,0,0"><![endif]--><div style=3D"background:url(https://cdn.nu=
+bank.com.br/engagement_machine/photos/fundo_v2.png) top center / 100% 100% =
+no-repeat;margin:0px auto;max-width:600px;"><div style=3D"line-height:0;fon=
+t-size:0;"><table align=3D"center" background=3D"https://cdn.nubank.com.br/=
+engagement_machine/photos/fundo_v2.png" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"background:url(https://cdn.nub=
+ank.com.br/engagement_machine/photos/fundo_v2.png) top center / 100% 100% n=
+o-repeat;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;p=
+adding:20px 0;padding-top:0px;text-align:center;"><!--[if mso | IE]><table =
+role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr>=
+<td align=3D"left" class=3D"" style=3D"vertical-align:top;width:600px;" ><!=
+[endif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"fo=
+nt-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-alig=
+n:top;padding-right:3%;padding-left:3%;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=3D=
+"left" style=3D"font-size:0px;word-break:break-word;"><!--[if mso | IE]><ta=
+ble role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=
+<tr><td height=3D"40" style=3D"vertical-align:top;height:40px;"><![endif]--=
+><div style=3D"height:40px;">&nbsp;</div><!--[if mso | IE]></td></tr></tabl=
+e><![endif]--></td></tr><tr><td align=3D"left" class=3D"title-header" style=
+=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-b=
+reak:break-word;"><div style=3D"font-family:Helvetica;font-size:13px;font-s=
+tyle:normal;font-weight:normal;letter-spacing:1px;line-height:130%;text-ali=
+gn:left;color:#FFFFFF;">O seu pedido de portabilidade de uma chave Pix falh=
+ou</div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;word-break:=
+break-word;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"1" style=3D"vertical-al=
+ign:top;height:1px;"><![endif]--><div style=3D"height:1px;">&nbsp;</div><!-=
+-[if mso | IE]></td></tr></table><![endif]--></td></tr></table></td></tr></=
+tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></=
+tr></tbody></table></div></div><!--[if mso | IE]></v:textbox></v:rect></td>=
+</tr></table></td></tr><![endif]--><!-- TEXT BLOCK WITH BODY TITLE --><!--[=
+if mso | IE]><tr><td align=3D"left" class=3D"" width=3D"600px" ><table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"background=
+:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background:#FFFFFF;background-color:#FFFFFF;width:100=
+%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0;text=
+-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" styl=
+e=3D"vertical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-=
+per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direct=
+ion:ltr;display:inline-block;vertical-align:top;width:100%;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"1=
+00%"><tbody><tr><td style=3D"vertical-align:top;padding-right:3%;padding-le=
+ft:3%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" width=3D"100%"><tr><td align=3D"left" style=3D"font-size:0px;wor=
+d-break:break-word;"><!--[if mso | IE]><table role=3D"presentation" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"30" style=3D"v=
+ertical-align:top;height:30px;"><![endif]--><div style=3D"height:30px;">&nb=
+sp;</div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><tr><td =
+align=3D"left" class=3D"body-title" style=3D"font-size:0px;padding:10px 25p=
+x;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div style=3D"fo=
+nt-family:Helvetica;font-size:13px;font-style:normal;font-weight:normal;let=
+ter-spacing:1px;line-height:130%;text-align:left;color:#8A05BE;">Ol=E1, Sol=
+ive Energia Solar<br></div></td></tr><tr><td align=3D"left" class=3D"body-n=
+ormal" style=3D"font-size:0px;padding:10px 25px;padding-top:2%;padding-bott=
+om:2%;word-break:break-word;"><div style=3D"font-family:Helvetica;font-size=
+:13px;font-style:normal;font-weight:normal;letter-spacing:1px;line-height:1=
+30%;text-align:left;color:#555555;">Voc=EA pediu a portabilidade de uma cha=
+ve Pix, que estava registrada em outra conta, para sua conta do Nubank, por=
+=E9m <strong>n=E3o conseguimos finalizar o seu pedido</strong>.<br><br>A in=
+forma=E7=E3o abaixo continua como uma chave Pix em sua outra conta.</div></=
+td></tr><tr><td align=3D"center" class=3D"body-normal" style=3D"font-size:0=
+px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word=
+;"><div style=3D"font-family:Helvetica;font-size:13px;font-style:normal;fon=
+t-weight:normal;letter-spacing:1px;line-height:130%;text-align:center;color=
+:#555555;"><strong>Tentativa de portabilidade finalizada em 09/01/2024</str=
+ong><br>CNPJ 38.2**.***/****-**</div></td></tr></table></td></tr></tbody></=
+table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbo=
+dy></table></div><!--[if mso | IE]></td></tr></table></td></tr><![endif]-->=
+<!-- The next mj-section has a gif. You can modify it by changing the "src"=
+ parameter and add a link in the "href" parameter. --><!--[if mso | IE]><tr=
+><td align=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600=
+px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line=
+-height-rule:exactly;"><![endif]--><div style=3D"background:#FFFFFF;backgro=
+und-color:#FFFFFF;margin:0px auto;max-width:600px;"><table align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"background:#FFFFFF;background-color:#FFFFFF;width:100%;"><tbody><tr><=
+td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-align:center;">=
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"vertical-al=
+ign:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlo=
+ok-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:=
+inline-block;vertical-align:top;width:100%;"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><=
+td style=3D"vertical-align:top;padding-right:3%;padding-left:3%;"><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=
+=3D"100%"><tr><td align=3D"left" class=3D"body-normal" style=3D"font-size:0=
+px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word=
+;"><div style=3D"font-family:Helvetica;font-size:13px;font-style:normal;fon=
+t-weight:normal;letter-spacing:1px;line-height:130%;text-align:left;color:#=
+555555;">Acesse sua =E1rea Pix para saber mais.<br><br></div></td></tr><tr>=
+<td align=3D"center" vertical-align=3D"middle" class=3D"button-white" style=
+=3D"font-size:0px;padding:10px 25px;word-break:break-word;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-collapse:separate;line-height:100%;"><tr><td align=3D"center" bgcolor=
+=3D"#8A05BE" role=3D"presentation" style=3D"border:none;border-radius:64px;=
+cursor:auto;font-style:normal;mso-padding-alt:10px 25px;background:#8A05BE;=
+" valign=3D"middle"><p style=3D"display:inline-block;background:#8A05BE;col=
+or:#F5F5F5;font-family:Helvetica;font-size:13px;font-style:normal;font-weig=
+ht:bold;line-height:130%;margin:0;text-decoration:none;text-transform:none;=
+padding:10px 25px;mso-padding-alt:0px;border-radius:64px;"><mj-inline><a hr=
+ef=3D"https://nuapp.nubank.com.br/bnVhcHA6Ly9waXgvZGljdA=3D=3D?utm_source=
+=3Dnotification&utm_medium=3Demail&utm_campaign=3Dpix_portability_in_failed=
+" clicktracking=3D"off" mc:disable-tracking style=3D"color:white;background=
+-color:none;text-decoration:none;padding:14px 0px;margin:0" target=3D"_blan=
+k">MINHA =C1REA PIX</a></mj-inline></p></td></tr></table></td></tr></table>=
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></=
+td></tr><tr><td align=3D"left" class=3D"" width=3D"600px" ><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=
+=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size=
+:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"background:#F=
+FFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;"><table ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"background:#FFFFFF;background-color:#FFFFFF;width:100%;"=
+><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0;text-align:c=
+enter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"ver=
+tical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbo=
+dy><tr><td style=3D"vertical-align:top;padding-right:3%;padding-left:3%;"><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" width=3D"100%"><tr><td align=3D"left" style=3D"font-size:0px;padding:10px=
+ 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div style=
+=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-weight:norm=
+al;letter-spacing:1px;line-height:130%;text-align:left;color:#FFFFFF;">jvVh=
+CPTScOfYZAyqi0Y5</div></td></tr></table></td></tr></tbody></table></div><!-=
+-[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></di=
+v><!--[if mso | IE]></td></tr></table></td></tr><![endif]--><!-- Footer. --=
+><!--[if mso | IE]><tr><td align=3D"left" class=3D"" width=3D"600px" ><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0p=
+x;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"ba=
+ckground:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;"=
+><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"background:#FFFFFF;background-color:#FFFFFF;w=
+idth:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:20p=
+x 0;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr></tr></table><![endif]--><=
+/td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></t=
+r></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></t=
+d></tr></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=
+=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-=
+-><div style=3D"background:#E4E4E4;background-color:#E4E4E4;margin:0px auto=
+;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"background:#E4E4E4;backgrou=
+nd-color:#E4E4E4;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-si=
+ze:0px;padding:0px;text-align:center;"><!--[if mso | IE]><table role=3D"pre=
+sentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]--><div style=3D"background:#E4E4E4;background-color:=
+#E4E4E4;margin:0px auto;max-width:600px;"><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"back=
+ground:#E4E4E4;background-color:#E4E4E4;width:100%;"><tbody><tr><td style=
+=3D"direction:ltr;font-size:0px;padding:20px 0;text-align:center;"><!--[if =
+mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"vertical-align:top;=
+width:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group=
+-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-b=
+lock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=
+=3D"vertical-align:top;padding-right:3%;padding-left:3%;"><table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"=
+><tr><td align=3D"left" class=3D"body-title" style=3D"font-size:0px;padding=
+:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><div st=
+yle=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-weight:n=
+ormal;letter-spacing:1px;line-height:130%;text-align:left;color:#191919;"><=
+b>Abra=E7os,<br>Equipe Nubank<br></b></div></td></tr><tr><td align=3D"left"=
+ class=3D"body-footer" style=3D"font-size:0px;padding:10px 25px;padding-top=
+:2%;padding-bottom:2%;word-break:break-word;"><div style=3D"font-family:Hel=
+vetica;font-size:13px;font-style:normal;font-weight:normal;letter-spacing:1=
+px;line-height:130%;text-align:left;color:#191919;">Por favor, pedimos que =
+voc=EA n=E3o responda esse e-mail, pois se trata de uma mensagem autom=E1ti=
+ca e n=E3o =E9 poss=EDvel dar continuidade com seu atendimento por aqui.</d=
+iv></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td=
+></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]=
+></td></tr></table></td></tr><tr><td align=3D"left" class=3D"" width=3D"600=
+px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-h=
+eight:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div sty=
+le=3D"background:#E4E4E4;background-color:#E4E4E4;margin:0px auto;max-width=
+:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#E4E4E4;background-color:#=
+E4E4E4;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;pad=
+ding:20px 0;text-align:center;"><!--[if mso | IE]><table role=3D"presentati=
+on" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"left"=
+ class=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]--><div cla=
+ss=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-a=
+lign:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top;padding-righ=
+t:3%;padding-left:3%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" width=3D"100%"><tr><td align=3D"left" style=3D"fo=
+nt-size:0px;padding:10px 25px;word-break:break-word;"><!--[if mso | IE]><ta=
+ble align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" ><tr><td><![endif]--><table align=3D"left" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"float:none;d=
+isplay:inline-table;"><tr><td style=3D"padding:15px;"><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-ra=
+dius:3px;width:30px;"><tr><td style=3D"font-size:0;height:30px;vertical-ali=
+gn:middle;width:30px;"><a href=3D"https://url2333.nubank.com.br/ls/click?up=
+n=3D7MGw95qhm8y8IVGdhWekI6jW1mUQfJBWhdYMrazXj1SJYvn1o4rP1I-2BfvyFIKprAmROP_=
+kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZaQ2uEd6-2F=
+y7A0ve3FV7fxwKGmUH0m5FsEReVparkP3lCQcn1vk30Nu-2FNHYA2x0tRSKyYL5j1FSIC8JLkB4=
+r0B4-2Fw1rS4t1N40jS65EoeRSIpQfJhiI9IU9GD3k-2Flz81VOUhTt4CfDNO-2B3PbkSr-2BqI=
+goCRTuADmk-2BfOXJKkANW4-2FriZS60tquSvOjoY6d4k-2BS5QWi46n1kAEgc1c5Uj2aqy7H-2=
+FWD-2BpRh0rT3hvnG2YQWiV4aamrkxkBPEjlESi1UfJ-2FfmoooZ57IfH81lHzK83KbqpqBNEB3=
+g4GTChTRF8-2BSuv527iHdnx5ffBXiYHDNR5uGX0frkjvHhDvZtmENq7VyLCh7x1t6Ypy299kWc=
+CiFpXXhiGNL6OnePKHuEPsC4QZaVipGm-2BZ963Y-2BS-2BHHYvsK275eEY-2B91Cv8stYzg79J=
+Sn8jCnZxZZ3WIs9NI07e42QTb-2FXrmm6HyMxZeeRkV5jRQ-3D-3D" target=3D"_blank"><i=
+mg height=3D"30" src=3D"https://s3.amazonaws.com/ss-usa/companies/MzawMDExM=
+zS2AAA/uploads/Nubank/facebook_60.png" style=3D"border-radius:3px;display:b=
+lock;" width=3D"30"></a></td></tr></table></td></tr></table><!--[if mso | I=
+E]></td><td><![endif]--><table align=3D"left" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" style=3D"float:none;display:inlin=
+e-table;"><tr><td style=3D"padding:15px;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:3px;w=
+idth:30px;"><tr><td style=3D"font-size:0;height:30px;vertical-align:middle;=
+width:30px;"><a href=3D"https://url2333.nubank.com.br/ls/click?upn=3D64BcKi=
+u1PtyaE0lVrBpb7sEZmC2m2LGrAnQHpM3qMvUx7xSTNiM8nGhAM5WhRqqCNuf9_kK98eMpoK8EC=
+5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZaQ2uEd6-2Fy7A0ve3FV7fx=
+wKGmUH0m5FsEReVparkP3lCQcn1vk30Nu-2FNHYA2x0tRSKyYL5j1FSIC8JLkB4r0B4-2Fw1rS4=
+t1N40jS65EoeRSIpQfJhiI9IU9GD3k-2Flz81VOUhTt4CfDNO-2B3PbkSr-2BqIgoCRTuADmk-2=
+BfOXJKkANW4-2FriZS60tquSvOjoY6d4k-2BS5QWi46n1kAEgc1c5Uj2aqy7H-2FWD-2BpRh0rT=
+3hvnG2YQWiV4aamrkxkBPEjlESi1UfJ-2FfmoooZ57IfH81lHzK83KbqpqBNEB3g4GTChTRF8-2=
+BSuv527iHdnx5ffBXiYHDNR5u0T7gGH15T-2BU8pP2ybrp5dxwkrUiFt5BPA8kPEVVozST-2BIc=
+i9H-2FCC-2BmX9FVM2HAyVoOQ8lv-2BRclBHoWmBIYwqTk3TCNLlAmVO4Qvz2J5QUo1jOs09T7C=
+HBdP2peyciecohY2o9UdX8PF9CqzpvHKYAQ-3D-3D" target=3D"_blank"><img height=3D=
+"30" src=3D"https://s3.amazonaws.com/ss-usa/companies/MzawMDExMzS2AAA/uploa=
+ds/Nubank/twitter_60.png" style=3D"border-radius:3px;display:block;" width=
+=3D"30"></a></td></tr></table></td></tr></table><!--[if mso | IE]></td><td>=
+<![endif]--><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"float:none;display:inline-table;"><t=
+r><td style=3D"padding:15px;"><table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" style=3D"border-radius:3px;width:30px;"><t=
+r><td style=3D"font-size:0;height:30px;vertical-align:middle;width:30px;"><=
+a href=3D"https://url2333.nubank.com.br/ls/click?upn=3D7MGw95qhm8y8IVGdhWek=
+I7SqxmuSmQNqMGgHcfucHwm69To58TxhXt-2Feqiqh9Q-2FDk6U8_kK98eMpoK8EC5aOeSV4JTR=
+SPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZaQ2uEd6-2Fy7A0ve3FV7fxwKGmUH0m5F=
+sEReVparkP3lCQcn1vk30Nu-2FNHYA2x0tRSKyYL5j1FSIC8JLkB4r0B4-2Fw1rS4t1N40jS65E=
+oeRSIpQfJhiI9IU9GD3k-2Flz81VOUhTt4CfDNO-2B3PbkSr-2BqIgoCRTuADmk-2BfOXJKkANW=
+4-2FriZS60tquSvOjoY6d4k-2BS5QWi46n1kAEgc1c5Uj2aqy7H-2FWD-2BpRh0rT3hvnG2YQWi=
+V4aamrkxkBPEjlESi1UfJ-2FfmoooZ57IfH81lHzK83KbqpqBNEB3g4GTChTRF8-2BSuv527iHd=
+nx5ffBXiYHDNR5uvrWLw7U4z-2BxMUpQOg-2FM5TgWB3ftiycfuhgFNwQPsxL9qJJsVNt-2BM8d=
+257nR-2FNFW8sHCT-2F560sTe55boXfzjBZqlaKqyMYq3u7bARAsbAPHLxPOVj-2FEUhOXzOYUO=
+SglG14IEbcDl7NCTO10mfIxSLDw-3D-3D" target=3D"_blank"><img height=3D"30" src=
+=3D"https://s3.amazonaws.com/ss-usa/companies/MzawMDExMzS2AAA/uploads/Nuban=
+k/instagram_60.png" style=3D"border-radius:3px;display:block;" width=3D"30"=
+></a></td></tr></table></td></tr></table><!--[if mso | IE]></td><td><![endi=
+f]--><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"float:none;display:inline-table;"><tr><td s=
+tyle=3D"padding:15px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"border-radius:3px;width:30px;"><tr><td s=
+tyle=3D"font-size:0;height:30px;vertical-align:middle;width:30px;"><a href=
+=3D"https://url2333.nubank.com.br/ls/click?upn=3D64BcKiu1PtyaE0lVrBpb7io3yY=
+iJDA1lFgTk7phd4NIkU3Rg54Dgb-2BkSr7m1A9v9oXk-2FAA4nhn93JFPtVKXvGqI3X2yTJH-2B=
+cQLq6hC3isac-3DY9Mu_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRk=
+H0Lnl6qJEZaQ2uEd6-2Fy7A0ve3FV7fxwKGmUH0m5FsEReVparkP3lCQcn1vk30Nu-2FNHYA2x0=
+tRSKyYL5j1FSIC8JLkB4r0B4-2Fw1rS4t1N40jS65EoeRSIpQfJhiI9IU9GD3k-2Flz81VOUhTt=
+4CfDNO-2B3PbkSr-2BqIgoCRTuADmk-2BfOXJKkANW4-2FriZS60tquSvOjoY6d4k-2BS5QWi46=
+n1kAEgc1c5Uj2aqy7H-2FWD-2BpRh0rT3hvnG2YQWiV4aamrkxkBPEjlESi1UfJ-2FfmoooZ57I=
+fH81lHzK83KbqpqBNEB3g4GTChTRF8-2BSuv527iHdnx5ffBXiYHDNR5uUfhQTzar8-2Bw1cSwc=
+3ZJhubEIQVwnzUSwAmb1xtFIeYaRy-2Fxao3xwG3RwY4DLNDbRBv2kCwTHMlkz5t5AMvhnFgC-2=
+F83IRouMKfU7lxRk00i0npGa-2Ff7dVMexVZlBx1Gd-2BBOiGcXTjZp8OdDIXsz-2BdWw-3D-3D=
+" target=3D"_blank"><img height=3D"30" src=3D"https://s3.amazonaws.com/ss-u=
+sa/companies/MzawMDExMzS2AAA/uploads/Nubank/youtube_60.png" style=3D"border=
+-radius:3px;display:block;" width=3D"30"></a></td></tr></table></td></tr></=
+table><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></table></t=
+d></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]-=
+-></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td>=
+</tr><tr><td align=3D"left" class=3D"" width=3D"600px" ><table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"w=
+idth:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;=
+mso-line-height-rule:exactly;"><![endif]--><div style=3D"background:#E4E4E4=
+;background-color:#E4E4E4;margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"background:#E4E4E4;background-color:#E4E4E4;width:100%;"><tbo=
+dy><tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0;text-align:c=
+enter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td align=3D"left" class=3D"" style=3D"ver=
+tical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbo=
+dy><tr><td style=3D"vertical-align:top;padding-right:3%;padding-left:3%;"><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" width=3D"100%"><tr><td align=3D"left" class=3D"body-footer" style=3D"font=
+-size:0px;padding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:bre=
+ak-word;"><div style=3D"font-family:Helvetica;font-size:13px;font-style:nor=
+mal;font-weight:normal;letter-spacing:1px;line-height:130%;text-align:left;=
+color:#191919;">Caso ainda tenha d=FAvidas, acesse <strong><a href=3D"https=
+://url2333.nubank.com.br/ls/click?upn=3D64BcKiu1PtyaE0lVrBpb7vvBt0zExIYVD-2=
+BzpxKv5-2Bit-2FM1x-2BapcGFaUDI3haF0H-2Bp6Y4bMe6smow7LmG5hhUP2aDCQ8pnMHC9O41=
+21fOlksRkOUKeT6vBxEjlGbZoEZ8bp4y_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2=
+lOe7xFM7wLjRkH0Lnl6qJEZaQ2uEd6-2Fy7A0ve3FV7fxwKGmUH0m5FsEReVparkP3lCQcn1vk3=
+0Nu-2FNHYA2x0tRSKyYL5j1FSIC8JLkB4r0B4-2Fw1rS4t1N40jS65EoeRSIpQfJhiI9IU9GD3k=
+-2Flz81VOUhTt4CfDNO-2B3PbkSr-2BqIgoCRTuADmk-2BfOXJKkANW4-2FriZS60tquSvOjoY6=
+d4k-2BS5QWi46n1kAEgc1c5Uj2aqy7H-2FWD-2BpRh0rT3hvnG2YQWiV4aamrkxkBPEjlESi1Uf=
+J-2FfmoooZ57IfH81lHzK83KbqpqBNEB3g4GTChTRF8-2BSuv527iHdnx5ffBXiYHDNR5u56hzB=
+fiL-2Bw8m6SBB-2B9FrCR-2B-2FJXk8pclHz-2FXqAN1dpdFhnxaPsd1bZVYGvIHkEYfQpi0483=
+5MhQscarpSf08JkwzEPNxh-2BLVROOt1IxJ-2FCFVM9rEeyUgbTtll6wddesm44BJAbdBln9AVX=
+o-2BAOocIfg-3D-3D" style=3D"color: #191919;text-decoration: none">Me Ajuda<=
+/a> </strong>diretamente no seu aplicativo.<br><br></div></td></tr><tr><td =
+align=3D"left" class=3D"unsubscription-link-class" style=3D"font-size:0px;p=
+adding:10px 25px;padding-top:2%;padding-bottom:2%;word-break:break-word;"><=
+div style=3D"font-family:Helvetica;font-size:13px;font-style:normal;font-we=
+ight:normal;letter-spacing:1px;line-height:130%;text-align:left;color:#1919=
+19;">N=E3o deseja receber mais nossos nossos emails? <a href=3D"https://url=
+2333.nubank.com.br/ls/click?upn=3D64BcKiu1PtyaE0lVrBpb7tqQa0Ztqe-2B7ITwMP09=
+Jknrcv4XTO17yFoJSzp5qLadAfeIAN-2F1UctfBW73YTNO5xko1R6EOwdd-2FE0Z8pCPG3ONTO2=
+Rt-2B-2B-2FrUFhzrFqmU1RDlJOuyueuP76lJHthaTRYSSo7kmSimlkOYg-2BuxIbqdmIUp8ZMt=
+dCFbg5Mz2ZUkPKhguD8tjv-2FRDEkcFxtIEA6PfHbZrQP3flq2uBlZ8bHPiCafts6hAbv7pYOBU=
+8HfdC4GrQYpmGd7ycR1jOLaNLdj3az1zmpM5zfduTcwKJeL22bzKejPH1nlRfS-2FVymOuBJRik=
+1n0720AJMD-2BDzLCfy0N4hdA3gdfbhQp-2F02ZWxsJuVsjL9txniyxgvIttwEaF4ge6VFlDpIx=
+9p6cIxO-2FUVVqoULDhDCexWclDigRB2SA-2B9Hbo842h84N-2BiWTphPOhWjOoS13KALJ0WiBw=
+uYTYdPfLfS59RPzz02nI3q5yw9FJT1-2B1ZNAlD1D7mt9YQILHLY2A3qZN1KO7XLGkcktzNMmsI=
+jj6C-2BcIELLVQNZhE5Fq-2BzzT3SBqTQSdkBa2Jdp8jNRdZqd40tlqtGjLIK2ggrcuKlF39STX=
+HZBWqUjpVHrhi9DrX-2FwMvnUqzXxAKt9MW2u8bEaAdK6paJ3lTrFMF6i2FWKzEZtEpbel8sP64=
+XudGs2o-2FwnZdjL6TVxEopPi7S8Y2tKElBeMz7o2jXEqGsWn4UvzNeRuNoPbQziqECzfJJvn5h=
+Bo6g3lqF5Vj4wpuXsmd_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRk=
+H0Lnl6qJEZaQ2uEd6-2Fy7A0ve3FV7fxwKGmUH0m5FsEReVparkP3lCQcn1vk30Nu-2FNHYA2x0=
+tRSKyYL5j1FSIC8JLkB4r0B4-2Fw1rS4t1N40jS65EoeRSIpQfJhiI9IU9GD3k-2Flz81VOUhTt=
+4CfDNO-2B3PbkSr-2BqIgoCRTuADmk-2BfOXJKkANW4-2FriZS60tquSvOjoY6d4k-2BS5QWi46=
+n1kAEgc1c5Uj2aqy7H-2FWD-2BpRh0rT3hvnG2YQWiV4aamrkxkBPEjlESi1UfJ-2FfmoooZ57I=
+fH81lHzK83KbqpqBNEB3g4GTChTRF8-2BSuv527iHdnx5ffBXiYHDNR5u0Eyi-2FrYa-2FG0JeY=
+2l3GtlDKKo36FBBxqkZaE23xNWMSeFnyEomfNcbVSRQfDyb24ZVe3a6kkQhCvveW9s6eDgKPHBY=
+EJ-2FiKXLMPRlbCfFF0oh2JzHyIb9nF0zRKFK-2BfLcJNkf-2FphEueKVfi1RNDJ2xg-3D-3D" =
+style=3D"text-decoration:none;color:#82269E;" target=3D"_blank">clique aqui=
+ para se descadastrar. </a>.</div></td></tr></table></td></tr></tbody></tab=
+le></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody>=
+</table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td align=
+=3D"left" class=3D"" width=3D"600px" ><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=
+=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><t=
+able align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:20px 0;text-align:center;"><!--[if mso | IE]><tabl=
+e role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><t=
+r><td align=3D"left" class=3D"" style=3D"vertical-align:top;width:600px;" >=
+<![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"=
+font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-a=
+lign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical-al=
+ign:top;padding-right:3%;padding-left:3%;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tr><td align=
+=3D"left" class=3D"body-legal" style=3D"font-size:0px;padding:10px 25px;pad=
+ding-top:2%;padding-bottom:2%;word-break:break-word;"><div style=3D"font-fa=
+mily:Helvetica;font-size:13px;font-style:normal;font-weight:normal;letter-s=
+pacing:1px;line-height:130%;text-align:left;color:#191919;">Nu Pagamentos S=
+.A - Institui=E7=E3o de Pagamento 18.236.120/0001-58<br>Rua Capote Valente,=
+ 39 - 05409-000- S=E3o Paulo - SP</div></td></tr></table></td></tr></tbody>=
+</table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></t=
+body></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><!=
+[endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></tab=
+le><![endif]--></div><img src=3D"https://url2333.nubank.com.br/wf/open?upn=
+=3Dm8sqQTK7H7veP1VIavT-2Fp3OiTEP71oo3bfrUM75McanZKUpUtyGA7Sq0KWWnziueW0pXhg=
+MsCKoI5lC6-2FbvDeGggF6aoA7kd9Vn-2B4LJSH0MmLpNUsdg8CF4-2FtIQavAQuwmUUx35Zjea=
+Ck6twVAkGefhyLw2H1dv9m4mKBLkyxGgcqcz24-2Bz5zmnT1QwmQJb7m4vxqhbjZwcyuDF82zOe=
+jW-2BOL4xVogNkQm0Mue1zdHBKaaMDaeD97ldPwWSReGrq-2BZgKHKYLPbNiSwXNI19S2WmheBs=
+iOx0BhsLWI8X-2BTmA-2FZW9W3TTxzboF8kdvSgSJghc1KQ83vbpeYYx8d6LhFQFg7d3CRcP4lO=
+22sKetqV6B4OF3j0lYqPB7qV4fhBCH-2B3Zpz5xh3TxwUaafYvZS8mDEfNuXmEkDkMmJc-2FA4W=
+-2BeqKS-2BdcjPIuNew9Ik02Gn5H0hNHKAu8-2F4suy4QcuTe4cgcXbu-2F5fsLh8lHdRsPVpUk=
+hReB5socWiOWUPDqlxhbwnPFy4PD3gGCC5-2Bdq6cMJA-3D-3D" alt=3D"" width=3D"1" he=
+ight=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !important=
+;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !importa=
+nt;margin-right:0 !important;margin-left:0 !important;padding-top:0 !import=
+ant;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !=
+important;"/></body></html>

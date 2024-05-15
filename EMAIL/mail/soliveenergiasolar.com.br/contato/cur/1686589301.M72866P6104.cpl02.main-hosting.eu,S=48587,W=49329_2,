@@ -1,0 +1,742 @@
+Return-Path: <bounces+28389469-9600-contato=soliveenergiasolar.com.br@emailmkt.adias.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id QLvOA3VPh2TYFwAAIElduQ
+	(envelope-from <bounces+28389469-9600-contato=soliveenergiasolar.com.br@emailmkt.adias.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 12 Jun 2023 17:01:41 +0000
+Return-path: <bounces+28389469-9600-contato=soliveenergiasolar.com.br@emailmkt.adias.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 12 Jun 2023 17:01:41 +0000
+Received: from o16789111x167.outbound-mail.sendgrid.net ([167.89.111.167]:13728)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <bounces+28389469-9600-contato=soliveenergiasolar.com.br@emailmkt.adias.com.br>)
+	id 1q8kvD-0001Fi-32
+	for contato@soliveenergiasolar.com.br;
+	Mon, 12 Jun 2023 17:01:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=adias.com.br;
+	h=content-type:from:mime-version:subject:reply-to:to:cc:content-type:
+	from:subject:to;
+	s=s1; bh=b7o1r6Mwa9zD8rbWbK3xL4PVkBorq2Mn75ww7vqj/bo=;
+	b=tCMdZKICqkxVH6D4C8xw2zTvlSmFpYHxiVEaE9J6B3V4XgQFpmA3XGoWNMZDd/r4rLDb
+	kFuucGoD2NBIr3hp+lgbsim+xJqM4PbClJAJ8E+X6AIduvMhrHtnvoBiJuPeK3iMbXj0OP
+	eHvM6WMzCi9TXbMYurXvHiRSxGrQRMiURWMfQm5VrAPPiJSnMkMxmDbYhEFsTV1PqHYfmb
+	JHuI5VMc4F680ga9wA5gC6IXiZ0rbkdFXK8AD/EtquzfVi/fb7Y+xIbRSnmGg///YADx2x
+	aR+MqqWW5eDYhT2MW/WZtkjzI3fDvCFdiMzXXW24SawFO46lhv1pbJVdxAq/tQGA==
+Received: by filterdrecv-d7bbbc8bf-7m5fp with SMTP id filterdrecv-d7bbbc8bf-7m5fp-1-64874F6A-F
+        2023-06-12 17:01:30.134502558 +0000 UTC m=+2827313.283472502
+Received: from MjgzODk0Njk (unknown)
+	by geopod-ismtpd-canary-0 (SG)
+	with HTTP
+	id JZzEk3s8TpCA0MbY9lLEJQ
+	Mon, 12 Jun 2023 17:01:30.011 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=31f1cd13247ea6ddd6d96444889f63e223989a31653ea840e6d3b2c04e8f
+Date: Mon, 12 Jun 2023 17:01:38 +0000 (UTC)
+From: A Dias <fernando.simoes@adias.com.br>
+Mime-Version: 1.0
+Message-ID: <JZzEk3s8TpCA0MbY9lLEJQ@geopod-ismtpd-canary-0>
+Subject: Entenda de uma vez porque usar um microinversor
+Reply-To: fernando.simoes@adias.com.br
+Precedence: bulk
+X-SG-EID: 
+ =?us-ascii?Q?E3pDcxVWLB5NQGTU4nrVOAXvNOM6jRRL668uVcsLYjw2m9b8=2F4wAj9nNULL1Pa?=
+ =?us-ascii?Q?mmsol+Y64FNwnySLO+Ds2aUMkrkEe+K76nsi9Cv?=
+ =?us-ascii?Q?OrQH7QtAe=2F1lcrZa5TWHtzgfVKaC2imUhZXJzXD?=
+ =?us-ascii?Q?ICciVlKDVw59hpXzoAWfy=2Fjo8ul3ewgqA1+V6sA?=
+ =?us-ascii?Q?TlJAmX6LWVl8NcKlRtpxKFHUiai5zN82rj70pGz?=
+ =?us-ascii?Q?3AZoE7RH74ST3cNPgJJtrS+m2O54jITy54YrcVI?=
+ =?us-ascii?Q?W3NDavxZV82GukXVvm5xA=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKrwMpliK8C4izTGQAzl0?=
+ =?us-ascii?Q?lJWrIkrg63w8w3hh=2F23mkgQHnyWhbUOs0tYk0fh?=
+ =?us-ascii?Q?=2FL43tRGmrgA8t+1HDZCKSRf+fHek2VohGBZRdPf?=
+ =?us-ascii?Q?ZGAxOfDEI2JIqbdQWjCTTgc+SSPV5zebJ7mJzbE?=
+ =?us-ascii?Q?bVqvFzvsrNvvDkgluWQqQsHpWOoYYxNgK3N+t1I?=
+ =?us-ascii?Q?M6wYZCMSS=2F249l0uy9JwcPyTiGEMxG4TudiWyEb?=
+ =?us-ascii?Q?7=2FUgU75dDrXGKtD+lFvoDvENAcjDoXK1ryL1as+?=
+ =?us-ascii?Q?mWPiL=2FAWlr1sReYcW4aoRVyCNTJ9J=2FAResvGUbX?=
+ =?us-ascii?Q?iN2ieP8DUbJu2BF24mEynHz6RiyKiBOW6paUyle?=
+ =?us-ascii?Q?J5Zz=2FKx3U4eZ9XlFfhwZoSvEAPc1eUzCbaGQquI?=
+ =?us-ascii?Q?J=2F9LRAK6jL57t6SnMLbOQfXbIDg0tm5ACfejBXY?=
+ =?us-ascii?Q?=2FT0L8tfQMtEDuqjk3H+NXetYeaS6g1oaCjkF2Ej?=
+ =?us-ascii?Q?UNwbYA5GzDiDHnQAUs4le?=
+To: contato@soliveenergiasolar.com.br
+X-Entity-ID: yzVFCzFjFm+k/OhtAxNizQ==
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Visualizar como página web [ https://t.rdsv1.net/ls/click?upn=bpv4WswJ-2BFzFuRdcOz0O8xBsg5oG0fkurn9aRCByNS2dWqeXY8PXj3I5Hz85KR7WLWaBkwmQ-2B9aI2m0UEIZ2v8wYZtc-2BtveCdX6QZT3wDNldb5HdZjrowR-2BKQ4z3TWwLe
+    [...] 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cloudfront.net]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: cloudfront.net]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: cloudfront.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+--31f1cd13247ea6ddd6d96444889f63e223989a31653ea840e6d3b2c04e8f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Visualizar como p=C3=A1gina web [ https://t.rdsv1.net/ls/click?upn=3Dbpv4Ws=
+wJ-2BFzFuRdcOz0O8xBsg5oG0fkurn9aRCByNS2dWqeXY8PXj3I5Hz85KR7WLWaBkwmQ-2B9aI2=
+m0UEIZ2v8wYZtc-2BtveCdX6QZT3wDNldb5HdZjrowR-2BKQ4z3TWwLe8DZiARqvLzZRdCAcxQl=
+RGYhuKnTOalaD8RN6X5aVLGuIPSUK28nf7I2F7R3R6oqNKl2Pnz25Gw992QGycbE8H-2BYBOjNp=
+F9X4rAPfccb1sLm5MZDfyCaw4HqXSvomWEIDr1v_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2Bm=
+ueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KPc8Mvqkx-2=
+FcC2vuSt8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rToUacUr-2F=
+3QVILQYZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQvT9zO-2F8=
+Rh3Dvf-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMekB7mAqWHOY=
+8Y7cWi-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUWry4I91SXa=
+2vFcCpNi1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50YiROr38B8=
+JuEeC7idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2Bgt0VBSG9l=
+pbAkSbgZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYV6yF3M0Z6Dd8cah5VvXlbDFfHPYMJbP8rhZdJ=
+URdbROR0E4gY3OIbId-2FiFEemYQU-2BzdIoQsbABy1iDsc5263UnOO2vH-2BZaxnceZsi577JW=
+cafo5M8Ui1yTwzU0A0CYaMFvKW3fE-2F4-2FyVL2HuPNiXIZ ]                         =
+                       Ol=C3=A1 Solive, como vai?
+ Hoje, vim falar contigo sobre um assunto que ainda gera muita d=C3=BAvida =
+entre os integradores, que se trata da diferen=C3=A7a entre os microinverso=
+res e os inversores tradicionais.
+ Voc=C3=AA sabe a diferen=C3=A7a e em que casos =C3=A9 recomendado a instal=
+a=C3=A7=C3=A3o dos microinversores?
+ Pois bem, eu te conto! =F0=9F=98=81
+ Os microinversores, diferentemente da maior parte dos inversores de string=
+s, trabalham com uma quantidade pr=C3=A9-estabelecida de pain=C3=A9is solar=
+es.
+ No mercado encontramos microinversores que trabalham com um, dois, quatro =
+ou at=C3=A9 oito m=C3=B3dulos fotovoltaicos.
+ Sendo assim, a grande diferen=C3=A7a dos microinversores para os inversore=
+s tradicionais, =C3=A9 porque eles:
+  Operam com um n=C3=BAmero menor de m=C3=B3dulos
+ Dispensam a forma=C3=A7=C3=A3o de strings e conex=C3=B5es de m=C3=B3dulos =
+s=C3=A9rie
+ Possuem dimens=C3=B5es f=C3=ADsicas reduzidas
+ S=C3=A3o instalados pr=C3=B3ximo aos m=C3=B3dulos fotovoltaicos.
+  Devido a essas caracter=C3=ADsticas, os microinversores dispensam o uso d=
+e cabeamento de corrente cont=C3=ADnua e stringboxes nas instala=C3=A7=C3=
+=B5es, operando com n=C3=ADveis de tens=C3=A3o reduzidas que eliminam o ris=
+co de forma=C3=A7=C3=A3o de arcos el=C3=A9tricos, a principal causa de inc=
+=C3=AAndios nos sistemas fotovoltaicos.=C2=A0
+ Por isso, os microinversores s=C3=A3o considerados a op=C3=A7=C3=A3o mais =
+segura para a constru=C3=A7=C3=A3o de sistemas fotovoltaicos, pelo fato de =
+eliminarem por completo os riscos de choques el=C3=A9tricos e de inc=C3=AAn=
+dio.
+ Portanto, a instala=C3=A7=C3=A3o do microinversor =C3=A9 recomendada, prin=
+cipalmente, para locais com classifica=C3=A7=C3=A3o de risco, como os posto=
+s de combust=C3=ADveis, por exemplo.
+ Sem d=C3=BAvida, os microinversores s=C3=A3o uma excelente op=C3=A7=C3=A3o=
+ para a instala=C3=A7=C3=A3o de sistemas fotovoltaicos!
+ Mas, sempre avalie cada projeto e procure oferecer solu=C3=A7=C3=B5es adeq=
+uadas a cada situa=C3=A7=C3=A3o, beleza?
+ Solive, continue acompanhando meus e-mails, na pr=C3=B3xima semana vou tra=
+zer algumas funcionalidades interessantes do Microinversor Deye. =F0=9F=98=
+=8A
+ At=C3=A9 breve.
+                    Time A.Dias Solar.=C2=A0=F0=9F=A7=A1
+                                        [ https://t.rdsv1.net/ls/click?upn=
+=3Dbpv4WswJ-2BFzFuRdcOz0O8wNVojrFbhjZnQ4fL0YtngCagNJQhuomcvZm-2Ba9GsWXDfphc=
+hgKmjfjoC7Mujr-2FNn0S2uSerYAJEAYjvIK6EkdDXOfmqLsqqUUFerb7vB5dlX-2BiWO0U-2Fm=
+jMAy2P-2FvoM23kGu5lufv7OkLrCxk8ZQgcjieloUtrL6E0NGi43lpMToWg3BdFCT8ZHn1CCbIW=
+1fCg-3D-3DWUdi_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl=
+6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KPc8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPM=
+vb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rToUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6U=
+TFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQvT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWT=
+pK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMekB7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJ=
+zDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUWry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5y=
+EUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50YiROr38B8JuEeC7idXWuYU3K99reJFeidt=
+N5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2Bgt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGsht=
+QgYCa9R7PchaYVo-2FvVCoIRmkrjHlaKlqepjRQSs9ViVf0DoYqcSxF2X19ojmoKepZlrOtFv5t=
+VSM9uLF-2FlXw0c9AtRV6ySJ7cKYecqXKL1LjcxZH2poe1lXmZ4297T-2FVJuTB7OHXG7l12a1X=
+U6a602JLtLKaJh8takl ]               [ https://t.rdsv1.net/ls/click?upn=3Dbp=
+v4WswJ-2BFzFuRdcOz0O868D3yme6j42Xp-2FlrbEChniJofrFFv-2BW08fNiRkyOalXbrmMufX=
+Y1mT6tF6P9XKcECD3bCSC1VUNB3uY-2F273PqccFrOtUyqe5jEAqVDs5kje7Cmlo8Tzqt0LHyUd=
+GE9ELUVW-2FFY9zgi7pSztcuXrnHnt-2BR-2Btj1CBBZUG4u1D7o6TJ081_kK98eMpoK8EC5aOe=
+SV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0V=
+cvgeObh3KPc8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1=
+Tz62F0z5rToUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ2=
+7vmtXSgulQvT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPh=
+OIEygSnMekB7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFg=
+QB2eDQGGUWry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-=
+2BQCyMdX50YiROr38B8JuEeC7idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvB=
+gR-2FZZ-2Bgt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYW9HUZIBWS35ccSYbxv=
+50xjAykPPGLWHp-2B6sQcFVBYmY-2BsdE1dXG1EJ66waH3TlZCkLzlL8g1DL1BmuK8kjbIVyiYp=
+EgtXhbGVfK69tO6vxqOteQng80U-2BpPNZAwm5CeOOgOrEb-2FJa81dPiO-2FejT24J ]      =
+         [ https://t.rdsv1.net/ls/click?upn=3Dbpv4WswJ-2BFzFuRdcOz0O82M-2Fm=
+OsBR2fAA1Don81oAhk2-2B0N9-2F5zwWeZbXhaQ7Nvc7PfRe1ZV-2Bd-2BoyV0D9fLeflNwJ4IA=
+LRYRAWTXvTgz6GqP4pPLqiDIFAsJpTnCa5a0Lzug6YirquItkfAM88B8ZlK9W75dfcY-2FDh4jP=
+vDKnrGVl-2F-2FLQ8ubr7xKGEyIWGylU8AuDh5v7v-2B2QlnPsJKAiON9l8oXkImQT-2FoXsEHP=
+Iselhr1SumwLjnVMUOaKQQ7RjTlGM-2BrrYJbmgxvzQ149Pw-3D-3DPhXU_kK98eMpoK8EC5aOe=
+SV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0V=
+cvgeObh3KPc8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1=
+Tz62F0z5rToUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ2=
+7vmtXSgulQvT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPh=
+OIEygSnMekB7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFg=
+QB2eDQGGUWry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-=
+2BQCyMdX50YiROr38B8JuEeC7idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvB=
+gR-2FZZ-2Bgt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYUfoVUrRydBAHw05n8G=
+t9-2BSCN0S-2F9BSVoM-2ByCA0tBvHAotWL4Mghqmip-2B-2B6uXzP1H60jp-2BR9Xa26wJDc4z=
+i-2B-2FOvGX4JpLS8-2BTgWrVQrxVwCi6weQgub4N7CS0KTIGMt3rO8H7uHPCYPjmCNiT-2FwZG=
+7O ]                         Enviado por www.adias.com.br
+ Rua Tenente Alberto Spicciati, 120, Barra Funda, S=C3=A3o Paulo/SP
+  Se deseja n=C3=A3o receber mais mensagens como esta, clique aqui [ https:=
+//t.rdsv1.net/ls/click?upn=3Dbpv4WswJ-2BFzFuRdcOz0O8xBsg5oG0fkurn9aRCByNS3-=
+2BL7VdyAvpyqGIgS0s6XRf8YtT1LJURbN4E7Y-2Bn-2FDe5A-2Fr-2BfnvLW-2FCtgQBZZ6PrIB=
+-2B-2BeAnI8Il8sfEn4-2FDJYdnZksxeWcL1196mBt3-2BJIVSe3IcLe6sqsvdgXJPMOqgHiGFL=
+SMXj44c41fbGn52-2F9jjBWaDUqDP4O41jUV1-2F4VSC6uBaDA7x8aqLbaIvgFJ3Ji69tQN5dbM=
+B6NxMW933cacj1v_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Ln=
+l6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KPc8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXP=
+Mvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rToUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6=
+UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQvT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXW=
+TpK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMekB7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQ=
+JzDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUWry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5=
+yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50YiROr38B8JuEeC7idXWuYU3K99reJFeid=
+tN5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2Bgt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGsh=
+tQgYCa9R7PchaYX71FqVVt8PQ-2FitJEPqlZB-2B4JV81UtZWOgy564bb-2F5XDvvgSCXU0ping=
+metT1dJDIYyuEUaqKQK4U6hmg3EZqlPGiuIA6ollXt6JDK3cfzYLKvIVXokzUVGsdtpLL77fF4J=
+I4kBlHMGfsFMCDqAqHUG ].=20
+ =E2=80=A2
+--31f1cd13247ea6ddd6d96444889f63e223989a31653ea840e6d3b2c04e8f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"> <head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"> <=
+!--[if gte mso 15]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:Pixels=
+PerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]-->=
+ <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:Pixel=
+sPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]--=
+> <meta charset=3D"UTF-8"> <meta http-equiv=3D"X-UA-Compatible" content=3D"=
+IE=3Dedge"> <meta name=3D"viewport" content=3D"width=3Ddevice-width, initia=
+l-scale=3D1"> <title>Panorama da legisla=C3=A7=C3=A3o no Brasil sobre a ene=
+rgia solar</title> <style type=3D"text/css">
+		p { margin:10px 0; padding:0; }
+		table { border-collapse:collapse; }
+		h1,h2,h3,h4,h5,h6 { display:block; margin:0; padding:0; }
+		img, a img { border:0; height:auto; outline:none; text-decoration:none; }
+		body, #bodyTable, #bodyCell { height:100%; margin:0; padding:0; width:100=
+%; }
+		#outlook a{ padding:0; }
+		img { -ms-interpolation-mode:bicubic; }
+		table { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+		.ReadMsgBody { width:100%; }
+		p,a,li,td,blockquote { mso-line-height-rule:exactly; }
+		a[href^=3Dtel],a[href^=3Dsms] { color:inherit; cursor:default; text-decor=
+ation:none; }
+		p,a,li,td,body,table,blockquote { -ms-text-size-adjust:100%; -webkit-text=
+-size-adjust:100%; }
+
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full w=
+idth */
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Forces Hot=
+mail to display normal line spacing.  More on that: http://www.emailonacid.=
+com/forum/viewthread/43/ */
+
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+
+		.sectionContainer {
+			max-width:600px !important;
+		}
+		.img-max {
+			vertical-align:bottom;
+		}
+
+		/* media queries */
+		@media only screen and (min-width:768px){
+			.columnContainer {
+				max-width:600px !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			p,a,li,td,body,table,blockquote {
+				-webkit-text-size-adjust:none !important;
+			}
+			p {
+				font-size:16px !important;
+				line-height:150% !important;
+			}
+			body{
+				width:100% !important;
+				min-width:100% !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			.columnContainer {
+				max-width:100% !important;
+				width:100% !important;
+			}
+		}
+
+		@media only screen and (max-width: 480px){
+			h1 { font-size:22px !important; line-height:125% !important; }
+			h2 { font-size:20px !important; line-height:125% !important; }
+			h3 { font-size:18px !important; line-height:125% !important; }
+			h4 { font-size:16px !important; line-height:150% !important; }
+		}
+
+		@media (max-width: 480px){
+			.padding {
+				padding-left: 18px !important;
+				padding-right: 18px !important;
+			}
+		} @media (max-width: 480px){
+			.img-max {
+				width: 100% !important;
+			}
+		} @media (max-width: 480px){
+			.makefull {
+				max-width:100% !important;
+				width:100% !important;
+			}
+		}
+
+	</style> </head> <body style=3D"-ms-text-size-adjust: 100%; -webkit-text-s=
+ize-adjust: 100%; width: 100%; height: 100%; margin: 0; padding: 0; backgro=
+und-color: #e4e4e4;"> <img src=3D"https://t.rdsv1.net/wf/open?upn=3Dm8sqQTK=
+7H7veP1VIavT-2Fp3OiTEP71oo3bfrUM75McanZKUpUtyGA7Sq0KWWnziueTqWPhz-2B1Mzhh5l=
+7lVuaYoJiycQDfSdhS956J5NPvaMh9hePFHf0WmK51dSJPqctOJxMGtq6pLaprReerA1-2BUGQf=
+cmNxGTSpEQhFJQ3MlUNk4ZE0duOsurCXsK8L1rmza4vRx1O0NPE-2F5CBUNFpwCtBYfMX-2BFS1=
+LCtpCm4mrdwEyn0fkeMPXYSQHylotlOrLP8wAFLmC-2BgdYkBrZgnyrm5945v84x0iuAOywhJ8H=
+oNSojlAgA90ixFZAmwgqs1KSy-2Fo05e31v-2F728EeJGB23xN63tpm8EPh9Lu03HLsV-2FE1Nb=
+FVY2XjA6Mueg8WU76svZsoWbd-2BkCpm-2FIdsStYsYvbq8lzap5d3X5nwuviECwUjo4mDsx5-2=
+BT5m4N85jOrh0KXJxZMwzVPBjxchbI7aOqnuXicp3BnUR-2FTdsZsGDOsio6XPAw1InQuDrngV7=
+T-2BYnfXhnyg1Onb2wLPk0-2BInDo9-2FJzbi6Ogq3CU-2FJs6yLfkZvfBCuoLbhovxrMWDoUMP=
+1aaY4cxLkIgV7EJfgmmlgem-2B9xQWbtUlPGyLqjRztny2W0XKQDzDt5UJhXV45tPofeMNBzy39=
+tFp9-2FO7R5q3TxT0VStUqp9Oi83e3m-2B4-2BHmpv12Dk6AkWukNwSAhWTBnBPLar5FiehIfXe=
+5VSPESc-2BHtQ-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=
+=3D"height:1px !important;width:1px !important;border-width:0 !important;ma=
+rgin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;=
+margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !importa=
+nt;padding-right:0 !important;padding-left:0 !important;"/>  <center> <tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=
+=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%=
+; -webkit-text-size-adjust: 100%; width: 100%; height: 100%; margin: 0; pad=
+ding: 0; background-color: #e4e4e4;"> <tr> <td align=3D"center" valign=3D"t=
+op" id=3D"bodyCell" style=3D"mso-line-height-rule: exactly; -ms-text-size-a=
+djust: 100%; -webkit-text-size-adjust: 100%; width: 100%; height: 100%; mar=
+gin: 0; padding: 0; border-top: 0;"> <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" style=3D"border-collapse: collapse;mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;"> <tr> <td align=3D"center" valign=3D"top" class=3D"se=
+ction1Column" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjust:=
+ 100%; -webkit-text-size-adjust: 100%; background-color: transparent; borde=
+r-top: 0; border-bottom: 0px; padding-top: 0px; padding-bottom: 0px;"> <!--=
+[if (gte mso 9)|(IE)]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"600" style=3D"width:600px" class=3D"sectionContainerIE"> <tr> <=
+td valign=3D"top" align=3D"center" width=3D"600" style=3D"width:600px;"><![=
+endif]--> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" class=3D"sectionContainer" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit=
+-text-size-adjust: 100%; width:100%; max-width: 600px !important; backgroun=
+d-color: transparent;"> <tr> <td valign=3D"top" style=3D"mso-line-height-ru=
+le: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> =
+<table class=3D"columnContainer" align=3D"left" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"600" style=3D"width:600px;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCell=
+" valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%; font-size: 16px; line-height: 110=
+%; font-family: Helvetica, Arial, sans-serif; color: #666666;"> <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"column=
+ContainerSize" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust:=
+ 100%; width:100%; max-width: 600px !important; background-color: transpare=
+nt;"> <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-t=
+ext-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <!--[if (gte mso 9=
+)|(IE)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:600px;"> <tr> <td align=3D"center" vali=
+gn=3D"top" width=3D"390" style=3D"width:390px;"><![endif]--> <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"390" cl=
+ass=3D"columnContainer" style=3D"width:390px;border-collapse: collapse;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"=
+top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -w=
+ebkit-text-size-adjust: 100%; word-break: break-word; vertical-align: top; =
+text-align: left; font-size: 11px; line-height: 120%; font-family: Helvetic=
+a, Arial, sans-serif; color: #888888; padding-top: 9px; padding-left: 9px; =
+padding-bottom: 9px; padding-right: 9px;"> </td> </tr> </table> <!--[if (gt=
+e mso 9)|(IE)]></td> <td align=3D"center" valign=3D"top" width=3D"210" styl=
+e=3D"width:210px;"><![endif]--> <table align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"210" class=3D"columnContainer" style=
+=3D"width:210px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-r=
+space: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"> <tr=
+> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-line-height=
+-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;=
+ word-break: break-word; vertical-align: top; text-align: left; font-size: =
+11px; line-height: 120%; font-family: Helvetica, Arial, sans-serif; color: =
+#888888; padding-top: 9px; padding-left: 9px; padding-bottom: 9px; padding-=
+right: 9px;"> Visualizar como <a href=3D"https://t.rdsv1.net/ls/click?upn=
+=3Dbpv4WswJ-2BFzFuRdcOz0O8xBsg5oG0fkurn9aRCByNS2dWqeXY8PXj3I5Hz85KR7WLWaBkw=
+mQ-2B9aI2m0UEIZ2v8wYZtc-2BtveCdX6QZT3wDNldb5HdZjrowR-2BKQ4z3TWwLe8DZiARqvLz=
+ZRdCAcxQlRGYhuKnTOalaD8RN6X5aVLGuIPSUK28nf7I2F7R3R6oqNKl2Pnz25Gw992QGycbE8H=
+-2BYBOjNpF9X4rAPfccb1sLm5MZDfyCaw4HqXSvomWEIHIP4_kK98eMpoK8EC5aOeSV4JTRSPzq=
+UL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KP=
+c8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rT=
+oUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQ=
+vT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMek=
+B7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUW=
+ry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50=
+YiROr38B8JuEeC7idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2B=
+gt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYUWxOlovKABok6nXjBLjkWp8ovqYo=
+DCup4l2PYQrfj7vF-2FrLWexcJJ8PxHJu3VFUIwTrSqfD0PXYENCHKhwUhfplHPWmYV-2FcqJVN=
+J94aNI0DVFysYfmMPwaVhLRFJtT0bdmU4bqGhfj5-2BjT3pFSgrEA" style=3D"color: #333=
+333;text-decoration: underline;" data-scanner-ignore>p=C3=A1gina web</a> </=
+td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]-=
+-> </td> </tr> </table> </td> </tr> </table> </td> </tr> </table> <!--[if (=
+gte mso 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: transparent; border-top: 0; border-bottom=
+: 0px; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=
+=3D"width:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" alig=
+n=3D"center" width=3D"600" style=3D"width:600px;"><![endif]--> <table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"section=
+Container" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100=
+%; width:100%; max-width: 600px !important; background-color: #FFFFFF;"> <t=
+r> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size=
+-adjust: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnCont=
+ainer" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: =
+0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica,=
+ Arial, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -=
+ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; borde=
+r-collapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D=
+"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;"> <img src=3D"https://d335luup=
+ugsy2.cloudfront.net/cms/files/514122/1685457930/$iyejnllj84g" alt=3D"" wid=
+th=3D"600" border=3D"0" style=3D"-ms-interpolation-mode:bicubic; border:0; =
+line-height:100%; outline:none; display: block; max-width: 600px; height: a=
+uto;" class=3D"img-max"> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; padding-top: 0px; padding-bottom: 24px;"> <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; border=
+-collapse: initial; border-top-style: solid; border-top-width: 2px; border-=
+top-color: #eaeaea;"> <tbody> <tr> <td> <span></span> </td> </tr> </tbody> =
+</table> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, san=
+s-serif; color: #666666; padding: 9px 18px; word-break: break-word !importa=
+nt;" class=3D"padding"> <p style=3D"line-height: 150%;"><span style=3D"font=
+-weight: 400;">Ol=C3=A1 Solive</span><strong>,</strong><span style=3D"font-=
+weight: 400;"> como vai?</span></p> <p style=3D"line-height: 150%;"><span s=
+tyle=3D"font-weight: 400;">Hoje, vim falar contigo sobre um assunto que ain=
+da gera muita d=C3=BAvida entre os integradores, que se trata da diferen=C3=
+=A7a entre os microinversores e os inversores tradicionais.</span></p> <p s=
+tyle=3D"line-height: 150%;"><span style=3D"font-weight: 400;">Voc=C3=AA sab=
+e a diferen=C3=A7a e em que casos =C3=A9 recomendado a instala=C3=A7=C3=A3o=
+ dos microinversores?</span></p> <p style=3D"line-height: 150%;"><span styl=
+e=3D"font-weight: 400;">Pois bem, eu te conto! =F0=9F=98=81</span></p> <p s=
+tyle=3D"line-height: 150%;"><span style=3D"font-weight: 400;">Os microinver=
+sores, diferentemente da maior parte dos inversores de strings, trabalham c=
+om uma quantidade pr=C3=A9-estabelecida de pain=C3=A9is solares.</span></p>=
+ <p style=3D"line-height: 150%;"><span style=3D"font-weight: 400;">No merca=
+do encontramos microinversores que trabalham com um, dois, quatro ou at=C3=
+=A9 oito m=C3=B3dulos fotovoltaicos.</span></p> <p style=3D"line-height: 15=
+0%;"><span style=3D"font-weight: 400;">Sendo assim, a grande diferen=C3=A7a=
+ dos microinversores para os inversores tradicionais, =C3=A9 porque eles:</=
+span></p> <ul> <li style=3D"font-weight: 400; line-height: 150%;" aria-leve=
+l=3D"1"><span style=3D"font-weight: 400;">Operam com um n=C3=BAmero menor d=
+e m=C3=B3dulos</span></li> <li style=3D"font-weight: 400; line-height: 150%=
+;" aria-level=3D"1"><span style=3D"font-weight: 400;">Dispensam a forma=C3=
+=A7=C3=A3o de strings e conex=C3=B5es de m=C3=B3dulos s=C3=A9rie</span></li=
+> <li style=3D"font-weight: 400; line-height: 150%;" aria-level=3D"1"><span=
+ style=3D"font-weight: 400;">Possuem dimens=C3=B5es f=C3=ADsicas reduzidas<=
+/span></li> <li style=3D"font-weight: 400; line-height: 150%;" aria-level=
+=3D"1"><span style=3D"font-weight: 400;">S=C3=A3o instalados pr=C3=B3ximo a=
+os m=C3=B3dulos fotovoltaicos.</span></li> </ul> <p style=3D"line-height: 1=
+50%;"><span style=3D"font-weight: 400;">Devido a essas caracter=C3=ADsticas=
+, os microinversores dispensam o uso de cabeamento de corrente cont=C3=ADnu=
+a e stringboxes nas instala=C3=A7=C3=B5es, operando com n=C3=ADveis de tens=
+=C3=A3o reduzidas que eliminam o risco de forma=C3=A7=C3=A3o de arcos el=C3=
+=A9tricos, a principal causa de inc=C3=AAndios nos sistemas fotovoltaicos.=
+=C2=A0</span></p> <p style=3D"line-height: 150%;"><span style=3D"font-weigh=
+t: 400;">Por isso, os microinversores s=C3=A3o considerados a op=C3=A7=C3=
+=A3o mais segura para a constru=C3=A7=C3=A3o de sistemas fotovoltaicos, pel=
+o fato de eliminarem por completo os riscos de choques el=C3=A9tricos e de =
+inc=C3=AAndio.</span></p> <p style=3D"line-height: 150%;"><span style=3D"fo=
+nt-weight: 400;">Portanto, a instala=C3=A7=C3=A3o do microinversor =C3=A9 r=
+ecomendada, principalmente, para locais com classifica=C3=A7=C3=A3o de risc=
+o, como os postos de combust=C3=ADveis, por exemplo.</span></p> <p style=3D=
+"line-height: 150%;"><span style=3D"font-weight: 400;">Sem d=C3=BAvida, os =
+microinversores s=C3=A3o uma excelente op=C3=A7=C3=A3o para a instala=C3=A7=
+=C3=A3o de sistemas fotovoltaicos!</span></p> <p style=3D"line-height: 150%=
+;"><span style=3D"font-weight: 400;">Mas, sempre avalie cada projeto e proc=
+ure oferecer solu=C3=A7=C3=B5es adequadas a cada situa=C3=A7=C3=A3o, beleza=
+?</span></p> <p style=3D"line-height: 150%;"><span style=3D"font-weight: 40=
+0;">Solive, continue acompanhando meus e-mails, na pr=C3=B3xima semana vou =
+trazer algumas funcionalidades interessantes do Microinversor Deye. =F0=9F=
+=98=8A</span></p> <p style=3D"line-height: 150%;"><span style=3D"font-weigh=
+t: 400;">At=C3=A9 breve.</span></p> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; padding-top: 18px; padding-bottom: 18px;"> <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; borde=
+r-collapse: initial; border-top-style: solid; border-top-width: 2px; border=
+-top-color: #eaeaea;"> <tbody> <tr> <td> <span></span> </td> </tr> </tbody>=
+ </table> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, san=
+s-serif; color: #666666; padding: 9px 18px; word-break: break-word !importa=
+nt;" class=3D"padding"> <p style=3D"text-align: center; line-height: 150%;"=
+>Time A.Dias Solar.=C2=A0=F0=9F=A7=A1</p> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; padding-top: 18px; padding-bottom: 18px;"> <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; borde=
+r-collapse: initial; border-top-style: solid; border-top-width: 2px; border=
+-top-color: #eaeaea;"> <tbody> <tr> <td> <span></span> </td> </tr> </tbody>=
+ </table> </td> </tr> </table> </td> </tr> </table> </td> </tr> </table> <!=
+--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" id=3D"section3Columns" style=3D"ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%; background-color: transparent; border-top: 0px; border-bottom=
+: 0px; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"sectionContainerIE" style=3D"border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;max-width: 600px !important;"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;mso-line-height-rule: exactly;-m=
+s-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><![endif]--> <tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"sectionContainer" style=3D"border-collapse: collapse; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; width:100%; max-width: 600px !important; background-color: #FFFF=
+FF;"> <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-t=
+ext-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <!--[if (gte mso 9=
+)|(IE)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:600px;"> <tr> <td align=3D"center" vali=
+gn=3D"top" width=3D"200" style=3D"width:200px;"><![endif]--> <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" cl=
+ass=3D"columnContainer" style=3D"width:200px;border-collapse: collapse;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"=
+top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -w=
+ebkit-text-size-adjust: 100%; font-size: 16px; line-height: 110%; font-fami=
+ly: Helvetica, Arial, sans-serif; color: #666666;"> <table width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; border-collapse:collapse !important;"> <tr> <td bgcolor=3D"transpa=
+rent" align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top: 9px=
+; padding-bottom: 9px; padding-left: 18px; padding-right: 18px;"> <a href=
+=3D"https://t.rdsv1.net/ls/click?upn=3Dbpv4WswJ-2BFzFuRdcOz0O8wNVojrFbhjZnQ=
+4fL0YtngCagNJQhuomcvZm-2Ba9GsWXDfphchgKmjfjoC7Mujr-2FNn0S2uSerYAJEAYjvIK6Ek=
+dDXOfmqLsqqUUFerb7vB5dlX-2BiWO0U-2FmjMAy2P-2FvoM23kGu5lufv7OkLrCxk8ZQgcjiel=
+oUtrL6E0NGi43lpMToWg3BdFCT8ZHn1CCbIW1fCg-3D-3DkCi1_kK98eMpoK8EC5aOeSV4JTRSP=
+zqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3=
+KPc8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5=
+rToUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgu=
+lQvT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnM=
+ekB7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGG=
+UWry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX=
+50YiROr38B8JuEeC7idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-=
+2Bgt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYU1eRoAfCpjrg-2FkMxb686J7TW=
+uxk7hBl-2BP7dGvlpNu3BBbDDysEdg94WyIZdmhXj3Yq-2Fh-2FFGOUh1j9EBGgDFhwGDfLKEtH=
+1TNiUX9b2WPQtY-2FcTx4m9EIkGGguObQUxS5h2orlUJ1MGmpHTgdT1y6HV" title=3D"" tar=
+get=3D"_blank" style=3D"-webkit-text-size-adjust:100%;-ms-text-size-adjust:=
+100%"> <img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/514122/16=
+84262377/$5bf7irmb7q3" alt=3D"" width=3D"60" border=3D"0" style=3D"-ms-inte=
+rpolation-mode:bicubic; border:0; line-height:100%; outline:none; display: =
+block; max-width: 60px; height: auto;" class=3D"img-max"> </a> </td> </tr> =
+</table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> <td align=3D"=
+center" valign=3D"top" width=3D"200" style=3D"width:200px;"><![endif]--> <t=
+able align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"200" class=3D"columnContainer" style=3D"width:200px;border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCell"=
+ valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjus=
+t: 100%; -webkit-text-size-adjust: 100%; font-size: 16px; line-height: 110%=
+; font-family: Helvetica, Arial, sans-serif; color: #666666;"> <table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit=
+-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; ms=
+o-table-rspace:0pt; border-collapse:collapse !important;"> <tr> <td bgcolor=
+=3D"transparent" align=3D"center" style=3D"-webkit-text-size-adjust:100%; -=
+ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; paddi=
+ng-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-right: 18px;"=
+> <a href=3D"https://t.rdsv1.net/ls/click?upn=3Dbpv4WswJ-2BFzFuRdcOz0O868D3=
+yme6j42Xp-2FlrbEChniJofrFFv-2BW08fNiRkyOalXbrmMufXY1mT6tF6P9XKcECD3bCSC1VUN=
+B3uY-2F273PqccFrOtUyqe5jEAqVDs5kje7Cmlo8Tzqt0LHyUdGE9ELUVW-2FFY9zgi7pSztcuX=
+rnHnt-2BR-2Btj1CBBZUG4u1D7o6TxSXk_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX=
+2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KPc8Mvqkx-2FcC2vu=
+St8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rToUacUr-2F3QVILQ=
+YZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQvT9zO-2F8Rh3Dvf=
+-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMekB7mAqWHOY8Y7cWi=
+-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUWry4I91SXa2vFcCp=
+Ni1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50YiROr38B8JuEeC7=
+idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2Bgt0VBSG9lpbAkSb=
+gZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYUZXuz-2BNUrCcJYbhtqOkfBnJZZoiiaXr7cVyG-2FlT=
+edtfmvn79QuAU4876Ou9-2FZlFppzf6e3BO4jIuFyeX5-2FKGHVpiu-2FP5KvE3mxODM5X-2FCB=
+PrDyC4yrnchOO7KtIrIzfsKO894PocIEMZAf4yUM8gmp" title=3D"" target=3D"_blank" =
+style=3D"-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%"> <img src=
+=3D"https://d335luupugsy2.cloudfront.net/cms/files/514122/1684262377/$9bzaq=
+lxgfwq" alt=3D"" width=3D"100" border=3D"0" style=3D"-ms-interpolation-mode=
+:bicubic; border:0; line-height:100%; outline:none; display: block; max-wid=
+th: 100px; height: auto;" class=3D"img-max"> </a> </td> </tr> </table> </td=
+> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> <td align=3D"center" valig=
+n=3D"top" width=3D"200" style=3D"width:200px;"><![endif]--> <table align=3D=
+"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" class=
+=3D"columnContainer" style=3D"width:200px;border-collapse: collapse;mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top=
+" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webk=
+it-text-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family:=
+ Helvetica, Arial, sans-serif; color: #666666;"> <table width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adj=
+ust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace=
+:0pt; border-collapse:collapse !important;"> <tr> <td bgcolor=3D"transparen=
+t" align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-a=
+djust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top: 9px; p=
+adding-bottom: 9px; padding-left: 18px; padding-right: 18px;"> <a href=3D"h=
+ttps://t.rdsv1.net/ls/click?upn=3Dbpv4WswJ-2BFzFuRdcOz0O82M-2FmOsBR2fAA1Don=
+81oAhk2-2B0N9-2F5zwWeZbXhaQ7Nvc7PfRe1ZV-2Bd-2BoyV0D9fLeflNwJ4IALRYRAWTXvTgz=
+6GqP4pPLqiDIFAsJpTnCa5a0Lzug6YirquItkfAM88B8ZlK9W75dfcY-2FDh4jPvDKnrGVl-2F-=
+2FLQ8ubr7xKGEyIWGylU8AuDh5v7v-2B2QlnPsJKAiON9l8oXkImQT-2FoXsEHPIselhr1SumwL=
+jnVMUOaKQQ7RjTlGM-2BrrYJbmgxvzQ149Pw-3D-3DgF1q_kK98eMpoK8EC5aOeSV4JTRSPzqUL=
+21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KPc8=
+Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPMvb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rToU=
+acUr-2F3QVILQYZE-2BBNrBOsqNBSU6UTFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQvT=
+9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWTpK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMekB7=
+mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJzDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUWry=
+4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5yEUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50Yi=
+ROr38B8JuEeC7idXWuYU3K99reJFeidtN5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2Bgt=
+0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGshtQgYCa9R7PchaYWy1CxyqZsb2V-2BulFbM2ADyREE1Sx=
+UzcxFtIj4wQoK1A2qCJ-2Fm9YyzMZN8xGGjkrH7hnQJyiDQPzbITvHzZvJbkZuuP4ajJN9-2FAb=
+4l76UBGo786KR8wDWl9yexDXyOJhURHAIGkYIV22ELE60Z7sOfB" title=3D"" target=3D"_=
+blank" style=3D"-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%"> <=
+img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/514122/1684262377=
+/$4kkibghdyal" alt=3D"" width=3D"60" border=3D"0" style=3D"-ms-interpolatio=
+n-mode:bicubic; border:0; line-height:100%; outline:none; display: block; m=
+ax-width: 60px; height: auto;" class=3D"img-max"> </a> </td> </tr> </table>=
+ </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endi=
+f]--> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><!=
+[endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: transparent; border-top: 0; border-bottom=
+: 0px; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=
+=3D"width:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" alig=
+n=3D"center" width=3D"600" style=3D"width:600px;"><![endif]--> <table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"section=
+Container" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100=
+%; width:100%; max-width: 600px !important; background-color: transparent;"=
+> <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-=
+size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"column=
+Container" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"600" style=3D"width:600px;border-collapse: collapse;mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helvet=
+ica, Arial, sans-serif; color: #666666;"> <table class=3D"columnContainer" =
+align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"60=
+0" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-lin=
+e-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjus=
+t: 100%; font-size: 11px; line-height: 120%; font-family: Helvetica, Arial,=
+ sans-serif; color: #888888; text-align: center; padding-top: 9px; padding-=
+bottom: 9px; padding-left: 9px; padding-right: 9px;"> <p style=3D"font-size=
+: 11px !important; margin: 0; line-height: 120%;">Enviado por <b>www.adias.=
+com.br</b></p> <p style=3D"font-size: 11px !important; margin: 0; line-heig=
+ht: 120%;">Rua Tenente Alberto Spicciati, 120, Barra Funda, S=C3=A3o Paulo/=
+SP</p> <p style=3D"font-size: 11px !important; margin: 0; line-height: 120%=
+;"> Se deseja n=C3=A3o receber mais mensagens como esta, <a href=3D"https:/=
+/t.rdsv1.net/ls/click?upn=3Dbpv4WswJ-2BFzFuRdcOz0O8xBsg5oG0fkurn9aRCByNS3-2=
+BL7VdyAvpyqGIgS0s6XRf8YtT1LJURbN4E7Y-2Bn-2FDe5A-2Fr-2BfnvLW-2FCtgQBZZ6PrIB-=
+2B-2BeAnI8Il8sfEn4-2FDJYdnZksxeWcL1196mBt3-2BJIVSe3IcLe6sqsvdgXJPMOqgHiGFLS=
+MXj44c41fbGn52-2F9jjBWaDUqDP4O41jUV1-2F4VSC6uBaDA7x8aqLbaIvgFJ3Ji69tQN5dbMB=
+6NxMW933ca1rSE_kK98eMpoK8EC5aOeSV4JTRSPzqUL21C-2BmueUvCX2lOe7xFM7wLjRkH0Lnl=
+6qJEZayPU2FqLCM-2FVrQzvAZEFiN0VcvgeObh3KPc8Mvqkx-2FcC2vuSt8IiOFbXj-2BKnoXPM=
+vb-2BGCP7lY1YKwLCpSB8mTNsLj-2B1Tz62F0z5rToUacUr-2F3QVILQYZE-2BBNrBOsqNBSU6U=
+TFOSJEVpbct0-2F6r-2BLmxeeAdRgZ27vmtXSgulQvT9zO-2F8Rh3Dvf-2F99SCq56pIwYwzXWT=
+pK-2BxoTRqXybqqSAx1k-2FK-2FPuPhOIEygSnMekB7mAqWHOY8Y7cWi-2B0dtlG8fjwoUPoCQJ=
+zDze06ByNhKzBxLSE-2FlbZjTQwzyFgQB2eDQGGUWry4I91SXa2vFcCpNi1KLRuUqv4OF2l4P5y=
+EUUFH0nC-2BK3fTB8RByeer0TxEQjn-2BQCyMdX50YiROr38B8JuEeC7idXWuYU3K99reJFeidt=
+N5uwNw-2BXxnf4eUoeV9fbkTDzurcvBgR-2FZZ-2Bgt0VBSG9lpbAkSbgZ0EFTmrKdxMC7hGsht=
+QgYCa9R7PchaYWXMq8qUEKiiWv5Sx5UPJsLfuKtS8dWAE-2Ff0roplgL-2FKmwnh1e5MDj4WEwF=
+OofcBa-2FYLioPoj0wakNi5Us3uMxvO1O3Vg604BjBg7HgumO16BeD2TUsDIY-2B4sH5dEmtHJo=
+wSBMDQm8-2B3y0EzLdwePaa" style=3D"color: #333333; text-decoration: underlin=
+e;" rel=3D"nofollow" data-scanner-ignore>clique aqui</a>. </p> <span style=
+=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px=
+;max-width:0px;opacity:0;overflow:hidden;">=E2=80=A2</span> </td> </tr> </t=
+able> </td> </tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]><=
+/td> </tr> </table><![endif]--> </td> </tr> </table> </td> </tr> </table> <=
+/center> </body> </html>
+
+<span style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;max=
+-height:0px;max-width:0px;opacity:0;overflow:hidden;">=E2=80=A2</span>
+
+--31f1cd13247ea6ddd6d96444889f63e223989a31653ea840e6d3b2c04e8f--

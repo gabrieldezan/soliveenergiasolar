@@ -1,0 +1,203 @@
+Return-Path: <>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id ABahKhkhcGJDdgAAJcoV8Q
+	(envelope-from <>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 02 May 2022 18:21:13 +0000
+Return-path: <>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 02 May 2022 18:21:13 +0000
+Received: from anteater.aspen.relay.mailchannels.net ([23.83.221.3]:23688)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1nlafY-000Brx-OH
+	for contato@soliveenergiasolar.com.br; Mon, 02 May 2022 18:21:13 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id 9E1088E1275; Mon,  2 May 2022 18:21:03 +0000 (UTC)
+Date: Mon,  2 May 2022 18:21:03 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: contato@soliveenergiasolar.com.br
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="6BCFA8E1072.1651515663/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20220502182103.9E1088E1275@relay.mailchannels.net>
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: pvh.br]
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--6BCFA8E1072.1651515663/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<contato@lecarios.pvh.br>: host mail1.lecarios.pvh.br[74.91.21.183] refused to
+    talk to me: 421 Downstream server error
+
+--6BCFA8E1072.1651515663/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: 6BCFA8E1072
+X-Postfix-Sender: rfc822; contato@soliveenergiasolar.com.br
+Arrival-Date: Mon,  2 May 2022 12:05:38 +0000 (UTC)
+
+Final-Recipient: rfc822; contato@lecarios.pvh.br
+Original-Recipient: rfc822;contato@lecarios.pvh.br
+Action: failed
+Status: 4.0.0
+Remote-MTA: dns; mail1.lecarios.pvh.br
+Diagnostic-Code: smtp; 421 Downstream server error
+
+--6BCFA8E1072.1651515663/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <contato@soliveenergiasolar.com.br>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 6BCFA8E1072
+	for <contato@lecarios.pvh.br>; Mon,  2 May 2022 12:05:38 +0000 (UTC)
+Received: from cpl19.main-hosting.eu (unknown [127.0.0.6])
+	(Authenticated sender: hostingercpanel)
+	by relay.mailchannels.net (Postfix) with ESMTPA id D0F6B8E0DE0
+	for <contato@lecarios.pvh.br>; Mon,  2 May 2022 12:05:29 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1651493130; a=rsa-sha256;
+	cv=none;
+	b=xnQHkuJs1Xn7/Folqy0D+9erMwt6f2Xvl/4NkcHnAvOIAFtzWBq6vxoaOm7/z/P74NK9zk
+	haFNU3F7eysltQR9MuTxLxQqCritVyxc5rSI8KSoiKB4Mjna30Y9ansR2GzLH16cm7LhCL
+	JbaEltz/H1wFVcYmoJ/cPVsH/b8+ECLjcIeTNqbM2bRk4nsz6MhFAwyM4nYRnSBTGeg21E
+	laL8sHPWmd7Jzsy9T6Tfz2zsIRu7jWhGZJIhIu41JbDFLV2uufS+sMscyBXObu5OttmEy4
+	DaX1qGRRYBM9IEWfpsjoczxEPWAA4+NT9mpJ/gLeUbBfKgk5GwVCTVoiHPNZDA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1651493130;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 in-reply-to:in-reply-to:references:references:dkim-signature;
+	bh=YpBtfobfhnDG3TBEgtlRmgkCFbtveVLmno3d38PBrhg=;
+	b=gnwIGqesewLHRFklxbX6Kf3ZeAAgnEz2FzIhyf04heaewMyTj7fpOskC7q5dlnwZ2njIe+
+	Dw/nq4Ba7QU9nIbpHaiyqJtdoc0Q09FIDweoQwG6pZnsuJWEs29j7sKZn+rQkK6rlFAmyZ
+	nA0EX0buvr9q6pXYf7b8OmwlnlXPbrBLMQxqFFW9FpXZredKI1jKryqZb1baDyLW/pnF2U
+	NlipOsEU5ojXwcBzsVjNdLfbvBy7Zaf6uYbUgYO0EBY+amxD7zQrJ8659/RC7A4HA0peql
+	vuug6O4GXq3igd/D/olN90Cr6GjkvxXbWmopUF0VrdTY2CPB5F/lA198jSYizw==
+ARC-Authentication-Results: i=1;
+	rspamd-847dd8955c-tcqk8;
+	auth=pass smtp.auth=hostingercpanel
+ smtp.mailfrom=contato@soliveenergiasolar.com.br
+X-Sender-Id: hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MC-Relay: Neutral
+X-MailChannels-SenderId:
+ hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MailChannels-Auth-Id: hostingercpanel
+X-Decisive-Callous: 7582f0141b63d58d_1651493138026_2532565995
+X-MC-Loop-Signature: 1651493138026:3512711761
+X-MC-Ingress-Time: 1651493138025
+Received: from cpl19.main-hosting.eu (cpl19.main-hosting.eu
+ [109.106.251.201])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.127.95.68 (trex/6.7.1);
+	Mon, 02 May 2022 12:05:38 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=soliveenergiasolar.com.br; s=default; h=Content-Type:In-Reply-To:References
+	:Message-ID:Subject:To:From:Date:MIME-Version:Sender:Reply-To:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=YpBtfobfhnDG3TBEgtlRmgkCFbtveVLmno3d38PBrhg=; b=pZHD8fKIQS9R3i1pm88hgo6LYM
+	yx7cz1wq/tPkv/X5IULr50krtuNlkaWY5Ax8O87BJrk+JS/VbK19bsteANbgcZqEO48JFKvk9ofwd
+	pTPSj+uMiAz5CSvHnoPOTc45jxii6J4ZkYZhoU8UgZd5Z2P+JlbvU9lCbKZ3MiLkGmPy5RWfxmRJK
+	o9jQXngfX3noP5c4pgutNJiqkCkpN2djhWfvGHoY3Cap1cHtBCyB/efSdETmv1WhEDN2rcRT6YL/F
+	1uBK1OFg0gZ/yu1kmTNKWAqJuDR3/Zcb+oZXA27/PsfWFNoR5NHVYgWt8NAhOWAMS2yPy93EQ1xUw
+	bfS+aGAQ==;
+Received: from localhost ([127.0.0.1]:44990 helo=cpl19.main-hosting.eu)
+	by cpl19.main-hosting.eu with esmtpa (Exim 4.94.2)
+	(envelope-from <contato@soliveenergiasolar.com.br>)
+	id 1nlUnw-0008Hj-1N
+	for contato@lecarios.pvh.br; Mon, 02 May 2022 12:05:28 +0000
+MIME-Version: 1.0
+Date: Mon, 02 May 2022 12:05:28 +0000
+From: contato@soliveenergiasolar.com.br
+To: contato@lecarios.pvh.br
+Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Leitura_=28exibida=29=3A_Comp?=
+ =?UTF-8?Q?liance_em_Compras_e_Suprimentos_-_contato=40soliveenergiasolar?=
+ =?UTF-8?Q?=2Ecom=2Ebr?=
+Message-ID: <c2a7f802fc94233706f6dbcf93ff375c@soliveenergiasolar.com.br>
+X-Sender: contato@soliveenergiasolar.com.br
+References: <efb3ca121a5b249db446742200178a71@lecarios.pvh.br>
+In-Reply-To: <efb3ca121a5b249db446742200178a71@lecarios.pvh.br>
+User-Agent: Roundcube Webmail/1.4.12
+Content-Type: multipart/report;
+ report-type=disposition-notification;
+ boundary="=_d845d506a4b46e72738e84e35653e913"
+X-AuthUser: contato@soliveenergiasolar.com.br
+
+--=_d845d506a4b46e72738e84e35653e913
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Esta =C3=A9 uma confirma=C3=A7=C3=A3o de leitura da sua mensagem
+
+	Para: <contato@soliveenergiasolar.com.br>
+	Assunto: Compliance em Compras e Suprimentos -
+contato@soliveenergiasolar.com.br
+	Data: 2022-05-02 08:18
+
+Nota: Esta confirma=C3=A7=C3=A3o de leitura somente informa que a mensagem =
+foi aberta
+no computador do destinat=C3=A1rio. N=C3=A3o h=C3=A1 garantia que o destina=
+t=C3=A1rio tenha
+lido ou compreendido o conte=C3=BAdo da mensagem.
+--=_d845d506a4b46e72738e84e35653e913
+Content-Transfer-Encoding: 7bit
+Content-Type: message/disposition-notification;
+ name=MDNPart2.txt
+Content-Disposition: inline;
+ filename=MDNPart2.txt;
+ size=287
+
+Final-Recipient: rfc822; contato@soliveenergiasolar.com.br
+Original-Message-ID: <efb3ca121a5b249db446742200178a71@lecarios.pvh.br>
+Disposition: manual-action/MDN-sent-manually; displayed
+Original-Recipient: <contato@soliveenergiasolar.com.br>
+Reporting-UA: Roundcube Webmail/1.4.12
+
+--=_d845d506a4b46e72738e84e35653e913--
+
+--6BCFA8E1072.1651515663/relay.mailchannels.net--

@@ -1,0 +1,698 @@
+Return-Path: <prvs=2088593e8b=josiane.bianco@bv.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id iOkdEcJKRGLCKwAAJcoV8Q
+	(envelope-from <prvs=2088593e8b=josiane.bianco@bv.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Wed, 30 Mar 2022 12:19:14 +0000
+Return-path: <prvs=2088593e8b=josiane.bianco@bv.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Wed, 30 Mar 2022 12:19:14 +0000
+Received: from smtp3.bancovotorantim.com.br ([177.128.119.197]:58480)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <prvs=2088593e8b=josiane.bianco@bv.com.br>)
+	id 1nZXI9-0009CZ-BP
+	for contato@soliveenergiasolar.com.br; Wed, 30 Mar 2022 12:19:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=bv.com.br; s=bv.com.br; c=relaxed/simple;
+	q=dns/txt; i=@bv.com.br; t=1648642710; x=1680178710;
+	h=From:Sender:Reply-To:Subject:Date:Message-ID:To:Cc:MIME-Version:Content-Type:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:Resent-From:
+	Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=Kfnmkhd+l8HiotqrsxZJ1UbNkzca2LgLxx3MULZ01wE=;
+	b=RcNsgt13sS+/3Nw6ul6QSK1oH3GK7NrJ1kMZ2UP7ciAYKtZW1YHAjOnGGnSJGril
+	vP1fMpCGcybraQuhtz11b8nXeni4x5wNpaO4Z4EwxLth7UJPXfSovxWYjwJwP2Ee
+	plrnDsghr57YpLChRN0dijk8IVM8pC2lJrwbKYf9Fa3UpGZqrkKd5Nk1EufrqWO7
+	JitjwcH29Oft0lGBXDCuGOZN2PBrSdmVfDiI2Bf/2NpEZ91CQ7vuu2LhSd2jxgrC
+	cDnYLPkYIxR5HmkhLisC2pNdUJ2mPTPcAu7zFwlKa7h/i95kFJtytuwS009VPmCg
+	IZdBKN9+YojP2IzMpE+khA==;
+X-AuditID: 0a2a19ab-c0bc8700000051c9-d0-624449a56e73
+Received: from PTA-DAGN4.bvnet.bv ( [10.42.196.35])
+	(using TLS with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	by smtp3.bancovotorantim.com.br (Banco Votorantim) with SMTP id 65.B8.20937.5A944426; Wed, 30 Mar 2022 09:14:29 -0300 (-03)
+Received: from MOR-DAGN1.bvnet.bv (10.42.196.32) by PTA-DAGN4.bvnet.bv
+ (10.42.196.35) with Microsoft SMTP Server (TLS) id 15.0.1497.23; Wed, 30 Mar
+ 2022 09:14:29 -0300
+Received: from PTA-EXCEDGE01.bvnet.bv (172.29.2.36) by MOR-DAGN1.bvnet.bv
+ (10.42.196.32) with Microsoft SMTP Server (TLS) id 15.0.1497.28 via Frontend
+ Transport; Wed, 30 Mar 2022 09:14:28 -0300
+Received: from NAM12-DM6-obe.outbound.protection.outlook.com (192.168.36.15)
+ by mail.bancovotorantim.com.br (172.29.2.36) with Microsoft SMTP Server (TLS)
+ id 15.0.1497.23; Wed, 30 Mar 2022 09:13:53 -0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=b6FpVdFNO4NI5HPftnzJfQ0YkJzBOqluzfZH/LHlZfxmarjx1sIzd4su1g+5XGzhQYRg+v2tNBM9LMb8oquCHpwicFT65Oj29blB9ZACZPoWYKSducH+TGWcZaKvdkbejSIPcq30ZfXXZZh6XVMbFAW0PQMMWVE/QsNl5jS2wq7pNTOVgKLBNssCeTtyNU4uPUuTon+OUnYLsGMMwfGk7tV+muIVw7qgR4T65sQ+tCKSuu/eOlSgTV7u/npP6qsF0P2fvxrHfVjrCAnV3l8iucmZHS7VT6M1s+srYrLXj/SY82rErKQf8QShZVB72VFVgs6VW06iAUDIpbR3Mk4Nww==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=EMSTplwv3hp4WWm0NYUrct6h3/AReGydAFL1yuK0W58=;
+ b=ddMF5nAeSaZwIBun96WHQ+oqNw3X5vCXN3bm9A6sz7UHV3ishyr/J5NvoC4MdIaVBmJZRH1z2arXoLVcL3FsK3oYID3UEfoa+rw/jgdx4ryTqkpkNKAiU5Pd10Qn5pHUAxc3fS+G/1p9HEk/od3y8I5KwQ25kWo0bvnwjMO2wiXkCZYK0yv66Ly31OGQrgEVpxnqQOjS71i5x4klumXK9R71h/EWcAYKWKIUcW8lLkgRTyybCRZ1e1dVfPtqlz/gQ9Kz7mAer79wvHsfs8fLqlo59XqNISEF4qiGhK7mfiiq0ltd0SccG6+cWyWZrfB0C0qOvzQ+GOQGsf3etV2dtg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=bv.com.br; dmarc=pass action=none header.from=bv.com.br;
+ dkim=pass header.d=bv.com.br; arc=none
+Received: from FR1P15201MB2421.LAMP152.PROD.OUTLOOK.COM (2603:10d6:202:d::7)
+ by CPXP152MB3255.LAMP152.PROD.OUTLOOK.COM (2603:10d6:103:49::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5102.18; Wed, 30 Mar
+ 2022 12:14:26 +0000
+Received: from FR1P15201MB2421.LAMP152.PROD.OUTLOOK.COM
+ ([fe80::a92b:adef:9ca5:d807]) by FR1P15201MB2421.LAMP152.PROD.OUTLOOK.COM
+ ([fe80::a92b:adef:9ca5:d807%5]) with mapi id 15.20.5123.021; Wed, 30 Mar 2022
+ 12:14:25 +0000
+From: Josi Bianco <josiane.bianco@bv.com.br>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject: =?iso-8859-1?Q?RELA=C7=C3O_DE_DOCUMENTOS_PARA_CADASTRO_NA_PLATAFORMA_DE_F?=
+ =?iso-8859-1?Q?INANCIAMENTO_SOLAR_BV?=
+Thread-Topic: =?iso-8859-1?Q?RELA=C7=C3O_DE_DOCUMENTOS_PARA_CADASTRO_NA_PLATAFORMA_DE_F?=
+ =?iso-8859-1?Q?INANCIAMENTO_SOLAR_BV?=
+Thread-Index: AdhEL49Sl2NC7UYUQ0iCBuvLA4PSNQ==
+Date: Wed, 30 Mar 2022 12:14:25 +0000
+Message-ID: <FR1P15201MB24210D5779DE73F6B2E36032CC1F9@FR1P15201MB2421.LAMP152.PROD.OUTLOOK.COM>
+Accept-Language: pt-PT, en-US
+Content-Language: pt-BR
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+msip_labels: MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_Enabled=true;
+ MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_SetDate=2022-03-30T12:14:23Z;
+ MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_Method=Privileged;
+ MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_Name=e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb;
+ MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_SiteId=ce047754-5e4b-4c19-847a-3c612155b684;
+ MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_ActionId=bf5b9d67-a990-4a6c-b1eb-b2a9e0891457;
+ MSIP_Label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_ContentBits=2
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_enabled: true
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_setdate: 2022-03-30T12:14:23Z
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_method: Privileged
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_name: e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_siteid: ce047754-5e4b-4c19-847a-3c612155b684
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_actionid: 84098854-34be-458b-b962-cf0522bbdf46
+msip_label_e8a63464-1d59-4c4f-b7f6-a5cec5bffaeb_contentbits: 0
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=bv.com.br;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 22c19c14-7f66-4db3-bb0c-08da1246d52a
+x-ms-traffictypediagnostic: CPXP152MB3255:EE_
+x-ms-exchange-atpmessageproperties: SA|SL
+x-microsoft-antispam-prvs: <CPXP152MB3255F6D59ECCFD3ACA125D45CC1F9@CPXP152MB3255.LAMP152.PROD.OUTLOOK.COM>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: gLb+cASzX1DWv8+KMoynumAfoomNihyRD3bR/VzOJY4HJ0M7TqeWex5foYORNlC3hIFFHDtbRS0DTF60o4/cPILC/8oOCN8Qeaj0JZj4v5m/m9rrEXT8VF9xqwyZ3UO3i0G9tJOHZQ7a/FIGUV9WcmWdYciX7SOqocyofGKYEqhQBF6S3xtnrQdmnUUSiz0aAlPUZjCt6JhD3+xRfuGcqQ5Fgtbo8gOREyJPC14QbjkGP/jfcSWfevUpWHz27y3zqhBbJLxZ+ou9S3p4Ruocsl+6+U3dP+3cBCKYb/ThLRd7/p7NtBKMDpBMfh8idTmZvgiVv0MRvIlvFi93ywVAGt2djpnGUT1Q5MPwdGXi67ND4+Ps2h05io1/dTMkcZSmiuDjyif7RnPnd4xVKIgntuesXzaH6kRkrtpHIsmZt0abUcevZq2jTdBFt5elmIEIAeVOf1c2rpqTzXOLZECXz1MWOV1jt0lV5nMii/IogVgxOSZbscjLHyIU/cLDrc13J7JxSR/+ekD6m5tPdnv6NKT7dGtibMMmKq+utoMqH8pk5RC1uZdCsM7az11u6lNO3NbicxSV030KkiVBIIKGaNA7GZSecN+oBJIU8uht38FiAnQgvoO2jBK4MAWohVu5/jQ99eHJLkdt7ERbjqoe3o5ThPg1N/CPP1liRTx/1RZvohCAHdY1qSDTA+z5sEWaM/cmYKPWZwKVwpumIKhhxIiE62fPW2VuGVL57cnXYanCjTOM8UKj2pDrDsqdui5C8ASstcJwkORdrLXiC6y8MCIIMBUE6e2Yv+CLScVvBh0=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:FR1P15201MB2421.LAMP152.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(52536014)(8936002)(2906002)(5660300002)(224303003)(166002)(26005)(99936003)(122000001)(4744005)(186003)(6506007)(7696005)(508600001)(316002)(76116006)(38070700005)(38100700002)(19627235002)(86362001)(66446008)(66946007)(66476007)(66556008)(33656002)(9686003)(6916009)(64756008)(55016003)(71200400001);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?iso-8859-1?Q?DyguJUM84GsFfqic8x9nwGM+UkfkdNI6qWmkJvU8pIOLsQpcwTqjIF3u24?=
+ =?iso-8859-1?Q?4vT2LeAwqlQZ3RATMqvPJrWQbySLCdHEs35nl5sNFtvVycRQ1C4qYpQdzS?=
+ =?iso-8859-1?Q?3+wpJG2D2752KQWt4XvZbSXRbsPuTMBImHXRjkwNfObxJ+pSE2J51cNxIz?=
+ =?iso-8859-1?Q?+SMgqJCLIchIODgcSz03ccKsa4o3ShiGIlToaduBByxGsWklhzI+Lx7rzQ?=
+ =?iso-8859-1?Q?n9PJTVhBxgqVX/z57xX4Q7I2IFvFqbJSwx8hw/E85+8vyOC1Sop0dJv8WH?=
+ =?iso-8859-1?Q?JYbUhYHB9zg3QpCfTadO9XrD+5/Er9p/cr+Lg/JhHMJoPyMDH8Od/55Pj6?=
+ =?iso-8859-1?Q?6vJTm2mWFODXs2BIMriG8wNU4SCQ/rhOZSxi/dS4H8SVBLOXCsP6K+t0DX?=
+ =?iso-8859-1?Q?xdGd0tSb8wcGUMqZ+9jwxDGVKSOec6BgtOxf8CQrTmEBwUE5k8zQXHK8OW?=
+ =?iso-8859-1?Q?Slg8TDhLbQsM69JIMeBsS8yJwR2wh5hzSu1L52jaM4qGCqBh6JL+OecoXc?=
+ =?iso-8859-1?Q?EQjvFHxO2gXzAp83T2fcMn17HhdXFqi2s5iF/+s+3xnKBRHtB9JpReCLZN?=
+ =?iso-8859-1?Q?feGp2QLJTIO24DJvBsigMOd9O3irbB2MlP7OSdI5OYxcgGjSkSeRqU3147?=
+ =?iso-8859-1?Q?OdnE9Y5nHefo/lS52PJlVrlDb/xU0s1aOzMhQ6cesxSEmWTnJ9HM5Evxju?=
+ =?iso-8859-1?Q?Vh1qJYTAQjUebVjh979vgYjb6wFpXent5CRcTQUojDVHk4fT7v8CFN8Dhe?=
+ =?iso-8859-1?Q?lXur+gjAbyQF8SN/QA7GOcAggpaAtdtEBoZ820bSYSYgV+UrosBdpIDBZa?=
+ =?iso-8859-1?Q?6f0oQ8IQEaMX/DjQNfMslaX8g7wqvIUllekiDSBOUJPZ600a0Rsr+tWjMr?=
+ =?iso-8859-1?Q?cVv3ewkMaUo2vh71iCKt5QwUwkr9/iJeMJ/0fSPbdXuEHaUcD62t2YpGRA?=
+ =?iso-8859-1?Q?9f9NEGZ0Eysf/FJxIgfAftkBpkJX3pMLoitjSuWRO0QFthnvPCzm30bae0?=
+ =?iso-8859-1?Q?RFUiF1NCpXR2hPcNJeio4kOhT1XGciX6KYIp8Xt9gqcxXiCWTUxpsN7WJB?=
+ =?iso-8859-1?Q?ovbLdqQBShN+JKRiZhw2RsJ87yq4d/Usv1iZYisT3GvKejLSs96a+l23On?=
+ =?iso-8859-1?Q?sYYr+dRU1Vi2tpiT6awL7A/vMCqQ0gtG0cAJnCcIg7xmutPi2dkwS5BgKq?=
+ =?iso-8859-1?Q?FG+DbzzBzMtCPt5AtSCfKViDjHMadcQ+F21LcYCbrlFQ2qwhCAmw8BXi7w?=
+ =?iso-8859-1?Q?wEnhItFx41cSV9YsrbwnAFU/EKPn8T8X6tXMDKxyhGnEg472xegKjCdGPb?=
+ =?iso-8859-1?Q?uuivG5f2fANNVQFXwSzmxvgkTKDnmoreWVOZviuKXgfl019q2wDYtjiZq2?=
+ =?iso-8859-1?Q?l4/nuLjrQg6u8l7pgVx6wOSPy8JIkMGjT8ccCv49GZf3t1jvqqX9xxpk21?=
+ =?iso-8859-1?Q?Sxz7ilMdIBDBCxd89jaHxIN5EApdbIFv4Sn0RZZDrArQtx8SohxIVRrFHE?=
+ =?iso-8859-1?Q?He4duHDDjm3wZr4R2+hc6+1YpIqjJdkm+81IQSQfW8AeqLOjN+u64mjC95?=
+ =?iso-8859-1?Q?C+aZTrk2mEb+j8epI1gCDBu8+InsoCNi4WfIXU3jqxi4FYBQzdnTd6jVWi?=
+ =?iso-8859-1?Q?rcOhjEmEv/FlV25Qi2jWeVLRQd625EtHbUBalw55ABbjFcs9sFlMBYSWNz?=
+ =?iso-8859-1?Q?nsQrMgK3HRrfTiU4nX3X++DPP6mNYiLhwXiTynR5Tlpe94bzayFH7miUkI?=
+ =?iso-8859-1?Q?uzY+USZSXI+6aVu6HR6YSpPx37arjzFaMp5CtXxDzft4LWsrp83WNT7o0z?=
+ =?iso-8859-1?Q?cFJJjiefBA=3D=3D?=
+Content-Type: multipart/related;
+	boundary="_004_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: FR1P15201MB2421.LAMP152.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 22c19c14-7f66-4db3-bb0c-08da1246d52a
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Mar 2022 12:14:25.5017
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: ce047754-5e4b-4c19-847a-3c612155b684
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: H2otrzzF/uGYDqtF5a1/BbUSI/2dij/zVoBtu038gUe7uQGQMIEKiCj4GGQUib5TRE06h7stpOwZ67Wc9EHl4bLCnyZyE909dX4fiNMltnw=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CPXP152MB3255
+X-OriginatorOrg: bv.com.br
+X-CFilter-Loop: Reflected
+X-Brightmail-Tracker: H4sIAAAAAAAAA2WTf2xTVRTHc/pe20dJw9ss7NgIPF7wDwadJSxxJmsFAWMkEIL6DxDLa3uz
+	vbG917z3RvxFKD8Grg24JUzcmuyHDZtQk8mykIlbgMqUSXDQbPwcmuEiziFiJhICoq+9xZjw
+	/rj53HO+55x7z32HYwpjdjcnKwbRFKlatDlYR/Gzgufj11cFvYOH2bLPrjRblsNrJy8VrIeN
+	USgPSsa2N+QK5QV/uaQoqiEZRAgTPeQTV8l6qFqSa4gmeIT1Ulj7OqmKghz2ictEIVIthUgN
+	UQyfKEUiRAmLfofw1FduymRFIEpIDctKhU98681XPWWif7VuSIIZrUtbMgWVBxInbZFUB7yT
+	nJgZhfNNEIMZHPKlODDWxcTAwRXyCQsm6+8D3aQApz48a6ObQcBbddN52TDgieHbuXjgOxns
+	TalZh8lWPHL2WN7RDdjxu0gj2i341VhjPtcEYLyrxxoDjrPxSzCZWJMNcPFrMHO/gcnyM/x2
+	HG/bkyvn4ncB/vpwD0NFJXgrGs8xyz+P0eP19mweJx/AkeiLWQR+Lg4MFGcVDF+Eyd4jFnpR
+	F45fPGejPBsnf3pszaZ38v0s3tl9KOdw8j7sPt5tp7wW2z//IW9/BSevf8pS3og9Db0Wypvx
+	y0On8va38Ubm7zz78fyNIYY2wsDMg712WnguZtri+c6vxZ3RPmsDlLX876wt5pkYPm62aOeo
+	rSWXqwCHmidYKlLx6s1OoFyCV5oO2igvxs6OKYayBz95nGafti/Bh3/F8voFeH20yUqLHQas
+	679jeyLqSv32n+hgfNzeDs6jMDtiSB69piKihb1LS4LbFGKYaw/QHz/VB/fafGmwcJCGhWbk
+	zS9SF8DNKqpCRJfzj9Mrg4XOsPTue0RTA1ptNdHTsNh8wEbGPTOkmkOkGIFlXq9Y5PzA++OW
+	Qr7CHI+thESI9kRt4WakATmH26WbU0A0qdaoDGSHKqCbU+WOwqb68f2bQ5l9I/qsE9/vWr39
+	TFsRV3WpbuF8pqtlumTkUXqotfXn0G15wYVvU02n++f92Vf6T+I5Ej1WObL1butYugqGLi8X
+	k6HBwJQ8Ov3Lgw2XBxIbata9v266uPzccHP9gZe1HZuufTN5ZkVj2d2XVH/w0aKPdtz7rrTK
+	Mqth8FTtHJHVK6WlxYymS/8CihVqCx0EAAA=
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá Rodrigo, Bom dia! Conforme falamos, segue abaixo a relação
+    de documentos que preciso para enviar o cadastro na plataforma de financiamento
+    Solar. * 3 ART`s ou NF de projetos já concluídos, com a conta de luz comprovando
+    a geração de créditos de energia. * RG E CPF dos sócios. * Contrato social.
+    * Comprovante de endereço. * Dados bancários da P [...] 
+ Content analysis details:   (1.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bv.com.br]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                           [177.128.119.197 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--_004_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_
+Content-Type: multipart/alternative;
+	boundary="_000_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_"
+
+--_000_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Rodrigo,
+Bom dia!
+
+Conforme falamos, segue abaixo a rela=E7=E3o de documentos que preciso para=
+ enviar o cadastro na plataforma de financiamento Solar.
+
+
+  *   3 ART`s ou NF de projetos j=E1 conclu=EDdos, com a conta de luz compro=
+vando a gera=E7=E3o de cr=E9ditos de energia.
+  *   RG E CPF dos s=F3cios.
+  *   Contrato social.
+  *   Comprovante de endere=E7o.
+  *   Dados banc=E1rios da PJ
+
+
+
+Fico no aguardo, e a disposi=E7=E3o para maiores esclarecimentos
+
+
+
+att
+
+Josiane Bianco
+GERENTE DE RELACIONAMENTO
+josiane.bianco@bv.com.br<mailto:josiane.bianco@bv.com.br>
+    45  3003-1616
+    45 99135-0387
+
+Cascavel | Paran=E1 | Loja Virtual
+bancobv.com.br<http://www.bancobv.com.br>
+
+[cid:image001.png@01D742A4.7149CA10]
+bv.com.br
+
+
+
+P=DABLICO
+
+Esta mensagem e seus anexos podem conter informa=E7=F5es confidenciais ou pr=
+ivilegiadas. Se voc=EA n=E3o =E9 o destinat=E1rio, n=E3o est=E1 autorizado a=
+ utilizar o material para qualquer fim. Solicitamos que voc=EA apague a mens=
+agem e avise imediatamente o remetente. O conte=FAdo desta mensagem e seus a=
+nexos n=E3o representam necessariamente a opini=E3o e a inten=E7=E3o da empr=
+esa, n=E3o implicando em qualquer obriga=E7=E3o ou responsabilidade por part=
+e desta. 
+
+This message may contain confidential and/or privileged information. If you=
+ are not the addressee or authorized to receive this for the addressee, you=
+ must not use, copy, disclose or take any action based on this message or an=
+y information herein. If you have received this message in error, please adv=
+ise the sender immediately by reply e-mail and delete this message. The cont=
+ents of this message and its attachments do not necessarily express the opin=
+ion or the intention of the company, and do not imply any legal obligation o=
+r responsibilities from this company.  
+
+--_000_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micro=
+soft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" xm=
+lns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http://w=
+ww.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-1=
+">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Helvetica bol";}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.msipfooter3bb1f626, li.msipfooter3bb1f626, div.msipfooter3bb1f626
+	{mso-style-name:msipfooter3bb1f626;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EstiloDeEmail20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:347950575;
+	mso-list-template-ids:106333538;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:536739928;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-561616174 68550657 68550659 68550661 68550657 685506=
+59 68550661 68550657 68550659 68550661;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"PT-BR" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:b=
+reak-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Ol=E1 Rodrigo,<o:p></o:p></p>
+<p class=3D"MsoNormal">Bom dia!<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Conforme falamos, segue abaixo a rela=E7=E3o de docum=
+entos que preciso para enviar o cadastro na plataforma de financiamento Sola=
+r.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-list:l1 level1 l=
+fo3">3 ART`s ou NF de projetos j=E1 conclu=EDdos, com a conta de luz comprov=
+ando a gera=E7=E3o de cr=E9ditos de energia.<o:p></o:p></li><li class=3D"Mso=
+ListParagraph" style=3D"margin-left:0cm;mso-list:l1 level1 lfo3">RG E CPF do=
+s s=F3cios.<o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"margin-le=
+ft:0cm;mso-list:l1 level1 lfo3">Contrato social.<o:p></o:p></li><li class=3D=
+"MsoListParagraph" style=3D"margin-left:0cm;mso-list:l1 level1 lfo3">Comprov=
+ante de endere=E7o.<o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"m=
+argin-left:0cm;mso-list:l1 level1 lfo3">Dados banc=E1rios da PJ<o:p></o:p></=
+li></ul>
+<p class=3D"MsoListParagraph"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoListParagraph">Fico no aguardo, e a disposi=E7=E3o para maior=
+es esclarecimentos<o:p></o:p></p>
+<p class=3D"MsoListParagraph"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoListParagraph">att<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><b><span lang=3D"IT" style=
+=3D"font-size:13.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;=
+color:#5DCAE2;mso-fareast-language:PT-BR">Josiane Bianco<o:p></o:p></span></=
+b></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><b><span lang=3D"IT" style=
+=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;c=
+olor:#5775CF;mso-fareast-language:PT-BR">GERENTE DE RELACIONAMENTO</span></b=
+><b><span lang=3D"IT" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Arial&quot;,sans-serif;color:#7C7C7B;mso-fareast-language:PT-BR"><o:p>=
+</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><b><span lang=3D"IT" style=
+=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;m=
+so-fareast-language:PT-BR"><a href=3D"mailto:josiane.bianco@bv.com.br">josia=
+ne.bianco@bv.com.br</a><span style=3D"color:#5DCAE2"><o:p></o:p></span></spa=
+n></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><b><span lang=3D"IT" style=
+=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;c=
+olor:#5DCAE2;mso-fareast-language:PT-BR">&nbsp;&nbsp;&nbsp;&nbsp;45&nbsp; 30=
+03-1616<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><b><span lang=3D"IT" style=
+=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;c=
+olor:#5DCAE2;mso-fareast-language:PT-BR">&nbsp;&nbsp;&nbsp; 45 99135-0387<o:=
+p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><span lang=3D"IT" style=3D=
+"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;colo=
+r:#5775CF;mso-fareast-language:PT-BR"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><span lang=3D"IT" style=3D=
+"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;colo=
+r:#5775CF;mso-fareast-language:PT-BR">Cascavel | Paran=E1 | Loja Virtual</sp=
+an><b><span lang=3D"IT" style=3D"font-size:8.0pt;line-height:115%;font-famil=
+y:&quot;Helvetica bol&quot;;color:#7C7C7B;mso-fareast-language:PT-BR"><br>
+</span></b><span style=3D"mso-fareast-language:PT-BR"><a href=3D"http://www.=
+bancobv.com.br"><b><span style=3D"font-size:8.0pt;line-height:115%;font-fami=
+ly:&quot;Helvetica bol&quot;;color:blue">bancobv.com.br</span></b></a><o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%"><b><span lang=3D"IT" style=
+=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Helvetica bol&quot;;c=
+olor:#5775CF;mso-fareast-language:PT-BR"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR"><img borde=
+r=3D"0" width=3D"97" height=3D"79" style=3D"width:1.0104in;height:.8229in" i=
+d=3D"Imagem_x0020_1" src=3D"cid:image001.png@01D742A4.7149CA10"></span><o:p>=
+</o:p></p>
+<p class=3D"MsoNormal"><u><span style=3D"font-family:&quot;Arial&quot;,sans-=
+serif;color:#2680FF;mso-fareast-language:PT-BR">bv.com.br<o:p></o:p></span><=
+/u></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:PT-BR"><o:p>&nbsp=
+;</o:p></span></p>
+<p class=3D"msipfooter3bb1f626" style=3D"margin:0cm"><span style=3D"font-siz=
+e:10.0pt;color:black">P=DABLICO</span><o:p></o:p></p>
+</div>
+Esta mensagem e seus anexos podem conter informa=E7=F5es confidenciais ou pr=
+ivilegiadas. Se voc=EA n=E3o =E9 o destinat=E1rio, n=E3o est=E1 autorizado a=
+ utilizar o material para qualquer fim. Solicitamos que voc=EA apague a mens=
+agem e avise imediatamente o remetente. O conte=FAdo desta mensagem e seus a=
+nexos n=E3o representam necessariamente a opini=E3o e a inten=E7=E3o da empr=
+esa, n=E3o implicando em qualquer obriga=E7=E3o ou responsabilidade por part=
+e desta. 
+
+This message may contain confidential and/or privileged information. If you=
+ are not the addressee or authorized to receive this for the addressee, you=
+ must not use, copy, disclose or take any action based on this message or an=
+y information herein. If you have received this message in error, please adv=
+ise the sender immediately by reply e-mail and delete this message. The cont=
+ents of this message and its attachments do not necessarily express the opin=
+ion or the intention of the company, and do not imply any legal obligation o=
+r responsibilities from this company.
+</body>
+</html>
+
+--_000_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_--
+
+--_004_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=5634;
+	creation-date="Thu, 06 May 2021 21:23:04 GMT";
+	modification-date="Wed, 30 Mar 2022 12:14:25 GMT"
+Content-ID: <image001.png@01D742A4.7149CA10>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_FR1P15201MB24210D5779DE73F6B2E36032CC1F9FR1P15201MB2421_--

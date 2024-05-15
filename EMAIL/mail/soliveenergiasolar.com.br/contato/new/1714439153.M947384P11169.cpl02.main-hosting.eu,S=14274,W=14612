@@ -1,0 +1,338 @@
+Return-Path: <3ae8.82.186ac0000d0c5b6.4a32f9de0a398805c11dbecc9d877c62@tracking.vivo.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id yFj3N/FDMGahKwAAIElduQ
+	(envelope-from <3ae8.82.186ac0000d0c5b6.4a32f9de0a398805c11dbecc9d877c62@tracking.vivo.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 30 Apr 2024 01:05:53 +0000
+Return-path: <3ae8.82.186ac0000d0c5b6.4a32f9de0a398805c11dbecc9d877c62@tracking.vivo.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 30 Apr 2024 01:05:53 +0000
+Received: from s1-b18b.socketlabs.email-od.com ([142.0.177.139]:56353)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <3ae8.82.186ac0000d0c5b6.4a32f9de0a398805c11dbecc9d877c62@tracking.vivo.com.br>)
+	id 1s1bwP-0003Oe-0W
+	for contato@soliveenergiasolar.com.br;
+	Tue, 30 Apr 2024 01:05:53 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=vivo.com.br;s=key1;
+	c=relaxed/relaxed; q=dns/txt; t=1714439153; x=1717031153;
+	h=content-transfer-encoding:content-type:mime-version:subject:date:message-id:to:from:list-unsubscribe-post:list-unsubscribe:x-thread-info:subject:to:from:cc:reply-to;
+	bh=zFZtZSP5aHwXhMd3dEHKZ47XBxo3Rc4zncXDLoOc4pc=;
+	b=MkLerNPxW0Fi9LmTzeatkbTkYaXP3Xr+EVloWOETCpXh0011eCW/id6ceEaToKA37SA7vre1oGor133Z0sYMgIiN8UhHVNTbAAzaCBM8a4aj2Rtvrz4yeF3Agg2cZnMRTRMpsh5CeCd9lOLNfweSQe1sL/XDxBl6lnIk8C+Eh14=
+DKIM-Signature: v=1; a=rsa-sha256; d=email-od.com;i=@email-od.com;s=dkim;
+	c=relaxed/relaxed; q=dns/txt; t=1714439153; x=1717031153;
+	h=content-transfer-encoding:content-type:mime-version:subject:date:message-id:to:from:list-unsubscribe-post:list-unsubscribe:x-thread-info:subject:to:from:cc:reply-to;
+	bh=zFZtZSP5aHwXhMd3dEHKZ47XBxo3Rc4zncXDLoOc4pc=;
+	b=q8iDaGHdc/vejIdl1vCFP4FDwWsy22EXvHqlrU0FDyb8QKYDq6YhcGZe1JWFSh5LgBRIjOJXubSLohB651tFiUySQ8O5vQSsmhI1z2uAtyn/F871v5U9c8e+VhdZZWI1jzi6kAX6nocrcCSXW6CSnJxOvjTypx14Ye5GbeFiFpM=
+X-Thread-Info: M2FlOC4xZS4xODZhYzAwMDBkMGM1YjYuMjE4Nzg1NzkwNS5WSVZPQ0FNUEFOSEEyMDI0MDQyOS5jb250YXRvPXNvbGl2ZWVuZXJnaWFzb2xhci5jb20uYnI=
+List-Unsubscribe: <https://tracking.vivo.com.br/unsubscribe?ref=6DoAACKnfLrT8JV7WkBGr1wg380Fx1vlAQAAALbCAKKNJHFvD48ZYaLly_I37sA_FdtOyBdxRSQkbiGypF6WEs8lgjRB9CBhEA29SXAtWQqT_qImEGfniuICSKT8wDkYa3Qvy5GL51NEXTix8ztWiIjKegJ7-JNtXMLwg6zLJBgms-8R5oJwYfKdQ40fLvlclXwbp7s9XlYnpMUGBsdiqR4BMwvw3fvNyTUisQ>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Received: from r1.h.in.socketlabs.com (r1.h.in.socketlabs.com [142.0.180.11]) by mxsg4.email-od.com
+	with ESMTP(version=Tls12 cipher=Aes256 bits=256); Mon, 29 Apr 2024 21:05:08 -0400
+Received: from 34.95.176.174 by r1.h.in.socketlabs.com
+	via HTTP; Tue, 30 Apr 2024 01:05:08 UTC
+From: "VIVO" <contadigital@vivo.com.br>
+To: "SOLIVE" <contato@soliveenergiasolar.com.br>
+Message-ID: <b62c5c2a652f40b99a8d56affad7ca18@vivo.com.br>
+Date: Mon, 29 Apr 2024 21:05:08 -0400
+Subject: =?utf-8?B?Vml2byAtIFRlcm1vIGRlIFF1aXRhw6fDo28gMjAyMw==?=
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ﻿ Vivo Caso não esteja visualizando este e-mail, DECLARAÇÃO
+    ANUAL DE QUITAÇÃO DE DÉBITOS 
+ Content analysis details:   (0.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: email-od.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: email-od.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant
+                             for tracking
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+ -0.0 DKIMWL_WL_MED          DKIMwl.org - Medium trust sender
+X-Spam-Flag: NO
+
+=EF=BB=BF<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+<title>Vivo</title>
+<style type=3D"text/css">
+table
+{
+    margin: 0px auto !important;
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+table td,  table tr
+{
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+ @media screen and (max-width: 600px) {
+
+table=2EdeviceWidth
+{
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+table=2EdeviceWidth td
+{
+    display: block !important;
+    clear: both !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0px !important;
+    min-width: 100% !important;
+    margin: 0 auto !important;
+}
+
+table=2EtableType
+{
+    min-width: 100%;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+table=2EtableType td
+{
+    display: table-cell !important;
+    min-width: auto !important;
+    width: auto !important;
+}
+
+img=2EimageMobile
+{
+    width: 100% !important;
+    height: auto !important;
+}
+
+*=2EhideThis { display: none !important; }
+
+*=2Eto90 { width: 93%; }
+}
+</style>
+</head>
+<body>
+<div style=3D"display:none;font-size:1px;color:#333333;line-height:1px;=
+max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+
+</div>
+<div align=3D"center"><font face=3D"Verdana, Arial, Helvetica, sans-ser=
+if" size=3D"1" color=3D"#000000" style=3D"-ms-text-size-adjust:none;-we=
+bkit-text-size-adjust:none;">Caso n=C3=A3o  esteja visualizando este e-=
+mail, <a href=3D"<table width=3D"600" border=3D"0" align=3D"center" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"deviceWidth">
+  	<tr>
+    	<td valign=3D"top" style=3D"line-height:0px; font-size:0px; margin=
+:0px;">
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+				<tr>
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3849_img1=2Ejpg" width=3D"600" height=3D"278" alt=3D=
+"Comunicado Importante, Vivo empresas=2E" class=3D"imageMobile"></td>
+				</tr>
+			</table>
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+				<tr>
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3556-pixel=2Epng" width=3D"15" height=3D"20" alt=3D"=
+"></td>
+				</tr>
+			</table>
+			<table width=3D"86%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"center">
+				<tr>
+					<td align=3D"left" style=3D"font-family: Trebuchet MS, Verdana, Ge=
+neva, sans-serif; font-size:25px; line-height:25px; color:#660099;-ms-t=
+ext-size-adjust:none;-webkit-text-size-adjust:none; text-align:left!imp=
+ortant;mso-line-height-rule: exactly;">
+						<strong>DECLARA=C3=87=C3=83O ANUAL DE QUITA=C3=87=C3=83O DE D=C3=89=
+BITOS</strong>
+					</td>
+			  	</tr>
+				<tr>
+					<td align=3D"left" style=3D"font-family: Trebuchet MS, Verdana, Ge=
+neva, sans-serif; font-size:14px; line-height:19px; color:#707070;-ms-t=
+ext-size-adjust:none;-webkit-text-size-adjust:none; text-align:left!imp=
+ortant;mso-line-height-rule: exactly;"><br>
+
+<p> </p>
+<br>
+<p> </p>
+<b>CLIENTE:</b> SOLIVE<br>
+<b>CONTRATO:</b> 899930686557
+<p> </p>
+<span style=3D"color: #660099;">Ol=C3=A1,</span><p>
+
+Conforme previsto na Lei 12=2E007, de 29 de julho de 2009, a Telef=C3=B4=
+nica Brasil S=2EA=2E declara que n=C3=A3o h=C3=A1 d=C3=A9bitos referent=
+es ao uso dos servi=C3=A7os Vivo Fixo, no ano de 2023, pelo contrato ac=
+ima mencionado=2E
+<p>
+Esta declara=C3=A7=C3=A3o substitui os comprovantes anteriores de quita=
+=C3=A7=C3=A3o dos seus d=C3=A9bitos e comprova o cumprimento dos pagame=
+ntos realizados entre os meses de janeiro a dezembro de 2023 para Vivo =
+Empresas=2E
+<p>
+Nesta declara=C3=A7=C3=A3o n=C3=A3o est=C3=A3o inclusas quita=C3=A7=C3=B5=
+es de parcelamentos, cobran=C3=A7as de outras operadoras, servi=C3=A7os=
+ prestados e n=C3=A3o faturados, d=C3=A9bito judicial e administrativo,=
+ entre outros n=C3=A3o cobertos pela lei acima citada=2E=20
+<p>
+Caso tenha alguma d=C3=BAvida, fale conosco pela Central de Atendimento=
+, no telefone 10315=2E Para pessoas com defici=C3=AAncia de fala e/ou a=
+udi=C3=A7=C3=A3o, ligue 142=2E
+<p>
+<span style=3D"color: #660099;">Esta declara=C3=A7=C3=A3o =C3=A9 exclus=
+iva para o contrato mencionado no in=C3=ADcio deste comunicado e n=C3=A3=
+o se aplica a outros contratos ou servi=C3=A7os Vivo Empresas=2E</span>
+<p>
+Continue contando com as solu=C3=A7=C3=B5es de Vivo Empresas para digit=
+alizar o seu neg=C3=B3cio=2E
+
+
+
+
+
+
+						<br><p><br><p>
+						At=C3=A9 breve=2E<br>
+						<strong style=3D"color: #660099;">Equipe Vivo Empresas</strong>
+
+<p><br><p>
+Esta =C3=A9 uma mensagem autom=C3=A1tica=2E Favor n=C3=A3o responder=2E
+
+					</td>
+			  	</tr>
+			</table>
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+				<tr>
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3556-pixel=2Epng" width=3D"15" height=3D"20" alt=3D"=
+"></td>
+				</tr>
+			</table>
+			<table width=3D"86%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"center">
+				<tr>
+					<td align=3D"left" style=3D"line-height:0px; font-size:0px; margin=
+:0px;"><a href=3D"https://tracking=2Evivo=2Ecom=2Ebr/?ref=3D6DoAAAwrrAn=
+-tOhBsr7br-jtxjTSmE3vAQAAACh2vbEw19lh2AI1sfTp9iO7XJNMgoDG9zVSExOBZM5QIJ=
+E9TPRb4tzaAwaQ5OgM6pQ3lBoJ23kInphtw_ug5_uwkCiRk9I6DAuXKNJk87JEUsGeAt6PC=
+C0uV8kJKVeLGNz32-WqDJPxz5biP6X7q6TdOqzRsuXCOvfmHhwX-3WM6R2KSJI5qEtC_HUa=
+WtZ8pZE_LaVxO6JoaHfs3SOROlFenPKiNKQGiwX6XdJC9ILEjL2r6zFp_FIrlee3U7ubQmN=
+1NIOytdXtk7JE5aW6wZI"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/cr=
+m/outubro20/comunicado_juridico/3849_img2=2Ejpg" width=3D"198" height=3D=
+"44" alt=3D"Suga a gente no Linkedin"></a></td>
+				</tr>
+			</table>
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+				<tr>
+
+
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3556-pixel=2Epng" width=3D"15" height=3D"20" alt=3D"=
+"></td>
+				</tr>
+			</table>
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">
+				<tr>
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3849_line=2Ejpg" width=3D"600" height=3D"17" alt=3D"=
+" class=3D"imageMobile"></td>
+				</tr>
+			</table>
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+				<tr>
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3556-pixel=2Epng" width=3D"15" height=3D"20" alt=3D"=
+"></td>
+				</tr>
+			</table>
+			<table width=3D"86%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"center">
+				<tr>
+					<td align=3D"left" style=3D"line-height:0px; font-size:0px; margin=
+:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/com=
+unicado_juridico/3849_img3=2Ejpg" width=3D"194" height=3D"29" alt=3D"So=
+lu=C3=A7=C3=B5es Empresariais=2E Telef=C3=B4nica=2E"></td>
+					<td align=3D"right" style=3D"line-height:0px; font-size:0px; margi=
+n:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/co=
+municado_juridico/3849_img4=2Ejpg" alt=3D"4=2E5G + Fibra" width=3D"146"=
+ height=3D"33"></td>
+				</tr>
+			</table>
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+				<tr>
+					<td align=3D"center" style=3D"line-height:0px; font-size:0px; marg=
+in:0px;"><img src=3D"http://vivo=2Ecom=2Ebr/content/dam/crm/outubro20/c=
+omunicado_juridico/3556-pixel=2Epng" width=3D"15" height=3D"30" alt=3D"=
+"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<img src=3D"https://tracking=2Evivo=2Ecom=2Ebr/l=2Egif?ref=3D6DoAALvs-5=
+2I_wyjtoU_OpPVm9NuScv8AQAAACh2vbEw19lh2AI1sfTp9iO7XJNMgoDG9zVSExOBZM5QI=
+JE9TPRb4tzaAwaQ5OgM6pQ3lBoJ23kInphtw_ug5_sNzfXghL6J-0sLXj-oztE426ct9Nmw=
+ItVgTlGPuad_QtzW_E272u0LwYZQpqIrgDxksLh8RYRDM4kBAuxKRqMRjc42SJ_9qeONPWT=
+iyebzgw" alt=3D"" width=3D0 height=3D0 style=3D"margin:0!important;padd=
+ing:0!important;border:0!important;height:1px!important;width:1px!impor=
+tant"></body>
+</html>
+

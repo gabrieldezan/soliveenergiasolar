@@ -1,0 +1,142 @@
+Return-Path: <solucoessunpower@gmail.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id aHRVKFfg3WX3FgAAIElduQ
+	(envelope-from <solucoessunpower@gmail.com>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 27 Feb 2024 13:15:03 +0000
+Return-path: <solucoessunpower@gmail.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 27 Feb 2024 13:15:03 +0000
+Received: from mail-ej1-f45.google.com ([209.85.218.45]:42071)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <solucoessunpower@gmail.com>)
+	id 1rexIU-0003pu-1o
+	for contato@soliveenergiasolar.com.br;
+	Tue, 27 Feb 2024 13:15:03 +0000
+Received: by mail-ej1-f45.google.com with SMTP id a640c23a62f3a-a3d5e77cfbeso755518266b.0
+        for <contato@soliveenergiasolar.com.br>; Tue, 27 Feb 2024 05:15:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1709039701; x=1709644501; darn=soliveenergiasolar.com.br;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :mime-version:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Eo3Z6Jw7Cf6pBmSvQVHl3KfSUwG9AYIf5sJNNopu8MA=;
+        b=AH8I7raAN/b056YaEMkyuXx16hyKbp7wCjdlX2T/SA5jzY/F5cbld/APepuDx4T4n+
+         TAnEm+urT9Zu8aBFOZwArrGgpHoqNt5pDor1C7kQWsBOq6+JBIBgIjvNKjssilW6hWJo
+         uHAl3q7ItkMiHoivTYb3j5figLmt4c2rViljng/1jR1aSe+nyY73xyUDSEXrotOxZu4B
+         cgvtJBsGxKua2u6KvB6egQYCxF+T2XiJeDMba+A5Z8Qb9uu3PcXIR+x7kJR6IVfcMSMF
+         7Njzvq32qnjYyWVoTYaxf4TmtpntIc6YX/CDQuo5Jg/pXEpVVC1MfLXIJ36BGEjn4lR/
+         RIDQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1709039701; x=1709644501;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :mime-version:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=Eo3Z6Jw7Cf6pBmSvQVHl3KfSUwG9AYIf5sJNNopu8MA=;
+        b=Lf7QVH4vR6+WJv18pU1XzNpBTTBBdl+VuTbs8ZOh0njP9EjShOkvDKiJ/5DK1O5ito
+         Kt413KKiYC+vt7Ta55SFXs2MsL9/8lfFROcn7yLCfxEK2FX9cbCEzHDn4WV7pPdB7Jqs
+         Ux1Iw7bnZCtRHXSIP5IDuEON4f/lZ9HpFJQVur9y+swWPKyI/0UwmwPloAfjHWVmzDIS
+         HaTlek4g/hWUlhNmcHfqP3p/fKiXukScdsojQU8lhRrxoCLtVYHaXI+BwQNlKMwFQwPX
+         H11bLhgfrd2v3dwedGpu5dhhT3mTSUc6AIMfADLfuhPDsC/M5P7b4p7ilZR+rarGFWlT
+         GZ+w==
+X-Gm-Message-State: AOJu0Yx10Q3I/WRni5Z9ZX8cexi/ShumA0dOQakr6k85KGx3WIRUpgb4
+	CIi5OcxMtLrs50Ua/Vql86z3TyP0Ok1TFU6p8/aSiHW7JCym7HAkwiEeFMn4+Q+dM50Ghf6YlU9
+	JYYkufh0Tc5oWBARxhAb8jdMfOI+knuhUCSk=
+X-Google-Smtp-Source: AGHT+IFItjzTHyuDD6XAcd3yw1Kf3zyzQN3OMJHBV0ynEVHZWQrBVVQQqHkkV1YpmPqVbZeDFQ++CRFKJe9az78HaN0=
+X-Received: by 2002:a17:906:2417:b0:a3e:ec63:8fa9 with SMTP id
+ z23-20020a170906241700b00a3eec638fa9mr9302526eja.16.1709039700735; Tue, 27
+ Feb 2024 05:15:00 -0800 (PST)
+Received: from 1036669786545 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 27 Feb 2024 05:15:00 -0800
+From: =?UTF-8?Q?SunPower_Solu=C3=A7=C3=B5es?= <solucoessunpower@gmail.com>
+Mime-Version: 1.0
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://h1.mltrk.io/unsubscribe/Qm56MVNPbkEycmc0SWN1Q2hyY1UvN1Rib2M1dDNVa3Y5UTdoUzhlVVY4MDFWazNwbGMyakhsQjVnTzlpam5HbXg3ei96VVp2b2NrRlFXV2dXai9nNHoyK01oRzJTL25zZzhHVVNZR2xtaVQ5U1BjMlVGN2h5aVFrOVd2YXZFclc2bUo3Sm9YVnNiTzBDZjlwRkRpcFN5YmlITmRERktMWVNVT0pPT2dpL2J3PS0tbVQzUmEzSVMxR3hCL3ltdzVud2JEQT09--86f988fe29a3685f73b6815ad207de4f138130f8>
+Date: Tue, 27 Feb 2024 05:15:00 -0800
+Message-ID: <CAD-ByLdsv1udJ0eSGgJuHtdt7F5X+W=AKKab7ad+HZ+ytX+R1Q@mail.gmail.com>
+Subject: =?UTF-8?Q?Quero_falar_com_voc=C3=AA_amanh=C3=A3?=
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="00000000000044fa1506125cd0d1"
+X-Spam-Status: No, score=1.4
+X-Spam-Score: 14
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Olá Rodrigo Amanhã podemos nos falar? Tenho certeza que
+   podemos mudar o futuro da Solive Energia Solar. Estou tão confiante nos nossos
+    serviços que trabalharemos de graça nas primeiras duas semanas e a decisão
+    de continuar conosco é totalmente sua. 
+ Content analysis details:   (1.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [solucoessunpower[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mltrk.io]
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000044fa1506125cd0d1
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ol=C3=A1 Rodrigo
+Amanh=C3=A3 podemos nos falar?
+
+Tenho certeza que podemos mudar o futuro da Solive Energia Solar.
+
+Estou t=C3=A3o confiante nos nossos servi=C3=A7os que trabalharemos de gra=
+=C3=A7a nas
+primeiras duas semanas e a decis=C3=A3o de continuar conosco =C3=A9 totalme=
+nte sua.
+
+Responda esse email para que eu confirme nossa chamada para amanh=C3=A3
+
+Click here
+<https://h1.mltrk.io/unsubscribe/Qm56MVNPbkEycmc0SWN1Q2hyY1UvN1Rib2M1dDNVa3=
+Y5UTdoUzhlVVY4MDFWazNwbGMyakhsQjVnTzlpam5HbXg3ei96VVp2b2NrRlFXV2dXai9nNHoyK=
+01oRzJTL25zZzhHVVNZR2xtaVQ5U1BjMlVGN2h5aVFrOVd2YXZFclc2bUo3Sm9YVnNiTzBDZjlw=
+RkRpcFN5YmlITmRERktMWVNVT0pPT2dpL2J3PS0tbVQzUmEzSVMxR3hCL3ltdzVud2JEQT09--8=
+6f988fe29a3685f73b6815ad207de4f138130f8>
+if you don't want to hear from me again.
+
+--00000000000044fa1506125cd0d1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>Ol=C3=A1 Rodrigo<br>Amanh=C3=A3 podemos nos falar?<br><br>Tenho certez=
+a que podemos mudar o futuro da Solive Energia Solar.<br><br>Estou t=C3=A3o=
+ confiante nos nossos servi=C3=A7os que trabalharemos de gra=C3=A7a nas pri=
+meiras duas semanas e a decis=C3=A3o de continuar conosco =C3=A9 totalmente=
+ sua.<br><br>Responda esse email para que eu confirme nossa chamada para am=
+anh=C3=A3</div><div><br></div><span style=3D"font-size:12px;color:#aeaeae">=
+<a style=3D"text-decoration:underline;color:#aeaeae" href=3D"https://h1.mlt=
+rk.io/unsubscribe/Qm56MVNPbkEycmc0SWN1Q2hyY1UvN1Rib2M1dDNVa3Y5UTdoUzhlVVY4M=
+DFWazNwbGMyakhsQjVnTzlpam5HbXg3ei96VVp2b2NrRlFXV2dXai9nNHoyK01oRzJTL25zZzhH=
+VVNZR2xtaVQ5U1BjMlVGN2h5aVFrOVd2YXZFclc2bUo3Sm9YVnNiTzBDZjlwRkRpcFN5YmlITmR=
+ERktMWVNVT0pPT2dpL2J3PS0tbVQzUmEzSVMxR3hCL3ltdzVud2JEQT09--86f988fe29a3685f=
+73b6815ad207de4f138130f8">Click here</a> if you don&#39;t want to hear from=
+ me again.</span><img src=3D"https://h1.mltrk.io/pixel/e01689f3b8e624bc9b7c=
+be9ea9b1d2c34ad5216c?rid=3De01689f3b8e624bc9b7cbe9ea9b1d2c34ad5216c" width=
+=3D"1" height=3D"1" border=3D"0" style=3D"display: none;">
+
+--00000000000044fa1506125cd0d1--

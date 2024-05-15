@@ -1,0 +1,625 @@
+Return-Path: <ouvidoria@copel.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id ULk8GSb6b2JPQwAAJcoV8Q
+	(envelope-from <ouvidoria@copel.com>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 02 May 2022 15:35:02 +0000
+Return-path: <ouvidoria@copel.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 02 May 2022 15:35:02 +0000
+Received: from mail-co1nam11on2062.outbound.protection.outlook.com ([40.107.220.62]:15177 helo=NAM11-CO1-obe.outbound.protection.outlook.com)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <ouvidoria@copel.com>)
+	id 1nlY4g-0005BP-QU
+	for contato@soliveenergiasolar.com.br; Mon, 02 May 2022 15:35:02 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ka+3oKFl9Qg1ACyLpGqwEi1jpHl9vZzWqueo/D+mHNNHfVWev+wSJh7eM8Q7d02AsWg4+rG3gd77eZe4w/JFWoKxzMOrBAdNo9X4SMpwpvr1kwkjQCRW3Ng99QdjaUhY6WpNlJi8DoLlieQOUS2trKuIOeqimlF/eTgpZhkNurzIA/LN7MHZoqTfRBqueMkU315CwTne6qZxHOZDTsWz9gV86Ev7p8dmO6XF0ikgdQKf0YhCkayM4ntkaE7cWY44KERDYESDaoKs76AqHYMmuyacT5c3MinPmRlm4NwuX+69dKFk2jYKn7NfdWekYexOelwDGjR0uT4oTSmDGtiu4A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=7eTB7diy21UlP8AHVSgE6qNz99nXxKDGKOwF2tGrR0c=;
+ b=KndddTuchB/ZPzCiDOCLfj0YYo72E1WWPxs5QO0FfLgbqNYRvYwFZdtI3Vdm0FnKBA0J76Vm9Z68yjVkqgFa6K0CmOeOz8WFkQkPA0RK+awizhy6tK7ERT1OL9SL9L7s/rnCuYbS0Z43ioytEd8buO/mn2uE7KmiZ/R9T1G1qcsib+EeInejd84lNr2yWStF19lPQWV8EzGACpxPlzJryIHD+4ed/NGy+4jqy8TJ+iIj0qc2qSis9KtMpSi0tPRIpVLGzbBaE+loMSXjOWUwFZTiGIC9/XjPfKx0CQvleC924wOcQPfJ1wVal0gXVtBbNYTUAjzIb8oV9i6LA6cJwg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=copel.com; dmarc=pass action=none header.from=copel.com;
+ dkim=pass header.d=copel.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=copel.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=7eTB7diy21UlP8AHVSgE6qNz99nXxKDGKOwF2tGrR0c=;
+ b=TXiseEaVgW5+rVk0KiZa96/B0nE5qeS4NYyG638y4gfMmtj04nMJs07JzkDtNYNLk6yOltgbOEBl7RJfbRoJwGux6VXcpS8LKpbtCTFM847VUHD6WvUJ631/lIf+eLg6YD6+GblMAH/d8ObX8Bct9tT7t82NaurJkpp+fMItIIg=
+Received: from CO6PR17MB4897.namprd17.prod.outlook.com (2603:10b6:5:358::22)
+ by MN2PR17MB3199.namprd17.prod.outlook.com (2603:10b6:208:13a::31) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5206.24; Mon, 2 May
+ 2022 15:34:54 +0000
+Received: from CO6PR17MB4897.namprd17.prod.outlook.com
+ ([fe80::18d1:3e67:c458:d23e]) by CO6PR17MB4897.namprd17.prod.outlook.com
+ ([fe80::18d1:3e67:c458:d23e%6]) with mapi id 15.20.5206.024; Mon, 2 May 2022
+ 15:34:54 +0000
+From: Ouvidoria <ouvidoria@copel.com>
+To: "contato@soliveenergiasolar.com.br" <contato@soliveenergiasolar.com.br>
+Subject: =?iso-8859-1?Q?RE:_Reclam=E7=E3o_sobre_atraso_de_servi=E7o.?=
+Thread-Topic: =?iso-8859-1?Q?Reclam=E7=E3o_sobre_atraso_de_servi=E7o.?=
+Thread-Index: AQHYWjfegk1mElonx0uPNOLkL4cfN60LvpmQ
+Date: Mon, 2 May 2022 15:34:54 +0000
+Message-ID:
+ <CO6PR17MB48979D55D349E858F04DD426B4C19@CO6PR17MB4897.namprd17.prod.outlook.com>
+References: <84aa9ca4851fa905f03071b1fabf01b9@soliveenergiasolar.com.br>
+In-Reply-To: <84aa9ca4851fa905f03071b1fabf01b9@soliveenergiasolar.com.br>
+Accept-Language: pt-BR, en-US
+Content-Language: pt-BR
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+msip_labels:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=copel.com;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 1e6b1edd-f960-4209-7a3b-08da2c514e5b
+x-ms-traffictypediagnostic: MN2PR17MB3199:EE_
+x-microsoft-antispam-prvs:
+ <MN2PR17MB3199FD98E8DD3D1D2AE9BF7EB4C19@MN2PR17MB3199.namprd17.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ +pqULFjq8Yf9t/+qlFEcpoPLZTREZztGTIcCmWzTU0rFrU/aSSCGoVLplvmFK6bVOf/KidUvBpm++QeBMzzf4jtHJgDC6mkrqiWiTVaF5kSI5H8b3QZQpMboVfxDKUHO0jFvMbf4gdPG16wRLOfonTnCEm5H2rGZJ1hDpRoAFpgJEUvFjUQxMgE22NHzySOa7Ue3fl9rAClfH07hgKq/Q2CkOstzIiX80gm4yV/upf0nIoP3QesuFUduf0ab6XgccrHdThEAeSc7N8CuVldyi1MA6NiF2WZP3J2nSC9U4RUh88R3usMPgGOFrJXfWMWG/Z8M5MjoywGGXd2CE3xicR5/mZvtWPOjgoXoFO9MIz8kjeolGQsLziu5kE3KpwwrJm0Klc0shPfc7Zy2J5L9KuOWCswRvDz5SO2YxofsVcK2ZUuaPfYZTJeWqz7yhKTrSpYnr6Yf5Ee6iRdLQOzfoxpZFmYbNd6hPPJiitx5hPWQ0RqtQ2t2UBYJhNvfVZ2AQJ7NIkU9X6jXlpBq47FUCnYaW3gGA9yywjIX4VIJeajGOXZysQsOd9RJJWYwH8upLHC6+2JZ/qwxTEjGgtEicXkFfdqi1Kt+w22KVaTAke/VZByKgEiYv9iJWXcnT0DPLrom3NRiLzdygeSFy6QK0KSYwyHtwv9tcleJwYESfJfu+yMsmyq6orG5upzf6BuT8eAOEGoj8VMURwC3f3ItVMdk1wWu3DczA9iHEA2jPHM=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR17MB4897.namprd17.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(86362001)(224303003)(6916009)(83380400001)(71200400001)(66574015)(26005)(19627405001)(316002)(9686003)(6506007)(91956017)(38100700002)(76116006)(66556008)(66476007)(38070700005)(7696005)(55016003)(8936002)(66946007)(33656002)(508600001)(66446008)(64756008)(52536014)(99936003)(5660300002)(2906002)(122000001)(186003)(553614009);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?BxsQDn+JupjLOKGTA5ykdzazDxfqDr/Q6sXGWLLzLjsz+z0hOskuRtFqli?=
+ =?iso-8859-1?Q?TVInATPOK0CYiLC5V7vXtFuADe4ID2v2rMC3sP9GETTWy2IOXKCGaab2ez?=
+ =?iso-8859-1?Q?zrVEAFrkcm3Mj/SdSGVGfTNWthA7QEH5/iBU3kyXef+7mxCETeXx4iRXFn?=
+ =?iso-8859-1?Q?t6gMVi9p9C6Jm/9CiHSO03jQSu7+ojXtVLCbrecXwTGBtPtkLVKC77k/jK?=
+ =?iso-8859-1?Q?KGh7LGSOS5fJbu9D7cx7Wr+DRzb0iegfO4H12xg+oXRH7pi1MNGG3jgNVz?=
+ =?iso-8859-1?Q?fRtoQ2JHSXE1MKElO9WxXCH8E4PRzDEUG2Jq8aHN2TZk9Fd7bdKy7y4MHz?=
+ =?iso-8859-1?Q?wBXW0zqUeD1eZ1Yzp46rlDhkmNYMvseE8o1Dz71XZl6emg2r6jOnyS6oJw?=
+ =?iso-8859-1?Q?83dLvSJzjVG6xvHTFxkS6Ti5MLpIHVpH075fBl8/CMgwTvxULtJ2TxB4Xl?=
+ =?iso-8859-1?Q?jqpnhMB2pE8YSCKU7dhA+lC7qXuFPOfxe4Gb1N4sFEMJ4Lm08Y4hgc4yMR?=
+ =?iso-8859-1?Q?iSyHaLtKuU05kaXN0D/VafuynjkC4bIPflTyWD9Dy0qph2wCnZD9iurWbR?=
+ =?iso-8859-1?Q?CGVWbL9XLR8lD1LPG/nTjZ7PGaC1gMX3fYDYP1rSCnccyWS6un5B4+8LN8?=
+ =?iso-8859-1?Q?rBclYqmnm95eL7NjE4GQlFkB9ANq8d0gKgNkOacrft83/PKFQu0H8mcACg?=
+ =?iso-8859-1?Q?x11l6p9jilLOKHRj2xAzPAxxaGqSECRAZzzNrHf+aGUbcO8WIv+My/YwMe?=
+ =?iso-8859-1?Q?Q+LQSQ7LRJZ7ZOzvIlqMVg/cnHqRUyVzUg5M4rzL/dZcNr/ufABnQSYJoS?=
+ =?iso-8859-1?Q?aUabNkxuNnNgwLEjzBNVW2jSRmrUcx3bHFBZ8SO9SvvZlcA/FWFkOAu2Fl?=
+ =?iso-8859-1?Q?y4B7p06Fs8k43gUk5HTII69VAk1qbjRt4j/Y3ziORR4jrU/97H8kKzN3sZ?=
+ =?iso-8859-1?Q?VPICqJKNufzgSDSiKcxxA9XWT0NAAWHgw/WvvmddAHYw5VTF2qm3ROPkGw?=
+ =?iso-8859-1?Q?C6inD9Liv3yw6hcvwi3J07/wV/r2cXsdqNVKMF5lnHFKe9VxhVEdxnucXW?=
+ =?iso-8859-1?Q?LSopStyBtCcwRaoZ3+BlQ82dhYvyu+CNBHI7Hbi7EP44RQNHMsxVlVy+eE?=
+ =?iso-8859-1?Q?7BTNnbRks3O93Tkij7/aIT8hbexNXs1426bp6f1+4kRjE/EC0y/875r/ru?=
+ =?iso-8859-1?Q?RcR2VOiMBhC0vdt5y3/lOs0MtTs5G4sVosuQPMHBFKvAMMJyyHQYmYLEIR?=
+ =?iso-8859-1?Q?QCi5K6dfL7vvSlZy6Ro/7E+MT7fx7Cvt61aNrm8ZhO09Ol1X07MKH4K/sb?=
+ =?iso-8859-1?Q?imlTXfTRkvnXua9fltSEahopjwnGrCnNr1u8JPBcTXgoXp4KRVolh1x6C0?=
+ =?iso-8859-1?Q?MZryyZPg5zPp5H/j8JKBaS3wIVgonXnfbNl781e/BdSa0R6/LOL9eoVVwN?=
+ =?iso-8859-1?Q?Klt8pJJz7H1VUXePPvrlOorktBe/kDKxq4CH+XuK0sSnds35GBcIp3TFrB?=
+ =?iso-8859-1?Q?iktNUWgF5QYr+tVQnuUxbcLAg8bhitvLasyuQAikvp2Wl3Tg9r1N1nvlwF?=
+ =?iso-8859-1?Q?Lf23YqtpbykY4lQrydXQ4c7v01AvhWx6MvHBTEmRLF8ItZ/rbAyFRDCG0e?=
+ =?iso-8859-1?Q?4cy3c8aDgaU/8vWV0qxV/l7NZJa1zcCovybggmSSbabzHdkMoXZu658p8N?=
+ =?iso-8859-1?Q?VAOsyzLdd37gMYOPTF5UFIByx51TFr/0wN7JZn+H6Bk+zXcC9UBf9yhNdn?=
+ =?iso-8859-1?Q?5OJwRfM8EAbcLbG3mjxcq677R/Wv3F+dgklllW/hiFX2qQee2NTLkkSqkb?=
+ =?iso-8859-1?Q?IjihoI/6WQ=3D=3D?=
+Content-Type: multipart/related;
+	boundary="_004_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: copel.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR17MB4897.namprd17.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1e6b1edd-f960-4209-7a3b-08da2c514e5b
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 May 2022 15:34:54.4468
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 9b60158e-d455-4e80-aa7c-17cd9ffce6ba
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: hzd2jLI/osVG5KWzRLAayba+N/+fzYs/Imr6nV2wk2rJI57w0Q9jmSIvUSrcLlDZ2XNfY7nfeJp2zCVnKQE4VA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR17MB3199
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Prezado cliente, Acusamos o recebimento de seu e-mail e informamos
+    que a Ouvidoria é um órgão recursal em segunda instância para análise de
+   reclamações já tratadas inicialmente junto Central de Atendimento da Copel.
+    
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: copel.com]
+  0.0 RCVD_IN_ZEN_BLOCKED_OPENDNS RBL: ADMINISTRATOR NOTICE: The query
+                              to zen.spamhaus.org was blocked due to
+                             usage of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [40.107.220.62 listed in zen.spamhaus.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: copel.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: copel.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_004_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_
+Content-Type: multipart/alternative;
+	boundary="_000_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_"
+
+--_000_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Prezado cliente,
+
+
+Acusamos o recebimento de seu e-mail e informamos que a Ouvidoria =E9 um =
+=F3rg=E3o recursal em segunda inst=E2ncia para an=E1lise de reclama=E7=F5es=
+ j=E1 tratadas inicialmente junto Central de Atendimento da Copel.
+
+Identificamos em nosso sistema, que a solicita=E7=E3o de Troca de padr=E3o =
+foi atendida em 28/04/2022.
+
+Pedimos desculpas pelo ocorrido e agradecemos o contato que muito contribui=
+ para a melhoria de nossos processos.
+
+
+
+[cid:51d49c6d-ff8c-452f-b6c4-2f9f7e48dd23]
+________________________________
+De: contato@soliveenergiasolar.com.br <contato@soliveenergiasolar.com.br>
+Enviado: quarta-feira, 27 de abril de 2022 10:08
+Para: Ouvidoria <ouvidoria@copel.com>
+Assunto: Reclam=E7=E3o sobre atraso de servi=E7o.
+
+Bom dia,
+Gostaria de registrar a reclama=E7=E3o referente a UC 19859759.
+No dia 28/03/2020 foi aberto o protocolo de aumento de carga e troca de
+padr=E3o, 20222790787611, atrav=E9s deste protocolo, o mesmo foi conclu=EDd=
+o
+no dia 29/03/2022 as 14:53, sendo agendado o servi=E7o para o dia
+04/04/2022 conforme mostra a foto a baixo.
+
+
+Porem no dia agendado a Copel n=E3o realizou o servi=E7o tendo assim o seu
+primeiro atrasado no servi=E7o. O mesmo foi reagendado pela pr=F3pria Copel
+para dia 11/04/2022 sendo ele confirmado atrav=E9s do protocolo
+20222790787611, confirmado no dia 05/04/2022 pelo sistema da copel.
+Porem no dia 11/04/2022 a equipe novamente n=E3o foi ate o local na data
+agendada tendo assim seu segundo atraso no pedido aprovado dia
+29/03/2022.
+No dia 12/04/2020 foi aberto uma reclama=E7=E3o atrav=E9s dos canais do 080=
+0
+sobre o n=E3o cumprimento do servi=E7o, porem a mesma reclama=E7=E3o aberta=
+ n=E3o
+foi respondida no e-mail conforme a atendente passou que seria, o
+protocolo de reclama=E7=E3o =E9 445131322 que conforme a atendendo mesmo
+passou seria o mesmo do atendimento feito no dia. A conclus=E3o da
+reclama=E7=E3o foi dada no dia 14/04/2022, porem sem retorno no e-mail que
+passei.
+
+
+
+Ap=F3s isso a COPEL reagendou para o dia 26/04/2022 o servi=E7o de vistoria
+e reativa=E7=E3o de UC, como mostra a foto a baixo.
+
+Sendo assim a copel pela terceira vez n=E3o realizou o servi=E7o agendado,
+tendo 1 m=EAs se passado e 3 agendamentos n=E3o realizados.
+Estou enviando essa reclama=E7=E3o para que o servi=E7o seja feito, pois a
+mais de 45 dias o padr=E3o do meu cliente esta pronto e o sistema
+fotovoltaico tamb=E9m para serem ligado.
+
+OBS: FOTOS ENVIADA NO ANEXO DO E-MAIL.
+
+--_000_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<span style=3D"font-size: 10pt;">Prezado cliente,</span></div>
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<p style=3D"margin-bottom: 0cm; line-height: 115%; background: transparent;=
+"><span style=3D"display: inline-block; border: none; padding: 0cm;"><font =
+face=3D"inherit" style=3D""><font size=3D"2" style=3D"font-size: 11pt;"><fo=
+nt color=3D"#000000" style=3D""><span style=3D"font-size: 10pt; line-height=
+: normal;"><b>Acusamos
+ o recebimento de seu e-mail e informamos que a Ouvidoria =E9 um =F3rg=E3o =
+recursal em segunda inst=E2ncia para an=E1lise de reclama=E7=F5es j=E1 trat=
+adas inicialmente junto Central de Atendimento da Copel.</b></span></font><=
+/font></font></span></p>
+<br>
+</div>
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<span style=3D"font-size: 10pt;">Identificamos em nosso sistema, que a soli=
+cita=E7=E3o de Troca de padr=E3o foi atendida em 28/04/2022.</span></div>
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size: 11pt; font-=
+style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit=
+; font-weight: inherit; background-color: transparent;"><span style=3D"font=
+-size: 10pt;">Pedimos desculpas pelo ocorrido
+ e agradecemos o contato que muito contribui para a melhoria de nossos proc=
+essos.</span></font><span style=3D"color: rgb(0, 0, 0); font-size: 10pt; fo=
+nt-family: Calibri, sans-serif; background-color: transparent;">&nbsp;</spa=
+n><br>
+</div>
+<div>
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<p style=3D"margin-bottom:0.25cm;line-height:115%;background:transparent"><=
+br>
+</p>
+<br>
+</div>
+<div id=3D"Signature">
+<div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div style=3D"font-family:Arial,Helvetica,sans-serif; font-size:10pt; color=
+:rgb(0,0,0)">
+</div>
+<div></div>
+<div></div>
+<div></div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+<p style=3D"margin-right:0cm; margin-bottom:5.95pt; margin-left:0cm; font-s=
+ize:12pt; font-family:&quot;Times New Roman&quot;,serif; margin:0cm; margin=
+-bottom:.0001pt">
+<span style=3D"font-size:11pt; font-family:Arial,Helvetica,sans-serif; back=
+ground:white"></span></p>
+<p style=3D"margin:0cm 0cm 10pt; line-height:115%; font-size:11pt; font-fam=
+ily:Calibri,sans-serif; margin-bottom:0cm; margin-bottom:.0001pt; line-heig=
+ht:normal; text-autospace:none">
+<span style=3D"color:black; font-family:Arial,Helvetica,sans-serif; font-si=
+ze:10pt"></span></p>
+</div>
+<img class=3D"EmojiInsert" style=3D"max-width:100%" data-outlook-trace=3D"F=
+:1|T:1" src=3D"cid:51d49c6d-ff8c-452f-b6c4-2f9f7e48dd23">
+</div>
+</div>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>De:</b> contato@soliveenergiaso=
+lar.com.br &lt;contato@soliveenergiasolar.com.br&gt;<br>
+<b>Enviado:</b> quarta-feira, 27 de abril de 2022 10:08<br>
+<b>Para:</b> Ouvidoria &lt;ouvidoria@copel.com&gt;<br>
+<b>Assunto:</b> Reclam=E7=E3o sobre atraso de servi=E7o.</font>
+<div>&nbsp;</div>
+</div>
+<div class=3D"BodyFragment"><font size=3D"2"><span style=3D"font-size:11pt;=
+">
+<div class=3D"PlainText">Bom dia,<br>
+Gostaria de registrar a reclama=E7=E3o referente a UC 19859759.<br>
+No dia 28/03/2020 foi aberto o protocolo de aumento de carga e troca de <br=
+>
+padr=E3o, 20222790787611, atrav=E9s deste protocolo, o mesmo foi conclu=EDd=
+o <br>
+no dia 29/03/2022 as 14:53, sendo agendado o servi=E7o para o dia <br>
+04/04/2022 conforme mostra a foto a baixo.<br>
+<br>
+<br>
+Porem no dia agendado a Copel n=E3o realizou o servi=E7o tendo assim o seu =
+<br>
+primeiro atrasado no servi=E7o. O mesmo foi reagendado pela pr=F3pria Copel=
+ <br>
+para dia 11/04/2022 sendo ele confirmado atrav=E9s do protocolo <br>
+20222790787611, confirmado no dia 05/04/2022 pelo sistema da copel. <br>
+Porem no dia 11/04/2022 a equipe novamente n=E3o foi ate o local na data <b=
+r>
+agendada tendo assim seu segundo atraso no pedido aprovado dia <br>
+29/03/2022.<br>
+No dia 12/04/2020 foi aberto uma reclama=E7=E3o atrav=E9s dos canais do 080=
+0 <br>
+sobre o n=E3o cumprimento do servi=E7o, porem a mesma reclama=E7=E3o aberta=
+ n=E3o <br>
+foi respondida no e-mail conforme a atendente passou que seria, o <br>
+protocolo de reclama=E7=E3o =E9 445131322 que conforme a atendendo mesmo <b=
+r>
+passou seria o mesmo do atendimento feito no dia. A conclus=E3o da <br>
+reclama=E7=E3o foi dada no dia 14/04/2022, porem sem retorno no e-mail que =
+<br>
+passei.<br>
+<br>
+<br>
+<br>
+Ap=F3s isso a COPEL reagendou para o dia 26/04/2022 o servi=E7o de vistoria=
+ <br>
+e reativa=E7=E3o de UC, como mostra a foto a baixo.<br>
+<br>
+Sendo assim a copel pela terceira vez n=E3o realizou o servi=E7o agendado, =
+<br>
+tendo 1 m=EAs se passado e 3 agendamentos n=E3o realizados.<br>
+Estou enviando essa reclama=E7=E3o para que o servi=E7o seja feito, pois a =
+<br>
+mais de 45 dias o padr=E3o do meu cliente esta pronto e o sistema <br>
+fotovoltaico tamb=E9m para serem ligado.<br>
+<br>
+OBS: FOTOS ENVIADA NO ANEXO DO E-MAIL.</div>
+</span></font></div>
+</body>
+</html>
+
+--_000_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_--
+
+--_004_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_
+Content-Type: image/png; name="Outlook-0cdrtsuk.png"
+Content-Description: Outlook-0cdrtsuk.png
+Content-Disposition: inline; filename="Outlook-0cdrtsuk.png"; size=12847;
+	creation-date="Mon, 02 May 2022 15:34:54 GMT";
+	modification-date="Mon, 02 May 2022 15:34:54 GMT"
+Content-ID: <51d49c6d-ff8c-452f-b6c4-2f9f7e48dd23>
+Content-Transfer-Encoding: base64
+
+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
++v8Ny4gIZ0B9qAAAAABJRU5ErkJggg==
+
+--_004_CO6PR17MB48979D55D349E858F04DD426B4C19CO6PR17MB4897namp_--

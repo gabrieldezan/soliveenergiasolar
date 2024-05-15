@@ -1,0 +1,169 @@
+Return-Path: <>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id mLmaCUPCQWJ8ZwAAJcoV8Q
+	(envelope-from <>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 28 Mar 2022 14:12:19 +0000
+Return-path: <>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 28 Mar 2022 14:12:19 +0000
+Received: from cat.oak.relay.mailchannels.net ([23.83.215.31]:31733)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1nYq6N-0007LH-Sz
+	for contato@soliveenergiasolar.com.br; Mon, 28 Mar 2022 14:12:19 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id BD085224B4; Mon, 28 Mar 2022 14:12:05 +0000 (UTC)
+Date: Mon, 28 Mar 2022 14:12:05 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: contato@soliveenergiasolar.com.br
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="A9F8A22826.1648476725/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20220328141205.BD085224B4@relay.mailchannels.net>
+X-Spam-Status: No, score=-0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (-0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: main-hosting.eu]
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--A9F8A22826.1648476725/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<guimares_diego@sicredi.com.br>: host
+    sicredi-com-br.mail.protection.outlook.com[104.47.51.110] said: 550 5.4.1
+    All recipient addresses rejected : Access denied. AS(201806271)
+    [BN1NAM02FT052.eop-nam02.prod.protection.outlook.com] (in reply to end of
+    DATA command)
+
+--A9F8A22826.1648476725/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: A9F8A22826
+X-Postfix-Sender: rfc822; contato@soliveenergiasolar.com.br
+Arrival-Date: Mon, 28 Mar 2022 14:11:59 +0000 (UTC)
+
+Final-Recipient: rfc822; guimares_diego@sicredi.com.br
+Original-Recipient: rfc822;guimares_diego@sicredi.com.br
+Action: failed
+Status: 5.4.1
+Remote-MTA: dns; sicredi-com-br.mail.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.4.1 All recipient addresses rejected : Access
+    denied. AS(201806271) [BN1NAM02FT052.eop-nam02.prod.protection.outlook.com]
+
+--A9F8A22826.1648476725/relay.mailchannels.net
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <contato@soliveenergiasolar.com.br>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id A9F8A22826
+	for <guimares_diego@sicredi.com.br>; Mon, 28 Mar 2022 14:11:59 +0000 (UTC)
+Received: from cpl19.main-hosting.eu (unknown [127.0.0.6])
+	(Authenticated sender: hostingercpanel)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 94B5422795
+	for <guimares_diego@sicredi.com.br>; Mon, 28 Mar 2022 14:11:50 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1648476711; a=rsa-sha256;
+	cv=none;
+	b=hvN7IEqqUKuEeiPapEtOQajtk0ZWSiW41vdHhz5l0w9FvuFg1USeQf9LPkQ6F3ncyb4RV4
+	QMCfK489S8a1s0Kui5NZfJYgeA0lDHZkeX++ztBgY9KV5tWse3tGWtTWTrWZHysXG2NsLj
+	3RGz610zXcq35LLyksVnfZ0orQ5UxJLn/cbjG3RqqPViMByI8WoRHXF9cfMuSO6vA75OCF
+	HqNABttVcBjHlDwtReGj3PoG9iQ3EdfhzjYETes/66gyYmYMPkyg9bntUgezpKZWr4f5UX
+	cZ+siaLoP8fdYKST3OGyq4xEcagIklleSbn/zSXiggiWcLCTNQtYOzB74qif8g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1648476711;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 dkim-signature; bh=hP9v5BpF9AuwvW5S+TE1BdkbwMo2pUu2fDEArOs5j9I=;
+	b=HBr9YwYYqgIOyp6I9AkGfJxxuDy7EO8gRuOk1OPPFuxtHGCQooBfA36H8dEIzssLrw63wV
+	ioFN3cPDwT9s0v3ckB2DLUt/+gTA0ZFkp4Jhwz9CAy6oO9grD8IUK4MrOhF5u1DFZnv6lw
+	GGJ+hpTO8WwbCDwXYI+1rASK9uAvjfbqLkzVG62YuWLTa5IQjshga/YYHmBTCPjtmbVVlI
+	4TU8yN3T0wDx+40uGKD+MJOqgJHgDq4oKyJASBVC2wbW9hpWRvIzCsrElY6mV5zJgzb7Yb
+	X8jvzeo1rlu5c8q2J6p7yyU95A55jDORjFew5Q3/+76vHkoME3aS7IgDJG6PUg==
+ARC-Authentication-Results: i=1;
+	rspamd-7b6f4d8d7c-29dlv;
+	auth=pass smtp.auth=hostingercpanel
+ smtp.mailfrom=contato@soliveenergiasolar.com.br
+X-Sender-Id: hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu ([TEMPUNAVAIL]. [109.106.251.201])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.121.210.153 (trex/6.5.3);
+	Mon, 28 Mar 2022 14:11:59 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId:
+ hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MailChannels-Auth-Id: hostingercpanel
+X-Turn-Spicy: 4dd7bef94d07a704_1648476719152_3721572379
+X-MC-Loop-Signature: 1648476719151:1675035941
+X-MC-Ingress-Time: 1648476719151
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=soliveenergiasolar.com.br; s=default; h=Content-Type:Message-ID:Subject:To:
+	From:Date:MIME-Version:Sender:Reply-To:Cc:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=hP9v5BpF9AuwvW5S+TE1BdkbwMo2pUu2fDEArOs5j9I=; b=p869YUblzaALT8d2gUxyj4tMAp
+	d80OIjD7r3DO9a5dF2LVCcIHr2MH/DxjVhuYaX3bh7UED1ZGqgtEwEFsNKFNZQ0b386Qr3AzhPJoL
+	bwrGFpg9sBRPpVabugALAROSxBj9l0oog7SqUvhZIIsXd528yaQADB8oPID4d02Mmgdtb0kkzo9wk
+	tNWq4Ba2f6E26QCV83kd4zx/4jYT1tuQnzVREDrezsxtZPOPvLb4H3BhqGBWI6wZsKS9t2Escc4c7
+	kHVEypxnCMATa1Iq2NOevXPKOTG8AwKR67aRGPZJCGhjnMg21CfO3lvx6yWTgyJwkolGrHZVlvwQf
+	MmIT173Q==;
+Received: from localhost ([127.0.0.1]:53168 helo=cpl19.main-hosting.eu)
+	by cpl19.main-hosting.eu with esmtpa (Exim 4.94.2)
+	(envelope-from <contato@soliveenergiasolar.com.br>)
+	id 1nYq60-00072n-6l
+	for guimares_diego@sicredi.com.br; Mon, 28 Mar 2022 14:11:48 +0000
+MIME-Version: 1.0
+Date: Mon, 28 Mar 2022 14:11:48 +0000
+From: contato@soliveenergiasolar.com.br
+To: guimares_diego@sicredi.com.br
+Subject: Contrato Fotovoltaico - Cliente Celso
+User-Agent: Roundcube Webmail/1.4.12
+Message-ID: <7bbe2d31f0731e53338b0596236b35da@soliveenergiasolar.com.br>
+X-Sender: contato@soliveenergiasolar.com.br
+Content-Type: multipart/mixed;
+ boundary="=_61d386b4df42c14a08ea8f3b82a2e7d8"
+X-AuthUser: contato@soliveenergiasolar.com.br
+
+--A9F8A22826.1648476725/relay.mailchannels.net--

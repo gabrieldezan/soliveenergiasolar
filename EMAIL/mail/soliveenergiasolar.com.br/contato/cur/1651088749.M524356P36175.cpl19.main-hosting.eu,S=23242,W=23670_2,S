@@ -1,0 +1,428 @@
+Return-Path: <financiamento@helte.com.br>
+Delivered-To: CONTATO@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id OMgrH22daWJPjQAAJcoV8Q
+	(envelope-from <financiamento@helte.com.br>)
+	for <CONTATO@soliveenergiasolar.com.br>; Wed, 27 Apr 2022 19:45:49 +0000
+Return-path: <financiamento@helte.com.br>
+Envelope-to: CONTATO@soliveenergiasolar.com.br
+Delivery-date: Wed, 27 Apr 2022 19:45:49 +0000
+Received: from mail-pj1-f53.google.com ([209.85.216.53]:37456)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <financiamento@helte.com.br>)
+	id 1njnbg-00019L-Mn
+	for CONTATO@soliveenergiasolar.com.br; Wed, 27 Apr 2022 19:45:49 +0000
+Received: by mail-pj1-f53.google.com with SMTP id t11-20020a17090ad50b00b001d95bf21996so5814252pju.2
+        for <CONTATO@soliveenergiasolar.com.br>; Wed, 27 Apr 2022 12:45:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=helte-com-br.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=/IPwb75ASMD3eGeV7c11XQZNkjOS/NlFQClc6ss/MeY=;
+        b=fImhl23yO9mGNjcBlKdjmGTY+FWusL9jKrmcEyTtfqzx0z2R2HND/Qi2FD5qB+0tMv
+         NfFA4HZl0S7k/qt7yEdgaoRjVduXqbJ9Mz5uAwAzYQxCqsq68+msJ+sWi2iXeVECeWVy
+         s11zr0cNV7X/njuZl2NN5TEhSeo8UebLwXTgQ0MTTsln59vuWuiQBEYTfJcCjGGeLgw1
+         0TIGgvYM9Uaon5MU7+J0bo2YbtctsnOf6u1Ofii4dKi39PHWt7LWhlUhFnERPtaBSCvR
+         lUYkHigbGzpGyLIjbfROtOfV1P5oVDaa3SoOazcrnpJNFZUmgFXoJ9/RiSoy4HjxayRe
+         LzIQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=/IPwb75ASMD3eGeV7c11XQZNkjOS/NlFQClc6ss/MeY=;
+        b=mzFO1b4QHwWS8gttPPuiSjZqlhQrCJqI1yGikazTdpfHe+xeNibJZP9g2lTnvm0DsZ
+         mydfrBEC0Dk27M71MGRSrQS9CVtxQed7AR/lyUoMSzm+qXazG98Q7BOBR3eIwVl+FJZf
+         JuqmWxUy2rzhD5uCtNU4hzjhBOyfUzCC6BFFOfEv+ONkC5ivWsCfhXDePlAbIddIbxkw
+         Mz2LkW8RBsQ4yctGT3cVNL4kn3H19huuhlNMoiYNpUtoNZqxkyH6tvVHfQlH3DuBFIWx
+         +Ftuaufu6Fbee3OVAVPcbc+rbv5QUGbYftaT1LJJEVScI1XA1FRJ/Y6FY8ITGXRishvx
+         roYQ==
+X-Gm-Message-State: AOAM530Opc6VSsJxlpmuwCEHrnGytetWwd1sfOFQAZfQu5eRHIr7KynT
+	rf8Qpn7vxA/oK0IwEKmGdFLy9b656PVetJLrI4+scw==
+X-Google-Smtp-Source: ABdhPJz4J1ghJviak+jJkuRavlsYzvH18UV2pYAgqzz/c3nKqXngr0FtXJGHUgjLxq+lOopGB8m36uMj78nvVLWmr78=
+X-Received: by 2002:a17:902:ed83:b0:15c:e82a:e84f with SMTP id
+ e3-20020a170902ed8300b0015ce82ae84fmr24312000plj.96.1651088746805; Wed, 27
+ Apr 2022 12:45:46 -0700 (PDT)
+MIME-Version: 1.0
+References: <SC1PR80MB36162120A349B72347C62E84BBFA9@SC1PR80MB3616.lamprd80.prod.outlook.com>
+In-Reply-To: <SC1PR80MB36162120A349B72347C62E84BBFA9@SC1PR80MB3616.lamprd80.prod.outlook.com>
+From: Financiamento Helte <financiamento@helte.com.br>
+Date: Wed, 27 Apr 2022 16:45:35 -0300
+Message-ID: <CAPjm00igi21L=FicJBow_sYegeqZcvQ_01e6oDvF3TyB6Hv1-A@mail.gmail.com>
+Subject: =?UTF-8?Q?Re=3A_Celso_Alexandre_de_Souza_=2D_Autoriza=C3=A7=C3=A3o_de_Fatu?=
+	=?UTF-8?Q?ramento?=
+To: Igor Maynko <igor_maynko@sicredi.com.br>
+Cc: CONTATO@soliveenergiasolar.com.br
+Content-Type: multipart/related; boundary="0000000000003f236b05dda80e49"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  A 1ª carta de autorização de faturamento foi reprovada
+   e tem 24h para o envio da 2ª nova carta corrigida. Se acaso não for enviada
+    a carta neste prazo estabelecido, o pedido será cancelado. Moti [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: helte.com.br]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: helte.com.br]
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+--0000000000003f236b05dda80e49
+Content-Type: multipart/alternative; boundary="0000000000003f236a05dda80e48"
+
+--0000000000003f236a05dda80e48
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+A 1=C2=AA carta de autoriza=C3=A7=C3=A3o de faturamento foi reprovada e tem=
+ 24h para o
+envio da 2=C2=AA nova carta corrigida.
+Se acaso n=C3=A3o for enviada a carta neste prazo estabelecido, o pedido se=
+r=C3=A1
+cancelado.
+Motivo de recusa/avalia=C3=A7=C3=A3o:
+*CARTA DEVE SER DESTINADA =C3=80 J. HELTE LTDA CNPJ 31.088.569/0001-84;
+*PRECISA CONSTAR TODOS OS DADOS DO PEDIDO (NOME COMPLETO DO CLIENTE, CPF,
+ENDERE=C3=87O DE ENTREGA, BAIRRO, CIDADE, CEP);
+*VALOR NA CARTA DEVE SER O MESMO DO PEDIDO;
+*CONSTAR DATA.
+-
+Aguardo retorno do documento corrigido.
+Existe um modelo da Helte que o integrador pode repassar ao banco para
+preencher. L=C3=A1 consta todos os dados que s=C3=A3o necess=C3=A1rios.
+
+OBS.: N=C3=83O ACEITAMOS COMPLEMENTOS PARA NF NO CORPO DO E-MAIL, SOMENTE N=
+AS
+OBSERVA=C3=87=C3=95ES DA CARTA.
+
+Att,
+
+Em qua., 27 de abr. de 2022 =C3=A0s 16:37, Igor Maynko <
+igor_maynko@sicredi.com.br> escreveu:
+
+> Boa Tarde,
+>
+> Se Autoriza=C3=A7=C3=A3o ajustada conforme solicitado
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> At.te,
+>
+>
+>
+> *IGOR MAYNKO*
+>
+> Assistente de Atendimento
+>
+> 0726/ 24 - Ag=C3=AAncia de Nova Cantu =E2=80=93 PR
+>
+>
+>
+>
+>
+> Sicredi Vale do Piquiri ABCD PR/SP
+>
+> ( (44) 3527-1000 / *=C3=86* (44) 9 9826-0134
+>
+>
+>
+> www.sicredi.com.br
+>
+>
+>
+> [image: logo_sicredi_assinatura_email]
+>
+>
+>
+> Classifica=C3=A7=C3=A3o da informa=C3=A7=C3=A3o: Uso Interno
+>
+> Esta mensagem =C3=A9 somente para uso do destinat=C3=A1rio informado e po=
+de conter
+> informa=C3=A7=C3=B5es privilegiadas, propriet=C3=A1rias ou privadas. Se v=
+oc=C3=AA recebeu esta
+> mensagem por engano, por favor, notifique o remetente imediatamente e
+> apague a original. Qualquer outro uso deste e-mail =C3=A9 proibido.
+>
+> This message is for the designated recipient only and may contain
+> privileged, proprietary, or otherwise private information. If you have
+> received it in error, please notify the sender immediately and delete the
+> original. Any other use of the email by you is prohibited.
+>
+
+
+--=20
+---
+
+
+[image: Logo] <https://helte.com.br/>
+*Caroline Oliveira*  | Aux. de An=C3=A1lise Documental
+Helte | BR 163 | KM284 | =C3=81rea Industrial
+Marechal Candido Rondon - PR | 85960-000, Brasil
+*financiamento@helte.com.br <fernando.falconi@helte.com.br> *| helte.com.br
+<http://helte.com.br/>
++55 0800 090 0090
+[image: facebook icon] <https://www.facebook.com/heltesolar> [image:
+linkedin icon] <https://www.linkedin.com/company/helteequipamentoseletricos=
+>
+ [image: instagram icon] <https://www.instagram.com/heltesolar>
+
+--0000000000003f236a05dda80e48
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif;font-size:small">A 1=C2=AA carta de autoriza=C3=A7=C3=A3o de fat=
+uramento foi reprovada e tem 24h para o envio da 2=C2=AA nova carta corrigi=
+da. <br>Se acaso n=C3=A3o for enviada a carta neste prazo estabelecido, o p=
+edido ser=C3=A1 cancelado.<br>Motivo de recusa/avalia=C3=A7=C3=A3o:</div><d=
+iv class=3D"gmail_default" style=3D"font-family:verdana,sans-serif;font-siz=
+e:small">*CARTA DEVE SER DESTINADA =C3=80=C2=A0J. HELTE LTDA CNPJ 31.088.56=
+9/0001-84;</div><div class=3D"gmail_default" style=3D"font-family:verdana,s=
+ans-serif;font-size:small">*PRECISA CONSTAR TODOS OS DADOS DO PEDIDO (NOME =
+COMPLETO DO CLIENTE, CPF, ENDERE=C3=87O DE ENTREGA, BAIRRO, CIDADE, CEP);</=
+div><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif;fo=
+nt-size:small">*VALOR NA CARTA DEVE SER O MESMO DO PEDIDO;</div><div class=
+=3D"gmail_default" style=3D"font-family:verdana,sans-serif;font-size:small"=
+>*CONSTAR DATA.<br>- <br>Aguardo retorno do documento corrigido.</div><div =
+class=3D"gmail_default" style=3D"font-family:verdana,sans-serif;font-size:s=
+mall">Existe um modelo da Helte que o integrador pode repassar ao banco par=
+a preencher. L=C3=A1 consta todos os dados que s=C3=A3o necess=C3=A1rios.=
+=C2=A0=C2=A0<br><br>OBS.: N=C3=83O ACEITAMOS COMPLEMENTOS PARA NF NO CORPO =
+DO E-MAIL, SOMENTE NAS OBSERVA=C3=87=C3=95ES DA CARTA.<br><br>Att,<br></div=
+></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr"=
+>Em qua., 27 de abr. de 2022 =C3=A0s 16:37, Igor Maynko &lt;<a href=3D"mail=
+to:igor_maynko@sicredi.com.br">igor_maynko@sicredi.com.br</a>&gt; escreveu:=
+<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8=
+ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+
+
+
+
+
+<div lang=3D"PT-BR" style=3D"overflow-wrap: break-word;">
+<div class=3D"gmail-m_-1922328980871694131WordSection1">
+<p class=3D"MsoNormal">Boa Tarde, <u></u><u></u></p>
+<p class=3D"MsoNormal">Se Autoriza=C3=A7=C3=A3o ajustada conforme solicitad=
+o<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+">At.te,<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12pt;color:rgb(127,127,1=
+27)">IGOR MAYNKO<u></u><u></u></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+">Assistente de Atendimento<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(123,123,123)=
+">0726/ 24 - Ag=C3=AAncia de Nova Cantu =E2=80=93 PR<u></u><u></u></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+">Sicredi Vale do Piquiri ABCD PR/SP<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;font-family:Wingdings;=
+color:rgb(146,208,80)">(</span><span style=3D"font-size:12pt;color:rgb(127,=
+127,127)"> (44) 3527-1000 /
+</span><b><span style=3D"font-size:14pt;font-family:Webdings;color:rgb(115,=
+206,64)">=C3=86</span></b><b><span style=3D"font-size:7pt;font-family:Webdi=
+ngs;color:rgb(115,206,64)">
+</span></b><span style=3D"font-size:12pt;color:rgb(127,127,127)">(44) 9 982=
+6-0134<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12pt;color:rgb(127,127,127)=
+"><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span><a href=3D"http://www.sicredi.com.br/" target=
+=3D"_blank"><span style=3D"font-size:12pt;color:rgb(5,99,193)">www.sicredi.=
+com.br</span></a></span><span style=3D"font-size:12pt;color:rgb(127,127,127=
+)"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:rgb(31,73,125)"><u></u>=C2=A0<u=
+></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:rgb(31,73,125)"><img border=3D"=
+0" width=3D"120" height=3D"31" style=3D"width: 1.25in; height: 0.3263in;" i=
+d=3D"gmail-m_-1922328980871694131gmail-m_-5335316298929572079Imagem_x0020_6=
+" src=3D"cid:1806c8b46214cff311" alt=3D"logo_sicredi_assinatura_email"></sp=
+an><span style=3D"font-size:12pt;color:rgb(127,127,127)"><u></u><u></u></sp=
+an></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<br>
+<p align=3D"Center" style=3D"margin:0px"><span style=3D"font-size:10pt;font=
+-family:Calibri;color:rgb(0,0,0)">Classifica=C3=A7=C3=A3o da informa=C3=A7=
+=C3=A3o: Uso Interno</span></p>
+</div>
+<p>Esta mensagem =C3=A9 somente para uso do destinat=C3=A1rio informado e p=
+ode conter informa=C3=A7=C3=B5es privilegiadas, propriet=C3=A1rias ou priva=
+das. Se voc=C3=AA recebeu esta mensagem por engano, por favor, notifique o =
+remetente imediatamente e apague a original. Qualquer outro uso
+ deste e-mail =C3=A9 proibido.</p>
+<p>This message is for the designated recipient only and may contain privil=
+eged, proprietary, or otherwise private information. If you have received i=
+t in error, please notify the sender immediately and delete the original. A=
+ny other use of the email by you
+ is prohibited.</p>
+</div>
+
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><span style=3D"color:rgb(136,13=
+6,136)">---</span><table cellpadding=3D"0" style=3D"width:482px"><tbody><tr=
+><td style=3D"width:478px"><div></div></td></tr></tbody></table><div dir=3D=
+"ltr" style=3D"color:rgb(136,136,136)"><div dir=3D"ltr"><table cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-spacing:0px;border-collapse:collap=
+se;color:rgb(68,68,68);width:525px;font-size:11pt;font-family:Arial,sans-se=
+rif"><tbody><tr><td width=3D"125" valign=3D"top" rowspan=3D"6" style=3D"fon=
+t-family:Arial,sans-serif;padding:0px 10px 0px 0px;font-size:10pt;border-ri=
+ght:1px solid rgb(245,129,32);width:125px;vertical-align:top"><br><a href=
+=3D"https://helte.com.br/" style=3D"color:rgb(51,122,183);background-color:=
+transparent" target=3D"_blank"><img border=3D"0" alt=3D"Logo" width=3D"105"=
+ src=3D"https://helte.com.br/themes/indecom/img/helte-logo.png" style=3D"bo=
+rder: 0px; vertical-align: middle; width: 105px; height: auto;"></a></td><t=
+d style=3D"padding:0px 0px 0px 10px"><table cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"border-spacing:0px;border-collapse:collapse;background-colo=
+r:transparent"><tbody><tr><td valign=3D"top" style=3D"font-family:Arial,san=
+s-serif;padding:0px 0px 5px 10px;width:400px;vertical-align:top"><font colo=
+r=3D"#f58120"><span style=3D"font-size:14.6667px"><b>Caroline Oliveira</b><=
+/span></font><span style=3D"color:rgb(0,121,172);font-size:10pt">=C2=A0</sp=
+an><span style=3D"color:rgb(0,121,172);font-size:10pt">=C2=A0<span style=3D=
+"font-weight:700;font-size:11pt;color:rgb(0,0,0)">| Aux. de An=C3=A1lise Do=
+cumental=C2=A0</span></span></td></tr><tr><td valign=3D"top" style=3D"font-=
+family:Arial,sans-serif;padding:5px 0px 5px 10px;font-size:10pt;vertical-al=
+ign:top;line-height:17px"><span style=3D"font-family:Roboto,RobotoDraft,Hel=
+vetica,Arial,sans-serif;font-size:small;color:black">Helte</span><span styl=
+e=3D"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,san=
+s-serif;font-size:small">=C2=A0</span><span style=3D"font-family:Roboto,Rob=
+otoDraft,Helvetica,Arial,sans-serif;font-size:small;color:black">|=C2=A0BR =
+163 | KM284 | =C3=81rea Industrial<br>Marechal Candido Rondon - PR</span><s=
+pan style=3D"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,A=
+rial,sans-serif;font-size:small">=C2=A0</span><span style=3D"font-family:Ro=
+boto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:small;color:black">|=
+=C2=A085960-000, Brasil</span><br style=3D"color:rgb(34,34,34);font-family:=
+Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:small"><u>financiam=
+ento<a href=3D"mailto:fernando.falconi@helte.com.br" style=3D"font-family:R=
+oboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:small" target=3D"_bl=
+ank"><font color=3D"#000000">@helte.com.br</font></a><span style=3D"color:r=
+gb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font=
+-size:small">=C2=A0</span></u><span style=3D"color:rgb(34,34,34);font-famil=
+y:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:small">|</span><a=
+ href=3D"http://helte.com.br/" style=3D"color:rgb(17,85,204);font-family:Ro=
+boto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:small" target=3D"_bla=
+nk"><span style=3D"color:black">=C2=A0helte.com.br</span></a><br style=3D"c=
+olor:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-seri=
+f;font-size:small"><span style=3D"font-family:Roboto,RobotoDraft,Helvetica,=
+Arial,sans-serif;font-size:small;color:black">+55 0800 090 0090<b>=C2=A0</b=
+></span><br></td></tr><tr><td valign=3D"bottom" style=3D"font-family:Arial,=
+sans-serif;padding:5px 0px 0px 10px;font-size:10pt;vertical-align:bottom"><=
+a href=3D"https://www.facebook.com/heltesolar" rel=3D"noopener" style=3D"co=
+lor:rgb(51,122,183);background-color:transparent" target=3D"_blank"><img bo=
+rder=3D"0" width=3D"19" alt=3D"facebook icon" src=3D"https://codetwocdn.azu=
+reedge.net/images/mail-signatures/generator-dm/bease-fox/fb.png" style=3D"b=
+order: 0px; vertical-align: middle; height: 19px; width: 19px;"></a>=C2=A0<=
+a href=3D"https://www.linkedin.com/company/helteequipamentoseletricos" rel=
+=3D"noopener" style=3D"color:rgb(51,122,183);background-color:transparent" =
+target=3D"_blank"><img border=3D"0" width=3D"19" alt=3D"linkedin icon" src=
+=3D"https://codetwocdn.azureedge.net/images/mail-signatures/generator-dm/be=
+ase-fox/ln.png" style=3D"border: 0px; vertical-align: middle; height: 19px;=
+ width: 19px;"></a>=C2=A0<a href=3D"https://www.instagram.com/heltesolar" r=
+el=3D"noopener" style=3D"color:rgb(51,122,183);background-color:transparent=
+" target=3D"_blank"><img border=3D"0" width=3D"19" alt=3D"instagram icon" s=
+rc=3D"https://codetwocdn.azureedge.net/images/mail-signatures/generator-dm/=
+bease-fox/it.png" style=3D"border: 0px; vertical-align: middle; height: 19p=
+x; width: 19px;"></a>=C2=A0</td></tr></tbody></table></td></tr></tbody></ta=
+ble><table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-spacing:0px;=
+border-collapse:collapse;background-color:transparent"><tbody><tr><td valig=
+n=3D"bottom" style=3D"font-family:Arial,sans-serif;padding:5px 0px 0px 10px=
+;font-size:10pt;vertical-align:bottom"><br><br></td></tr></tbody></table></=
+div></div></div></div>
+
+--0000000000003f236a05dda80e48--
+--0000000000003f236b05dda80e49
+Content-Type: image/png; name="image001.png"
+Content-Disposition: inline; filename="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <1806c8b46214cff311>
+X-Attachment-Id: 1806c8b46214cff311
+
+iVBORw0KGgoAAAANSUhEUgAAAHgAAAAfCAMAAAAbS/kCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1
+Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOklu
+c3RhbmNlSUQ9InhtcC5paWQ6NDIyMjJENzk2OTM4MTFFNjlDNzc5Rjk3QUQ3Mzc1N0UiIHhtcE1N
+OkRvY3VtZW50SUQ9InhtcC5kaWQ6NDIyMjJEN0E2OTM4MTFFNjlDNzc5Rjk3QUQ3Mzc1N0UiPiA8
+eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MjIyMkQ3NzY5Mzgx
+MUU2OUM3NzlGOTdBRDczNzU3RSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0MjIyMkQ3ODY5
+MzgxMUU2OUM3NzlGOTdBRDczNzU3RSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8
+L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnEaI6UAAAMAUExURe756e3452WxXUeXUhVu
+OGfINtHvwm3LPimAQJHXbf7+/sLprrTknLrVxJnaeNPvxf3+/argjvj6+fD67LnmouD0112bdkuQ
+Zs3h1cztvFSeXlalVmrJPJrbesDorHXJU/T78PD28qzhkub23rPkm5bZdZHYbmykg47XasXqsjSB
+U4XTXeX23Im2m93q4nXEWqLehGzKPHOpiZjadxlyPGnJOSB1QmTHMvX59nbGWEaNYk6dU+j34YDS
+WKnKtn/RVXzQUnjOTMnrt8LZy7/Xybbln3TNSHqtjqLGsYu3nd3z03LMRMvsulOVbb/oqz6HW16t
+WSF2QyZ5R2ehfh50QMTqsbHjmIrVZMfrtWbINfL67oDRV/v9+WXIM2jJN53cfuL12W/LQLfloPb8
+9PP78Ov45cPpsOr45HvQUc3tvs/uv7znptfxytryz7rmpfn9+KHdg6ffi6/ilf7//s7tvnXOSfX7
+8m7LQIjUYYPSW2rKO6Ddgu356Pz++/L67fP774vVZqvhkJ7cf9Xwx4LSWmXINPv9/Kjgi/j99uT1
+26bfiX3QVL7oqa7ilNTwxpXZcpXZc/r8+4rVZbLPvtHi2NTl29XwyN/01a/ilmrJOt7z0+r340SL
+Yff89NPk2dbm3HPNRtjxzPn8+pfadsnsuNro4Pb889no38ztu3rPT1eXceL02HfOS9DuwcbrtKTe
+h0OLYJ/dgNryztvyz4PTXG/LQbrmpJTZcvr9+fj89XTNR5S9pGnIOi9+T+/18m26XEKTTYu7lvz9
+/XrPUHfOTPv++miif+Xv6djxy7fcsez076bItCB4PHPKTIfUYTmMSo69mGi1WpnAqd/r5GOic4nV
+Y4LSWb3krYDCdHHKR77ht8fcz0CJXX+wk3PAXnTCXUiOZNDi1+jx6+vy7o+6oCN3ROP12y+ERDWJ
+R+v45HyvjbLjmZPDmI25n9zy0YrOcp3cfXGnh5C6oZO8o73nqHHMRPD668fd0Mvf02Sfe7jmobvn
+pdjn3hNtN2PHMf///3yLbVgAAAVISURBVHjaxFcHVJRHED6kXAwgEA5jVGJAQI1oPAGVSCQ2YlfU
+Ew6RDnJSwyGKqAgYC6hYYkdNsBtRY2JN770npvcQ03tPdseZ3b8l8vLkvbzLvnf/zO7s7Le78838
+/5ngf2omTcuZ1HjYk8d85XLglIMcW2zrEFcDg2k4Ag9lw1ANneNKYIjL5Pd6sM6oreU+LgF+alSz
+6BSlxTIWvQ5gPudZf5+30LEqa4ZoDoAJKLzbjzWuuLi4AOAbWkUAJ8c8O73XrWRK7sAYQ40u3cvg
+kvE811ooQF8U4e0HHoBucwECUIwn4F+s/AHEu/JttH2ByhhwevK02Dd0j8gYHZfjUeehWN1+4CXo
+tgTgFIr5BJzOuf08ArLHQ+CKyYz1A7fnpkSzT3SP3gZcfjtUkLC1H3guug0AiEdRi8CmW1Dp4UHI
+9+2EXdHsJvBFPfFpzeGawTjjtgKbbNmwj4Sp3biptIwFYAR6ByHwl+IcLxEwG7QRxiLwWFR/1D3q
+aEJem4s5U2bnpixqw7Ai93NTql4jcJZ/JC0zR2c1MYXHZHZtTcRTfw/rDvnCIcaa1umL9KEZdXrf
+lpSU1JEUvwgrmWYdjgIoE2OmsI54mdvSz4rxmRbCdhY8KnrEDB4JQeidtB2Bvb0yAuXe/D/eK8rW
+suks8RXsblGA5pBH/ojTKjCSgsejrNfijly9gXOr04IsPABZOiF6OwFKDQQZnAreJPdBW6HqwgZ1
+wc0n8WrZr7YLJ/PRzbKPWc5PAeTp660HWMD51nBUhzvrjFQsBD9jF3cYiuKEoXJ92G/iO75S7T9t
+P6a0mfOeii1M9bu7kLo/oxYAi8aLi6i6GVsyBKpTfGTsAvw2HyC5SqREWl5kbu45mU20u74q8LJn
+MI2Yx0jt0Lte7YH2O9RuwVZDFu+QchOJRn9lxl3CmhZRP9uNK+Ulm1icXEFJU0NTaKOlIiY8WAEe
+da3g9D0qzt5eyLNu3flKbSMVlkckcFogZMgrpCvTtyYIGJxC1Y8LvJ5+jaT0XEPPNcRzUrJETPgM
+AXz/7wKWDVQX+VokNTv/ZqAx8seDRaiPwFUk3MQVWjVrGfbmOUlbLSiskgssJBZT2SXFAYvFvgh4
+ozwu+6AZXpbYw6ZS32PyQ/8gXQv5FMNofHo6IR/FUs3WCXuVQrvTwKXdFXAUxQIad9DApzIm4wj4
+2/c6dHN3d+/6BOz3iH4Yxmy4HOCj33b+1XwR25+Um6WVGwBOoEjSbJXY6yS03ZQ1Da+Fl/rsWajs
+6CCNLyfvEhmTHAJWKFsOMJCx/tDEmka2XfLOrKV5QbAenxEAZ5Vsls2svTdE2upBipLbzK6l4QQZ
+E7OoXG4iHsiz5lbGNkA/vOVjb6UaAEfPpNaQQPTkmYsgAcVymc08+CfbpD9q+kCOXlVPiry7uvyI
+7WQofk5U0QXUp5vVfA9WIoTk+o54gXz8FSHfhRAK8PvW2pYVKnCEsQJsgRKZniLUWu5uk+8tam6z
+dAMezVsrWvirkjGJksAmq0hP+IFeygBjUHSgaylRgPMNuB1Pw0olP87Ea6MTZA4tlPN9DPPjoNoq
+tXN/ymyio5cpnz42vpQSoTMiXpcNMI2xoWhtUXD97UoGZ85M91Ir93bK7eXKmg1xMEMyXTZHpeLR
+NwzzyC+TXqqWx8pFNomY9FG/uWqK6HmMsSl8D8CQ69kLnIddwhvWf+Wm8sKg7IsNOUVeLUWzlapW
+ctwrw/lvX5lT2YN2vhaVkImXXRLuf/V5m/hZd7yeHVS6X3S48rva3ay8BVz9T+L1qBvt3B7lemDX
+tgsCDAAik67afvEbzwAAAABJRU5ErkJggg==
+--0000000000003f236b05dda80e49--

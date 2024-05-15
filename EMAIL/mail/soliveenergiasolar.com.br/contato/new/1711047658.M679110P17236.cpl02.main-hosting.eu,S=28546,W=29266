@@ -1,0 +1,720 @@
+Return-Path: <plataforma@forthedistribuidorasolar.com.br>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl02.main-hosting.eu
+	by cpl02.main-hosting.eu with LMTP
+	id EMraJ+qD/GVUQwAAIElduQ
+	(envelope-from <plataforma@forthedistribuidorasolar.com.br>)
+	for <contato@soliveenergiasolar.com.br>; Thu, 21 Mar 2024 19:00:58 +0000
+Return-path: <plataforma@forthedistribuidorasolar.com.br>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Thu, 21 Mar 2024 19:00:58 +0000
+Received: from omta036.useast.a.cloudfilter.net ([44.202.169.35]:57676)
+	by cpl02.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <plataforma@forthedistribuidorasolar.com.br>)
+	id 1rnNes-0005vp-0G
+	for contato@soliveenergiasolar.com.br;
+	Thu, 21 Mar 2024 19:00:58 +0000
+Received: from eig-obgw-5008a.ext.cloudfilter.net ([10.0.29.246])
+	by cmsmtp with ESMTPS
+	id nJ4lrYlxSuh6snNeDryjIL; Thu, 21 Mar 2024 19:00:17 +0000
+Received: from br590.hostgator.com.br ([108.179.253.175])
+	by cmsmtp with ESMTPS
+	id nNeBrjenRiDnenNeCr0WnA; Thu, 21 Mar 2024 19:00:16 +0000
+X-Authority-Analysis: v=2.4 cv=Cd4O5qrl c=1 sm=1 tr=0 ts=65fc83c0
+ a=tqctm+D6xO4ZisOwxGizLw==:117 a=tqctm+D6xO4ZisOwxGizLw==:17
+ a=IkcTkHD0fZMA:10 a=K6JAEmCyrfEA:10 a=ooDWW1XqjLgA:10 a=SSmOFEACAAAA:8
+ a=3g80flMcAAAA:8 a=IrDX-wUXAAAA:8 a=3vKe_2q_AAAA:8 a=Dw5zRoPsAAAA:8
+ a=B2jykVAUO9TOkilZgbMA:9 a=-nJ8FIWXfuncYxO2:21 a=frz4AuCg-hUA:10
+ a=_W_S_7VecoQA:10 a=QEXdDO2ut3YA:10 a=O23WzTs1fjcA:10
+ a=AbCD5cn7DmFBj6Ni60Dz:22 a=HZKWp9FkiOxnLMakIADV:22 a=iN9rT86CrASfy9WEWd19:22
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=forthedistribuidorasolar.com.br; s=default; h=Content-Type:MIME-Version:
+	Date:Content-Transfer-Encoding:Message-ID:Subject:To:From:Sender:Reply-To:Cc:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=MuI6r7zok4zg5diHPpa5QXjAcmktouuIdhvwuJNRz+U=; b=okyxRawyweVjMENjMppYlyQkty
+	4DDZHVyibVF3eZH91xoFUzCsjsl+e/ouHE7DPKVUj7ud03tYBQcaNwkDqmICulnD7UW/Boc9gPpxH
+	AAIx8174E7NcxiubvhqGqaSP3F4wm25Qri294aSSWvGMg04ZpBoeGsnsM0Np9FlPH6JmWyxXHA9eH
+	i/1Q6CrjjyNUHbuo7vPgyzyzpJzwqeWrhkXvzFiMqX3aAh0DPINXl/jLaNEvPSXO0FugD7zFgccSR
+	EtfXKJyLUqIiHoEih8B2O3ifJpZRiBMMf/zka//sqOzwJWW80Zqtzd7t+wctjRxJXHJqfv12vlqYu
+	2SMbBcdg==;
+Received: from ec2-18-214-17-7.compute-1.amazonaws.com ([18.214.17.7]:12618 helo=[127.0.0.1])
+	by br590.hostgator.com.br with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <plataforma@forthedistribuidorasolar.com.br>)
+	id 1rnNeB-002tIo-2I
+	for contato@soliveenergiasolar.com.br;
+	Thu, 21 Mar 2024 16:00:15 -0300
+From: "PLATAFORMA. FORTHE" <plataforma@forthedistribuidorasolar.com.br>
+To: contato@soliveenergiasolar.com.br
+Subject: Seu cadastro foi realizado com sucesso
+Message-ID:
+ <ae5d64a7-3ba6-966c-6459-240b3e7d8214@forthedistribuidorasolar.com.br>
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 21 Mar 2024 19:00:14 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - br590.hostgator.com.br
+X-AntiAbuse: Original Domain - soliveenergiasolar.com.br
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - forthedistribuidorasolar.com.br
+X-BWhitelist: no
+X-Source-IP: 18.214.17.7
+X-Source-L: No
+X-Exim-ID: 1rnNeB-002tIo-2I
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: ec2-18-214-17-7.compute-1.amazonaws.com ([127.0.0.1]) [18.214.17.7]:12618
+X-Source-Auth: plataforma@forthedistribuidorasolar.com.br
+X-Email-Count: 1
+X-Org: HG=hgshared_br;ORG=latam;
+X-Source-Cap: Zm9ydGhlODE7Zm9ydGhlODE7YnI1OTAuaG9zdGdhdG9yLmNvbS5icg==
+X-Local-Domain: yes
+X-CMAE-Envelope: MS4xfHC+m/LlEft8yhP16rdY1rdK6lAonwp9Nm1ChfxFrZ/I0p8AObOWv5g0f9S8/qg30+g5PnyiW6yWCnNADsWknTCn8ZwvSdkRjkUBprKmGmShU93MLK+j
+ mlD3HQ7s1OATX9N+I3wa2kbT9rMgyCmA7oHimVOb6TZBdbYE/gbdtw+lwCGmFdSNC7O8P4du8pGG3NpZIFJubCqV/aGv6WtPZyi5y3vqwxNgjOza1e9Tly+P
+ aOTLpo0K+6mOSrKTFbwSuA==
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl02.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Cadastro Realizado Olá, Você está quase pronto para acessar
+    nossa plataforma. Em breve um de nossos consultores irá liberar seu acesso.
+    
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: amazonaws.com]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: amazonaws.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.=
+w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+
+<head>
+  <!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3DUTF-8">
+  <meta name=3D"viewport" =
+content=3D"width=3Ddevice-width, initial-scale=3D1.0">
+  <meta name=3D"x-apple-disable-message-reformatting">
+  <!--[if !mso]><!-->
+  <meta http-equiv=3D"X-UA-Compatible" =
+content=3D"IE=3Dedge">
+  <!--<![endif]-->
+  <title></title>
+
+  <style type=3D"text/css">
+    table,
+    td {
+      color: #000000;
+    }
+   =20
+    a {
+      color: "#0044cc";
+      text-decoration: underline;
+    }
+   =20
+    @media only screen and (min-width: 620px) {
+      .u-row {
+        width: 600px !important;
+      }
+      .u-row .u-col {
+        vertical-align: top;
+      }
+      .u-row .u-col-100 {
+        width: 600px !important;
+      }
+    }
+   =20
+    @media (max-width: 620px) {
+      .u-row-container {
+        max-width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      .u-row .u-col {
+        min-width: 320px !important;
+        max-width: 100% !important;
+        display: block !important;
+      }
+      .u-row {
+        width: calc(100% - 40px) !important;
+      }
+      .u-col {
+        width: 100% !important;
+      }
+      .u-col>div {
+        margin: 0 auto;
+      }
+    }
+   =20
+    body {
+      margin: 0;
+      padding: 0;
+    }
+   =20
+    table,
+    tr,
+    td {
+      vertical-align: top;
+      border-collapse: collapse;
+    }
+   =20
+    p {
+      margin: 0;
+    }
+   =20
+    .ie-container table,
+    .mso-container table {
+      table-layout: fixed;
+    }
+   =20
+    * {
+      line-height: inherit;
+    }
+   =20
+    a[x-apple-data-detectors=3D'tr=
+ue'] {
+      color: inherit !important;
+      text-decoration: none !=
+important;
+    }
+  </style>
+
+
+
+  <!--[if !mso]><!-->
+  <link href=3D"https://fonts.googleapis.com/css?family=3DMontserrat:400,=
+700" rel=3D"stylesheet" type=3D"text/css">
+  <!--<![endif]-->
+
+</head>
+
+<body class=3D"clean-body" style=3D"margin: 0;padding: =
+0;-webkit-text-size-adjust: 100%;background-color: #eeeeee;color: #000000">
+  <!--[if IE]><div class=3D"ie-container"><![endif]-->
+  <!--[if mso]><div class=3D"mso-container"><![endif]-->
+  <table style=3D"border-collapse: collapse;table-layout: =
+fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: =
+#eeeeee;width:100%" cellpadding=3D"0" cellspacing=3D"0">
+    <tbody>
+      <tr style=3D"vertical-align: top">
+        <td style=3D"word-break: =
+break-word;border-collapse: collapse !important;vertical-align: top">
+          <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0"><tr><td align=3D"center" =
+style=3D"background-color: #eeeeee;"><![endif]-->
+
+
+          <div class=3D"u-row-container" style=3D"padding: =
+0px;background-color: transparent">
+            <div class=3D"u-row" =
+style=3D"Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: =
+break-word;word-wrap: break-word;word-break: break-word;background-color: =
+transparent;">
+              <div style=3D"border-collapse: =
+collapse;display: table;width: 100%;background-color: transparent;">
+                <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding: =
+0px;background-color: transparent;" align=3D"center"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;"><tr=
+ style=3D"background-color: transparent;"><![endif]-->
+
+                <!--[if (mso)|(IE)]><td align=3D"center" width=3D"600" =
+style=3D"width: 600px;padding: 0px;border-top: 0px solid =
+transparent;border-left: 0px solid transparent;border-right: 0px solid =
+transparent;border-bottom: 0px solid transparent;" valign=3D"top"><!=
+[endif]-->
+                <div class=3D"u-col u-col-100" =
+style=3D"max-width: 320px;min-width: 600px;display: =
+table-cell;vertical-align: top;">
+                  <div style=3D"width: =
+100% !important;">
+                    <!--[if (!mso)&(!IE)]><!-->
+                    <div style=3D"padding: 0px;border-top: 0px solid =
+transparent;border-left: 0px solid transparent;border-right: 0px solid =
+transparent;border-bottom: 0px solid transparent;">
+                      <!--<![endif]-->
+
+                      <table =
+style=3D"font-family:'Montserrat',sans-serif;" role=3D"presentation" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0">
+                        <tbody>
+                          <tr>
+                            <td style=3D"overflow-wrap:break-word;word-brea=
+k:break-word;padding:10px;font-family:'Montserrat',sans-serif;" =
+align=3D"left">
+
+                              <table height=3D"0px" =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"100%" style=3D"border-collapse: collapse;table-layout: =
+fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;vertical-align: top;border-top: 1px solid #eeeeee;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%">
+                                =
+<tbody>
+                                  <tr style=3D"vertical-align: =
+top">
+                                    <td style=3D"word-break: =
+break-word;border-collapse: collapse !important;vertical-align: =
+top;font-size: 0px;line-height: 0px;mso-line-height-rule: =
+exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+                                      <span>&#160;</span>
+                                    </td>
+                                 =
+ </tr>
+                                </tbody>
+                           =
+   </table>
+
+                            </td>
+                          =
+</tr>
+                        </tbody>
+                      </table>
+
+                      <!--[if (!mso)&(!IE)]><!-->
+                    =
+</div>
+                    <!--<![endif]-->
+                  </div>
+                </div>
+                <!--[if (mso)|(IE)]></td><!=
+[endif]-->
+                <!--[if (mso)|(IE)]></tr></table></td></tr></tab=
+le><![endif]-->
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class=3D"u-row-container" style=3D"padding: =
+0px;background-color: transparent">
+            <div class=3D"u-row" =
+style=3D"Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: =
+break-word;word-wrap: break-word;word-break: break-word;background-color: =
+transparent;">
+              <div style=3D"border-collapse: =
+collapse;display: table;width: 100%;background-color: transparent;">
+                <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding: =
+0px;background-color: transparent;" align=3D"center"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;"><tr=
+ style=3D"background-color: transparent;"><![endif]-->
+
+                <!--[if (mso)|(IE)]><td align=3D"center" width=3D"600" =
+style=3D"background-color: #075A5A;width: 600px;padding: 0px;border-top: =
+0px solid transparent;border-left: 0px solid transparent;border-right: 0px =
+solid transparent;border-bottom: 0px solid transparent;" valign=3D"top"><!=
+[endif]-->
+                <div class=3D"u-col u-col-100" =
+style=3D"max-width: 320px;min-width: 600px;display: =
+table-cell;vertical-align: top;">
+                  <div =
+style=3D"background-color: #075A5A;width: 100% !important;">
+                    <!--[if (!mso)&(!IE)]><!-->
+                    <div =
+style=3D"padding: 0px;border-top: 0px solid transparent;border-left: 0px =
+solid transparent;border-right: 0px solid transparent;border-bottom: 0px =
+solid transparent;">
+                      <!--<![endif]-->
+
+                      <table style=3D"font-family:'Montserrat',sans-serif;"=
+ role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" =
+border=3D"0">
+                        <tbody>
+                          =
+<tr>
+                            <td style=3D"overflow-wrap:break-word;word=
+-break:break-word;padding:25px 10px;font-family:'Montserrat',sans-serif;" =
+align=3D"left">
+
+                              <table width=3D"100%" =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                         =
+       <tr>
+                                  <td style=3D"padding-right: =
+0px;padding-left: 0px;" align=3D"center">
+                                 =
+   <a href=3D"https://plataforma.forthedistribuidorasolar.com.br" =
+target=3D"_blank">
+                                      <img =
+align=3D"center" border=3D"0" src=3D"https://backend-pied-prod.piedadmin.=
+com.br/app/distribuitors/651c1d555e47b3925d85d8d1/logo.png" alt=3D"Image" =
+title=3D"Image" style=3D"outline: none;text-decoration: =
+none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !=
+important;border: none;height: auto;float: none;width: 22%;max-width: 127.=
+6px;"
+                                        width=3D"127.6" />
+                                    </a>
+                                  =
+</td>
+                                </tr>
+                              =
+</table>
+
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <!--[if (!mso)&(!IE)]><!-->
+                    =
+</div>
+                    <!--<![endif]-->
+                  </div>
+                </div>
+                <!--[if (mso)|(IE)]></td><!=
+[endif]-->
+                <!--[if (mso)|(IE)]></tr></table></td></tr></tab=
+le><![endif]-->
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class=3D"u-row-container" style=3D"padding: =
+0px;background-color: transparent">
+            <div class=3D"u-row" =
+style=3D"Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: =
+break-word;word-wrap: break-word;word-break: break-word;background-color: =
+transparent;">
+              <div style=3D"border-collapse: =
+collapse;display: table;width: 100%;background-color: transparent;">
+                <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding: =
+0px;background-color: transparent;" align=3D"center"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;"><tr=
+ style=3D"background-color: transparent;"><![endif]-->
+
+                <!--[if (mso)|(IE)]><td align=3D"center" width=3D"600" =
+style=3D"background-color: #075A5A;width: 600px;padding: 0px;border-top: =
+0px solid transparent;border-left: 0px solid transparent;border-right: 0px =
+solid transparent;border-bottom: 0px solid transparent;" valign=3D"top"><!=
+[endif]-->
+                <div class=3D"u-col u-col-100" =
+style=3D"max-width: 320px;min-width: 600px;display: =
+table-cell;vertical-align: top;">
+                  <div =
+style=3D"background-color: #075A5A;width: 100% !important;">
+                    <!--[if (!mso)&(!IE)]><!-->
+                    <div =
+style=3D"padding: 0px;border-top: 0px solid transparent;border-left: 0px =
+solid transparent;border-right: 0px solid transparent;border-bottom: 0px =
+solid transparent;">
+                      <!--<![endif]-->
+
+                      <table style=3D"font-family:'Montserrat',sans-serif;"=
+ role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" =
+border=3D"0">
+                        <tbody>
+                          =
+<tr>
+                            <td style=3D"overflow-wrap:break-word;word=
+-break:break-word;padding:10px;font-family:'Montserrat',sans-serif;" =
+align=3D"left">
+
+                              <table width=3D"100%" =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                         =
+       <tr>
+                                  <td style=3D"padding-right: =
+0px;padding-left: 0px;" align=3D"center">
+
+                                =
+    <img align=3D"center" border=3D"0" src=3D"https://s3.amazonaws.=
+com/unroll-images-production/projects%2F19841%2F1621622725793-image-2.png" =
+alt=3D"Image" title=3D"Image" style=3D"outline: none;text-decoration: =
+none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !=
+important;border: none;height: auto;float: none;width: 26%;max-width: 150.=
+8px;"
+                                      width=3D"150.8" />
+
+                                  </td>
+                                =
+</tr>
+                              </table>
+
+                            =
+</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <table =
+style=3D"font-family:'Montserrat',sans-serif;" role=3D"presentation" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0">
+                        <tbody>
+                          <tr>
+                            <td style=3D"overflow-wrap:break-word;word-brea=
+k:break-word;padding:10px;font-family:'Montserrat',sans-serif;" =
+align=3D"left">
+
+                              <div style=3D"line-height: =
+140%; text-align: left; word-wrap: break-word;">
+                          =
+      <p style=3D"font-size: 14px; line-height: 140%; text-align: =
+center;"><span style=3D"font-size: 28px; line-height: 39.2px; color: =
+#ffffff;">Cadastro Realizado</span></p>
+                              =
+</div>
+
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <!--[if (!mso)&(!IE)]><!-->
+                    =
+</div>
+                    <!--<![endif]-->
+                  </div>
+                </div>
+                <!--[if (mso)|(IE)]></td><!=
+[endif]-->
+                <!--[if (mso)|(IE)]></tr></table></td></tr></tab=
+le><![endif]-->
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class=3D"u-row-container" style=3D"padding: =
+0px;background-color: transparent">
+            <div class=3D"u-row" =
+style=3D"Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: =
+break-word;word-wrap: break-word;word-break: break-word;background-color: =
+transparent;">
+              <div style=3D"border-collapse: =
+collapse;display: table;width: 100%;background-color: transparent;">
+                <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding: =
+0px;background-color: transparent;" align=3D"center"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;"><tr=
+ style=3D"background-color: transparent;"><![endif]-->
+
+                <!--[if (mso)|(IE)]><td align=3D"center" width=3D"600" =
+style=3D"background-color: #ffffff;width: 600px;padding: 0px;border-top: =
+0px solid transparent;border-left: 0px solid transparent;border-right: 0px =
+solid transparent;border-bottom: 0px solid transparent;" valign=3D"top"><!=
+[endif]-->
+                <div class=3D"u-col u-col-100" =
+style=3D"max-width: 320px;min-width: 600px;display: =
+table-cell;vertical-align: top;">
+                  <div =
+style=3D"background-color: #ffffff;width: 100% !important;">
+                    <!--[if (!mso)&(!IE)]><!-->
+                    <div =
+style=3D"padding: 0px;border-top: 0px solid transparent;border-left: 0px =
+solid transparent;border-right: 0px solid transparent;border-bottom: 0px =
+solid transparent;">
+                      <!--<![endif]-->
+
+                      <table style=3D"font-family:'Montserrat',sans-serif;"=
+ role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" =
+border=3D"0">
+                        <tbody>
+                          =
+<tr>
+                            <td style=3D"overflow-wrap:break-word;word=
+-break:break-word;padding:40px 40px 30px;font-family:'Montserrat',=
+sans-serif;" align=3D"left">
+
+                              <div =
+style=3D"line-height: 140%; text-align: left; word-wrap: break-word;">
+                                <p style=3D"font-size: 14px; line-height: =
+140%; text-align: left;"><span style=3D"font-size: 18px; line-height: 25.=
+2px;">Ol&aacute;,</span></p>
+                                <p =
+style=3D"font-size: 14px; line-height: 140%; text-align: left;">&nbsp;</p>
+                                <p style=3D"font-size: 14px; line-height: =
+140%; text-align: left;"><span style=3D"font-size: 18px; line-height: 25.=
+2px;">Voc&ecirc; est&aacute; quase pronto para acessar nossa plataforma. =
+</span><span style=3D"font-size: 18px; line-height: 25.2px;">Em breve um de=
+ nossos consultores ir&aacute; liberar seu acesso.</span></p>
+                              </div>
+
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <table =
+style=3D"font-family:'Montserrat',sans-serif;" role=3D"presentation" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0">
+                        <tbody>
+                          <tr>
+                            <td style=3D"overflow-wrap:break-word;word-brea=
+k:break-word;padding:40px 40px 30px;font-family:'Montserrat',sans-serif;" =
+align=3D"left">
+
+                              <div style=3D"line-height: =
+140%; text-align: left; word-wrap: break-word;">
+                          =
+      <p style=3D"font-size: 14px; line-height: 140%; text-align: =
+left;">Abra&ccedil;os,</p>
+                                <p =
+style=3D"font-size: 14px; line-height: 140%; text-align: left;">Equipe =
+Forthe Distribuidora</p>
+                              </div>
+
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <!--[if (!mso)&(!IE)]><!-->
+                    =
+</div>
+                    <!--<![endif]-->
+                  </div>
+                </div>
+                <!--[if (mso)|(IE)]></td><!=
+[endif]-->
+                <!--[if (mso)|(IE)]></tr></table></td></tr></tab=
+le><![endif]-->
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class=3D"u-row-container" style=3D"padding: =
+0px;background-color: transparent">
+            <div class=3D"u-row" =
+style=3D"Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: =
+break-word;word-wrap: break-word;word-break: break-word;background-color: =
+transparent;">
+              <div style=3D"border-collapse: =
+collapse;display: table;width: 100%;background-color: transparent;">
+                <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding: =
+0px;background-color: transparent;" align=3D"center"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;"><tr=
+ style=3D"background-color: transparent;"><![endif]-->
+
+                <!--[if (mso)|(IE)]><td align=3D"center" width=3D"600" =
+style=3D"width: 600px;padding: 0px;border-top: 0px solid =
+transparent;border-left: 0px solid transparent;border-right: 0px solid =
+transparent;border-bottom: 0px solid transparent;" valign=3D"top"><!=
+[endif]-->
+                <div class=3D"u-col u-col-100" =
+style=3D"max-width: 320px;min-width: 600px;display: =
+table-cell;vertical-align: top;">
+                  <div style=3D"width: =
+100% !important;">
+                    <!--[if (!mso)&(!IE)]><!-->
+                    <div style=3D"padding: 0px;border-top: 0px solid =
+transparent;border-left: 0px solid transparent;border-right: 0px solid =
+transparent;border-bottom: 0px solid transparent;">
+                      <!--<![endif]-->
+
+                      <table =
+style=3D"font-family:'Montserrat',sans-serif;" role=3D"presentation" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0">
+                        <tbody>
+                          <tr>
+                            <td style=3D"overflow-wrap:break-word;word-brea=
+k:break-word;padding:10px;font-family:'Montserrat',sans-serif;" =
+align=3D"left">
+
+                              <table height=3D"0px" =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"100%" style=3D"border-collapse: collapse;table-layout: =
+fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;vertical-align: top;border-top: 1px solid #eeeeee;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%">
+                                =
+<tbody>
+                                  <tr style=3D"vertical-align: =
+top">
+                                    <td style=3D"word-break: =
+break-word;border-collapse: collapse !important;vertical-align: =
+top;font-size: 0px;line-height: 0px;mso-line-height-rule: =
+exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+                                      <span>&#160;</span>
+                                    </td>
+                                 =
+ </tr>
+                                </tbody>
+                           =
+   </table>
+
+                            </td>
+                          =
+</tr>
+                        </tbody>
+                      </table>
+
+                      <!--[if (!mso)&(!IE)]><!-->
+                    =
+</div>
+                    <!--<![endif]-->
+                  </div>
+                </div>
+                <!--[if (mso)|(IE)]></td><!=
+[endif]-->
+                <!--[if (mso)|(IE)]></tr></table></td></tr></tab=
+le><![endif]-->
+              </div>
+            </div>
+          </div>
+
+
+          <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--[if mso]></div><![endif]-->
+  <!--[if IE]></div><![endif]-->
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+Return-Path: <>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu
+	by cpl19.main-hosting.eu with LMTP
+	id QKAbLNXi3GF7kgAAJcoV8Q
+	(envelope-from <>)
+	for <contato@soliveenergiasolar.com.br>; Tue, 11 Jan 2022 01:52:21 +0000
+Return-path: <>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Tue, 11 Jan 2022 01:52:21 +0000
+Received: from blue.oak.relay.mailchannels.net ([23.83.215.20]:5001)
+	by cpl19.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1n76Ki-000AHC-PF
+	for contato@soliveenergiasolar.com.br; Tue, 11 Jan 2022 01:52:21 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id 82A9F6C0A9F; Tue, 11 Jan 2022 01:47:19 +0000 (UTC)
+Date: Tue, 11 Jan 2022 01:47:19 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: contato@soliveenergiasolar.com.br
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="EAE116C1D26.1641865639/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20220111014719.82A9F6C0A9F@relay.mailchannels.net>
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl19.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--EAE116C1D26.1641865639/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<contato@daihatsu.vix.br>: lost connection with
+    mail1.daihatsu.vix.br[69.162.72.234] while receiving the initial server
+    greeting
+
+--EAE116C1D26.1641865639/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: EAE116C1D26
+X-Postfix-Sender: rfc822; contato@soliveenergiasolar.com.br
+Arrival-Date: Mon, 10 Jan 2022 18:54:28 +0000 (UTC)
+
+Final-Recipient: rfc822; contato@daihatsu.vix.br
+Original-Recipient: rfc822;contato@daihatsu.vix.br
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; lost connection with
+    mail1.daihatsu.vix.br[69.162.72.234] while receiving the initial server
+    greeting
+
+--EAE116C1D26.1641865639/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <contato@soliveenergiasolar.com.br>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id EAE116C1D26
+	for <contato@daihatsu.vix.br>; Mon, 10 Jan 2022 18:54:28 +0000 (UTC)
+Received: from cpl19.main-hosting.eu (unknown [127.0.0.6])
+	(Authenticated sender: hostingercpanel)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 484536C15FE
+	for <contato@daihatsu.vix.br>; Mon, 10 Jan 2022 18:54:20 +0000 (UTC)
+X-Sender-Id: hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+Received: from cpl19.main-hosting.eu (cpl19.main-hosting.eu
+ [109.106.251.201])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.114.196.217 (trex/6.4.3);
+	Mon, 10 Jan 2022 18:54:28 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId:
+ hostingercpanel|x-authuser|contato@soliveenergiasolar.com.br
+X-MailChannels-Auth-Id: hostingercpanel
+X-Print-Company: 7c18255b791c26ba_1641840868479_3155131647
+X-MC-Loop-Signature: 1641840868479:900724034
+X-MC-Ingress-Time: 1641840868479
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=soliveenergiasolar.com.br; s=default; h=Content-Type:In-Reply-To:References
+	:Message-ID:Subject:To:From:Date:MIME-Version:Sender:Reply-To:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=RkmK/Teo3z+bNE1qfkEXFxDjq9pcMQFyZCR8EoEshS4=; b=pLoWRPs7HqZ6ueytDxn6pM9twS
+	nhvge9vnZaZ1sovR6I7ybBkfQVAhV8PgbIwIUPVEzGtx4cqms4o+S7ggjlHqLUZgQ++Vyt53XQ1mu
+	y/ewF4m6yGL7alGjJV4mkQ9VHBg39S7TYiKsW2G6gndMf013LvRkS1G6bQKZjSOx+qpPZ5iiODkmG
+	JVnicIvQ0x6CADxoo1nxMjU4CYMtmAsUpF2GhJ0IaczOMT0wVlpR5TCygXZo6g69DgkSdFD+sVdSi
+	yiXWZruNcKDFie20il2mxfwdJaRJgiM9WidIIuktZmsiwnUq9iJ4mzJZk7g9OskhVJTFGBuXlgKQt
+	pp/jf2IQ==;
+Received: from localhost ([127.0.0.1]:46226 helo=cpl19.main-hosting.eu)
+	by cpl19.main-hosting.eu with esmtpa (Exim 4.94.2)
+	(envelope-from <contato@soliveenergiasolar.com.br>)
+	id 1n6zoA-0002ZN-1R
+	for contato@daihatsu.vix.br; Mon, 10 Jan 2022 18:54:18 +0000
+MIME-Version: 1.0
+Date: Mon, 10 Jan 2022 18:54:18 +0000
+From: contato@soliveenergiasolar.com.br
+To: contato@daihatsu.vix.br
+Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Leitura_=28exibida=29=3A_Trib?=
+ =?UTF-8?Q?utacao_na_Construcao_Civil_Evitando_Recolhimento_Indevido_-_con?=
+ =?UTF-8?Q?tato=40soliveenergiasolar=2Ecom=2Ebr?=
+Message-ID: <c2139e399873f1af973dd85242099510@soliveenergiasolar.com.br>
+X-Sender: contato@soliveenergiasolar.com.br
+References: <e0326e52ae026c61d88ca28d00117bdb@daihatsu.vix.br>
+In-Reply-To: <e0326e52ae026c61d88ca28d00117bdb@daihatsu.vix.br>
+User-Agent: Roundcube Webmail/1.4.12
+Content-Type: multipart/report;
+ report-type=disposition-notification;
+ boundary="=_8fe479aa1290bcc5b4e42a9952022559"
+X-AuthUser: contato@soliveenergiasolar.com.br
+
+--=_8fe479aa1290bcc5b4e42a9952022559
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Esta =C3=A9 uma confirma=C3=A7=C3=A3o de leitura da sua mensagem
+
+	Para: <contato@soliveenergiasolar.com.br>
+	Assunto: Tributacao na Construcao Civil Evitando Recolhimento Indevido -
+contato@soliveenergiasolar.com.br
+	Data: 2022-01-10 11:39
+
+Nota: Esta confirma=C3=A7=C3=A3o de leitura somente informa que a mensagem =
+foi aberta
+no computador do destinat=C3=A1rio. N=C3=A3o h=C3=A1 garantia que o destina=
+t=C3=A1rio tenha
+lido ou compreendido o conte=C3=BAdo da mensagem.
+--=_8fe479aa1290bcc5b4e42a9952022559
+Content-Transfer-Encoding: 7bit
+Content-Type: message/disposition-notification;
+ name=MDNPart2.txt
+Content-Disposition: inline;
+ filename=MDNPart2.txt;
+ size=287
+
+Final-Recipient: rfc822; contato@soliveenergiasolar.com.br
+Original-Message-ID: <e0326e52ae026c61d88ca28d00117bdb@daihatsu.vix.br>
+Disposition: manual-action/MDN-sent-manually; displayed
+Original-Recipient: <contato@soliveenergiasolar.com.br>
+Reporting-UA: Roundcube Webmail/1.4.12
+
+--=_8fe479aa1290bcc5b4e42a9952022559--
+
+--EAE116C1D26.1641865639/relay.mailchannels.net--

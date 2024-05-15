@@ -1,0 +1,137 @@
+Return-Path: <010001796bf6f224-14c58778-8f1f-45a7-a092-034fd9caa17d-000000@amazonses.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl10.main-hosting.eu
+	by cpl10.main-hosting.eu with LMTP
+	id oAjGNgO2nmB7BhQAZZrKTA
+	(envelope-from <010001796bf6f224-14c58778-8f1f-45a7-a092-034fd9caa17d-000000@amazonses.com>)
+	for <contato@soliveenergiasolar.com.br>; Fri, 14 May 2021 17:40:19 +0000
+Return-path: <010001796bf6f224-14c58778-8f1f-45a7-a092-034fd9caa17d-000000@amazonses.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Fri, 14 May 2021 17:40:19 +0000
+Received: from a49-148.smtp-out.amazonses.com ([54.240.49.148]:41187)
+	by cpl10.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.94)
+	(envelope-from <010001796bf6f224-14c58778-8f1f-45a7-a092-034fd9caa17d-000000@amazonses.com>)
+	id 1lhbnN-006pfF-N4
+	for contato@soliveenergiasolar.com.br; Fri, 14 May 2021 17:40:19 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=u4scz3lea6kotzhofzs263tvmd3pgmeb; d=parceiromagalu.com.br;
+	t=1621014016;
+	h=Content-Type:MIME-Version:From:To:Subject:Message-ID:Date;
+	bh=ygi7Y/ex0GpyH5GiPEOthkKALsn4SZShuXjQTOqVrHQ=;
+	b=UBMcM4zJgSt5uFFwNo20qXzrO4UyMy1PURg63PvRblM6QWoG9Gt74dZwSxjAFDTc
+	tHuDxLZt3AluQ9ATmvNVvwP5jSFBbyMvcaru7HGvaPmhs5mcYFRwKiqGtYWFb3JK/nW
+	PW9Dx/M/vqukhJ1crM7UPscAyM9tfsVo8/ob/SPg=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1621014016;
+	h=Content-Type:MIME-Version:From:To:Subject:Message-ID:Date:Feedback-ID;
+	bh=ygi7Y/ex0GpyH5GiPEOthkKALsn4SZShuXjQTOqVrHQ=;
+	b=UIMwF3AnkwQBlfT5+eWX7QqMIhZV31dpUYjFWie7MJWW4osN8PNN90Do/9jHtLHX
+	kuYGKMO7iW8RgklreJAVdfOOa5jeOpSH4qHYkiBKnFRFlIqMCgBWsQL2Gh5NU+vH0Lj
+	ohQJNf0PjBJ6jhu+NnJQrZJlgFUYwr1J07SFnkvA=
+Content-Type: multipart/alternative; boundary="===============5440873692085018642=="
+MIME-Version: 1.0
+From: Parceiro Magalu <naoresponder@parceiromagalu.com.br>
+To: contato@soliveenergiasolar.com.br
+Subject: =?utf-8?q?Neste_momento=2C_sua_loja_n=C3=A3o_foi_aprovada_para_vender_on-line_no_Magalu?=
+Message-ID: <010001796bf6f224-14c58778-8f1f-45a7-a092-034fd9caa17d-000000@email.amazonses.com>
+Date: Fri, 14 May 2021 17:40:16 +0000
+Feedback-ID: 1.us-east-1.0Cvo5D4HPhSwkHFBau2aQ951OTRYXnvf4e9+FjKz/YU=:AmazonSES
+X-SES-Outgoing: 2021.05.14-54.240.49.148
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl10.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Neste momento, sua loja não foi aprovada para vender on-line
+    no Magalu. Motivo(s): Verifique se seu CNAE (Classificação Nacional de
+   Atividades Econômicas) é adequado para atuar no varejo e pode receber e
+   vender mercadorias. Para evitar a reprovação, adeque seu CNAE para essas
+    [...] 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: magazineluiza.com.br]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 MIME_HTML_ONLY_MULTI   Multipart message only has text/html MIME
+                             parts
+X-Spam-Flag: NO
+
+--===============5440873692085018642==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9InB0LUJSIj4KPGhlYWQ+CiAgICA8dGl0bGU+PC90
+aXRsZT4KICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KPC9oZWFkPgo8Ym9keT4KPGRpdgogICAg
+ICAgIHN0eWxlPSJ3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMDAlOyBtYXJnaW46IDA7IHBhZGRpbmc6
+IDA7IGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdv
+ZSBVSScsIFJvYm90bywgT3h5Z2VuLCBVYnVudHUsIENhbnRhcmVsbCwgJ09wZW4gU2FucycsICdI
+ZWx2ZXRpY2EgTmV1ZScsIHNhbnMtc2VyaWY7Ij4KICAgIDx0YWJsZSBzdHlsZT0id2lkdGg6IDEw
+MCU7IG1heC13aWR0aDogODAwcHg7IHBhZGRpbmc6IDMycHggMTZweDsgbWFyZ2luOiBhdXRvOyBi
+YWNrZ3JvdW5kLWNvbG9yOiAjMDA4NkZGOyI+CiAgICAgICAgPHRib2R5PgogICAgICAgIDx0cj4K
+ICAgICAgICAgICAgPHRkPgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT0iaGVpZ2h0OiA1MnB4
+OyBtYXJnaW46IGF1dG87IHdpZHRoOiA2MDBweDsgYmFja2dyb3VuZC1pbWFnZTogdXJsKGh0dHBz
+Oi8vaXBkdi1zdG9yYWdlLnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYXNzZXRzL3BhcmNlaXJvLW1h
+Z2FsdS1sb2dvLnBuZyk7IGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7Ij4KICAgICAgICAg
+ICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRy
+PgogICAgICAgICAgICA8dGQ+CiAgICAgICAgICAgICAgICA8dGFibGUgc3R5bGU9IndpZHRoOiA2
+MDBweDsgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRjsgbWFyZ2luOiAyNHB4IGF1dG87IGJvcmRl
+ci1jb2xsYXBzZTogY29sbGFwc2U7Ij4KICAgICAgICAgICAgICAgICAgICA8dGJvZHk+CiAgICAg
+ICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQgc3R5bGU9InBh
+ZGRpbmc6IDA7IG1hcmdpbjogMDsgaGVpZ2h0OiA0cHg7IGJhY2tncm91bmQtaW1hZ2U6IHVybCho
+dHRwczovL2lwZHYtc3RvcmFnZS5zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2Fzc2V0cy9tYWdhbHUt
+YmFyLnBuZyk7Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAg
+ICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAg
+ICAgPHRkIHN0eWxlPSJwYWRkaW5nOiAyNHB4IDI0cHggNDhweDsgY29sb3I6ICM0MDQwNDA7IGZv
+bnQtc2l6ZTogMTZweDsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIHN0eWxlPSJm
+b250LXNpemU6IDE4cHg7IGZvbnQtd2VpZ2h0OiA1MDA7IHBhZGRpbmctYm90dG9tOiAzMnB4OyI+
+CiAgICBOZXN0ZSBtb21lbnRvLCBzdWEgbG9qYSBuw6NvIGZvaSBhcHJvdmFkYSBwYXJhIHZlbmRl
+ciBvbi1saW5lIG5vIE1hZ2FsdS4KPC9oMT4KCjxwPgogICAgPHN0cm9uZz5Nb3Rpdm8ocyk6PC9z
+dHJvbmc+CjwvcD4KPHVsPgogICAgPGxpPlZlcmlmaXF1ZSBzZSBzZXUgQ05BRSAoQ2xhc3NpZmlj
+YcOnw6NvIE5hY2lvbmFsIGRlIEF0aXZpZGFkZXMgRWNvbsO0bWljYXMpIMOpIGFkZXF1YWRvIHBh
+cmEgYXR1YXIgbm8gdmFyZWpvIGUgcG9kZSByZWNlYmVyIGUgdmVuZGVyIG1lcmNhZG9yaWFzLiBQ
+YXJhIGV2aXRhciBhIHJlcHJvdmHDp8OjbywgYWRlcXVlIHNldSBDTkFFIHBhcmEgZXNzYXMgYXRp
+dmlkYWRlcy4gQ29uc3VsdGUgdW0gY29udGFkb3IgZGUgY29uZmlhbsOnYSBlIHBlw6dhIGVzc2Eg
+YWx0ZXJhw6fDo28uPC9saT48YnI+CiAgICA8bGk+RmHDp2Egc3VhIGluc2NyacOnw6NvIG5vIFNp
+bnRlZ3JhIHBhcmEgcXVlIHBvc3NhIGVtaXRpciBub3RhcyBmaXNjYWlzIGUgdmVuZGVyIHNldXMg
+cHJvZHV0b3MgZW0gbm9zc2EgcGxhdGFmb3JtYS4gQ2FzbyBqw6Egc2VqYSBpbnNjcml0bywgZ2Fy
+YW50YSBxdWUgZWxhIGVzdMOhIGhhYmlsaXRhZGEgZSBuw6NvIGjDoSBuZW5odW0gcHJvYmxlbWEg
+bm8gY2FkYXN0cm8uPC9saT48YnI+CjwvdWw+CjxwPgpWb2PDqiBwb2RlIHV0aWxpemFyIGRlIHRv
+ZGFzIG91dHJhcyBmdW5jaW9uYWxpZGFkZXMgZGUgZ2VzdMOjbyBzaW1wbGlmaWNhZGEgcGFyYSBz
+dWEgbG9qYSwgYWzDqW0gZGUgbXVpdGFzIG91dHJhcyBmdW5jaW9uYWxpZGFkZXMgcXVlIG8gYXBs
+aWNhdGl2byBwb3NzdWkuCjwvcD4KCjxwPgogICAgRXF1aXBlIFBhcmNlaXJvIE1hZ2FsdQo8L3A+
+CgogICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgIDwvdHI+
+CiAgICAgICAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgICAgIDwvdGFibGU+CiAg
+ICAgICAgICAgIDwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0
+ZCBzdHlsZT0iY29sb3I6ICNGRkZGRkY7IGZvbnQtc2l6ZTogMTJweDsgdGV4dC1hbGlnbjogY2Vu
+dGVyOyI+CiAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAgICBOw6NvIHJlc3Bv
+bmRhIGVzdGEgbWVuc2FnZW0uIEVsYSBmb2kgZW52aWFkYSBwb3IgdW1hIGNvbnRhIGRlIGVtYWls
+IG7Do28gbW9uaXRvcmFkYS4KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxw
+PgogICAgICAgICAgICAgICAgICAgIMKpIDIwMjEgRXF1aXBlIFBhcmNlaXJvIE1hZ2FsdQogICAg
+ICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cubWFn
+YXppbmVsdWl6YS5jb20uYnIvIiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9ImNvbG9yOiAjRkZGRkZG
+Ij4KICAgICAgICAgICAgICAgICAgICB3d3cubWFnYXppbmVsdWl6YS5jb20uYnIKICAgICAgICAg
+ICAgICAgIDwvYT4KICAgICAgICAgICAgPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDwvdGJv
+ZHk+CiAgICA8L3RhYmxlPgo8L2Rpdj4KPC9ib2R5Pgo8L2h0bWw+Cg==
+
+--===============5440873692085018642==--

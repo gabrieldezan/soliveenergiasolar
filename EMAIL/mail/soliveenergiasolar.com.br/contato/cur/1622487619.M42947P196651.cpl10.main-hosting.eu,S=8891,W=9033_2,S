@@ -1,0 +1,142 @@
+Return-Path: <3MzK1YAgPAHglaomqeoWokhbWYeh.Yki.Xn@trix.bounces.google.com>
+Delivered-To: contato@soliveenergiasolar.com.br
+Received: from cpl10.main-hosting.eu
+	by cpl10.main-hosting.eu with LMTP
+	id cI/gAUMytWArAAMAZZrKTA
+	(envelope-from <3MzK1YAgPAHglaomqeoWokhbWYeh.Yki.Xn@trix.bounces.google.com>)
+	for <contato@soliveenergiasolar.com.br>; Mon, 31 May 2021 19:00:19 +0000
+Return-path: <3MzK1YAgPAHglaomqeoWokhbWYeh.Yki.Xn@trix.bounces.google.com>
+Envelope-to: contato@soliveenergiasolar.com.br
+Delivery-date: Mon, 31 May 2021 19:00:19 +0000
+Received: from mail-ot1-f72.google.com ([209.85.210.72]:46685)
+	by cpl10.main-hosting.eu with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <3MzK1YAgPAHglaomqeoWokhbWYeh.Yki.Xn@trix.bounces.google.com>)
+	id 1lnn97-000rrz-Hj
+	for contato@soliveenergiasolar.com.br; Mon, 31 May 2021 19:00:18 +0000
+Received: by mail-ot1-f72.google.com with SMTP id r16-20020a0568301350b0290363e6a9392fso7304024otq.13
+        for <contato@soliveenergiasolar.com.br>; Mon, 31 May 2021 12:00:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=solfacil-com-br.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:reply-to:feedback-id:message-id:date:subject:from:to;
+        bh=XUO5oSsWEfPK05Cc026U/5DxPAr9x+m0XErk50pk4nM=;
+        b=w7SuXQ8CtBqlHM0rrjwAQd5SBxS1SELU/npSMpRn+WZsFlqdGIELdJzvwsofvBfs3R
+         nyPAJiBS3oRgXx7EYpTmRYoeyp1qDXgN/PHu3GOYC54HtzS6J/q0cBSouozpkItAlYk8
+         le2/c2wAxsa+Vn2wc2ado+U/3d4DZ0nAHiYs/gxhRUjvTS2RayenxxqTSCVbStHyHZdv
+         xbahYF8nviXSuWWm8IAva8nyUaOUPbplbUf/1J5UMblLEQd3FnQzpbImicwMac5BmmJc
+         j7fKi137zLQtRLD7crtE1leF5AIr+/vGBCvmbT97CXa+rLcfYQd+FZcNZEjmXGwTbOeq
+         1Phw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:feedback-id:message-id
+         :date:subject:from:to;
+        bh=XUO5oSsWEfPK05Cc026U/5DxPAr9x+m0XErk50pk4nM=;
+        b=Yll+87wrwTzFYL7/+9P6ZsXOwW2fG3FsLyMjrd3yACsSpFLmf7io7SjaguM6tWGObs
+         F+gOEyCMvwH9LWgD41t4IIhsJY0kXCjevGSB1zfz6c+3aduLGSvVkEUhbPWFVejPGJsa
+         JIZQD2xvt++VsFCfQUvIoPJygOLPVnxIDS/mbYcyX4Goem+n/SalEIIHOoelKrfDwzaB
+         h8wXu7F0h9z9uFkagY98jVd0a7j0ti/YmMHX/x5EjiSGnOeeBq+qG3gv1VNtgnJjguid
+         GJgyDouXzP0ik+KCRa6zLKO0rqEKeO/IHDx8BuGXrT9EuinaIlfsVse+MXnNiP8W90UA
+         muzw==
+X-Gm-Message-State: AOAM532NeRjoCxmKYn9Rw2eEfBbDZeO2KhaSoR4zHnmoMmlE4RpvqAfs
+	N9Qoa7ODPwjmo6/r6BCjhl1xGlWFKkC7KZrJcxo9e98=
+MIME-Version: 1.0
+X-Received: by 2002:a9d:528:: with SMTP id 37mt5493027otw.141.1622487603372;
+ Mon, 31 May 2021 12:00:03 -0700 (PDT)
+Reply-To: pesquisa@solfacil.com.br
+X-No-Auto-Attachment: 1
+Feedback-ID: MailTypeSendForm:GoogleForms
+X-GoogleForms-FormId: e/1FAIpQLSe9COnLtGxhvdpuS2g8cza6Dt2HLbhG22rdtUSTTn42OlM8FA
+X-GoogleForms-CustomerDisplayName: =?UTF-8?B?U29sZsOhY2ls?=
+Message-ID: <000000000000409db405c3a4d518@google.com>
+Date: Mon, 31 May 2021 19:00:16 +0000
+Subject: =?UTF-8?B?T2zDoSBQYXJjZWlybyBTb2xmw6FjaWwh?=
+From: pesquisa@solfacil.com.br
+To: contato@soliveenergiasolar.com.br
+Content-Type: multipart/alternative; boundary="000000000000078a4e05c3a4d6b7"
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "cpl10.main-hosting.eu",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Este é um convite para você preencher o seguinte formulário:
+    Olá Parceiro Solfácil! Para preencher o formulário, visite: https://docs.google.com/forms/d/e/1FAIpQLSe9COnLtGxhvdpuS2g8cza6Dt2HLbhG22rdtUSTTn42OlM8FA/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0&amp;usp=mail_form_link
+    
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of
+                             words
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--000000000000078a4e05c3a4d6b7
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+RXN0ZSDDqSB1bSBjb252aXRlIHBhcmEgdm9jw6ogcHJlZW5jaGVyIG8gc2VndWludGUgZm9ybXVs
+w6FyaW86DQpPbMOhIFBhcmNlaXJvIFNvbGbDoWNpbCENCg0KUGFyYSBwcmVlbmNoZXIgbyBmb3Jt
+dWzDoXJpbywgdmlzaXRlOg0KaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZm9ybXMvZC9lLzFGQUlw
+UUxTZTlDT25MdEd4aHZkcHVTMmc4Y3phNkR0MkhMYmhHMjJyZHRVU1RUbjQyT2xNOEZBL3ZpZXdm
+b3JtP3ZjPTAmYW1wO2M9MCZhbXA7dz0xJmFtcDtmbHI9MCZhbXA7dXNwPW1haWxfZm9ybV9saW5r
+DQoNCkZvcm11bMOhcmlvcyBHb29nbGU6IGNyaWUgZSBhbmFsaXNlIHBlc3F1aXNhcy4NCg==
+--000000000000078a4e05c3a4d6b7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"font-family: Roboto,Helvetica,Arial,sans-serif; margin=
+: 0; padding: 0; height: 100%; width: 100%;"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"background-color:rgb(255,182,0);" width=
+=3D"100%" role=3D"presentation"><tbody><tr height=3D"64px"><td style=3D"pad=
+ding: 0 24px;"><img alt=3D"Formul=C3=A1rios Google" height=3D"26px" style=
+=3D"display: inline-block; margin: 0; vertical-align: middle;" width=3D"143=
+px" src=3D"https://www.gstatic.com/docs/forms/google_forms_logo_lockup_blac=
+k_2x.png"></td></tr></tbody></table><div style=3D"padding: 24px; background=
+-color:rgb(246,246,246)"><div align=3D"center" style=3D"background-color: #=
+fff; border-bottom: 1px solid #e0e0e0;margin: 0 auto; max-width: 624px; min=
+-width: 154px;padding: 0 24px;"><table align=3D"center" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"background-color: #fff;" width=3D"100%" role=3D"p=
+resentation"><tbody><tr height=3D"24px"><td></td></tr><tr><td><div style=3D=
+"font-size: 13px; line-height: 18px; color: #424242; font-weight: 700">Este=
+ =C3=A9 um convite para voc=C3=AA preencher o formul=C3=A1rio:</div></td></=
+tr><tr height=3D"20px"><td></tr><tr style=3D"font-size: 20px; line-height: =
+24px;"><td dir=3D"auto"><a href=3D"https://docs.google.com/forms/d/e/1FAIpQ=
+LSe9COnLtGxhvdpuS2g8cza6Dt2HLbhG22rdtUSTTn42OlM8FA/viewform?vc=3D0&amp;c=3D=
+0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_form_link" style=3D"color: rgb(255,1=
+82,0); text-decoration: none; vertical-align: middle; font-weight: 500">Ol=
+=C3=A1 Parceiro Solf=C3=A1cil!</a><div itemprop=3D"action" itemscope itemty=
+pe=3D"http://schema.org/ViewAction"><meta itemprop=3D"url" content=3D"https=
+://docs.google.com/forms/d/e/1FAIpQLSe9COnLtGxhvdpuS2g8cza6Dt2HLbhG22rdtUST=
+Tn42OlM8FA/viewform?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_g=
+oto_form"><meta itemprop=3D"name" content=3D"Preencher formul=C3=A1rio"></d=
+iv></td></tr><tr height=3D"16px"></tr><tr><td style=3D"display: table-cell;=
+ vertical-align: top; font-size: 13px; line-height: 18px; color: #424242;" =
+dir=3D"auto">Em breve teremos uma grande novidade para voc=C3=AA.<br>Para s=
+aber sobre essa novidade, por favor responda a pergunta abaixo:</td></tr><t=
+r height=3D"24px"></tr><tr><td><table border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" width=3D"100%"><tbody><tr><td><a href=3D"https://docs.google.co=
+m/forms/d/e/1FAIpQLSe9COnLtGxhvdpuS2g8cza6Dt2HLbhG22rdtUSTTn42OlM8FA/viewfo=
+rm?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_form_link" style=
+=3D"border-radius: 3px; box-sizing: border-box; display: inline-block; font=
+-size: 13px; font-weight: 700; height: 40px; line-height: 40px; padding: 0 =
+24px; text-align: center; text-decoration: none; text-transform: uppercase;=
+ vertical-align: middle; color: #000; background-color: rgb(255,182,0);" ta=
+rget=3D"_blank" rel=3D"noopener">Preencher formul=C3=A1rio</a></td></tr></t=
+body></table></td></tr><tr height=3D"24px"></tr></tbody></table></div><tabl=
+e align=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width: =
+672px; min-width: 154px; border-collapse: separate; border-spacing: 0 0.2em=
+;" width=3D"100%" role=3D"presentation"><tbody><tr height=3D"24px"><td></td=
+></tr><tr><td><a href=3D"https://docs.google.com/forms?usp=3Dmail_form_link=
+" style=3D"color: #424242; font-size: 13px;">Crie seu pr=C3=B3prio formul=
+=C3=A1rio do Google.</a></td></tr></tbody></table></div></body></html>
+--000000000000078a4e05c3a4d6b7--
